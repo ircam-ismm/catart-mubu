@@ -82,9 +82,9 @@
 					"outlettype" : [ "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 423.0, 247.0, 845.0, 523.0 ],
+						"rect" : [ 423.0, 247.0, 799.0, 446.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 423.0, 247.0, 845.0, 523.0 ],
+						"defrect" : [ 423.0, 247.0, 799.0, 446.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -108,7 +108,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 3,
-									"outlettype" : [ "", "clear", "bang" ],
+									"outlettype" : [ "", "", "bang" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"rect" : [ 25.0, 69.0, 633.0, 423.0 ],
@@ -570,7 +570,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 110.0, 390.0, 103.0, 20.0 ],
+									"patching_rect" : [ 100.0, 320.0, 119.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Geneva",
@@ -596,9 +596,9 @@
 									"outlettype" : [ "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
-										"rect" : [ 25.0, 69.0, 564.0, 374.0 ],
+										"rect" : [ 763.0, 710.0, 511.0, 285.0 ],
 										"bglocked" : 0,
-										"defrect" : [ 25.0, 69.0, 564.0, 374.0 ],
+										"defrect" : [ 763.0, 710.0, 511.0, 285.0 ],
 										"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -613,7 +613,30 @@
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
 										"devicewidth" : 0.0,
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"#init" : "",
+													"#loadbang" : 0,
+													"#triggerall" : 0,
+													"#untuple" : 0,
+													"fontname" : "Geneva",
+													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
+													"ftm_scope" : 0,
+													"id" : "obj-1",
+													"maxclass" : "ftm.mess",
+													"numinlets" : 3,
+													"numins" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 100.0, 240.0, 410.067383, 18.0 ],
+													"presentation_rect" : [ 100.0, 240.0, 410.067383, 18.0 ],
+													"text" : [ "_replacetrack 4 1000 $2 1 @name unitdata @timetagged yes @matrixcolnames $*3" ]
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
@@ -622,7 +645,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "bang" ],
-													"patching_rect" : [ 170.0, 170.0, 50.0, 20.0 ]
+													"patching_rect" : [ 170.0, 160.0, 50.0, 20.0 ]
 												}
 
 											}
@@ -635,7 +658,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 170.0, 150.0, 37.0, 19.0 ],
+													"patching_rect" : [ 170.0, 140.0, 37.0, 19.0 ],
 													"text" : "zl len"
 												}
 
@@ -665,14 +688,16 @@
 													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-17",
+													"linecount" : 2,
 													"maxclass" : "ftm.mess",
 													"numinlets" : 3,
 													"numins" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 210.0, 410.067383, 18.0 ],
-													"presentation_rect" : [ 50.0, 210.0, 410.067383, 18.0 ],
-													"text" : [ "_replacetrack 4 1000 $2 1 @name unitdata @timetagged yes @matrixcolnames $*3" ]
+													"patching_rect" : [ 50.0, 200.0, 384.711914, 31.0 ],
+													"presentation_linecount" : 2,
+													"presentation_rect" : [ 50.0, 200.0, 384.711914, 31.0 ],
+													"text" : [ "_clear, addtrack nothing1, addtrack nothing2, addtrack nothing3,", "_addtrack 1000 $2 1 @name unitdata @timetagged yes @matrixcolnames $*3" ]
 												}
 
 											}
@@ -778,7 +803,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 270.0, 420.0, 84.0, 20.0 ],
+									"patching_rect" : [ 270.0, 350.0, 84.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Geneva",
@@ -813,7 +838,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 150.0, 140.0, 147.5, 20.0 ],
+									"patching_rect" : [ 150.0, 140.0, 87.5, 20.0 ],
 									"text" : "t l l"
 								}
 
@@ -1121,7 +1146,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 270.0, 450.0, 73.0, 20.0 ],
+									"patching_rect" : [ 270.0, 380.0, 73.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -1184,7 +1209,7 @@
 									"fontname" : "Verdana",
 									"fontsize" : 10.0,
 									"id" : "obj-108",
-									"items" : [ "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff", ",", "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff" ],
+									"items" : [ "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff", ",", "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff", ",", "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff", ",", "SignalZeroCrossingRate", ",", "TotalEnergy", ",", "SpectralCentroid", ",", "SpectralSpread", ",", "SpectralSkewness", ",", "SpectralKurtosis", ",", "SpectralVariation", ",", "SpectralDecrease", ",", "SpectralSlope", ",", "SpectralRolloff", ",", "Chroma", ",", "Loudness", ",", "RelativeSpecificLoudness", ",", "Spread", ",", "Sharpness", ",", "PerceptualSpectralDeviation", ",", "PerceptualOddToEvenRatio", ",", "PerceptualTristimulus", ",", "PerceptualSpectralCentroid", ",", "PerceptualSpectralSpread", ",", "PerceptualSpectralSkewness", ",", "PerceptualSpectralKurtosis", ",", "PerceptualSpectralVariation", ",", "PerceptualSpectralDecrease", ",", "PerceptualSpectralSlope", ",", "PerceptualSpectralRolloff", ",", "MFCC", ",", "SpectralCrest", ",", "SpectralFlatness", ",", "FundamentalFrequency", ",", "HarmonicMultiSpectrum", ",", "HarmonicEnergy", ",", "NoiseEnergy", ",", "Noisiness", ",", "Inharmonicity", ",", "HarmonicOddToEvenRatio", ",", "HarmonicTristimulus", ",", "HarmonicSpectralDeviation", ",", "HarmonicSpectralCentroid", ",", "HarmonicSpectralSpread", ",", "HarmonicSpectralSkewness", ",", "HarmonicSpectralKurtosis", ",", "HarmonicSpectralVariation", ",", "HarmonicSpectralDecrease", ",", "HarmonicSpectralSlope", ",", "HarmonicSpectralRolloff" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1238,7 +1263,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 150.0, 450.0, 111.0, 20.0 ],
+									"patching_rect" : [ 150.0, 380.0, 111.0, 20.0 ],
 									"text" : "mubu.track corpus 4"
 								}
 
@@ -1347,9 +1372,18 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-52", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 119.5, 419.0, 47.5, 419.0, 47.5, 162.0, 159.5, 162.0 ],
+									"midpoints" : [ 109.5, 355.0, 47.5, 355.0, 47.5, 162.0, 159.5, 162.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -6459,7 +6493,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u004033370"
+									"varname" : "u982000356"
 								}
 
 							}
@@ -10657,8 +10691,8 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 285.0, 226.0, 44.0, 17.0 ],
 																	"saved_object_attributes" : 																	{
-																		"ftm_objref_conv" : 0,
-																		"ftm_scope" : 0
+																		"ftm_scope" : 0,
+																		"ftm_objref_conv" : 0
 																	}
 ,
 																	"text" : "ftm.list"
@@ -13346,7 +13380,7 @@
 					"patching_rect" : [ 175.0, 420.0, 105.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 4,
+					"size" : 5,
 					"spacing" : 2
 				}
 
