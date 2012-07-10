@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 33.0, 173.5, 451.0, 34.0 ],
-					"presentation_rect" : [ 30.0, 180.5, 0.0, 0.0 ],
 					"text" : "When recording an excerpt of the input stream, the selection can be calculated on normalized values to adapt the timbre spaces of source and target."
 				}
 
@@ -51,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 33.0, 111.5, 451.0, 62.0 ],
-					"presentation_rect" : [ 30.0, 143.5, 0.0, 0.0 ],
 					"text" : "The patch uses an MFCC PiPo module in mubu.process to extract MFCCs offline from source materials and applies same module to incoming real-time target stream with pipo~. The selection of the closest source frame for a incoming target frame is performed by mubu.knn."
 				}
 
@@ -367,19 +365,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 678.444458, 518.5, 84.0, 18.0 ],
 					"text" : "duration 0. $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 404.0, 253.0, 133.0, 20.0 ],
-					"text" : "adjust view boundaries"
 				}
 
 			}
@@ -871,16 +856,16 @@
 ,
 					"patching_rect" : [ 38.0, 513.5, 490.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"description" : ""
 					}
 ,
 					"text" : "p analyze sources"
@@ -898,20 +883,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 753.444458, 229.5, 44.0, 18.0 ],
 					"text" : "import"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-35",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 273.0, 121.0, 18.0 ],
-					"text" : "view 0 autobounds 1"
 				}
 
 			}
@@ -1512,16 +1483,16 @@
 ,
 					"patching_rect" : [ 580.0, 397.5, 169.444458, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"description" : ""
 					}
 ,
 					"text" : "p select"
@@ -1959,16 +1930,16 @@
 ,
 													"patching_rect" : [ 269.0, 285.0, 95.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"tags" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"tags" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"globalpatchername" : "",
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"globalpatchername" : "",
-														"fontface" : 0,
-														"fontsize" : 12.0
+														"description" : ""
 													}
 ,
 													"text" : "p mean stddev"
@@ -2265,16 +2236,16 @@
 ,
 													"patching_rect" : [ 159.5, 285.0, 95.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"tags" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
 														"default_fontface" : 0,
+														"tags" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
+														"globalpatchername" : "",
 														"fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
-														"globalpatchername" : "",
-														"fontface" : 0,
-														"fontsize" : 12.0
+														"description" : ""
 													}
 ,
 													"text" : "p min max"
@@ -2491,16 +2462,16 @@
 ,
 									"patching_rect" : [ 52.0, 562.0, 129.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"tags" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
 										"default_fontface" : 0,
+										"tags" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"globalpatchername" : "",
 										"fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
-										"globalpatchername" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0
+										"description" : ""
 									}
 ,
 									"text" : "p normalization"
@@ -2998,16 +2969,16 @@
 ,
 					"patching_rect" : [ 580.0, 262.5, 169.444458, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0
+						"description" : ""
 					}
 ,
 					"text" : "p analize & normalize target"
@@ -3225,6 +3196,7 @@
 , 			{
 				"box" : 				{
 					"alignviewbounds" : 0,
+					"autobounds" : 2,
 					"autoupdate" : 120.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -3458,15 +3430,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-35", 0 ]
 				}
 
 			}
