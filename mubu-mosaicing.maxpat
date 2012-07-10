@@ -2720,7 +2720,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.0, 179.0, 92.0, 20.0 ],
+									"patching_rect" : [ 315.0, 191.0, 92.0, 20.0 ],
 									"text" : "prepend record"
 								}
 
@@ -2735,7 +2735,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 315.0, 240.0, 168.0, 34.0 ],
+									"patching_rect" : [ 315.0, 224.0, 168.0, 34.0 ],
 									"text" : "mubu.record~ target audio @maxsize 60s @predef yes"
 								}
 
