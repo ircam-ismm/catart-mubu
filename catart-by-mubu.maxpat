@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 90.0, 51.0, 555.0, 773.0 ],
@@ -224,7 +224,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -446,7 +446,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 611.0, 46.0, 874.0, 788.0 ],
@@ -1064,6 +1064,7 @@
 									"outlettype" : [ "" ],
 									"outputkeys" : 0,
 									"outputmouse" : 0,
+									"outputselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 0.0, 0.0, 791.0, 339.0 ],
 									"presentation" : 1,
@@ -2238,7 +2239,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 420.0, 174.0, 744.0, 448.0 ],
@@ -2274,7 +2275,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 25.0, 69.0, 633.0, 423.0 ],
@@ -2972,7 +2973,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 698.0, 385.0, 515.0, 354.0 ],
@@ -4146,10 +4147,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
-						"rect" : [ 654.0, 68.0, 1009.0, 868.0 ],
+						"rect" : [ 412.0, 109.0, 1009.0, 868.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4170,6 +4171,70 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 726.5, 742.0, 50.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 755.5, 532.0, 50.0, 19.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 726.5, 769.0, 243.0, 29.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 755.5, 551.0, 243.0, 29.0 ],
+									"text" : "view 4 paramdisplayrange xfixeddiameter 4 $1, view 4 paramdisplayrange yfixeddiameter 4 $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 887.0, 430.0, 20.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 858.0, 32.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 887.0, 459.0, 95.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 858.0, 52.0, 95.0, 17.0 ],
+									"text" : "toolbar visible $1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -4212,7 +4277,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 460.0, 142.0, 17.0 ],
+									"patching_rect" : [ 94.0, 453.0, 142.0, 17.0 ],
 									"text" : "view ~ hidenotforemost 1"
 								}
 
@@ -4482,7 +4547,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 310.0, 470.0, 20.0, 20.0 ]
+									"patching_rect" : [ 355.5, 503.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -4495,8 +4560,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 334.5, 531.0, 295.5, 17.0 ],
-									"text" : "view 4 paramcols 4 3 3 3 - - 3 - - - - 0 - 0"
+									"patching_rect" : [ 380.0, 552.0, 295.5, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 445.5, 751.0, 295.5, 17.0 ],
+									"text" : "view 4 paramcols 2 1 - - 2 2 4 3 - - - 0 - 0"
 								}
 
 							}
@@ -4575,8 +4642,8 @@
 									"numinlets" : 17,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 310.0, 500.0, 235.0, 17.0 ],
-									"text" : "pak view 4 paramcols 0 1 2 2 - - 2 2 - - - 0 - 0"
+									"patching_rect" : [ 355.5, 524.0, 235.0, 17.0 ],
+									"text" : "pak view 4 paramcols 0 1 - - 2 2 2 2 - - - 0 - 0"
 								}
 
 							}
@@ -4600,13 +4667,13 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-18",
-									"linecount" : 2,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 500.0, 149.0, 29.0 ],
-									"text" : "view 4 interface scatterplot, foremost 4"
+									"patching_rect" : [ 13.0, 480.0, 242.0, 54.0 ],
+									"text" : "view 4 interface scatterplot, view 4 xalign, view 4 paramdisplayrange xfixeddiameter 4 20, view 4 paramdisplayrange yfixeddiameter 4 20, foremost 4"
 								}
 
 							}
@@ -4678,6 +4745,7 @@
 									"outlettype" : [ "" ],
 									"outputkeys" : 1,
 									"outputmouse" : 1,
+									"outputselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 0.0, 0.0, 1435.0, 397.0 ],
 									"presentation" : 1,
@@ -4696,7 +4764,7 @@
 									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
-									"toolbar_visible" : 0,
+									"toolbar_visible" : 1,
 									"varname" : "editor",
 									"windresize" : 0
 								}
@@ -4999,6 +5067,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5038,7 +5124,7 @@
 									"destination" : [ "obj-15", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 319.5, 583.0, 9.5, 583.0 ],
+									"midpoints" : [ 365.0, 583.0, 9.5, 583.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -5072,7 +5158,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 6 ],
+									"destination" : [ "obj-23", 8 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
@@ -5081,7 +5167,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-23", 5 ],
+									"destination" : [ "obj-23", 7 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
@@ -5325,10 +5411,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 9 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-73", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -5533,7 +5637,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 560.0, 44.0, 816.0, 759.0 ],
@@ -5810,7 +5914,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 885.0, 733.0, 557.0, 263.0 ],
@@ -6280,7 +6384,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 746.0, 1072.0, 411.0, 381.0 ],
@@ -7046,7 +7150,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 884.0, 1072.0, 604.0, 254.0 ],
@@ -7621,7 +7725,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 449.0, 637.0, 343.0, 358.0 ],
@@ -8080,7 +8184,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u023000170"
+									"varname" : "u717000172"
 								}
 
 							}
@@ -8252,7 +8356,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 220.0, 564.0, 714.0, 450.0 ],
@@ -8646,7 +8750,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 10.0, 59.0, 165.0, 205.0 ],
@@ -8879,7 +8983,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 6.0, 174.0, 524.0, 386.0 ],
@@ -9698,7 +9802,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 941.0, 561.0, 577.0, 464.0 ],
@@ -10813,7 +10917,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 10.0, 59.0, 166.0, 214.0 ],
@@ -11193,7 +11297,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 10.0, 59.0, 165.0, 205.0 ],
@@ -12106,7 +12210,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 954.0, 790.0, 396.0, 202.0 ],
@@ -12167,7 +12271,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 0,
-															"revision" : 7
+															"revision" : 8
 														}
 ,
 														"rect" : [ 881.0, 1098.0, 601.0, 255.0 ],
@@ -12415,7 +12519,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 0,
-											"revision" : 7
+											"revision" : 8
 										}
 ,
 										"rect" : [ 845.0, 652.0, 466.0, 300.0 ],
@@ -13727,7 +13831,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 506.0, 475.0, 640.0, 480.0 ],
@@ -14313,7 +14417,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
 						"rect" : [ 50.0, 94.0, 318.0, 392.0 ],
