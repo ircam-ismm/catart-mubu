@@ -4150,7 +4150,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 409.0, 48.0, 1191.0, 952.0 ],
+						"rect" : [ 539.0, 53.0, 1191.0, 952.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4217,16 +4217,16 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-75",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 732.5, 813.0, 409.0, 42.0 ],
+									"patching_rect" : [ 732.5, 813.0, 409.0, 29.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 690.0, 770.0, 335.0, 54.0 ],
-									"text" : "x y xdiameter ydiameter xfixeddiameter yfixeddiameter edgecolor fillcolor type labeltext labelxoffset labelyoffset labelposition labelcolor labelfontsize labelfontstyle linestyle linecolor linethickness lineheadsize lineweight"
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 690.0, 770.0, 335.0, 42.0 ],
+									"text" : "1 2 2 2 1 1 1 2 1 labeltext labelxoffset labelyoffset labelposition labelcolor labelfontsize labelfontstyle linestyle linecolor linethickness lineheadsize lineweight"
 								}
 
 							}
@@ -4662,7 +4662,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 846.0, 643.0, 52.0, 79.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 381.5, 733.0, 219.0, 17.0 ],
+									"presentation_rect" : [ 380.5, 734.0, 219.0, 17.0 ],
 									"text" : "view 4 colormode rainbow rainbow rainbow"
 								}
 
@@ -4688,16 +4688,16 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-7",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 726.5, 769.0, 243.0, 29.0 ],
+									"patching_rect" : [ 726.5, 769.0, 243.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 824.0, 690.0, 243.0, 29.0 ],
-									"text" : "view 4 paramdisplayrange xfixeddiameter 4 $1, view 4 paramdisplayrange yfixeddiameter 4 $1"
+									"presentation_rect" : [ 824.0, 690.0, 285.0, 29.0 ],
+									"text" : "view 4 paramdisplayrange xfixeddiameter 20 $1, view 4 paramdisplayrange yfixeddiameter 20 $1"
 								}
 
 							}
@@ -5230,7 +5230,7 @@
 									"outputvalues" : 0,
 									"patching_rect" : [ 0.0, 0.0, 1435.0, 397.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 0.0, 730.0, 719.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 719.0, 719.0 ],
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 1,
@@ -8881,7 +8881,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u479000180"
+									"varname" : "u520000180"
 								}
 
 							}
