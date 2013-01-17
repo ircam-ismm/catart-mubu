@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 90.0, 51.0, 555.0, 773.0 ],
+		"rect" : [ 34.0, 44.0, 555.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -4150,7 +4150,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 539.0, 53.0, 1191.0, 952.0 ],
+						"rect" : [ 521.0, 58.0, 1191.0, 952.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4171,6 +4171,38 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-74",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 101.0, 773.0, 160.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 880.0, 245.0, 160.0, 17.0 ],
+									"text" : "view 4 paramcol labeltext label"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-71",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 102.0, 794.0, 157.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 880.0, 226.0, 159.0, 17.0 ],
+									"text" : "view 4 paramcol labeltext time"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
@@ -4322,7 +4354,7 @@
 									"patching_rect" : [ 281.0, 832.0, 70.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 881.5, 425.0, 67.0, 47.0 ],
+									"presentation_rect" : [ 881.5, 465.0, 67.0, 47.0 ],
 									"text" : "label position index"
 								}
 
@@ -4339,7 +4371,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 355.5, 832.0, 50.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 881.5, 471.5, 50.0, 19.0 ]
+									"presentation_rect" : [ 881.5, 511.5, 50.0, 19.0 ]
 								}
 
 							}
@@ -4370,7 +4402,7 @@
 									"patching_rect" : [ 13.0, 863.0, 70.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 881.5, 354.0, 67.0, 47.0 ],
+									"presentation_rect" : [ 881.5, 394.0, 67.0, 47.0 ],
 									"text" : "label fontstyle index"
 								}
 
@@ -4387,7 +4419,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 87.5, 863.0, 50.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 881.5, 400.5, 50.0, 19.0 ]
+									"presentation_rect" : [ 881.5, 440.5, 50.0, 19.0 ]
 								}
 
 							}
@@ -4418,7 +4450,7 @@
 									"patching_rect" : [ 13.0, 813.0, 70.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 881.5, 284.0, 67.0, 47.0 ],
+									"presentation_rect" : [ 881.5, 324.0, 67.0, 47.0 ],
 									"text" : "label fontsize index"
 								}
 
@@ -4435,7 +4467,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 87.5, 813.0, 50.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 881.5, 330.5, 50.0, 19.0 ]
+									"presentation_rect" : [ 881.5, 370.5, 50.0, 19.0 ]
 								}
 
 							}
@@ -4466,7 +4498,7 @@
 									"patching_rect" : [ 226.0, 758.0, 70.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 881.5, 230.0, 67.0, 33.0 ],
+									"presentation_rect" : [ 881.5, 270.0, 67.0, 33.0 ],
 									"text" : "label color index"
 								}
 
@@ -4483,7 +4515,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 297.0, 775.0, 50.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 881.5, 263.0, 50.0, 19.0 ]
+									"presentation_rect" : [ 881.5, 303.0, 50.0, 19.0 ]
 								}
 
 							}
@@ -4496,7 +4528,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 78.0, 775.0, 151.0, 17.0 ],
+									"patching_rect" : [ 76.0, 758.0, 151.0, 17.0 ],
 									"text" : "view 4 paramcol labeltext $1"
 								}
 
@@ -4529,7 +4561,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 78.0, 758.0, 50.0, 19.0 ],
+									"patching_rect" : [ 76.0, 741.0, 50.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 881.5, 205.0, 50.0, 19.0 ]
 								}
@@ -5148,13 +5180,13 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-18",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 480.0, 243.0, 54.0 ],
-									"text" : "view 4 interface scatterplot, view 4 xalign, view 4 paramdisplayrange xfixeddiameter 4 20, view 4 paramdisplayrange yfixeddiameter 4 20, foremost 4"
+									"patching_rect" : [ 13.0, 480.0, 277.0, 42.0 ],
+									"text" : "view 4 interface scatterplot, view 4 domainalign, view 4 paramdisplayrange xfixeddiameter 4 20, view 4 paramdisplayrange yfixeddiameter 4 20, foremost 4"
 								}
 
 							}
@@ -6081,6 +6113,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-71", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6094,6 +6135,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-73", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-74", 0 ]
 								}
 
 							}
@@ -8881,7 +8931,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u520000180"
+									"varname" : "u668000180"
 								}
 
 							}
@@ -15488,7 +15538,7 @@
 					"patching_rect" : [ 230.0, 340.0, 105.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 5,
+					"size" : 4,
 					"spacing" : 2
 				}
 
