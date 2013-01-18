@@ -4150,7 +4150,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 478.0, 50.0, 1191.0, 952.0 ],
+						"rect" : [ 459.0, 52.0, 1191.0, 952.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4171,6 +4171,22 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-42",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 760.0, 863.0, 217.5, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 380.5, 759.0, 207.0, 17.0 ],
+									"text" : "view 4 colormode fgcolor fgcolor fgcolor"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
@@ -5856,6 +5872,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-41", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-42", 0 ]
 								}
 
 							}
@@ -8931,7 +8956,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u699000180"
+									"varname" : "u052000180"
 								}
 
 							}
@@ -15538,7 +15563,7 @@
 					"patching_rect" : [ 230.0, 340.0, 105.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 4,
+					"size" : 5,
 					"spacing" : 2
 				}
 
