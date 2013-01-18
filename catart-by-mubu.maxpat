@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 34.0, 44.0, 555.0, 773.0 ],
+		"rect" : [ 8.0, 49.0, 555.0, 773.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -4150,7 +4150,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 521.0, 58.0, 1191.0, 952.0 ],
+						"rect" : [ 478.0, 50.0, 1191.0, 952.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4306,8 +4306,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 557.0, 872.0, 165.0, 29.0 ],
-									"text" : "view 4 paramcol xdiameter $1, view 4 paramcol ydiameter $1"
+									"patching_rect" : [ 557.0, 872.0, 148.0, 29.0 ],
+									"text" : "view 4 paramcol width $1, view 4 paramcol height $1"
 								}
 
 							}
@@ -4635,8 +4635,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 629.5, 434.0, 190.0, 29.0 ],
-									"text" : "view 4 paramcol xfixeddiameter $1, view 4 paramcol yfixeddiameter $1"
+									"patching_rect" : [ 617.0, 434.0, 163.0, 29.0 ],
+									"text" : "view 4 paramcol fixedwidth $1, view 4 paramcol fixedheight $1"
 								}
 
 							}
@@ -4720,16 +4720,16 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-7",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 726.5, 769.0, 243.0, 42.0 ],
+									"patching_rect" : [ 726.5, 769.0, 226.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 824.0, 690.0, 285.0, 29.0 ],
-									"text" : "view 4 paramdisplayrange xfixeddiameter 20 $1, view 4 paramdisplayrange yfixeddiameter 20 $1"
+									"text" : "view 4 paramdisplayrange fixedwidth 20 $1, view 4 paramdisplayrange fixedheight 20 $1"
 								}
 
 							}
@@ -5185,8 +5185,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 480.0, 277.0, 42.0 ],
-									"text" : "view 4 interface scatterplot, view 4 domainalign, view 4 paramdisplayrange xfixeddiameter 4 20, view 4 paramdisplayrange yfixeddiameter 4 20, foremost 4"
+									"patching_rect" : [ 13.0, 480.0, 259.0, 42.0 ],
+									"text" : "view 4 interface scatterplot, view 4 domainalign, view 4 paramdisplayrange fixedwidth 4 20, view 4 paramdisplayrange fixedheight 4 20, foremost 4"
 								}
 
 							}
@@ -8931,7 +8931,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u668000180"
+									"varname" : "u699000180"
 								}
 
 							}
