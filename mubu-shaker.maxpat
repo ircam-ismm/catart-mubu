@@ -28,6 +28,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr" : "onseg.durthresh",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 518.5, 424.0, 170.0, 20.0 ],
+					"presentation_rect" : [ 518.5, 425.0, 0.0, 0.0 ],
+					"text_width" : 108.0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -37,7 +53,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.0, 138.0, 85.0, 20.0 ],
-					"presentation_rect" : [ 22.0, 138.0, 0.0, 0.0 ],
 					"text" : "loadmess 128"
 				}
 
@@ -117,7 +132,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 49.0, 255.0, 94.0, 62.0 ],
+					"patching_rect" : [ 49.0, 255.0, 96.0, 62.0 ],
 					"text" : "mubu.record~ 2 shakeme audio @maxsize 30s @predef 1"
 				}
 
@@ -694,16 +709,16 @@
 ,
 													"patching_rect" : [ 50.0, 328.0, 112.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
-														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
 														"fontname" : "Arial",
 														"tags" : "",
-														"globalpatchername" : ""
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p list random"
@@ -727,7 +742,7 @@
 															"revision" : 5
 														}
 ,
-														"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+														"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -854,16 +869,16 @@
 ,
 													"patching_rect" : [ 181.0, 328.0, 45.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontface" : 0,
-														"fontface" : 0,
-														"fontsize" : 12.0,
-														"digest" : "",
-														"default_fontname" : "Arial",
 														"default_fontsize" : 12.0,
-														"description" : "",
 														"fontname" : "Arial",
 														"tags" : "",
-														"globalpatchername" : ""
+														"description" : "",
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 12.0,
+														"default_fontface" : 0,
+														"digest" : "",
+														"default_fontname" : "Arial"
 													}
 ,
 													"text" : "p level"
@@ -1199,16 +1214,16 @@
 ,
 									"patching_rect" : [ 50.0, 300.0, 237.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"fontname" : "Arial",
 										"tags" : "",
-										"globalpatchername" : ""
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p select"
@@ -1503,16 +1518,16 @@
 ,
 									"patching_rect" : [ 203.0, 199.0, 57.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"fontname" : "Arial",
 										"tags" : "",
-										"globalpatchername" : ""
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p enable"
@@ -1697,16 +1712,16 @@
 ,
 									"patching_rect" : [ 418.0, 151.0, 45.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"fontface" : 0,
-										"fontsize" : 12.0,
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"description" : "",
 										"fontname" : "Arial",
 										"tags" : "",
-										"globalpatchername" : ""
+										"description" : "",
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p refer"
@@ -1738,7 +1753,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "" ],
 									"patching_rect" : [ 50.0, 399.0, 255.0, 75.0 ],
-									"text" : "mubu.concat~ 2 shakeme @audio audio @markers markers @advance 5 @attack 5 @release 20 @durationcol Duration @durationfactor 1. @play 0 @markerchange 0 @duplicatechannels 1"
+									"text" : "mubu.concat~ 2 shakeme @audio audio @markers markers @advance 5 @attack 5 @release 20 @durationcol Duration @duration 0. 1. @play 0 @markerchange 0 @duplicatechannels 1"
 								}
 
 							}
@@ -2039,16 +2054,16 @@
 ,
 					"patching_rect" : [ 49.0, 451.0, 57.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
-						"globalpatchername" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p synth"
@@ -2132,6 +2147,34 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 150.0, 325.0, 50.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.0, 362.0, 122.0, 20.0 ],
+									"text" : "prepend mvavrg.size"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -2293,6 +2336,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-140", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-109", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2408,6 +2460,15 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
  ],
 						"dependency_cache" : [ 							{
 								"name" : "pipo.mxo",
@@ -2418,16 +2479,16 @@
 ,
 					"patching_rect" : [ 213.5, 388.5, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
-						"globalpatchername" : ""
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p shakeit"
@@ -2529,7 +2590,7 @@
 					"cursor_position" : -1.0,
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -5.804989, 1389.469849 ],
+					"domain_bounds" : [ 0.0, 3999.727783 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2584,8 +2645,23 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 388.0, 495.0, 425.0, 89.0 ],
-					"text" : "mubu.process shakeme audio slice:fft:sum:scale:onseg @name markers @prepad 1024 @slice.size 1024 @slice.hop 256 @slice.norm power @fft.mode power @fft.weighting itur468 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @onseg.filtersize 5 @onseg.duration 1 @onseg.max 1 @onseg.offthresh -60 @info gui \"interface markers, autobounds 1, paramcols Cue Label Duration\""
+					"patching_rect" : [ 388.0, 495.0, 431.0, 89.0 ],
+					"text" : "mubu.process shakeme audio slice:fft:sum:scale:onseg @name markers @prepad 2000 @slice.size 1024 @slice.hop 256 @slice.norm power @fft.mode power @fft.weighting itur468 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @onseg.filtersize 5 @onseg.duration 1 @onseg.max 1 @onseg.offthresh -120 @info gui \"interface markers, autobounds 1, paramcols Cue Label Duration\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "onseg.threshold",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 518.5, 394.0, 170.0, 20.0 ],
+					"text_width" : 108.0
 				}
 
 			}
@@ -2659,6 +2735,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2875,6 +2960,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
