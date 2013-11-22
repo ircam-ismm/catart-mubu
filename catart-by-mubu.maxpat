@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 70.0, 1280.0, 706.0 ],
+		"rect" : [ -3.0, 44.0, 1279.0, 732.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,23 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 255.0, 693.5, 74.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 257.0, 697.0, 71.0, 31.0 ],
+					"text" : "duration 0 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-17",
@@ -58,7 +75,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 896.0, 221.0, 666.0, 856.0 ],
+						"rect" : [ 610.0, 221.0, 666.0, 856.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -78,6 +95,21 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 145.0, 110.917114, 45.0, 17.0 ],
+									"presentation_rect" : [ 201.0, 119.917114, 0.0, 0.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "button",
@@ -1676,7 +1708,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 95.0, 120.917114, 20.0, 20.0 ]
+									"patching_rect" : [ 95.0, 110.917114, 20.0, 20.0 ]
 								}
 
 							}
@@ -1689,7 +1721,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 100.917114, 43.0, 20.0 ],
+									"patching_rect" : [ 135.0, 74.917114, 43.0, 20.0 ],
 									"text" : "set up"
 								}
 
@@ -1703,7 +1735,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 95.0, 100.917114, 45.0, 17.0 ],
+									"patching_rect" : [ 95.0, 74.917114, 45.0, 17.0 ],
 									"text" : "deferlow"
 								}
 
@@ -2113,6 +2145,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-234", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-236", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2189,6 +2230,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-246", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-227", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -2472,7 +2522,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 824.0, 56.0, 230.0, 20.0 ],
+						"rect" : [ 821.0, 64.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2606,7 +2656,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-113",
-									"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+									"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2624,7 +2674,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-53",
 									"maxclass" : "number",
-									"maximum" : 4,
+									"maximum" : 3,
 									"minimum" : -1,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -2823,7 +2873,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 824.0, 96.0, 230.0, 20.0 ],
+						"rect" : [ 821.0, 104.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2945,7 +2995,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-113",
-									"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+									"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2963,7 +3013,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-53",
 									"maxclass" : "number",
-									"maximum" : 4,
+									"maximum" : 3,
 									"minimum" : -1,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -3090,11 +3140,11 @@
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
-					"cursor_position" : 0.006554,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 0.396834 ],
+					"domain_bounds" : [ -0.005653, 0.766432 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -3119,9 +3169,9 @@
 					"outputmouse" : 1,
 					"outputselection" : 1,
 					"outputvalues" : 1,
-					"patching_rect" : [ 551.5, 107.5, 703.0, 578.0 ],
+					"patching_rect" : [ 551.5, 107.5, 702.0, 604.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 559.0, 124.0, 1042.0, 728.0 ],
+					"presentation_rect" : [ 559.0, 124.0, 1041.0, 754.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -3209,7 +3259,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 552.0, 96.0, 230.0, 20.0 ],
+						"rect" : [ 549.0, 104.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3315,7 +3365,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-113",
-									"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+									"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3333,7 +3383,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-53",
 									"maxclass" : "number",
-									"maximum" : 4,
+									"maximum" : 3,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -3456,7 +3506,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 552.0, 56.0, 230.0, 20.0 ],
+						"rect" : [ 549.0, 64.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3562,7 +3612,7 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-113",
-									"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+									"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3580,7 +3630,7 @@
 									"fontsize" : 10.0,
 									"id" : "obj-53",
 									"maxclass" : "number",
-									"maximum" : 4,
+									"maximum" : 3,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
@@ -5468,6 +5518,34 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 154.0, 338.0, 36.0, 20.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 154.0, 300.0, 38.0, 20.0 ],
+									"text" : "== 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -5532,7 +5610,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 267.0, 28.5, 584.0, 92.0 ],
-									"text" : "mubu.process corpus audio slice:yin:scale:onseg @name descr @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0"
+									"text" : "mubu.process corpus audio slice:yin:scale:onseg @name seg @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0"
 								}
 
 							}
@@ -5718,8 +5796,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 10.0, 178.0, 543.0, 75.0 ],
-									"text" : "mubu.process corpus audio slice:yin:scale @name descr @process 1 @progressoutput output @timetagged 1 @slice.size 9000 @slice.hop 9000 @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10"
+									"patching_rect" : [ 10.0, 178.0, 533.0, 75.0 ],
+									"text" : "mubu.process corpus audio slice:yin:scale @name descr @process 1 @progressoutput input @timetagged 1 @slice.size 9000 @slice.hop 9000 @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10"
 								}
 
 							}
@@ -5771,6 +5849,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -5811,6 +5898,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -5865,6 +5961,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -5937,7 +6042,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
@@ -7616,7 +7720,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1129.0, 874.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 440.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -7738,7 +7842,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -7756,7 +7860,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -7946,7 +8050,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1129.0, 774.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 360.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -8068,7 +8172,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -8086,7 +8190,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -8248,7 +8352,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 874.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 640.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -8370,7 +8474,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -8388,7 +8492,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -8777,7 +8881,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 876.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 480.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -8899,7 +9003,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -8917,7 +9021,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -9123,7 +9227,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 544.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 269.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -9245,7 +9349,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9263,7 +9367,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -9425,7 +9529,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 604.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 229.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -9547,7 +9651,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9565,7 +9669,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -9727,7 +9831,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 676.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 310.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -9849,7 +9953,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9867,7 +9971,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -10146,7 +10250,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 676.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 780.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -10268,7 +10372,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10286,7 +10390,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -10448,7 +10552,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 577.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 730.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -10570,7 +10674,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10588,7 +10692,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -10750,7 +10854,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 511.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 690.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -10872,7 +10976,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10890,7 +10994,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -11052,7 +11156,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 774.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 600.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -11174,7 +11278,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -11192,7 +11296,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -11354,7 +11458,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1349.0, 404.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 550.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -11505,7 +11609,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "label", ",", "time", ",", "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "label", ",", "time", ",", "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -11523,7 +11627,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -3,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -11860,7 +11964,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 774.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 400.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -11994,7 +12098,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12012,7 +12116,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -12201,7 +12305,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1129.0, 674.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 177.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -12323,7 +12427,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12341,7 +12445,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -12669,7 +12773,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1129.0, 544.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 107.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -12791,7 +12895,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "off", ",", "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12809,7 +12913,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -12992,11 +13096,11 @@
 									"bufferchooser_size" : 12,
 									"bufferchooser_visible" : 1,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
-									"cursor_position" : 5.489318,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 0.0, 165.77742 ],
+									"domain_bounds" : [ 0.0, 162.880692 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -13220,7 +13324,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 474.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 60.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -13326,7 +13430,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -13344,7 +13448,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : 0,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -13467,7 +13571,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 929.0, 404.0, 230.0, 20.0 ],
+										"rect" : [ 0.0, 20.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -13573,7 +13677,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1", ",", 4 ],
+													"items" : [ "Frequency", ",", "Energy", ",", "Periodicity", ",", "AC1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -13591,7 +13695,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 4,
+													"maximum" : 3,
 													"minimum" : 0,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -17803,7 +17907,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u273000342"
+									"varname" : "u215000878"
 								}
 
 							}
@@ -23473,7 +23577,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 506.0, 475.0, 640.0, 480.0 ],
+						"rect" : [ 503.0, 456.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -24061,7 +24165,7 @@
 					"patching_rect" : [ 95.0, 258.0, 322.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 258.0, 322.0, 20.0 ],
-					"text" : "Frequency Energy Periodicity AC1 4"
+					"text" : "Frequency Energy Periodicity AC1"
 				}
 
 			}
@@ -24100,7 +24204,7 @@
 					"presentation_rect" : [ 95.0, 288.0, 105.0, 100.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 5,
+					"size" : 4,
 					"spacing" : 2
 				}
 
@@ -24929,6 +25033,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
