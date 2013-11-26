@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1279.0, 732.0 ],
+		"rect" : [ 333.0, 106.0, 1279.0, 732.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -890,24 +890,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 315.0, 350.917114, 32.0, 19.0 ],
 									"text" : "gate"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Geneva",
-									"fontsize" : 10.0,
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 345.0, 350.917114, 98.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"ftm_objref_conv" : 0,
-										"ftm_scope" : 1
-									}
-,
-									"text" : "ftm.print fromed1"
 								}
 
 							}
@@ -1865,15 +1847,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-131", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-204", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2504,7 +2477,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 824.0, 64.0, 230.0, 20.0 ],
+						"rect" : [ 1157.0, 126.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2855,7 +2828,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 824.0, 104.0, 230.0, 20.0 ],
+						"rect" : [ 1157.0, 166.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3122,11 +3095,11 @@
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
-					"cursor_position" : 0.703594,
+					"cursor_position" : 0.297744,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ -0.003741, 0.739352 ],
+					"domain_bounds" : [ 0.0, 1.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -3153,7 +3126,7 @@
 					"outputvalues" : 1,
 					"patching_rect" : [ 551.5, 107.5, 702.0, 604.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 559.0, 124.0, 1041.0, 754.0 ],
+					"presentation_rect" : [ 559.0, 124.0, 1041.0, 780.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -3241,7 +3214,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 552.0, 104.0, 230.0, 20.0 ],
+						"rect" : [ 885.0, 166.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3488,7 +3461,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 552.0, 64.0, 230.0, 20.0 ],
+						"rect" : [ 885.0, 126.0, 230.0, 20.0 ],
 						"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6005,7 +5978,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 489.0, 44.0, 1280.0, 730.0 ],
+						"rect" : [ 400.0, 44.0, 1280.0, 730.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -7089,24 +7062,6 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 130.0, 560.0, 237.0, 31.0 ],
 									"text" : "set <index1> <x1> <y1> ... : point(s) dragged\ndelete <index1> ...."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Geneva",
-									"fontsize" : 10.0,
-									"id" : "obj-20",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 620.0, 100.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"ftm_objref_conv" : 0,
-										"ftm_scope" : 2
-									}
-,
-									"text" : "ftm.print fromed"
 								}
 
 							}
@@ -13078,11 +13033,11 @@
 									"bufferchooser_size" : 12,
 									"bufferchooser_visible" : 1,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
-									"cursor_position" : -1.0,
+									"cursor_position" : 0.255721,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 0.0, 150.80719 ],
+									"domain_bounds" : [ 0.0, 1.0 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -13109,7 +13064,7 @@
 									"outputvalues" : 1,
 									"patching_rect" : [ 0.0, 0.0, 1245.0, 297.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 230.0, 0.0, 1042.0, 728.0 ],
+									"presentation_rect" : [ 230.0, 0.0, 1042.0, 754.0 ],
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 1,
@@ -14065,15 +14020,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-131", 0 ]
 								}
 
 							}
@@ -17889,7 +17835,7 @@
 									}
 ,
 									"text" : "pattr",
-									"varname" : "u624000332"
+									"varname" : "u653000839"
 								}
 
 							}
@@ -25312,10 +25258,6 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ftm.print.mxo",
 				"type" : "iLaX"
 			}
 , 			{
