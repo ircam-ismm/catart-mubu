@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 6,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 170.0, 185.0, 902.0, 499.0 ],
+		"rect" : [ 888.0, 252.0, 902.0, 499.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -149,7 +149,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -728,7 +728,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1455,7 +1455,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2191,7 +2191,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2583,7 +2583,7 @@
 									"cursor_shape" : "bar",
 									"cursor_size" : 3,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 0.0, 3453.452393 ],
+									"domain_bounds" : [ 0.0, 3478.435374 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -2967,7 +2967,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "mubu.usual.onseg.maxpat",
-				"bootpath" : "~/Projects/git-repositories/gitlab.doc.gold.ac.uk/rapid-mix/Freemix/MuBuAbstractions",
+				"bootpath" : "~/Documents/Max 7/Packages/MuBuForMax-1.8.10-Max-6-7/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
