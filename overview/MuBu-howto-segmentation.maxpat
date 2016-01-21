@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 286.0, 97.0, 902.0, 499.0 ],
+		"rect" : [ 725.0, 146.0, 902.0, 499.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 815.0, 428.149994, 64.0, 19.0 ],
-					"presentation_rect" : [ 796.0, 392.149994, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "prepend help"
 				}
@@ -64,7 +63,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 815.0, 445.149994, 45.0, 19.0 ],
-					"presentation_rect" : [ 796.0, 409.149994, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -80,7 +78,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 682.0, 434.0, 125.0, 24.0 ],
-					"presentation_rect" : [ 731.0, 337.649994, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "mubu.usual.onseg"
 				}
@@ -769,7 +766,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 1128.0, 688.0 ],
+						"rect" : [ 360.0, 89.0, 1128.0, 688.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1103,14 +1100,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 61.0, 495.0, 1017.0, 35.0 ],
+									"patching_rect" : [ 61.0, 495.0, 553.0, 49.0 ],
 									"style" : "",
-									"text" : "mubu.process mfccseg audio mfcc @name mfcc @process 0 @progressoutput input @mfcc.size 2048 @mfcc.hop 512 @info gui \"interface multiwave, shape envelope, colormode rainbow\" @samplerate 86"
+									"text" : "mubu.process mfccseg audio mfcc @name mfcc @process 0 @progressoutput input @mfcc.windsize 2048 @mfcc.hopsize 512 @info gui \"interface multiwave, shape envelope, colormode rainbow\" @samplerate 86"
 								}
 
 							}
