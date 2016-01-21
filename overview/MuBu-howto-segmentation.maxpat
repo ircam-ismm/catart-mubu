@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
-			"architecture" : "x64",
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 888.0, 252.0, 902.0, 499.0 ],
+		"rect" : [ 286.0, 97.0, 902.0, 499.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,56 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 815.0, 428.149994, 64.0, 19.0 ],
+					"presentation_rect" : [ 796.0, 392.149994, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "prepend help"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"hidden" : 1,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 815.0, 445.149994, 45.0, 19.0 ],
+					"presentation_rect" : [ 796.0, 409.149994, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 682.0, 434.0, 125.0, 24.0 ],
+					"presentation_rect" : [ 731.0, 337.649994, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "mubu.usual.onseg"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "live.line",
@@ -125,19 +175,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 679.0, 434.0, 109.0, 22.0 ],
-					"style" : "",
-					"text" : "mubu.usual.onseg"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 16.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -147,9 +184,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x64",
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -726,9 +763,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x64",
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1071,9 +1108,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 61.0, 495.0, 1019.0, 35.0 ],
+									"patching_rect" : [ 61.0, 495.0, 1017.0, 35.0 ],
 									"style" : "",
-									"text" : "mubu.process mfccseg audio mfcc @name mfcc @process 0 @progressoutput input @mfcc.size 2048 @mfcc.hop 512 @slice.norm power @scale.func log @scale.base 10 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.colindex 1 @scale.numcols 1 @info gui \"interface multiwave, shape envelope, colormode rainbow\" @samplerate 86"
+									"text" : "mubu.process mfccseg audio mfcc @name mfcc @process 0 @progressoutput input @mfcc.size 2048 @mfcc.hop 512 @info gui \"interface multiwave, shape envelope, colormode rainbow\" @samplerate 86"
 								}
 
 							}
@@ -1453,9 +1490,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x64",
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -1848,7 +1885,7 @@
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 69.0, 485.0, 894.0, 35.0 ],
 									"style" : "",
-									"text" : "mubu.process fftsumseg audio slice:fft:sum:scale @name fftsum @process 0 @progressoutput input @slice.size 1024 @slice.hop 256 @slice.norm power @fft.mode power @fft.weighting itur468 @scale.func log @scale.base 10 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @median.size 3"
+									"text" : "mubu.process fftsumseg audio slice:fft:sum:scale @name fftsum @process 0 @progressoutput input @slice.size 1024 @slice.hop 256 @slice.norm power @fft.mode power @fft.weighting itur468 @scale.func log @scale.base 10 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10"
 								}
 
 							}
@@ -2189,9 +2226,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
-							"architecture" : "x64",
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -2583,7 +2620,7 @@
 									"cursor_shape" : "bar",
 									"cursor_size" : 3,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 0.0, 3478.435374 ],
+									"domain_bounds" : [ 0.0, 3478.435303 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -2930,6 +2967,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-129", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -2943,6 +2989,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -2966,12 +3021,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.usual.onseg.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/MuBuForMax-1.8.10-Max-6-7/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "mubu.mxo",
 				"type" : "iLaX"
 			}
@@ -2988,7 +3037,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
