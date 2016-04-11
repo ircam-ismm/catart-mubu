@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 76.0, 45.0, 472.0, 500.0 ],
+		"rect" : [ 66.0, 45.0, 472.0, 500.0 ],
 		"bgcolor" : [ 0.180392, 1.0, 0.976471, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -235,8 +235,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -309,8 +309,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -618,7 +618,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 250.549866, 528.894653, 30.0, 19.0 ],
+									"patching_rect" : [ 250.549866, 533.894653, 30.0, 19.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -632,7 +632,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 250.549866, 502.0, 78.0, 19.0 ],
+									"patching_rect" : [ 250.549866, 507.0, 78.0, 19.0 ],
 									"style" : "",
 									"text" : "mousestate"
 								}
@@ -677,7 +677,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 96.0, 528.894653, 40.0, 19.0 ],
+									"patching_rect" : [ 96.0, 533.894653, 40.0, 19.0 ],
 									"style" : "",
 									"text" : "zl nth 1"
 								}
@@ -692,7 +692,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 96.0, 502.0, 61.0, 19.0 ],
+									"patching_rect" : [ 96.0, 507.0, 61.0, 19.0 ],
 									"style" : "",
 									"text" : "route mouse"
 								}
@@ -703,16 +703,17 @@
 									"fontface" : 0,
 									"fontsize" : 9.0,
 									"id" : "obj-58",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 10.0, 470.989807, 169.0, 19.0 ],
+									"patching_rect" : [ 10.0, 470.989807, 169.0, 29.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 149.5, 334.533844, 97.0, 29.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 149.5, 334.533844, 97.0, 39.0 ],
 									"style" : "",
-									"text" : "jit.window #1 @size 500 500 @visible 0"
+									"text" : "jit.window #1 @size 500 500 @pos 55 0 @visible 0"
 								}
 
 							}
@@ -3199,7 +3200,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 339.033844, 43.0, 20.0 ],
 					"style" : "",
-					"varname" : "region-min[1]"
+					"varname" : "speedlim"
 				}
 
 			}
@@ -3843,17 +3844,17 @@
 						"query-toggle" : [ 0 ],
 						"region-max" : [ 0 ],
 						"region-min" : [ 0 ],
-						"region-min[1]" : [ 100 ],
 						"region-toggle" : [ 0 ],
 						"source-duration" : [ "oracle" ],
 						"source-input" : [ "concat" ],
+						"speedlim" : [ 100 ],
 						"taboo-length" : [ 3 ],
 						"taboo-toggle" : [ 0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u847001584"
+					"varname" : "u944001588"
 				}
 
 			}
@@ -4134,8 +4135,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4962,8 +4963,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5449,8 +5450,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6272,8 +6273,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -6697,7 +6698,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.0, 406.738159, 96.0, 31.0 ],
 													"style" : "",
-													"text" : "0. 1. 0. 1. 0. 0. 0. 0. 0."
+													"text" : "0. 1. 1. 1. 1. 1. 1. 1. 1."
 												}
 
 											}
@@ -8399,8 +8400,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -9005,8 +9006,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -9361,8 +9362,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -10241,8 +10242,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -11125,8 +11126,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -11681,8 +11682,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -12219,8 +12220,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -12776,8 +12777,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
