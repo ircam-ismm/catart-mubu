@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 2,
-			"revision" : 1,
-			"architecture" : "x64",
+			"revision" : 4,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -40,17 +40,3833 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 12.0,
-					"id" : "obj-212",
-					"linecount" : 2,
+					"id" : "obj-235",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 905.587036, 277.25, 282.0, 33.0 ],
+					"patching_rect" : [ 769.587036, 332.5, 140.0, 60.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 937.587036, 309.5, 374.0, 47.0 ],
+					"style" : "",
+					"text" : "For Python installation instructions please see  /pyoracle-gl/pyoracle_\ndocumentation.pdf "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-212",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 905.587036, 407.5, 306.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 70.587036, 470.25, 238.0, 59.0 ],
+					"style" : "",
+					"text" : ";\rmax launchbrowser https://downloads.sourceforge.net/project/matplotlib/matplotlib/matplotlib-1.2.1/matplotlib-1.2.1-py2.7-python.org-macosx10.6.dmg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-219",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 905.587036, 308.25, 305.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 70.587036, 478.25, 238.0, 49.0 ],
+					"style" : "",
+					"text" : ";\rmax launchbrowser http://sourceforge.net/projects/numpy/files/NumPy/1.7.1/numpy-1.7.1-py2.7-python.org-macosx10.6.dmg/download"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-228",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 905.587036, 357.5, 306.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 69.587036, 446.25, 238.0, 49.0 ],
+					"style" : "",
+					"text" : ";\rmax launchbrowser http://sourceforge.net/projects/scipy/files/scipy/0.12.0/scipy-0.12.0-py2.7-python.org-macosx10.6.dmg/download"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-229",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 905.587036, 278.25, 200.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 907.587036, 279.5, 374.0, 33.0 ],
+					"presentation_rect" : [ 69.587036, 393.25, 238.0, 29.0 ],
 					"style" : "",
-					"text" : "For Python installation instructions please see  /catoracle/pyoracle-gl/pyoracle_documentation.pdf "
+					"text" : ";\rmax launchbrowser http://python.org/download/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 2,
+							"revision" : 4,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 0.0, 45.0, 248.0, 751.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 2,
+						"toptoolbarpinned" : 2,
+						"righttoolbarpinned" : 2,
+						"bottomtoolbarpinned" : 2,
+						"toolbars_unpinned_last_save" : 15,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 426.0, 156.5, 111.0, 19.0 ],
+									"restore" : 									{
+										"select-keys" : [ 0 ],
+										"voices" : [ "voices:" ]
+									}
+,
+									"style" : "",
+									"text" : "autopattr @autorestore 0",
+									"varname" : "u227001605"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"items" : [ "voices:", ",", "iterate", ",", "constant" ],
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 322.0, 58.0, 57.0, 19.0 ],
+									"pattrmode" : 1,
+									"presentation" : 1,
+									"presentation_rect" : [ 150.0, 0.5, 57.0, 19.0 ],
+									"style" : "",
+									"varname" : "voices"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 291.5, 212.0, 31.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 111.0, 0.5, 31.0, 19.0 ],
+									"style" : "",
+									"text" : "none"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.0, 212.0, 29.5, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 75.0, 0.5, 29.5, 19.0 ],
+									"style" : "",
+									"text" : "all"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "" ],
+									"patching_rect" : [ 292.5, 238.5, 56.0, 19.0 ],
+									"style" : "",
+									"text" : "sel all none"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 221.0, 1.5, 39.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 204.0, 1.5, 39.0, 17.0 ],
+									"style" : "",
+									"text" : "refresh"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 416.0, 308.0, 21.0, 19.0 ],
+									"style" : "",
+									"text" : "t 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-24",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 416.0, 346.0, 65.0, 19.0 ],
+									"style" : "",
+									"text" : "zl 1024 group"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 416.0, 273.0, 40.0, 19.0 ],
+									"style" : "",
+									"text" : "uzi"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 343.0, 308.0, 21.0, 19.0 ],
+									"style" : "",
+									"text" : "t 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 343.0, 346.0, 65.0, 19.0 ],
+									"style" : "",
+									"text" : "zl 1024 group"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 343.0, 273.0, 40.0, 19.0 ],
+									"style" : "",
+									"text" : "uzi"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 364.0, 238.5, 50.0, 19.0 ],
+									"style" : "",
+									"text" : "route size"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 364.0, 1.5, 58.0, 19.0 ],
+									"style" : "",
+									"text" : "r #1-clearall"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "bang" ],
+									"patching_rect" : [ 426.0, 31.0, 40.0, 19.0 ],
+									"style" : "",
+									"text" : "b 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-59",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 551.0, 58.0, 126.0, 19.0 ],
+									"style" : "",
+									"text" : "clear, store value: key: voice:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 426.0, 1.5, 48.0, 19.0 ],
+									"style" : "",
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-44",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 387.0, 91.0, 30.0, 19.0 ],
+									"style" : "",
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 9.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 426.0, 91.0, 64.0, 19.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"style" : "",
+									"text" : "coll keyvals 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-68",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 426.0, 58.0, 62.0, 19.0 ],
+									"style" : "",
+									"text" : "refer keyvals"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-7",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 260.0, 1.5, 19.0, 19.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 291.5, 186.0, 31.0, 19.0 ],
+									"style" : "",
+									"text" : "defer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 291.5, 156.5, 96.0, 19.0 ],
+									"style" : "",
+									"text" : "r #1-select-keys"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "bang" ],
+									"patching_rect" : [ 281.0, 58.0, 40.0, 19.0 ],
+									"style" : "",
+									"text" : "b 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-72",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 281.0, 1.5, 79.0, 19.0 ],
+									"style" : "",
+									"text" : "r #1-refresh"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 0,
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 7,
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
+											"modernui" : 1
+										}
+,
+										"rect" : [ 73.0, 45.0, 831.0, 752.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 2,
+										"toptoolbarpinned" : 2,
+										"righttoolbarpinned" : 2,
+										"bottomtoolbarpinned" : 2,
+										"toolbars_unpinned_last_save" : 15,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-11",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 169.5, 637.5, 49.0, 19.0 ],
+													"style" : "",
+													"text" : "exclude 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-83",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 231.0, 593.5, 137.0, 19.0 ],
+													"style" : "",
+													"text" : "view descr inactivebufferindices"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-68",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 169.5, 609.5, 47.0, 19.0 ],
+													"style" : "",
+													"text" : "include 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-59",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 131.25, 513.0, 62.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 sort"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-56",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "" ],
+													"patching_rect" : [ 169.5, 583.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "sel 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-53",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 169.5, 551.0, 82.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 compare"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-52",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 257.75, 551.0, 61.0, 17.0 ],
+													"style" : "",
+													"text" : "all included?"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-44",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 73.5, 230.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "int" ],
+													"patching_rect" : [ 70.5, 197.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "uzi"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-39",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 73.5, 551.0, 74.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 unique"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-36",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 70.5, 168.0, 163.5, 19.0 ],
+													"style" : "",
+													"text" : "route numbuffers buffer"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-35",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 70.5, 111.0, 68.0, 19.0 ],
+													"style" : "",
+													"text" : "getnumbuffers"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-34",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "int", "int" ],
+													"patching_rect" : [ 142.75, 426.5, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "change"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 73.5, 583.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "t l l l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-28",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 231.0, 637.5, 126.0, 19.0 ],
+													"style" : "",
+													"text" : "view descr buffersopacity 0.9"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 131.25, 484.0, 62.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 thin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-26",
+													"maxclass" : "toggle",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 16.5, 637.5, 19.0, 19.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 16.5, 702.5, 112.0, 19.0 ],
+													"style" : "",
+													"text" : "print inactivebufferindices"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 16.5, 670.0, 43.0, 19.0 ],
+													"style" : "",
+													"text" : "gate 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"color" : [ 0.890196, 0.564706, 0.078431, 1.0 ],
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 73.5, 670.0, 92.0, 19.0 ],
+													"presentation" : 1,
+													"presentation_linecount" : 3,
+													"presentation_rect" : [ 62.5, 151.0, 57.0, 39.0 ],
+													"style" : "",
+													"text" : "s #1-mubu.knn"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"color" : [ 0.890196, 0.564706, 0.078431, 1.0 ],
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 231.0, 670.0, 77.0, 19.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 359.0, 21.0, 93.0, 19.0 ],
+													"style" : "",
+													"text" : "s #1-imubu"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-115",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 142.75, 197.0, 32.5, 19.0 ],
+													"style" : "",
+													"text" : "t l l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-95",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 280.75, 316.5, 38.0, 19.0 ],
+													"style" : "",
+													"text" : "zl rot 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-94",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 238.75, 316.5, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "zl iter 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-93",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 238.75, 258.0, 55.0, 19.0 ],
+													"style" : "",
+													"text" : "t b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-92",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 142.75, 398.5, 32.5, 19.0 ],
+													"style" : "",
+													"text" : "i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-91",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 238.75, 287.0, 33.0, 19.0 ],
+													"style" : "",
+													"text" : "zl reg"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-89",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 156.25, 230.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "zl nth 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-86",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 238.75, 230.0, 45.0, 19.0 ],
+													"style" : "",
+													"text" : "zl ecils 2"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-18",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 138.5, 4.0, 109.0, 17.0 ],
+													"style" : "",
+													"text" : "then inclue/exclude units"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-105",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 364.5, 637.5, 172.0, 19.0 ],
+													"style" : "",
+													"text" : "prepend view descr inactivebufferindices"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-103",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "bang", "" ],
+													"patching_rect" : [ 70.5, 78.0, 201.25, 19.0 ],
+													"style" : "",
+													"text" : "t b b b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-87",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patcher" : 													{
+														"fileversion" : 1,
+														"appversion" : 														{
+															"major" : 7,
+															"minor" : 2,
+															"revision" : 4,
+															"architecture" : "x86",
+															"modernui" : 1
+														}
+,
+														"rect" : [ 606.0, 78.0, 640.0, 454.0 ],
+														"bglocked" : 0,
+														"openinpresentation" : 0,
+														"default_fontsize" : 9.0,
+														"default_fontface" : 0,
+														"default_fontname" : "Arial",
+														"gridonopen" : 1,
+														"gridsize" : [ 15.0, 15.0 ],
+														"gridsnaponopen" : 1,
+														"objectsnaponopen" : 1,
+														"statusbarvisible" : 2,
+														"toolbarvisible" : 0,
+														"lefttoolbarpinned" : 2,
+														"toptoolbarpinned" : 2,
+														"righttoolbarpinned" : 2,
+														"bottomtoolbarpinned" : 2,
+														"toolbars_unpinned_last_save" : 15,
+														"tallnewobj" : 0,
+														"boxanimatetime" : 200,
+														"enablehscroll" : 1,
+														"enablevscroll" : 1,
+														"devicewidth" : 0.0,
+														"description" : "",
+														"digest" : "",
+														"tags" : "",
+														"style" : "",
+														"subpatcher_template" : "",
+														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-11",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 219.0, 165.0, 43.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl group"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-10",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 172.5, 165.0, 43.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl group"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-9",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "bang", "bang", "" ],
+																	"patching_rect" : [ 172.5, 59.0, 40.0, 19.0 ],
+																	"style" : "",
+																	"text" : "t b b l"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-8",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 193.5, 100.0, 40.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl iter 3"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"id" : "obj-7",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "", "", "int" ],
+																	"patching_rect" : [ 193.5, 130.0, 58.0, 19.0 ],
+																	"style" : "",
+																	"text" : "unpack s s i"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-15",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 63.5, 241.0, 36.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl lace"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-12",
+																	"maxclass" : "comment",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 95.0, 277.5, 73.0, 17.0 ],
+																	"style" : "",
+																	"text" : "value, key pairs"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-1",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 192.0, 197.0, 46.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl lookup"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-6",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"patching_rect" : [ 126.25, 165.0, 21.0, 19.0 ],
+																	"style" : "",
+																	"text" : "t 0"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-5",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "bang", "" ],
+																	"patching_rect" : [ 126.25, 130.0, 32.5, 19.0 ],
+																	"style" : "",
+																	"text" : "sel 0"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-2",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 3,
+																	"outlettype" : [ "bang", "bang", "" ],
+																	"patching_rect" : [ 50.0, 59.0, 46.0, 19.0 ],
+																	"style" : "",
+																	"text" : "t b b l"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-79",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "int" ],
+																	"patching_rect" : [ 77.0, 130.0, 32.5, 19.0 ],
+																	"style" : "",
+																	"text" : "- 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-77",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 63.5, 165.0, 43.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl group"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-48",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 50.0, 277.5, 43.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl group"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-45",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 77.0, 100.0, 42.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl sub 1"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 9.0,
+																	"id" : "obj-44",
+																	"maxclass" : "newobj",
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "", "" ],
+																	"patching_rect" : [ 63.5, 197.0, 46.0, 19.0 ],
+																	"style" : "",
+																	"text" : "zl lookup"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-82",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 50.0, 13.0, 25.0, 25.0 ],
+																	"style" : ""
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-85",
+																	"maxclass" : "inlet",
+																	"numinlets" : 0,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 172.5, 13.0, 25.0, 25.0 ],
+																	"style" : ""
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"comment" : "",
+																	"id" : "obj-86",
+																	"maxclass" : "outlet",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 50.0, 329.5, 25.0, 25.0 ],
+																	"style" : ""
+																}
+
+															}
+ ],
+														"lines" : [ 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-1", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-44", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-10", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-1", 1 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-11", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-48", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-15", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-45", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-2", 2 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-48", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-2", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-77", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-2", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-15", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-44", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-5", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-45", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-79", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-45", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-86", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-48", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-6", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-5", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-86", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-6", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-7", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-7", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-1", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-77", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-44", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-77", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-77", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-79", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-7", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-8", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-2", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-82", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-9", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-85", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-10", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-9", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-11", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-9", 1 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-8", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-9", 2 ]
+																}
+
+															}
+ ]
+													}
+,
+													"patching_rect" : [ 70.5, 51.0, 66.0, 19.0 ],
+													"saved_object_attributes" : 													{
+														"description" : "",
+														"digest" : "",
+														"fontsize" : 9.0,
+														"globalpatchername" : "",
+														"style" : "",
+														"tags" : ""
+													}
+,
+													"style" : "",
+													"text" : "p radio-to-text"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-69",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 73.5, 609.5, 77.0, 19.0 ],
+													"style" : "",
+													"text" : "prepend exclude"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-67",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 131.25, 456.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-66",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 142.75, 370.5, 30.0, 19.0 ],
+													"style" : "",
+													"text" : "sel 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-54",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 238.75, 344.5, 55.0, 19.0 ],
+													"style" : "",
+													"text" : "zl compare"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-50",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 149.5, 111.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer 0 getinfo"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-49",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 70.5, 142.0, 68.0, 19.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"externalfiles" : 1
+													}
+,
+													"style" : "",
+													"text" : "mubu #1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-7",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 70.5, 0.0, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-8",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 117.5, 0.0, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-103", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-50", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-103", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-67", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-103", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-91", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-103", 3 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-105", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-86", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-115", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-115", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-59", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-26", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-105", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-69", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-67", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-34", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-49", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-115", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-36", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-36", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-39", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-44", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-44", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-49", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-49", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-56", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-53", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-66", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-54", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-68", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-56", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-68", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-56", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-83", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-56", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-59", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-59", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-92", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-66", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-67", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-68", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-69", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-69", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-87", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-87", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-83", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-93", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-86", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-103", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-87", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-92", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-89", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-94", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-91", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-92", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-91", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-93", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-95", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-93", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-54", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-94", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-54", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-95", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 291.5, 122.0, 77.0, 19.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"style" : "",
+										"tags" : ""
+									}
+,
+									"style" : "",
+									"text" : "p include-buffers"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 7,
+											"minor" : 2,
+											"revision" : 4,
+											"architecture" : "x86",
+											"modernui" : 1
+										}
+,
+										"rect" : [ 34.0, 78.0, 706.0, 681.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 9.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 15,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 471.0, 445.5, 43.0, 19.0 ],
+													"style" : "",
+													"text" : "gate 2 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-10",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 548.0, 476.5, 63.0, 19.0 ],
+													"style" : "",
+													"text" : "store $1 $2 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-2",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 471.0, 10.0, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-39",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 160.75, 445.5, 29.5, 19.0 ],
+													"style" : "",
+													"text" : "i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 53.25, 114.0, 76.0, 17.0 ],
+													"style" : "",
+													"text" : "= getinfobuffer 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-44",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 432.0, 506.0, 30.0, 19.0 ],
+													"style" : "",
+													"text" : "clear"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontsize" : 9.0,
+													"id" : "obj-40",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 471.0, 476.5, 68.0, 19.0 ],
+													"style" : "",
+													"text" : "store $1 $2 $3"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontsize" : 9.0,
+													"id" : "obj-18",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 471.0, 506.0, 64.0, 19.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0
+													}
+,
+													"style" : "",
+													"text" : "coll keyvals 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 171.25, 607.0, 58.0, 19.0 ],
+													"style" : "",
+													"text" : "prepend set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-37",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 165.25, 636.5, 55.0, 17.0 ],
+													"style" : "",
+													"text" : "fill with 1s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-28",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "int", "int" ],
+													"patching_rect" : [ 171.25, 499.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "t b i i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-33",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 184.75, 557.0, 21.0, 19.0 ],
+													"style" : "",
+													"text" : "t 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-34",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 171.25, 583.0, 65.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 1024 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-36",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "int" ],
+													"patching_rect" : [ 184.75, 528.0, 46.0, 19.0 ],
+													"style" : "",
+													"text" : "uzi"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "int", "int", "int" ],
+													"patching_rect" : [ 160.75, 470.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "t i i i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-9",
+													"linecount" : 3,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 233.5, 249.0, 112.0, 37.0 ],
+													"style" : "",
+													"text" : "ensure longer list length for corpora with many files and/or keys"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-7",
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 7.0, 10.0, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-57",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 352.0, 400.5, 48.0, 19.0 ],
+													"style" : "",
+													"text" : "pack s s i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-55",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 181.75, 418.0, 32.5, 19.0 ],
+													"style" : "",
+													"text" : "+ 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-51",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 352.0, 371.5, 55.0, 17.0 ],
+													"style" : "",
+													"text" : "value, key"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-48",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 352.0, 445.5, 65.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 1024 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 25.75, 335.5, 29.5, 19.0 ],
+													"style" : "",
+													"text" : "t s s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-32",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 49.75, 307.5, 75.0, 17.0 ],
+													"style" : "",
+													"text" : "iterate over keys"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-31",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 25.75, 307.5, 23.0, 19.0 ],
+													"style" : "",
+													"text" : "iter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-29",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 25.75, 249.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 25.75, 278.0, 34.0, 19.0 ],
+													"style" : "",
+													"text" : "zl thin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "bang", "bang", "bang", "int" ],
+													"patching_rect" : [ 7.0, 76.0, 75.25, 19.0 ],
+													"style" : "",
+													"text" : "t b b b 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 44.5, 212.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "zl nth 4"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-20",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 44.5, 146.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer 0 getinfo"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 44.5, 176.0, 68.0, 19.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"externalfiles" : 1
+													}
+,
+													"style" : "",
+													"text" : "mubu #1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-17",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 27.0, 46.0, 75.0, 17.0 ],
+													"style" : "",
+													"text" : "first find all keys"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-15",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 161.5, 41.0, 86.0, 27.0 ],
+													"style" : "",
+													"text" : "then find all values for each key"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "", "bang" ],
+													"patching_rect" : [ 160.75, 364.5, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "t b s b"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-42",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 160.75, 335.5, 23.0, 19.0 ],
+													"style" : "",
+													"text" : "iter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 4,
+													"outlettype" : [ "int", "", "", "int" ],
+													"patching_rect" : [ 181.75, 392.5, 73.0, 19.0 ],
+													"style" : "",
+													"text" : "counter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-41",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 160.75, 307.5, 46.0, 19.0 ],
+													"style" : "",
+													"text" : "t l l l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-38",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 234.5, 499.0, 39.0, 19.0 ],
+													"style" : "",
+													"text" : "size $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-26",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 7.0, 46.0, 20.0, 20.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 160.5, 249.0, 70.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 group"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "" ],
+													"patching_rect" : [ 150.0, 113.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "t b b s"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 160.5, 278.0, 62.0, 19.0 ],
+													"style" : "",
+													"text" : "zl 10000 thin"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-16",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 180.375, 146.0, 83.0, 19.0 ],
+													"style" : "",
+													"text" : "buffer 0 getinfo $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 180.375, 176.0, 68.0, 19.0 ],
+													"saved_object_attributes" : 													{
+														"embed" : 0,
+														"externalfiles" : 1
+													}
+,
+													"style" : "",
+													"text" : "mubu #1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 180.375, 212.0, 45.0, 19.0 ],
+													"style" : "",
+													"text" : "zl ecils 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-3",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 352.0, 636.5, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-5",
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 234.5, 636.5, 25.0, 25.0 ],
+													"style" : ""
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-11", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-40", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-11", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-28", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-38", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-41", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-19", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-20", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-23", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-23", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-24", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-25", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-29", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-25", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 2 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 72.75, 101.0, 299.0, 101.0, 299.0, 393.0, 218.25, 393.0 ],
+													"source" : [ "obj-25", 3 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-48", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 16.5, 441.5, 361.5, 441.5 ],
+													"source" : [ "obj-25", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-25", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-26", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-28", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-28", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-30", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-29", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-31", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-31", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-34", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 35.25, 378.0, 144.5, 378.0, 144.5, 107.0, 159.5, 107.0 ],
+													"source" : [ "obj-35", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-57", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 45.75, 388.0, 376.0, 388.0 ],
+													"source" : [ "obj-35", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-33", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-36", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-38", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-39", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-55", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-40", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-41", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-57", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-43", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-48", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-55", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-57", 2 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-55", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-57", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-48", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-57", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-26", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 1 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 291.5, 89.0, 77.0, 19.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"fontsize" : 9.0,
+										"globalpatchername" : "",
+										"style" : "",
+										"tags" : ""
+									}
+,
+									"style" : "",
+									"text" : "p setup menus"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-75",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 502.0, 58.0, 34.0, 19.0 ],
+									"style" : "",
+									"text" : "size 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bblend" : 100,
+									"border" : 0,
+									"colhead" : 1,
+									"cols" : 3,
+									"colwidth" : 75,
+									"fblend" : 100,
+									"fontface" : 0,
+									"fontname" : "Geneva",
+									"fontsize" : 9.0,
+									"hscroll" : 0,
+									"id" : "obj-36",
+									"maxclass" : "jit.cellblock",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "list", "", "", "" ],
+									"outmode" : 2,
+									"patching_rect" : [ 0.0, 15.5, 219.0, 747.5 ],
+									"precision" : 4,
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 20.5, 219.0, 729.5 ],
+									"rowhead" : 1,
+									"rowheight" : 16,
+									"rows" : 1,
+									"selmode" : 5,
+									"varname" : "key-values",
+									"vscroll" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"disabled" : [ 0 ],
+									"id" : "obj-34",
+									"itemtype" : 1,
+									"maxclass" : "radiogroup",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 221.0, 31.0, 18.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 219.0, 34.5, 18.0, 18.0 ],
+									"size" : 1,
+									"style" : "",
+									"values" : [ 0 ],
+									"varname" : "select-keys"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 281.0, 31.0, 18.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 219.0, 20.5, 18.0, 18.0 ],
+									"style" : ""
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-27", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-75", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-59", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-68", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-72", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-34", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 373.5, 279.625, 105.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 373.5, 366.5, 105.0, 24.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p select-by-key",
+					"varname" : "select-by-key"
 				}
 
 			}
@@ -164,7 +3980,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 102.0, 153.0, 71.0, 19.0 ],
+					"patching_rect" : [ 111.0, 153.0, 71.0, 19.0 ],
 					"style" : "",
 					"text" : "s #1-frommubu"
 				}
@@ -279,12 +4095,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 556.0, 45.0, 724.0, 751.0 ],
+						"rect" : [ 545.0, 45.0, 735.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -350,9 +4166,9 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.817566, 134.5, 86.5, 19.0 ],
+									"patching_rect" : [ 509.817566, 134.5, 80.0, 19.0 ],
 									"style" : "",
-									"text" : "pack 0 1 3 2 4 5"
+									"text" : "pack 0 1 9 2 10 5"
 								}
 
 							}
@@ -489,12 +4305,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 783.0, 100.0, 230.0, 20.0 ],
+										"rect" : [ 772.0, 100.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -660,7 +4476,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Duration", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Mean", ",", "AC1StdDev" ],
+													"items" : "off",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -679,7 +4495,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 8,
+													"maximum" : 18,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -920,9 +4736,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 6,
 									"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
-									"patching_rect" : [ 509.817566, 163.5, 86.5, 19.0 ],
+									"patching_rect" : [ 509.817566, 163.5, 90.0, 19.0 ],
 									"style" : "",
-									"text" : "unpack 0 1 3 2 4 5"
+									"text" : "unpack 0 1 9 2 10 5"
 								}
 
 							}
@@ -977,8 +4793,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1369,8 +5185,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3032,8 +6848,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -3202,8 +7018,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3921,8 +7737,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -4839,8 +8655,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -5324,7 +9140,7 @@
 													"patching_rect" : [ 285.0, 439.917114, 110.0, 130.0 ],
 													"setminmax" : [ 0.0, 1.0 ],
 													"setstyle" : 1,
-													"size" : 9,
+													"size" : 19,
 													"spacing" : 2,
 													"style" : ""
 												}
@@ -5357,7 +9173,7 @@
 													"patching_rect" : [ 95.0, 439.917114, 110.0, 130.0 ],
 													"setminmax" : [ -99999.0, 99999.0 ],
 													"signed" : 1,
-													"size" : 9,
+													"size" : 19,
 													"spacing" : 7,
 													"style" : ""
 												}
@@ -6430,12 +10246,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 1010.0, 62.0, 230.0, 20.0 ],
+										"rect" : [ 999.0, 62.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -6601,7 +10417,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Duration", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Mean", ",", "AC1StdDev" ],
+													"items" : "off",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -6620,7 +10436,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 8,
+													"maximum" : 18,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -6810,12 +10626,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 783.0, 62.0, 230.0, 20.0 ],
+										"rect" : [ 772.0, 62.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -6981,7 +10797,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "off", ",", "Duration", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Mean", ",", "AC1StdDev" ],
+													"items" : "off",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -7000,7 +10816,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 8,
+													"maximum" : 18,
 													"minimum" : -1,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -7166,11 +10982,11 @@
 									"bufferchooser_visible" : 1,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 									"cursor_followmouse" : 0,
-									"cursor_position" : 2447.074951,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "circle",
 									"cursor_size" : 3,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 0.0, 2458.684807 ],
+									"domain_bounds" : [ 0.0, 0.0 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -7196,15 +11012,17 @@
 									"outputkeys" : -2147483648,
 									"outputmouse" : 1,
 									"outputselection" : 1,
+									"outputtimeselection" : 0,
 									"outputvalues" : -2147483648,
-									"patching_rect" : [ 6.817566, 197.5, 717.0, 553.0 ],
+									"patching_rect" : [ 6.817566, 197.5, 728.0, 553.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -0.182434, 97.0, 724.0, 654.0 ],
+									"presentation_rect" : [ -0.182434, 97.0, 735.0, 654.0 ],
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 40,
 									"rangeruler_visible" : 1,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -7275,12 +11093,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 556.0, 100.0, 230.0, 20.0 ],
+										"rect" : [ 545.0, 100.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -7416,7 +11234,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "Duration", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Mean", ",", "AC1StdDev" ],
+													"items" : "<empty>",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -7435,7 +11253,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 8,
+													"maximum" : 18,
 													"minimum" : 0,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -7591,12 +11409,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 556.0, 62.0, 230.0, 20.0 ],
+										"rect" : [ 545.0, 62.0, 230.0, 20.0 ],
 										"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
@@ -7732,7 +11550,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-113",
-													"items" : [ "Duration", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Mean", ",", "AC1StdDev" ],
+													"items" : "<empty>",
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -7751,7 +11569,7 @@
 													"fontsize" : 10.0,
 													"id" : "obj-53",
 													"maxclass" : "number",
-													"maximum" : 8,
+													"maximum" : 18,
 													"minimum" : 0,
 													"numinlets" : 1,
 													"numoutlets" : 2,
@@ -7954,7 +11772,7 @@
 									"destination" : [ "obj-145", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 573.317566, 189.0, 696.063416, 189.0, 696.063416, 48.5, 243.317566, 48.5 ],
+									"midpoints" : [ 576.117554, 189.0, 696.063416, 189.0, 696.063416, 48.5, 243.317566, 48.5 ],
 									"source" : [ "obj-12", 4 ]
 								}
 
@@ -7964,7 +11782,7 @@
 									"destination" : [ "obj-192", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 586.817566, 190.0, 715.563416, 190.0, 715.563416, 9.0, 470.317566, 9.0 ],
+									"midpoints" : [ 590.317566, 190.0, 715.563416, 190.0, 715.563416, 9.0, 470.317566, 9.0 ],
 									"source" : [ "obj-12", 5 ]
 								}
 
@@ -7974,7 +11792,7 @@
 									"destination" : [ "obj-211", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 559.817566, 190.0, 712.313416, 190.0, 712.313416, 9.0, 243.317566, 9.0 ],
+									"midpoints" : [ 561.917542, 190.0, 712.313416, 190.0, 712.313416, 9.0, 243.317566, 9.0 ],
 									"source" : [ "obj-12", 3 ]
 								}
 
@@ -7984,7 +11802,7 @@
 									"destination" : [ "obj-228", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 546.317566, 190.0, 720.563416, 190.0, 720.563416, 48.5, 16.317566, 48.5 ],
+									"midpoints" : [ 547.71759, 190.0, 720.563416, 190.0, 720.563416, 48.5, 16.317566, 48.5 ],
 									"source" : [ "obj-12", 2 ]
 								}
 
@@ -7994,7 +11812,7 @@
 									"destination" : [ "obj-229", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 532.817566, 190.0, 719.813416, 190.0, 719.813416, 7.0, 16.317566, 7.0 ],
+									"midpoints" : [ 533.517578, 190.0, 719.813416, 190.0, 719.813416, 7.0, 16.317566, 7.0 ],
 									"source" : [ "obj-12", 1 ]
 								}
 
@@ -8031,7 +11849,7 @@
 									"destination" : [ "obj-5", 4 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 243.317566, 87.5, 719.813416, 87.5, 719.813416, 129.0, 573.317566, 129.0 ],
+									"midpoints" : [ 243.317566, 87.5, 719.813416, 87.5, 719.813416, 129.0, 568.117554, 129.0 ],
 									"source" : [ "obj-145", 0 ]
 								}
 
@@ -8095,7 +11913,7 @@
 									"destination" : [ "obj-5", 5 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 470.317566, 48.0, 722.563416, 48.0, 722.563416, 129.0, 586.817566, 129.0 ],
+									"midpoints" : [ 470.317566, 48.0, 722.563416, 48.0, 722.563416, 129.0, 580.317566, 129.0 ],
 									"source" : [ "obj-192", 0 ]
 								}
 
@@ -8114,7 +11932,7 @@
 									"destination" : [ "obj-5", 3 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 243.317566, 48.0, 714.063416, 48.0, 714.063416, 130.0, 559.817566, 130.0 ],
+									"midpoints" : [ 243.317566, 48.0, 714.063416, 48.0, 714.063416, 130.0, 555.917542, 130.0 ],
 									"source" : [ "obj-211", 0 ]
 								}
 
@@ -8172,7 +11990,7 @@
 									"destination" : [ "obj-5", 2 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 16.317566, 87.5, 718.313416, 87.5, 718.313416, 130.0, 546.317566, 130.0 ],
+									"midpoints" : [ 16.317566, 87.5, 718.313416, 87.5, 718.313416, 130.0, 543.71759, 130.0 ],
 									"source" : [ "obj-228", 0 ]
 								}
 
@@ -8200,7 +12018,7 @@
 									"destination" : [ "obj-5", 1 ],
 									"disabled" : 0,
 									"hidden" : 1,
-									"midpoints" : [ 716.563416, 48.0, 716.563416, 131.0, 532.817566, 131.0 ],
+									"midpoints" : [ 716.563416, 48.0, 716.563416, 131.0, 531.517578, 131.0 ],
 									"source" : [ "obj-229", 0 ]
 								}
 
@@ -8364,16 +12182,16 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-119",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.587036, 277.25, 134.0, 47.0 ],
+					"patching_rect" : [ 769.587036, 277.25, 138.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 769.587036, 288.5, 134.0, 47.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 769.587036, 288.5, 134.0, 60.0 ],
 					"style" : "",
-					"text" : "and Python 2.7 with NumPy, SciPy, and Matplotlib installed"
+					"text" : "and Python 2.7 with NumPy-1.7.1, SciPy-0.12.0, and Matplotlib-1.2.1 "
 				}
 
 			}
@@ -8401,8 +12219,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -8441,7 +12259,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 15.0, 17.0, 60.0, 22.0 ],
+									"patching_rect" : [ 15.0, 3.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -8454,7 +12272,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 110.0, 73.0, 22.0 ],
+									"patching_rect" : [ 15.0, 69.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "print credits"
 								}
@@ -8468,9 +12286,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 43.0, 978.0, 35.0 ],
+									"patching_rect" : [ 15.0, 29.0, 971.0, 35.0 ],
 									"style" : "",
-									"text" : "CatOracle-0.5.0 for MuBuForMax-1.8.10-Max-6-7 or later, patch contributed by Aaron Einbond, based on CataRT and MuBu by the Sound Music Movement Interaction Team (ISMM), Ircam–CNRS–STMS Centre Pompidou copyright (c) 2015, published as Free Software under the Ircam FORUM libre license."
+									"text" : "CatOracle-0.6.0 for MuBuForMax-1.9.0-Max-6-7 or later, patch contributed by Aaron Einbond, based on CataRT and MuBu by the Sound Music Movement Interaction Team (ISMM), Ircam–CNRS–STMS Centre Pompidou copyright (c) 2015, published as Free Software under the Ircam FORUM libre license."
 								}
 
 							}
@@ -8486,7 +12304,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 540.0, 138.0, 478.0, 622.0 ],
+									"patching_rect" : [ 540.0, 96.0, 478.0, 622.0 ],
 									"style" : "",
 									"text" : "© CNAC-GP/IRCAM 2008 \npage 1/1 – version mars 2008 \n\nIRCAM Forum Free \nFreeware License Agreement \n \nArticle 1 – Conditions for Distribution and Use  \n\nThe software programs covered by this agreement are distributed in binary form only \nand are accompanied by examples. The user is free to create their own non- \ncommercial applications for scientific research, educational activities, and musical \nproduction. \n \nAny applications that result in a commercial product or service require separate \nwritten agreement with IRCAM.  \n\nArticle 2 – Ownership, Commercial Usage and Distribution \n\nAll software programs, elements of any software programs, and documents \ncopyrighted by IRCAM and distributed via the IRCAM Forum Free remain the \nproperty of IRCAM. These software programs cannot be rented, sold, or exchanged \nwithout prior consent from IRCAM. \n\nArticle 3 - Copyright  \n\nThe user is not authorized to modify or remove the names of the authors or the \nIRCAM copyright or the names of members present in any programs or \ndocumentation. The user is required to cite IRCAM during any presentation of any \nIRCAM software programs or their extensions.  \n\nArticle 4 - Disclaimer of Warranty \n\nThe software programs provided by IRCAM Forum Free are provided without \nwarranties of any kind. IRCAM disclaims all warranties, express or implied. In no \nevent will IRCAM be liable for damages, including any general, special, incidental or \nconsequential damages arising out of the use or inability to use the program The \nentire risk as to the quality and performance of the program is with the user. \n \nArticle 5 – Unauthorized Editions  \n\nAny independent development of IRCAM software programs that consist of a \nreproduction of a software program, or an element of any IRCAM software program \nwill be considered counterfeit and any commercial distribution of any counterfeit \nversion(s) will be considered an act of plagiarism.   \n\n (March 2008) "
 								}
@@ -8504,7 +12322,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 138.0, 478.0, 622.0 ],
+									"patching_rect" : [ 15.0, 96.0, 478.0, 622.0 ],
 									"style" : "",
 									"text" : "© CNAC-GP/IRCAM 2008 \npage 1/1 – version mars 2008 \n\nLicence d’utilisation des logiciels du Forum Libre \nUtilisations permises de la licence \n \nArticle 1 - Conditions de distribution et d’utilisation \n \nLes logiciels couverts par cette licence sont distribués sous forme binaire seulement \net sont accompagnés d’exemples d’utilisation. L’utilisateur est libre de créer des \napplications non-commerciales dans les domaines de la recherche, l’enseignement \net la production musicale.  \n \nToute application donnant lieu à un produit ou à un service commercial nécessite \nl’accord préalable de l’Ircam. \n \nArticle 2 – Propriété et Exploitation commerciale \n\nL’Ircam reste propriétaire des logiciels ou portions des logiciels et des documents \nportant son copyright qu’il diffuse dans le cadre du Forum Libre. Les logiciels Ircam \nne peuvent être ni loués, ni vendus, ni échangés sans autorisation de l’Ircam. \n\nArticle 3 - Copyright et mentions obligatoires \n\nL’utilisateur doit laisser intactes toutes mentions des auteurs et copyright de l’Ircam \nou des membres figurant dans les programmes ou sur les documentations. Il \ns’engage également à mentionner le nom de l’Ircam lors de toute présentation des \nlogiciels Ircam ou de leurs extensions. \n\nArticle 4 - Exclusion de garantie-responsabilité \n\nLes logiciels fournis par le Forum ne peuvent être garantis contre tout \ndysfonctionnement ou pour un quelconque usage particulier. L’Ircam ne peut être \ntenu responsable des conséquences de l’utilisation de ses logiciels. Vous \nreconnaissez et admettez expressément que l’utilisation des logiciels Ircam est à vos \nrisques et périls. \n\nArticle 5 – Contrefaçon \n\nTout développement indépendant des logiciels de l’Ircam qui serait une reproduction \nde tout ou partie d’éléments des logiciels Ircam et qui serait accompagné ou non  \nd’une exploitation par l’utilisateur serait passible d’une action en contrefaçon.\n \n(Version mars 2008) "
 								}
@@ -8765,11 +12583,12 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.587036, 222.25, 134.0, 20.0 ],
+					"patching_rect" : [ 769.587036, 222.25, 146.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 769.587036, 233.0, 134.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 769.587036, 233.0, 134.0, 33.0 ],
 					"style" : "",
-					"text" : "requires bach package"
+					"text" : "requires bach 0.7.8 beta"
 				}
 
 			}
@@ -8833,8 +12652,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -9380,3778 +13199,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-129",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 314.0, 45.0, 242.0, 751.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 9.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
-						"lefttoolbarpinned" : 2,
-						"toptoolbarpinned" : 2,
-						"righttoolbarpinned" : 2,
-						"bottomtoolbarpinned" : 2,
-						"toolbars_unpinned_last_save" : 15,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 333.0, 1.5, 58.0, 19.0 ],
-									"style" : "",
-									"text" : "r #1-clearall"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "bang", "bang", "bang" ],
-									"patching_rect" : [ 395.0, 31.0, 40.0, 19.0 ],
-									"style" : "",
-									"text" : "b 3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontsize" : 9.0,
-									"id" : "obj-59",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 520.0, 58.0, 126.0, 19.0 ],
-									"style" : "",
-									"text" : "clear, store value: key: voice:"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-58",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 395.0, 1.5, 48.0, 19.0 ],
-									"style" : "",
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontsize" : 9.0,
-									"id" : "obj-44",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 356.0, 91.0, 30.0, 19.0 ],
-									"style" : "",
-									"text" : "clear"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontsize" : 9.0,
-									"id" : "obj-18",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 395.0, 91.0, 64.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"embed" : 0
-									}
-,
-									"style" : "",
-									"text" : "coll keyvals 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-68",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 395.0, 58.0, 62.0, 19.0 ],
-									"style" : "",
-									"text" : "refer keyvals"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-7",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 351.0, 143.5, 19.0, 19.0 ],
-									"style" : ""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.0, 190.0, 31.0, 19.0 ],
-									"style" : "",
-									"text" : "defer"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.0, 143.5, 96.0, 19.0 ],
-									"style" : "",
-									"text" : "r #1-select-keys"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "bang", "bang", "bang" ],
-									"patching_rect" : [ 253.0, 27.0, 40.0, 19.0 ],
-									"style" : "",
-									"text" : "b 3"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-72",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.0, 1.5, 79.0, 19.0 ],
-									"style" : "",
-									"text" : "r #1-refresh"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 0,
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 7,
-											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"rect" : [ 70.0, 45.0, 831.0, 752.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 0,
-										"lefttoolbarpinned" : 2,
-										"toptoolbarpinned" : 2,
-										"righttoolbarpinned" : 2,
-										"bottomtoolbarpinned" : 2,
-										"toolbars_unpinned_last_save" : 15,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"boxes" : [ 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-11",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 169.5, 643.5, 49.0, 19.0 ],
-													"style" : "",
-													"text" : "exclude 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-83",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 365.5, 609.5, 137.0, 19.0 ],
-													"style" : "",
-													"text" : "view descr inactivebufferindices"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-68",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 169.5, 609.5, 47.0, 19.0 ],
-													"style" : "",
-													"text" : "include 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-59",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 131.25, 513.0, 62.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 sort"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-56",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 169.5, 583.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "sel 1 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-53",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 169.5, 551.0, 82.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 compare"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-52",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 257.75, 551.0, 61.0, 17.0 ],
-													"style" : "",
-													"text" : "all included?"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-44",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 73.5, 230.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-43",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "int" ],
-													"patching_rect" : [ 70.5, 197.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "uzi"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-39",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 73.5, 551.0, 74.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 unique"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-36",
-													"maxclass" : "newobj",
-													"numinlets" : 3,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 70.5, 168.0, 163.5, 19.0 ],
-													"style" : "",
-													"text" : "route numbuffers buffer"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-35",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.5, 111.0, 68.0, 19.0 ],
-													"style" : "",
-													"text" : "getnumbuffers"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-34",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "int", "int" ],
-													"patching_rect" : [ 142.75, 426.5, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "change"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 73.5, 583.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "t l l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-28",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 231.0, 637.5, 126.0, 19.0 ],
-													"style" : "",
-													"text" : "view descr buffersopacity 0.9"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-21",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 131.25, 484.0, 62.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 thin"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-26",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 16.5, 637.5, 19.0, 19.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 16.5, 702.5, 112.0, 19.0 ],
-													"style" : "",
-													"text" : "print inactivebufferindices"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 16.5, 670.0, 43.0, 19.0 ],
-													"style" : "",
-													"text" : "gate 1 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"color" : [ 0.890196, 0.564706, 0.078431, 1.0 ],
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 73.5, 670.0, 92.0, 19.0 ],
-													"presentation" : 1,
-													"presentation_linecount" : 3,
-													"presentation_rect" : [ 62.5, 151.0, 57.0, 39.0 ],
-													"style" : "",
-													"text" : "s #1-mubu.knn"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"color" : [ 0.890196, 0.564706, 0.078431, 1.0 ],
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 231.0, 670.0, 77.0, 19.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 359.0, 21.0, 93.0, 19.0 ],
-													"style" : "",
-													"text" : "s #1-imubu"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"allowdrag" : 0,
-													"fontsize" : 9.0,
-													"id" : "obj-77",
-													"items" : [ "union", ",", "intersection" ],
-													"maxclass" : "umenu",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "int", "", "" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 400.5, 384.5, 79.5, 19.0 ],
-													"presentation" : 1,
-													"presentation_rect" : [ 358.5, 80.0, 100.0, 19.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-81",
-													"maxclass" : "number",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 400.5, 439.5, 48.0, 19.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-78",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patching_rect" : [ 400.5, 413.5, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "+ 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-76",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 476.0, 439.5, 43.0, 19.0 ],
-													"style" : "",
-													"text" : "gate 2 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-74",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 532.0, 467.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "t l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-75",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 532.0, 501.0, 36.0, 19.0 ],
-													"style" : "",
-													"text" : "zl sect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-72",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 476.0, 467.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "t l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-73",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 476.0, 501.0, 42.0, 19.0 ],
-													"style" : "",
-													"text" : "zl union"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-32",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 508.5, 184.0, 38.0, 19.0 ],
-													"style" : "",
-													"text" : "zl rot 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-29",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 449.0, 92.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-27",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 508.5, 268.5, 68.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"externalfiles" : 1
-													}
-,
-													"style" : "",
-													"text" : "mubu #1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 449.0, 529.0, 33.0, 19.0 ],
-													"style" : "",
-													"text" : "zl reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-16",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 476.0, 413.5, 43.0, 19.0 ],
-													"style" : "",
-													"text" : "zl group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-15",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 425.5, 67.0, 138.0, 17.0 ],
-													"style" : "",
-													"text" : "query buffers for key values"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 508.5, 348.5, 21.0, 19.0 ],
-													"style" : "",
-													"text" : "t b"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-13",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 551.5, 318.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "zl nth 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-10",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patching_rect" : [ 508.5, 384.5, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "i"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-9",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 508.5, 292.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "t l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-5",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 508.5, 318.0, 36.0, 19.0 ],
-													"style" : "",
-													"text" : "zl sect"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-4",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 508.5, 241.0, 83.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer 0 getinfo $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 508.5, 214.0, 54.0, 19.0 ],
-													"style" : "",
-													"text" : "unpack s s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-2",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 462.5, 126.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "zl iter 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-1",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 462.5, 155.0, 46.0, 19.0 ],
-													"style" : "",
-													"text" : "t b b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-115",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 142.75, 197.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "t l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-100",
-													"linecount" : 3,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 201.75, 413.5, 122.0, 37.0 ],
-													"style" : "",
-													"text" : "TODO: add options for different boolean operations on multiple keys"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-95",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 280.75, 316.5, 38.0, 19.0 ],
-													"style" : "",
-													"text" : "zl rot 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-94",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 238.75, 316.5, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "zl iter 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-93",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 238.75, 258.0, 55.0, 19.0 ],
-													"style" : "",
-													"text" : "t b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-92",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patching_rect" : [ 142.75, 398.5, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "i"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-91",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 238.75, 287.0, 33.0, 19.0 ],
-													"style" : "",
-													"text" : "zl reg"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-89",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 156.25, 230.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "zl nth 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-86",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 238.75, 230.0, 45.0, 19.0 ],
-													"style" : "",
-													"text" : "zl ecils 2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-18",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 70.5, 26.0, 109.0, 17.0 ],
-													"style" : "",
-													"text" : "then inclue/exclude units"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-105",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 364.5, 637.5, 172.0, 19.0 ],
-													"style" : "",
-													"text" : "prepend view descr inactivebufferindices"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-103",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "bang", "" ],
-													"patching_rect" : [ 70.5, 78.0, 201.25, 19.0 ],
-													"style" : "",
-													"text" : "t b b b l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-87",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patcher" : 													{
-														"fileversion" : 1,
-														"appversion" : 														{
-															"major" : 7,
-															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
-															"modernui" : 1
-														}
-,
-														"rect" : [ 606.0, 78.0, 640.0, 454.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 9.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
-														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 0,
-														"lefttoolbarpinned" : 2,
-														"toptoolbarpinned" : 2,
-														"righttoolbarpinned" : 2,
-														"bottomtoolbarpinned" : 2,
-														"toolbars_unpinned_last_save" : 15,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"boxes" : [ 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-15",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 63.5, 241.0, 36.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl lace"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-12",
-																	"maxclass" : "comment",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 95.0, 277.5, 73.0, 17.0 ],
-																	"style" : "",
-																	"text" : "value, key pairs"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-3",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 143.0, 59.0, 46.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl delace"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-1",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 143.0, 197.0, 46.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl lookup"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-6",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 126.25, 165.0, 21.0, 19.0 ],
-																	"style" : "",
-																	"text" : "t 0"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-5",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "bang", "" ],
-																	"patching_rect" : [ 126.25, 130.0, 32.5, 19.0 ],
-																	"style" : "",
-																	"text" : "sel 0"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-2",
-																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 3,
-																	"outlettype" : [ "bang", "bang", "" ],
-																	"patching_rect" : [ 50.0, 59.0, 46.0, 19.0 ],
-																	"style" : "",
-																	"text" : "t b b l"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-79",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
-																	"patching_rect" : [ 76.25, 130.0, 32.5, 19.0 ],
-																	"style" : "",
-																	"text" : "- 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-77",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 63.5, 165.0, 43.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl group"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-48",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 277.5, 43.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl group"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-45",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 76.25, 100.0, 42.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl sub 1"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 9.0,
-																	"id" : "obj-44",
-																	"maxclass" : "newobj",
-																	"numinlets" : 2,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 63.5, 197.0, 46.0, 19.0 ],
-																	"style" : "",
-																	"text" : "zl lookup"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-82",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 13.0, 25.0, 25.0 ],
-																	"style" : ""
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-85",
-																	"maxclass" : "inlet",
-																	"numinlets" : 0,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 143.0, 13.0, 25.0, 25.0 ],
-																	"style" : ""
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"comment" : "",
-																	"id" : "obj-86",
-																	"maxclass" : "outlet",
-																	"numinlets" : 1,
-																	"numoutlets" : 0,
-																	"patching_rect" : [ 50.0, 329.5, 25.0, 25.0 ],
-																	"style" : ""
-																}
-
-															}
- ],
-														"lines" : [ 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-15", 1 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-1", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-48", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-15", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-45", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-2", 2 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-48", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-2", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-77", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-2", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 1 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-3", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-44", 1 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-3", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-15", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-44", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-5", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-45", 1 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-79", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-45", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-86", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-48", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-6", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-5", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-86", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-6", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-1", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-77", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-44", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-77", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-77", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-79", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-2", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-82", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
-																	"destination" : [ "obj-3", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-85", 0 ]
-																}
-
-															}
- ]
-													}
-,
-													"patching_rect" : [ 70.5, 51.0, 66.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"fontsize" : 9.0,
-														"globalpatchername" : "",
-														"style" : "",
-														"tags" : ""
-													}
-,
-													"style" : "",
-													"text" : "p radio-to-text"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-69",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 73.5, 609.5, 77.0, 19.0 ],
-													"style" : "",
-													"text" : "prepend exclude"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-67",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 131.25, 456.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-66",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 142.75, 370.5, 30.0, 19.0 ],
-													"style" : "",
-													"text" : "sel 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-54",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 238.75, 344.5, 55.0, 19.0 ],
-													"style" : "",
-													"text" : "zl compare"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-50",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 149.5, 111.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer 0 getinfo"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-49",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.5, 142.0, 68.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"externalfiles" : 1
-													}
-,
-													"style" : "",
-													"text" : "mubu #1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-7",
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 70.5, 0.0, 25.0, 25.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-8",
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 117.5, 0.0, 25.0, 25.0 ],
-													"style" : ""
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-1", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-32", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-1", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-10", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-103", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-50", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-103", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-67", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-103", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-91", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-103", 3 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-105", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-11", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-86", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-115", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-89", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-115", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-10", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-13", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-76", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-2", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-59", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-21", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-26", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-9", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-27", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-2", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-29", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-29", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-3", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-105", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-30", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-30", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-69", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-32", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-67", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-34", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-49", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-115", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-36", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-43", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-36", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-27", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-44", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-44", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-44", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-53", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-44", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-36", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-49", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-5", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-49", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-50", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-56", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-53", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-66", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-54", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-68", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-56", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-83", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-56", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-59", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-53", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-59", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-92", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-66", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-67", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-68", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-69", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-69", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-87", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-7", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-73", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-72", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-73", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-72", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-73", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-75", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-74", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-75", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-74", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-75", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-72", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-76", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-74", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-76", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-78", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-77", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-81", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-78", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-87", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-8", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-76", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-81", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-83", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-93", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-86", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-103", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-87", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-92", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-89", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-9", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-9", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-94", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-91", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-34", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-92", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-91", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-93", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-95", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-93", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-54", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-94", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-54", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-95", 0 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 263.5, 91.0, 77.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"style" : "",
-										"tags" : ""
-									}
-,
-									"style" : "",
-									"text" : "p include-buffers"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 7,
-											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"rect" : [ 34.0, 78.0, 706.0, 681.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 9.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
-										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 0,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 15,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-1",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 53.25, 114.0, 76.0, 17.0 ],
-													"style" : "",
-													"text" : "= getinfobuffer 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-44",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 432.0, 506.0, 30.0, 19.0 ],
-													"style" : "",
-													"text" : "clear"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontsize" : 9.0,
-													"id" : "obj-40",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 471.0, 436.5, 63.0, 19.0 ],
-													"style" : "",
-													"text" : "store $1 $2 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontsize" : 9.0,
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 471.0, 506.0, 64.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0
-													}
-,
-													"style" : "",
-													"text" : "coll keyvals 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-6",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 171.25, 594.0, 58.0, 19.0 ],
-													"style" : "",
-													"text" : "prepend set"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-37",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 165.25, 623.5, 55.0, 17.0 ],
-													"style" : "",
-													"text" : "fill with 1s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-28",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "int", "int" ],
-													"patching_rect" : [ 171.25, 486.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "t b i i"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-33",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patching_rect" : [ 184.75, 544.0, 21.0, 19.0 ],
-													"style" : "",
-													"text" : "t 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-34",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 171.25, 570.0, 65.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 1024 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-36",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "int" ],
-													"patching_rect" : [ 184.75, 515.0, 46.0, 19.0 ],
-													"style" : "",
-													"text" : "uzi"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-13",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "int", "int", "int" ],
-													"patching_rect" : [ 160.75, 457.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "t i i i"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-9",
-													"linecount" : 3,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 233.5, 249.0, 112.0, 37.0 ],
-													"style" : "",
-													"text" : "ensure longer list length for corpora with many files and/or keys"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-7",
-													"maxclass" : "inlet",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 7.0, 10.0, 25.0, 25.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-57",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 352.0, 400.5, 44.0, 19.0 ],
-													"style" : "",
-													"text" : "pack s s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-55",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"patching_rect" : [ 160.75, 431.0, 32.5, 19.0 ],
-													"style" : "",
-													"text" : "+ 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-51",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 352.0, 371.5, 55.0, 17.0 ],
-													"style" : "",
-													"text" : "value, key"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-48",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 352.0, 436.5, 65.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 1024 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-35",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 25.75, 335.5, 29.5, 19.0 ],
-													"style" : "",
-													"text" : "t s s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-32",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 49.75, 307.5, 75.0, 17.0 ],
-													"style" : "",
-													"text" : "iterate over keys"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-31",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 25.75, 307.5, 23.0, 19.0 ],
-													"style" : "",
-													"text" : "iter"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-29",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 25.75, 249.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-30",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 25.75, 278.0, 34.0, 19.0 ],
-													"style" : "",
-													"text" : "zl thin"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-25",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 4,
-													"outlettype" : [ "bang", "bang", "bang", "int" ],
-													"patching_rect" : [ 7.0, 76.0, 75.25, 19.0 ],
-													"style" : "",
-													"text" : "t b b b 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-22",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 44.5, 212.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "zl nth 4"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-20",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 44.5, 146.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer 0 getinfo"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-21",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 44.5, 176.0, 68.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"externalfiles" : 1
-													}
-,
-													"style" : "",
-													"text" : "mubu #1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-17",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 27.0, 46.0, 75.0, 17.0 ],
-													"style" : "",
-													"text" : "first find all keys"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-15",
-													"linecount" : 2,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 161.5, 41.0, 86.0, 27.0 ],
-													"style" : "",
-													"text" : "then find all values for each key"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-43",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 160.75, 364.5, 29.5, 19.0 ],
-													"style" : "",
-													"text" : "t b s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-42",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 160.75, 335.5, 23.0, 19.0 ],
-													"style" : "",
-													"text" : "iter"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 5,
-													"numoutlets" : 4,
-													"outlettype" : [ "int", "", "", "int" ],
-													"patching_rect" : [ 160.75, 400.5, 73.0, 19.0 ],
-													"style" : "",
-													"text" : "counter"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-41",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 160.75, 307.5, 46.0, 19.0 ],
-													"style" : "",
-													"text" : "t l l l"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-38",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 234.5, 486.0, 39.0, 19.0 ],
-													"style" : "",
-													"text" : "size $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-26",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 7.0, 46.0, 20.0, 20.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-24",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 160.5, 249.0, 70.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 group"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-23",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 3,
-													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 150.0, 113.0, 40.0, 19.0 ],
-													"style" : "",
-													"text" : "t b b s"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-19",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 160.5, 278.0, 62.0, 19.0 ],
-													"style" : "",
-													"text" : "zl 10000 thin"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-16",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 180.375, 146.0, 83.0, 19.0 ],
-													"style" : "",
-													"text" : "buffer 0 getinfo $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 180.375, 176.0, 68.0, 19.0 ],
-													"saved_object_attributes" : 													{
-														"embed" : 0,
-														"externalfiles" : 1
-													}
-,
-													"style" : "",
-													"text" : "mubu #1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-8",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 180.375, 212.0, 45.0, 19.0 ],
-													"style" : "",
-													"text" : "zl ecils 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-3",
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 352.0, 623.5, 25.0, 25.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-5",
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 234.5, 623.5, 25.0, 25.0 ],
-													"style" : ""
-												}
-
-											}
- ],
-										"lines" : [ 											{
-												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-13", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-38", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-13", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-8", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-41", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-19", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-20", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-22", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-21", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-29", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-22", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-23", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-23", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-19", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-24", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-20", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-25", 2 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-29", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-25", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 2 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"midpoints" : [ 72.75, 101.0, 299.0, 101.0, 299.0, 393.0, 197.25, 393.0 ],
-													"source" : [ "obj-25", 3 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-48", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"midpoints" : [ 16.5, 426.5, 361.5, 426.5 ],
-													"source" : [ "obj-25", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-25", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-26", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-34", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-28", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-36", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-28", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-30", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-29", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-31", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-30", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-35", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-31", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-34", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-33", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-6", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-34", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-23", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"midpoints" : [ 35.25, 378.0, 144.5, 378.0, 144.5, 107.0, 159.5, 107.0 ],
-													"source" : [ "obj-35", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-57", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"midpoints" : [ 45.75, 388.0, 386.5, 388.0 ],
-													"source" : [ "obj-35", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-33", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-36", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-38", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-55", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-18", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-40", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-42", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-41", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-43", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-42", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-57", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-43", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-18", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-44", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-48", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-55", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-40", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-57", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-48", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-57", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-26", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-7", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-24", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-8", 1 ]
-												}
-
-											}
- ]
-									}
-,
-									"patching_rect" : [ 263.5, 58.0, 77.0, 19.0 ],
-									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"fontsize" : 9.0,
-										"globalpatchername" : "",
-										"style" : "",
-										"tags" : ""
-									}
-,
-									"style" : "",
-									"text" : "p setup menus"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
-									"id" : "obj-75",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 471.0, 58.0, 34.0, 19.0 ],
-									"style" : "",
-									"text" : "size 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bblend" : 100,
-									"border" : 0,
-									"colhead" : 1,
-									"cols" : 3,
-									"colwidth" : 75,
-									"fblend" : 100,
-									"fontface" : 0,
-									"fontname" : "Geneva",
-									"fontsize" : 9.0,
-									"hscroll" : 0,
-									"id" : "obj-36",
-									"maxclass" : "jit.cellblock",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "list", "", "", "" ],
-									"outmode" : 2,
-									"patching_rect" : [ 0.0, 1.5, 219.0, 747.5 ],
-									"precision" : 4,
-									"presentation" : 1,
-									"presentation_rect" : [ -5.0, 16.5, 321.0, 204.5 ],
-									"rowhead" : 1,
-									"rowheight" : 16,
-									"rows" : 7,
-									"selmode" : 5,
-									"varname" : "key-values",
-									"vscroll" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"disabled" : [ 0, 0, 0, 0, 0, 0 ],
-									"id" : "obj-34",
-									"itemtype" : 1,
-									"maxclass" : "radiogroup",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 221.0, 15.5, 18.0, 98.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 216.0, 16.5, 18.0, 98.0 ],
-									"size" : 6,
-									"style" : "",
-									"values" : [ 1, 1, 1, 1, 1, 1 ],
-									"varname" : "select-keys"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 221.0, 1.5, 18.0, 18.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 216.0, -0.5, 18.0, 18.0 ],
-									"style" : ""
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-34", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-44", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-68", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-75", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-5", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-58", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-59", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-68", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-72", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-34", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-75", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-8", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 373.5, 279.625, 105.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 373.5, 366.5, 105.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 9.0,
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p select-by-key",
-					"varname" : "select-by-key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-183",
 					"maxclass" : "comment",
@@ -13369,12 +13416,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 45.0, 1280.0, 705.0 ],
+						"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -13402,6 +13449,58 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-175",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1143.0, 15.0, 45.0, 19.0 ],
+									"style" : "",
+									"text" : "getzoom"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-86",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 272.0, 15.0, 85.0, 19.0 ],
+									"style" : "",
+									"text" : "domain 1000 2000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-84",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 233.0, 437.833374, 85.0, 19.0 ],
+									"style" : "",
+									"text" : "domain 5000 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-70",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 372.0, 15.0, 52.0, 19.0 ],
+									"style" : "",
+									"text" : "exportmidi"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -13497,7 +13596,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 13.0, 668.4729, 156.0, 19.0 ],
 									"style" : "",
-									"text" : "Schaller-tape.2.wav"
+									"text" : "Melodica-longtone-F4-pp.wav"
 								}
 
 							}
@@ -13528,8 +13627,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -13619,7 +13718,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 110.0, 258.5, 91.0, 19.0 ],
+													"patching_rect" : [ 110.0, 309.5, 91.0, 19.0 ],
 													"style" : "",
 													"text" : "s #1-transcribe-note"
 												}
@@ -13634,7 +13733,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.5, 194.0, 29.5, 19.0 ],
+													"patching_rect" : [ 486.5, 236.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "0."
 												}
@@ -13649,7 +13748,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 553.5, 194.0, 29.5, 19.0 ],
+													"patching_rect" : [ 553.5, 236.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "-5"
 												}
@@ -13664,7 +13763,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 358.583344, 193.0, 29.5, 19.0 ],
+													"patching_rect" : [ 358.583344, 235.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "5"
 												}
@@ -13679,7 +13778,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 641.333374, 194.0, 29.5, 19.0 ],
+													"patching_rect" : [ 681.0, 236.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "0."
 												}
@@ -13695,7 +13794,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 84.5, 225.0, 45.0, 19.0 ],
+													"patching_rect" : [ 84.5, 276.0, 45.0, 19.0 ],
 													"style" : "",
 													"text" : "pack f f f"
 												}
@@ -13711,7 +13810,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "int" ],
-													"patching_rect" : [ 229.25, 100.0, 29.5, 19.0 ],
+													"patching_rect" : [ 229.25, 100.0, 43.0, 19.0 ],
 													"style" : "",
 													"text" : "t i i"
 												}
@@ -13727,7 +13826,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 253.25, 225.0, 79.0, 19.0 ],
+													"patching_rect" : [ 253.25, 276.0, 79.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend duration"
 												}
@@ -13755,7 +13854,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 50.0, 258.5, 33.0, 19.0 ],
+													"patching_rect" : [ 50.0, 309.5, 33.0, 19.0 ],
 													"style" : "",
 													"text" : "zl reg"
 												}
@@ -13789,7 +13888,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 229.25, 289.0, 82.0, 19.0 ],
+													"patching_rect" : [ 229.25, 340.0, 82.0, 19.0 ],
 													"style" : "",
 													"text" : "s #1-mubu.concat"
 												}
@@ -13804,7 +13903,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 229.25, 258.5, 43.0, 19.0 ],
+													"patching_rect" : [ 229.25, 309.5, 43.0, 19.0 ],
 													"style" : "",
 													"text" : "gate 1 0"
 												}
@@ -13866,7 +13965,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 76.0, 289.0, 127.0, 19.0 ],
+													"patching_rect" : [ 76.0, 340.0, 127.0, 19.0 ],
 													"style" : "",
 													"text" : "s #1-transcribe-marker-buffer"
 												}
@@ -13881,7 +13980,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 148.0, 225.0, 89.0, 19.0 ],
+													"patching_rect" : [ 148.0, 276.0, 89.0, 19.0 ],
 													"style" : "",
 													"text" : "bach.wrap 0 @out t"
 												}
@@ -13937,7 +14036,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 253.25, 193.0, 29.5, 19.0 ],
+													"patching_rect" : [ 253.25, 235.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "0. 1."
 												}
@@ -13952,7 +14051,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 253.25, 165.0, 32.5, 19.0 ],
+													"patching_rect" : [ 253.25, 162.0, 32.5, 19.0 ],
 													"style" : "",
 													"text" : "sel 0"
 												}
@@ -13967,7 +14066,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 216.0, 193.0, 31.0, 19.0 ],
+													"patching_rect" : [ 220.25, 235.0, 31.0, 19.0 ],
 													"style" : "",
 													"text" : "$1 0."
 												}
@@ -13996,7 +14095,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 755.833313, 194.0, 45.0, 19.0 ],
+													"patching_rect" : [ 755.833313, 162.0, 45.0, 19.0 ],
 													"style" : "",
 													"text" : "zl slice 2"
 												}
@@ -14012,7 +14111,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 681.0, 162.0, 34.0, 19.0 ],
+													"patching_rect" : [ 585.833313, 162.0, 34.0, 19.0 ],
 													"style" : "",
 													"text" : "* 100."
 												}
@@ -14028,7 +14127,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 681.0, 225.0, 90.0, 19.0 ],
+													"patching_rect" : [ 681.0, 276.0, 90.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend resampling"
 												}
@@ -14044,7 +14143,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 681.0, 194.0, 29.5, 19.0 ],
+													"patching_rect" : [ 585.833313, 194.0, 29.5, 19.0 ],
 													"style" : "",
 													"text" : "!- 0."
 												}
@@ -14060,7 +14159,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 553.5, 225.0, 68.0, 19.0 ],
+													"patching_rect" : [ 553.5, 276.0, 68.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend offset"
 												}
@@ -14076,7 +14175,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.5, 225.0, 65.0, 19.0 ],
+													"patching_rect" : [ 486.5, 276.0, 65.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend level"
 												}
@@ -14092,7 +14191,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 409.333374, 225.0, 76.0, 19.0 ],
+													"patching_rect" : [ 409.333374, 276.0, 76.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend release"
 												}
@@ -14124,7 +14223,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 338.333344, 225.0, 70.0, 19.0 ],
+													"patching_rect" : [ 338.333344, 276.0, 70.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend attack"
 												}
@@ -15049,7 +15148,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 632.0, 365.0, 278.0, 19.0 ],
+									"patching_rect" : [ 638.0, 365.0, 278.0, 19.0 ],
 									"style" : "",
 									"text" : "sel note if tie >= 2, eraseslot 1, eraseslot 2, eraseslot 3, eraseslot 4"
 								}
@@ -15070,12 +15169,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 25.0, 69.0, 710.0, 479.0 ],
+										"rect" : [ 23.0, 329.0, 710.0, 479.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -15106,12 +15205,87 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 107.5, 190.5, 55.0, 19.0 ],
+													"style" : "",
+													"text" : "t getvzoom"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "" ],
+													"patching_rect" : [ 50.0, 162.0, 76.0, 19.0 ],
+													"style" : "",
+													"text" : "sel zoom vzoom"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 134.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "zl nth 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-16",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 190.5, 50.0, 19.0 ],
+													"style" : "",
+													"text" : "t getzoom"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-19",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 100.0, 43.0, 19.0 ],
+													"style" : "",
+													"text" : "gate 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
 													"id" : "obj-11",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 461.875, 199.5, 58.0, 19.0 ],
+													"patching_rect" : [ 461.875, 219.0, 58.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend set"
 												}
@@ -15124,7 +15298,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 461.875, 223.5, 25.0, 25.0 ],
+													"patching_rect" : [ 461.875, 243.0, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -15137,7 +15311,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 461.875, 178.0, 20.0, 20.0 ],
+													"patching_rect" : [ 461.875, 197.5, 20.0, 20.0 ],
 													"style" : ""
 												}
 
@@ -15151,7 +15325,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 520.875, 149.5, 21.0, 19.0 ],
+													"patching_rect" : [ 515.446411, 162.0, 21.0, 19.0 ],
 													"style" : "",
 													"text" : "t 0"
 												}
@@ -15166,7 +15340,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 461.875, 149.5, 21.0, 19.0 ],
+													"patching_rect" : [ 461.875, 162.0, 21.0, 19.0 ],
 													"style" : "",
 													"text" : "t 1"
 												}
@@ -15181,7 +15355,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 343.875, 149.5, 45.0, 19.0 ],
+													"patching_rect" : [ 353.160706, 162.0, 45.0, 19.0 ],
 													"style" : "",
 													"text" : "zl slice 3"
 												}
@@ -15211,7 +15385,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 402.875, 149.5, 59.0, 19.0 ],
+													"patching_rect" : [ 400.160706, 162.0, 59.0, 19.0 ],
 													"style" : "",
 													"text" : "route cursor"
 												}
@@ -15224,11 +15398,11 @@
 													"id" : "obj-146",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 7,
-													"outlettype" : [ "", "", "", "", "", "", "bang" ],
-													"patching_rect" : [ 284.875, 127.0, 373.0, 19.0 ],
+													"numoutlets" : 8,
+													"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
+													"patching_rect" : [ 284.875, 127.0, 288.0, 19.0 ],
 													"style" : "",
-													"text" : "bach.keys zoom domain cursor play stop end @keep 1 @out t"
+													"text" : "bach.keys zoom vzoom domain cursor play stop end @keep 1 @out t"
 												}
 
 											}
@@ -15278,7 +15452,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 199.5, 25.0, 25.0 ],
+													"patching_rect" : [ 50.0, 243.0, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -15302,7 +15476,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 402.875, 199.5, 25.0, 25.0 ],
+													"patching_rect" : [ 400.160706, 199.5, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -15316,7 +15490,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 195.0, 169.0, 75.0, 19.0 ],
+													"patching_rect" : [ 233.0, 162.0, 75.0, 19.0 ],
 													"style" : "",
 													"text" : "spacingwidth $1"
 												}
@@ -15331,39 +15505,9 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 107.5, 169.0, 71.0, 19.0 ],
+													"patching_rect" : [ 159.5, 162.0, 71.0, 19.0 ],
 													"style" : "",
 													"text" : "spacingtype $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-18",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 50.0, 127.0, 21.0, 19.0 ],
-													"style" : "",
-													"text" : "t b"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 100.0, 43.0, 19.0 ],
-													"style" : "",
-													"text" : "gate 1 0"
 												}
 
 											}
@@ -15376,7 +15520,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "int", "bang" ],
-													"patching_rect" : [ 181.5, 127.0, 46.0, 19.0 ],
+													"patching_rect" : [ 219.5, 127.0, 46.0, 19.0 ],
 													"style" : "",
 													"text" : "t 2 1 b"
 												}
@@ -15391,7 +15535,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "float", "bang" ],
-													"patching_rect" : [ 107.5, 127.0, 48.0, 19.0 ],
+													"patching_rect" : [ 159.5, 127.0, 48.0, 19.0 ],
 													"style" : "",
 													"text" : "t 0 1.67 b"
 												}
@@ -15406,24 +15550,9 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 107.5, 100.0, 46.0, 19.0 ],
+													"patching_rect" : [ 159.5, 100.0, 46.0, 19.0 ],
 													"style" : "",
 													"text" : "sel 0 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-148",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 169.0, 45.0, 19.0 ],
-													"style" : "",
-													"text" : "getzoom"
 												}
 
 											}
@@ -15448,10 +15577,37 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-15", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-146", 3 ]
+													"source" : [ "obj-146", 4 ]
 												}
 
 											}
@@ -15460,7 +15616,16 @@
 													"destination" : [ "obj-17", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-146", 2 ]
+													"source" : [ "obj-146", 3 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-178", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-146", 1 ]
 												}
 
 											}
@@ -15478,7 +15643,7 @@
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-146", 5 ]
+													"source" : [ "obj-146", 6 ]
 												}
 
 											}
@@ -15487,7 +15652,7 @@
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-146", 4 ]
+													"source" : [ "obj-146", 5 ]
 												}
 
 											}
@@ -15496,7 +15661,7 @@
 													"destination" : [ "obj-7", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-146", 1 ]
+													"source" : [ "obj-146", 2 ]
 												}
 
 											}
@@ -15505,7 +15670,7 @@
 													"destination" : [ "obj-176", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-148", 0 ]
+													"source" : [ "obj-15", 0 ]
 												}
 
 											}
@@ -15538,7 +15703,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
+													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-158", 0 ]
@@ -15556,10 +15721,19 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 1 ],
+													"destination" : [ "obj-19", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-159", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-176", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 0 ]
 												}
 
 											}
@@ -15583,16 +15757,25 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-148", 0 ],
+													"destination" : [ "obj-13", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-18", 0 ]
+													"source" : [ "obj-19", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-148", 0 ],
+													"destination" : [ "obj-15", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-2", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 2 ]
@@ -15614,15 +15797,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-18", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -15701,7 +15875,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 797.5, 343.166656, 55.0, 19.0 ],
+									"patching_rect" : [ 738.0, 344.166656, 55.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -15731,12 +15905,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+										"rect" : [ 607.0, 58.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -15767,12 +15941,57 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 107.5, 190.5, 55.0, 19.0 ],
+													"style" : "",
+													"text" : "t getvzoom"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "bang", "" ],
+													"patching_rect" : [ 50.0, 162.0, 76.0, 19.0 ],
+													"style" : "",
+													"text" : "sel zoom vzoom"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 50.0, 134.0, 40.0, 19.0 ],
+													"style" : "",
+													"text" : "zl nth 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
 													"id" : "obj-11",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 381.933319, 202.0, 58.0, 17.0 ],
+													"patching_rect" : [ 381.933319, 216.0, 58.0, 19.0 ],
 													"style" : "",
 													"text" : "prepend set"
 												}
@@ -15785,7 +16004,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 381.933319, 229.5, 25.0, 25.0 ],
+													"patching_rect" : [ 381.933319, 243.5, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -15798,7 +16017,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 381.933319, 176.5, 20.0, 20.0 ],
+													"patching_rect" : [ 381.933319, 190.5, 20.0, 20.0 ],
 													"style" : ""
 												}
 
@@ -15812,7 +16031,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 451.133301, 148.0, 21.0, 17.0 ],
+													"patching_rect" : [ 404.904755, 162.0, 21.0, 19.0 ],
 													"style" : "",
 													"text" : "t 0"
 												}
@@ -15827,7 +16046,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 381.933319, 148.0, 21.0, 17.0 ],
+													"patching_rect" : [ 381.933319, 162.0, 21.0, 19.0 ],
 													"style" : "",
 													"text" : "t 1"
 												}
@@ -15842,7 +16061,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 174.333313, 100.0, 43.0, 17.0 ],
+													"patching_rect" : [ 174.333313, 100.0, 43.0, 19.0 ],
 													"style" : "",
 													"text" : "gate 1 0"
 												}
@@ -15857,7 +16076,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 243.53331, 165.0, 45.0, 17.0 ],
+													"patching_rect" : [ 251.19046, 162.0, 45.0, 19.0 ],
 													"style" : "",
 													"text" : "zl slice 3"
 												}
@@ -15872,7 +16091,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 312.733307, 165.0, 59.0, 17.0 ],
+													"patching_rect" : [ 312.733307, 162.0, 59.0, 19.0 ],
 													"style" : "",
 													"text" : "route cursor"
 												}
@@ -15885,11 +16104,11 @@
 													"id" : "obj-61",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 7,
-													"outlettype" : [ "", "", "", "", "", "", "bang" ],
-													"patching_rect" : [ 174.333313, 127.0, 434.199982, 17.0 ],
+													"numoutlets" : 8,
+													"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
+													"patching_rect" : [ 174.333313, 127.0, 288.0, 19.0 ],
 													"style" : "",
-													"text" : "bach.keys zoom domain cursor play stop end @keep 1 @out t"
+													"text" : "bach.keys zoom vzoom domain cursor play stop end @keep 1 @out t"
 												}
 
 											}
@@ -15939,7 +16158,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 198.0, 25.0, 25.0 ],
+													"patching_rect" : [ 50.0, 243.5, 25.0, 25.0 ],
 													"style" : ""
 												}
 
@@ -15976,10 +16195,10 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 50.0, 127.0, 21.0, 17.0 ],
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 190.5, 50.0, 19.0 ],
 													"style" : "",
-													"text" : "t b"
+													"text" : "t getzoom"
 												}
 
 											}
@@ -15992,7 +16211,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 100.0, 43.0, 17.0 ],
+													"patching_rect" : [ 50.0, 100.0, 43.0, 19.0 ],
 													"style" : "",
 													"text" : "gate 1 0"
 												}
@@ -16007,43 +16226,64 @@
 													"numinlets" : 3,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
-													"patching_rect" : [ 107.5, 100.0, 46.0, 17.0 ],
+													"patching_rect" : [ 107.5, 100.0, 46.0, 19.0 ],
 													"style" : "",
 													"text" : "sel 0 1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-1",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 169.0, 45.0, 15.0 ],
-													"style" : "",
-													"text" : "getzoom"
 												}
 
 											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-139", 0 ],
+													"destination" : [ "obj-10", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-1", 0 ]
+													"source" : [ "obj-11", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-10", 0 ],
+													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-11", 0 ]
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-15", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-139", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-15", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-151", 1 ]
 												}
 
 											}
@@ -16058,7 +16298,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-1", 0 ],
+													"destination" : [ "obj-139", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-18", 0 ]
@@ -16085,7 +16325,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-18", 0 ],
+													"destination" : [ "obj-13", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-3", 0 ]
@@ -16142,6 +16382,15 @@
 													"destination" : [ "obj-148", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"source" : [ "obj-61", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-148", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
 													"source" : [ "obj-61", 0 ]
 												}
 
@@ -16151,7 +16400,7 @@
 													"destination" : [ "obj-19", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-61", 2 ]
+													"source" : [ "obj-61", 3 ]
 												}
 
 											}
@@ -16160,7 +16409,16 @@
 													"destination" : [ "obj-2", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-61", 3 ]
+													"source" : [ "obj-61", 4 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-61", 6 ]
 												}
 
 											}
@@ -16175,19 +16433,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-61", 4 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-6", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-61", 1 ]
+													"source" : [ "obj-61", 2 ]
 												}
 
 											}
@@ -16230,7 +16479,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 819.0, 367.0, 55.0, 19.0 ],
+									"patching_rect" : [ 797.0, 343.166656, 55.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -16577,8 +16826,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -17106,8 +17355,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -17417,7 +17666,7 @@
 									"presentation_rect" : [ 7.0, 515.973022, 18.0, 66.0 ],
 									"size" : 4,
 									"style" : "",
-									"values" : [ 1, 1, 1, 1 ]
+									"values" : [ 0, 0, 0, 0 ]
 								}
 
 							}
@@ -17482,8 +17731,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -17951,8 +18200,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -18710,8 +18959,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -19680,8 +19929,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -19824,33 +20073,30 @@
 											}
 , 											{
 												"box" : 												{
-													"clefs" : [ "G", "G", "G", "G", "G", "G" ],
-													"enharmonictable" : [ "default", "default", "default", "default", "default", "default" ],
 													"fontface" : 0,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"hidevoices" : [ 0, 0, 0, 0, 0, 0 ],
 													"id" : "obj-77",
-													"keys" : [ "CM", "CM", "CM", "CM", "CM", "CM" ],
 													"loop" : [ 0.0, 0.0 ],
 													"maxclass" : "bach.roll",
-													"midichannels" : [ 1, 2, 3, 4, 5, 6 ],
 													"numinlets" : 6,
 													"numoutlets" : 8,
-													"numvoices" : 6,
+													"numvoices" : 1,
 													"out" : "nnnnnnn",
 													"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
-													"patching_rect" : [ 44.0, 210.0, 198.0, 198.0 ],
+													"patching_rect" : [ 44.0, 210.0, 198.0, 50.5 ],
 													"pitcheditrange" : "null",
-													"presentation_rect" : [ 0.0, 0.0, 0.0, 198.0 ],
-													"stafflines" : [ 5, 5, 5, 5, 5, 5 ],
+													"stafflines" : 5,
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"tonedivision" : 4,
 													"versionnumber" : 7810,
-													"voicenames" : [ "<none>", "(", ")", "(", ")", "(", ")", "(", ")", "(", ")" ],
-													"voicespacing" : [ 0.0, 17.0, 17.0, 17.0, 17.0, 17.0, 17.0 ],
-													"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227500544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3231891456, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, 2, 3, 4, 5, 6, ")", "(", 0, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "card_sing-Bb1-mf.aiff", ")", "(", 4, 0, 136, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227058176, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17760, 1086323762, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", 0, ")", "(", 0, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49440, 1085477077, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30304, 1085557240, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31776, 1086619410, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-balai-f-contact.wav", ")", "(", 4, 15, 442, ")", ")", 0, ")", 0, ")", 0, ")", "(", 0, ")", "(", 0, ")" ],
-													"whole_roll_data_count" : [ 1 ],
+													"voicenames" : "<none>",
+													"voicespacing" : [ 0.0, 17.0 ],
+													"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1067466752, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1063075840, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45893, 1086032096, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 19, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5588, 1077047137, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1019, 1080470931, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14097, 1085744799, "_x_x_x_x_bach_float64_x_x_x_x_", 65223, 1084250712, 1, "(", "breakpoints", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "_x_x_x_x_bach_float64_x_x_x_x_", 4352, -1069899812, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", ")", "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-cresc.wav", ")", "(", 4, 1, 54, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8133, -1075767888, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32757, 1084410087, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4812, 1085663832, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 159, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13705, 1075210155, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24568, 1084504462, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49159, 1086145942, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 27, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34163, 1074903436, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36943, 1084722730, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27302, 1085423029, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 46, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6036, 1071956347, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24610, 1084838510, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45369, 1085434213, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 174, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32420, -1077504846, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57453, 1084922901, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30634, 1085518077, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-p.wav", ")", "(", 4, 6, 52, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61424, -1075656338, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4003, 1085075090, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33602, 1085850458, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8634, -1073211931, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32850, 1085181265, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55883, 1085831826, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083943936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 9, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13471, 1074447271, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4127, 1085268003, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8696, 1086003314, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 77, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 28757, 1074871594, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16416, 1085380815, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55843, 1085775571, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63074, -1075290625, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16334, 1085396579, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19841, 1086552328, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37226, 1080409942, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22543, 1085459015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52695, 1085425045, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 176, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7332, -1075605090, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43003, 1085470182, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43253, 1085839072, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 11, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18945, 1074125584, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2020, 1085497888, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30700, 1085752708, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 5, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39774, -1073056023, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53299, 1085511294, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51680, 1085557248, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 31, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8954, -1074877125, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1998, 1085550444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61872, 1085638541, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 38, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34180, -1074583650, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16398, 1085635367, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5256, 1085836572, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 2, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34557, 1071655883, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16433, 1085828464, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24589, 1086037065, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24086, -1071618241, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59353, 1085907929, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18751, 1086526034, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080729600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 13, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13553, 1077673312, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6111, 1085965872, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17000, 1085842771, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 215, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19953, -1073585742, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59366, 1085985141, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58675, 1085534702, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 25, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52410, -1074907732, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20514, 1086009107, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27806, 1086502291, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080729600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 13, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16860, -1067208691, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20524, 1086061969, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15929, 1085470743, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 150, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40559, -1075387260, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4087, 1086112974, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8827, 1085413935, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 9, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12808, 1072746447, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38871, 1086158732, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3327, 1085449457, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 139, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6453, 1067294172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24620, 1086202828, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19492, 1085575861, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082415104, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 57, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9044, 1072420688, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49201, 1086236550, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19541, 1085511773, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 71, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49438, -1073758955, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26582, 1086298479, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31322, 1086425178, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12002, 1080315680, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34820, 1086309438, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17359, 1086269513, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 3, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30829, -1073417998, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40959, 1086358481, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37015, 1085265941, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 53, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4990, -1077718591, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3078, 1086368449, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52494, 1085453197, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 6, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41672, 1073243475, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14338, 1086374650, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57819, 1086092225, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 33, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11759, 1075070376, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15347, 1086382667, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31356, 1085737600, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 186, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60397, 1072032740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34791, 1086438301, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44018, 1085991392, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 14, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33191, -1074435899, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29710, 1086471276, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53697, 1085704251, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081651200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 8, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47004, 1074207111, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53242, 1086476744, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62217, 1085409354, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 52, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 10602, 1074309092, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44051, 1086485602, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12231, 1085329900, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 155, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31032, -1074352553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44020, 1086494174, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42766, 1085745166, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083298816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 31, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1023, 1071461553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42991, 1086515657, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11093, 1085403653, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 203, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46148, 1074572165, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6145, 1086521384, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4937, 1085816021, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 16, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 28553, 1076024117, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9197, 1086595655, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43437, 1085508643, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 181, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14083, -1076261357, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7186, 1086775511, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34275, 1085702016, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081126912, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 7, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42449, -1074407188, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51175, 1086796771, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23141, 1086042164, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 26, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54263, 1073521653, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5145, 1086888728, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20897, 1085470205, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 172, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60170, -1074845486, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15347, 1086915319, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24829, 1085842867, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 215, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25973, -1073824558, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58352, 1086932917, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48601, 1085800079, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084107776, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 7, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43553, -1074770036, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29713, 1086950936, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47725, 1086309082, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 38, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57654, -1072649743, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15381, 1086995466, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40124, 1085774386, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 27, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58789, 1073731403, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17394, 1087037184, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40335, 1086364675, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 5, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55134, -1070614485, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56347, 1087055689, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21602, 1085521927, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 157, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52952, -1072131280, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17430, 1087145803, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4027, 1085593986, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 95, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57941, 1070651007, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50163, 1087180269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34759, 1085472629, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 41, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18580, 1068720899, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47117, 1087184864, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51761, 1086453589, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18102, -1067025522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60422, 1087207192, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3998, 1085305090, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48276, 1077282729, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47087, 1087219378, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52741, 1085617928, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083364352, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 26, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26712, -1079698233, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36840, 1087290362, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9497, 1085430616, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53447, 1074109367, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52234, 1087355645, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43988, 1085574762, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 110, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42867, -1074233609, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53263, 1087365490, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54012, 1085697647, "_x_x_x_x_bach_float64_x_x_x_x_", 65371, 1083746645, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E5-pp.wav", ")", "(", 4, 0, 39, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2773, 1071832024, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29173, 1087385019, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53582, 1085769221, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56410, 1073816046, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15862, 1087395951, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10050, 1086353966, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24932, -1069943141, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64510, 1087405532, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42676, 1086121343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080909824, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 169, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65271, 1072572376, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9730, 1087414786, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 779, 1085952590, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54497, 1071746939, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10761, 1087429834, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58855, 1086036782, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43549, -1071473532, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62968, 1087444032, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33584, 1085039133, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 114, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12861, 1074791322, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51717, 1087448994, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62299, 1085950085, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20222, -1071482685, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50181, 1087470730, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11799, 1085834423, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 4, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22853, 1074406546, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12796, 1087488802, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3949, 1085343333, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 7, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7135, -1073480360, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60925, 1087494035, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63851, 1086221044, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52365, -1068891522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1037, 1087496829, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23561, 1086355838, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42895, -1071206615, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61443, 1087526711, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39024, 1085626999, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080991744, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 10, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30182, -1074818709, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6131, 1087548210, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64325, 1085419735, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 135, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42977, -1077306681, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19969, 1087573210, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35959, 1086460784, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27323, -1067521604, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48629, 1087582248, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32508, 1085633846, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 10, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19445, -1075519215, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17422, 1087589031, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44947, 1085528806, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 30, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41289, -1076361004, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63999, 1087601378, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65470, 1085887130, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086297600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-cresc.wav", ")", "(", 4, 4, 54, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56498, 1074441585, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15366, 1087610722, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64082, 1085852873, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 44464, 1075425435, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4107, 1087644792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36793, 1085419252, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081778176, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 1, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24279, -1074572435, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38924, 1087646695, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47346, 1085911434, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 165, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 62335, -1074967719, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27659, 1087667835, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55229, 1085220385, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 1, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59035, 1076542081, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22525, 1087671977, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14896, 1086106161, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6149, -1070177583 ],
+													"whole_roll_data_0000000001" : [ ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24586, 1087675491, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54295, 1085255369, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 3, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13133, -1071142880, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13822, 1087694403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37122, 1086141069, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 242, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58153, 1076610253, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12293, 1087697311, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32183, 1085174299, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085502976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 7, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19515, 1070858971, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44541, 1087708477, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47866, 1085928049, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 14, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14221, -1079683946, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6149, 1087728142, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23041, 1086407615, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13153, 1077494673, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23563, 1087734203, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19582, 1085808977, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080385536, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 26, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58045, -1072525296, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20480, 1087745086, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65043, 1085600156, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 13, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18014, -1075916263, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6650, 1087752312, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10377, 1085468494, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 9, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18297, -1073282389, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62977, 1087755204, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50244, 1085389829, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 154, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19377, 1074061149, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21513, 1087770042, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23886, 1085630503, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 59, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5271, 1073234900, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57855, 1087780026, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11201, 1085509622, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 37, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3227, 1071417329, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48115, 1087782770, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15917, 1085444134, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556800, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-C6-pp.wav", ")", "(", 4, 4, 36, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35080, 1070740968, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57351, 1087794359, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30610, 1085485014, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 113, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5689, 1071037249, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22517, 1087807051, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22890, 1086348293, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13744, 1075808844, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22021, 1087815112, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63594, 1086292893, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50931, 1079013736, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30732, 1087828671, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11722, 1086218212, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25488, 1078342828, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33787, 1087846421, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64224, 1085933016, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085805824, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 2, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26263, -1072832263, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53771, 1087854176, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30028, 1085430587, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63905, 1074050172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37374, 1087872639, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42595, 1085981023, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-high_cluster-ff.wav", ")", "(", 4, 1, 59, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55943, -1074667110, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39418, 1087916332, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38352, 1086318538, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 81, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51471, 1077228445, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33277, 1087922403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57998, 1085668638, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 43, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63289, 1074344538, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28150, 1087934962, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58727, 1085332683, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 5, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58127, -1074316962, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6143, 1087949269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23315, 1086219544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2001, 1078513333, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56826, 1087985282, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49068, 1085549790, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 31, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16336, 1073978956, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7672, 1087998792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29112, 1086284223, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55359, 1077929816, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55806, 1088010278, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15594, 1085656221, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 197, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40517, -1075245419, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10, 1088021531, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30160, 1085203854, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085380096, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 13, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16042, -1073527522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19967, 1088024284, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19972, 1085719758, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24214, 1074009628, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15369, 1088053477, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48244, 1086368884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23499, 1076924012, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17930, 1088059678, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34790, 1085903466, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081520128, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 56, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38757, -1074553739, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24588, 1088075688, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37054, 1085799891, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084107776, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 7, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23208, -1073999378, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60424, 1088085667, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6592, 1085716230, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 21, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24784, -1072153350, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61435, 1088094953, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33862, 1085653486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080737792, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 177, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39021, 1074834693, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29195, 1088106053, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1130, 1085429593, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19143, -1074483622, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37891, 1088116216, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45997, 1086352083, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59866, 1078116262, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61442, 1088128578, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3410, 1084897329, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 8, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48316, 1074480869, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19971, 1088131450, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16271, 1085456268, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 163, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61422, 1074188667, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60915, 1088142814, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46052, 1086420634, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8942, 1080016426, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57332, 1088150354, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63195, 1085299689, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14949, 1072553139, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13812, 1088157149, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21795, 1086391298, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15828, -1067872935, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29704, 1088179702, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15753, 1085286152, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 68, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63458, 1072661451, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9725, 1088205693, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17417, 1085869374, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 128, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 591, 1074377848, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60937, 1088228613, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16546, 1085617984, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083364352, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 26, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4103, 1069995421, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5631, 1088242111, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7319, 1086426288, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48653, 1080386759, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17418, 1088249360, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12210, 1086352624, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16473, -1069401755, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47622, 1088257847, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9337, 1085754618, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081737216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 2, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8772, -1075003409, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55814, 1088269835, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4500, 1086244265, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18437, 1078155278, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64013, 1088283273, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 976, 1085337247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 228, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 36026, -1075400892, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62475, 1088288414, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45895, 1085427263, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 54, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22843, -1077109743, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9225, 1088292288, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16559, 1086051439, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 100, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55146, 1074758987, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57353, 1088308910, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23556, 1086201814, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 14, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 17479, -1072371451, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34811, 1088342700, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20106, 1085369570, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 219, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43596, -1072930012, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52226, 1088356638, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62382, 1085497074, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 146, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 865, -1073530998, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10237, 1088366718, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36932, 1085213253, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 1, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9301, -1075698342, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11787, 1088369769, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26316, 1085796294, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 5, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43721, -1072810465, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40453, 1088378621, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12745, 1085967950, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084073984, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 8, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20794, -1073292949, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48644, 1088387328, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25906, 1085572206, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 105, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53784, -1073480235, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58373, 1088392781, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44726, 1085718758, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65166, -1074375031, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5116, 1088410148, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60202, 1085850688, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59035, -1073683159, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10240, 1088417603, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44632, 1085649731, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-p.wav", ")", "(", 4, 1, 50, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22940, -1079518083, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48640, 1088430681, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15286, 1085768807, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27640, 1071697442, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50687, 1088436030, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25725, 1086386828, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 106, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3154, 1079559027, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19972, 1088441791, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4706, 1085417176, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084096512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 15, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51679, 1073189157, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31491, 1088443542, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23420, 1086184965, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31322, 1071465189, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1793, 1088453160, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17088, 1085451582, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 6, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 36591, -1077606240, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34562, 1088455792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7106, 1085909868, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081298944, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 157, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48675, 1073348386, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53754, 1088468440, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12780, 1086361537, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49725, 1077974904, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1796, 1088472342, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41030, 1085518312, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082609664, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-p.wav", ")", "(", 4, 5, 52, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52537, 1068140071, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41985, 1088482741, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46401, 1085986030, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 74, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12708, 1072862225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33274, 1088488823, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17992, 1085666222, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 19, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18690, -1075482700, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64259, 1088490444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36071, 1085846367, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 12, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58243, 1075019225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31487, 1088497785, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6334, 1086054551, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 100, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43408, 1076893875, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61443, 1088503235, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13927, 1086392227, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39834, -1067991749, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7675, 1088504877, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60909, 1085441783, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 13, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27400, 1072197287, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46851, 1088507996, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15514, 1085982670, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-high_cluster-ff.wav", ")", "(", 4, 1, 59, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42901, 1075135762, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29183, 1088518015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36914, 1086456715, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50817, -1067225630, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59140, 1088526779, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48231, 1085714120, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 110, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51598, 1075095909, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26881, 1088528635, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38420, 1085286104, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 68, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7681, 1072267815, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60674, 1088532113, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55570, 1085526943, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-p.wav", ")", "(", 4, 10, 38, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51899, 1074308396, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58878, 1088533642, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22036, 1085719384, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56325, 1072743552, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23296, 1088537514, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13423, 1086112890, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42625, 1074738123, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49663, 1088547619, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28428, 1086417886, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53819, 1079664791, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53504, 1088548599, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31928, 1086101908, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27629, 1076488673, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36858, 1088573567, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39626, 1085940254, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 23, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51661, -1074648836, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52230, 1088581308, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3826, 1085495248, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082304512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-pp.wav", ")", "(", 4, 13, 51, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51929, 1075373594, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3835, 1088582752, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5246, 1085143304, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 12, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27452, -1076317499, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20228, 1088590403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62288, 1085297655, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 232, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 207, 1074755020, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37883, 1088594837, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56632, 1086040266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61395, 1074869908, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25341, 1088602725, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58812, 1085078343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081126912, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 13, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6272, -1073578794, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60159, 1088608752, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2616, 1085594686, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 60, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46064, 1073453672, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47097, 1088612322, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18391, 1086096600, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 238, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50221, 1074380163, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20732, 1088617032, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48946, 1085639028, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 38, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60997, 1072068840, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42758, 1088620517, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26562, 1086408067, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18087, 1077725984, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5381, 1088627145, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32378, 1086103359, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63494, 1077059572, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36347, 1088633248, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61660, 1086367995, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31987, 1076049315, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60417, 1088639739, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2860, 1085719666, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12736, 1073820847, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26373, 1088645233, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59641, 1086183571, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15624, -1072434344, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 260, 1088654634, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18892, 1085818504, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 96, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47898, -1075185225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63994, 1088662882, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35869, 1086030833, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080451072, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 19, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56192, 1076560089, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13310, 1088672669, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4410, 1085500199, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 175, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61593, 1073013237, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51975, 1088676545, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7383, 1086388439, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 106, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14768, 1079765212, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62201, 1088682672, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11062, 1085700979, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 66, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24759, -1077133298, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17658, 1088685726, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56137, 1085762300, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 205, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20977, 1067446305, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18949, 1088693649, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27887, 1085375963, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 102, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60295, -1077941375, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65023, 1088698136, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23474, 1085624335, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 37, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57566, 1071645466, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63746, 1088701917, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7793, 1086226256, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37703, -1069569838, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2049, 1088710155, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63350, 1086182658, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 66, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47650, 1074588759, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56313, 1088717731, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42010, 1086416338, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4 ],
+													"whole_roll_data_0000000002" : [ 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15844, 1079466600, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35840, 1088727446, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4378, 1085969990, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 3, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 17875, 1075036206, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37882, 1088755121, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64437, 1086143442, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 27, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31353, -1072344403, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61955, 1088761612, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6623, 1085783884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 94, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13977, -1074970128, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32773, 1088768493, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7845, 1085587245, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E5-pp.wav", ")", "(", 4, 4, 39, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61719, 1072526107, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47621, 1088780726, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51539, 1085299970, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35273, 1073757249, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7681, 1088785563, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8581, 1086612786, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8488, 1082405498, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11008, 1088792474, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12644, 1085306348, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 3, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53234, -1069960873, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8196, 1088804517, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59864, 1085410485, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081167872, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 104, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46135, -1072602266, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56576, 1088817588, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14321, 1085327247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 130, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30642, 1073992623, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4610, 1088819862, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32148, 1085630293, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 59, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65030, 1072055521, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35077, 1088825058, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12649, 1085636433, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 55, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16519, 1072084542, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34810, 1088827093, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56120, 1086105169, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9028, 1077522895, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34052, 1088832961, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40780, 1085968086, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084073984, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 8, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13187, -1073570172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46843, 1088839801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53818, 1085705884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082238976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 22, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 64166, 1073330674, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60925, 1088846693, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17648, 1086368757, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52385, 1076830084, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32256, 1088850976, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34806, 1085515603, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 123, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37782, -1074091649, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33278, 1088855882, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15744, 1086060704, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 201, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33485, -1070698707, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36863, 1088864469, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48931, 1085700368, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 27, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 109, 1073105538, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51710, 1088866577, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27833, 1085560013, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 8, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38831, -1077828971, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4605, 1088902886, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41943, 1085406486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 75, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38004, -1073124031, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16634, 1088907544, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65014, 1085966264, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 11, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24241, 1074047937, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55811, 1088915933, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11026, 1085035171, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 1, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7492, 1074204699, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44543, 1088922530, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24747, 1086437949, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24976, 1081107449, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64762, 1088928938, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53026, 1085890859, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 7, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22804, 1074849111, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30723, 1088938394, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32838, 1085745565, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083298816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 31, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50191, 1073750843, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18687, 1088940193, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59483, 1085760121, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 205, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35530, -1071581459, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13317, 1088943192, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6886, 1086638112, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46891, 1082810715, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15868, 1088945111, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54717, 1086129779, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 107, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52863, -1071529838, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60672, 1088953555, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53596, 1085426461, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 54, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55057, -1073029844, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4352, 1088971160, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34096, 1084578677, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081954304, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 13, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7196, 1077274046, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12294, 1088973407, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4467, 1085907572, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081298944, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 157, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18678, -1071817333, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49157, 1088977863, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45872, 1085469384, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-pp.wav", ")", "(", 4, 6, 51, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 45321, 1066432365, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18437, 1088979258, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10362, 1086188286, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16334, 1076550688, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23546, 1088984582, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56043, 1085790510, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 4, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29325, 1075746209, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62981, 1088994080, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21369, 1085573654, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 170, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60348, 1073981004, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65018, 1088998482, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9940, 1085920022, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081122816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 14, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37339, 1074859978, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24589, 1089008262, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084773376, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-low_cluster-ff.wav", ")", "(", 4, 3, 61, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27783, 1070383315, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55546, 1089012484, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40094, 1085464444, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 1, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2929, -1076198001, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 763, 1089019003, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8980, 1086431214, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23891, 1080702018, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58626, 1089024935, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9398, 1085912994, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 78, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26892, -1075891017, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64253, 1089039131, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59801, 1085476567, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 74, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15398, 1072992246, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27641, 1089042722, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9453, 1085749420, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 1, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20585, 1073817906, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17407, 1089047029, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41668, 1085523781, "_x_x_x_x_bach_float64_x_x_x_x_", 1045, 1080552106, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 0, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 44722, 1071579751, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37635, 1089050794, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48997, 1085689149, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081389056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 13, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43252, -1076759992, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2049, 1089058703, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24722, 1086269332, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 40, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18394, 1073809194, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41472, 1089063557, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52911, 1085596041, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081565184, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 10, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32727, -1076731005, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44292, 1089065109, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61112, 1086417043, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35995, 1079556823, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17915, 1089071081, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8969, 1085819505, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 172, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 10134, 1073133813, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5637, 1089074259, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3480, 1085540824, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 18, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33104, 1073025557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12293, 1089076915, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53183, 1085773428, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083604992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 2, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1350, 1073056810, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5115, 1089083593, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52580, 1085681784, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 2, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31349, -1075216776, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32507, 1089088251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9751, 1085355896, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 92, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52607, -1075984994, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50949, 1089093037, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 153, 1085739412, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 65, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43714, 1070939915, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55803, 1089105376, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48719, 1085431452, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 23, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14934, -1074395058, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57856, 1089109947, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53121, 1086307189, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 38, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51333, -1071177933, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40442, 1089113589, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18269, 1085927132, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 14, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40132, -1072890416, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59395, 1089126822, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63362, 1085657284, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 116, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46304, 1073543557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35070, 1089128531, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46444, 1085148646, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 12, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25262, 1076107400, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17402, 1089132830, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27644, 1085913283, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 78, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6958, 1071946165, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22526, 1089135370, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45840, 1085951032, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51446, -1072290803, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28417, 1089139690, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2905, 1085392911, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 32, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59864, -1073505021, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5370, 1089144226, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36115, 1085837308, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 2, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31122, 1074465481, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50937, 1089149877, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8647, 1085987703, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 74, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27881, 1075760337, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50686, 1089156190, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65069, 1085921710, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 1, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48542, -1071646915, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54279, 1089160801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55764, 1085881175, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 112, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33190, -1077349066, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40453, 1089172946, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34277, 1085749079, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 1, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15195, 1072294349, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38912, 1089181606, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43830, 1085820990, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 3, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54563, -1072540809, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43770, 1089188643, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58633, 1086147856, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 76, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13881, -1073462966, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36613, 1089191245, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41942, 1086017234, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 45, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40263, -1070911661, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61183, 1089196802, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56275, 1085889968, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 7, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43612, 1072150670, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7, 1089197964, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4831, 1085412877, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 136, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20422, 1070455642, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40966, 1089203176, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6564, 1085742193, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082130432, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 19, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30451, -1072650529, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51714, 1089207250, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48933, 1085972960, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 129, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55091, -1077845113, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21764, 1089213494, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62308, 1086184780, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39114, -1076819601, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64255, 1089217658, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27522, 1085599568, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 13, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60741, -1073332776, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38657, 1089224711, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36854, 1086432647, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41879, 1080793705, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23033, 1089231454, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17205, 1085672978, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082130432, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 16, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22285, -1077306600, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64764, 1089236370, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46054, 1086020022, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 45, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63172, -1073374419, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7168, 1089240712, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9454, 1085419416, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081778176, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 1, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22708, -1075691780, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57854, 1089244267, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49630, 1086351478, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6914, 1077961442, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56065, 1089250664, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8305, 1086187912, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11623, 1076359013, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47875, 1089288141, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8273, 1085565046, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 90, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11075, 1072345076, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53253, 1089308615, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 78, 1085588213, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 39, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16442, -1076629023, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9726, 1089310937, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58913, 1086182646, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 66, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34238, 1074563671, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13829, 1089322520, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26140, 1085532088, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081561088, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 19, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 21082, -1077402553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13057, 1089332806, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22038, 1085417078, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084096512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 15, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2190, 1072787048, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11264, 1089335100, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60369, 1086600581, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51536, 1082210210, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34050, 1089340167, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57107, 1085644416, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081442304, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 17, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39884, -1075254832, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7684, 1089347439, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64725, 1086291073, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50128, 1078809754, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19971, 1089371099, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28406, 1085502553, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081651200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 48, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15877, -1072729977, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11782, 1089372801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54445, 1086111665, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24352, -1075035499, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3072, 1089374961, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15850, 1086531194, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46878, 1075953139, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9979, 1089380710, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3770, 1086225343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9552, -1069441740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63998, 1089387934, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42249, 1086290652, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5308, 1078755860, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62206, 1089391129, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20836, 1085695453, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 1, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20074, 1070231563, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24321, 1089396578, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56330, 1086238747, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29538, 1076961696, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40186, 1089413850, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33406, 1086399996, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59697, -1069473478, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65020, 1089417785, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6872, 1085561943, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 9, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15950, 1071282540, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18685, 1089423017, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22656, 1085815273, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 16, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47823, 1075443423, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23803, 1089429099, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2939, 1086023544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 218, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19779, 1073105782, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46331, 1089442390, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38233, 1085499102, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 101, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43308, 1070689066, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45061, 1089445852, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6524, 1086282595, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39986, 1077513176, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48127, 1089448134, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18470, 1085895753, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 134, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7926, -1070497686, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34821, 1089454364, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56989, 1086451049, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11216, -1066862981, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57091, 1089459619, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14367, 1086391790, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49107, -1067935896, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28926, 1089472180, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58893, 1085768906, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38851, 1072511411, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53887, 1089475269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50527, 1085775846, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 45609, 1070860919, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25343, 1089478967, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57307, 1085924518, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1 ],
+													"whole_roll_data_0000000003" : [ "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 1, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 64091, 1074254357, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62721, 1089481110, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51848, 1085729626, "_x_x_x_x_bach_float64_x_x_x_x_", 55, 1086054229, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-B3-cresc.wav", ")", "(", 4, 0, 56, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53165, 1070435881, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54141, 1089482801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56473, 1085682805, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 108, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9715, -1074712072, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62333, 1089485071, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39915, 1085668487, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 43, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56788, 1074035449, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42367, 1089488759, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41954, 1086084247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 33, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37757, 1076156740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2303, 1089494071, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14763, 1085418850, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 42, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37300, 1071677369, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44415, 1089495214, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20492, 1086493279, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12252, 1080051488, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47742, 1089498926, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24535, 1085227026, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 202, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51327, -1070905060, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32898, 1089499595, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60715, 1086275174, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4795, -1072984696, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20353, 1089513039, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52469, 1085671689, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 18, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63413, -1077166250, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64253, 1089514119, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31869, 1085311746, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 3, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56401, -1072534022, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47231, 1089516251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51789, 1086269266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 40, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19515, 1073605152, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38910, 1089516905, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25990, 1086252804, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 124, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2969, -1070188611, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49150, 1089520846, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2285, 1085985283, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 123, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12703, 1072318918, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58754, 1089522989, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15658, 1085407602, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 75, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4048, 1072882354, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63744, 1089527015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11961, 1086243593, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4484, 1078069293, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22274, 1089533047, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30219, 1085532808, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082288128, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 3, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15023, 1073527917, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42365, 1089535184, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12918, 1085826207, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 217, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60658, 1075083185, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6913, 1089537712, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41659, 1086219522, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4852, 1078510528, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44413, 1089542830, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11755, 1086390486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55715, -1067768913, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17533, 1089543552, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33213, 1086563055, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18748, 1081089173, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7427, 1089547651, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16354, 1085488921, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 165, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4773, -1072381827, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56448, 1089549396, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4142, 1086430746, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41917, 1080672021, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6912, 1089563491, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32746, 1084844014, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 15, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3087, -1070413661, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15103, 1089570564, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9458, 1085261031, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 3, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33798, -1075274736, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24066, 1089573526, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63574, 1085392665, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 32, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 397, -1073000470, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5760, 1089576199, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44975, 1085654444, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081913344, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 70, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48275, -1073255350, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60289, 1089578316, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24524, 1085573447, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 170, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2307, 1073369511, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19325, 1089581072, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44741, 1086565630, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59977, 1081171573, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56704, 1089582967, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31584, 1085980216, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 29, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29552, -1073923861, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51585, 1089584058, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35146, 1085585913, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 20, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8097, -1073387037, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54016, 1089586156, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49763, 1085315773, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 23, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33669, -1075540762, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3712, 1089587159, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47650, 1085418550, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 42, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53480, -1075515847, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55554, 1089590457, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15503, 1085806565, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083092992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 32, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4746, 1074462446, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61570, 1089592622, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2331, 1085372243, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 244, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32223, -1075205116, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29184, 1089594479, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10908, 1085233638, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 202, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16236, -1075357519, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62463, 1089596262, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55073, 1085463281, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 1, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30009, -1072442399, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18559, 1089599186, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28393, 1085704771, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082238976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 22, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6321, -1073352827, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30975, 1089607036, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39893, 1085037707, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 114, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61833, 1072921278, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65535, 1089608534, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33476, 1085203347, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085380096, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 13, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65222, -1073008018, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43267, 1089612939, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21338, 1085266629, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 53, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22826, 1072896628, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56448, 1089617544, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26523, 1085910960, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 165, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47695, -1073340500, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23808, 1089621560, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40609, 1085649736, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-p.wav", ")", "(", 4, 1, 50, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58295, -1080404598, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57857, 1089623558, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49342, 1085419959, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 135, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56331, 1072010191, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13571, 1089624437, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8714, 1085444737, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556800, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-C6-pp.wav", ")", "(", 4, 4, 36, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11111, 1074077659, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1539, 1089626493, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5212, 1085484046, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 6, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41802, 1068819095, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35839, 1089627703, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48660, 1086430676, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11056, 1080667557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61696, 1089628108, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1349, 1086190077, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27329, 1077177471, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23169, 1089633125, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40258, 1085994012, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-B3-cresc.wav", ")", "(", 4, 1, 56, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1323, 1074389822, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19581, 1089635018, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37098, 1086189266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4149, 1076969887, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64259, 1089636614, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23310, 1085775694, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37846, -1076763426, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41986, 1089639251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43282, 1085624134, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 37, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16051, -1076751658, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25215, 1089642444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4915, 1084766668, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086207232, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 6, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49070, -1069670347, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57987, 1089643686, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52560, 1085939642, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 23, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8882, -1072942675, ")", ")", 0, ")", 0, ")", 0, ")" ],
+													"whole_roll_data_count" : [ 4 ],
 													"zoom" : 117.480316
 												}
 
@@ -20024,8 +20270,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -20223,8 +20469,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -20404,7 +20650,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 90.0, 276.0, 41.0, 19.0 ],
 																	"style" : "",
-																	"text" : "B b 1"
+																	"text" : "F 4"
 																}
 
 															}
@@ -20463,7 +20709,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 90.0, 250.0, 44.0, 19.0 ],
 																	"style" : "",
-																	"text" : "Bb1"
+																	"text" : "F4"
 																}
 
 															}
@@ -20478,7 +20724,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 90.0, 302.0, 45.0, 19.0 ],
 																	"style" : "",
-																	"text" : "B"
+																	"text" : "F"
 																}
 
 															}
@@ -21211,8 +21457,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -22449,7 +22695,7 @@
 													"precision" : 4,
 													"rowhead" : 1,
 													"rowheight" : 17,
-													"rows" : 7,
+													"rows" : 1,
 													"selmode" : 5,
 													"vscroll" : 0
 												}
@@ -22815,8 +23061,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -23064,8 +23310,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 1,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -23867,8 +24113,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -26219,7 +26465,7 @@
 													"destination" : [ "obj-59", 2 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 159.650001, 169.5, 441.799988, 169.5 ],
+													"midpoints" : [ 159.649994, 169.5, 441.799988, 169.5 ],
 													"source" : [ "obj-53", 3 ]
 												}
 
@@ -26634,15 +26880,11 @@
 									"accidentalsfont" : "Accidentals",
 									"bgslots" : [ 1, 2, 3, 4 ],
 									"bgslottextshift" : [ -10.0, 40.0 ],
-									"clefs" : [ "G", "G", "G", "G", "G", "G" ],
-									"enharmonictable" : [ "default", "default", "default", "default", "default", "default" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"hidevoices" : [ 0, 0, 0, 0, 0, 0 ],
 									"highlightplay" : 0,
 									"id" : "obj-24",
-									"keys" : [ "CM", "CM", "CM", "CM", "CM", "CM" ],
 									"legend" : 1,
 									"linklyricstoslot" : 0,
 									"linknoteheadfonttoslot" : 12,
@@ -26650,11 +26892,10 @@
 									"loop" : [ 0.0, 0.0 ],
 									"maxclass" : "bach.roll",
 									"maxundosteps" : 10,
-									"midichannels" : [ 1, 2, 3, 4, 5, 6 ],
 									"notationfont" : "Boulez",
 									"numinlets" : 6,
 									"numoutlets" : 8,
-									"numvoices" : 6,
+									"numvoices" : 1,
 									"out" : "nnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "bang" ],
 									"outputslotnames" : 1,
@@ -26665,16 +26906,18 @@
 									"ruler" : 2,
 									"rulerlabels" : 1,
 									"showplayhead" : 1,
-									"stafflines" : [ 5, 5, 5, 5, 5, 5 ],
+									"stafflines" : 5,
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"tonedivision" : 4,
 									"versionnumber" : 7810,
-									"voicenames" : [ "<none>", "(", ")", "(", ")", "(", ")", "(", ")", "(", ")" ],
-									"voicespacing" : [ 36.0, 21.0, 17.0, 17.0, 17.0, 17.0, 17.0 ],
-									"vzoom" : 99.055118,
-									"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227500544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3231891456, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, 2, 3, 4, 5, 6, ")", "(", 0, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "card_sing-Bb1-mf.aiff", ")", "(", 4, 0, 136, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227058176, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17760, 1086323762, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", 0, ")", "(", 0, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49440, 1085477077, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30304, 1085557240, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31776, 1086619410, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, 100, "(", "slots", "(", 3, "GC-balai-f-contact.wav", ")", "(", 4, 15, 442, ")", ")", 0, ")", 0, ")", 0, ")", "(", 0, ")", "(", 0, ")" ],
-									"whole_roll_data_count" : [ 1 ],
-									"zoom" : 99.056604
+									"voicenames" : "<none>",
+									"voicespacing" : [ 36.0, 21.0 ],
+									"vzoom" : 100.0,
+									"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1067466752, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1063075840, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45893, 1086032096, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 19, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5588, 1077047137, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1019, 1080470931, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14097, 1085744799, "_x_x_x_x_bach_float64_x_x_x_x_", 65223, 1084250712, 1, "(", "breakpoints", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "_x_x_x_x_bach_float64_x_x_x_x_", 4352, -1069899812, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", ")", "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-cresc.wav", ")", "(", 4, 1, 54, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8133, -1075767888, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32757, 1084410087, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4812, 1085663832, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 159, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13705, 1075210155, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24568, 1084504462, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49159, 1086145942, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 27, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34163, 1074903436, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36943, 1084722730, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27302, 1085423029, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 46, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6036, 1071956347, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24610, 1084838510, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45369, 1085434213, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 174, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32420, -1077504846, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57453, 1084922901, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30634, 1085518077, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-p.wav", ")", "(", 4, 6, 52, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61424, -1075656338, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4003, 1085075090, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33602, 1085850458, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8634, -1073211931, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32850, 1085181265, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55883, 1085831826, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083943936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 9, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13471, 1074447271, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4127, 1085268003, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8696, 1086003314, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 77, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 28757, 1074871594, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16416, 1085380815, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55843, 1085775571, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63074, -1075290625, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16334, 1085396579, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19841, 1086552328, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37226, 1080409942, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22543, 1085459015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52695, 1085425045, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 176, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7332, -1075605090, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43003, 1085470182, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43253, 1085839072, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 11, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18945, 1074125584, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2020, 1085497888, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30700, 1085752708, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 5, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39774, -1073056023, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53299, 1085511294, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51680, 1085557248, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 31, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8954, -1074877125, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1998, 1085550444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61872, 1085638541, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 38, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34180, -1074583650, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16398, 1085635367, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5256, 1085836572, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 2, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34557, 1071655883, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16433, 1085828464, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24589, 1086037065, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24086, -1071618241, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59353, 1085907929, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18751, 1086526034, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080729600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 13, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13553, 1077673312, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6111, 1085965872, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17000, 1085842771, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 215, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19953, -1073585742, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59366, 1085985141, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58675, 1085534702, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 25, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52410, -1074907732, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20514, 1086009107, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27806, 1086502291, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080729600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 13, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16860, -1067208691, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20524, 1086061969, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15929, 1085470743, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 150, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40559, -1075387260, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4087, 1086112974, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8827, 1085413935, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 9, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12808, 1072746447, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38871, 1086158732, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3327, 1085449457, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 139, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6453, 1067294172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24620, 1086202828, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19492, 1085575861, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082415104, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 57, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9044, 1072420688, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49201, 1086236550, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19541, 1085511773, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 71, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49438, -1073758955, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26582, 1086298479, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31322, 1086425178, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12002, 1080315680, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34820, 1086309438, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17359, 1086269513, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 3, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30829, -1073417998, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40959, 1086358481, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37015, 1085265941, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 53, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4990, -1077718591, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3078, 1086368449, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52494, 1085453197, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 6, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41672, 1073243475, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14338, 1086374650, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57819, 1086092225, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 33, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11759, 1075070376, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15347, 1086382667, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31356, 1085737600, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 186, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60397, 1072032740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34791, 1086438301, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44018, 1085991392, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 14, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33191, -1074435899, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29710, 1086471276, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53697, 1085704251, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081651200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 8, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47004, 1074207111, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53242, 1086476744, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62217, 1085409354, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 52, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 10602, 1074309092, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44051, 1086485602, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12231, 1085329900, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 155, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31032, -1074352553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44020, 1086494174, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42766, 1085745166, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083298816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 31, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1023, 1071461553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42991, 1086515657, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11093, 1085403653, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 203, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46148, 1074572165, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6145, 1086521384, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4937, 1085816021, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 16, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 28553, 1076024117, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9197, 1086595655, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43437, 1085508643, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 181, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14083, -1076261357, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7186, 1086775511, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34275, 1085702016, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081126912, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 7, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42449, -1074407188, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51175, 1086796771, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23141, 1086042164, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 26, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54263, 1073521653, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5145, 1086888728, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20897, 1085470205, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 172, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60170, -1074845486, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15347, 1086915319, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24829, 1085842867, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 215, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25973, -1073824558, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58352, 1086932917, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48601, 1085800079, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084107776, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 7, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43553, -1074770036, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29713, 1086950936, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47725, 1086309082, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 38, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57654, -1072649743, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15381, 1086995466, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40124, 1085774386, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 27, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58789, 1073731403, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17394, 1087037184, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40335, 1086364675, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 5, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55134, -1070614485, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56347, 1087055689, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21602, 1085521927, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 157, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52952, -1072131280, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17430, 1087145803, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4027, 1085593986, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 95, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57941, 1070651007, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50163, 1087180269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34759, 1085472629, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 41, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18580, 1068720899, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47117, 1087184864, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51761, 1086453589, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18102, -1067025522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60422, 1087207192, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3998, 1085305090, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48276, 1077282729, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47087, 1087219378, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52741, 1085617928, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083364352, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 26, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26712, -1079698233, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36840, 1087290362, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9497, 1085430616, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53447, 1074109367, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52234, 1087355645, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43988, 1085574762, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 110, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42867, -1074233609, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53263, 1087365490, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54012, 1085697647, "_x_x_x_x_bach_float64_x_x_x_x_", 65371, 1083746645, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E5-pp.wav", ")", "(", 4, 0, 39, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2773, 1071832024, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29173, 1087385019, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53582, 1085769221, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56410, 1073816046, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15862, 1087395951, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10050, 1086353966, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24932, -1069943141, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64510, 1087405532, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42676, 1086121343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080909824, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 169, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65271, 1072572376, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9730, 1087414786, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 779, 1085952590, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54497, 1071746939, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10761, 1087429834, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58855, 1086036782, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43549, -1071473532, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62968, 1087444032, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33584, 1085039133, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 114, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12861, 1074791322, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51717, 1087448994, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62299, 1085950085, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20222, -1071482685, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50181, 1087470730, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11799, 1085834423, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 4, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22853, 1074406546, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12796, 1087488802, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3949, 1085343333, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 7, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7135, -1073480360, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60925, 1087494035, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63851, 1086221044, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52365, -1068891522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1037, 1087496829, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23561, 1086355838, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42895, -1071206615, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61443, 1087526711, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39024, 1085626999, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080991744, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 10, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30182, -1074818709, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6131, 1087548210, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64325, 1085419735, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 135, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42977, -1077306681, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19969, 1087573210, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35959, 1086460784, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27323, -1067521604, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48629, 1087582248, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32508, 1085633846, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 10, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19445, -1075519215, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17422, 1087589031, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44947, 1085528806, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 30, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41289, -1076361004, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63999, 1087601378, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65470, 1085887130, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086297600, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-cresc.wav", ")", "(", 4, 4, 54, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56498, 1074441585, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15366, 1087610722, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64082, 1085852873, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 44464, 1075425435, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4107, 1087644792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36793, 1085419252, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081778176, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 1, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24279, -1074572435, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38924, 1087646695, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47346, 1085911434, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 165, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 62335, -1074967719, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27659, 1087667835, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55229, 1085220385, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 1, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59035, 1076542081, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22525, 1087671977, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14896, 1086106161, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6149, -1070177583 ],
+									"whole_roll_data_0000000001" : [ ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24586, 1087675491, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54295, 1085255369, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 3, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13133, -1071142880, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13822, 1087694403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37122, 1086141069, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 242, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58153, 1076610253, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12293, 1087697311, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32183, 1085174299, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085502976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 7, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19515, 1070858971, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44541, 1087708477, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47866, 1085928049, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 14, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14221, -1079683946, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6149, 1087728142, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23041, 1086407615, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13153, 1077494673, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23563, 1087734203, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19582, 1085808977, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080385536, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 26, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58045, -1072525296, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20480, 1087745086, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65043, 1085600156, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 13, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18014, -1075916263, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6650, 1087752312, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10377, 1085468494, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 9, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18297, -1073282389, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62977, 1087755204, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50244, 1085389829, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 154, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19377, 1074061149, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21513, 1087770042, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23886, 1085630503, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 59, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5271, 1073234900, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57855, 1087780026, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11201, 1085509622, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 37, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3227, 1071417329, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48115, 1087782770, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15917, 1085444134, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556800, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-C6-pp.wav", ")", "(", 4, 4, 36, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35080, 1070740968, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57351, 1087794359, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30610, 1085485014, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 113, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5689, 1071037249, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22517, 1087807051, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22890, 1086348293, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13744, 1075808844, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22021, 1087815112, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63594, 1086292893, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50931, 1079013736, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30732, 1087828671, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11722, 1086218212, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25488, 1078342828, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33787, 1087846421, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64224, 1085933016, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085805824, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 2, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26263, -1072832263, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53771, 1087854176, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30028, 1085430587, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63905, 1074050172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37374, 1087872639, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42595, 1085981023, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-high_cluster-ff.wav", ")", "(", 4, 1, 59, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55943, -1074667110, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39418, 1087916332, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38352, 1086318538, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 81, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51471, 1077228445, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33277, 1087922403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57998, 1085668638, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 43, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63289, 1074344538, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28150, 1087934962, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58727, 1085332683, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 5, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58127, -1074316962, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6143, 1087949269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23315, 1086219544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2001, 1078513333, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56826, 1087985282, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49068, 1085549790, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 31, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16336, 1073978956, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7672, 1087998792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29112, 1086284223, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55359, 1077929816, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55806, 1088010278, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15594, 1085656221, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 197, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40517, -1075245419, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10, 1088021531, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30160, 1085203854, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085380096, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 13, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16042, -1073527522, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19967, 1088024284, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19972, 1085719758, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24214, 1074009628, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15369, 1088053477, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48244, 1086368884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23499, 1076924012, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17930, 1088059678, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34790, 1085903466, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081520128, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 56, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38757, -1074553739, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24588, 1088075688, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37054, 1085799891, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084107776, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E4-cresc.wav", ")", "(", 4, 7, 48, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23208, -1073999378, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60424, 1088085667, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6592, 1085716230, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 21, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24784, -1072153350, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61435, 1088094953, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33862, 1085653486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080737792, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 177, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39021, 1074834693, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29195, 1088106053, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1130, 1085429593, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 3, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19143, -1074483622, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37891, 1088116216, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45997, 1086352083, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59866, 1078116262, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61442, 1088128578, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3410, 1084897329, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 8, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48316, 1074480869, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19971, 1088131450, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16271, 1085456268, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 163, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61422, 1074188667, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60915, 1088142814, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46052, 1086420634, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8942, 1080016426, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57332, 1088150354, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63195, 1085299689, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14949, 1072553139, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13812, 1088157149, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21795, 1086391298, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15828, -1067872935, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29704, 1088179702, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15753, 1085286152, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 68, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63458, 1072661451, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9725, 1088205693, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17417, 1085869374, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 128, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 591, 1074377848, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60937, 1088228613, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16546, 1085617984, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083364352, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 26, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4103, 1069995421, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5631, 1088242111, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7319, 1086426288, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48653, 1080386759, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17418, 1088249360, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12210, 1086352624, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16473, -1069401755, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47622, 1088257847, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9337, 1085754618, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081737216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 2, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8772, -1075003409, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55814, 1088269835, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4500, 1086244265, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18437, 1078155278, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64013, 1088283273, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 976, 1085337247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 228, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 36026, -1075400892, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62475, 1088288414, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45895, 1085427263, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 54, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22843, -1077109743, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9225, 1088292288, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16559, 1086051439, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 100, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55146, 1074758987, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57353, 1088308910, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23556, 1086201814, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 14, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 17479, -1072371451, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34811, 1088342700, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20106, 1085369570, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 219, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43596, -1072930012, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52226, 1088356638, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62382, 1085497074, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 146, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 865, -1073530998, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10237, 1088366718, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36932, 1085213253, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 1, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9301, -1075698342, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11787, 1088369769, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26316, 1085796294, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 5, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43721, -1072810465, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40453, 1088378621, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12745, 1085967950, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084073984, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 8, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20794, -1073292949, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48644, 1088387328, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25906, 1085572206, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 105, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53784, -1073480235, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58373, 1088392781, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44726, 1085718758, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65166, -1074375031, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5116, 1088410148, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60202, 1085850688, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081696256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 2, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59035, -1073683159, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10240, 1088417603, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44632, 1085649731, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-p.wav", ")", "(", 4, 1, 50, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22940, -1079518083, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48640, 1088430681, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15286, 1085768807, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27640, 1071697442, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50687, 1088436030, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25725, 1086386828, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 106, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3154, 1079559027, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19972, 1088441791, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4706, 1085417176, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084096512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 15, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51679, 1073189157, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31491, 1088443542, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23420, 1086184965, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31322, 1071465189, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1793, 1088453160, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17088, 1085451582, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 6, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 36591, -1077606240, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34562, 1088455792, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7106, 1085909868, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081298944, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 157, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48675, 1073348386, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53754, 1088468440, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12780, 1086361537, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 62, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49725, 1077974904, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1796, 1088472342, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41030, 1085518312, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082609664, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-p.wav", ")", "(", 4, 5, 52, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52537, 1068140071, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41985, 1088482741, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46401, 1085986030, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 74, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12708, 1072862225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33274, 1088488823, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17992, 1085666222, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 19, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18690, -1075482700, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64259, 1088490444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36071, 1085846367, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 12, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58243, 1075019225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31487, 1088497785, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6334, 1086054551, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 100, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43408, 1076893875, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61443, 1088503235, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13927, 1086392227, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39834, -1067991749, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7675, 1088504877, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60909, 1085441783, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 13, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27400, 1072197287, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46851, 1088507996, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15514, 1085982670, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-high_cluster-ff.wav", ")", "(", 4, 1, 59, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42901, 1075135762, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29183, 1088518015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36914, 1086456715, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50817, -1067225630, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59140, 1088526779, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48231, 1085714120, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 110, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51598, 1075095909, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26881, 1088528635, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38420, 1085286104, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 68, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7681, 1072267815, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60674, 1088532113, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55570, 1085526943, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-p.wav", ")", "(", 4, 10, 38, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51899, 1074308396, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58878, 1088533642, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22036, 1085719384, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56325, 1072743552, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23296, 1088537514, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13423, 1086112890, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 42625, 1074738123, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49663, 1088547619, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28428, 1086417886, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53819, 1079664791, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53504, 1088548599, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31928, 1086101908, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27629, 1076488673, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36858, 1088573567, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39626, 1085940254, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 23, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51661, -1074648836, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52230, 1088581308, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3826, 1085495248, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082304512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-pp.wav", ")", "(", 4, 13, 51, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51929, 1075373594, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3835, 1088582752, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5246, 1085143304, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 12, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27452, -1076317499, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20228, 1088590403, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62288, 1085297655, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 232, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 207, 1074755020, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37883, 1088594837, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56632, 1086040266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 109, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61395, 1074869908, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25341, 1088602725, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58812, 1085078343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081126912, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 13, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6272, -1073578794, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60159, 1088608752, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2616, 1085594686, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 60, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46064, 1073453672, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47097, 1088612322, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18391, 1086096600, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 238, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50221, 1074380163, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20732, 1088617032, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48946, 1085639028, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 38, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60997, 1072068840, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42758, 1088620517, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26562, 1086408067, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18087, 1077725984, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5381, 1088627145, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32378, 1086103359, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63494, 1077059572, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36347, 1088633248, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61660, 1086367995, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31987, 1076049315, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60417, 1088639739, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2860, 1085719666, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083244544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 11, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12736, 1073820847, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26373, 1088645233, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59641, 1086183571, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15624, -1072434344, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 260, 1088654634, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18892, 1085818504, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 96, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47898, -1075185225, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63994, 1088662882, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35869, 1086030833, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080451072, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 19, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56192, 1076560089, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13310, 1088672669, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4410, 1085500199, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 175, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61593, 1073013237, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51975, 1088676545, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7383, 1086388439, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 106, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14768, 1079765212, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62201, 1088682672, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11062, 1085700979, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 66, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24759, -1077133298, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17658, 1088685726, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56137, 1085762300, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 205, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20977, 1067446305, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18949, 1088693649, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27887, 1085375963, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 102, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60295, -1077941375, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65023, 1088698136, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23474, 1085624335, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 37, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 57566, 1071645466, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63746, 1088701917, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7793, 1086226256, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37703, -1069569838, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2049, 1088710155, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63350, 1086182658, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 66, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47650, 1074588759, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56313, 1088717731, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42010, 1086416338, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4 ],
+									"whole_roll_data_0000000002" : [ 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15844, 1079466600, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35840, 1088727446, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4378, 1085969990, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 3, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 17875, 1075036206, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37882, 1088755121, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64437, 1086143442, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 27, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31353, -1072344403, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61955, 1088761612, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6623, 1085783884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 94, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13977, -1074970128, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32773, 1088768493, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7845, 1085587245, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E5-pp.wav", ")", "(", 4, 4, 39, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61719, 1072526107, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47621, 1088780726, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51539, 1085299970, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 207, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35273, 1073757249, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7681, 1088785563, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8581, 1086612786, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8488, 1082405498, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11008, 1088792474, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12644, 1085306348, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 3, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53234, -1069960873, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8196, 1088804517, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59864, 1085410485, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081167872, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 104, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46135, -1072602266, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56576, 1088817588, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14321, 1085327247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 130, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30642, 1073992623, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4610, 1088819862, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32148, 1085630293, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 59, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65030, 1072055521, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35077, 1088825058, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12649, 1085636433, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 55, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16519, 1072084542, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34810, 1088827093, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56120, 1086105169, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 209, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9028, 1077522895, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34052, 1088832961, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40780, 1085968086, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084073984, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 8, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13187, -1073570172, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46843, 1088839801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53818, 1085705884, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082238976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 22, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 64166, 1073330674, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60925, 1088846693, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17648, 1086368757, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 8, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52385, 1076830084, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32256, 1088850976, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34806, 1085515603, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081081856, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 123, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37782, -1074091649, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33278, 1088855882, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15744, 1086060704, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 201, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33485, -1070698707, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36863, 1088864469, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48931, 1085700368, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 27, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 109, 1073105538, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51710, 1088866577, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27833, 1085560013, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 8, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38831, -1077828971, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4605, 1088902886, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41943, 1085406486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 75, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38004, -1073124031, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16634, 1088907544, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65014, 1085966264, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 11, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24241, 1074047937, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55811, 1088915933, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11026, 1085035171, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 1, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7492, 1074204699, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44543, 1088922530, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24747, 1086437949, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24976, 1081107449, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64762, 1088928938, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53026, 1085890859, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 7, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22804, 1074849111, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30723, 1088938394, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32838, 1085745565, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083298816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 31, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50191, 1073750843, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18687, 1088940193, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59483, 1085760121, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 205, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35530, -1071581459, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13317, 1088943192, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6886, 1086638112, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46891, 1082810715, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15868, 1088945111, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54717, 1086129779, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 107, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52863, -1071529838, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60672, 1088953555, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53596, 1085426461, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 54, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55057, -1073029844, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4352, 1088971160, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34096, 1084578677, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081954304, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 13, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7196, 1077274046, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12294, 1088973407, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4467, 1085907572, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081298944, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 157, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18678, -1071817333, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49157, 1088977863, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45872, 1085469384, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-pp.wav", ")", "(", 4, 6, 51, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 45321, 1066432365, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18437, 1088979258, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10362, 1086188286, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16334, 1076550688, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23546, 1088984582, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56043, 1085790510, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 4, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29325, 1075746209, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62981, 1088994080, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21369, 1085573654, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 170, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60348, 1073981004, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65018, 1088998482, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9940, 1085920022, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081122816, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 14, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37339, 1074859978, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24589, 1089008262, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084773376, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-low_cluster-ff.wav", ")", "(", 4, 3, 61, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27783, 1070383315, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55546, 1089012484, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40094, 1085464444, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 1, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2929, -1076198001, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 763, 1089019003, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8980, 1086431214, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 23891, 1080702018, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58626, 1089024935, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9398, 1085912994, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 78, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 26892, -1075891017, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64253, 1089039131, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59801, 1085476567, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 74, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15398, 1072992246, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27641, 1089042722, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9453, 1085749420, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 1, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20585, 1073817906, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17407, 1089047029, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41668, 1085523781, "_x_x_x_x_bach_float64_x_x_x_x_", 1045, 1080552106, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 0, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 44722, 1071579751, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37635, 1089050794, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48997, 1085689149, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081389056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 13, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43252, -1076759992, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2049, 1089058703, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24722, 1086269332, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 40, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18394, 1073809194, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41472, 1089063557, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52911, 1085596041, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081565184, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 10, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32727, -1076731005, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44292, 1089065109, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61112, 1086417043, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 35995, 1079556823, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17915, 1089071081, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8969, 1085819505, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 172, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 10134, 1073133813, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5637, 1089074259, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3480, 1085540824, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 18, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33104, 1073025557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12293, 1089076915, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53183, 1085773428, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083604992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 2, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1350, 1073056810, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5115, 1089083593, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52580, 1085681784, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 2, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31349, -1075216776, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32507, 1089088251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9751, 1085355896, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079328768, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 92, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 52607, -1075984994, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50949, 1089093037, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 153, 1085739412, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 65, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43714, 1070939915, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55803, 1089105376, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48719, 1085431452, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 23, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 14934, -1074395058, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57856, 1089109947, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53121, 1086307189, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 38, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51333, -1071177933, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40442, 1089113589, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18269, 1085927132, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 14, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40132, -1072890416, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 59395, 1089126822, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63362, 1085657284, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080467456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 116, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46304, 1073543557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35070, 1089128531, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46444, 1085148646, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 12, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 25262, 1076107400, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17402, 1089132830, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27644, 1085913283, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 78, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6958, 1071946165, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22526, 1089135370, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45840, 1085951032, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079148544, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 133, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51446, -1072290803, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28417, 1089139690, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2905, 1085392911, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 32, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59864, -1073505021, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5370, 1089144226, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36115, 1085837308, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 2, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 31122, 1074465481, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50937, 1089149877, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8647, 1085987703, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 74, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27881, 1075760337, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50686, 1089156190, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65069, 1085921710, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 1, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48542, -1071646915, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54279, 1089160801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55764, 1085881175, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 112, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33190, -1077349066, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40453, 1089172946, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34277, 1085749079, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 1, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15195, 1072294349, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38912, 1089181606, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43830, 1085820990, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079345152, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 3, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 54563, -1072540809, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43770, 1089188643, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58633, 1086147856, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 76, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 13881, -1073462966, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36613, 1089191245, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41942, 1086017234, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 45, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 40263, -1070911661, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61183, 1089196802, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56275, 1085889968, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 7, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43612, 1072150670, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7, 1089197964, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4831, 1085412877, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 136, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20422, 1070455642, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40966, 1089203176, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6564, 1085742193, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082130432, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 19, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30451, -1072650529, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51714, 1089207250, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48933, 1085972960, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 129, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55091, -1077845113, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21764, 1089213494, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62308, 1086184780, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39114, -1076819601, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64255, 1089217658, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 27522, 1085599568, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080999936, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 13, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60741, -1073332776, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38657, 1089224711, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 36854, 1086432647, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41879, 1080793705, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23033, 1089231454, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17205, 1085672978, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082130432, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 16, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22285, -1077306600, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64764, 1089236370, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46054, 1086020022, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 45, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63172, -1073374419, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7168, 1089240712, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9454, 1085419416, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081778176, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 1, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22708, -1075691780, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57854, 1089244267, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49630, 1086351478, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 33, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6914, 1077961442, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56065, 1089250664, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8305, 1086187912, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11623, 1076359013, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47875, 1089288141, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8273, 1085565046, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 90, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11075, 1072345076, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53253, 1089308615, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 78, 1085588213, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 39, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16442, -1076629023, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9726, 1089310937, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58913, 1086182646, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 66, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 34238, 1074563671, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13829, 1089322520, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26140, 1085532088, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081561088, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 19, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 21082, -1077402553, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13057, 1089332806, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22038, 1085417078, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084096512, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 15, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2190, 1072787048, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11264, 1089335100, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60369, 1086600581, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51536, 1082210210, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34050, 1089340167, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57107, 1085644416, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081442304, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 17, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39884, -1075254832, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7684, 1089347439, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64725, 1086291073, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 50128, 1078809754, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19971, 1089371099, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28406, 1085502553, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081651200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 48, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15877, -1072729977, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11782, 1089372801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54445, 1086111665, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 241, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 24352, -1075035499, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3072, 1089374961, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15850, 1086531194, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 46878, 1075953139, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9979, 1089380710, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3770, 1086225343, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9552, -1069441740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63998, 1089387934, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42249, 1086290652, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 5308, 1078755860, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62206, 1089391129, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20836, 1085695453, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 1, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 20074, 1070231563, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24321, 1089396578, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56330, 1086238747, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29538, 1076961696, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40186, 1089413850, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33406, 1086399996, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59697, -1069473478, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65020, 1089417785, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6872, 1085561943, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-key_gliss_white-f.wav", ")", "(", 4, 9, 46, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15950, 1071282540, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18685, 1089423017, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22656, 1085815273, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 16, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47823, 1075443423, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23803, 1089429099, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2939, 1086023544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 218, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19779, 1073105782, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 46331, 1089442390, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38233, 1085499102, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080115200, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 101, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 43308, 1070689066, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 45061, 1089445852, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6524, 1086282595, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 39986, 1077513176, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48127, 1089448134, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18470, 1085895753, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 134, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 7926, -1070497686, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 34821, 1089454364, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56989, 1086451049, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11216, -1066862981, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57091, 1089459619, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14367, 1086391790, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49107, -1067935896, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28926, 1089472180, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58893, 1085768906, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082261504, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 7, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 38851, 1072511411, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 53887, 1089475269, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 50527, 1085775846, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 45609, 1070860919, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25343, 1089478967, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57307, 1085924518, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1 ],
+									"whole_roll_data_0000000003" : [ "pppp", ")", "(", 3, "Melodica-key_gliss_black-f.wav", ")", "(", 4, 1, 45, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 64091, 1074254357, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62721, 1089481110, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51848, 1085729626, "_x_x_x_x_bach_float64_x_x_x_x_", 55, 1086054229, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-B3-cresc.wav", ")", "(", 4, 0, 56, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53165, 1070435881, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54141, 1089482801, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56473, 1085682805, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079869440, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 108, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 9715, -1074712072, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62333, 1089485071, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39915, 1085668487, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 43, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56788, 1074035449, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42367, 1089488759, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41954, 1086084247, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080205312, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 33, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37757, 1076156740, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2303, 1089494071, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 14763, 1085418850, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 42, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37300, 1071677369, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44415, 1089495214, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20492, 1086493279, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 11, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12252, 1080051488, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47742, 1089498926, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24535, 1085227026, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 202, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 51327, -1070905060, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32898, 1089499595, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60715, 1086275174, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 167, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4795, -1072984696, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 20353, 1089513039, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52469, 1085671689, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 18, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 63413, -1077166250, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64253, 1089514119, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31869, 1085311746, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 3, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56401, -1072534022, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47231, 1089516251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51789, 1086269266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079689216, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 40, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 19515, 1073605152, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 38910, 1089516905, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25990, 1086252804, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 124, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2969, -1070188611, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49150, 1089520846, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2285, 1085985283, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 123, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 12703, 1072318918, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 58754, 1089522989, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15658, 1085407602, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 75, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4048, 1072882354, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63744, 1089527015, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11961, 1086243593, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080819712, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 11, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4484, 1078069293, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 22274, 1089533047, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30219, 1085532808, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082288128, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss-f.wav", ")", "(", 4, 3, 40, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 15023, 1073527917, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 42365, 1089535184, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 12918, 1085826207, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 217, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 60658, 1075083185, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6913, 1089537712, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41659, 1086219522, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084435456, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 17, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4852, 1078510528, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44413, 1089542830, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 11755, 1086390486, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 55715, -1067768913, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 17533, 1089543552, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33213, 1086563055, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 18748, 1081089173, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 7427, 1089547651, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 16354, 1085488921, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 165, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4773, -1072381827, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56448, 1089549396, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4142, 1086430746, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41917, 1080672021, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 6912, 1089563491, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 32746, 1084844014, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 15, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 3087, -1070413661, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15103, 1089570564, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 9458, 1085261031, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081606144, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 3, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33798, -1075274736, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24066, 1089573526, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 63574, 1085392665, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 32, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 397, -1073000470, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5760, 1089576199, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44975, 1085654444, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081913344, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 70, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 48275, -1073255350, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 60289, 1089578316, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 24524, 1085573447, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 170, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 2307, 1073369511, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19325, 1089581072, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 44741, 1086565630, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079853056, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-half_embouchure-D4-p.wav", ")", "(", 4, 10, 43, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 59977, 1081171573, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56704, 1089582967, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 31584, 1085980216, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 29, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 29552, -1073923861, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 51585, 1089584058, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35146, 1085585913, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black-pp.wav", ")", "(", 4, 20, 41, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8097, -1073387037, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 54016, 1089586156, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49763, 1085315773, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079164928, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 23, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 33669, -1075540762, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3712, 1089587159, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 47650, 1085418550, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 42, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 53480, -1075515847, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55554, 1089590457, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 15503, 1085806565, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083092992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 32, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4746, 1074462446, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61570, 1089592622, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2331, 1085372243, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 244, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 32223, -1075205116, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 29184, 1089594479, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 10908, 1085233638, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 202, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16236, -1075357519, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 62463, 1089596262, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 55073, 1085463281, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080557568, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-E4-mf.wav", ")", "(", 4, 1, 37, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 30009, -1072442399, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 18559, 1089599186, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 28393, 1085704771, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082238976, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-improv-f.wav", ")", "(", 4, 22, 44, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 6321, -1073352827, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 30975, 1089607036, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 39893, 1085037707, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 114, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 61833, 1072921278, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 65535, 1089608534, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 33476, 1085203347, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085380096, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-C6-pp.wav", ")", "(", 4, 13, 58, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 65222, -1073008018, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43267, 1089612939, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 21338, 1085266629, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 53, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 22826, 1072896628, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 56448, 1089617544, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 26523, 1085910960, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080295424, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 165, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 47695, -1073340500, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23808, 1089621560, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40609, 1085649736, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079672832, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-p.wav", ")", "(", 4, 1, 50, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 58295, -1080404598, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57857, 1089623558, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 49342, 1085419959, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080123392, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 135, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 56331, 1072010191, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 13571, 1089624437, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 8714, 1085444737, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556800, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-embouchure_half_to_full-C6-pp.wav", ")", "(", 4, 4, 36, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11111, 1074077659, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1539, 1089626493, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 5212, 1085484046, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078624256, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-F4-pp.wav", ")", "(", 4, 6, 53, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 41802, 1068819095, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 35839, 1089627703, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 48660, 1086430676, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079508992, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 42, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 11056, 1080667557, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 61696, 1089628108, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1349, 1086190077, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 27329, 1077177471, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23169, 1089633125, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 40258, 1085994012, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078657024, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-no_mouthpiece-B3-cresc.wav", ")", "(", 4, 1, 56, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 1323, 1074389822, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 19581, 1089635018, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 37098, 1086189266, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083002880, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-mouthpiece_only-pp.wav", ")", "(", 4, 16, 55, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 4149, 1076969887, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 64259, 1089636614, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 23310, 1085775694, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080647680, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 108, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 37846, -1076763426, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 41986, 1089639251, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 43282, 1085624134, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080033280, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-keys.wav", ")", "(", 4, 37, 47, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 16051, -1076751658, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 25215, 1089642444, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4915, 1084766668, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086207232, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-longtone-E6-cresc.wav", ")", "(", 4, 6, 49, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 49070, -1069670347, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 57987, 1089643686, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 52560, 1085939642, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, 1, "(", "slots", "(", 1, "pppp", ")", "(", 3, "Melodica-gliss_white_black.wav", ")", "(", 4, 23, 42, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 8882, -1072942675, ")", ")", 0, ")", 0, ")", 0, ")" ],
+									"whole_roll_data_count" : [ 4 ],
+									"zoom" : 99.055115
 								}
 
 							}
@@ -26919,8 +27162,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -28051,8 +28294,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -28093,7 +28336,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 980.0, 397.0, 70.0, 19.0 ],
+													"patching_rect" : [ 980.0, 397.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 1"
 												}
@@ -28137,7 +28380,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 130.0, 402.0, 76.0, 19.0 ],
+													"patching_rect" : [ 130.0, 402.0, 76.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 10"
 												}
@@ -28183,7 +28426,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 17.5, 402.0, 70.0, 19.0 ],
+													"patching_rect" : [ 17.5, 402.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -28244,7 +28487,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 900.0, 195.0, 70.0, 19.0 ],
+													"patching_rect" : [ 900.0, 195.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 1"
 												}
@@ -28446,7 +28689,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ -13.0, 190.0, 32.5, 17.0 ],
+													"patching_rect" : [ -13.0, 190.0, 32.5, 21.0 ],
 													"style" : "",
 													"text" : "8"
 												}
@@ -28462,7 +28705,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ -30.0, 154.0, 32.5, 17.0 ],
+													"patching_rect" : [ -30.0, 154.0, 32.5, 21.0 ],
 													"style" : "",
 													"text" : "4"
 												}
@@ -28478,7 +28721,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ -44.0, 136.0, 32.5, 17.0 ],
+													"patching_rect" : [ -44.0, 136.0, 32.5, 21.0 ],
 													"style" : "",
 													"text" : "2"
 												}
@@ -28494,7 +28737,7 @@
 													"numinlets" : 4,
 													"numoutlets" : 4,
 													"outlettype" : [ "bang", "bang", "bang", "" ],
-													"patching_rect" : [ -45.0, 120.0, 59.5, 19.0 ],
+													"patching_rect" : [ -45.0, 120.0, 59.5, 21.0 ],
 													"style" : "",
 													"text" : "sel 0 1 2"
 												}
@@ -28524,7 +28767,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 638.0, 327.0, 70.0, 19.0 ],
+													"patching_rect" : [ 638.0, 327.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 1"
 												}
@@ -28582,7 +28825,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 512.0, 99.0, 83.0, 19.0 ],
+													"patching_rect" : [ 512.0, 99.0, 83.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 167"
 												}
@@ -28688,7 +28931,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 323.0, 102.0, 70.0, 19.0 ],
+													"patching_rect" : [ 323.0, 102.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 1"
 												}
@@ -28778,7 +29021,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 216.0, 115.0, 70.0, 19.0 ],
+													"patching_rect" : [ 216.0, 115.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -28818,59 +29061,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 11.595187,
-													"id" : "obj-41",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 632.0, 105.0, 109.0, 19.0 ],
-													"style" : "",
-													"text" : "Duration line width:"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.595187,
-													"hidden" : 1,
-													"id" : "obj-40",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 634.0, 105.0, 73.0, 19.0 ],
-													"style" : "",
-													"text" : "loadmess 2."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.595187,
-													"format" : 6,
-													"id" : "obj-39",
-													"maxclass" : "flonum",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 636.0, 123.0, 50.0, 21.0 ],
-													"style" : ""
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.595187,
 													"hidden" : 1,
 													"id" : "obj-36",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 53.0, 102.0, 70.0, 19.0 ],
+													"patching_rect" : [ 53.0, 102.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -28916,7 +29113,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 720.0, 159.0, 70.0, 19.0 ],
+													"patching_rect" : [ 635.0, 153.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -28977,7 +29174,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 719.0, 229.0, 70.0, 19.0 ],
+													"patching_rect" : [ 719.0, 229.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 1"
 												}
@@ -28993,7 +29190,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 901.0, 156.0, 70.0, 19.0 ],
+													"patching_rect" : [ 901.0, 156.0, 70.0, 21.0 ],
 													"style" : "",
 													"text" : "loadmess 0"
 												}
@@ -29098,21 +29295,6 @@
 													"patching_rect" : [ 17.0, 162.0, 86.0, 21.0 ],
 													"style" : "",
 													"text" : "tonedivision $1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.595187,
-													"id" : "obj-37",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 636.0, 148.0, 117.0, 21.0 ],
-													"style" : "",
-													"text" : "durationslinewidth $1"
 												}
 
 											}
@@ -29374,34 +29556,7 @@
 													"destination" : [ "obj-89", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-37", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-37", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-39", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-89", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
 													"source" : [ "obj-4", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"disabled" : 0,
-													"hidden" : 1,
-													"source" : [ "obj-40", 0 ]
 												}
 
 											}
@@ -29725,28 +29880,22 @@
 							}
 , 							{
 								"box" : 								{
-									"bgslots" : [ 1, 2, 3, 4 ],
 									"bgslottextshift" : [ -10.0, 40.0 ],
-									"clefs" : [ "G", "G", "G", "G", "G", "G" ],
 									"constraintbeamsinspaces" : 0,
-									"enharmonictable" : [ "default", "default", "default", "default", "default", "default" ],
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"hidetupletshapeonbeams" : 0,
-									"hidevoices" : [ 0, 0, 0, 0, 0, 0 ],
 									"highlightplay" : 0,
 									"id" : "obj-1",
-									"keys" : [ "CM", "CM", "CM", "CM", "CM", "CM" ],
 									"legend" : 1,
 									"loop" : [ "(", 1, 1, 0, ")", "(", 1, 1, 0, ")" ],
 									"maxclass" : "bach.score",
 									"maxundosteps" : 10,
-									"midichannels" : [ 1, 2, 3, 4, 5, 6 ],
 									"notationfont" : "Boulez",
 									"numinlets" : 7,
 									"numoutlets" : 9,
-									"numvoices" : 6,
+									"numvoices" : 1,
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
 									"outputslotnames" : 1,
@@ -29754,20 +29903,18 @@
 									"pitcheditrange" : "null",
 									"presentation" : 1,
 									"presentation_rect" : [ 276.0, 362.5, 1000.0, 292.279236 ],
-									"showmeasurenumbers" : [ 1, 1, 1, 1, 1, 1 ],
 									"showplayhead" : 1,
 									"spacingtype" : 2,
 									"spacingwidth" : 1.0,
-									"stafflines" : [ 5, 5, 5, 5, 5, 5 ],
+									"stafflines" : 5,
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"tonedivision" : 4,
 									"versionnumber" : 7810,
-									"voicenames" : [ "<none>", "(", ")", "(", ")", "(", ")", "(", ")", "(", ")" ],
-									"voicespacing" : [ 37.0, 26.0, 26.0, 26.0, 26.0, 26.0, 26.0 ],
-									"vzoom" : 99.055118,
-									"whole_score_data_0000000000" : [ "score", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227500544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3231891456, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "markers", ")", "(", "midichannels", 1, 2, 3, 4, 5, 6, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "leveltype", 1, ")", "(", "1/4", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, "(", "slots", "(", 3, "card_sing-Bb1-mf.aiff", ")", "(", 4, 0, 136, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3227058176, ")", "(", 8, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", ")", 0, ")", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 8, ")", "(", "-3/64", 0, ")", "(", "(", "leveltype", 2, ")", "(", "1/64", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", "(", "1/16", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", ")", ")", "(", "(", "leveltype", 8, ")", "(", "1/8", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 8, ")", "(", "3/64", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, "(", "slots", "(", 3, "sans_bec-cles-grave.aif", ")", "(", 4, 83, 112, ")", ")", 0, ")", 0, ")", "(", "-1/64", 0, ")", "(", "-1/16", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "-1/8", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 8, ")", "(", "-1/8", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "-3/32", 0, ")", "(", "1/32", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 24, ")", "(", "1/20", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", 0, ")", "(", "3/40", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "3/32", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, "(", "slots", "(", 3, "GC-plantes-superball-contact.wav", ")", "(", 4, 62, 484, ")", ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", "(", "1/32", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 24, ")", "(", "1/20", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, "(", "slots", "(", 3, "GC-plantes-superball-stereo.wav", ")", "(", 4, 21, 436, ")", ")", 0, ")", 0, ")", "(", "-3/40", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "-1/8", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 8, ")", "(", "-1/8", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "1/8", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 1, "(", "slots", "(", 3, "GC-balai-f-contact.wav", ")", "(", 4, 15, 442, ")", ")", 0, ")", 0, ")", ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "leveltype", 1, ")", "(", "(", "leveltype", 8, ")", "(", "1/8", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, 100, 0, "(", "slots", "(", 3, "GC-balai-f-contact.wav", ")", "(", 4, 15, 442, ")", ")", 0, ")", 0, ")", ")", "(", "(", "leveltype", 8, ")", "(", "-1/8", 0, ")", ")", 0, ")", 0, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", "(", "(", "(", 2, 8, ")", "(", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")" ],
+									"voicenames" : "<none>",
+									"voicespacing" : [ 37.0, 26.0 ],
+									"vzoom" : 100.0,
+									"whole_score_data_0000000000" : [ "score", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "a", ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 4, "(", "name", "marker-buffer", ")", "(", "type", "intlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 5, "(", "name", "attack", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 6, "(", "name", "release", ")", "(", "type", "floatlist", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 7, "(", "name", "level", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1067466752, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 8, "(", "name", "resampling", ")", "(", "type", "float", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, -1063075840, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 9, "(", "name", "spat", ")", "(", "type", "spat", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "width", "temporal", ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 10, "(", "name", "slot 10", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 11, "(", "name", "slot 11", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 12, "(", "name", "slot 12", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "singleslotfortiednotes", 1, ")", ")", ")", "(", "commands", "(", 1, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", "", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "markers", ")", "(", "midichannels", 1, ")", "(", "(", "(", "(", 2, 8, ")", "(", "(", "1/4", 60, ")", ")", "(", "boxes", "1/8", "1/8", ")", ")", "(", "-1/4", 0, ")", 0, ")", 0, ")" ],
 									"whole_score_data_count" : [ 1 ],
-									"zoom" : 100.104822
+									"zoom" : 99.055115
 								}
 
 							}
@@ -29782,10 +29929,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 411.0, 365.0, 217.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 7.0, 141.999969, 120.0, 29.0 ],
+									"presentation_rect" : [ 7.0, 141.999969, 120.0, 19.0 ],
 									"style" : "",
-									"text" : "exportxml (dynamicsslot 1) ( directionslots ( 2 3 4 ) )"
+									"text" : "exportxml"
 								}
 
 							}
@@ -30082,19 +30228,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-151", 1 ],
+									"destination" : [ "obj-111", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-111", 0 ]
+									"hidden" : 0,
+									"source" : [ "obj-112", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-111", 0 ],
+									"destination" : [ "obj-151", 1 ],
 									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-112", 0 ]
+									"hidden" : 1,
+									"source" : [ "obj-113", 0 ]
 								}
 
 							}
@@ -30218,6 +30364,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-132", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-181", 1 ],
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-132", 0 ]
@@ -30524,6 +30679,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-175", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-183", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -30734,7 +30898,7 @@
 									"destination" : [ "obj-159", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 862.357143, 389.0, 356.0, 389.0, 356.0, 502.0, 21.5, 502.0 ],
+									"midpoints" : [ 862.357117, 389.0, 356.0, 389.0, 356.0, 502.0, 21.5, 502.0 ],
 									"source" : [ "obj-24", 6 ]
 								}
 
@@ -30768,19 +30932,19 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
+									"destination" : [ "obj-181", 1 ],
 									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-28", 0 ]
+									"hidden" : 1,
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-181", 1 ],
+									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-29", 0 ]
+									"hidden" : 0,
+									"source" : [ "obj-28", 0 ]
 								}
 
 							}
@@ -31094,6 +31258,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-151", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-24", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
@@ -31116,6 +31289,15 @@
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-70", 0 ]
 								}
 
 							}
@@ -31270,6 +31452,24 @@
 									"disabled" : 0,
 									"hidden" : 1,
 									"source" : [ "obj-83", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-86", 0 ]
 								}
 
 							}
@@ -31575,8 +31775,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -32158,8 +32358,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -32827,11 +33027,12 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 677.5, 32.5, 19.0 ],
+					"patching_rect" : [ 156.0, 677.5, 54.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 677.5, 32.5, 19.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 180.0, 677.5, 32.5, 29.0 ],
 					"style" : "",
-					"text" : "open"
+					"text" : "open wave"
 				}
 
 			}
@@ -33020,8 +33221,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -33263,7 +33464,7 @@
 										"followglobaltempo" : 0,
 										"formantcorrection" : 0,
 										"mode" : "basic",
-										"originallength" : [ 83168.299217, "ticks" ],
+										"originallength" : [ 270812.15625, "ticks" ],
 										"originaltempo" : 119.999992,
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -33624,8 +33825,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -33779,8 +33980,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -34850,8 +35051,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -37942,8 +38143,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -38559,8 +38760,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -38605,8 +38806,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 1,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -39173,7 +39374,7 @@
 																					"destination" : [ "obj-35", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 138.481361, 133.0, 139.0, 133.0, 139.0, 154.0, 127.5, 154.0 ],
+																					"midpoints" : [ 138.481354, 133.0, 139.0, 133.0, 139.0, 154.0, 127.5, 154.0 ],
 																					"source" : [ "obj-32", 1 ]
 																				}
 
@@ -39183,7 +39384,7 @@
 																					"destination" : [ "obj-36", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 151.680434, 184.0, 127.5, 184.0 ],
+																					"midpoints" : [ 151.680435, 184.0, 127.5, 184.0 ],
 																					"source" : [ "obj-32", 2 ]
 																				}
 
@@ -39193,7 +39394,7 @@
 																					"destination" : [ "obj-37", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 164.879508, 211.0, 127.5, 211.0 ],
+																					"midpoints" : [ 164.879501, 211.0, 127.5, 211.0 ],
 																					"source" : [ "obj-32", 3 ]
 																				}
 
@@ -39203,7 +39404,7 @@
 																					"destination" : [ "obj-38", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 178.078581, 238.0, 127.5, 238.0 ],
+																					"midpoints" : [ 178.078583, 238.0, 127.5, 238.0 ],
 																					"source" : [ "obj-32", 4 ]
 																				}
 
@@ -39213,7 +39414,7 @@
 																					"destination" : [ "obj-39", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 191.277654, 265.0, 127.5, 265.0 ],
+																					"midpoints" : [ 191.277649, 265.0, 127.5, 265.0 ],
 																					"source" : [ "obj-32", 5 ]
 																				}
 
@@ -39223,7 +39424,7 @@
 																					"destination" : [ "obj-40", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 204.476727, 292.0, 127.5, 292.0 ],
+																					"midpoints" : [ 204.47673, 292.0, 127.5, 292.0 ],
 																					"source" : [ "obj-32", 6 ]
 																				}
 
@@ -39233,7 +39434,7 @@
 																					"destination" : [ "obj-41", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 217.675801, 319.0, 127.5, 319.0 ],
+																					"midpoints" : [ 217.675797, 319.0, 127.5, 319.0 ],
 																					"source" : [ "obj-32", 7 ]
 																				}
 
@@ -39243,7 +39444,7 @@
 																					"destination" : [ "obj-42", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 230.874874, 346.0, 127.5, 346.0 ],
+																					"midpoints" : [ 230.874878, 346.0, 127.5, 346.0 ],
 																					"source" : [ "obj-32", 8 ]
 																				}
 
@@ -39253,7 +39454,7 @@
 																					"destination" : [ "obj-43", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 283.671167, 454.0, 127.5, 454.0 ],
+																					"midpoints" : [ 283.671173, 454.0, 127.5, 454.0 ],
 																					"source" : [ "obj-32", 12 ]
 																				}
 
@@ -39263,7 +39464,7 @@
 																					"destination" : [ "obj-44", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 270.472094, 427.0, 127.5, 427.0 ],
+																					"midpoints" : [ 270.472107, 427.0, 127.5, 427.0 ],
 																					"source" : [ "obj-32", 11 ]
 																				}
 
@@ -39273,7 +39474,7 @@
 																					"destination" : [ "obj-45", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 257.27302, 400.0, 127.5, 400.0 ],
+																					"midpoints" : [ 257.27301, 400.0, 127.5, 400.0 ],
 																					"source" : [ "obj-32", 10 ]
 																				}
 
@@ -39283,7 +39484,7 @@
 																					"destination" : [ "obj-46", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 244.073947, 373.0, 127.5, 373.0 ],
+																					"midpoints" : [ 244.073944, 373.0, 127.5, 373.0 ],
 																					"source" : [ "obj-32", 9 ]
 																				}
 
@@ -39293,7 +39494,7 @@
 																					"destination" : [ "obj-47", 0 ],
 																					"disabled" : 0,
 																					"hidden" : 0,
-																					"midpoints" : [ 296.87024, 478.0, 127.5, 478.0 ],
+																					"midpoints" : [ 296.870239, 478.0, 127.5, 478.0 ],
 																					"source" : [ "obj-32", 13 ]
 																				}
 
@@ -39945,7 +40146,7 @@
 																	"destination" : [ "obj-72", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 261.533337, 320.0, 169.733337, 320.0 ],
+																	"midpoints" : [ 261.533325, 320.0, 169.733337, 320.0 ],
 																	"source" : [ "obj-81", 9 ]
 																}
 
@@ -39955,7 +40156,7 @@
 																	"destination" : [ "obj-73", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 251.333337, 291.0, 169.733337, 291.0 ],
+																	"midpoints" : [ 251.333344, 291.0, 169.733337, 291.0 ],
 																	"source" : [ "obj-81", 8 ]
 																}
 
@@ -39965,7 +40166,7 @@
 																	"destination" : [ "obj-74", 1 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 241.133337, 270.0, 275.733337, 270.0 ],
+																	"midpoints" : [ 241.133331, 270.0, 275.733337, 270.0 ],
 																	"source" : [ "obj-81", 7 ]
 																}
 
@@ -39975,7 +40176,7 @@
 																	"destination" : [ "obj-75", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 230.933337, 249.0, 169.733337, 249.0 ],
+																	"midpoints" : [ 230.933334, 249.0, 169.733337, 249.0 ],
 																	"source" : [ "obj-81", 6 ]
 																}
 
@@ -39995,7 +40196,7 @@
 																	"destination" : [ "obj-77", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 210.533337, 207.0, 169.733337, 207.0 ],
+																	"midpoints" : [ 210.53334, 207.0, 169.733337, 207.0 ],
 																	"source" : [ "obj-81", 4 ]
 																}
 
@@ -40005,7 +40206,7 @@
 																	"destination" : [ "obj-78", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 200.333337, 186.0, 169.733337, 186.0 ],
+																	"midpoints" : [ 200.333344, 186.0, 169.733337, 186.0 ],
 																	"source" : [ "obj-81", 3 ]
 																}
 
@@ -40015,7 +40216,7 @@
 																	"destination" : [ "obj-79", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 190.133337, 165.0, 169.733337, 165.0 ],
+																	"midpoints" : [ 190.133331, 165.0, 169.733337, 165.0 ],
 																	"source" : [ "obj-81", 2 ]
 																}
 
@@ -40025,7 +40226,7 @@
 																	"destination" : [ "obj-80", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
-																	"midpoints" : [ 179.933337, 144.0, 169.733337, 144.0 ],
+																	"midpoints" : [ 179.933334, 144.0, 169.733337, 144.0 ],
 																	"source" : [ "obj-81", 1 ]
 																}
 
@@ -40087,8 +40288,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -42249,17 +42450,15 @@
 					"gradient" : 1,
 					"id" : "obj-161",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 384.5, 91.0, 29.0 ],
+					"patching_rect" : [ 2.0, 384.5, 91.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 20.5, 401.25, 85.0, 29.0 ],
+					"presentation_rect" : [ 20.5, 401.25, 85.0, 19.0 ],
 					"style" : "",
-					"text" : "AC1StdDev 1. AC1Mean",
+					"text" : "0.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -42447,9 +42646,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 567.587036, 616.5, 227.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 10, 59, 583, 568 ],
+						"client_rect" : [ 4, 45, 747, 796 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 25, 70, 929, 796 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"style" : "",
@@ -42712,23 +42911,23 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 735.087036, 576.0, 59.5, 19.0 ],
 					"restore" : 					{
-						"live.dial" : [ 0.0 ],
-						"live.dial[1]" : [ 0.0 ],
+						"live.dial" : [ -64.0 ],
+						"live.dial[1]" : [ 64.0 ],
 						"live.gain~" : [ -70.0 ],
-						"live.gain~[1]" : [ 0.015748 ],
-						"live.gain~[2]" : [ 0.614173 ],
+						"live.gain~[1]" : [ 0.015747 ],
+						"live.gain~[2]" : [ 0.015748 ],
 						"normalization" : [ "normalization off" ],
 						"synthesize" : [ "all" ],
 						"transpose" : [ 0 ],
 						"trigger-mode" : [ "fence" ],
 						"trigger-on-click" : [ 0 ],
 						"trigger-period" : [ 133.0 ],
-						"weights-multislider" : [ 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+						"weights-multislider" : [ 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u637001613"
+					"varname" : "u603001613"
 				}
 
 			}
@@ -42801,8 +43000,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -42945,7 +43144,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 603.0, 157.0, 372.0, 19.0 ],
 									"style" : "",
-									"text" : "AC1Mean AC1StdDev"
+									"text" : "LoudnessMean"
 								}
 
 							}
@@ -43648,8 +43847,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -43944,8 +44143,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -44086,8 +44285,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -44991,8 +45190,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -45159,8 +45358,8 @@
 																		"appversion" : 																		{
 																			"major" : 7,
 																			"minor" : 2,
-																			"revision" : 1,
-																			"architecture" : "x64",
+																			"revision" : 4,
+																			"architecture" : "x86",
 																			"modernui" : 1
 																		}
 ,
@@ -46566,8 +46765,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -46734,8 +46933,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -48809,8 +49008,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -49109,12 +49308,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1.0, 45.0, 981.0, 740.0 ],
+						"rect" : [ 0.0, 45.0, 979.0, 740.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -49142,6 +49341,93 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-57",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 664.0, 287.0, 20.0, 20.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-58",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 664.0, 270.0, 205.0, 17.0 ],
+									"style" : "",
+									"text" : "play from bach roll and record oracle"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-59",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 664.0, 316.0, 100.0, 39.0 ],
+									"style" : "",
+									"text" : ";\r#1-transcribe play $1;\r#1-learn-toggle $1;\r"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-54",
+									"linecount" : 5,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 664.0, 203.0, 85.0, 59.0 ],
+									"style" : "",
+									"text" : ";\n#1-pipo reset;\r#1-live-control $1;\r#1-transcribe $1;\nsfplay $1;"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 664.0, 174.0, 20.0, 20.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-56",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 664.0, 147.0, 200.0, 27.0 ],
+									"style" : "",
+									"text" : "control synthesis from live input or soundfile & transcribe output without recording soundfile"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-46",
 									"maxclass" : "toggle",
@@ -50150,6 +50436,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-55", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -50432,7 +50736,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 192.0, 107.25, 105.0, 17.0 ],
 					"style" : "",
-					"text" : "SoundSet piezo"
+					"text" : "SoundSet fountain"
 				}
 
 			}
@@ -50609,8 +50913,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -51541,8 +51845,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -51758,8 +52062,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -51791,6 +52095,22 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontface" : 0,
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-46",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 75.0, 340.0, 29.5, 19.0 ],
+													"style" : "",
+													"text" : "t l l"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontface" : 0,
 													"fontname" : "Arial",
@@ -51881,7 +52201,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 68.0, 468.75, 61.0, 27.0 ],
+													"patching_rect" : [ 68.0, 497.75, 61.0, 27.0 ],
 													"style" : "",
 													"text" : "get folder of current file"
 												}
@@ -51907,7 +52227,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
-													"patching_rect" : [ 46.5, 449.0, 65.0, 19.0 ],
+													"patching_rect" : [ 46.5, 478.0, 65.0, 19.0 ],
 													"style" : "",
 													"text" : "regexp (.+/).+"
 												}
@@ -51918,11 +52238,11 @@
 													"id" : "obj-8",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 46.5, 422.0, 61.0, 19.0 ],
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 46.5, 451.0, 62.0, 19.0 ],
 													"style" : "",
-													"text" : "conformpath"
+													"text" : "absolutepath"
 												}
 
 											}
@@ -52023,7 +52343,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 75.0, 340.0, 34.0, 19.0 ],
+													"patching_rect" : [ 75.0, 368.0, 34.0, 19.0 ],
 													"style" : "",
 													"text" : "zl join"
 												}
@@ -52038,7 +52358,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 75.0, 368.0, 38.0, 19.0 ],
+													"patching_rect" : [ 75.0, 396.0, 38.0, 19.0 ],
 													"style" : "",
 													"text" : "zl rot 1"
 												}
@@ -52053,7 +52373,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 75.0, 394.0, 63.0, 19.0 ],
+													"patching_rect" : [ 75.0, 422.0, 63.0, 19.0 ],
 													"style" : "",
 													"text" : "sprintf %s%s"
 												}
@@ -52337,8 +52657,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -52626,7 +52946,7 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-54", 0 ],
+													"destination" : [ "obj-46", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-11", 0 ]
@@ -52924,7 +53244,7 @@
 													"destination" : [ "obj-43", 2 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 98.5, 139.0, 240.5, 139.0 ],
+													"midpoints" : [ 98.5, 138.0, 240.5, 138.0 ],
 													"source" : [ "obj-31", 2 ]
 												}
 
@@ -53010,6 +53330,24 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-54", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-46", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-46", 1 ]
 												}
 
 											}
@@ -53828,12 +54166,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 382.0, 45.0, 390.0, 343.0 ],
+						"rect" : [ 382.0, 45.0, 380.0, 344.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -54134,7 +54472,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 994.0, 408.0, 293.0, 20.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -54260,7 +54598,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 994.0, 195.0, 270.0, 20.0 ],
-									"restore" : [ 6.0 ],
+									"restore" : [ 5.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -54287,7 +54625,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u070001583"
+									"varname" : "u666001588"
 								}
 
 							}
@@ -55008,14 +55346,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-21",
-									"linecount" : 6,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 649.0, 458.0, 344.0, 69.0 ],
+									"patching_rect" : [ 633.5, 458.0, 286.0, 49.0 ],
 									"style" : "",
-									"text" : "mubu.process #1-target audio2 slice:yin:scale:chop @name descr2 @process 0 @progressoutput input @timetagged 1 @slice.size 1024 @slice.hop 256 @yin.minfreq 48 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1"
+									"text" : "mubu.process #1-target audio2 basic:chop @name descr2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 1024 @basic.hopsize 512 @basic.minfreq 24@chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1"
 								}
 
 							}
@@ -55025,14 +55363,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-9",
-									"linecount" : 5,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "float", "" ],
-									"patching_rect" : [ 347.0, 458.0, 273.0, 59.0 ],
+									"patching_rect" : [ 347.0, 458.0, 259.0, 39.0 ],
 									"style" : "",
-									"text" : "pipo~ slice:yin:scale:chop @slice.size 2048 @slice.hop 512 @yin.minfreq 24 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
+									"text" : "pipo~ basic:chop @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
 									"varname" : "pipo-chop"
 								}
 
@@ -55125,8 +55463,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -55187,8 +55525,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -55572,8 +55910,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -55856,8 +56194,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -56584,14 +56922,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-10",
-									"linecount" : 7,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "float", "" ],
-									"patching_rect" : [ 328.5, 376.0, 273.0, 79.0 ],
+									"patching_rect" : [ 328.5, 377.0, 277.5, 59.0 ],
 									"style" : "",
-									"text" : "pipo~ slice:yin:scale:onseg @slice.size 2048 @slice.hop 512 @yin.minfreq 24 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 0",
+									"text" : "pipo~ basic:onseg @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 0",
 									"varname" : "pipo-onseg"
 								}
 
@@ -56633,14 +56971,14 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-25",
-									"linecount" : 6,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 620.0, 376.0, 371.0, 69.0 ],
+									"patching_rect" : [ 620.0, 377.0, 329.0, 59.0 ],
 									"style" : "",
-									"text" : "mubu.process #1-target audio2 slice:yin:scale:onseg @name descr2 @process 0 @progressoutput input @timetagged 1 @slice.size 2048 @slice.hop 512 @yin.minfreq 48 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1"
+									"text" : "mubu.process #1-target audio2 basic:onseg @name descr2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1"
 								}
 
 							}
@@ -56742,7 +57080,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "yin.minfreq",
+									"attr" : "basic.minfreq",
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-70",
@@ -57595,8 +57933,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -58200,8 +58538,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 2,
-											"revision" : 1,
-											"architecture" : "x64",
+											"revision" : 4,
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -58321,8 +58659,8 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 2,
-															"revision" : 1,
-															"architecture" : "x64",
+															"revision" : 4,
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -60289,8 +60627,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -60959,7 +61297,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 800.0, 452.700012, 213.0, 20.0 ],
-									"restore" : [ 242.0 ],
+									"restore" : [ 250.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
@@ -61133,7 +61471,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u482001562"
+									"varname" : "u750001571"
 								}
 
 							}
@@ -61914,14 +62252,14 @@
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
 									"id" : "obj-6",
-									"linecount" : 5,
+									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 82.5, 206.0, 605.0, 65.0 ],
+									"patching_rect" : [ 82.5, 206.0, 602.0, 53.0 ],
 									"style" : "",
-									"text" : "mubu.process #1 audio slice:yin:scale:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @slice.size 2048 @slice.hop 512 @yin.minfreq 24 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, hidenotforemost 0, buffersopacity 0.9\"",
+									"text" : "mubu.process #1 audio basic:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000 @onseg.startisonset 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, hidenotforemost 0, buffersopacity 0.9\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"varname" : "mubu-onseg"
 								}
@@ -61998,7 +62336,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 727.5, 545.0, 56.0, 20.0 ],
+									"patching_rect" : [ 697.0, 539.0, 56.0, 20.0 ],
 									"style" : "",
 									"text" : "print chop"
 								}
@@ -62039,14 +62377,14 @@
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
 									"id" : "obj-1",
-									"linecount" : 4,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 102.5, 486.5, 544.0, 53.0 ],
+									"patching_rect" : [ 82.5, 484.799988, 572.0, 42.0 ],
 									"style" : "",
-									"text" : "mubu.process #1 audio slice:yin:scale:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @slice.size 2048 @slice.hop 256 @yin.minfreq 24 @scale.colindex 1 @scale.numcols 1 @scale.inmin 1 @scale.inmax 10 @scale.outmin 0 @scale.outmax 10 @scale.func log @scale.base 10 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
+									"text" : "mubu.process #1 audio basic:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 256 @basic.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"varname" : "mubu-chop"
 								}
@@ -62275,7 +62613,7 @@
 									"destination" : [ "obj-1", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 432.0, 434.600006, 112.0, 434.600006 ],
+									"midpoints" : [ 432.0, 434.600006, 92.0, 434.600006 ],
 									"source" : [ "obj-17", 1 ]
 								}
 
@@ -62938,8 +63276,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 2,
-							"revision" : 1,
-							"architecture" : "x64",
+							"revision" : 4,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -62992,7 +63330,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 286.0, 102.0, 134.0, 17.0 ],
+									"patching_rect" : [ 358.0, 102.0, 134.0, 17.0 ],
 									"style" : "",
 									"text" : "get stats AFTER update"
 								}
@@ -63190,11 +63528,11 @@
 									"id" : "obj-29",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "", "", "update" ],
-									"patching_rect" : [ 142.5, 102.0, 112.0, 19.0 ],
+									"numoutlets" : 6,
+									"outlettype" : [ "bang", "", "", "", "", "update" ],
+									"patching_rect" : [ 142.5, 102.0, 191.0, 19.0 ],
 									"style" : "",
-									"text" : "t b getmin getmax update"
+									"text" : "t b getmin getmax getmean getstddev update"
 								}
 
 							}
@@ -63314,6 +63652,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-29", 4 ]
 								}
 
 							}
@@ -63518,12 +63874,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 104.0, 384.5, 215.0, 52.5 ],
+					"patching_rect" : [ 104.0, 384.5, 234.0, 52.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 384.5, 215.0, 52.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 9,
+					"size" : 19,
 					"spacing" : 2,
 					"style" : "",
 					"varname" : "weights-multislider"
@@ -63540,12 +63896,12 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 104.0, 323.0, 215.0, 52.5 ],
+					"patching_rect" : [ 104.0, 323.0, 234.0, 52.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 104.0, 323.0, 215.0, 52.5 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 9,
+					"size" : 19,
 					"spacing" : 2,
 					"style" : ""
 				}
@@ -65617,26 +65973,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
-			"obj-182" : [ "live.dial", "live.dial", 0 ],
-			"obj-19" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-159" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-135::obj-131" : [ "live.slider[4]", "live.slider", 0 ],
-			"obj-192" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-135::obj-112" : [ "live.slider[6]", "live.slider", 0 ],
 			"obj-135::obj-64" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-180" : [ "live.dial[1]", "live.dial", 0 ]
+			"obj-135::obj-131" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
+			"obj-192" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-180" : [ "live.dial[1]", "live.dial", 0 ],
+			"obj-135::obj-112" : [ "live.slider[6]", "live.slider", 0 ],
+			"obj-182" : [ "live.dial", "live.dial", 0 ],
+			"obj-159" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-19" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pyoracle-gl.maxpat",
 				"bootpath" : "~/Documents/15-16/IRCAM2015-16/catoracle/pyoracle-gl",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tutti-arco-improv2.json",
-				"bootpath" : "~/Documents/Works/Cello-Ensemble/Cello-Ensemble-Max/corpora/tutti.02",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -65732,6 +66082,10 @@
 			}
 , 			{
 				"name" : "pipo~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "py.mxo",
 				"type" : "iLaX"
 			}
 , 			{
