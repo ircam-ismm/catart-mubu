@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 136.0, 151.0, 633.0, 461.0 ],
+		"rect" : [ 746.0, 199.0, 633.0, 461.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,13 +71,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 608.0, 134.0, 640.0, 480.0 ],
+						"rect" : [ 1137.0, 514.0, 623.0, 229.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -159,13 +159,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 116.0, 79.0, 996.0, 742.0 ],
+						"rect" : [ 686.0, 246.0, 996.0, 742.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -236,6 +236,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 128.0, 485.0, 302.0, 127.0 ],
 									"rangeruler_grid" : 0,
@@ -243,6 +244,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -282,8 +284,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -332,6 +334,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-3",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -344,6 +347,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-2",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -698,8 +702,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -826,6 +830,7 @@
 													"outputkeys" : 0,
 													"outputmouse" : 0,
 													"outputselection" : 0,
+													"outputtimeselection" : 0,
 													"outputvalues" : 0,
 													"patching_rect" : [ 415.0, 93.5, 303.0, 242.0 ],
 													"rangeruler_grid" : 0,
@@ -833,6 +838,7 @@
 													"rangeruler_visible" : 0,
 													"region_bounds" : [ 0.0, 0.0 ],
 													"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+													"region_visible" : 1,
 													"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"split_size" : 2,
 													"split_visible" : 1,
@@ -899,8 +905,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 7,
-															"minor" : 0,
-															"revision" : 6,
+															"minor" : 3,
+															"revision" : 2,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -949,6 +955,7 @@
 																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-4",
+																	"index" : 1,
 																	"maxclass" : "outlet",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -961,6 +968,7 @@
 																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-2",
+																	"index" : 1,
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -1094,6 +1102,7 @@
 													"outputkeys" : 0,
 													"outputmouse" : 0,
 													"outputselection" : 0,
+													"outputtimeselection" : 0,
 													"outputvalues" : 0,
 													"patching_rect" : [ 47.0, 138.5, 302.0, 127.0 ],
 													"rangeruler_grid" : 0,
@@ -1101,6 +1110,7 @@
 													"rangeruler_visible" : 0,
 													"region_bounds" : [ 0.0, 0.0 ],
 													"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+													"region_visible" : 1,
 													"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"split_size" : 2,
 													"split_visible" : 1,
@@ -1165,7 +1175,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 400.0, 696.0, 228.0, 26.0 ],
+									"patching_rect" : [ 400.0, 696.0, 234.0, 26.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1175,7 +1185,7 @@
 									}
 ,
 									"style" : "",
-									"text" : "p more-on-intenal-audio-tracks",
+									"text" : "p more-on-internal-audio-tracks",
 									"textcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ]
 								}
 
@@ -1265,9 +1275,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 655.5, 465.0, 117.0, 51.0 ],
+									"patching_rect" : [ 654.5, 457.5, 109.0, 51.0 ],
 									"style" : "",
-									"text" : "2. record audio in this track with\nmubu.record~"
+									"text" : "record audio in this track with\nmubu.record~"
 								}
 
 							}
@@ -1293,9 +1303,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 862.5, 381.0, 112.0, 78.0 ],
+									"patching_rect" : [ 858.5, 387.0, 105.0, 78.0 ],
 									"style" : "",
-									"text" : "1. create a predefined audio track for mubu with mubu.track :"
+									"text" : "create a predefined audio track for mubu with mubu.track :"
 								}
 
 							}
@@ -1394,6 +1404,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 556.5, 240.5, 296.0, 147.0 ],
 									"rangeruler_grid" : 0,
@@ -1401,6 +1412,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -1564,6 +1576,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 128.0, 304.0, 302.0, 127.0 ],
 									"rangeruler_grid" : 0,
@@ -1571,6 +1584,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -1583,6 +1597,50 @@
 									"toolbar_visible" : 2,
 									"useplaceholders" : 1,
 									"windresize" : 0
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontface" : 1,
+									"hint" : "",
+									"id" : "obj-9",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 962.5, 416.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"style" : "",
+									"text" : "1",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+									"fontface" : 1,
+									"hint" : "",
+									"id" : "obj-93",
+									"ignoreclick" : 1,
+									"legacytextcolor" : 1,
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 768.5, 473.0, 20.0, 20.0 ],
+									"rounded" : 60.0,
+									"style" : "",
+									"text" : "2",
+									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
 								}
 
 							}
@@ -1732,13 +1790,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 207.0, 171.0, 1037.0, 597.0 ],
+						"rect" : [ 694.0, 309.0, 1037.0, 597.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1888,6 +1946,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 699.0, 164.0, 302.0, 127.0 ],
 									"rangeruler_grid" : 0,
@@ -1895,6 +1954,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -1987,8 +2047,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2024,6 +2084,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-4",
+													"index" : 1,
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -2036,6 +2097,7 @@
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-2",
+													"index" : 1,
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -2224,6 +2286,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 189.5, 321.0, 302.0, 162.0 ],
 									"rangeruler_grid" : 0,
@@ -2231,6 +2294,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -2348,6 +2412,7 @@
 									"outputkeys" : 0,
 									"outputmouse" : 0,
 									"outputselection" : 0,
+									"outputtimeselection" : 0,
 									"outputvalues" : 0,
 									"patching_rect" : [ 189.5, 120.0, 302.0, 127.0 ],
 									"rangeruler_grid" : 0,
@@ -2355,6 +2420,7 @@
 									"rangeruler_visible" : 0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
+									"region_visible" : 1,
 									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"split_size" : 2,
 									"split_visible" : 1,
@@ -2443,6 +2509,7 @@
 									"destination" : [ "obj-36", 0 ],
 									"disabled" : 0,
 									"hidden" : 1,
+									"order" : 0,
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2452,6 +2519,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"order" : 1,
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2583,6 +2651,24 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"id" : "obj-27",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 45.0, 95.0, 549.0, 331.5 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -2599,7 +2685,6 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 36.0,
@@ -2614,31 +2699,11 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"background" : 1,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 6,
-					"bordercolor" : [ 0.756863, 0.756863, 0.756863, 1.0 ],
-					"id" : "obj-9",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 33.0, 590.0, 411.0 ],
-					"proportion" : 0.39,
-					"rounded" : 24,
-					"style" : "",
-					"varname" : "HelpFrame"
-				}
-
-			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "mubu.audiotrack.to.buffer~.maxpat",
-				"bootpath" : "~/Projects/git-repositories/gitlab.doc.gold.ac.uk/rapid-mix/Freemix/MuBuAbstractions",
+				"bootpath" : "~/Documents/Max 7/Packages/MuBuForMax/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2655,7 +2720,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
