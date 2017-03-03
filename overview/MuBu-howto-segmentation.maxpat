@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x86",
+			"revision" : 3,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -48,8 +48,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -105,8 +105,8 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 2,
-											"architecture" : "x86",
+											"revision" : 3,
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -542,8 +542,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1263,8 +1263,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -2157,8 +2157,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3058,8 +3058,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x86",
+							"revision" : 3,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -3935,7 +3935,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 62.0, 810.0, 22.0 ],
+					"patching_rect" : [ 45.0, 62.0, 811.0, 22.0 ],
 					"style" : "",
 					"text" : "A major feature offered by MuBu and PiPo is the ability to segment sound files according to the variation of any sound descriptor.\n"
 				}
