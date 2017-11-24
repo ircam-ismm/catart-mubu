@@ -4196,9 +4196,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 10.0, 177.0, 551.0, 43.0 ],
+									"patching_rect" : [ 10.0, 177.0, 569.0, 43.0 ],
 									"style" : "",
-									"text" : "mubu.process corpus audio basic:chop @name descr @process 0 @progressoutput input @timetagged 1 @chop.size 145 @chop.mean 1",
+									"text" : "mubu.process corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -17753,7 +17753,7 @@
 ,
 									"style" : "",
 									"text" : "pattr",
-									"varname" : "u661006727"
+									"varname" : "u848001454"
 								}
 
 							}
