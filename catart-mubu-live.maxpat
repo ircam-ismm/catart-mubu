@@ -27271,7 +27271,7 @@
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 633.5, 458.0, 286.0, 49.0 ],
 									"style" : "",
-									"text" : "mubu.process #1-target audio2 basic:chop @name descr2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 1024 @basic.hopsize 512 @basic.minfreq 24@chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1"
+									"text" : "mubu.process #1-target audio2 descr:chop @name descr2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 1024 @descr.hopsize 512 @descr.minfreq 24@chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1"
 								}
 
 							}
@@ -27288,7 +27288,7 @@
 									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 347.0, 458.0, 259.0, 39.0 ],
 									"style" : "",
-									"text" : "pipo~ basic:chop @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
+									"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 242 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
 									"varname" : "pipo-chop"
 								}
 
@@ -28847,7 +28847,7 @@
 									"outlettype" : [ "", "float", "" ],
 									"patching_rect" : [ 328.5, 377.0, 277.5, 59.0 ],
 									"style" : "",
-									"text" : "pipo~ basic:onseg @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 0",
+									"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 0",
 									"varname" : "pipo-onseg"
 								}
 
@@ -28896,7 +28896,7 @@
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 620.0, 377.0, 331.0, 59.0 ],
 									"style" : "",
-									"text" : "mubu.process #1-target audio2 basic:onseg @name descr2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1"
+									"text" : "mubu.process #1-target audio2 descr:onseg @name descr2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1"
 								}
 
 							}
@@ -28998,7 +28998,7 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "basic.minfreq",
+									"attr" : "descr.minfreq",
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-70",
@@ -34630,7 +34630,7 @@
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 82.5, 207.0, 607.0, 53.0 ],
 									"style" : "",
-									"text" : "mubu.process #1 audio basic:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 512 @basic.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000 @onseg.startisonset 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, hidenotforemost 0, buffersopacity 0.9\"",
+									"text" : "mubu.process #1 audio descr:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000 @onseg.startisonset 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, hidenotforemost 0, buffersopacity 0.9\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"varname" : "mubu-onseg"
 								}
@@ -34754,7 +34754,7 @@
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 52.0, 486.5, 544.0, 42.0 ],
 									"style" : "",
-									"text" : "mubu.process #1 audio basic:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @basic.winsize 2048 @basic.hopsize 256 @basic.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
+									"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"varname" : "mubu-chop"
 								}
