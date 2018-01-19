@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1445.0, 754.0 ],
+		"rect" : [ -2.0, 44.0, 1445.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.0,
@@ -39,11 +39,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-75",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 728.0, 158.0, 21.0 ],
+					"patching_rect" : [ 408.125, 703.0, 81.0, 33.0 ],
 					"presentation_rect" : [ 1236.0, 480.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "set-descriptors DistX DistY"
@@ -57,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 451.5, 697.5, 32.0, 32.0 ],
+					"patching_rect" : [ 374.166687, 179.0, 32.0, 32.0 ],
 					"style" : ""
 				}
 
@@ -69,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 793.0, 703.0, 140.0, 21.0 ],
+					"patching_rect" : [ 808.625, 703.0, 140.0, 21.0 ],
 					"style" : "",
 					"text" : "readall OISES_01.mubu"
 				}
@@ -104,19 +105,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1223.0, 420.0, 120.0, 21.0 ],
-					"style" : "",
-					"text" : "0.635 0.61"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -134,9 +122,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 719.125, 725.0, 109.0, 21.0 ],
+					"patching_rect" : [ 808.625, 725.0, 90.0, 21.0 ],
 					"style" : "",
-					"text" : "catart-mubu-live m3",
+					"text" : "catart-player m3",
 					"varname" : "catart-mubu-live[2]"
 				}
 
@@ -147,9 +135,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 599.125, 725.0, 109.0, 21.0 ],
+					"patching_rect" : [ 644.0, 725.0, 90.0, 21.0 ],
 					"style" : "",
-					"text" : "catart-mubu-live m2",
+					"text" : "catart-player m2",
 					"varname" : "catart-mubu-live[1]"
 				}
 
@@ -160,9 +148,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.125, 725.0, 109.0, 21.0 ],
+					"patching_rect" : [ 498.125, 725.0, 90.0, 21.0 ],
 					"style" : "",
-					"text" : "catart-mubu-live m1",
+					"text" : "catart-player m1",
 					"varname" : "catart-mubu-live"
 				}
 
@@ -733,7 +721,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.000015, 537.5, 93.0, 21.0 ],
+					"patching_rect" : [ 100.000015, 537.5, 93.0, 21.0 ],
 					"style" : "",
 					"text" : "foremost velocity"
 				}
@@ -771,7 +759,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.0, 434.5, 234.0, 21.0 ],
+					"patching_rect" : [ 19.0, 434.5, 234.0, 21.0 ],
 					"style" : "",
 					"text" : "zl slice 2"
 				}
@@ -787,7 +775,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 254.0, 462.0, 195.5, 70.0 ],
+					"patching_rect" : [ 234.0, 462.0, 195.5, 70.0 ],
 					"style" : "",
 					"text" : "mubu.record hhmm-2d velocity @predef yes @samplerate 100 @matrixcols 2 @maxsize 1000 @info gui \"interface multiwave, bounds -1. 1., shape lines\""
 				}
@@ -1168,7 +1156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 221.0, 537.5, 56.0, 21.0 ],
+					"patching_rect" : [ 201.0, 537.5, 56.0, 21.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -1183,7 +1171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 537.5, 75.0, 21.0 ],
+					"patching_rect" : [ 19.0, 537.5, 75.0, 21.0 ],
 					"style" : "",
 					"text" : "numbuffers 3"
 				}
@@ -1198,7 +1186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 107.5, 80.0, 21.0 ],
+					"patching_rect" : [ 19.0, 107.5, 80.0, 21.0 ],
 					"style" : "",
 					"text" : "bufferindex $1"
 				}
@@ -1223,7 +1211,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.5, 76.0, 32.5, 21.0 ],
+					"patching_rect" : [ 102.5, 76.0, 32.5, 21.0 ],
 					"style" : "",
 					"text" : "3",
 					"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
@@ -1250,7 +1238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.75, 76.0, 32.5, 21.0 ],
+					"patching_rect" : [ 60.75, 76.0, 32.5, 21.0 ],
 					"style" : "",
 					"text" : "2",
 					"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
@@ -1277,7 +1265,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 76.0, 32.5, 21.0 ],
+					"patching_rect" : [ 19.0, 76.0, 32.5, 21.0 ],
 					"style" : "",
 					"text" : "1",
 					"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ],
@@ -2343,7 +2331,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 142.0, 71.0, 19.0 ],
+					"patching_rect" : [ 19.0, 142.0, 71.0, 19.0 ],
 					"style" : "",
 					"text" : "input data"
 				}
@@ -2423,7 +2411,7 @@
 					"outputselection" : 0,
 					"outputtimeselection" : 0,
 					"outputvalues" : 0,
-					"patching_rect" : [ 39.0, 565.0, 410.5, 175.0 ],
+					"patching_rect" : [ 19.0, 565.0, 410.5, 175.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 0,
@@ -3295,7 +3283,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 39.0, 342.0, 116.0, 21.0 ],
+					"patching_rect" : [ 19.0, 342.0, 116.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3318,7 +3306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "int", "" ],
-					"patching_rect" : [ 39.0, 136.0, 200.0, 200.0 ]
+					"patching_rect" : [ 19.0, 136.0, 200.0, 200.0 ]
 				}
 
 			}
@@ -3330,7 +3318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 368.0, 116.0, 19.0 ],
+					"patching_rect" : [ 19.0, 368.0, 116.0, 19.0 ],
 					"style" : "",
 					"text" : "input data"
 				}
@@ -4177,7 +4165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.666702, 398.0, 57.0, 21.0 ],
+					"patching_rect" : [ 139.666702, 398.0, 57.0, 21.0 ],
 					"style" : "",
 					"text" : "record $1"
 				}
@@ -4193,7 +4181,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 39.0, 462.0, 214.0, 70.0 ],
+					"patching_rect" : [ 19.0, 462.0, 214.0, 70.0 ],
 					"style" : "",
 					"text" : "mubu.record hhmm-2d position @predef yes @samplerate 100 @matrixcols 2 @maxsize 1000 @info gui \"interface multiwave, bounds 0. 1., shape envelope, colormode rainbow\""
 				}
@@ -4212,7 +4200,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, 368.0, 116.0, 64.0 ],
+					"patching_rect" : [ 19.0, 368.0, 116.0, 64.0 ],
 					"setstyle" : 1,
 					"size" : 4,
 					"slidercolor" : [ 0.0381, 0.27339, 0.458347, 1.0 ],
@@ -4247,9 +4235,29 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.75, 229.0, 81.0, 42.0 ],
+					"patching_rect" : [ 219.75, 229.0, 81.0, 42.0 ],
 					"style" : "",
 					"text" : "used for training"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-80",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 335.666687, 133.0, 109.0, 41.0 ],
+					"presentation_rect" : [ 364.375, 120.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Load corpora",
+					"textjustification" : 1
 				}
 
 			}
@@ -4330,7 +4338,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.0, 84.0, 20.0, 20.0 ],
+					"patching_rect" : [ 369.0, 84.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -4391,7 +4399,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 47.0, 757.0, 22.0 ],
+					"patching_rect" : [ 15.0, 47.0, 757.0, 22.0 ],
 					"style" : "",
 					"text" : "Simple 2D gesture recognition example with Hierarchical HMMs. 2D position and speed are used as motion features"
 				}
@@ -4402,14 +4410,14 @@
 					"background" : 1,
 					"fontface" : 3,
 					"fontname" : "Arial",
-					"fontsize" : 36.0,
+					"fontsize" : 24.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 1.0, 661.875, 47.0 ],
+					"patching_rect" : [ 15.0, 1.0, 705.0, 33.0 ],
 					"style" : "",
-					"text" : "mubu.hhmm | 2D gesture recognition",
+					"text" : "2D gesture recognition and corpus-based synthesis control",
 					"varname" : "HelpTitle"
 				}
 
@@ -4504,7 +4512,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.666672, 73.0, 224.0, 42.0 ],
+					"patching_rect" : [ 139.666672, 73.0, 224.0, 42.0 ],
 					"style" : "",
 					"text" : "Select buffer index and draw to record the training examples"
 				}
@@ -4606,7 +4614,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.166702, 458.75, 48.5, 458.75 ],
+					"midpoints" : [ 149.166702, 458.75, 28.5, 458.75 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -4616,7 +4624,7 @@
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.166702, 458.75, 263.5, 458.75 ],
+					"midpoints" : [ 149.166702, 458.75, 243.5, 458.75 ],
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -4690,7 +4698,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 145.5, 366.0, 250.0, 366.0, 250.0, 125.0, 48.5, 125.0 ],
+					"midpoints" : [ 125.5, 366.0, 230.0, 366.0, 230.0, 125.0, 28.5, 125.0 ],
 					"source" : [ "obj-34", 1 ]
 				}
 
@@ -4757,15 +4765,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -4838,7 +4837,7 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 132.0, 101.5, 48.5, 101.5 ],
+					"midpoints" : [ 112.0, 101.5, 28.5, 101.5 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -4902,7 +4901,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 135.0, 24.0, 135.0, 24.0, 562.0, 48.5, 562.0 ],
+					"midpoints" : [ 28.5, 135.0, 4.0, 135.0, 4.0, 562.0, 28.5, 562.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -4912,7 +4911,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 297.25, 48.5, 297.25 ],
+					"midpoints" : [ 28.5, 297.25, 28.5, 297.25 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -4922,7 +4921,7 @@
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 458.0, 263.5, 458.0 ],
+					"midpoints" : [ 28.5, 458.0, 243.5, 458.0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -4941,7 +4940,7 @@
 					"destination" : [ "obj-57", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 230.5, 534.5, 139.5, 534.5, 139.5, 534.5, 48.5, 534.5 ],
+					"midpoints" : [ 210.5, 534.5, 119.5, 534.5, 119.5, 534.5, 28.5, 534.5 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -4951,7 +4950,7 @@
 					"destination" : [ "obj-76", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 230.5, 535.5, 180.000015, 535.5, 180.000015, 536.5, 129.500015, 536.5 ],
+					"midpoints" : [ 210.5, 535.5, 160.000015, 535.5, 160.000015, 536.5, 109.500015, 536.5 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -5176,30 +5175,24 @@
  ],
 		"parameters" : 		{
 			"obj-24::obj-182" : [ "live.dial[6]", "live.dial", 0 ],
-			"obj-16::obj-173::obj-35" : [ "live.text[7]", "live.text", 0 ],
 			"obj-24::obj-19" : [ "live.gain~[13]", "live.gain~", 0 ],
-			"obj-16::obj-182" : [ "live.dial[2]", "live.dial", 0 ],
+			"obj-16::obj-173::obj-35" : [ "live.text[7]", "live.text", 0 ],
 			"obj-32::obj-192" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-32::obj-159" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-16::obj-182" : [ "live.dial[2]", "live.dial", 0 ],
 			"obj-24::obj-173::obj-35" : [ "live.text[4]", "live.text", 0 ],
 			"obj-32::obj-182" : [ "live.dial[4]", "live.dial", 0 ],
 			"obj-24::obj-180" : [ "live.dial[5]", "live.dial", 0 ],
-			"obj-16::obj-159" : [ "live.gain~[11]", "live.gain~", 0 ],
-			"obj-16::obj-35" : [ "live.text[6]", "live.text", 0 ],
 			"obj-32::obj-180" : [ "live.dial[3]", "live.dial", 0 ],
 			"obj-32::obj-19" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-24::obj-192" : [ "live.gain~[12]", "live.gain~", 0 ],
 			"obj-16::obj-180" : [ "live.dial[1]", "live.dial", 0 ],
-			"obj-16::obj-192" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-32::obj-173::obj-35" : [ "live.text[2]", "live.text", 0 ],
-			"obj-32::obj-35" : [ "live.text[1]", "live.text", 0 ],
-			"obj-24::obj-159" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-24::obj-35" : [ "live.text[3]", "live.text", 0 ],
+			"obj-16::obj-192" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-16::obj-19" : [ "live.gain~[10]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "catart-mubu-live.maxpat",
+				"name" : "catart-player.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5238,18 +5231,6 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "pipo~.mxo",
 				"type" : "iLaX"
 			}
  ],
