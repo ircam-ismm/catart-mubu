@@ -1157,6 +1157,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-47",
@@ -1441,10 +1442,9 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 241.0, 31.0, 113.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 239.0, 34.5, 113.0, 34.0 ],
+									"presentation_rect" : [ 239.0, 34.5, 113.0, 18.0 ],
 									"setminmax" : [ -60.0, 12.0 ],
 									"setstyle" : 1,
-									"size" : 2,
 									"spacing" : 1,
 									"style" : ""
 								}
@@ -1459,14 +1459,14 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 626.0, 156.5, 111.0, 19.0 ],
 									"restore" : 									{
-										"select-keys" : [ 1, 1 ],
+										"select-keys" : [ 1 ],
 										"transpose[1]" : [ 0 ],
 										"voices" : [ "voices:" ]
 									}
 ,
 									"style" : "",
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u522001644"
+									"varname" : "u095004261"
 								}
 
 							}
@@ -4654,7 +4654,7 @@
 									"presentation_rect" : [ 0.0, 20.5, 219.0, 729.5 ],
 									"rowhead" : 1,
 									"rowheight" : 16,
-									"rows" : 3,
+									"rows" : 1,
 									"selmode" : 5,
 									"varname" : "key-values",
 									"vscroll" : 0
@@ -4663,7 +4663,7 @@
 							}
 , 							{
 								"box" : 								{
-									"disabled" : [ 0, 0 ],
+									"disabled" : [ 0 ],
 									"id" : "obj-34",
 									"itemtype" : 1,
 									"maxclass" : "radiogroup",
@@ -4671,12 +4671,12 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 221.0, 31.0, 18.0, 34.0 ],
+									"patching_rect" : [ 221.0, 31.0, 18.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 219.0, 34.5, 18.0, 34.0 ],
-									"size" : 2,
+									"presentation_rect" : [ 219.0, 34.5, 18.0, 18.0 ],
+									"size" : 1,
 									"style" : "",
-									"values" : [ 1, 1 ],
+									"values" : [ 1 ],
 									"varname" : "select-keys"
 								}
 
@@ -12378,7 +12378,7 @@
 									"bufferchooser_visible" : 1,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 									"cursor_followmouse" : 0,
-									"cursor_position" : 81.0,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "circle",
 									"cursor_size" : 3,
 									"cursor_visible" : 0,
@@ -23686,7 +23686,7 @@
 													"precision" : 4,
 													"rowhead" : 1,
 													"rowheight" : 17,
-													"rows" : 3,
+													"rows" : 1,
 													"selmode" : 5,
 													"vscroll" : 0
 												}
@@ -42624,7 +42624,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u248001654"
+					"varname" : "u296004272"
 				}
 
 			}
@@ -43907,7 +43907,6 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 89.0, 219.0, 421.0, 132.0 ],
 													"setminmax" : [ -72.0, 12.0 ],
-													"size" : 2,
 													"style" : ""
 												}
 
@@ -55423,7 +55422,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u748001615"
+									"varname" : "u958004243"
 								}
 
 							}
@@ -63229,7 +63228,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u255001598"
+									"varname" : "u429004212"
 								}
 
 							}
@@ -67273,23 +67272,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-135::obj-112" : [ "live.slider[6]", "live.slider", 0 ],
-			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
-			"obj-135::obj-64" : [ "live.slider[3]", "live.slider", 0 ],
-			"obj-159" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-19" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-192" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-135::obj-131" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
 			"obj-182" : [ "live.dial", "live.dial", 0 ],
-			"obj-230" : [ "live.text", "live.text", 0 ],
+			"obj-192" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-19" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-180" : [ "live.dial[1]", "live.dial", 0 ],
+			"obj-135::obj-64" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-135::obj-112" : [ "live.slider[6]", "live.slider", 0 ],
+			"obj-230" : [ "live.text", "live.text", 0 ],
+			"obj-159" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-173::obj-35" : [ "live.text[1]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pyoracle-gl.maxpat",
-				"bootpath" : "~/Documents/Max 7/Library/MuBuExamples/examples/catoracle/pyoracle-gl",
-				"patcherrelativepath" : "../../../../../../Max 7/Library/MuBuExamples/examples/catoracle/pyoracle-gl",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu/patches/catoracle/pyoracle-gl",
+				"patcherrelativepath" : "./pyoracle-gl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
