@@ -1221,7 +1221,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.800003, -3.116663, 671.099365, 29.41666 ],
+					"patching_rect" : [ -1.199997, -3.116663, 677.099365, 29.416658 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
