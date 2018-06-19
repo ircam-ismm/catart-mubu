@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 719.0, 203.0, 657.0, 531.0 ],
+		"rect" : [ 313.0, 130.0, 657.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,12 +52,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 105.0, 401.333344, 207.0, 35.0 ],
+					"patching_rect" : [ 105.0, 401.333344, 183.0, 22.0 ],
 					"style" : "",
 					"text" : "mubu.track #1 #2 @matrixcol #3"
 				}
@@ -83,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 326.333344, 192.0, 20.0 ],
-					"presentation_rect" : [ 272.0, 329.666687, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "extract note number (in midicents)"
 				}
@@ -96,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 146.0, 210.0, 76.0, 20.0 ],
-					"presentation_rect" : [ 145.333328, 213.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "get filename"
 				}
@@ -109,7 +106,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 146.0, 147.666672, 123.0, 20.0 ],
-					"presentation_rect" : [ 146.0, 150.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "go through all buffers"
 				}
@@ -157,7 +153,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -544,7 +540,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 90.0, 276.0, 41.0, 19.0 ],
 									"style" : "",
-									"text" : "G  4"
+									"text" : "G 4"
 								}
 
 							}
@@ -1251,7 +1247,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1265,7 +1261,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1378,7 +1374,17 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
