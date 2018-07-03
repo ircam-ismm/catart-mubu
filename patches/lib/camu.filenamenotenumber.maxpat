@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 313.0, 130.0, 657.0, 531.0 ],
+		"rect" : [ 313.0, 130.0, 917.0, 752.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 105.0, 401.333344, 183.0, 22.0 ],
+					"patching_rect" : [ 105.0, 401.333344, 391.833344, 22.0 ],
 					"style" : "",
 					"text" : "mubu.track #1 #2 @matrixcol #3"
 				}
@@ -65,11 +65,10 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 328.0, 401.333344, 198.0, 33.0 ],
+					"patching_rect" : [ 113.333328, 428.666687, 383.5, 20.0 ],
 					"style" : "",
 					"text" : "write to descr. column given as #3 in track #2 of corpus #1"
 				}
@@ -118,9 +117,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.666672, 40.0, 356.333313, 47.0 ],
+					"patching_rect" : [ 92.666672, 40.0, 440.0, 47.0 ],
 					"style" : "",
-					"text" : "on bang (when descr. analysis is finished): go through all buffers, get filename, extract note number (in midicents), write to descr. column given as #3 in track #2 of corpus #1"
+					"text" : "on bang (when descr. analysis is finished): go through all buffers, get filename, extract note number (floating point for quarter notes), write to descr. column given as #3 in track #2 of corpus #1"
 				}
 
 			}
@@ -399,7 +398,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 245.0, 528.0, 54.0, 17.0 ],
+									"patching_rect" : [ 320.833344, 529.333313, 54.0, 17.0 ],
 									"style" : "",
 									"text" : "MIDI cents"
 								}
@@ -415,7 +414,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 210.0, 528.0, 34.0, 19.0 ],
+									"patching_rect" : [ 282.333344, 529.333313, 34.0, 19.0 ],
 									"style" : "",
 									"text" : "* 100."
 								}
@@ -1153,7 +1152,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
