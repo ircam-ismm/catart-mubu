@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 45.0, 1377.0, 849.0 ],
+		"rect" : [ 34.0, 51.0, 1377.0, 849.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 319.230103, 429.0, 171.0, 20.0 ],
-					"presentation_rect" : [ 319.230103, 431.399994, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "selection radius"
 				}
@@ -60,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 319.230103, 405.0, 171.0, 20.0 ],
-					"presentation_rect" : [ 318.430115, 403.700012, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "number of nearest neighbours"
 				}
@@ -75,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 215.0, 258.0, 144.0, 20.0 ],
-					"presentation_rect" : [ 113.333336, 308.666656, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "...maps to these settings:"
 				}
@@ -890,11 +887,11 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 4.117183,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 2068.884304 ],
+					"domain_bounds" : [ 0.0, 2168.012562 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1095,7 +1092,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 314.0, 49.0, 181.0, 20.0 ],
-									"presentation_rect" : [ 311.200012, 48.799999, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "umenu maps indices to symbols"
 								}
@@ -1135,7 +1131,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 595.799988, 376.0, 224.0, 22.0 ],
-									"presentation_rect" : [ 622.799988, 369.200012, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "allowrepeatmarkers 0, period 0 1, play 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1151,7 +1146,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 607.599976, 354.0, 69.0, 20.0 ],
-									"presentation_rect" : [ 615.400024, 339.100006, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "cont move "
 								}
@@ -1166,7 +1160,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 124.0, 496.0, 155.0, 20.0 ],
-									"presentation_rect" : [ 122.666664, 497.666656, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "play continuously"
 								}
@@ -4390,7 +4383,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4857,7 +4849,7 @@
 													"cursor_shape" : "bar",
 													"cursor_size" : 3,
 													"cursor_visible" : 1,
-													"domain_bounds" : [ 0.0, 0.0 ],
+													"domain_bounds" : [ 0.0, 1.0 ],
 													"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"domainruler_grid" : 0,
