@@ -65,21 +65,22 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700012, 246.0, 19.0 ],
+					"patching_rect" : [ 956.0, 146.700012, 291.0, 20.0 ],
+					"restore" : [ 10000.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-maxsize @bindto mubu-onseg::onseg.maxsize",
-					"varname" : "onseg-maxsize"
+					"text" : "pattr mubu-onseg-maxsize @bindto mubu-onseg::onseg.maxsize",
+					"varname" : "mubu-onseg-maxsize"
 				}
 
 			}
@@ -101,141 +102,148 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-92",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 210.200012, 272.0, 19.0 ],
+					"patching_rect" : [ 956.0, 210.200012, 325.0, 20.0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-startisonset @bindto mubu-onseg::onseg.startisonset",
-					"varname" : "onseg-startisonset"
+					"text" : "pattr mubu-onseg-startisonset @bindto mubu-onseg::onseg.startisonset",
+					"varname" : "mubu-onseg-startisonset"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 189.200012, 250.0, 19.0 ],
+					"patching_rect" : [ 956.0, 189.200012, 298.0, 20.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-odfmode @bindto mubu-onseg::onseg.odfmode",
-					"varname" : "onseg-odfmode"
+					"text" : "pattr mubu-onseg-odfmode @bindto mubu-onseg::onseg.odfmode",
+					"varname" : "mubu-onseg-odfmode"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-89",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 167.700012, 246.0, 19.0 ],
+					"patching_rect" : [ 956.0, 167.700012, 296.0, 20.0 ],
+					"restore" : [ 5 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-filtersize @bindto mubu-onseg::onseg.filtersize",
-					"varname" : "onseg-filtersize"
+					"text" : "pattr mubu-onseg-filtersize @bindto mubu-onseg::onseg.filtersize",
+					"varname" : "mubu-onseg-filtersize"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-88",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012, 244.0, 19.0 ],
+					"patching_rect" : [ 956.0, 125.700012, 292.0, 20.0 ],
+					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-mininter @bindto mubu-onseg::onseg.mininter",
-					"varname" : "onseg-mininter"
+					"text" : "pattr mubu-onseg-mininter @bindto mubu-onseg::onseg.mininter",
+					"varname" : "mubu-onseg-mininter"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-85",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012, 256.0, 19.0 ],
+					"patching_rect" : [ 956.0, 104.700012, 305.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-durthresh @bindto mubu-onseg::onseg.durthresh",
-					"varname" : "onseg-durthresh"
+					"text" : "pattr mubu-onseg-durthresh @bindto mubu-onseg::onseg.durthresh",
+					"varname" : "mubu-onseg-durthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-78",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 250.0, 19.0 ],
+					"patching_rect" : [ 956.0, 83.700012, 302.0, 20.0 ],
+					"restore" : [ -100.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-offthresh @bindto mubu-onseg::onseg.offthresh",
-					"varname" : "onseg-offthresh"
+					"text" : "pattr mubu-onseg-offthresh @bindto mubu-onseg::onseg.offthresh",
+					"varname" : "mubu-onseg-offthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-75",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 254.0, 19.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 303.0, 20.0 ],
+					"restore" : [ 5.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr onseg-threshold @bindto mubu-onseg::onseg.threshold",
-					"varname" : "onseg-threshold"
+					"text" : "pattr mubu-onseg-threshold @bindto mubu-onseg::onseg.threshold",
+					"varname" : "mubu-onseg-threshold"
 				}
 
 			}
@@ -473,20 +481,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 146.700012, 83.0, 19.0 ],
-					"style" : "",
-					"text" : "print descr-onseg"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontface" : 0,
@@ -613,15 +607,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
 					"source" : [ "obj-6", 3 ]
 				}
 

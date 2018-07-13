@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 279.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -38,43 +38,43 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
-					"id" : "obj-5",
+					"id" : "obj-94",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 85.200012, 202.0, 19.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 956.0, 83.700012, 248.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-offset @bindto pipo-chop::chop.offset",
-					"varname" : "chop-offset[2]"
+					"text" : "pattr pipo-chop-offset @bindto pipo-chop::chop.offset",
+					"varname" : "pipo-chop-offset"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
-					"id" : "obj-8",
+					"id" : "obj-93",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 191.0, 19.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 956.0, 62.700012, 229.0, 20.0 ],
+					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-size @bindto pipo-chop::chop.size",
-					"varname" : "chop-size[2]"
+					"text" : "pattr pipo-chop-size @bindto pipo-chop::chop.size",
+					"varname" : "pipo-chop-size"
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 47.900024, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
 					"style" : "",
@@ -102,11 +102,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
+					"patching_rect" : [ 161.0, 26.200012, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
 					"style" : "",
-					"text" : "Segment duration (0 = whole file)"
+					"text" : "Segment duration"
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 26.200012, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
 					"style" : ""
@@ -137,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 47.900024, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
 					"style" : ""
@@ -166,7 +166,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ],
+					"patching_rect" : [ 392.0, 1.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
@@ -174,7 +174,7 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
 					"linecount" : 2,
@@ -182,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 29.0 ],
+					"patching_rect" : [ 392.0, 62.700012, 550.5, 31.0 ],
 					"style" : "",
 					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
 					"varname" : "pipo-chop"
@@ -211,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
+					"patching_rect" : [ 1.0, 1.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"style" : "",

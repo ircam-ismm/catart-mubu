@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 1280.0, 279.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -45,14 +45,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 232.0, 20.0 ],
+					"patching_rect" : [ 956.0, 83.700012, 259.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-offset @bindto mubu-chop::chop.offset",
-					"varname" : "chop-offset"
+					"text" : "pattr mubu-chop-offset @bindto mubu-chop::chop.offset",
+					"varname" : "mubu-chop-offset"
 				}
 
 			}
@@ -65,14 +66,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 213.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 240.0, 20.0 ],
+					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-size @bindto mubu-chop::chop.size",
-					"varname" : "chop-size"
+					"text" : "pattr mubu-chop-size @bindto mubu-chop::chop.size",
+					"varname" : "mubu-chop-size"
 				}
 
 			}
@@ -171,20 +173,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 146.700012, 75.0, 19.0 ],
-					"style" : "",
-					"text" : "print descr-chop"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontface" : 0,
@@ -254,15 +242,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
 					"source" : [ "obj-6", 3 ]
 				}
 

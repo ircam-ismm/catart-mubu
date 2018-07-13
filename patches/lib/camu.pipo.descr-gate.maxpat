@@ -38,106 +38,106 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700012, 213.0, 19.0 ],
+					"patching_rect" : [ 956.0, 146.700012, 261.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-maxdur @bindto pipo-gate::gate.maxdur",
-					"varname" : "gate-maxdur[1]"
+					"text" : "pattr pipo-gate-maxdur @bindto pipo-gate::gate.maxdur",
+					"varname" : "pipo-gate-maxdur"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-101",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012, 217.0, 19.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 956.0, 125.700012, 268.0, 20.0 ],
+					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-mininter @bindto pipo-gate::gate.mininter",
-					"varname" : "gate-mininter[1]"
+					"text" : "pattr pipo-gate-mininter @bindto pipo-gate::gate.mininter",
+					"varname" : "pipo-gate-mininter"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012, 229.0, 19.0 ],
+					"patching_rect" : [ 956.0, 104.700012, 280.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-durthresh @bindto pipo-gate::gate.durthresh",
-					"varname" : "gate-durthresh[1]"
+					"text" : "pattr pipo-gate-durthresh @bindto pipo-gate::gate.durthresh",
+					"varname" : "pipo-gate-durthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 222.0, 19.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 956.0, 83.700012, 277.0, 20.0 ],
+					"restore" : [ -40.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-offthresh @bindto pipo-gate::gate.offthresh",
-					"varname" : "gate-offthresh[1]"
+					"text" : "pattr pipo-gate-offthresh @bindto pipo-gate::gate.offthresh",
+					"varname" : "pipo-gate-offthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-98",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 227.0, 19.0 ],
-					"restore" : [ 0.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 278.0, 20.0 ],
+					"restore" : [ -20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-threshold @bindto pipo-gate::gate.threshold",
-					"varname" : "gate-threshold[1]"
+					"text" : "pattr pipo-gate-threshold @bindto pipo-gate::gate.threshold",
+					"varname" : "pipo-gate-threshold"
 				}
 
 			}
@@ -356,17 +356,17 @@
 				"box" : 				{
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 29.0 ],
+					"patching_rect" : [ 392.0, 62.700012, 550.5, 42.0 ],
 					"style" : "",
-					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0 @gate.mininter 50 @gate.maxdur 0. @gate.duration 1",
+					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
 					"varname" : "pipo-gate"
 				}
 

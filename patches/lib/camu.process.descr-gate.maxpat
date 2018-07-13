@@ -38,20 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 146.700012, 73.0, 19.0 ],
-					"style" : "",
-					"text" : "print descr-gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
 					"index" : 0,
@@ -249,100 +235,106 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
 					"id" : "obj-149",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700012, 218.0, 19.0 ],
+					"patching_rect" : [ 956.0, 146.700012, 266.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-maxdur @bindto mubu-gate::gate.maxdur",
-					"varname" : "gate-maxdur"
+					"text" : "pattr mubu-gate-maxdur @bindto mubu-gate::gate.maxdur",
+					"varname" : "mubu-gate-maxdur"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-148",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012, 222.0, 19.0 ],
+					"patching_rect" : [ 956.0, 125.700012, 273.0, 20.0 ],
+					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-mininter @bindto mubu-gate::gate.mininter",
-					"varname" : "gate-mininter"
+					"text" : "pattr mubu-gate-mininter @bindto mubu-gate::gate.mininter",
+					"varname" : "mubu-gate-mininter"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-147",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012, 234.0, 19.0 ],
+					"patching_rect" : [ 956.0, 104.700012, 286.0, 20.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-durthresh @bindto mubu-gate::gate.durthresh",
-					"varname" : "gate-durthresh"
+					"text" : "pattr mubu-gate-durthresh @bindto mubu-gate::gate.durthresh",
+					"varname" : "mubu-gate-durthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-146",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 228.0, 19.0 ],
+					"patching_rect" : [ 956.0, 83.700012, 283.0, 20.0 ],
+					"restore" : [ -40.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-offthresh @bindto mubu-gate::gate.offthresh",
-					"varname" : "gate-offthresh"
+					"text" : "pattr mubu-gate-offthresh @bindto mubu-gate::gate.offthresh",
+					"varname" : "mubu-gate-offthresh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-145",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 232.0, 19.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 284.0, 20.0 ],
+					"restore" : [ -20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr gate-threshold @bindto mubu-gate::gate.threshold",
-					"varname" : "gate-threshold"
+					"text" : "pattr mubu-gate-threshold @bindto mubu-gate::gate.threshold",
+					"varname" : "mubu-gate-threshold"
 				}
 
 			}
@@ -438,15 +430,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
 					"source" : [ "obj-6", 3 ]
 				}
 
