@@ -45,15 +45,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 259.0, 20.0 ],
+					"patching_rect" : [ 956.0, 83.700012, 248.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr mubu-chop-offset @bindto mubu-chop::chop.offset",
-					"varname" : "mubu-chop-offset"
+					"text" : "pattr pipo-chop-offset @bindto pipo-chop::chop.offset",
+					"varname" : "pipo-chop-offset"
 				}
 
 			}
@@ -66,15 +66,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 240.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 229.0, 20.0 ],
 					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr mubu-chop-size @bindto mubu-chop::chop.size",
-					"varname" : "mubu-chop-size"
+					"text" : "pattr pipo-chop-size @bindto pipo-chop::chop.size",
+					"varname" : "pipo-chop-size"
 				}
 
 			}
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 47.900024, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
 					"style" : "",
@@ -102,11 +102,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
+					"patching_rect" : [ 161.0, 26.200012, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
 					"style" : "",
-					"text" : "Segment duration (0 = whole file)"
+					"text" : "Segment duration"
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 26.200012, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
 					"style" : ""
@@ -137,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 47.900024, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
 					"style" : ""
@@ -166,29 +166,26 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ],
+					"patching_rect" : [ 392.0, 1.0, 25.0, 25.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
-					"fontface" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 42.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "float", "" ],
+					"patching_rect" : [ 392.0, 62.700012, 550.5, 31.0 ],
 					"style" : "",
-					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 24 @chop.size 250. @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-chop"
+					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
+					"varname" : "pipo-chop"
 				}
 
 			}
@@ -214,11 +211,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
+					"patching_rect" : [ 1.0, 1.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"style" : "",
-					"text" : "> Attributes: descr-chop (corpus)"
+					"text" : "> Attributes: descr-chop (target)"
 				}
 
 			}
@@ -242,7 +239,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-6", 3 ]
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
@@ -262,7 +259,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "pipo~.mxo",
 				"type" : "iLaX"
 			}
  ],
