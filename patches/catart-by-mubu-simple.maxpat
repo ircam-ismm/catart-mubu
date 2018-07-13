@@ -92,7 +92,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 178.600006, 7.0, 81.0, 20.0 ],
-									"presentation_rect" : [ 136.5, 7.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "to imubu"
 								}
@@ -108,7 +107,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 178.600006, 29.0, 30.0, 30.0 ],
-									"presentation_rect" : [ 136.5, 29.0, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -5724,7 +5722,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
+					"destination" : [ "obj-56", 1 ],
 					"hidden" : 1,
 					"source" : [ "obj-38", 1 ]
 				}
@@ -5850,7 +5848,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
+					"destination" : [ "obj-56", 1 ],
 					"hidden" : 1,
 					"source" : [ "obj-49", 1 ]
 				}
@@ -5914,6 +5912,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-56", 1 ]
 				}
 
