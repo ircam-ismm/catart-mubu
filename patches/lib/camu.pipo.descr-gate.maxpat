@@ -40,13 +40,104 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-10",
+					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 146.700012, 73.0, 19.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 146.700012, 213.0, 19.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
 					"style" : "",
-					"text" : "print descr-gate"
+					"text" : "pattr gate-maxdur @bindto pipo-gate::gate.maxdur",
+					"varname" : "gate-maxdur[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-101",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 125.700012, 217.0, 19.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr gate-mininter @bindto pipo-gate::gate.mininter",
+					"varname" : "gate-mininter[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-100",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 104.700012, 229.0, 19.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr gate-durthresh @bindto pipo-gate::gate.durthresh",
+					"varname" : "gate-durthresh[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 83.700012, 222.0, 19.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr gate-offthresh @bindto pipo-gate::gate.offthresh",
+					"varname" : "gate-offthresh[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 62.700012, 227.0, 19.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
+					"text" : "pattr gate-threshold @bindto pipo-gate::gate.threshold",
+					"varname" : "gate-threshold[1]"
 				}
 
 			}
@@ -243,106 +334,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -0.5, 310.0, 24.0 ],
 					"style" : "",
-					"text" : "> Attributes: descr-gate (corpus)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"id" : "obj-149",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700012, 218.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr gate-maxdur @bindto mubu-gate::gate.maxdur",
-					"varname" : "gate-maxdur"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-148",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012, 222.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr gate-mininter @bindto mubu-gate::gate.mininter",
-					"varname" : "gate-mininter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-147",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012, 234.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr gate-durthresh @bindto mubu-gate::gate.durthresh",
-					"varname" : "gate-durthresh"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-146",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 228.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr gate-offthresh @bindto mubu-gate::gate.offthresh",
-					"varname" : "gate-offthresh"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-145",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 232.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
-					}
-,
-					"style" : "",
-					"text" : "pattr gate-threshold @bindto mubu-gate::gate.threshold",
-					"varname" : "gate-threshold"
+					"text" : "> Attributes: descr-gate (target)"
 				}
 
 			}
@@ -362,22 +354,20 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontface" : 0,
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 53.0 ],
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "float", "" ],
+					"patching_rect" : [ 392.0, 62.700012, 550.5, 29.0 ],
 					"style" : "",
-					"text" : "mubu.process #1 audio descr:gate @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 1 @gate.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-gate"
+					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0 @gate.mininter 50 @gate.maxdur 0. @gate.duration 1",
+					"varname" : "pipo-gate"
 				}
 
 			}
@@ -438,16 +428,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 3 ]
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
@@ -467,7 +448,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "pipo~.mxo",
 				"type" : "iLaX"
 			}
  ],

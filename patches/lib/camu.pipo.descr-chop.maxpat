@@ -38,41 +38,43 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-94",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 232.0, 20.0 ],
+					"patching_rect" : [ 956.0, 85.200012, 202.0, 19.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-offset @bindto mubu-chop::chop.offset",
-					"varname" : "chop-offset"
+					"text" : "pattr chop-offset @bindto pipo-chop::chop.offset",
+					"varname" : "chop-offset[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-93",
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 213.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012, 191.0, 19.0 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "pattr chop-size @bindto mubu-chop::chop.size",
-					"varname" : "chop-size"
+					"text" : "pattr chop-size @bindto pipo-chop::chop.size",
+					"varname" : "chop-size[2]"
 				}
 
 			}
@@ -171,36 +173,19 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"id" : "obj-10",
+					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 839.0, 146.700012, 75.0, 19.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "float", "" ],
+					"patching_rect" : [ 392.0, 62.700012, 550.5, 29.0 ],
 					"style" : "",
-					"text" : "print descr-chop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
-					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
-					"fontface" : 0,
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
-					"id" : "obj-6",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 42.0 ],
-					"style" : "",
-					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 24 @chop.size 250. @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-chop"
+					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
+					"varname" : "pipo-chop"
 				}
 
 			}
@@ -230,7 +215,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"style" : "",
-					"text" : "> Attributes: descr-chop (corpus)"
+					"text" : "> Attributes: descr-chop (target)"
 				}
 
 			}
@@ -254,16 +239,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 3 ]
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
@@ -283,7 +259,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "pipo~.mxo",
 				"type" : "iLaX"
 			}
  ],
