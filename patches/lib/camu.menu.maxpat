@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 800.0, 16.0, 56.0, 22.0 ],
+					"style" : "",
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -70,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 48.5, 93.0, 22.0 ],
+					"patching_rect" : [ 44.0, 48.5, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1-menu-init"
 				}
@@ -125,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 699.0, 154.0, 117.0, 22.0 ],
+					"patching_rect" : [ 699.0, 154.0, 173.0, 22.0 ],
 					"style" : "",
 					"text" : "v #0-default #4"
 				}
@@ -507,7 +520,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-21",
-					"items" : [ "off", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "FilenameNoteNumber", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex" ],
+					"items" : [ "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1669,7 +1682,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1742,7 +1755,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1833,7 +1846,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1861,7 +1874,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-113",
-					"items" : [ "off", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "FilenameNoteNumber", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex" ],
+					"items" : [ "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1880,8 +1893,8 @@
 					"fontsize" : 11.0,
 					"id" : "obj-53",
 					"maxclass" : "number",
-					"maximum" : 13,
-					"minimum" : -1,
+					"maximum" : 6,
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -2195,6 +2208,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -2360,6 +2382,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -2377,7 +2406,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-76", 0 ],
 					"watchpoint_flags" : 2,
-					"watchpoint_id" : 7
+					"watchpoint_id" : 4
 				}
 
 			}
@@ -2395,13 +2424,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
