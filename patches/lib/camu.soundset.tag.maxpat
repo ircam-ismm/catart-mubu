@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.0, 433.0, 117.0, 20.0 ],
-					"presentation_rect" : [ 207.5, 330.75, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "parent folder name"
 				}
@@ -84,9 +83,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.25, 467.0, 129.0, 22.0 ],
+					"patching_rect" : [ 151.25, 467.0, 133.0, 22.0 ],
 					"style" : "",
-					"text" : "infobuffer soundset $1"
+					"text" : "infobuffer SoundSet $1"
 				}
 
 			}
