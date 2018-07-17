@@ -2155,7 +2155,7 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 762.345395,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
@@ -2616,9 +2616,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 5.0, 447.0, 33.0 ],
+					"patching_rect" : [ 8.0, 5.0, 397.0, 33.0 ],
 					"style" : "",
-					"text" : "CataRT by MuBu — live audio control"
+					"text" : "CataRT by MuBu — live analysis"
 				}
 
 			}

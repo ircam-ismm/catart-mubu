@@ -1591,9 +1591,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 5.0, 386.0, 33.0 ],
+					"patching_rect" : [ 8.0, 5.0, 397.0, 33.0 ],
 					"style" : "",
-					"text" : "CataRT by MuBu — simple patch"
+					"text" : "CataRT by MuBu — live recording"
 				}
 
 			}
