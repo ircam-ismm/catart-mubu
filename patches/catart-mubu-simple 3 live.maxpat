@@ -852,6 +852,58 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 522.0, 137.5, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 522.0, 174.0, 45.0, 19.0 ],
+									"style" : "",
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 522.0, 259.5, 85.0, 19.0 ],
+									"style" : "",
+									"text" : "s corpus-menu-init"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 522.0, 204.5, 45.0, 19.0 ],
+									"style" : "",
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1292,8 +1344,24 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-15", 0 ],
+									"order" : 0,
 									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"order" : 1,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -1329,6 +1397,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-15", 0 ]
 								}
 
 							}
@@ -1473,6 +1548,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -4447,13 +4529,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-214", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-236", 1 ],
 									"source" : [ "obj-215", 1 ]
 								}
@@ -5518,35 +5593,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.pipo.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1

@@ -1458,7 +1458,7 @@
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4417.118909 ],
+					"domain_bounds" : [ 0.0, 436.294416 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -3111,7 +3111,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 624.0, 485.582886, 110.0, 20.0 ],
-									"presentation_rect" : [ 625.0, 484.582886, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "display descriptors"
 								}
@@ -3126,7 +3125,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 624.0, 453.582886, 30.0, 30.0 ],
-									"presentation_rect" : [ 625.0, 452.582886, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -3398,7 +3396,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
 									"style" : "",
-									"text" : "s corpus-menu-init"
+									"text" : "s corpus-refresh"
 								}
 
 							}
@@ -4702,28 +4700,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
