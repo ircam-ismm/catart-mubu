@@ -1662,7 +1662,7 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 894.649935,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
@@ -4818,6 +4818,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-58", 2 ]
@@ -5060,35 +5068,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.record.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-experimental/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
