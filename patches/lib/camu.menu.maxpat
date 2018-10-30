@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 800.0, -12.333374, 132.0, 22.0 ],
+					"presentation_rect" : [ 822.5, -17.333374, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "loadmess symbol #3"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -561,7 +575,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 99.0, 195.0, 804.0, 530.0 ],
+						"rect" : [ 380.0, 730.0, 804.0, 530.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -588,6 +602,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-30",
@@ -1542,13 +1557,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 3.666626, 132.0, 22.0 ],
+					"patching_rect" : [ 658.5, 3.666626, 65.0, 22.0 ],
 					"style" : "",
-					"text" : "loadmess symbol #3"
+					"text" : "symbol #3"
 				}
 
 			}
@@ -2208,15 +2223,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"order" : 1,
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -2389,6 +2395,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -2406,7 +2419,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-76", 0 ],
 					"watchpoint_flags" : 2,
-					"watchpoint_id" : 4
+					"watchpoint_id" : 6
 				}
 
 			}
