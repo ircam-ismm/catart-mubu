@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-57",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 388.0, 70.0, 217.0, 22.0 ],
+					"style" : "",
+					"text" : "readfolder @name audio @recursive 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -89,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.666656, 77.0, 73.0, 20.0 ],
+					"patching_rect" : [ 323.666656, 95.0, 73.0, 20.0 ],
 					"style" : "",
 					"text" : "descriptors:"
 				}
@@ -142,11 +157,11 @@
 					"bubble" : 1,
 					"bubbleside" : 3,
 					"id" : "obj-63",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.5, 175.499985, 114.0, 51.0 ],
+					"patching_rect" : [ 472.0, 198.999985, 89.5, 78.0 ],
 					"style" : "",
 					"text" : "move mouse on imubu, to select and play grains"
 				}
@@ -161,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.666656, 101.0, 233.0, 85.0 ],
+					"patching_rect" : [ 323.666656, 113.0, 233.0, 85.0 ],
 					"style" : "",
 					"text" : "Duration FrequencyMean FrequencyStdDev EnergyMean EnergyStdDev PeriodicityMean PeriodicityStdDev AC1Mean AC1StdDev LoudnessMean LoudnessStdDev CentroidMean CentroidStdDev SpreadMean SpreadStdDev SkewnessMean SkewnessStdDev KurtosisMean KurtosisStdDev"
 				}
@@ -740,7 +755,7 @@
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.descr-onseg.maxpat",
+									"name" : "camu.process.descr-chop.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -1396,7 +1411,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 75.0, 269.0, 22.0 ],
+					"patching_rect" : [ 114.0, 70.0, 269.0, 22.0 ],
 					"style" : "",
 					"text" : "readappend Gouttes-LeNaun.wav @name audio"
 				}
@@ -1559,11 +1574,11 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 11461.457907,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4417.118909 ],
+					"domain_bounds" : [ 0.0, 11904.607422 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1969,7 +1984,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 101.0, 153.0, 22.0 ],
+					"patching_rect" : [ 114.0, 97.0, 153.0, 22.0 ],
 					"style" : "",
 					"text" : "readappend @name audio"
 				}
@@ -4512,7 +4527,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 425.5, 190.999985, 20.0, 20.0 ],
+					"patching_rect" : [ 445.25, 198.999985, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "3",
@@ -4979,6 +4994,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 397.5, 111.5, 123.5, 111.5 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 4 ],
 					"hidden" : 1,
 					"source" : [ "obj-59", 0 ]
@@ -5222,7 +5246,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-onseg.maxpat",
+				"name" : "camu.process.descr-chop.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
