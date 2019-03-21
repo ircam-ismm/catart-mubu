@@ -86,13 +86,12 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 124.0, 38.0, 427.0, 35.0 ],
-									"text" : "\"System:/Users/audio/sounds/sor/•Rush - fire -/10 Flare - Cut Off-Airy Cut Off-Short Blow.aiff\""
+									"text" : "\"System:/Users/schwarz/Desktop/Renault workshop sounds/Air/\""
 								}
 
 							}
@@ -123,6 +122,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-2",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -1810,7 +1810,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 169.0, 41.5, 31.0, 19.0 ],
+									"patching_rect" : [ 239.0, 41.5, 31.0, 19.0 ],
 									"text" : "int 0"
 								}
 
@@ -2064,11 +2064,11 @@
 									"fontsize" : 9.0,
 									"id" : "obj-14",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 10.0, 41.5, 134.0, 20.0 ],
-									"text" : "route bang read readappend"
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "", "", "", "", "" ],
+									"patching_rect" : [ 10.0, 41.5, 179.0, 20.0 ],
+									"text" : "route bang read readappend readfolder"
 								}
 
 							}
@@ -2081,7 +2081,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 169.0, 69.0, 57.0, 20.0 ],
+									"patching_rect" : [ 239.0, 69.0, 57.0, 20.0 ],
 									"text" : "process $1"
 								}
 
@@ -2133,7 +2133,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 191.0, 8.5, 133.0, 17.0 ],
+									"patching_rect" : [ 261.0, 8.5, 133.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 238.0, 1.0, 52.0, 17.0 ],
 									"text" : "real-time"
@@ -2148,7 +2148,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 169.0, 8.5, 20.0, 20.0 ],
+									"patching_rect" : [ 239.0, 8.5, 20.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 216.0, 1.0, 20.0, 20.0 ]
 								}
@@ -2165,7 +2165,7 @@
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.descr-onseg.maxpat",
+									"name" : "camu.process.descr-chop.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -3149,7 +3149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.5, 374.700012000000015, 100.0, 35.0 ],
-					"text" : "0.440945 0.244094"
+					"text" : "0.23622 0.141732"
 				}
 
 			}
@@ -5080,13 +5080,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-17",
-									"linecount" : 9,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1103.0, 155.5, 103.0, 129.0 ],
-									"text" : "0. 34.270214 654.516968 0.000012 0.00001 0.198829 0.091063 -0.02012 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+									"text" : "11.39 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 								}
 
 							}
@@ -5098,7 +5098,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.0, 57.0, 166.0, 22.0 ],
-									"text" : "0.440945 0.244094"
+									"text" : "0.23622 0.141732"
 								}
 
 							}
@@ -6448,7 +6448,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-onseg.maxpat",
+				"name" : "camu.process.descr-chop.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
