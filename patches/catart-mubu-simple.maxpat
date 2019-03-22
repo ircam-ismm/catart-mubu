@@ -70,17 +70,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 495.0, 69.0, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -1193,15 +1182,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
-									"order" : 0,
-									"source" : [ "obj-72", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-237", 0 ],
-									"order" : 1,
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -1210,13 +1190,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-77", 0 ],
 									"source" : [ "obj-75", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-237", 0 ],
-									"source" : [ "obj-77", 2 ]
 								}
 
 							}
@@ -1414,7 +1387,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -1873,7 +1845,7 @@
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.descr-onseg.maxpat",
+									"name" : "camu.process.descr-chop.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -1997,7 +1969,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
-									"source" : [ "obj-29", 1 ]
+									"source" : [ "obj-29", 0 ]
 								}
 
 							}
@@ -3255,11 +3227,11 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 8817.354821277362134,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1986.0 ],
+					"domain_bounds" : [ 0.0, 9373.404224420979517 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5592,8 +5564,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"order" : 0,
-					"source" : [ "obj-112", 2 ]
+					"source" : [ "obj-112", 1 ]
 				}
 
 			}
@@ -5601,7 +5572,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"hidden" : 1,
-					"order" : 1,
 					"source" : [ "obj-112", 2 ]
 				}
 
@@ -6072,7 +6042,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 6 ],
-					"midpoints" : [ 203.833330666666654, 699.700001001358032, 450.700000957295742, 699.700001001358032, 450.700000957295742, 330.400013001358047, 211.166663999999997, 330.400013001358047 ],
+					"hidden" : 1,
+					"midpoints" : [ 203.833330666666654, 699.700001001358032, 537.700000957295742, 699.700001001358032, 537.700000957295742, 330.400013001358047, 211.166663999999997, 330.400013001358047 ],
 					"source" : [ "obj-89", 1 ]
 				}
 
@@ -6164,7 +6135,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-onseg.maxpat",
+				"name" : "camu.process.descr-chop.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
