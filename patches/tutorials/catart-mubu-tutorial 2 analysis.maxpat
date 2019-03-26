@@ -2559,7 +2559,7 @@
 					"toolbar_visible" : 2,
 					"useplaceholders" : 1,
 					"varname" : "editor",
-					"windresize" : 1
+					"windresize" : 0
 				}
 
 			}
