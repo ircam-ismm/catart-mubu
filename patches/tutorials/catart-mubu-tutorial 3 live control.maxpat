@@ -50,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 472.0, 205.999985000000038, 83.0, 66.0 ],
-					"presentation_linecount" : 2,
 					"text" : "target analysis"
 				}
 
@@ -64,8 +63,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.666655999999989, 101.0, 217.0, 22.0 ],
-					"text" : "readfolder @name audio @recursive 1"
+					"patching_rect" : [ 271.666655999999989, 101.0, 286.0, 22.0 ],
+					"text" : "readfolder @name audio @recursive 1 @type audio"
 				}
 
 			}
@@ -2212,6 +2211,7 @@
 					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
+					"resamplefiles" : 1,
 					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"split_size" : 2,
 					"split_visible" : 1,
@@ -2529,6 +2529,7 @@
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
+						"resamplefiles" : 1,
 						"savegui" : 0
 					}
 ,
@@ -5332,35 +5333,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.pipo.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1

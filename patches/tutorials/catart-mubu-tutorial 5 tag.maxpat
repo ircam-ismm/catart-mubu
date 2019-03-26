@@ -382,7 +382,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 279.0, 101.0, 217.0, 22.0 ],
-					"text" : "readfolder @name audio @recursive 1"
+					"text" : "readfolder @name audio @recursive 1 @type audio"
 				}
 
 			}
