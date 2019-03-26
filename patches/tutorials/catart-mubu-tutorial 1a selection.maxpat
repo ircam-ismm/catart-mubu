@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1207.0, 685.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -628,11 +628,11 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 3482.827735131669215,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4646.305063833874556 ],
+					"domain_bounds" : [ 0.0, 4633.251422471632395 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -667,7 +667,6 @@
 					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
-					"resamplefiles" : 1,
 					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"split_size" : 2,
 					"split_visible" : 1,
@@ -1310,7 +1309,6 @@
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
-						"resamplefiles" : 1,
 						"savegui" : 0
 					}
 ,
@@ -1397,8 +1395,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 113.666663999999997, 542.0, 365.0, 40.0 ],
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"patching_rect" : [ 113.666663999999997, 542.0, 413.0, 40.0 ],
+					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
 				}
 
 			}
@@ -1534,8 +1532,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
-					"patching_rect" : [ 113.666663999999997, 389.0, 345.0, 24.0 ],
-					"text" : "mubu.knn corpus descr @allowrepeatmarkers 0"
+					"patching_rect" : [ 113.666663999999997, 389.0, 154.0, 24.0 ],
+					"text" : "mubu.knn corpus descr"
 				}
 
 			}
@@ -2449,7 +2447,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"midpoints" : [ 296.166663999999969, 586.0, 168.166655999999989, 586.0 ],
+					"midpoints" : [ 320.166663999999969, 586.0, 168.166655999999989, 586.0 ],
 					"order" : 1,
 					"source" : [ "obj-30", 1 ]
 				}
@@ -2484,7 +2482,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 296.166663999999969, 586.0, 197.666655999999989, 586.0 ],
+					"midpoints" : [ 320.166663999999969, 586.0, 197.666655999999989, 586.0 ],
 					"order" : 0,
 					"source" : [ "obj-30", 1 ]
 				}
@@ -2758,7 +2756,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1

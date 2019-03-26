@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1207.0, 685.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 685.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -829,11 +829,11 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 172.962099713085166,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4646.305063833874556 ],
+					"domain_bounds" : [ 0.0, 4633.251422471632395 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -868,7 +868,6 @@
 					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
-					"resamplefiles" : 1,
 					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"split_size" : 2,
 					"split_visible" : 1,
@@ -924,7 +923,6 @@
 					"patching_rect" : [ 239.039780000000007, 161.0, 197.960219999999993, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1097,7 +1095,6 @@
 									"patching_rect" : [ 10.0, 297.0, 393.920440999999983, 36.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 2,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 									"spacing" : 1
 								}
@@ -1461,7 +1458,6 @@
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
-						"resamplefiles" : 1,
 						"savegui" : 0
 					}
 ,
@@ -1478,8 +1474,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 5.0, 386.0, 33.0 ],
-					"text" : "CataRT by MuBu — simple patch"
+					"patching_rect" : [ 8.0, 5.0, 397.0, 33.0 ],
+					"text" : "CataRT by MuBu — trigger modes"
 				}
 
 			}
@@ -1549,7 +1545,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 214.999985000000038, 85.0, 51.0 ],
+					"patching_rect" : [ 13.0, 214.999985000000038, 88.0, 51.0 ],
 					"text" : "trigger modes"
 				}
 
@@ -3060,14 +3056,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
