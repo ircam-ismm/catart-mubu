@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
+		"rect" : [ 0.0, 45.0, 1411.0, 850.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -973,8 +973,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -985,10 +988,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -997,8 +997,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -1009,10 +1012,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3089,7 +3089,7 @@
 									}
 ,
 									"text" : "autopattr @autorestore 0",
-									"varname" : "u187001772"
+									"varname" : "u036004445"
 								}
 
 							}
@@ -6065,8 +6065,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -6077,10 +6080,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6089,8 +6089,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -6101,10 +6104,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7705,8 +7705,11 @@
 , 							{
 								"name" : "MyDefault3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -7717,10 +7720,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7729,8 +7729,11 @@
 , 							{
 								"name" : "MyDefault3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -7741,10 +7744,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8699,7 +8699,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -14.0, 45.0, 1423.0, 702.0 ],
+						"rect" : [ 17.0, 125.0, 1423.0, 702.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -8727,6 +8727,69 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubblepoint" : 0.2,
+									"bubbleside" : 0,
+									"id" : "obj-239",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1206.761962999999923, 603.929688000000056, 167.0, 17.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 284.0, 276.499969000000021, 92.0, 27.0 ],
+									"text" : "extend all durations to next attack:"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-234",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 629.0, 5.5, 73.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 293.5, 300.666672000000062, 73.0, 19.0 ],
+									"text" : "select all, legato"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubblepoint" : 0.15,
+									"bubbleside" : 0,
+									"id" : "obj-229",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1191.761962999999923, 588.929688000000056, 167.0, 56.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 319.0, 637.806273999999917, 170.0, 56.0 ],
+									"text" : "determines whether slot data is read during playback. after transcribing with the key mixer, this should be turned on"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-243",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 139.5, 548.5, 70.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 269.5, 613.30627400000003, 72.0, 37.0 ],
+									"text" : "read synth\nparams \nduring playback"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-176",
 									"maxclass" : "message",
@@ -10526,8 +10589,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -10538,10 +10604,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -10550,8 +10613,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -10562,10 +10628,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -11473,21 +11536,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-171",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 124.5, 533.5, 70.0, 27.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 260.0, 617.862670999999978, 45.0, 37.0 ],
-									"text" : "affect play-\nback"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-168",
@@ -11513,7 +11561,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 105.0, 533.5, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 262.25, 599.30627400000003, 20.0, 20.0 ]
+									"presentation_rect" : [ 319.0, 617.30627400000003, 20.0, 20.0 ]
 								}
 
 							}
@@ -12637,6 +12685,9 @@
 , 											{
 												"name" : "MyDefault1-1",
 												"default" : 												{
+													"color" : [ 0.0, 1.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+													"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 													"bgcolor" : [ 0.731481, 0.75, 0.75, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
@@ -12648,10 +12699,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-													"elementcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-													"color" : [ 0.0, 1.0, 0.0, 1.0 ],
-													"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
+													"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -12665,8 +12713,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -12677,10 +12728,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -12689,8 +12737,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -12701,10 +12752,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -12713,6 +12761,7 @@
 , 											{
 												"name" : "maxb-template",
 												"default" : 												{
+													"fontsize" : [ 11.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -12721,8 +12770,7 @@
 														"angle" : 270.0,
 														"proportion" : 0.39
 													}
-,
-													"fontsize" : [ 11.0 ]
+
 												}
 ,
 												"parentstyle" : "",
@@ -12731,9 +12779,9 @@
 , 											{
 												"name" : "number001",
 												"default" : 												{
-													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 													"fontface" : [ 2 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -12744,7 +12792,7 @@
 ,
 									"patching_rect" : [ 12.0, 533.5, 89.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 287.5, 634.30627400000003, 88.0, 19.0 ],
+									"presentation_rect" : [ 1161.0, 657.30627400000003, 88.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -19282,8 +19330,11 @@
 , 															{
 																"name" : "MyDefault3",
 																"default" : 																{
-																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																	"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -19294,10 +19345,7 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																	"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -19306,8 +19354,11 @@
 , 															{
 																"name" : "MyDefault3-1",
 																"default" : 																{
-																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																	"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -19318,10 +19369,7 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																	"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -20580,8 +20628,11 @@
 , 																			{
 																				"name" : "MyDefault3",
 																				"default" : 																				{
-																					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+																					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																					"bgfillcolor" : 																					{
 																						"type" : "color",
 																						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -20592,10 +20643,7 @@
 																						"autogradient" : 0
 																					}
 ,
-																					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-																					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -20604,8 +20652,11 @@
 , 																			{
 																				"name" : "MyDefault3-1",
 																				"default" : 																				{
-																					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+																					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																					"bgfillcolor" : 																					{
 																						"type" : "color",
 																						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -20616,10 +20667,7 @@
 																						"autogradient" : 0
 																					}
 ,
-																					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-																					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																				}
 ,
 																				"parentstyle" : "",
@@ -21920,8 +21968,11 @@
 , 															{
 																"name" : "MyDefault3",
 																"default" : 																{
-																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																	"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -21932,10 +21983,7 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																	"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -21944,8 +21992,11 @@
 , 															{
 																"name" : "MyDefault3-1",
 																"default" : 																{
-																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+																	"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+																	"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 																	"bgfillcolor" : 																	{
 																		"type" : "color",
 																		"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -21956,10 +22007,7 @@
 																		"autogradient" : 0
 																	}
 ,
-																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-																	"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-																	"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-																	"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+																	"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 																}
 ,
 																"parentstyle" : "",
@@ -22777,8 +22825,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -22789,10 +22840,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -22801,8 +22849,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -22813,10 +22864,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -23033,7 +23081,6 @@
 									"linknoteheadtoslot" : 11,
 									"loop" : [ 0.0, 0.0 ],
 									"maxclass" : "bach.roll",
-									"maxundosteps" : 0,
 									"numinlets" : 6,
 									"numoutlets" : 8,
 									"numvoices" : 1,
@@ -23057,7 +23104,7 @@
 									"voicenames" : [ "<none>" ],
 									"voicespacing" : [ 36.0, 21.0 ],
 									"vzoom" : 100.0,
-									"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 4, "(", "name", "marker-buffer-UnitID", ")", "(", "type", "intlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 5, "(", "name", "Attack", ")", "(", "type", "floatlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 6, "(", "name", "Release", ")", "(", "type", "floatlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 7, "(", "name", "Gain", ")", "(", "type", "float", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3226894336, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1077018624, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 8, "(", "name", "FilenameNoteNumber", ")", "(", "type", "int", ")", "(", "key", "\b", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080049664, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 9, "(", "name", "Azimuth", ")", "(", "type", "float", ")", "(", "key", "\t", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3230040064, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082556416, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 10, "(", "name", "Reverse", ")", "(", "type", "int", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 11, "(", "name", "Offset", ")", "(", "type", "float", ")", "(", "key", "o", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 12, "(", "name", "Pitchless", ")", "(", "type", "int", ")", "(", "key", "p", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", ")", "(", "commands", "(", 1, "(", "note", "nextvoice", ")", "(", "chord", "nextvoice", ")", "(", "rest", "rest", ")", "(", "key", "n", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, ")", "(", "articulationinfo", ")", "(", "noteheadinfo", ")", "(", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 655858688, 1083703630, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3992344444, 1086379876, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 33, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 86, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 534087808, 1083732257, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1322753392, 1086346695, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 36, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 83, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1167681344, 1083755672, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1032014912, 1086311605, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 58, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 81, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2277088640, 1083832996, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 328121838, 1086294501, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 32, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 80, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 4120694720, 1083935945, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1032014912, 1086311605, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 58, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 81, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3270222528, 1084017983, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 371940485, 1086284378, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 21, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 80, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2722665728, 1084063191, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2229683841, 1086323777, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 9, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 81, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 3003041216, 1084160811, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2658442431, 1086331040, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 47, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 82, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 582741184, 1084235648, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2010685188, 1086340544, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 23, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 83, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2919478272, 1084238307, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1322753392, 1086346695, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 36, 1, ")", "(", 8, 83, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2979401664, 1084270033, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 328121838, 1086294501, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 32, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 80, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 176196736, 1084275519, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1322753392, 1086346695, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 36, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 83, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 944480480, 1084302956, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 1586328342, 1086380354, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 20, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 86, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2486270688, 1084338187, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2285040046, 1086394302, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 39, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 87, ")", ")", 0, ")", 0, ")", "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2020902400, 1084342920, "(", "_x_x_x_x_bach_float64_x_x_x_x_", 2499856789, 1086393378, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080172544, 127, "(", "slots", "(", 1, "ffff", ")", "(", 3, "Gouttes-LeNaun.wav", ")", "(", 4, 35, 1, ")", "(", 5, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 6, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1075052544, ")", "(", 7, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", 8, 87, ")", ")", 0, ")", 0, ")", 0, ")" ],
+									"whole_roll_data_0000000000" : [ "roll", "(", "slotinfo", "(", 1, "(", "name", "dynamic", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 2, "(", "name", "technique", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 3, "(", "name", "soundfile", ")", "(", "type", "text", ")", "(", "key", "", ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 4, "(", "name", "marker-buffer-UnitID", ")", "(", "type", "intlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 5, "(", "name", "Attack", ")", "(", "type", "floatlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 6, "(", "name", "Release", ")", "(", "type", "floatlist", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 7, "(", "name", "Gain", ")", "(", "type", "float", ")", "(", "key", "", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3226894336, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1077018624, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 8, "(", "name", "FilenameNoteNumber", ")", "(", "type", "int", ")", "(", "key", "\b", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080049664, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 9, "(", "name", "Azimuth", ")", "(", "type", "float", ")", "(", "key", "\t", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 3230040064, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082556416, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "relative", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 10, "(", "name", "Reverse", ")", "(", "type", "int", ")", "(", "key", 0, ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 11, "(", "name", "Offset", ")", "(", "type", "float", ")", "(", "key", "o", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 12, "(", "name", "Pitchless", ")", "(", "type", "int", ")", "(", "key", "p", ")", "(", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, ")", "(", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "representation", ")", "(", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 13, "(", "name", "slot 13", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 14, "(", "name", "slot 14", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 15, "(", "name", "slot 15", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 16, "(", "name", "slot 16", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 17, "(", "name", "slot 17", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 18, "(", "name", "slot 18", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 19, "(", "name", "slot 19", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 20, "(", "name", "slot 20", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 21, "(", "name", "slot 21", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 0, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 22, "(", "name", "slot 22", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 23, "(", "name", "slot 23", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 24, "(", "name", "slot 24", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 25, "(", "name", "slot 25", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 26, "(", "name", "slot 26", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 27, "(", "name", "slot 27", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 28, "(", "name", "slot 28", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 29, "(", "name", "slot 29", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", "(", 30, "(", "name", "slot 30", ")", "(", "type", "none", ")", "(", "key", 0, ")", "(", "temporalmode", "none", ")", "(", "extend", 0, ")", "(", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, ")", "(", "height", "auto", ")", "(", "copywhensplit", 1, ")", "(", "access", "readandwrite", ")", "(", "follownotehead", 0, ")", ")", ")", "(", "commands", "(", 1, "(", "note", "nextvoice", ")", "(", "chord", "nextvoice", ")", "(", "rest", "rest", ")", "(", "key", "n", ")", ")", "(", 2, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 3, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 4, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", "(", 5, "(", "note", "note", ")", "(", "chord", "chord", ")", "(", "rest", "rest", ")", "(", "key", 0, ")", ")", ")", "(", "groups", ")", "(", "markers", ")", "(", "midichannels", 1, ")", "(", "articulationinfo", ")", "(", "noteheadinfo", ")", "(", 0, ")" ],
 									"whole_roll_data_count" : [ 1 ],
 									"zoom" : 99.055118110236222
 								}
@@ -23300,7 +23347,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 25.0, 69.0, 1071.0, 699.0 ],
+										"rect" : [ 369.0, 433.0, 1071.0, 699.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -23328,6 +23375,18 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 154.0, 48.0, 55.0, 22.0 ],
+													"text" : "pipe 250"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -23488,7 +23547,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 154.0, 67.0, 76.0, 21.0 ],
+													"patching_rect" : [ 154.0, 12.0, 76.0, 21.0 ],
 													"text" : "loadmess 50"
 												}
 
@@ -23717,7 +23776,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 348.0, 108.0, 22.0 ],
+													"patching_rect" : [ 140.0, 269.0, 108.0, 22.0 ],
 													"text" : "backgroundslots 1"
 												}
 
@@ -23844,7 +23903,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
+													"destination" : [ "obj-24", 0 ],
 													"hidden" : 1,
 													"source" : [ "obj-14", 0 ]
 												}
@@ -23914,6 +23973,13 @@
 													"destination" : [ "obj-21", 0 ],
 													"hidden" : 1,
 													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-24", 0 ]
 												}
 
 											}
@@ -24368,6 +24434,18 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 130.0, 395.0, 55.0, 22.0 ],
+													"text" : "pipe 250"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 11.595186999999999,
 													"hidden" : 1,
@@ -24417,7 +24495,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 130.0, 402.0, 76.0, 21.0 ],
+													"patching_rect" : [ 130.0, 364.0, 76.0, 21.0 ],
 													"text" : "loadmess 50"
 												}
 
@@ -25192,7 +25270,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-5", 0 ],
+													"destination" : [ "obj-24", 0 ],
 													"hidden" : 1,
 													"source" : [ "obj-14", 0 ]
 												}
@@ -25255,6 +25333,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-89", 0 ],
 													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-24", 0 ]
 												}
 
 											}
@@ -25574,7 +25659,6 @@
 									"linklyricstoslot" : 7,
 									"loop" : [ "(", 1, 1, 0, ")", "(", 1, 1, 0, ")" ],
 									"maxclass" : "bach.score",
-									"maxundosteps" : 0,
 									"numinlets" : 7,
 									"numoutlets" : 9,
 									"numvoices" : 1,
@@ -25772,6 +25856,23 @@
 									"patching_rect" : [ 972.0, 408.0, 180.0, 93.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 352.0, 325.5, 393.5, 43.833373999999992 ],
+									"proportion" : 0.39
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 0.0,
+									"background" : 1,
+									"bgcolor" : [ 0.996078431372549, 0.619607843137255, 0.027450980392157, 1.0 ],
+									"id" : "obj-244",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 656.75, 180.0, 113.5 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 269.5, 616.30627400000003, 72.0, 38.056487000000061 ],
 									"proportion" : 0.39
 								}
 
@@ -26692,6 +26793,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-116", 1 ],
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 0 ],
+									"source" : [ "obj-234", 0 ]
 								}
 
 							}
@@ -27826,6 +27934,9 @@
 , 							{
 								"name" : "MyDefault1-1",
 								"default" : 								{
+									"color" : [ 0.0, 1.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+									"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 									"bgcolor" : [ 0.731481, 0.75, 0.75, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
@@ -27837,10 +27948,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"elementcolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-									"color" : [ 0.0, 1.0, 0.0, 1.0 ],
-									"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ]
+									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27854,8 +27962,11 @@
 , 							{
 								"name" : "MyDefault3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -27866,10 +27977,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27878,8 +27986,11 @@
 , 							{
 								"name" : "MyDefault3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -27890,10 +28001,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -27902,6 +28010,7 @@
 , 							{
 								"name" : "maxb-template",
 								"default" : 								{
+									"fontsize" : [ 11.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -27910,8 +28019,7 @@
 										"angle" : 270.0,
 										"proportion" : 0.39
 									}
-,
-									"fontsize" : [ 11.0 ]
+
 								}
 ,
 								"parentstyle" : "",
@@ -27920,9 +28028,9 @@
 , 							{
 								"name" : "number001",
 								"default" : 								{
-									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 									"fontface" : [ 2 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -28644,8 +28752,11 @@
 , 							{
 								"name" : "MyDefault3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -28656,10 +28767,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -28668,8 +28776,11 @@
 , 							{
 								"name" : "MyDefault3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -28680,10 +28791,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -31637,8 +31745,11 @@
 , 											{
 												"name" : "MyDefault3",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -31649,10 +31760,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -31661,8 +31769,11 @@
 , 											{
 												"name" : "MyDefault3-1",
 												"default" : 												{
-													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+													"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -31673,10 +31784,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-													"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-													"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -32776,8 +32884,11 @@
 , 							{
 								"name" : "MyDefault3",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -32788,10 +32899,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -32800,8 +32908,11 @@
 , 							{
 								"name" : "MyDefault3-1",
 								"default" : 								{
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -32812,10 +32923,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -33480,7 +33588,7 @@
 					"bufferchooser_visible" : 1,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 1952.510380491492242,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
@@ -38201,7 +38309,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 852.079590000000053, 722.5, 20.0, 20.0 ],
+					"patching_rect" : [ 806.579590000000053, 660.25, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -38256,7 +38364,7 @@
 					"background" : 1,
 					"bgcolor" : [ 0.878431, 0.878431, 0.858824, 1.0 ],
 					"border" : 6,
-					"bordercolor" : [ 0.756863, 0.756863, 0.756863, 1.0 ],
+					"bordercolor" : [ 0.387202113866806, 0.7892906665802, 0.724439859390259, 1.0 ],
 					"id" : "obj-137",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -39339,10 +39447,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-135::obj-131" : [ "live.slider[4]", "live.slider", 0 ],
 			"obj-135::obj-112" : [ "live.slider[6]", "live.slider", 0 ],
-			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
 			"obj-135::obj-64" : [ "live.slider[3]", "live.slider", 0 ],
+			"obj-135::obj-131" : [ "live.slider[4]", "live.slider", 0 ],
+			"obj-135::obj-28" : [ "live.slider[5]", "live.slider", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -39351,21 +39459,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.filenamenotenumber.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
@@ -39373,90 +39481,90 @@
 , 			{
 				"name" : "bach.dsort.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.mono.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.sliceheader.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../../../../Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.soundset.tag.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.keymixer-horiz-level.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.keymixer-horiz-data.maxpat",
-				"bootpath" : "~/Documents/17-18/Projects17-18/IRCAM17-18/catart-mubu-master/patches/lib",
+				"bootpath" : "~/Desktop/catart-mubu-master/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
@@ -39620,8 +39728,11 @@
 , 			{
 				"name" : "MyDefault3",
 				"default" : 				{
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
+					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -39632,10 +39743,7 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -39644,8 +39752,11 @@
 , 			{
 				"name" : "MyDefault3-1",
 				"default" : 				{
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
+					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -39656,10 +39767,7 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
