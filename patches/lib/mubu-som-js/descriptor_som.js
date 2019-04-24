@@ -355,16 +355,23 @@ function findBestMatches()
 
 function outputDataCoordinatesOnMap()
 {
-  vecSomCoords = bestMatches.map(function (vector) {
-    // post('coordinates: ' + coordinates[vector[0]] + '\n');
-    return coordinates[vector[0]];
+    // create zero-filled array for each vector
+    var neuronOccuption = bestMatches.map(function(x) { return 0; })
+
+    vecSomCoords = bestMatches.map(function (vector) {
+      var bmu = vector[0];
+      neuronOccuption[bmu]++;
+      post('bmu '+ bmu +'  coordinates '+ coordinates[bmu] +'  occ '+ neuronOccuption[bmu] +'\n');
+      return coordinates[bmu];
   });
 
+  var randomize = 0.0;
+
   vecSomCoordsX = vecSomCoords.map(function (vector) {
-    return vector[0];
+      return vector[0] + math.random(-randomize, randomize);
   });
   vecSomCoordsY = vecSomCoords.map(function (vector) {
-    return vector[1];
+    return vector[1] + math.random(-randomize, randomize);;
   });
 
   // last buffer's end
