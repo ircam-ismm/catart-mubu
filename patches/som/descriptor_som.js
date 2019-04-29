@@ -9,7 +9,7 @@ var bufferdata = [];
 var bufferstart = [];
 var normalizedData = [];
 var dimensionCount;
-var mapSize = [7, 7];
+var mapSize = [7, 7];	// cols, rows
 var neuronCount = mapSize[0] * mapSize[1];
 var neurons = [];
 var coordinates = [];
@@ -306,14 +306,24 @@ function findBestMatches()
 
 function outputDataCoordinatesOnMap()
 {
+  // create zero-filled array for each vector
+  var neuronOccupation = neurons.map(function(x) { return 0; })
   var range = 0.2;
+    
   vecSomCoords = bestMatches.map(function (vector) {
       var bmu = vector[0];
-      neuronOccuption[bmu]++;
-      post('bmu '+ bmu +'  coordinates '+ coordinates[bmu] +'  occ '+ neuronOccuption[bmu] +'\n');
+      neuronOccupation[bmu]++;
       return coordinates[bmu];
   });
 
+  var numempty = neuronOccupation.filter(function(x){return x==2}).length;
+  post('Neuron occupation ('+ numempty +' empty):\n');
+  // for all rows (upside down): print occupation
+  for (var row = mapSize[1] - 1; row >= 0; row--)
+  {
+    post(neuronOccupation.slice(row * mapSize[0], (row + 1) * mapSize[0]) +'\n');
+  }
+    
   vecSomCoordsX = vecSomCoords.map(function (vector) {
     return vector[0] + (math.random(-range, range));
   });
