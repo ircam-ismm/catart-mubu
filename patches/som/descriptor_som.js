@@ -1,10 +1,12 @@
 autowatch = 1;
-outlets = 4;
+outlets = 5;
 
 const math = require('math.min.js').math;
 // math.config({randomSeed: 7});
 
 var descriptorData = [];
+var bufferdata = [];
+var bufferstart = [];
 var normalizedData = [];
 var dimensionCount;
 var mapSize = [7, 7];
@@ -38,6 +40,8 @@ function clear()
 {
   train.cancel();
   descriptorData = [];
+  bufferdata = [];
+  bufferstart = [];
   coordinates = [];
   distances = [];
   bestMatches = [];
@@ -57,6 +61,15 @@ function setMapSize()
     radiusStart = math.max(mapSize) / 5;
     radiusEnd = math.max(mapSize) / 30;
   }
+}
+
+function bufferindex()
+{
+    var buffer = arrayfromargs(arguments);
+
+    // keep list of start index in descriptorData for each buffer
+    bufferdata.push(buffer);
+    bufferstart.push(descriptorData.length);
 }
 
 function appendData()
@@ -185,7 +198,7 @@ function training()
   {
     trainingStep(t, trainingLength, rStep, alpha, winTimeStamp);
     // Progress percentage on outlet 4
-    outlet(3, math.ceil(100 * (t / trainingLength)));
+    outlet(4, math.ceil(100 * (t / trainingLength)));
     t++;
   }
   else
@@ -295,7 +308,10 @@ function outputDataCoordinatesOnMap()
 {
   var range = 0.2;
   vecSomCoords = bestMatches.map(function (vector) {
-    return coordinates[vector[0]];
+      var bmu = vector[0];
+      neuronOccuption[bmu]++;
+      post('bmu '+ bmu +'  coordinates '+ coordinates[bmu] +'  occ '+ neuronOccuption[bmu] +'\n');
+      return coordinates[bmu];
   });
 
   vecSomCoordsX = vecSomCoords.map(function (vector) {
@@ -304,8 +320,24 @@ function outputDataCoordinatesOnMap()
   vecSomCoordsY = vecSomCoords.map(function (vector) {
     return vector[1] + (math.random(-range, range));
   });
-  outlet(1, vecSomCoordsX);
-  outlet(2, vecSomCoordsY);
+
+  // last buffer's end
+  bufferstart.push(descriptorData.length);
+
+  // got through buffers, cut lists by buffer limits
+  for (var i = 0; i < bufferdata.length; i++)
+  {
+      var bufferindex = bufferdata[i];
+      var start = bufferstart[i];
+      var end   = bufferstart[i + 1];
+      
+      // output current buffer
+      outlet(3, bufferindex);
+
+      // output sublist
+      outlet(2, vecSomCoordsY.slice(start, end));
+      outlet(1, vecSomCoordsX.slice(start, end));
+  }
 }
 
 function getData(index)
