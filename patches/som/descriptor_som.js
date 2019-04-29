@@ -1,7 +1,7 @@
 autowatch = 1;
 outlets = 5;
 
-const math = require('math.min.js').math;
+math = require('math.min.js').math;
 // math.config({randomSeed: 7});
 
 var descriptorData = [];
