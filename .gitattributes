@@ -1,0 +1,3 @@
+*.maxpat diff=max
+*.maxhelp diff=max
+*.amxd -text diff=max
