@@ -41,13 +41,37 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 258.0, 468.5, 110.0, 20.0 ],
+					"text" : "next buffer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-13",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 220.0, 463.5, 25.0, 25.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 12.0, 404.0, 47.0 ],
-					"presentation_linecount" : 22,
 					"text" : "camu.cont handles \"cont\" and \"cont click\" trigger mode:\nneeds loopback from mubu.concat~ in right inlet to advance marker index (wrapping around at end of buffer)"
 				}
 
@@ -74,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 77.0, 468.5, 110.0, 20.0 ],
-					"text" : "next marker, buffer"
+					"text" : "next marker"
 				}
 
 			}
@@ -129,20 +153,6 @@
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 143.0, 238.0, 57.0, 22.0 ],
 					"text" : "t i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, 433.5, 48.0, 22.0 ],
-					"text" : "pack i i"
 				}
 
 			}
@@ -322,16 +332,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-2", 0 ]
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 190.5, 268.0, 277.0, 268.0, 277.0, 419.0, 229.5, 419.0 ],
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 190.5, 268.0, 277.0, 268.0, 277.0, 419.0, 77.5, 419.0 ],
-					"source" : [ "obj-2", 1 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -358,13 +368,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -379,7 +382,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-95", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
 
