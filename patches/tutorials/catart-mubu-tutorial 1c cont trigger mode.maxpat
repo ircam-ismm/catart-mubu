@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 368.0, 278.0, 60.0 ],
+					"patching_rect" : [ 264.0, 368.0, 280.0, 60.0 ],
 					"text" : "Each selection (by move or click) restarts the loop. \ncamu.cont needs to be connected to the rightmost outlet of mubu.concat~. Stop the loop by switching to fence mode."
 				}
 
@@ -71,7 +71,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 114.0, 380.5, 148.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "camu.cont corpus descr"
 				}
 
@@ -85,7 +84,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 123.666663999999997, 342.0, 391.0, 20.0 ],
-					"presentation_linecount" : 9,
 					"text" : "Trigger mode cont continues playing grains of one buffer in a loop."
 				}
 
@@ -149,7 +147,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -847,12 +844,12 @@
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 23.491874179616484,
+					"cursor_position" : 4473.42885167024815,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 4627.899213384447648 ],
+					"domain_bounds" : [ 0.0, 4646.390951383333231 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -945,7 +942,6 @@
 					"patching_rect" : [ 239.039780000000007, 173.0, 160.960219999999993, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1551,10 +1547,11 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.666663999999997, 634.0, 363.0, 35.0 ],
 					"saved_object_attributes" : 					{
+						"outputstate" : 1,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
 				}
 
 			}
