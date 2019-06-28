@@ -58,7 +58,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 218.0, 100.0, 22.0 ],
+					"patching_rect" : [ 257.0, 218.0, 100.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.0, 177.0, 24.0, 24.0 ]
+					"patching_rect" : [ 257.0, 177.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 142.0, 134.0, 100.0, 22.0 ],
+					"patching_rect" : [ 257.0, 134.0, 100.0, 22.0 ],
 					"text" : "route play"
 				}
 
@@ -122,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 12.0, 404.0, 47.0 ],
-					"text" : "camu.cont handles \"cont\" and \"cont click\" trigger mode:\nneeds loopback from mubu.concat~ in right inlet to advance marker index (wrapping around at end of buffer)"
+					"text" : "camu.cont handles \"cont\" trigger mode:\nneeds loopback from mubu.concat~ in right inlet to advance marker index (wrapping around at end of buffer)"
 				}
 
 			}
@@ -131,11 +131,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 97.0, 59.0, 20.0 ],
-					"text" : "switch on"
+					"patching_rect" : [ 72.0, 97.0, 165.0, 47.0 ],
+					"text" : "switch cont mode on (usually connected from 2nd outlet of camu.triggermode)"
 				}
 
 			}
@@ -161,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 164.5, 97.0, 285.0, 33.0 ],
+					"patching_rect" : [ 279.5, 97.0, 285.0, 33.0 ],
 					"text" : "current marker, buffer and play state message from mubu.concat~ (must be enabled by @outputstate 1)"
 				}
 
@@ -174,7 +175,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 39.5, 97.0, 25.0, 25.0 ]
 				}
 
@@ -272,7 +273,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 97.0, 25.0, 25.0 ]
+					"patching_rect" : [ 257.0, 97.0, 25.0, 25.0 ]
 				}
 
 			}
