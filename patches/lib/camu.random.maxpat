@@ -39,14 +39,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 631.600057940094075, 216.0, 222.399993999999992, 60.0 ],
+					"presentation_linecount" : 6,
+					"text" : "LATER: use distances for other strategies, e.g.:\n- gaussian prob. according to distance\n- ordered, looped playback by distance"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 685.700012000000015, 165.0, 155.399993999999992, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "list of corresponding distances"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-8",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 648.700012000000015, 165.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.86667217665098, 7.0, 748.0, 100.0 ],
-					"presentation_linecount" : 14,
-					"text" : "camu.random inputs lists of marker and buffer indices (sent by mubu.knn when either k or radius is >0). \ncamu.random then chooses one (marker, buffer)-pair according to different strategies.\n\nOptions: @mode ('first' | 'random' | 'urn')   to choose strategy:  \n                  first: take first (no random)\n                  random: random selection, no control of repetition\n                  urn: random selection, without repetition"
+					"text" : "camu.random inputs lists of marker and buffer indices, and distances (sent by mubu.knn when either k or radius is >0). \ncamu.random then chooses one (marker, buffer)-pair according to different strategies.\n\nOptions: @mode ('first' | 'random' | 'urn')   to choose strategy:  \n                  first: take first (no random)\n                  random: random selection, no control of repetition\n                  urn: random selection, without repetition"
 				}
 
 			}
@@ -59,7 +97,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.000051940093954, 286.0, 100.0, 22.0 ],
+					"patching_rect" : [ 856.000051940093954, 286.0, 100.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -72,7 +110,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 660.000051940093954, 252.0, 24.0, 24.0 ]
+					"patching_rect" : [ 856.000051940093954, 252.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -83,7 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 660.000051940093954, 216.0, 100.0, 22.0 ],
+					"patching_rect" : [ 856.000051940093954, 216.0, 100.0, 22.0 ],
 					"text" : "route play"
 				}
 
@@ -97,7 +135,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.000059390674551, 165.0, 285.0, 47.0 ],
+					"patching_rect" : [ 888.000059390674551, 165.0, 285.0, 47.0 ],
 					"text" : "<list: marker, buffer>: current marker, buffer and\n<'play' flag>: play state message from mubu.concat~ (must be enabled by @outputstate 1)"
 				}
 
@@ -106,12 +144,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-94",
-					"index" : 3,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.000051940093954, 165.0, 25.0, 25.0 ]
+					"patching_rect" : [ 856.000051940093954, 165.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -122,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.000020503997803, 327.333335161209106, 159.524474263191223, 33.0 ],
+					"patching_rect" : [ 885.000020503997803, 327.333335161209106, 159.524474263191223, 33.0 ],
 					"text" : "retrigger random choice when in periodic play mode"
 				}
 
@@ -135,7 +173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 660.000051940093954, 327.333335161209106, 24.0, 24.0 ]
+					"patching_rect" : [ 856.000051940093954, 327.333335161209106, 24.0, 24.0 ]
 				}
 
 			}
@@ -1290,7 +1328,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 169.100006000000008, 165.0, 30.0, 30.0 ]
 				}
 
