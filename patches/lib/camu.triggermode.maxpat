@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1207.0, 348.0, 1263.0, 1049.0 ],
+		"rect" : [ 174.0, 79.0, 798.0, 1049.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -428,8 +428,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"hint" : "next marker",
+					"annotation" : "cont mode on/off",
+					"comment" : "cont mode on/off",
+					"hint" : "cont mode on/off",
 					"id" : "obj-51",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -492,7 +493,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 217.0, 4.0, 25.0, 25.0 ]
 				}
 
@@ -1009,7 +1010,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "to mubu.concat",
 					"hint" : "to mubu.concat",
 					"id" : "obj-80",
 					"index" : 1,
