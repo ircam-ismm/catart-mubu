@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 911.0, 496.0, 1210.0, 814.0 ],
+		"rect" : [ 202.0, 158.0, 1210.0, 814.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,34 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 262.5, 661.0, 78.0, 20.0 ],
+					"text" : "buffer index"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 172.699996999999996, 661.0, 78.0, 20.0 ],
+					"text" : "marker index"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-10",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 631.600057940094075, 216.0, 222.399993999999992, 60.0 ],
-					"presentation_linecount" : 6,
 					"text" : "LATER: use distances for other strategies, e.g.:\n- gaussian prob. according to distance\n- ordered, looped playback by distance"
 				}
 
@@ -58,14 +79,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 685.700012000000015, 165.0, 155.399993999999992, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "list of corresponding distances"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "from mubu.knn: list of distances",
 					"id" : "obj-8",
 					"index" : 3,
 					"maxclass" : "inlet",
@@ -136,13 +156,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 888.000059390674551, 165.0, 285.0, 47.0 ],
-					"text" : "<list: marker, buffer>: current marker, buffer and\n<'play' flag>: play state message from mubu.concat~ (must be enabled by @outputstate 1)"
+					"text" : "<list: marker, buffer>: current marker, buffer and\nplay <flag>: play state message from mubu.concat~ (must be enabled by @outputstate 1)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "loopback from mubu.concat~: current marker, buffer and play state message",
 					"id" : "obj-94",
 					"index" : 4,
 					"maxclass" : "inlet",
@@ -1250,7 +1270,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "buffer index",
 					"id" : "obj-23",
 					"index" : 2,
 					"maxclass" : "outlet",
@@ -1262,7 +1282,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "marker index",
 					"id" : "obj-21",
 					"index" : 1,
 					"maxclass" : "outlet",
@@ -1309,7 +1329,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "from mubu.knn: list of buffer indices",
 					"id" : "obj-6",
 					"index" : 2,
 					"maxclass" : "inlet",
@@ -1322,13 +1342,13 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "from mubu.knn: list of marker indices, or bang for retrigger",
 					"id" : "obj-4",
 					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "list" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.100006000000008, 165.0, 30.0, 30.0 ]
 				}
 
