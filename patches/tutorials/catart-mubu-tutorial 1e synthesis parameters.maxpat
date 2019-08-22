@@ -52,16 +52,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 181.0, 70.0, 22.0 ],
-					"text" : "loadmess 2"
+					"patching_rect" : [ 10.0, 203.0, 134.0, 22.0 ],
+					"text" : "loadmess symbol fence"
 				}
 
 			}
@@ -1671,12 +1669,12 @@
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 173.256865249758079,
+					"cursor_position" : 4557.71900613933667,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 4646.434113516239449 ],
+					"domain_bounds" : [ -78.32076767743645, 4646.382678885556743 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1706,6 +1704,7 @@
 					"outputtimeselection" : 0,
 					"outputvalues" : 1,
 					"outputviewname" : 0,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 565.0, 161.0, 627.5, 513.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
@@ -1714,12 +1713,14 @@
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
+					"snaprate" : 1000.0,
 					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"split_size" : 2,
 					"split_visible" : 1,
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
+					"tool" : "edit",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
@@ -1769,6 +1770,7 @@
 					"patching_rect" : [ 239.039780000000007, 181.0, 163.626875999999982, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"size" : 9,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -2342,8 +2344,11 @@
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
 						"resamplefiles" : 1,
-						"savegui" : 0
+						"savegui" : 0,
+						"snaprate" : 1000.0
 					}
 ,
 					"text" : "mubu corpus"
