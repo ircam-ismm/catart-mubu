@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1372.0, 446.0, 960.0, 943.0 ],
+		"rect" : [ 956.0, 446.0, 960.0, 943.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -91,7 +91,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 900.5, 267.399993999999992, 55.0, 19.0 ],
-					"presentation_linecount" : 2,
 					"text" : "#buffers"
 				}
 
@@ -364,8 +363,8 @@
 						"styles" : [ 							{
 								"name" : "Inconsolata",
 								"default" : 								{
-									"fontname" : [ "Inconsolata" ],
-									"fontsize" : [ 13.0 ]
+									"fontsize" : [ 13.0 ],
+									"fontname" : [ "Inconsolata" ]
 								}
 ,
 								"parentstyle" : "",
@@ -581,8 +580,11 @@
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0,
 										"resamplefiles" : 0,
-										"savegui" : 0
+										"savegui" : 0,
+										"snaprate" : 1000.0
 									}
 ,
 									"text" : "mubu corpus"
@@ -836,14 +838,14 @@
 					"patching_rect" : [ 369.0, 62.0, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 7 ],
+							"parameter_shortname" : "number[1]",
 							"parameter_type" : 3,
 							"parameter_mmin" : 2.0,
 							"parameter_longname" : "number[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 50.0,
-							"parameter_initial" : [ 7 ],
-							"parameter_shortname" : "number[1]"
+							"parameter_mmax" : 50.0
 						}
 
 					}
@@ -878,14 +880,14 @@
 					"patching_rect" : [ 554.0, 183.399993999999992, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 1 ],
+							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3,
 							"parameter_mmin" : -10.0,
 							"parameter_longname" : "number[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 10.0,
-							"parameter_initial" : [ 1 ],
-							"parameter_shortname" : "number[3]"
+							"parameter_mmax" : 10.0
 						}
 
 					}
@@ -908,13 +910,13 @@
 					"patching_rect" : [ 369.0, 183.399993999999992, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 0.5 ],
+							"parameter_shortname" : "number",
 							"parameter_type" : 3,
 							"parameter_longname" : "number",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 0.9,
-							"parameter_initial" : [ 0.5 ],
-							"parameter_shortname" : "number"
+							"parameter_mmax" : 0.9
 						}
 
 					}
@@ -1112,8 +1114,8 @@
 						"styles" : [ 							{
 								"name" : "Inconsolata",
 								"default" : 								{
-									"fontname" : [ "Inconsolata" ],
-									"fontsize" : [ 13.0 ]
+									"fontsize" : [ 13.0 ],
+									"fontname" : [ "Inconsolata" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1162,14 +1164,14 @@
 					"patching_rect" : [ 554.0, 123.0, 50.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_initial" : [ 10 ],
+							"parameter_shortname" : "number[2]",
 							"parameter_type" : 3,
 							"parameter_mmin" : 1.0,
 							"parameter_longname" : "number[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_mmax" : 1000.0,
-							"parameter_initial" : [ 10 ],
-							"parameter_shortname" : "number[2]"
+							"parameter_mmax" : 1000.0
 						}
 
 					}
@@ -1375,7 +1377,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 195.833327999999995, 562.0, 165.0, 34.0 ],
-					"text" : "mubu.track corpus descr @matrixcol Constant"
+					"text" : "mubu.track corpus descr @matrixcol DistY"
 				}
 
 			}
@@ -2010,8 +2012,8 @@
 		"styles" : [ 			{
 				"name" : "Inconsolata",
 				"default" : 				{
-					"fontname" : [ "Inconsolata" ],
-					"fontsize" : [ 13.0 ]
+					"fontsize" : [ 13.0 ],
+					"fontname" : [ "Inconsolata" ]
 				}
 ,
 				"parentstyle" : "",
