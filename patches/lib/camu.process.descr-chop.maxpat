@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -45,13 +46,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 259.0, 20.0 ],
+					"patching_rect" : [ 956.0, 83.700012000000001, 259.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr mubu-chop-offset @bindto mubu-chop::chop.offset",
 					"varname" : "mubu-chop-offset"
 				}
@@ -66,13 +67,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 240.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012000000001, 240.0, 20.0 ],
 					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr mubu-chop-size @bindto mubu-chop::chop.size",
 					"varname" : "mubu-chop-size"
 				}
@@ -86,10 +87,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
 					"text" : "Offset Threshold"
 				}
 
@@ -102,10 +102,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
+					"patching_rect" : [ 161.0, 25.200012000000001, 174.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 25.200012000000001, 174.0, 19.0 ],
 					"text" : "Segment duration (0 = whole file)"
 				}
 
@@ -120,10 +119,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -137,10 +135,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
 				}
 
 			}
@@ -152,8 +149,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 923.5, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 923.5, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -166,8 +162,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -177,16 +172,15 @@
 					"color" : [ 0.815686, 0.094118, 0.094118, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Geneva",
-					"fontsize" : 9.0,
+					"fontsize" : 11.0,
 					"id" : "obj-6",
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 42.0 ],
-					"style" : "",
-					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 24 @chop.size 250. @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
+					"patching_rect" : [ 392.0, 62.700012000000001, 604.0, 50.0 ],
+					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @chop.size 250. @chop.mean 1 @chop.stddev 1 @chop.duration 1 @info gui \"interface markers, paramcols Duration - - - -, fgcolor red, buffersopacity 0.9\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
 				}
@@ -200,8 +194,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -217,7 +210,6 @@
 					"patching_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
-					"style" : "",
 					"text" : "> Attributes: descr-chop (corpus)"
 				}
 
