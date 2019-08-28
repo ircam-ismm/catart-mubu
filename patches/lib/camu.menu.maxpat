@@ -39,11 +39,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 243.0, 278.833252000000016, 101.0, 22.0 ],
+					"text" : "prepend symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-89",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 262.400003910064697, 192.0, 20.0 ],
+					"patching_rect" : [ 361.0, 262.400003910064697, 192.0, 20.0 ],
 					"text" : "else: name of descriptor to choose"
 				}
 
@@ -55,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 243.0, 278.833252000000016, 101.0, 22.0 ],
+					"patching_rect" : [ 352.0, 278.833252000000016, 101.0, 22.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -275,7 +287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.0, 17.666626000000001, 132.0, 22.0 ],
+					"patching_rect" : [ 800.0, 17.666626000000001, 144.0, 22.0 ],
 					"text" : "loadmess symbol #3"
 				}
 
@@ -738,7 +750,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-21",
-					"items" : [ "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "DistX", ",", "Constant" ],
+					"items" : [ "off", ",", "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "DistX", ",", "DistY", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1558,7 +1570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1324.0, 184.0, 117.0, 22.0 ],
+					"patching_rect" : [ 1324.0, 184.0, 133.0, 22.0 ],
 					"text" : "v #0-uiparam #3"
 				}
 
@@ -1784,11 +1796,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 33.666626000000001, 65.0, 22.0 ],
+					"patching_rect" : [ 658.5, 33.666626000000001, 65.0, 35.0 ],
 					"text" : "symbol #3"
 				}
 
@@ -1853,11 +1866,11 @@
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 25.0, 235.666626000000008, 237.0, 22.0 ],
-					"text" : "route bang int"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 25.0, 235.666626000000008, 346.0, 22.0 ],
+					"text" : "route bang int param"
 				}
 
 			}
@@ -1881,7 +1894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 364.833252000000016, 117.0, 22.0 ],
+					"patching_rect" : [ 25.0, 364.833252000000016, 133.0, 22.0 ],
 					"text" : "v #0-uiparam #3"
 				}
 
@@ -2093,7 +2106,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-113",
-					"items" : [ "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "DistX", ",", "Constant" ],
+					"items" : [ "off", ",", "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean", ",", "DistX", ",", "DistY", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2111,8 +2124,8 @@
 					"fontsize" : 11.0,
 					"id" : "obj-53",
 					"maxclass" : "number",
-					"maximum" : 11,
-					"minimum" : 0,
+					"maximum" : 15,
+					"minimum" : -1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -2344,6 +2357,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-24", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-24", 2 ]
 				}
 
@@ -2771,6 +2791,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-88", 0 ]
 				}
 
 			}
