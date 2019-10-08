@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1501.0, 973.0 ],
+		"rect" : [ 34.0, 79.0, 1207.0, 688.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -648,16 +648,16 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"cursor_circleheight" : 0.0,
-					"cursor_circlewidth" : 0.0,
+					"cursor_circleheight" : 0.652110874652863,
+					"cursor_circlewidth" : 4999.01123046875,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 86.285523553678274,
+					"cursor_position" : 2488.598609951070557,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
-					"cursor_sizeunit" : 0,
+					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4628.041717879106727 ],
+					"domain_bounds" : [ 0.0, 4646.434113516239449 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2006,6 +2006,18 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "cursor_sizeunit",
+					"id" : "obj-31",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 655.0, 131.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -2212,6 +2224,13 @@
 					"midpoints" : [ 442.25000799999998, 578.0, 411.75, 578.0 ],
 					"order" : 0,
 					"source" : [ "obj-30", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
