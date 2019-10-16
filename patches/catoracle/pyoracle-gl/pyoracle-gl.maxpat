@@ -3478,7 +3478,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u920001994"
+					"varname" : "u245001999"
 				}
 
 			}
@@ -5767,7 +5767,6 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontface" : 0,
@@ -6021,13 +6020,13 @@
 													"fontname" : "Geneva",
 													"fontsize" : 9.0,
 													"id" : "obj-56",
-													"linecount" : 2,
+													"linecount" : 9,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 132.0, 406.738158999999996, 62.0, 31.0 ],
-													"text" : "set 2 1 10 1"
+													"patching_rect" : [ 132.0, 406.738158999999996, 62.0, 110.0 ],
+													"text" : "0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
 												}
 
 											}
@@ -8862,10 +8861,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1338.449219000000085, 67.578613000000004, 97.5, 51.910263 ],
+					"patching_rect" : [ 1338.449219000000085, 67.578613000000004, 97.5, 51.910264105642256 ],
 					"pic" : "mulda:/Users/Greg/Documents/Code/max_oracle/oracle_query/documentation_images/oracle_structure.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 258.200012000000015, 183.303955000000002, 97.593399000000005 ]
+					"presentation_rect" : [ 276.0, 258.200012000000015, 183.303955000000002, 97.593402211884751 ]
 				}
 
 			}
