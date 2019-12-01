@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 114.0, 340.0, 896.0, 798.0 ],
+		"rect" : [ 116.0, 146.0, 896.0, 798.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -549,14 +549,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1003.0, 554.0, 833.0, 610.0 ],
+						"rect" : [ 32.0, 260.0, 833.0, 610.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -583,16 +583,25 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 499.0, 421.172036290168762, 178.0, 20.0 ],
+									"text" : "size in descr. values (not pixels)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-18",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 362.60000209446207, 542.586010992527122, 161.0, 47.0 ],
-									"presentation_linecount" : 11,
+									"patching_rect" : [ 362.60000209446207, 542.586010992527122, 164.0, 47.0 ],
 									"text" : "editor aligns left to 0???? workaround: force domain to x descr limits"
 								}
 
@@ -617,7 +626,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 357.60000209446207, 514.586025297641754, 127.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "domain_bounds $2 $1"
 								}
 
@@ -641,7 +649,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 390.60000209446207, 383.172036290168762, 55.0, 22.0 ],
+									"patching_rect" : [ 431.60000209446207, 383.172036290168762, 55.0, 22.0 ],
 									"text" : "onebang"
 								}
 
@@ -1017,7 +1025,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 106.59997866666663, 40.000011992526993, 30.0, 30.0 ]
 								}
 
@@ -1281,13 +1289,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"source" : [ "obj-130", 0 ]
 								}
@@ -1302,7 +1303,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"source" : [ "obj-15", 0 ]
 								}
 
@@ -1466,7 +1467,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 169.587111999999991, 39.999996992527002, 30.0, 30.0 ]
 				}
 
