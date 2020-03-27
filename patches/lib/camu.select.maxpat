@@ -46,8 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.053017666666506, 109.000000210937515, 60.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 72.053017666666506, 109.000000210937515, 61.0, 47.0 ],
 					"text" : "else: message to knn"
 				}
 
@@ -59,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.553017666666506, 31.000000210937515, 100.0, 22.0 ],
+					"patching_rect" : [ 177.039771999999914, 31.000000210937515, 100.0, 22.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -68,11 +67,11 @@
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 130.553017666666506, 4.500000210937515, 52.0, 22.0 ],
-					"text" : "route int"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 130.553017666666506, 1.500000210937515, 82.0, 22.0 ],
+					"text" : "route int bang"
 				}
 
 			}
@@ -531,7 +530,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.079551999999921, 4.500000210937515, 70.0, 22.0 ],
+					"patching_rect" : [ 55.039771999999914, 1.500000210937515, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1417,6 +1416,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-19", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-19", 1 ]
 				}
 
