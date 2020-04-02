@@ -9,8 +9,8 @@ Thus, sound databases and archives may be explored quickly and intuitively for u
 ## Requirements
 
 -	Max (at least version 7)
--   [*Mubu*](http://ismm.ircam.fr/mubu) package installed from [*Max package manager*](https://cycling74.com/packages/), or [*Forum*](http://forum.ircam.fr/product/mubu-en/)
--   Optional for some tutorials: bach, cage packages from [*Max package manager*](https://cycling74.com/packages/)
+-   [*Mubu*](http://ismm.ircam.fr/mubu) package installed from [Max package manager](https://cycling74.com/packages/), or [Forum](http://forum.ircam.fr/product/mubu-en/)
+-   Optional for some tutorials: *bach*, *cage* packages from [Max package manager](https://cycling74.com/packages/)
 
 ## Installation
 
@@ -18,9 +18,9 @@ Put the directory into Max's search path, or most simply into your Documents/Lib
 
 ## Starting Points
 
-The patch [*catart-mubu-simple.maxpat*](./patches/catart-mubu-simple.maxpat) in the [*patches*](./patches) folder has complete standard catart functionalities.
-The **tutorial patches** in folder [*patches/tutorials*](./patches/tutorials) give a step-by-step introduction to the building blocks and functions of catart-mubu.
+The patch [**catart-mubu-simple.maxpat**](./patches/catart-mubu-simple.maxpat) in the [patches](./patches) folder has complete standard catart functionalities.
+The **tutorial patches** in folder [patches/tutorials](./patches/tutorials) give a step-by-step introduction to the building blocks and functions of catart-mubu.
 
 ## More information
-[*http://ismm.ircam.fr/catart/*](http://ismm.ircam.fr/catart/)
+[http://ismm.ircam.fr/catart](http://ismm.ircam.fr/catart/)
 
