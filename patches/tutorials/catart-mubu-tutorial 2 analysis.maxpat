@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -104,7 +105,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "bang", "list" ],
 					"patching_rect" : [ 113.666663999999997, 436.06159302420042, 338.256412386894226, 73.085469782352448 ],
 					"viewvisibility" : 1
 				}
@@ -226,12 +227,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-119",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 262.999985000000038, 424.563425666666717, 51.0 ],
-					"text" : "Duration FrequencyMean FrequencyStdDev EnergyMean EnergyStdDev PeriodicityMean PeriodicityStdDev AC1Mean AC1StdDev LoudnessMean LoudnessStdDev CentroidMean CentroidStdDev SpreadMean SpreadStdDev SkewnessMean SkewnessStdDev KurtosisMean KurtosisStdDev"
+					"patching_rect" : [ 119.0, 262.999985000000038, 424.563425666666717, 29.0 ],
+					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean"
 				}
 
 			}
@@ -304,13 +305,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "float", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -343,7 +344,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-15",
@@ -895,6 +896,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-33", 0 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -1269,12 +1277,13 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 44.45124127538071,
+					"cursor_noringoffset" : 0,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 4424.665185534360717 ],
+					"domain_bounds" : [ 0.0, 8921.156462585033296 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1327,6 +1336,7 @@
 					"toolbar_visible" : 2,
 					"useplaceholders" : 1,
 					"varname" : "editor",
+					"verbose" : 1,
 					"windresize" : 0
 				}
 
@@ -1494,7 +1504,8 @@
 						"parameter_mappable" : 0,
 						"resamplefiles" : 1,
 						"savegui" : 0,
-						"snaprate" : 1000.0
+						"snaprate" : 1000.0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu corpus"
@@ -1604,8 +1615,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 8,
+							"minor" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1638,6 +1649,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1969,6 +1981,10 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 534.0, 197.275269000000009, 142.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"verbose" : 1
+									}
+,
 									"text" : "mubu.track corpus descr"
 								}
 
