@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 1,
 			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -36,7 +37,40 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 202.5, 175.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
+					"text" : "Calculate Standard Deviation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "onseg.stddev",
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1.0, 202.5, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
+					"text_width" : 109.519897
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
@@ -45,13 +79,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 147.700012, 279.0, 20.0 ],
+					"patching_rect" : [ 957.0, 147.700011999999987, 279.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-maxsize @bindto pipo-onseg::onseg.maxsize",
 					"varname" : "pipo-onseg-maxsize"
 				}
@@ -66,13 +100,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 210.700012, 314.0, 20.0 ],
+					"patching_rect" : [ 957.0, 210.700011999999987, 314.0, 20.0 ],
 					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-startisonset @bindto pipo-onseg::onseg.startisonset",
 					"varname" : "pipo-onseg-startisonset"
 				}
@@ -87,13 +121,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 189.700012, 287.0, 20.0 ],
+					"patching_rect" : [ 957.0, 189.700011999999987, 287.0, 20.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-odfmode @bindto pipo-onseg::onseg.odfmode",
 					"varname" : "pipo-onseg-odfmode"
 				}
@@ -108,13 +142,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 168.700012, 285.0, 20.0 ],
+					"patching_rect" : [ 957.0, 168.700011999999987, 285.0, 20.0 ],
 					"restore" : [ 5 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-filtersize @bindto pipo-onseg::onseg.filtersize",
 					"varname" : "pipo-onseg-filtersize"
 				}
@@ -129,13 +163,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 126.700012, 281.0, 20.0 ],
+					"patching_rect" : [ 957.0, 126.700012000000001, 281.0, 20.0 ],
 					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-mininter @bindto pipo-onseg::onseg.mininter",
 					"varname" : "pipo-onseg-mininter"
 				}
@@ -150,13 +184,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 105.700012, 294.0, 20.0 ],
+					"patching_rect" : [ 957.0, 105.700012000000001, 294.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-durthresh @bindto pipo-onseg::onseg.durthresh",
 					"varname" : "pipo-onseg-durthresh"
 				}
@@ -171,13 +205,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 84.700012, 290.0, 20.0 ],
+					"patching_rect" : [ 957.0, 84.700012000000001, 290.0, 20.0 ],
 					"restore" : [ -100.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-offthresh @bindto pipo-onseg::onseg.offthresh",
 					"varname" : "pipo-onseg-offthresh"
 				}
@@ -192,13 +226,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 957.0, 63.700012, 291.0, 20.0 ],
+					"patching_rect" : [ 957.0, 63.700012000000001, 291.0, 20.0 ],
 					"restore" : [ 5.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-onseg-threshold @bindto pipo-onseg::onseg.threshold",
 					"varname" : "pipo-onseg-threshold"
 				}
@@ -208,12 +242,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 923.5, 238.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 923.5, 238.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -221,13 +254,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ],
-					"style" : ""
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -235,6 +267,7 @@
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-87",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -242,7 +275,6 @@
 					"patching_rect" : [ 161.0, 112.5, 222.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 112.5, 222.0, 19.0 ],
-					"style" : "",
 					"text" : "Maximum Segment Duration (0 = unlimited)"
 				}
 
@@ -258,7 +290,6 @@
 					"patching_rect" : [ 161.0, 178.5, 175.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 178.5, 175.0, 19.0 ],
-					"style" : "",
 					"text" : "Mark start of analysis"
 				}
 
@@ -276,7 +307,6 @@
 					"patching_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
-					"style" : "",
 					"text_width" : 109.519897
 				}
 
@@ -292,7 +322,6 @@
 					"patching_rect" : [ 161.0, 156.5, 175.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 156.5, 175.0, 19.0 ],
-					"style" : "",
 					"text" : "Onset Detection Calculation Mode"
 				}
 
@@ -308,7 +337,6 @@
 					"patching_rect" : [ 161.0, 134.5, 151.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 134.5, 151.0, 19.0 ],
-					"style" : "",
 					"text" : "Median Filter Size"
 				}
 
@@ -321,10 +349,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 90.700012, 151.0, 19.0 ],
+					"patching_rect" : [ 161.0, 90.700012000000001, 151.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 90.700012, 151.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 90.700012000000001, 151.0, 19.0 ],
 					"text" : "Minimum Onset Interval"
 				}
 
@@ -337,10 +364,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 68.700012, 151.0, 19.0 ],
+					"patching_rect" : [ 161.0, 68.700012000000001, 151.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 68.700012, 151.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 68.700012000000001, 151.0, 19.0 ],
 					"text" : "Duration Threshold"
 				}
 
@@ -353,10 +379,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 46.700012, 151.0, 19.0 ],
+					"patching_rect" : [ 161.0, 46.700012000000001, 151.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 46.700012, 151.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 46.700012000000001, 151.0, 19.0 ],
 					"text" : "Offset Threshold (dB)"
 				}
 
@@ -372,7 +397,6 @@
 					"patching_rect" : [ 161.0, 25.0, 151.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 25.0, 151.0, 19.0 ],
-					"style" : "",
 					"text" : "Onset Threshold (dB)"
 				}
 
@@ -387,10 +411,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 68.700012, 151.0, 21.0 ],
+					"patching_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 68.700012, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ]
 				}
 
 			}
@@ -406,8 +429,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ]
 				}
 
 			}
@@ -421,10 +443,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 90.700012, 151.0, 21.0 ],
+					"patching_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 90.700012, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ]
 				}
 
 			}
@@ -440,8 +461,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ]
 				}
 
 			}
@@ -457,8 +477,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ]
 				}
 
 			}
@@ -472,10 +491,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 46.700012, 151.0, 21.0 ],
+					"patching_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 46.700012, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ]
 				}
 
 			}
@@ -491,9 +509,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 63.700012, 550.5, 42.0 ],
-					"style" : "",
-					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 1 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
+					"patching_rect" : [ 392.0, 63.700012000000001, 550.5, 42.0 ],
+					"saved_object_attributes" : 					{
+						"active" : 1
+					}
+,
+					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onset.max 0 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
 					"varname" : "pipo-onseg"
 				}
 
@@ -502,12 +523,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 238.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 238.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -523,8 +543,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ]
 				}
 
 			}
@@ -540,7 +559,6 @@
 					"patching_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
-					"style" : "",
 					"text" : "> Attributes: descr-onseg (target)"
 				}
 
@@ -551,6 +569,14 @@
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -631,13 +657,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "pipo~.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

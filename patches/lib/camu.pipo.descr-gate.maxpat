@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 1,
 			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -36,7 +37,40 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 146.200012000000015, 175.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 142.5, 175.0, 19.0 ],
+					"text" : "Calculate Standard Deviation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "gate.stddev",
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1.0, 146.200012000000015, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 142.5, 150.0, 21.0 ],
+					"text_width" : 109.519897
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
@@ -45,13 +79,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700012, 261.0, 20.0 ],
+					"patching_rect" : [ 956.0, 146.700011999999987, 261.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-gate-maxdur @bindto pipo-gate::gate.maxdur",
 					"varname" : "pipo-gate-maxdur"
 				}
@@ -66,13 +100,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012, 268.0, 20.0 ],
+					"patching_rect" : [ 956.0, 125.700012000000001, 268.0, 20.0 ],
 					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-gate-mininter @bindto pipo-gate::gate.mininter",
 					"varname" : "pipo-gate-mininter"
 				}
@@ -87,13 +121,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012, 280.0, 20.0 ],
+					"patching_rect" : [ 956.0, 104.700012000000001, 280.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-gate-durthresh @bindto pipo-gate::gate.durthresh",
 					"varname" : "pipo-gate-durthresh"
 				}
@@ -108,13 +142,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 277.0, 20.0 ],
+					"patching_rect" : [ 956.0, 83.700012000000001, 277.0, 20.0 ],
 					"restore" : [ -40.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-gate-offthresh @bindto pipo-gate::gate.offthresh",
 					"varname" : "pipo-gate-offthresh"
 				}
@@ -129,13 +163,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 278.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012000000001, 278.0, 20.0 ],
 					"restore" : [ -20.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-gate-threshold @bindto pipo-gate::gate.threshold",
 					"varname" : "pipo-gate-threshold"
 				}
@@ -149,8 +183,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 923.5, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 923.5, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -163,11 +196,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 113.200012, 234.0, 31.0 ],
+					"patching_rect" : [ 161.0, 113.200012000000001, 234.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 161.0, 113.200012, 234.0, 31.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 113.200012000000001, 234.0, 31.0 ],
 					"text" : "Maximum Segment Duration \n(chops non-silence segments when > 0)"
 				}
 
@@ -182,10 +214,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 113.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 113.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 113.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 113.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -197,10 +228,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 91.200012, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 91.200012000000001, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 91.200012, 150.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 91.200012000000001, 150.0, 19.0 ],
 					"text" : "Minimum Onset Interval"
 				}
 
@@ -213,10 +243,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 69.200012, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 69.200012000000001, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 69.200012, 150.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 69.200012000000001, 150.0, 19.0 ],
 					"text" : "Minimum Segment Duration"
 				}
 
@@ -229,10 +258,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 47.200012, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 47.200012000000001, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 47.200012, 150.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 47.200012000000001, 150.0, 19.0 ],
 					"text" : "Offset Threshold (dB)"
 				}
 
@@ -248,7 +276,6 @@
 					"patching_rect" : [ 161.0, 24.5, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 24.5, 150.0, 19.0 ],
-					"style" : "",
 					"text" : "Onset Threshold (dB)"
 				}
 
@@ -263,10 +290,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 69.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 69.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 69.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 69.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -280,10 +306,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 91.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 91.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 91.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 91.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -299,8 +324,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1.0, 24.5, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 24.5, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 24.5, 150.0, 21.0 ]
 				}
 
 			}
@@ -314,10 +338,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 47.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 47.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 47.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 47.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -333,7 +356,6 @@
 					"patching_rect" : [ 1.0, -0.5, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, -0.5, 310.0, 24.0 ],
-					"style" : "",
 					"text" : "> Attributes: descr-gate (target)"
 				}
 
@@ -347,8 +369,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -364,9 +385,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 42.0 ],
-					"style" : "",
-					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 42.0 ],
+					"saved_object_attributes" : 					{
+						"active" : 1
+					}
+,
+					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 0 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
 					"varname" : "pipo-gate"
 				}
 
@@ -379,8 +403,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -422,6 +445,14 @@
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-134", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}

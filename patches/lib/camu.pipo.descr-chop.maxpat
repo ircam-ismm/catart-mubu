@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
+			"major" : 8,
+			"minor" : 1,
 			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -36,7 +37,40 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 72.700012000000015, 175.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 68.900024000000002, 175.0, 19.0 ],
+					"text" : "Calculate Standard Deviation"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "chop.stddev",
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1.0, 72.700012000000015, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ],
+					"text_width" : 109.519897
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
@@ -45,13 +79,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012, 248.0, 20.0 ],
+					"patching_rect" : [ 956.0, 83.700012000000001, 248.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-chop-offset @bindto pipo-chop::chop.offset",
 					"varname" : "pipo-chop-offset"
 				}
@@ -66,13 +100,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012, 229.0, 20.0 ],
+					"patching_rect" : [ 956.0, 62.700012000000001, 229.0, 20.0 ],
 					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
-						"parameter_enable" : 0
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
 					}
 ,
-					"style" : "",
 					"text" : "pattr pipo-chop-size @bindto pipo-chop::chop.size",
 					"varname" : "pipo-chop-size"
 				}
@@ -86,10 +120,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 47.900024, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 47.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 46.900024, 150.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
 					"text" : "Offset Threshold"
 				}
 
@@ -102,10 +135,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 26.200012, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 26.200012000000001, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.0, 25.200012, 174.0, 19.0 ],
-					"style" : "",
+					"presentation_rect" : [ 161.0, 25.200012000000001, 174.0, 19.0 ],
 					"text" : "Segment duration"
 				}
 
@@ -120,10 +152,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 26.200012, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 26.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 25.200012, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ]
 				}
 
 			}
@@ -137,10 +168,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 47.900024, 150.0, 21.0 ],
+					"patching_rect" : [ 1.0, 47.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 46.900024, 150.0, 21.0 ],
-					"style" : ""
+					"presentation_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
 				}
 
 			}
@@ -152,8 +182,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 923.5, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 923.5, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -166,8 +195,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 1.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 1.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -182,9 +210,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 62.700012, 550.5, 31.0 ],
-					"style" : "",
-					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 1 @chop.duration 1",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 31.0 ],
+					"saved_object_attributes" : 					{
+						"active" : 1
+					}
+,
+					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @chop.size 250 @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"varname" : "pipo-chop"
 				}
 
@@ -197,8 +228,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 237.700012, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 392.0, 237.700011999999987, 25.0, 25.0 ]
 				}
 
 			}
@@ -214,13 +244,19 @@
 					"patching_rect" : [ 1.0, 1.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
-					"style" : "",
 					"text" : "> Attributes: descr-chop (target)"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"hidden" : 1,
