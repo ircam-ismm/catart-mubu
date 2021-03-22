@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,21 +37,8 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"color" : [ 0.8295059975, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 32.0, 52.0, 19.0 ],
-					"text" : "r #1"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -87,7 +74,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -99,11 +86,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ]
 				}
 
@@ -522,7 +509,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 566.0, 63.0 ],
+					"patching_rect" : [ 392.0, 62.700012000000001, 580.0, 63.0 ],
 					"text" : "mubu.process #1 audio descr:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 0 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
@@ -533,7 +520,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -632,13 +619,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-58", 0 ]
 				}
@@ -673,13 +653,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

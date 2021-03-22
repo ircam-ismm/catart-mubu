@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 8,
+			"minor" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,17 +37,16 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"color" : [ 0.8295059975, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"id" : "obj-61",
+					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 399.0, 52.0, 22.0 ],
-					"text" : "r #1"
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 9.5, 138.0, 100.0, 22.0 ],
+					"text" : "routepass refer"
 				}
 
 			}
@@ -59,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.5, 177.0, 24.0, 24.0 ]
+					"patching_rect" : [ 39.5, 200.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -149,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 97.0, 166.0, 47.0 ],
+					"patching_rect" : [ 38.0, 86.0, 166.0, 47.0 ],
 					"text" : "switch cont mode on (usually connected from 2nd outlet of camu.triggermode)"
 				}
 
@@ -190,7 +189,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 39.5, 97.0, 25.0, 25.0 ]
+					"patching_rect" : [ 9.5, 97.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -356,6 +355,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 76.0, 399.0, 149.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"verbose" : 1
+					}
+,
 					"text" : "mubu.track #1 #2"
 				}
 
@@ -393,6 +396,21 @@
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"midpoints" : [ 19.0, 390.0, 85.5, 390.0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -476,14 +494,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-61", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
