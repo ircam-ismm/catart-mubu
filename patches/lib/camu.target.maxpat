@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 10,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 321.0, 916.0, 702.0, 397.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 605.0, 388.0, 702.0, 397.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Geneva",
@@ -46,8 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.5, 161.0, 106.0, 21.0 ],
-					"presentation_rect" : [ 16.0, 285.0, 0.0, 0.0 ],
-					"style" : "",
 					"text" : "select $1 $2"
 				}
 
@@ -57,12 +57,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 16.0, 79.0, 20.0 ],
-					"style" : "",
-					"text" : "target values"
+					"patching_rect" : [ 30.5, 11.0, 145.0, 33.0 ],
+					"text" : "target values or bang from retrigger-random"
 				}
 
 			}
@@ -74,9 +74,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 30.5, 45.0, 30.0, 30.0 ],
-					"style" : ""
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.5, 45.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -89,7 +88,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.5, 11.0, 129.0, 20.0 ],
-					"style" : "",
 					"text" : "descriptor choices x, y"
 				}
 
@@ -103,7 +101,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 33.0, 276.0, 77.0, 20.0 ],
-					"style" : "",
 					"text" : "to mubu.knn"
 				}
 
@@ -118,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 161.0, 106.0, 21.0 ],
-					"style" : "",
 					"text" : "columns $1 $2"
 				}
 
@@ -133,7 +129,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 282.0, 88.0, 64.0, 19.0 ],
-					"style" : "",
 					"text" : "pak 0 1"
 				}
 
@@ -146,9 +141,8 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 40.0, 30.0, 30.0 ],
-					"style" : ""
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 282.0, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -161,8 +155,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 327.0, 40.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 327.0, 40.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -174,8 +167,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.5, 243.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 30.5, 243.0, 30.0, 30.0 ]
 				}
 
 			}
