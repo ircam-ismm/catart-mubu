@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 605.0, 388.0, 702.0, 397.0 ],
+		"rect" : [ 228.0, 696.0, 572.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.5, 161.0, 106.0, 21.0 ],
+					"patching_rect" : [ 30.5, 161.0, 71.0, 21.0 ],
 					"text" : "select $1 $2"
 				}
 
@@ -87,8 +87,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.5, 11.0, 129.0, 20.0 ],
-					"text" : "descriptor choices x, y"
+					"patching_rect" : [ 277.5, 7.0, 239.0, 20.0 ],
+					"text" : "descriptor choices x, y, or as list in 2nd inlet"
 				}
 
 			}
@@ -114,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 161.0, 106.0, 21.0 ],
+					"patching_rect" : [ 282.0, 161.0, 81.0, 21.0 ],
 					"text" : "columns $1 $2"
 				}
 
