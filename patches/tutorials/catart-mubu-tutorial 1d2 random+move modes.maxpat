@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1366.0, 787.0 ],
+		"rect" : [ 34.0, 79.0, 935.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2248,6 +2248,7 @@
 					"patching_rect" : [ 330.039771999999971, 490.0, 192.960225333333369, 41.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"size" : 2,
 					"spacing" : 1
 				}
 
@@ -3034,7 +3035,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 123.539771999999942, 490.0, 184.460228000000058, 22.0 ],
-					"text" : "16"
+					"text" : "7 31"
 				}
 
 			}
@@ -4032,17 +4033,17 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"cursor_circleheight" : 0.0,
-					"cursor_circlewidth" : 0.0,
+					"cursor_circleheight" : 0.03999999910593,
+					"cursor_circlewidth" : 204.139999389648438,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1693.499058380414226,
+					"cursor_position" : 3062.639185428290148,
 					"cursor_shape" : "cross",
-					"cursor_size" : 4093,
+					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 8921.111111111111313 ],
+					"domain_bounds" : [ 1279.858093164166348, 5049.896962109804917 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4988,7 +4989,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1609.0, 815.0, 716.0, 551.0 ],
+						"rect" : [ 637.0, 223.0, 716.0, 551.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
