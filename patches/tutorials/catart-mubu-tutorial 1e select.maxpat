@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 276.913989007472992, 167.0, 33.0 ],
+					"patching_rect" : [ 345.0, 276.913989007472992, 169.0, 33.0 ],
 					"text" : "standard connection to imubu as abstraction"
 				}
 
@@ -414,17 +414,17 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"cursor_circleheight" : 0.171372756361961,
-					"cursor_circlewidth" : 1105.7872314453125,
+					"cursor_circleheight" : 0.0,
+					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1482.70003620729608,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1314.0206298828125, 4999.97802734375 ],
+					"domain_bounds" : [ 1340.338429644184316, 4646.434113516239449 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -958,7 +958,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 329.249634000000015, 114.0, 91.0 ],
+					"patching_rect" : [ 4.0, 329.249634000000015, 118.0, 91.0 ],
 					"text" : "all of selection in one abstraction, double click or use in bpatcher for interface"
 				}
 
@@ -1077,6 +1077,7 @@
 
 					}
 ,
+					"showname" : 0,
 					"varname" : "live.gain~"
 				}
 
