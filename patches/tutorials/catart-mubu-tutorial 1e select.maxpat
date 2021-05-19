@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1206.0, 703.0 ],
+		"rect" : [ 34.0, 79.0, 1216.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.0, 147.0, 89.0, 22.0 ],
+					"text" : "removebuffer 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -414,17 +428,22 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"cursor_circleheight" : 0.0,
-					"cursor_circlewidth" : 0.0,
+					"cursor_circleedgecolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 0.1 ],
+					"cursor_circlefilled" : 0,
+					"cursor_circleheight" : 0.19263955950737,
+					"cursor_circlewidth" : 0.533723473548889,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
+					"cursor_nearest" : 1,
+					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 0.013397394084521,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1340.338429644184316, 4646.434113516239449 ],
+					"domain_bounds" : [ -0.00330442678064, 0.892520510532518 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -522,7 +541,7 @@
 					"patching_rect" : [ 239.039780000000007, 181.0, 163.626875999999982, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2,
+					"size" : 3,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1858,6 +1877,14 @@
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
