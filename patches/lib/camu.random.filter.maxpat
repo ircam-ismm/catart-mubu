@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 63.100006000000008, 79.0, 73.0, 22.0 ],
+					"text" : "route mode"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 403.5, 112.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 54.0, 403.5, 115.0, 47.0 ],
 					"text" : "hit: recall empty flag only, don't care about move here",
 					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
 				}
@@ -96,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.100006000000008, 54.99999588727951, 75.0, 22.0 ],
+					"patching_rect" : [ 7.100006000000008, 24.99999588727951, 75.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -108,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.100006000000008, 82.0, 75.0, 22.0 ],
+					"patching_rect" : [ 7.100006000000008, 52.0, 75.0, 22.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -2481,7 +2492,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 7.100006000000008, 114.0, 30.0, 30.0 ]
 				}
 
@@ -2654,6 +2665,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
@@ -2689,7 +2707,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-57", 1 ]
 				}
 
