@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 1259.0, 1045.0, 558.0 ],
+		"rect" : [ 591.0, 1260.0, 983.0, 556.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 7.100006000000008, 54.99999588727951, 75.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 7.100006000000008, 82.0, 75.0, 22.0 ],
+					"text" : "patcherargs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.700012000000015, 293.0, 149.0, 47.0 ],
+					"patching_rect" : [ 743.700012000000015, 293.0, 149.0, 47.0 ],
 					"presentation_linecount" : 3,
 					"text" : "genuine user target input (not reselect because radius changed)"
 				}
@@ -57,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.700011999999901, 416.0, 48.0, 20.0 ],
+					"patching_rect" : [ 354.700011999999901, 416.0, 48.0, 20.0 ],
 					"text" : "empty?"
 				}
 
@@ -68,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.100008666666668, 416.0, 78.0, 20.0 ],
+					"patching_rect" : [ 233.100008666666668, 416.0, 78.0, 20.0 ],
 					"text" : "has moved?"
 				}
 
@@ -81,7 +105,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 717.700012000000015, 215.5, 24.0, 24.0 ]
+					"patching_rect" : [ 702.700012000000015, 215.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -91,7 +115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.700012000000015, 215.5, 57.0, 20.0 ],
+					"patching_rect" : [ 728.700012000000015, 215.5, 57.0, 20.0 ],
 					"text" : "reselect?"
 				}
 
@@ -103,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 669.700012000000015, 182.5, 67.0, 22.0 ],
+					"patching_rect" : [ 654.700012000000015, 182.5, 67.0, 22.0 ],
 					"text" : "unpack 1 2"
 				}
 
@@ -115,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 669.700012000000015, 371.0, 33.0, 22.0 ],
+					"patching_rect" : [ 654.700012000000015, 371.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -127,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "clear" ],
-					"patching_rect" : [ 482.700012000000015, 241.5, 41.0, 22.0 ],
+					"patching_rect" : [ 467.700012000000015, 241.5, 41.0, 22.0 ],
 					"text" : "t clear"
 				}
 
@@ -139,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.700012000000015, 215.5, 146.0, 47.0 ],
+					"patching_rect" : [ 510.700012000000015, 215.5, 146.0, 47.0 ],
 					"text" : "clear camu.random list before reselect in order to detect empty result list"
 				}
 
@@ -152,7 +176,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 342.600008666666668, 416.0, 24.0, 24.0 ]
+					"patching_rect" : [ 327.600008666666668, 416.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -163,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 222.100008666666668, 475.0, 48.0, 22.0 ],
+					"patching_rect" : [ 207.100008666666668, 475.0, 48.0, 22.0 ],
 					"text" : "zl sum"
 				}
 
@@ -175,7 +199,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.100008666666668, 448.0, 139.5, 22.0 ],
+					"patching_rect" : [ 207.100008666666668, 448.0, 139.5, 22.0 ],
 					"text" : "pak 0 0"
 				}
 
@@ -187,7 +211,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 495.900018666666654, 500.59997599999997, 179.0, 33.0 ],
+					"patching_rect" : [ 480.90001866666671, 500.59997599999997, 179.0, 33.0 ],
 					"text" : "actually played grain indices for imubu editor highlight, etc."
 				}
 
@@ -200,7 +224,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.900018666666767, 500.59997599999997, 30.0, 30.0 ]
+					"patching_rect" : [ 445.90001866666671, 500.59997599999997, 30.0, 30.0 ]
 				}
 
 			}
@@ -211,7 +235,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 202.0, 86.0, 22.0 ],
+					"patching_rect" : [ 7.0, 202.0, 86.0, 22.0 ],
 					"text" : "prepend mode"
 				}
 
@@ -223,7 +247,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 717.700012000000015, 294.000003516674042, 34.0, 22.0 ],
+					"patching_rect" : [ 702.700012000000015, 294.000003516674042, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -235,7 +259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.700012000000015, 371.0, 155.0, 33.0 ],
+					"patching_rect" : [ 691.700012000000015, 371.0, 155.0, 33.0 ],
 					"text" : "empty selection or reselect:\nsuppress retrigger"
 				}
 
@@ -247,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 482.700012000000015, 215.5, 34.0, 22.0 ],
+					"patching_rect" : [ 467.700012000000015, 215.5, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -259,7 +283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 669.700012000000015, 150.0, 84.0, 22.0 ],
+					"patching_rect" : [ 654.700012000000015, 150.0, 84.0, 22.0 ],
 					"text" : "route selected"
 				}
 
@@ -271,7 +295,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.700012000000015, 114.0, 86.0, 33.0 ],
+					"patching_rect" : [ 691.700012000000015, 114.0, 86.0, 33.0 ],
 					"text" : "right outlet of mubu.knn"
 				}
 
@@ -285,7 +309,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 669.700012000000015, 114.0, 30.0, 30.0 ]
+					"patching_rect" : [ 654.700012000000015, 114.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -297,7 +321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 222.100008666666668, 416.0, 24.0, 24.0 ]
+					"patching_rect" : [ 207.100008666666668, 416.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -308,7 +332,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.700012000000015, 317.5, 141.999999999999886, 33.0 ],
+					"patching_rect" : [ 260.700012000000015, 317.5, 141.999999999999886, 33.0 ],
 					"text" : "nearest marker or buffer has changed",
 					"textcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
 				}
@@ -322,7 +346,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 246.100006000000008, 322.0, 24.0, 24.0 ]
+					"patching_rect" : [ 231.100006000000008, 322.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2102,7 +2126,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 222.100008666666668, 378.0, 257.8000100000001, 22.0 ],
+					"patching_rect" : [ 207.100008666666668, 378.0, 257.8000100000001, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2121,7 +2145,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 22.0, 164.0, 180.0, 22.0 ],
+					"patching_rect" : [ 7.0, 164.0, 180.0, 22.0 ],
 					"text" : "route mode movemode"
 				}
 
@@ -2134,7 +2158,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.100008666666668, 500.59997599999997, 30.0, 30.0 ]
+					"patching_rect" : [ 207.100008666666668, 500.59997599999997, 30.0, 30.0 ]
 				}
 
 			}
@@ -2145,7 +2169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.100008666666668, 499.59997599999997, 177.0, 47.0 ],
+					"patching_rect" : [ 246.100008666666668, 499.59997599999997, 177.0, 47.0 ],
 					"text" : "mute flag: when selection is empty or nothing moved, mute output, but keep period running"
 				}
 
@@ -2156,7 +2180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.100006000000008, 535.0, 78.0, 20.0 ],
+					"patching_rect" : [ 119.100006000000008, 535.0, 78.0, 20.0 ],
 					"text" : "buffer index"
 				}
 
@@ -2167,7 +2191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.300003000000004, 535.0, 78.0, 20.0 ],
+					"patching_rect" : [ 3.300003000000004, 535.0, 78.0, 20.0 ],
 					"text" : "marker index"
 				}
 
@@ -2179,7 +2203,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.700012000000015, 114.0, 119.0, 33.0 ],
+					"patching_rect" : [ 504.700012000000015, 114.0, 119.0, 33.0 ],
 					"text" : "list of corresponding distances"
 				}
 
@@ -2193,7 +2217,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 482.700012000000015, 114.0, 30.0, 30.0 ]
+					"patching_rect" : [ 467.700012000000015, 114.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2204,7 +2228,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.300003000000004, 4.0, 748.0, 100.0 ],
+					"patching_rect" : [ 97.300003000000004, 3.5, 656.0, 100.0 ],
 					"text" : "camu.random,filter inputs lists of marker and buffer indices, distances, and feedback (sent by mubu.knn). \ncamu.random then chooses one (marker, buffer)-pair according to different strategies, while applying movement filtering \n\nOptions: @mode ('first' | 'random' | 'urn')   to choose strategy:  \n                  first: take first (no random)\n                  random: random selection, no control of repetition\n                  urn: random selection, without repetition"
 				}
 
@@ -2218,7 +2242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 830.000051940093954, 205.0, 100.0, 22.0 ],
+					"patching_rect" : [ 815.000051940093954, 205.0, 100.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -2231,7 +2255,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 830.000051940093954, 175.0, 24.0, 24.0 ]
+					"patching_rect" : [ 815.000051940093954, 175.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2242,7 +2266,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 830.000051940093954, 150.0, 100.0, 22.0 ],
+					"patching_rect" : [ 815.000051940093954, 150.0, 100.0, 22.0 ],
 					"text" : "route play"
 				}
 
@@ -2252,12 +2276,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 859.000020503997803, 7.0, 156.524435376514475, 87.0 ],
-					"text" : "<list: marker, buffer>: current marker, buffer and\nplay <flag>: play state message from mubu.concat~ (must be enabled by @outputstate 1)"
+					"patching_rect" : [ 844.000020503997803, 7.0, 123.524435376514475, 100.0 ],
+					"text" : "<list: marker, buffer>: current marker, buffer and play <flag>: \nplay state message from mubu.concat~ (must be enabled by @outputstate 1)"
 				}
 
 			}
@@ -2270,18 +2294,18 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 830.000051940093954, 7.0, 25.0, 25.0 ]
+					"patching_rect" : [ 815.000051940093954, 7.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-101",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 859.000020503997803, 237.333335161209106, 159.524474263191223, 33.0 ],
+					"patching_rect" : [ 844.000020503997803, 237.333335161209106, 115.524474263191223, 47.0 ],
 					"text" : "retrigger random choice when in periodic play mode"
 				}
 
@@ -2294,7 +2318,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 830.000051940093954, 237.333335161209106, 24.0, 24.0 ]
+					"patching_rect" : [ 815.000051940093954, 237.333335161209106, 24.0, 24.0 ]
 				}
 
 			}
@@ -2305,7 +2329,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 22.100006000000008, 292.000003516674042, 243.0, 22.0 ],
+					"patching_rect" : [ 7.100006000000008, 292.000003516674042, 243.0, 22.0 ],
 					"text" : "camu.random"
 				}
 
@@ -2317,7 +2341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.700012000000015, 114.0, 155.399993999999992, 33.0 ],
+					"patching_rect" : [ 288.700012000000015, 114.0, 155.399993999999992, 33.0 ],
 					"text" : "list of corresponding buffer indices from mubu.knn"
 				}
 
@@ -2329,7 +2353,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.100006000000008, 114.0, 209.600006000000008, 47.0 ],
+					"patching_rect" : [ 37.100006000000008, 114.0, 209.600006000000008, 47.0 ],
 					"text" : "list of marker indices from mubu.knn, bang for retrigger, or\nclear for empty selection"
 				}
 
@@ -2342,7 +2366,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.100006000000008, 500.59997599999997, 30.0, 30.0 ]
+					"patching_rect" : [ 119.100006000000008, 500.59997599999997, 30.0, 30.0 ]
 				}
 
 			}
@@ -2354,7 +2378,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.100006000000008, 500.59997599999997, 30.0, 30.0 ]
+					"patching_rect" : [ 7.100006000000008, 500.59997599999997, 30.0, 30.0 ]
 				}
 
 			}
@@ -2367,7 +2391,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 266.700012000000015, 114.0, 30.0, 30.0 ]
+					"patching_rect" : [ 251.700012000000015, 114.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2380,7 +2404,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 22.100006000000008, 114.0, 30.0, 30.0 ]
+					"patching_rect" : [ 7.100006000000008, 114.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2550,6 +2574,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-57", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -2607,7 +2645,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 112.0, 198.5, 231.600008666666668, 198.5 ],
+					"midpoints" : [ 97.0, 198.5, 216.600008666666668, 198.5 ],
 					"source" : [ "obj-9", 1 ]
 				}
 
@@ -2615,7 +2653,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 3 ],
-					"midpoints" : [ 839.500051940093954, 106.500001758337021, 255.600006000000008, 106.500001758337021 ],
+					"midpoints" : [ 824.500051940093954, 106.500001758337021, 240.600006000000008, 106.500001758337021 ],
 					"order" : 2,
 					"source" : [ "obj-94", 0 ]
 				}
@@ -2632,7 +2670,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 3 ],
-					"midpoints" : [ 839.500051940093954, 106.0, 470.40001866666671, 106.0 ],
+					"midpoints" : [ 824.500051940093954, 106.0, 455.40001866666671, 106.0 ],
 					"order" : 1,
 					"source" : [ "obj-94", 0 ]
 				}
