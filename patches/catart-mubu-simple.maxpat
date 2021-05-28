@@ -159,7 +159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 679.5, 106.0, 110.0, 20.0 ],
+					"patching_rect" : [ 681.5, 95.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 676.90463299999999, 109.0, 87.0, 20.0 ],
 					"text" : "display modes"
@@ -388,6 +388,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -1054,7 +1055,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -1386,7 +1386,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -6.0, 74.0, 1621.0, 537.0 ],
+						"rect" : [ 361.0, 163.0, 1621.0, 537.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1414,6 +1414,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2617,7 +2618,7 @@
 					"presentation_rect" : [ 235.5, 164.5, 222.5, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
+					"size" : 11,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -2690,7 +2691,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 143.0, 297.0, 505.0, 270.0 ],
+						"rect" : [ 111.0, 118.0, 1298.0, 976.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -4479,7 +4480,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.5, 426.700012000000015, 100.0, 35.0 ],
-					"text" : "0.370079 0.291339"
+					"text" : "0.417323 0.385827"
 				}
 
 			}
@@ -4766,17 +4767,22 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"cursor_circleheight" : 0.0,
-					"cursor_circlewidth" : 0.0,
+					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_circlefilled" : 0,
+					"cursor_circleheight" : 0.324582487344742,
+					"cursor_circlewidth" : 3000.8955078125,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
+					"cursor_nearest" : 1,
+					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2178.717589090638285,
+					"cursor_position" : 152.414945638852913,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1624.1632080078125, 3431.82666015625 ],
+					"domain_bounds" : [ 152.414945638852913, 7767.930814239992287 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4808,7 +4814,7 @@
 					"outputvalues" : 1,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 576.5, 165.0, 627.5, 530.799987999999985 ],
+					"patching_rect" : [ 587.5, 165.0, 627.5, 530.799987999999985 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 576.5, 165.0, 627.5, 530.799987999999985 ],
 					"rangeruler_grid" : 0,
@@ -5702,6 +5708,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -5895,6 +5902,13 @@
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
+				"bootpath" : "~/src/catart-mubu/patches/lib",
+				"patcherrelativepath" : "./lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.random.filter.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
