@@ -88,6 +88,12 @@ function setRange()
   }	
 }
 
+function setTrainingLength()
+{
+  var args = arrayfromargs(arguments);
+  trainingLength = args[0];
+}
+
 // bufferindex message must be sent after clear, before sequence of appendData
 function bufferindex()
 {
@@ -227,14 +233,16 @@ function training()
   {
     trainingStep(t, trainingLength, rStep, alpha, winTimeStamp);
     // Progress percentage on outlet 4
-    outlet(4, math.ceil(100 * (t / trainingLength)));
+    outlet(4, math.floor(100 * (t / trainingLength)));
     t++;
   }
   else
   {
     post('Training done.\n');
+    outlet(4, 100);
     findBestMatches();
     outputDataCoordinatesOnMap();
+    outlet(4, 'done');
     arguments.callee.task.cancel();
   }
 }
@@ -256,15 +264,28 @@ function trainingStep(t, trainingLength, rStep, alpha, winTimeStamp)
   // equivalent of mag = sum(difference^2),
   // instead it should be sqrt(sum(difference^2)).
   // I don't think it actually affects the result however.
+
+  var bmuDistance = Number.MAX_VALUE;
+  var bmu = -1;
   for (var n = 0; n < neuronCount; n++)
   {
-    differences.push(math.subtract(neurons[n], vector));
-    distancesFromVector.push(math.norm(math.subtract(neurons[n], vector)));
+    var dist = math.subtract(neurons[n], vector);
+    var normdist = math.norm(dist);
+    differences.push(dist);
+    distancesFromVector.push(normdist);
+
+    // update minimum distance (bmuDistance) and index (bmu)
+    if (normdist < bmuDistance)
+    {
+      bmuDistance = normdist;
+      bmu = n;
+    }
   }
 
+  // already done online above:
   // Find best matching unit's distance and index: min(norm(neurons - vector))
-  var bmuDistance = math.min(distancesFromVector);
-  var bmu = distancesFromVector.indexOf(bmuDistance);
+  //var bmuDistance = math.min(distancesFromVector);
+  //var bmu = distancesFromVector.indexOf(bmuDistance);
 
   // When did this neuron last win?
   var timeSinceLastWin = t - winTimeStamp[bmu];
@@ -282,35 +303,37 @@ function trainingStep(t, trainingLength, rStep, alpha, winTimeStamp)
   {
     // Linearly decreasing learning rate
     case 'linear':
-      alpha = initialAlpha * (1 - t / trainingLength);
-      break;
+    alpha = initialAlpha * (1 - t / trainingLength);
+    break;
     // Inverse decrease (to 0.01 * initialAlpha at last training step)
     case 'inverse':
-      b = trainingLength / 100;
-      a = b * initialAlpha;
-      alpha = a / (b + t);
-      break;
+    b = trainingLength / 100;
+    a = b * initialAlpha;
+    alpha = a / (b + t);
+    break;
     // BDH adaptive local learning rate
     case 'BDH':
-      alpha = math.pow((1 / bmuDistance), dimensionCount);
-      alpha = initialAlpha *
-              math.pow(((1 / timeSinceLastWin) * alpha), magnificationM);
-      // Limit alpha to <= 0.9
-      alpha = math.min(alpha, 0.9);
-      break;
-    }
+    alpha = math.pow((1 / bmuDistance), dimensionCount);
+    alpha = initialAlpha *
+      math.pow(((1 / timeSinceLastWin) * alpha), magnificationM);
+    // Limit alpha to <= 0.9
+    alpha = math.min(alpha, 0.9);
+    break;
+  }
 
-    // Radius decreases from rStart to rEnd over n=trainingLength steps.
-    var r = radiusStart + t * rStep;
+  // Radius decreases from rStart to rEnd over n=trainingLength steps.
+  var r  = radiusStart + t * rStep;
+  var r2 = -1 / (2 * math.square(r));
 
-    // For each neuron, get neighborhood function and update its position.
-    neurons = neurons.map(function (neuron, index) {
-      // Gaussian neighborhood function
-      var h = alpha * math.exp(-(math.square(distances[index][bmu])
-                                  / (2 * math.square(r))));
-      return math.subtract(neuron, math.multiply(h, differences[index]));
-    });
-}
+  // For each neuron, get neighborhood function and update its position.
+  neurons = neurons.map(function (neuron, index) {
+    // Gaussian neighborhood function
+    // var h = alpha * math.exp(-(math.square(distances[index][bmu])
+    //                               / (2 * math.square(r))));
+    var h = alpha * math.exp(distances[index][bmu] * distances[index][bmu] * r2);
+    return math.subtract(neuron, math.multiply(h, differences[index]));
+  });
+} // trainingStep
 
 function findBestMatches()
 {
@@ -377,7 +400,7 @@ function outputDataCoordinatesOnMap()
       outlet(2, vecSomCoordsY.slice(start, end));
       outlet(1, vecSomCoordsX.slice(start, end));
   }
-}
+} // outputDataCoordinatesOnMap
 
 function getData(index)
 {
