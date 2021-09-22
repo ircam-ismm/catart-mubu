@@ -70,6 +70,7 @@ function bufferindex()
     // keep list of start index in descriptorData for each buffer
     bufferdata.push(buffer);
     bufferstart.push(descriptorData.length);
+    post('bufferindex', buffer, bufferdata, bufferstart, '\n');
 }
 
 function appendData()
@@ -115,7 +116,10 @@ function normalizeDimension(data, dimensionIndex)
 {
   var dimension = getDimension(data, dimensionIndex);
   var std = math.std(dimension);
-  return dimension.map(function(element) { return element / std; });
+  if (std > 0)  
+    return dimension.map(function(element) { return element / std; });
+  else
+    return dimension;
 }
 
 function initializeMap()
@@ -323,7 +327,8 @@ function outputDataCoordinatesOnMap()
   {
     post(neuronOccupation.slice(row * mapSize[0], (row + 1) * mapSize[0]) +'\n');
   }
-    
+
+  // add random offset around neuron position to make classified vectors visible
   vecSomCoordsX = vecSomCoords.map(function (vector) {
     return vector[0] + (math.random(-range, range));
   });
@@ -333,6 +338,7 @@ function outputDataCoordinatesOnMap()
 
   // last buffer's end
   bufferstart.push(descriptorData.length);
+    post('startind', bufferstart, bufferdata, '\n');
 
   // got through buffers, cut lists by buffer limits
   for (var i = 0; i < bufferdata.length; i++)
@@ -340,6 +346,7 @@ function outputDataCoordinatesOnMap()
       var bufferindex = bufferdata[i];
       var start = bufferstart[i];
       var end   = bufferstart[i + 1];
+      post('buffer', i, bufferindex, start, end, '\n');
       
       // output current buffer
       outlet(3, bufferindex);
