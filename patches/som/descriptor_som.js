@@ -1,3 +1,4 @@
+// -*-mode:javascript; js-indent-level: 2; eval: (subword-mode) -*-
 autowatch = 1;
 outlets = 5;
 
@@ -10,6 +11,7 @@ var bufferstart = [];	// start index of each buffer in global descriptorData and
 var normalizedData = [];
 var dimensionCount;
 var mapSize = [7, 7];	// cols, rows
+var randomRange = [-0.2, 0.2];
 var neuronCount = mapSize[0] * mapSize[1];
 var neurons = [];
 var coordinates = [];
@@ -61,6 +63,29 @@ function setMapSize()
     radiusStart = math.max(mapSize) / 5;
     radiusEnd = math.max(mapSize) / 30;
   }
+}
+
+function setRange()
+{
+  var range = arrayfromargs(arguments);
+
+  if (range.length == 1)
+  {
+    if (range[0] < 0)
+    {
+      randomRange[0] =  range[0];
+      randomRange[1] = -range[0];
+    }
+    else
+    {
+      randomRange[0] = 0;
+      randomRange[1] = range[0];
+    }
+  }
+  else
+  {
+    randomRange = range;
+  }	
 }
 
 // bufferindex message must be sent after clear, before sequence of appendData
@@ -312,7 +337,6 @@ function outputDataCoordinatesOnMap()
 {
   // create zero-filled array for each vector
   var neuronOccupation = neurons.map(function(x) { return 0; })
-  var range = 0.2;
     
   vecSomCoords = bestMatches.map(function (vector) {
       var bmu = vector[0];
@@ -330,10 +354,10 @@ function outputDataCoordinatesOnMap()
 
   // add random offset around neuron position to make classified vectors visible
   vecSomCoordsX = vecSomCoords.map(function (vector) {
-    return vector[0] + (math.random(-range, range));
+    return vector[0] + (math.random(randomRange[0], randomRange[1]));
   });
   vecSomCoordsY = vecSomCoords.map(function (vector) {
-    return vector[1] + (math.random(-range, range));
+    return vector[1] + (math.random(randomRange[0], randomRange[1]));
   });
 
   // last buffer's end
