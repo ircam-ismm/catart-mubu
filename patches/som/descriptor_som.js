@@ -340,6 +340,8 @@ function findBestMatches()
   bestMatches = normalizedData.map(function (vector) {
     var differences = [];
     var distancesFromVector = [];
+    var bmuDistance = Number.MAX_VALUE;
+    var bmu = -1;
 
     // Subtract chosen vector from each neuron / map unit, then calculate that
     // difference vector's magnitude.
@@ -347,11 +349,20 @@ function findBestMatches()
     // the chosen vector.
     for (var n = 0; n < neuronCount; n++)
     {
-      distancesFromVector.push(math.norm(math.subtract(neurons[n], vector)));
+      var normdist = math.norm(math.subtract(neurons[n], vector));
+      distancesFromVector.push(normdist);
+
+      // update minimum distance (bmuDistance) and index (bmu)
+      if (normdist < bmuDistance)
+      {
+	bmuDistance = normdist;
+	bmu = n;
+      }
+
     }
     // Find best matching unit's distance and index:
-    var bmuDistance = math.min(distancesFromVector);
-    var bmu = distancesFromVector.indexOf(bmuDistance);
+    //var bmuDistance = math.min(distancesFromVector);
+    //var bmu = distancesFromVector.indexOf(bmuDistance);
     return [bmu, bmuDistance];
   });
 }
