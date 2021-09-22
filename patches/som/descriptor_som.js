@@ -5,8 +5,8 @@ math = require('math.min.js').math;
 // math.config({randomSeed: 7});
 
 var descriptorData = [];
-var bufferdata = [];
-var bufferstart = [];
+var bufferid = [];	// bufferindex or name for mubu 
+var bufferstart = [];	// start index of each buffer in global descriptorData and vecSomCoords
 var normalizedData = [];
 var dimensionCount;
 var mapSize = [7, 7];	// cols, rows
@@ -40,7 +40,7 @@ function clear()
 {
   train.cancel();
   descriptorData = [];
-  bufferdata = [];
+  bufferid = [];
   bufferstart = [];
   coordinates = [];
   distances = [];
@@ -63,14 +63,14 @@ function setMapSize()
   }
 }
 
+// bufferindex message must be sent after clear, before sequence of appendData
 function bufferindex()
 {
     var buffer = arrayfromargs(arguments);
 
     // keep list of start index in descriptorData for each buffer
-    bufferdata.push(buffer);
+    bufferid.push(buffer);
     bufferstart.push(descriptorData.length);
-    post('bufferindex', buffer, bufferdata, bufferstart, '\n');
 }
 
 function appendData()
@@ -338,15 +338,13 @@ function outputDataCoordinatesOnMap()
 
   // last buffer's end
   bufferstart.push(descriptorData.length);
-    post('startind', bufferstart, bufferdata, '\n');
 
   // got through buffers, cut lists by buffer limits
-  for (var i = 0; i < bufferdata.length; i++)
+  for (var i = 0; i < bufferid.length; i++)
   {
-      var bufferindex = bufferdata[i];
+      var bufferindex = bufferid[i];
       var start = bufferstart[i];
       var end   = bufferstart[i + 1];
-      post('buffer', i, bufferindex, start, end, '\n');
       
       // output current buffer
       outlet(3, bufferindex);
