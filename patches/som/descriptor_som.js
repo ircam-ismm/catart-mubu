@@ -15,7 +15,7 @@ var randomRange = [-0.2, 0.2];
 var neuronCount = mapSize[0] * mapSize[1];
 var neurons = [];
 var coordinates = [];
-var distances = [];
+var distances2 = [];
 var bestMatches = [];
 var radiusStart = 2;
 var radiusEnd = 0.1;
@@ -45,7 +45,7 @@ function clear()
   bufferid = [];
   bufferstart = [];
   coordinates = [];
-  distances = [];
+  distances2 = [];
   bestMatches = [];
 }
 
@@ -166,11 +166,11 @@ function initializeMap()
     }
   }
   // Calculate matrix of distances between neurons on the map
-  // Each row represents the distances from one neuron (where distance = 0)
+  // Each row represents the square distances from one neuron (where distance = 0)
   // to all others.
   for (var i = 0; i < coordinates.length; i++)
   {
-    distances[i] = [];
+    distances2[i] = [];
     var x1 = coordinates[i][0];
     var y1 = coordinates[i][1];
 
@@ -178,7 +178,9 @@ function initializeMap()
     {
       var x2 = coordinates[j][0];
       var y2 = coordinates[j][1];
-      distances[i].push(math.sqrt(math.square(x1 - x2) + math.square(y1 - y2)));
+      // distances[i].push(math.sqrt(math.square(x1 - x2) + math.square(y1 - y2)));
+      // store square distance, as it's used in trainingStep
+      distances2[i].push(math.square(x1 - x2) + math.square(y1 - y2));
     }
   }
   // distances.forEach(function(element) { outlet(0, element); });
@@ -328,9 +330,8 @@ function trainingStep(t, trainingLength, rStep, alpha, winTimeStamp)
   // For each neuron, get neighborhood function and update its position.
   neurons = neurons.map(function (neuron, index) {
     // Gaussian neighborhood function
-    // var h = alpha * math.exp(-(math.square(distances[index][bmu])
-    //                               / (2 * math.square(r))));
-    var h = alpha * math.exp(distances[index][bmu] * distances[index][bmu] * r2);
+    // var h = alpha * math.exp(-(math.square(distances[index][bmu]) / (2 * math.square(r))));
+    var h = alpha * math.exp(distances2[index][bmu] * r2);
     return math.subtract(neuron, math.multiply(h, differences[index]));
   });
 } // trainingStep
