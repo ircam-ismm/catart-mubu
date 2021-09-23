@@ -22,5 +22,5 @@ The patch [**catart-mubu-simple.maxpat**](./patches/catart-mubu-simple.maxpat) i
 The **tutorial patches** in folder [patches/tutorials](./patches/tutorials) give a step-by-step introduction to the building blocks and functions of catart-mubu.
 
 ## More information
-[http://ismm.ircam.fr/catart](http://ismm.ircam.fr/catart/)
+[http://ismm.ircam.fr/catart](https://ircam-ismm.github.io/max-msp/catart.html)
 
