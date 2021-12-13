@@ -3390,6 +3390,17 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 55.0, 543.0, 226.0, 17.0 ],
+									"text" : "todo: stddev output option must follow attr for bpatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-23",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -4246,6 +4257,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
+									"order" : 1,
 									"source" : [ "obj-6", 0 ]
 								}
 
@@ -4263,6 +4275,14 @@
 									"destination" : [ "obj-4", 0 ],
 									"order" : 0,
 									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"order" : 0,
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -4299,7 +4319,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p corpus-analysis",
+					"text" : "p corpus-analysis2",
 					"varname" : "corpus-analysis"
 				}
 
@@ -4498,8 +4518,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 68.0, 269.0, 22.0 ],
-					"text" : "readappend Gouttes-LeNaun.wav @name audio"
+					"patching_rect" : [ 119.0, 68.0, 201.0, 22.0 ],
+					"text" : "readappend jongly.aif @name audio"
 				}
 
 			}
@@ -4552,12 +4572,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1823.356777739351628,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 2623.854875283457204 ],
+					"domain_bounds" : [ 0.0, 8846.802721088406543 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
