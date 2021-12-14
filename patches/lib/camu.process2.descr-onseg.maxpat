@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 448.0, 319.5, 407.0, 18.0 ],
-					"presentation_linecount" : 2,
 					"text" : "calculate segments from loudness column of instantaneous frame-by-frame raw descriptors"
 				}
 
@@ -69,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 112.5, 302.0, 18.0 ],
-					"presentation_linecount" : 5,
 					"text" : "calculate instantaneous frame-by-frame raw descriptors via descr"
 				}
 
@@ -116,7 +114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 812.0, 148.700012000000015, 100.0, 20.0 ],
-					"text" : "bufferindex $1, bang"
+					"text" : "bufferindex 0, bang"
 				}
 
 			}
@@ -127,8 +125,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 812.0, 118.0, 56.0, 20.0 ],
-					"text" : "route done"
+					"patching_rect" : [ 812.0, 118.0, 65.0, 20.0 ],
+					"text" : "route alldone"
 				}
 
 			}
@@ -148,7 +146,7 @@
 					"patching_rect" : [ 392.0, 68.700012000000001, 476.0, 36.0 ],
 					"text" : "mubu.process #1 audio descr @name rawdescr @process 0 @prepad 0 @priority 2 @progressoutput input @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-onseg[1]"
+					"varname" : "mubu-descr"
 				}
 
 			}
