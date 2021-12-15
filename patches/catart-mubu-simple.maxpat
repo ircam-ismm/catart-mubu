@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 10,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,7 @@
 					"patching_rect" : [ 330.837608257929446, 911.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 217.666663999999997, 675.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 250.00 ms"
+					"text" : "Duration: 37.00 ms"
 				}
 
 			}
@@ -72,7 +72,7 @@
 					"patching_rect" : [ 9.0, 911.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.666663999999997, 650.799987999999985, 64.5870299734421, 20.0 ],
-					"text" : "Buffer: 1"
+					"text" : "Buffer: 10"
 				}
 
 			}
@@ -97,7 +97,7 @@
 					"patching_rect" : [ 131.0, 911.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 217.666663999999997, 650.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 62"
+					"text" : "Index: 4"
 				}
 
 			}
@@ -116,15 +116,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 911.0, 231.0, 33.0 ],
+					"patching_rect" : [ 458.0, 911.0, 231.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 317.579627999999957, 650.799987999999985, 231.0, 33.0 ],
-					"text" : "File: vent desert large sifflant-mono-44k.aif"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 317.579627999999957, 650.799987999999985, 231.0, 47.0 ],
+					"text" : "File: 49LG-2VG_Interaction08.wav-20150403115039-1.wav"
 				}
 
 			}
@@ -150,8 +150,8 @@
 					"patching_rect" : [ 241.837608257929446, 911.0, 81.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 113.666663999999997, 675.799987999999985, 91.0, 33.0 ],
-					"text" : "Start: 15500.00 ms"
+					"presentation_rect" : [ 113.666663999999997, 675.799987999999985, 94.0, 33.0 ],
+					"text" : "Start: 2124.39 ms"
 				}
 
 			}
@@ -550,8 +550,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1192,6 +1192,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-46",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
 					"numinlets" : 4,
@@ -1217,8 +1218,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1255,12 +1256,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 124.0, 38.0, 427.0, 35.0 ],
-									"text" : "System:/Users/audio/sounds/nature/wind/VentArbres02.WAV"
+									"text" : "\"System:/Users/schwarz/src/mubu-and-co/maxmubu/patches/test/audio/drum loop 244392 with non-UTF8 loop label.wav\""
 								}
 
 							}
@@ -1575,8 +1577,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2808,12 +2810,12 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.5, 165.0, 219.499993973442088, 22.0 ],
+					"patching_rect" : [ 235.5, 165.0, 219.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.5, 164.5, 222.5, 22.0 ],
+					"presentation_rect" : [ 235.5, 164.5, 223.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 4,
+					"size" : 28,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -2879,8 +2881,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 10,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2925,8 +2927,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 1,
-											"revision" : 10,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3670,7 +3672,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 382.300000250339508, 419.0, 62.0, 19.0 ],
+									"patching_rect" : [ 359.5, 474.500000536441803, 62.0, 19.0 ],
 									"text" : "print process"
 								}
 
@@ -4063,8 +4065,9 @@
 									"enablevscroll" : 0,
 									"id" : "obj-6",
 									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.descr-chop.maxpat",
+									"name" : "camu.process.descr-onseg.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -4206,7 +4209,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"order" : 0,
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
+									"order" : 1,
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -4306,15 +4318,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
-									"order" : 1,
-									"source" : [ "obj-6", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"order" : 0,
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -4759,6 +4762,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-49",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4782,6 +4786,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-38",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4820,6 +4825,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-55",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4843,6 +4849,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-54",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4866,6 +4873,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-43",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4905,6 +4913,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-17",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.menu.maxpat",
 					"numinlets" : 1,
@@ -4971,12 +4980,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2062.63671875,
+					"cursor_position" : 4109.632638992499778,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 506.831618458759181, 6308.395837491874772 ],
+					"domain_bounds" : [ 60.782783508300781, 7741.880580086041846 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5346,12 +5355,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
+					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 472.5, 220.999985000000009, 115.0, 22.0 ],
-					"text" : "camu.control.blocks"
+					"patching_rect" : [ 472.5, 209.999985000000009, 118.0, 35.0 ],
+					"text" : "camu.control.blocks corpus descr"
 				}
 
 			}
@@ -5363,7 +5373,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 472.5, 198.90002400000003, 114.0, 20.0 ],
+					"patching_rect" : [ 472.5, 187.90002400000003, 114.0, 20.0 ],
 					"text" : "External Controller"
 				}
 
@@ -5632,16 +5642,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 2 ],
+					"destination" : [ "obj-1", 0 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-225", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 2 ],
+					"destination" : [ "obj-10", 2 ],
 					"hidden" : 1,
 					"order" : 2,
 					"source" : [ "obj-225", 0 ]
@@ -5650,9 +5660,18 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 2 ],
+					"hidden" : 1,
+					"order" : 3,
+					"source" : [ "obj-225", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 2 ],
 					"hidden" : 1,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-225", 0 ]
 				}
 
@@ -5993,6 +6012,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 1 ],
+					"hidden" : 1,
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 1 ],
 					"hidden" : 1,
 					"source" : [ "obj-55", 1 ]
@@ -6239,7 +6266,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-chop.maxpat",
+				"name" : "camu.process.descr-onseg.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
@@ -6309,19 +6336,23 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "sensel.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.concat~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.mxo",
 				"type" : "iLaX"
 			}
 , 			{
