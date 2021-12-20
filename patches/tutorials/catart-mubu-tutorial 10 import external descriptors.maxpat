@@ -1042,7 +1042,7 @@
 					"patching_rect" : [ 330.837608257929446, 911.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 216.961534193447108, 587.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 0.35 ms"
+					"text" : "Duration: 0.19 ms"
 				}
 
 			}
@@ -1067,7 +1067,7 @@
 					"patching_rect" : [ 9.0, 911.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.666663999999997, 509.799987999999985, 64.5870299734421, 20.0 ],
-					"text" : "Buffer: 8"
+					"text" : "Buffer: 4"
 				}
 
 			}
@@ -1117,7 +1117,7 @@
 					"patching_rect" : [ 458.0, 911.0, 231.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 112.961534193447108, 533.799987999999985, 231.0, 20.0 ],
-					"text" : "File: n_Fl-aeolian+ord-C4-pp.wav"
+					"text" : "File: n_ClBb-ord-C4-pp.wav"
 				}
 
 			}
@@ -2300,7 +2300,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -23.0, 622.0, 1621.0, 537.0 ],
+						"rect" : [ 43.0, 302.0, 1621.0, 537.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2336,20 +2336,21 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 392.0, 37.0, 201.0, 22.0 ],
-									"text" : "width, height, fixedwidth, fixedheight"
+									"patching_rect" : [ 392.0, 37.0, 127.0, 22.0 ],
+									"text" : "fixedwidth, fixedheight"
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 392.0, 74.275269000000009, 175.0, 22.0 ],
-									"text" : "paramdisplayrange $1 15 15"
+									"patching_rect" : [ 392.0, 74.275269000000009, 175.0, 35.0 ],
+									"text" : "paramcol $1 nodeindex, paramdisplayrange $1 15 15"
 								}
 
 							}
@@ -3887,7 +3888,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.07855615623961,
+					"cursor_position" : 0.338403397328549,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
