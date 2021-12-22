@@ -40,12 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 244.460204999999974, 137.0, 54.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 18.333327999999995, 174.0, 54.0, 26.0 ],
+					"text" : "data"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 249.499993973442088, 107.649994254112244, 162.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 113.666663999999997, 131.5, 104.999999999999972, 33.0 ],
+					"text" : "< check the imported text file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 208.0, 107.649994254112244, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 78.128198193447105, 135.5, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 107.649994254112244, 33.0, 22.0 ],
+					"patching_rect" : [ 12.0, 107.649994254112244, 33.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.128198193447105, 77.0, 33.0, 22.0 ],
 					"text" : "read"
@@ -62,7 +108,7 @@
 					"patching_rect" : [ 8.0, 60.299973000000023, 462.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 269.878198193447133, 64.0, 190.0, 74.0 ],
+					"presentation_rect" : [ 269.878198193447133, 62.0, 190.0, 74.0 ],
 					"text" : "import sounds and external descriptors from a space- or tab-delimited file with header\nFilename <descr names...>\nand corresponding data columns"
 				}
 
@@ -167,7 +213,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 123.0, 171.350021254112221, 136.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 103.756404386894275, 135.299973000000023, 203.0, 20.0 ],
+					"presentation_rect" : [ 269.878198193447133, 135.5, 203.0, 20.0 ],
 					"text" : "after import, bang updates knn index"
 				}
 
@@ -182,7 +228,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 97.0, 175.850021254112221, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 78.833327999999995, 135.299973000000023, 24.0, 24.0 ]
+					"presentation_rect" : [ 241.128198193447133, 135.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -1118,7 +1164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 107.649994254112244, 146.0, 22.0 ],
+					"patching_rect" : [ 56.0, 107.649994254112244, 146.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 117.128198193447133, 77.0, 146.0, 22.0 ],
 					"text" : "read scores_combined.txt"
@@ -1134,7 +1180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.5, 144.0, 49.0, 22.0 ],
+					"patching_rect" : [ 524.5, 144.0, 44.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 327.128198193447133, 176.0, 49.0, 22.0 ],
 					"text" : "printall"
@@ -1344,7 +1390,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.25, 144.0, 49.0, 22.0 ],
+					"patching_rect" : [ 473.25, 144.0, 46.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.878198193447133, 176.0, 49.0, 22.0 ],
 					"text" : "writeall"
@@ -1360,7 +1406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.25, 144.0, 49.0, 22.0 ],
+					"patching_rect" : [ 424.25, 144.0, 45.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 216.128198193447133, 176.0, 49.0, 22.0 ],
 					"text" : "readall"
@@ -2021,7 +2067,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 220.273068448410072, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.333327999999997, 235.014531075954437, 21.0, 21.0 ]
+					"presentation_rect" : [ 3.333327999999997, 242.014531075954437, 21.0, 21.0 ]
 				}
 
 			}
@@ -3347,7 +3393,7 @@
 					"patching_rect" : [ 262.5, 175.850021254112221, 261.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 76.878198193447133, 193.5, 202.0, 33.0 ],
+					"presentation_rect" : [ 78.128198193447105, 193.5, 202.0, 33.0 ],
 					"text" : "there is no audio analysis, since we import preexisting descriptors"
 				}
 
@@ -3656,7 +3702,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.697645775862594,
+					"cursor_position" : 0.186299994587898,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
@@ -3779,7 +3825,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 144.0, 49.0, 22.0 ],
+					"patching_rect" : [ 373.0, 144.0, 47.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.878198193447133, 176.0, 49.0, 22.0 ],
 					"text" : "clearall"
@@ -3824,9 +3870,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 222.0, 144.0, 80.0, 22.0 ],
+					"patching_rect" : [ 293.0, 144.0, 78.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.878198193447133, 176.0, 80.0, 22.0 ],
+					"presentation_rect" : [ 78.128198193447105, 176.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -3961,6 +4007,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-10", 0 ]
