@@ -278,8 +278,43 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 33.0, 130.299987999999985, 116.0, 47.0 ],
+									"presentation_linecount" : 3,
+									"text" : "clearall is deferred, defer rebuilding of mubu, just in case"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 22.0, 105.01667058467865, 54.0, 22.0 ],
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 235.5, 630.5, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "message",
@@ -476,7 +511,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 262.0, 308.850005745887756, 190.0, 33.0 ],
-									"text" : "first line must start with Filename and containi descr names"
+									"text" : "first line must start with Filename and contain descr names"
 								}
 
 							}
@@ -802,7 +837,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 22.0, 101.01667058467865, 39.0, 22.0 ],
+									"patching_rect" : [ 22.0, 192.01667058467865, 39.0, 22.0 ],
 									"text" : "query"
 								}
 
@@ -873,6 +908,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-95", 0 ],
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"source" : [ "obj-17", 0 ]
 								}
 
 							}
@@ -1049,7 +1091,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
+									"destination" : [ "obj-17", 0 ],
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -1134,6 +1176,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-16", 1 ],
+									"source" : [ "obj-97", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-97", 0 ],
 									"midpoints" : [ 148.5, 565.758335292339325, 254.333333313465118, 565.758335292339325 ],
 									"source" : [ "obj-98", 0 ]
@@ -1196,7 +1245,7 @@
 					"patching_rect" : [ 330.837608257929446, 911.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 216.961534193447108, 587.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 0.35 ms"
+					"text" : "Duration: 0.19 ms"
 				}
 
 			}
@@ -1221,7 +1270,7 @@
 					"patching_rect" : [ 9.0, 911.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.666663999999997, 509.799987999999985, 64.5870299734421, 20.0 ],
-					"text" : "Buffer: 9"
+					"text" : "Buffer: 3"
 				}
 
 			}
@@ -1271,7 +1320,7 @@
 					"patching_rect" : [ 458.0, 911.0, 231.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 112.961534193447108, 533.799987999999985, 231.0, 20.0 ],
-					"text" : "File: n_BTb-ord-C1-mf.wav"
+					"text" : "File: n_BTb-ord-C4-pp.wav"
 				}
 
 			}
@@ -2116,7 +2165,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 292.0, 1621.0, 537.0 ],
+						"rect" : [ 154.0, 631.0, 1702.0, 533.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2144,7 +2193,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-26",
@@ -3159,6 +3207,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-140", 0 ],
+									"order" : 0,
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -3174,6 +3223,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-33", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"order" : 1,
+									"source" : [ "obj-33", 0 ]
 								}
 
 							}
@@ -3702,7 +3759,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.186299994587898,
+					"cursor_position" : 0.461359322071075,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
