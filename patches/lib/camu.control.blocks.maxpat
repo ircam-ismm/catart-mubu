@@ -42,11 +42,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.015807000000024, 17.0, 30.0, 30.0 ]
 				}
 
@@ -749,11 +749,11 @@
 																"box" : 																{
 																	"id" : "obj-31",
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 269.0, 273.0, 210.0, 22.0 ],
-																	"text" : "jstrigger \"( Math.max.apply(Math, a) )\""
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "int", "int" ],
+																	"patching_rect" : [ 269.0, 273.0, 95.0, 22.0 ],
+																	"text" : "maximum -1e38"
 																}
 
 															}
@@ -761,11 +761,11 @@
 																"box" : 																{
 																	"id" : "obj-32",
 																	"maxclass" : "newobj",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 273.0, 207.0, 22.0 ],
-																	"text" : "jstrigger \"( Math.min.apply(Math, a) )\""
+																	"numinlets" : 2,
+																	"numoutlets" : 2,
+																	"outlettype" : [ "int", "int" ],
+																	"patching_rect" : [ 50.0, 273.0, 87.0, 22.0 ],
+																	"text" : "minimum 1e38"
 																}
 
 															}
@@ -776,8 +776,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 269.0, 232.0, 81.0, 22.0 ],
-																	"text" : "zl group 4096"
+																	"patching_rect" : [ 269.0, 232.0, 111.0, 22.0 ],
+																	"text" : "zl 4096 group 4096"
 																}
 
 															}
@@ -788,8 +788,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 232.0, 81.0, 22.0 ],
-																	"text" : "zl group 4096"
+																	"patching_rect" : [ 50.0, 232.0, 111.0, 22.0 ],
+																	"text" : "zl 4096 group 4096"
 																}
 
 															}
@@ -836,12 +836,12 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-19",
-																	"linecount" : 5,
+																	"linecount" : 4,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 495.799986999999874, 273.0, 201.0, 74.0 ],
-																	"text" : "reliably get min/max from this list (the Max [minimum]/[maximum] objects need their argument to be initialised, making things more complicated)"
+																	"patching_rect" : [ 385.799986999999874, 268.0, 201.0, 60.0 ],
+																	"text" : "reliably get min/max from this list (the Max [minimum]/[maximum] objects need their argument to be initialised to guard values)"
 																}
 
 															}
@@ -851,7 +851,7 @@
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
-																	"patching_rect" : [ 358.0, 232.0, 201.0, 20.0 ],
+																	"patching_rect" : [ 385.799986999999874, 232.0, 201.0, 20.0 ],
 																	"text" : "group min/max for all buffers in a list"
 																}
 
@@ -1478,7 +1478,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 181.5, 2.0, 30.0, 30.0 ]
 								}
 
@@ -2299,7 +2299,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2324,7 +2324,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2792,6 +2792,28 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "blocks.pad.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "blocks.jit.matrix.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
