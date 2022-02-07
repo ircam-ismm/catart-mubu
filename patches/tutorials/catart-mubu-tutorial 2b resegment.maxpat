@@ -518,7 +518,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 182.0, 622.0, 1453.0, 554.0 ],
+						"rect" : [ 178.0, 624.0, 1826.0, 571.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -825,8 +825,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1163.200003206729889, 209.075269250339517, 168.0, 19.0 ],
-									"text" : "view 0 hidenotforemost 1, domain reset"
+									"patching_rect" : [ 1163.200003206729889, 209.075269250339517, 169.0, 19.0 ],
+									"text" : "view -1 hidenotforemost 1, domain reset"
 								}
 
 							}
@@ -3442,7 +3442,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-34",
@@ -4071,7 +4070,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process2.descr-chop.maxpat",
+									"name" : "camu.process2.descr-onseg.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -4674,12 +4673,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -5.932203389830509,
+					"cursor_position" : 6012.620730004276083,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
-					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 1750.0 ],
+					"cursor_visible" : 1,
+					"domain_bounds" : [ 1366.931349451565438, 6658.35361687646764 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5543,7 +5542,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process2.descr-chop.maxpat",
+				"name" : "camu.process2.descr-onseg.maxpat",
 				"bootpath" : "~/src/catart-mubu/patches/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
