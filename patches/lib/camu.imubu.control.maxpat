@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -343,8 +343,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 499.087111999999934, 582.0, 206.0, 21.0 ],
-					"text" : "view descr highlight $1 @bufferindex $2"
+					"patching_rect" : [ 499.087111999999934, 582.0, 244.0, 21.0 ],
+					"text" : "view #2 highlight $1 @bufferindex $2"
 				}
 
 			}
@@ -479,7 +479,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 109.0, 19.0 ],
+					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 126.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -630,13 +630,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1039.0, 573.0, 836.0, 578.0 ],
+						"rect" : [ 982.0, 274.0, 836.0, 578.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -699,13 +699,13 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 2,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 61.0, 708.0, 914.0, 418.0 ],
+										"rect" : [ 208.0, 547.0, 914.0, 418.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1425,8 +1425,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 613.0, 471.586010992527122, 113.0, 22.0 ],
-									"text" : "prepend view descr"
+									"patching_rect" : [ 613.0, 471.586010992527122, 141.0, 22.0 ],
+									"text" : "prepend view #2"
 								}
 
 							}
