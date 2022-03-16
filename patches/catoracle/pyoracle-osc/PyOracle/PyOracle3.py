@@ -4,12 +4,18 @@
 # modified 03.18.2013
 # greg surges
 # copyleft 2011 - 2013
+#
+# pyoracle3.py
+# updated for python 3.x
+# 2021.11.08
+# Aaron Einbond
+#
 #############################################################################
 
 import time
 
 from random import randint
-from itertools import izip
+# from itertools import izip
 
 oracle = {'sfx': [], 'trn': [], 'rsfx': [], 'lrs': [], 'data': []}
 #############################################################################
@@ -20,7 +26,8 @@ def get_distance(event1, event2, weights = None):
     '''
     get distance between frames
     '''
-    features = event1.keys()
+    # features = event1.keys() # python 2.x
+    features = list(event1)
     if 'time' in features:
         features.remove('time')
 
@@ -44,7 +51,7 @@ def get_distance(event1, event2, weights = None):
             n = 1
         if n > 1:
             # is a vector
-            data = izip(event1[feature], event2[feature])
+            data = zip(event1[feature], event2[feature])
             data = sum((a - b) * (a - b) for a, b in data) / n
             data *= weights[feature]
             distance += data
@@ -93,7 +100,7 @@ def add_state(oracle, new_data, threshold = 0, weights = None):
         oracle['sfx'][i] = 0
     else:
         # filter out all above distance thresh
-        filtered_transitions = filter(lambda x: get_distance(oracle['data'][x], new_data, weights) <= threshold, oracle['trn'][k])
+        filtered_transitions = list(filter(lambda x: get_distance(oracle['data'][x], new_data, weights) <= threshold, oracle['trn'][k]))
         # sort possible suffixes by LRS
         sorted_list = sorted(filtered_transitions, key = lambda x: oracle['lrs'][x])
         for t in sorted_list:

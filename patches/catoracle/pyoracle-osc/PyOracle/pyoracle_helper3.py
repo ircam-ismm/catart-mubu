@@ -7,23 +7,20 @@ greg surges
 audio oracle analysis in python
 '''
 
+'''
+pyoracle_helper3.py
+
+adapted by Aaron Einbond 2021.11.08
+
+updatad for python 3.x
+'''
+
 import numpy as np
 
-import Resources.helpers
-import Resources.PyOracle.PyOracle
-import Resources.PyOracle.IR
-import Resources.DrawOracle
-import Resources.generate
-
-def make_features(filename, fft_size = 4096, hop_size = 4096):
-    '''
-    extract list of features from audio file, using Bregman module
-    features = ['mfcc', 'centroid', 'rms', 'chroma', 'zerocrossings']
-    '''
-    Resources.helpers.set_fft_size(fft_size)
-    Resources.helpers.set_hop_size(hop_size)
-    features = Resources.helpers.extract_audio_features(filename)
-    return features
+import PyOracle.PyOracle3
+import PyOracle.IR
+# import DrawOracle
+# import generate
 
 def make_oracle(threshold, features_list, feature, frames_per_state = 1):
     '''
@@ -33,9 +30,9 @@ def make_oracle(threshold, features_list, feature, frames_per_state = 1):
         feature - string indicating which feature the oracle should be built on
         frames_per_state - average n analysis frames to make one oracle state
     '''
-    events = Resources.helpers.features_to_events(features_list)
-    events = Resources.helpers.average_events(events, frames_per_state)
-    oracle = Resources.PyOracle.PyOracle.build_oracle(events, threshold, feature)
+    events = features_to_events(features_list)
+    events = average_events(events, frames_per_state)
+    oracle = PyOracle.PyOracle3.build_oracle(events, threshold, feature)
     return oracle
 
 def make_weighted_oracle(threshold, features_list, weights):
@@ -46,8 +43,8 @@ def make_weighted_oracle(threshold, features_list, weights):
         weights - dict() with a weight for each feature in features_list, used
             in computing distance function
     '''
-    events = Resources.helpers.features_to_events(features_list)
-    oracle = Resources.PyOracle.PyOracle.build_weighted_oracle(events, threshold, weights)
+    events = features_to_events(features_list)
+    oracle = PyOracle.PyOracle3.build_weighted_oracle(events, threshold, weights)
     return oracle
 
 def make_dynamic_oracle(threshold, features_list, weights, frames_per_state = 1):
@@ -58,9 +55,9 @@ def make_dynamic_oracle(threshold, features_list, weights, frames_per_state = 1)
         weights - dict() with a weight for each feature in features_list, used
             in computing distance function
     '''
-    events = Resources.helpers.features_to_events(features_list)
-    events = Resources.helpers.average_events(events, frames_per_state)
-    oracle = Resources.PyOracle.PyOracle.build_dynamic_oracle(events, threshold, weights)
+    events = features_to_events(features_list)
+    events = average_events(events, frames_per_state)
+    oracle = PyOracle.PyOracle3.build_dynamic_oracle(events, threshold, weights)
     return oracle
 
 def calculate_ir(oracle, alpha=1, type='cum'):
@@ -69,11 +66,11 @@ def calculate_ir(oracle, alpha=1, type='cum'):
     note that IR is now tuples of times and values
     '''
     if type=='old':
-        IR, code, compror = Resources.PyOracle.IR.get_IR_old(oracle)
+        IR, code, compror = PyOracle.IR.get_IR_old(oracle)
     elif type=='cum':
-    	IR, code, compror = Resources.PyOracle.IR.get_IR_cum(oracle,alpha)
+    	IR, code, compror = PyOracle.IR.get_IR_cum(oracle,alpha)
     else:
-        IR, code, compror = Resources.PyOracle.IR.get_IR(oracle, alpha)
+        IR, code, compror = PyOracle.IR.get_IR(oracle, alpha)
     return IR, code, compror
 
 def calculate_ideal_threshold(range=(0.0, 1.0, 0.1), features = None, feature =
@@ -122,20 +119,42 @@ def make_suffix_vector(oracle):
             suffix_vector[i] = 0
     return suffix_vector
 
-def save_oracle(oracle, filename):
-    print 'saving to ', filename
-    Resources.helpers.save_oracle(oracle, filename)
-    print 'done!'
+# from helpers.py updated for python 3.x:
 
-def load_oracle(filename):
-    print 'loading "', filename, '"'
-    oracle = Resources.helpers.load_oracle(filename)
-    print 'done!'
-    return oracle
+def features_to_events(features):
+    events = []
+    # keys = features.keys()
+    keys = list(features)
 
-def draw_oracle(oracle, filename, size=(900*4, 400*4)):
-    image = Resources.DrawOracle.start_draw(oracle, size) 
-    image.save(filename)
-    pass 
+    num_events = len(features[keys[0]])
 
+    for i in range(num_events - 1):
+        new_event = {}
+        for key in keys:
+            new_event[key] = features[key][i]
+        events.append(new_event)    
 
+    return events
+
+def average_events(events, n):
+    new_events = []
+    # keys = events[0].keys()
+    keys = list(events[0])
+    
+    for i in range(0, len(events), n):
+        block = events[i:i+n]
+        tmp_event = {}
+        for key in keys:
+            # check if we have a vector or a scalar
+            if type(block[0][key]) == list:
+                # vector
+                l_vec = len(block[0][key]) # length of vector
+                feature = [0] * l_vec
+                for i in range(l_vec):
+                    feature[i] = float(sum([x[key][i] for x in block])) / n
+                tmp_event[key] = feature
+            else:    
+                # scalar
+                tmp_event[key] = float(sum([x[key] for x in block])) / n
+        new_events.append(tmp_event)
+    return new_events
