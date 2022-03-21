@@ -1,0 +1,36 @@
+Release Notes for the catart-mubu Max package
+ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
+
+____________________________________________________
+CataRT-Mubu v1.4-forum2022	22.03.2022
+
+- Add trigger chance and reverse probability parameters
+- visualisation of nearest neighbours and random radius
+- fence, beatmove, loopmove modes now work consistently with random selection (movement filter and random retrigger modules)
+- MPE input module
+- ROLI Lightpad Block now displays the corpus
+- catoracle by Aaron Einbond updated for Python 3.x with python-osc library. This eliminates dependency on the py external (only available in 32-bit mode).
+
+____________________________________________________
+CataRT-Mubu v1.2-forum2021
+
+- many improvements and new modules:
+  - concat poly voice
+- goodie in tutorial 2 — analysis:  file splitter: write analysed segments  to disk as separate audio files 
+- HOA spatialisation example with mc
+
+____________________________________________________
+CataRT-Mubu v1.1-forum2020
+
+- many improvements
+  - camu.cont module for continuous play
+- improved step-by-step tutorials 
+- HOA spatialisation example
+
+____________________________________________________
+CataRT-Mubu v1.0-forum2019 
+Diemo Schwarz, Aaron Einbond, Christopher Trapani
+
+- first release, with support from Ircam in UPI CoCat — Composition with CataRT
+- modules d'écriture pour CataRT basé sur Mubu
+- step-by-step tutorials 
