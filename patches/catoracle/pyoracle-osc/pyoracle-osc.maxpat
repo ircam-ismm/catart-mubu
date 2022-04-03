@@ -392,8 +392,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 393.0, 234.0, 299.0, 35.0 ],
-									"text" : "/Users/sbjm131/Documents/21-22/IRCAM21-22/MusAI-local/catoracle/pyoracle-osc/python-osc.py"
+									"patching_rect" : [ 393.0, 234.0, 339.0, 35.0 ],
+									"text" : "\"/Users/sbjm131/Documents/Max 8/Library/MusAI-master/catoracle/pyoracle-osc/python-osc.py\""
 								}
 
 							}
@@ -472,8 +472,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.75, 234.0, 249.0, 22.0 ],
-									"text" : "sprintf symout %spyoracle-osc/python-osc.py"
+									"patching_rect" : [ 90.75, 234.0, 259.0, 22.0 ],
+									"text" : "sprintf symout %spyoracle-osc/pyoracle-osc.py"
 								}
 
 							}
@@ -546,7 +546,7 @@
 						"lines" : [ 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 1 ],
-									"midpoints" : [ 100.25, 266.0, 358.375, 266.0, 358.375, 223.0, 682.5, 223.0 ],
+									"midpoints" : [ 100.25, 266.0, 358.375, 266.0, 358.375, 223.0, 722.5, 223.0 ],
 									"order" : 0,
 									"source" : [ "obj-11", 0 ]
 								}
@@ -2997,7 +2997,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 876.533324999999991, 40.0, 88.0, 19.0 ],
-									"text" : "0.034091 0.034091"
+									"text" : "0. 0."
 								}
 
 							}
@@ -4882,12 +4882,12 @@
 					"patching_rect" : [ 276.966431, 504.208983999999987, 59.5, 19.0 ],
 					"restore" : 					{
 						"continuity" : [ 0.2 ],
-						"distance-thresh" : [ 0.001000000047497 ],
+						"distance-thresh" : [ 0.001 ],
 						"draw-oracle" : [ 0 ],
 						"follow-length" : [ 23 ],
 						"follow-toggle" : [ 0 ],
 						"improv-pause" : [ 0 ],
-						"improv-toggle" : [ 1 ],
+						"improv-toggle" : [ 0 ],
 						"learn-toggle" : [ 0 ],
 						"lrs-min" : [ 0 ],
 						"print-python" : [ 1 ],
@@ -7464,13 +7464,13 @@
 													"fontname" : "Geneva",
 													"fontsize" : 9.0,
 													"id" : "obj-56",
-													"linecount" : 5,
+													"linecount" : 9,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.0, 406.738158999999996, 62.0, 121.0 ],
-													"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0."
+													"text" : "1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 												}
 
 											}

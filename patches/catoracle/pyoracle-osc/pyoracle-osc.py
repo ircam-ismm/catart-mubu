@@ -96,7 +96,7 @@ heights = {} # 500
 # function definitions edited to conform to pythonosc syntax
 # changed file format to json for easier readablility & portability
 
-def save_oracle(unused, filename, index = None):
+def save_oracle(self, filename, index = None):
     global current_oracle
     if index == None:
         oracle = current_oracle
@@ -108,7 +108,7 @@ def save_oracle(unused, filename, index = None):
     file.close()
     print(filename + ' saved')
 
-def load_oracle(unused, filename, index = None):
+def load_oracle(self, filename, index = None):
     global oracles, current_oracle, events_lists
     if index == None:
         oracle = current_oracle
@@ -124,7 +124,7 @@ def load_oracle(unused, filename, index = None):
     # remove state 0 because it's not an "event":
     del events_lists[str(index)][0]
     
-def set_threshold(unused, new_thresh, index = None):
+def set_threshold(self, new_thresh, index = None):
     global thresholds
     if index == None:
         index = '#1'
@@ -132,7 +132,7 @@ def set_threshold(unused, new_thresh, index = None):
     thresholds[str(index)]['descr'] = new_thresh
     print(index, 'threshold set', thresholds[str(index)]['descr'])
 
-def set_sect_threshold(unused, new_thresh, index = None):
+def set_sect_threshold(self, new_thresh, index = None):
     global sect_threshs
     if index == None:
         index = '#1'
@@ -140,7 +140,7 @@ def set_sect_threshold(unused, new_thresh, index = None):
     sect_threshs[str(index)]['descr'] = new_thresh
     print(index, 'section threshold set', thresholds[str(index)]['descr'])
     
-def learn_threshold(unused, index = None):
+def learn_threshold(self, index = None):
     global events_lists
     global features
     # global send_class
@@ -167,7 +167,7 @@ def learn_threshold(unused, index = None):
     send(index, label, thresholds[str(index)][feature])
 
 ### oracle ###
-def init_oracle(unused, index = None):
+def init_oracle(self, index = None):
     global ps, lrss, taboo_lens, taboo_lists, taboo_actives, starts, ends, query_actives, query_threshs, thresholds
     if index == None:
         index = '#1'
@@ -190,7 +190,7 @@ def init_oracle(unused, index = None):
     print('Initialize Oracle', index)
     send(index, '/init_oracle', 'Initialize Oracle')
     
-def start_oracle(unused, index = None):
+def start_oracle(self, index = None):
     global oracles, current_oracle
     global ks, s, regions_actives, k_last #, region
     global ps, lrss, taboo_lens, taboo_lists, taboo_actives, starts, ends, query_actives, query_threshs
@@ -282,7 +282,7 @@ def add_new_state(*args): #args: descriptors, time, index
     
     send(index, 'n_states', len(current_oracle['lrs']))
 
-def dump_oracle(unused, index = None):
+def dump_oracle(seld, index = None):
     global oracles
     if index == None:
         oracle = current_oracle
@@ -296,7 +296,7 @@ def dump_oracle(unused, index = None):
     # print 'oracle length', len(oracle['lrs'])
     # print 'events length', len(events_list)
     
-def get_ir(unused, index = None):
+def get_ir(self, index = None):
     global oracles
     if index == None:
         index = '#1'
@@ -308,7 +308,7 @@ def get_ir(unused, index = None):
          
     send(index, 'ir', float(sum(IR)))
 
-def calculate_sections(unused, index = None):
+def calculate_sections(self, index = None):
     global section_oracle, sections
     if index == None:
         index = '#1'
@@ -351,7 +351,7 @@ def calculate_sections(unused, index = None):
           
     send(index, 'sections', output)
     
-def oracle_type(unused, index):
+def oracle_type(self, index):
     global current_oracle, oracles
     print('switched oracle: ', index)
     oracles[str(index)] = {}
@@ -359,21 +359,21 @@ def oracle_type(unused, index):
     
 # variables changed to arrays
 
-def set_probability(unused, new_p, index = None):
+def set_probability(self, new_p, index = None):
     global ps
     if index == None:
         index = '#1'
     ps[str(index)] = new_p
     print(str(index), 'changed probability to', new_p)
 
-def set_lrs(unused, new_lrs, index = None):
+def set_lrs(self, new_lrs, index = None):
     global lrss
     if index == None:
         index = '#1'
     lrss[str(index)] = new_lrs
     print(str(index), 'changed lrs to', new_lrs)
     
-def set_taboo_active(unused, n, index = None):
+def set_taboo_active(self, n, index = None):
     global taboo_actives
     if index == None:
         index = '#1'
@@ -384,7 +384,7 @@ def set_taboo_active(unused, n, index = None):
         taboo_actives[str(index)] = True
         print(str(index), 'taboo on')
 
-def set_taboo_length(unused, n, index = None):
+def set_taboo_length(self, n, index = None):
     global taboo_lens, taboo_lists
     if index == None:
         index = '#1'
@@ -392,7 +392,7 @@ def set_taboo_length(unused, n, index = None):
     taboo_lists[str(index)] = deque(maxlen = n)
     print(str(index), 'changed taboo list length to', n)
 
-def set_region(unused, s, e, index = None):
+def set_region(self, s, e, index = None):
     global starts, ends, current_oracle
     if index == None:
         index = '#1'
@@ -402,7 +402,7 @@ def set_region(unused, s, e, index = None):
         ends[str(index)] = starts[str(index)] + 5
     print(str(index), 'set region from', s, 'to', e)
         
-def toggle_regions(unused, active, index = None):
+def toggle_regions(self, active, index = None):
     global regions_actives
     if index == None:
         index = '#1'
@@ -413,7 +413,7 @@ def toggle_regions(unused, active, index = None):
         regions_actives[str(index)] = True
         print(str(index), 'regions on')
 
-def toggle_query(unused, active, index = None):
+def toggle_query(self, active, index = None):
     global query_actives
     if index == None:
         index = '#1'
@@ -424,7 +424,7 @@ def toggle_query(unused, active, index = None):
         query_actives[str(index)] = True
         print(str(index), 'query on')
 
-def set_query_thresh(unused, t, index = None):
+def set_query_thresh(self, t, index = None):
     global query_threshs
     if index == None:
         index = '#1'
@@ -433,7 +433,7 @@ def set_query_thresh(unused, t, index = None):
 
 ### improv ###
 ''' initialization moved to start_oracle
-def start_improv(unused, index = None):
+def start_improv(self, index = None):
     global ks, s, taboo_lens, taboo_lists, taboo_actives, starts, ends
     global query_actives, query_threshs
     if index == None:
@@ -452,7 +452,7 @@ def start_improv(unused, index = None):
     print(str(index), 'starting improv')
 '''
     
-def set_next_state(unused, k, index = None):
+def set_next_state(self, k, index = None):
     global ks
     if index == None:
         index = '#1'
@@ -460,13 +460,13 @@ def set_next_state(unused, k, index = None):
     send(index, 'next_state', k) # events_list[k]['time'], events_list[k]['duration']
     print(index, 'set next state to', k)
     
-def get_next_state(unused, index = None):
+def get_next_state(self, index = None):
     '''
     generate output state from audio oracle
     outputs:
         k - value of next state
     '''
-    global s, ks, ps, lrss, starts, ends, current_oracle
+    global s, ks, ps, lrss, starts, ends, oracles, current_oracle
     global query_actives, query_threshs
     global taboo_lists, taboo_actives, regions_actives
     global events_lists
@@ -495,7 +495,7 @@ def get_next_state(unused, index = None):
     # end = int(len(oracle)*region['end'])
     
     # forward transition or jump
-    oracle = current_oracle
+    oracle = current_oracle = oracles[str(index)]
     
     if (random.random() < p) and k < (len(oracle['lrs']) - 1):
         # transition
@@ -648,7 +648,7 @@ def get_next_state(unused, index = None):
         send(index, 'next_state', k)
         print('KeyError')
            
-def choose_section(unused, index):
+def choose_section(self, index):
     ''' driven externally from max/msp '''
     global region, start, end, current_oracle, section_oracle, sections
     if index == None:
@@ -680,7 +680,7 @@ def choose_section(unused, index):
         send(index, 'to_region_slider', regions_bounds)
         print(str(index), 'set region from', region_bounds)
 
-def query(unused, *args):
+def query(self, *args):
     global new_queries
     descriptors = []
     for arg in args:
@@ -763,7 +763,7 @@ def follow_path(oracle, current, index):
     
     return current + 1
 
-def lcd_size(unused, x, y, index = None):
+def lcd_size(self, x, y, index = None):
     global widths, heights
     if index == None:
         index = '#1'
@@ -771,7 +771,7 @@ def lcd_size(unused, x, y, index = None):
     heights[str(index)] = y
     print('/'+index, '/lcd_size', x, y)
 
-def draw_oracle(unused, index = None):
+def draw_oracle(self, index = None):
     global current_oracle, oracles, widths, heights #, send_class, k
     lrs_threshold = 0 # placeholder for now...
     if index == None:
@@ -781,21 +781,21 @@ def draw_oracle(unused, index = None):
     height = heights[str(index)]
     
     # drawing too slow when each message is sent separately
-    # idea to use OSC bundles, but could not figure it out
-    # try appending messages into one long string for now
-    # bundle = osc_bundle_builder.OscBundleBuilder(osc_bundle_builder.IMMEDIATELY)
-    # msg = osc_message_builder.OscMessageBuilder(address="/SYNC")
-    # could not figure this out...try again later
-    
+    # idea to use OSC bundles or append messages into one long string
+    # msg = osc_message_builder.OscMessageBuilder(address='/to_draw')
+    msg = []
+    msg.append('reset')
+    # Add messages in the bundle, each with more arguments.
+
     N_states = len(oracle['sfx'])        
     # send(index, 'to_draw', 'reset')
-    msg = ['reset']
     # send(index, 'to_draw', 'linesegment -1. 0. 0. 1. 0. 0.')
     increment = 1
     '''
     if N_states > 50:
         increment = int(N_states / 25)
     '''
+    # encode data for jit.gl.sketch : 0 = forward transition, 1 = arc, -1 = backreference
     for i in range(0, N_states, increment):
         current_x = 2 * float(i) / (N_states - 1) - 1
         # iterate over forward transitions
@@ -805,60 +805,59 @@ def draw_oracle(unused, index = None):
                 # draw forward transitions
                 space = 0.1 # small space between adjacent states
                 next_x = 2 * (float(tran) - space) / (N_states - 1) - 1
-                # send(index, 'to_draw', 'linesegment %f 0. 0. %f 0. 0.' % (current_x, next_x))
-                msg.append('linesegment {0:.4f} 0. 0. {1:.4f} 0. 0.'.format(current_x, next_x))
+                # msg.add_arg('linesegment {0:.4f} 0. 0. {1:.4f} 0. 0.'.format(current_x, next_x))
+                msg.append('0 {0:.4f} {1:.4f}'.format(current_x, next_x))
             else:
                 # forward transition to another state
                 next_x = 2 * float(tran) / (N_states - 1) - 1
                 center = (current_x + next_x) / 2
                 radius = (next_x - current_x) / 2
                 # draw arc
-                # send(index, 'to_draw', 'moveto %f' % center)
-                msg.append('moveto {0:.4f}'.format(center))
-                # send(index, 'to_draw', 'framecircle %f 0 180' % radius)
-                msg.append('framecircle {0:.4f} 0 180'.format(radius))
+                # msg.add_arg('moveto {0:.4f}'.format(center, radius))
+                # msg.add_arg('framecircle {0:.4f} 0 180'.format(radius)) 
+                msg.append('1 {0:.4f} {1:.4f}'.format(center, radius))
+
         if oracle['sfx'][i] is not None and oracle['sfx'][i] != 0 and oracle['lrs'][oracle['sfx'][i]] >= lrs_threshold:
             # back reference
             next_x = 2 * float(oracle['sfx'][i]) / (N_states - 1) - 1
             center = (current_x + next_x) / 2
             radius = (current_x - next_x) / 2
             # draw arc
-            # send(index, 'to_draw', 'moveto %f' % center)
-            msg.append('moveto {0:.4f}'.format(center))
-            # send(index, 'to_draw', 'framecircle %f 0 -180' % radius)
-            msg.append('framecircle {0:.4f} 0 -180'.format(radius))
-    # split list into chunks of 40 lines to avoid Max list limit of 256 =~ (40 * 6)
-    for i in range(0, len(msg), 40):
-        msg_chunk = msg[i:  i+39]
-        # print('lines ', i, 'to ', i+39)
-        msg_comma = ','.join(map(str, msg_chunk))
-        send(index, 'to_draw', msg_comma)
+            # msg.add_arg('moveto {0:.4f}'.format(center))
+            # msg.add_arg('framecircle {0:.4f} 0 -180'.format(radius))
+            msg.append('-1 {0:.4f} {1:.4f}'.format(center, radius))
+            
+    # split list into chunks of 500 triples: by trial-and-error this seems to be around UDP size limit (= ca. 8k bytes)
+    for i in range(0, len(msg), 500):
+        msg_chunk = msg[i:  i+499]
+        msg_string = ' '.join(map(str, msg_chunk))
+        send(index, 'to_draw', msg_string)
+        # print('lines ', i, 'to ', i+499)
 
-    '''
-    # could not figure this out...try again later
-    bundle.add_content(msg.build())
-    sub_bundle = bundle.build()
-    # Now add the same bundle inside itself.
-    bundle.add_content(sub_bundle)
-    bundle = bundle.build()
-    # You can now send it via a client as described in other examples.      
-    # print(index, bundle)
-    send(index, 'to_draw', bundle)
-    '''
-              
+        ''' 
+        # OSC bundle not used as it seems to yield the following error with less data — OSError: [Errno 40] Message too long
+        osc_msg = osc_message_builder.OscMessageBuilder(address='/to_draw')
+        for j in msg_chunk:
+            osc_msg.add_arg(j)bundle = osc_bundle_builder.OscBundleBuilder(osc_bundle_builder.IMMEDIATELY)
+        bundle.add_content(msg.build())
+        bundle = bundle.build()
+        # You can now send it via a client as described in other examples.
+        send_bundle(bundle)
+        '''
+        
 ### OSC server and client combined ###
 ### This program listens to serveral addresses and print if there is an input. It also transmits on a different port at the same time random values to different addresses. This can be used to demonstrate concurrent send and recieve over OSC ###
 
 server = None
 thread = None
 
-def ping(unused, index = None):
+def ping(self, index = None):
     if index == None:
         index = '#1'
     print('/'+index, '/ping you pinged?')
     send(index, '/ping', 'you pinged?')
 
-def close_server(unused):
+def close_server(self):
     global server, thread
     print("Closing Server")
     thread.join() #? 
@@ -928,7 +927,14 @@ def send(index, label, string):
     # print("sending to", address)
     client = udp_client.SimpleUDPClient(ip, port)
     client.send_message(address, [label, string])
-    
+
+def send_bundle(bundle):
+    ip = args.clientip
+    port = args.clientport
+    # print("sending to", address)
+    client = udp_client.SimpleUDPClient(ip, port)
+    client.send(bundle)
+
 start_server(args.serverip, args.serverport)
 # start_client(args.clientip, args.clientport)
             
