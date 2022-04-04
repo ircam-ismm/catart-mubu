@@ -387,13 +387,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 393.0, 234.0, 339.0, 35.0 ],
-									"text" : "\"/Users/sbjm131/Documents/Max 8/Library/MusAI-master/catoracle/pyoracle-osc/python-osc.py\""
+									"text" : "\"/Users/sbjm131/Documents/Max 8/Library/MusAI-master/catoracle/pyoracle-osc/pyoracle-osc.py\""
 								}
 
 							}
@@ -1344,6 +1344,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 721.0, 68.0, 46.0, 19.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -1478,18 +1490,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-43",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 728.033324999999877, 68.0, 46.0, 19.0 ],
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-81",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1535,7 +1535,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 684.033324999999991, 40.0, 106.0, 19.0 ],
+									"patching_rect" : [ 705.033324999999991, 40.0, 106.0, 19.0 ],
 									"text" : "r #1-improv-toggle"
 								}
 
@@ -2305,11 +2305,11 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 10.0, 470.989806999999985, 200.0, 19.0 ],
+									"patching_rect" : [ 10.0, 470.989806999999985, 213.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 149.5, 334.533843999999988, 97.0, 39.0 ],
-									"text" : "jit.window oracle @rect 40 0 580 540 @visible 0"
+									"text" : "jit.window #1-oracle @rect 40 0 580 540 @visible 0"
 								}
 
 							}
@@ -2448,8 +2448,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 348.000122000000033, 397.0, 179.0, 19.0 ],
-									"text" : "jit.gl.render oracle @erase_color 0. 0. 0. 1."
+									"patching_rect" : [ 348.000122000000033, 397.0, 192.0, 19.0 ],
+									"text" : "jit.gl.render #1-oracle @erase_color 0. 0. 0. 1."
 								}
 
 							}
@@ -2463,8 +2463,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 140.0, 397.0, 153.0, 19.0 ],
-									"text" : "jit.gl.sketch oracle @scale 0.8 0.8 1."
+									"patching_rect" : [ 140.0, 397.0, 166.0, 19.0 ],
+									"text" : "jit.gl.sketch #1-oracle @scale 0.8 0.8 1."
 								}
 
 							}
@@ -3150,8 +3150,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 821.533324999999991, 397.0, 155.0, 19.0 ],
-									"text" : "jit.gl.gridshape oracle @name region"
+									"patching_rect" : [ 821.533324999999991, 397.0, 168.0, 19.0 ],
+									"text" : "jit.gl.gridshape #1-oracle @name region"
 								}
 
 							}
@@ -3277,8 +3277,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 531.533324999999991, 397.0, 251.0, 19.0 ],
-									"text" : "jit.gl.gridshape oracle @lighting_enable 1 @name next_state"
+									"patching_rect" : [ 531.533324999999991, 397.0, 264.0, 19.0 ],
+									"text" : "jit.gl.gridshape #1-oracle @lighting_enable 1 @name next_state"
 								}
 
 							}
@@ -3594,6 +3594,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"source" : [ "obj-176", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-72", 0 ],
+									"midpoints" : [ 61.5, 100.767928999999995, 73.516662499999995, 100.767928999999995, 73.516662499999995, 10.0, 693.533324999999991, 10.0 ],
+									"source" : [ "obj-176", 4 ]
 								}
 
 							}
@@ -4882,7 +4890,7 @@
 					"patching_rect" : [ 276.966431, 504.208983999999987, 59.5, 19.0 ],
 					"restore" : 					{
 						"continuity" : [ 0.2 ],
-						"distance-thresh" : [ 0.001 ],
+						"distance-thresh" : [ 0.012000000104308 ],
 						"draw-oracle" : [ 0 ],
 						"follow-length" : [ 23 ],
 						"follow-toggle" : [ 0 ],
@@ -7470,7 +7478,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.0, 406.738158999999996, 62.0, 121.0 ],
-													"text" : "1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+													"text" : "0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1."
 												}
 
 											}
