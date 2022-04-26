@@ -41,6 +41,7 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-53",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -314,6 +315,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -699,15 +701,16 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 494.0, 204.0, 33.0, 22.0 ],
-									"text" : "== 0"
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 493.775000523615518, 229.586010992527008, 34.0, 22.0 ],
+									"text" : "sel 0"
 								}
 
 							}
@@ -1460,7 +1463,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 613.0, 471.586010992527122, 141.0, 22.0 ],
+									"patching_rect" : [ 613.0, 471.586010992527122, 122.0, 22.0 ],
 									"text" : "prepend view #2"
 								}
 
@@ -2165,7 +2168,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
-					"source" : [ "obj-169", 0 ]
+					"source" : [ "obj-169", 0 ],
+					"watchpoint_flags" : 2,
+					"watchpoint_id" : 1
 				}
 
 			}
