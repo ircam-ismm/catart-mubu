@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 603.0, 351.0, 1092.0, 742.0 ],
+		"rect" : [ 314.0, 351.0, 1092.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 998.587111999999934, 491.0, 69.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "set view $1"
 				}
 
@@ -364,7 +363,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -687,7 +685,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.587111999999991, 8.0, 83.0, 33.0 ],
+					"patching_rect" : [ 169.587111999999991, 8.0, 87.0, 33.0 ],
 					"text" : "from selection / knn"
 				}
 
@@ -769,7 +767,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 701.0, 45.000011992526993, 103.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "descr. track name"
 								}
 
@@ -1718,7 +1715,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 39.59997866666663, 67.000011992526993, 30.0, 30.0 ]
 								}
 
@@ -2007,7 +2004,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 169.587111999999991, 39.999996992527002, 30.0, 30.0 ]
 				}
 
