@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 20.0, 54.0, 1420.0, 850.0 ],
+		"rect" : [ 66.0, 42.0, 1420.0, 850.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1778,7 +1778,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 381.333336000000031, 193.0, 99.0, 22.0 ],
+									"patching_rect" : [ 380.333336000000031, 193.0, 99.0, 22.0 ],
 									"text" : "s selected-buffer"
 								}
 
@@ -6276,7 +6276,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 97.0, 44.0, 1048.0, 168.0 ],
+						"rect" : [ 97.0, 62.0, 1343.0, 824.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -6304,6 +6304,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-148",
@@ -13135,6 +13136,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-80", 0 ],
+									"source" : [ "obj-16", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-81", 0 ],
 									"source" : [ "obj-16", 9 ]
 								}
@@ -15428,20 +15436,20 @@
 					"bufferchooser_visible" : 1,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_circlefilled" : 0,
-					"cursor_circleheight" : 0.5,
-					"cursor_circlewidth" : 0.5,
+					"cursor_circlefilled" : 1,
+					"cursor_circleheight" : 0.0,
+					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 15850.94377467105187,
+					"cursor_position" : 297.973552631578912,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 8203.919921875, 3640540.25 ],
+					"domain_bounds" : [ 0.0, 47179.145833333328483 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
