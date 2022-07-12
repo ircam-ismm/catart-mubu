@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,7 +48,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 176.0, 193.5, 175.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 201.5, 175.0, 19.0 ],
+					"presentation_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
 					"text" : "Calculate standard deviation"
 				}
 
@@ -63,9 +63,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 16.0, 193.5, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 201.5, 150.0, 21.0 ],
+					"presentation_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
 					"text_width" : 109.519897
 				}
 
@@ -74,7 +75,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -86,11 +87,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 392.0, 0.0, 25.0, 25.0 ]
 				}
 
@@ -303,6 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
@@ -410,6 +412,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ]
@@ -426,6 +429,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ]
@@ -442,6 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ]
@@ -458,6 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ]
@@ -474,6 +480,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ]
@@ -490,6 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ]
@@ -520,7 +528,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -538,6 +546,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ]
@@ -653,7 +662,13 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

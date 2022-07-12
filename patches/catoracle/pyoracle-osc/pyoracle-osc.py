@@ -303,7 +303,7 @@ def get_ir(self, index = None):
         oracle = current_oracle
     else:
         oracle = oracles[str(index)]
-    IR, code, compror = calculate_ir(oracle)
+    IR, code, compror = PyOracle.pyoracle_helper3.calculate_ir(oracle)
     # return 'ir', float(sum(IR))
          
     send(index, 'ir', float(sum(IR)))
