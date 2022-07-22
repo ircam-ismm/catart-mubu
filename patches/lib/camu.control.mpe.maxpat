@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -425,7 +425,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -878,7 +878,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -968,7 +968,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 876.25, 118.0, 124.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "when switching a touch off, get lowest touch id BEFORE!",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -994,7 +993,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 446.000003278255463, 204.5, 124.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "sends index of first non-null value",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1091,7 +1089,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 471.500003278255463, 750.200000000000045, 239.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "detect start of new frame as lowest touch id",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1398,7 +1395,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 3,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1955,7 +1952,7 @@
 										"size" : 17
 									}
 ,
-									"showeditor" : 1,
+									"showeditor" : 0,
 									"text" : "table notevel @size 17"
 								}
 
@@ -3073,7 +3070,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
