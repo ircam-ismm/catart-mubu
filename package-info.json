@@ -1,0 +1,37 @@
+{
+    "author" : "ISMM Team, Ircam, and contributors",
+    "authors" : [ "Diemo Schwarz", "Aaron Einbond", "Christopher Trapani", "Alexis Baskind", "Riccardo Borghesi", "Frederic Bevilacqua" ],
+    "description" : "",
+    "displayname" : "",
+    "extends" : "",
+    "extensible" : 0,
+    "homepatcher" : "catart-mubu-overview.maxpat",
+    "max_version_max" : "none",
+    "max_version_min" : "7.0",
+    "name" : "MuBu For Max",
+    "os" : 	{
+	"macintosh" : 		{
+	    "min_version" : "10.11.x",
+	    "platform" : [ "x64", "aarch64" ]
+	},
+	"windows" : 		{
+	    "min_version" : "7",
+	    "platform" : [ "x64" ]
+	}
+    },
+    "package_extra" : 	{
+    },
+    "tags" : [ "data", "analysis", "synthesis", "movement", "visualization", "machine learning", "descriptors", "filtering" ],
+    "version" : "1.5",
+    "website" : "https://ircam-ismm.github.io/max-msp/catart.html",
+    "filelist" : 	{
+	"examples" : [ ],
+	"externals" : [ ],
+	"patchers" : [ ],
+	"help" : [],
+	"interfaces" : [ ],
+	"media" : [ ],
+	"docs" : [ ],
+	"extras" : [ "catart-mubu-overview.maxpat" ]
+    }
+}
