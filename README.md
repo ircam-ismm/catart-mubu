@@ -10,7 +10,9 @@ Thus, sound databases and archives may be explored quickly and intuitively for u
 
 -	Max (at least version 7)
 -   [*Mubu*](http://ismm.ircam.fr/mubu) package installed from [Max package manager](https://cycling74.com/packages/), or [Forum](http://forum.ircam.fr/product/mubu-en/)
+-   Optional external controller packages for some main patches: *sensel*, *blocks* packages from [Max package manager](https://cycling74.com/packages/) (if you don't use these controllers you can ignore the missing externals)
 -   Optional for some tutorials: *bach*, *cage* packages from [Max package manager](https://cycling74.com/packages/)
+-   Optional for some advanced examples: *spat5* package from [Max package manager](https://cycling74.com/packages/) or [Forum](http://forum.ircam.fr/product/spat5/)
 
 ## Installation
 
