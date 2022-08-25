@@ -16,13 +16,14 @@ Thus, sound databases and archives may be explored quickly and intuitively for u
 
 ## Installation
 
-Put the directory into Max's search path, or most simply into your Documents/Library folder.
+From the Package Manager, just click install, or, when downloaded from the [Ircam Forum](http://forum.ircam.fr/product/catart-mubu/), put the `catart-mubu` directory into your `Documents/Max8/Packages` folder or anywhere in Max's search path.
 
 ## Starting Points
 
-The patch [**catart-mubu-simple.maxpat**](./patches/catart-mubu-simple.maxpat) in the [patches](./patches) folder has complete standard catart functionalities.
-The **tutorial patches** in folder [patches/tutorials](./patches/tutorials) give a step-by-step introduction to the building blocks and functions of catart-mubu.
+- The [**overview patch** ](./extras/catart-mubu-overview.maxpat) shows all main patches, advanced examples, tutorials, and abstractions.
+- The patch [**catart-mubu-simple.maxpat**](./examples/catart-mubu-simple.maxpat) and other patches in the [examples](./examples) folder have complete standard catart functionalities.
+- The **tutorial patches** in folder [patchers/tutorials](./patchers/tutorials) give a step-by-step introduction to the building blocks and functions of catart-mubu.
 
 ## More information
-[http://ismm.ircam.fr/catart](https://ircam-ismm.github.io/max-msp/catart.html)
+[https://ircam-ismm.github.io/max-msp/catart.html](https://ircam-ismm.github.io/max-msp/catart.html)
 
