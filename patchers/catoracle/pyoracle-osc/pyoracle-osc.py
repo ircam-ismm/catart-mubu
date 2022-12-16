@@ -174,8 +174,8 @@ def init_oracle(self, index = None):
     # inital values
     # region = {'start': 0.0, 'end': 1.0}
     regions_actives[str(index)] = False
-    starts[str(index)] = 0.0
-    ends[str(index)] = 1.0
+    starts[str(index)] = 0
+    ends[str(index)] = 1
     ps[str(index)] = 0.5
     lrss[str(index)] = 0
     taboo_lens[str(index)] = 0
@@ -593,7 +593,7 @@ def get_next_state(self, index = None):
     # if k is out of region
     num_iterations = 0
     iteration_limit = 40
-    while ((start > k or k > end) and regions_active) or (taboo_active and k in taboo_list):
+    while (regions_active and (start > k or k > end)) or (taboo_active and k in taboo_list):
         if num_iterations > iteration_limit:
             print('reached max iterations')
             ks[str(index)] = k = random.choice(range(start, end))
@@ -621,8 +621,9 @@ def get_next_state(self, index = None):
         # if no good option found, jump back along suffix
         # could also jump forward if we're behind the region
         k = oracle['sfx'][k]
-        if k == 0:
+        while (k == 0 or k == None):
             ks[str(index)] = k = random.choice(oracle['trn'][0])
+            print('k =', k)
 
     taboo_list.append(k)
     
@@ -795,6 +796,8 @@ def draw_oracle(self, index = None):
     if N_states > 50:
         increment = int(N_states / 25)
     '''
+    if N_states <= 1:
+        return
     # encode data for jit.gl.sketch : 0 = forward transition, 1 = arc, -1 = backreference
     for i in range(0, N_states, increment):
         current_x = 2 * float(i) / (N_states - 1) - 1
