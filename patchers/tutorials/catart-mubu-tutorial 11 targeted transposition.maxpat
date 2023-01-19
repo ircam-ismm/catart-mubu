@@ -12315,8 +12315,8 @@
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
-				"patcherrelativepath" : "../..",
+				"bootpath" : "~/Documents/Max 8/Packages/bach",
+				"patcherrelativepath" : "../../../../Max 8/Packages/bach",
 				"type" : "PNG",
 				"implicit" : 1
 			}
