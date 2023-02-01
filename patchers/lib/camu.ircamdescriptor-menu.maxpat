@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 5,
 			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -65,7 +66,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -99,6 +100,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -401,14 +403,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 68.0, 45.0, 1212.0, 584.0 ],
+						"rect" : [ 82.0, 679.0, 1320.0, 623.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -435,8 +437,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 51.0, 190.5, 351.0, 19.0 ],
+									"text" : "1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
@@ -896,7 +910,7 @@
 									"numinlets" : 46,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 210.5, 491.5, 19.0 ],
+									"patching_rect" : [ 35.0, 169.5, 491.5, 19.0 ],
 									"text" : "pak 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 								}
 
@@ -1518,6 +1532,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
+									"order" : 1,
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-24", 1 ],
+									"order" : 0,
 									"source" : [ "obj-50", 0 ]
 								}
 
@@ -1696,13 +1719,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -1723,8 +1746,8 @@
 								"name" : "Default M4L",
 								"default" : 								{
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 11.0 ]
+									"fontsize" : [ 11.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1734,8 +1757,8 @@
 								"name" : "Default M4L Poletti",
 								"default" : 								{
 									"fontname" : [ "Arial Bold" ],
-									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ],
-									"fontsize" : [ 10.0 ]
+									"fontsize" : [ 10.0 ],
+									"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1744,17 +1767,17 @@
 , 							{
 								"name" : "Default M4L-1",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39
+										"proportion" : 0.39,
+										"type" : "gradient"
 									}
 ,
 									"fontface" : [ 1 ],
+									"fontname" : [ "Arial" ],
 									"fontsize" : [ 11.0 ]
 								}
 ,
@@ -1765,12 +1788,12 @@
 								"name" : "Default Max7 Poletti",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39
+										"proportion" : 0.39,
+										"type" : "gradient"
 									}
 
 								}
@@ -1781,16 +1804,16 @@
 , 							{
 								"name" : "jbb",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
-										"type" : "gradient",
+										"angle" : 270.0,
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
-										"proportion" : 0.39
+										"proportion" : 0.39,
+										"type" : "gradient"
 									}
 ,
+									"fontname" : [ "Arial" ],
 									"fontsize" : [ 9.0 ]
 								}
 ,
@@ -1938,7 +1961,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -1972,6 +1995,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -2210,7 +2234,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -2244,6 +2268,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -3205,7 +3230,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -3239,6 +3264,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.984314, 0.776471, 0.156863, 1.0 ],
@@ -3830,7 +3856,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
+							"minor" : 5,
 							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -3864,6 +3890,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.984314, 0.776471, 0.156863, 1.0 ],
@@ -4088,58 +4115,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 340.0, 310.0, 290.0, 21.0 ],
 									"text" : "ircamdescriptor.HarmonicSpectralDeviationStopBand $1",
-									"textcolor" : [ 1.0, 0.003922, 0.003922, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"id" : "obj-155",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 170.0, 79.0, 19.0 ],
-									"text" : "Quality factor"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"format" : 6,
-									"id" : "obj-156",
-									"maxclass" : "flonum",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 340.0, 170.0, 50.0, 21.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.867, 0.867, 0.867, 1.0 ],
-									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0.79,
-									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-									"bgfillcolor_color1" : [ 0.867, 0.867, 0.867, 1.0 ],
-									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
-									"bgfillcolor_proportion" : 0.39,
-									"bgfillcolor_type" : "gradient",
-									"fontname" : "Verdana",
-									"fontsize" : 10.0,
-									"gradient" : 0,
-									"id" : "obj-157",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 340.0, 190.0, 154.0, 21.0 ],
-									"text" : "ircamdescriptor.F0Quality $1",
 									"textcolor" : [ 1.0, 0.003922, 0.003922, 1.0 ]
 								}
 
@@ -4754,21 +4729,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-157", 0 ],
-									"source" : [ "obj-156", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-62", 0 ],
-									"midpoints" : [ 349.5, 208.0, 171.0, 208.0, 171.0, 208.0, 6.0, 208.0, 6.0, 556.0, 29.5, 556.0 ],
-									"source" : [ "obj-157", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-159", 0 ],
 									"source" : [ "obj-158", 0 ]
 								}
@@ -4896,7 +4856,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5039,7 +4999,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
