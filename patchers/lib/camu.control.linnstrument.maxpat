@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1255.0, 79.0, 1103.0, 1062.0 ],
+		"rect" : [ 1255.0, 79.0, 1160.0, 1221.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,778 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 822.0, 81.0, 91.0, 22.0 ],
+					"text" : "38 65 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 796.142730000000142, 45.0, 133.660399999999981, 21.0 ],
+					"text" : "join 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 891.498226999999815, 175.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1006.755523000000039, 172.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 949.755523000000039, 172.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 931.925323000000049, 137.0, 57.0, 22.0 ],
+					"text" : "split 1 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-102",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 891.498226999999815, 94.0, 140.0, 21.0 ],
+					"text" : "polyin \"LinnStrument MIDI\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-101",
+					"index" : 5,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1089.503142999999909, 1065.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 7,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 1881.0, 892.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 286.0, 10.0, 28.0, 20.0 ],
+									"text" : "ctl"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-31",
+									"index" : 4,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 279.755493000000115, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "int", "int" ],
+									"patching_rect" : [ 231.755523000000039, 146.75, 110.0, 22.0 ],
+									"text" : "t b i 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 231.755523000000039, 203.0, 29.5, 22.0 ],
+									"text" : "i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 441.755493000000115, 10.0, 28.0, 20.0 ],
+									"text" : "col"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 382.000000000000114, 10.0, 55.0, 20.0 ],
+									"presentation_linecount" : 3,
+									"text" : "pressure"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 507.0, 10.0, 28.0, 20.0 ],
+									"text" : "row"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 500.755523000000039, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 439.755523000000039, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 382.0, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-22",
+									"index" : 5,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 382.000000000000114, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-23",
+									"index" : 6,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 439.755493000000115, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-24",
+									"index" : 7,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 500.755493000000115, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 72.0, 203.0, 242.0, 20.0 ],
+									"text" : "invent individual touch id per touch and strip"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 199.0, 29.5, 22.0 ],
+									"text" : "* 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 253.0, 270.0, 105.0, 22.0 ],
+									"text" : "scale 0 127 0. 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 70.0, 270.0, 105.0, 22.0 ],
+									"text" : "expr ($i1 == 0) * 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 33.0, 310.5, 167.0, 22.0 ],
+									"text" : "pack 1 2 0.5 4. 5."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-5",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 168.755523000000039, 433.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-35",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 33.0, 433.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 200.755523000000039, 443.0, 66.0, 20.0 ],
+									"text" : "frame start"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 334.5, 254.041665999999992, 87.0 ],
+									"text" : "multi-touch msg:\n1 touch index --> voice id 1..4, \n2 touch phase (0 - begin, 1 - middle, 2 - end), \n3 X coordinate (0-1), \n4 Y coordinate (0-1),\n5 pressure (0-1)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.000000000000114, 10.0, 28.0, 20.0 ],
+									"text" : "col"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 108.755493000000115, 10.0, 28.0, 20.0 ],
+									"text" : "vel"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 175.0, 10.0, 28.0, 20.0 ],
+									"text" : "row"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-91",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 168.755523000000039, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-92",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 107.755523000000039, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-93",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 50.0, 100.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-94",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.000000000000114, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-95",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 107.755493000000115, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-96",
+									"index" : 3,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 168.755493000000115, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 4 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 3 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 1 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-29", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"source" : [ "obj-29", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-35", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 1 ],
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 3 ],
+									"source" : [ "obj-91", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 0,
+									"source" : [ "obj-92", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"order" : 1,
+									"source" : [ "obj-92", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-93", 0 ],
+									"source" : [ "obj-94", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-92", 0 ],
+									"source" : [ "obj-95", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-91", 0 ],
+									"source" : [ "obj-96", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 660.476134999999999, 207.0, 365.533137999999667, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p beat strips"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-89",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 775.98718099999985, 175.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 718.231657999999925, 175.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 660.476134999999886, 175.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 368.83647099999996, 148.0, 157.0, 22.0 ],
+					"text" : "split 1 20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.190490999999952, 3.0, 100.0, 22.0 ],
+					"text" : "loadmess 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 564.761901999999964, 34.0, 126.0, 20.0 ],
+					"text" : "first column of xy area"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 510.190490999999952, 32.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 799.503142999999909, 1070.000000000000227, 77.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 352.0, 216.900024000000002, 79.0, 20.0 ],
+					"text" : "num touches"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-87",
 					"maxclass" : "message",
@@ -84,14 +856,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 1317.0, 1302.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -119,7 +891,105 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 0,
+									"patching_rect" : [ 14.199999094009399, 205.400000393390656, 138.0, 21.0 ],
+									"text" : "ctlout \"LinnStrument MIDI\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "int", "int" ],
+									"patching_rect" : [ 14.199999094009399, 47.200000107288361, 206.60000205039978, 22.0 ],
+									"text" : "t b i i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 14.199999094009399, 138.400001585483551, 112.80000102519989, 22.0 ],
+									"text" : "i"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 14.199999094009399, 104.000001549720764, 138.0, 22.0 ],
+									"text" : "uzi 8"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 14.199999094009399, 12.600000858306885, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 14.199999094009399, 167.800000190734863, 111.0, 22.0 ],
+									"text" : "$1 10, $1 11, $1 12"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 7.399998247623444, 240.000001788139343, 614.0, 47.0 ],
+									"text" : "CC 10       Configure User Firmware X-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 11       Configure User Firmware Y-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 12       Configure User Firmware Z-axis data, the channel specifies the row, default is off (0: disable, 1: enable)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"linecount" : 160,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ -4.800000071525574, 361.600005388259888, 684.0, 2151.0 ],
+									"text" : "LinnStrument User Firmware Mode\n===============================\n\nThe intention of user mode is to provide a low level API to access calibrated and normalized LinnStrument sensor data\nover MIDI so that custom applications can be written without requiring firmware changes. Obviously, since MIDI, even\nover USB, is a slower transport than direct CPU access, certain features can't be developed that would need very quick\naccess to the data (like for instance velocity detection). User mode is complemented by the already available MIDI CC\nAPI to control LEDs for user feedback of the custom functionalities through MIDI CC numbers 20, 21, and 22.\n\n\nActivating User Firmware Mode\n=============================\n\nUser Mode can be activated by sending LinnStrument the value 1 for MIDI NRPN 245 on any MIDI channel, sending value 0\nwill turn it off. When User Mode is active, all standard firmware features will be disabled and all LEDs will be turned\noff, except for the Global Settings panel. This panel will only have settings available for Velocity Sensitivity,\nPressure Sensitivity, MIDI I/O and Actions, the others will be disabled. When the Global Settings panel is active, no\nUser Mode nor LED control features will be active. When User Mode is active, the Global Settings switch will be lit\nyellow.\n\nBy default only Cell Presses will be active in User Firmware mode, 3D Touch Data data can be activated for each axis and\nfor each row individually (see below).\n\nBy holding OS Update in Global Settings for half a second when User Mode is active, the user can manually turn off User\nMode and return to the standard firmware mode. When this happens, LinnStrument will send out MIDI NRPN 245 on channel 9\nwith value 0 to notify the external application that user mode is now disabled. OS Update can also be held down in\nstandard firmware mode to manually re-enable User Mode, LinnStrument will then send out MIDI NRPN 245 on channel 9 with\nvalue 1 to notify the external application that user mode is now enabled.\n\nEach time User Mode is activated, it starts from a clean slate, so it's the responsibility of the application to set up\nthe appropriate lights and the configure X-axis slide mode if that's required.\n\n\nCell Presses\n============\n\nIn User Mode, cell presses are tied to a coordinate system using MIDI channels and notes. The rows correspond to\nchannels 1 to 8 with the bottom row being 1, and the columns correspond to the MIDI notes 0 to 25 with the control\nswitches being 0. When a cell is pressed, the corresponding MIDI Note On message is sent with the velocity that is\nconfigured in Global Settings. The velocity is needed since it will not be possible to do any meaningful velocity\ncalculation from the Z data sent over MIDI. When a cell is released the corresponding MIDI Note Off message is sent with\nvelocity 0.\n\n\n3D Touch Data\n=============\n\nThe X, Y and Z data are sent out over MIDI CC messages. X data is global in range, meaning that 0 starts at the left\nedge of LinnStrument and the maximum value is at the right edge. Y and Z data have their own 0-max range for each cell.\n\nThe scheme below has been selected to provide direct access to the expression data of each individual cell, but also to\nmake user mode somewhat useful as a plain MIDI device with 200 expressive 3D controllers. The X data is sent out in 14\nbit by using standard MSB/LSB pairs.\n\nTo enable X data, send MIDI CC message 10 with value 1 to Channels 1 to 8, corresponding to the rows.\nSending value 0 instead will disable X data for a row. The same applies to Y and Z data, using MIDI CC messages 11 and 12\nrespectively.\n\nZ data is sent as Polyphonic Pressure message over channels 1 to 8, which again correspond to the rows. Similarly to the\nnote on message, the Polyphonic Pressure notes 0 to 25, correspond to the columns. The values range from 0 to 127, with\n0 being a cell's lightest possible touch and 127 being the hardest one.\n\nX data is sent over channels 1 to 8, mapped to rows 1 to 8 on the LinnStrument. MIDI CC messages 0 to 25 correspond to\nthe columns and contain the 14 bit MSB part. MIDI CC messages 32 to 57 can be used as the LSB counterparts of messages 0\nto 25 to receive more precise X data. The 14-bit range from the left edge to the right edge is 0 to 4265.\n\nY data is sent over channels 1 to 8, corresponding to the rows. The columns correspond to MIDI CC messages 64 to 89. The\nvalues range from 0 to 127, from the bottom edge to the top edge of a cell. X-axis Slide Mode\n\n\nData decimation\n===============\n\nGiven the amount of data that LinnStrument sends out, it's possible to overload low powered or older receiving devices.\nTurning on MIDI data decimation will increase the time interval between data updates, by default this feature is\ndisabled. Data decimation can be enabled by sending MIDI CC message 13 to LinnStrument, the value corresponds to the\nnumber of milliseconds between data updates.\n\n\nSlide Mode\n==========\n\nA unique feature of LinnStrument is to be able to smoothly slide across cells in the same row. It's impossible to\nachieve this level of smoothness by combining received User Mode MIDI messages, so there's a special mode that can be\nenabled for each row so that it tracks pitch slides across cells like the low row in the standard firmware mode.\n\nWhen this mode is active and a slide transition occurs, MIDI CC 119 will be sent with as value the column of the cell\nthat is transitioning to another cell, the channel containing the row of the transitioning cell. The Note On message of\nthe cell to which the slide transitions will have the same velocity as the first cell in the slide. The Note Off message\nof the cell that is released during a slide transition will have the slide target cell's column as velocity value. The\nslide transition Note Off message will always occur after the Note On message. The combination of these messages allows\nsoftware to perfectly track slides as they occur.\n\nTo enable per-row slide mode, send MIDI CC message 9 with value 1 to Channels 1 to 8, corresponding to the rows.\nSending value 0 instead will disable slide mode for a row.\n\n\nMIDI Message Summary\n====================\n\nOutgoing MIDI messages:\n-----------------------\n\nNote On                      Cell Down, Note Number: Column,  Channel: Row,  Velocity: Strike Velocity\nNote Off                      Cell Up,      Note Number: Column,  Channel: Row,  Velocity: Release Velocity\nPolyphonic Pressure  Z data,        Note Number: Column,  Channel: Row,      Data: Per Cell Z Position\nCC 0-25                     X data,        CC Number: Column,       Channel: Row,      Data: Global X Position MSB\nCC 32-57                   X data,        CC Number-32: Column,  Channel: Row,      Data: Global X Position LSB\nCC 64-89                   Y data,        CC Number-64: Column,  Channel: Row,      Data: Per Cell Y Position\nCC 119                      Cell Slide,                                             Channel: Row,      Data: Transitioning Column\n - After CC 119 Note On    Target Cell,  Note Number: Column,  Channel: Row,  Velocity: First Slide Cell's Velocity\n - After CC 119 Note Off   Source Cell,  Note Number: Column,  Channel: Row,  Velocity: Slide Target Column\n\nConfiguration MIDI messages:\n----------------------------\n\nNRPN 245    Enabling/disabling User Firmware mode (0: disable, 1: enable)\nCC 9        Configure User Firmware X-axis row slide, the channel specifies the row (0: disable, 1: enable)\nCC 10       Configure User Firmware X-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 11       Configure User Firmware Y-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 12       Configure User Firmware Z-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 13       Configure User Firmware MIDI decimation rate in milliseconds (minimum 12 ms in low power mode)\nCC 20       Column coordinate for cell color change with CC 22 (starts from 0)\nCC 21       Row coordinate for cell color change with CC 22 (starts from 0)\nCC 22       Change the color of the cell with the provided column and row coordinates\n            see color value table in midi.txt, 7+: default color\n\n\nExamples\n========\n\nIn practice a single cell press could result in messages like this in non-slide mode:\n\n\nCh3 Note On 12 Velocity 120\n\nCh3 PolyPressure Key 12 Value Z\nCh3 CC 12 Value X MSB\nCh3 CC 44 Value X LSB\nCh3 CC 76 Value Y\n\nCh3 Note Off 12 Velocity 0\n\nIn practice a cell transition could result in messages like this in slide mode:\n\nCh3 Note On 12 Velocity 120\n\nCh3 PolyPressure Key 12 Value Z\nCh3 CC 12 Value X MSB\nCh3 CC 44 Value X LSB\nCh3 CC 76 Value Y\nCh3 CC 119 Value 12\nCh3 Note On 13 Velocity 120\nCh3 Note Off 12 Velocity 13\nCh3 PolyPressure Key 13 Value Z\nCh3 CC 13 Value X MSB\nCh3 CC 45 Value X LSB\nCh3 CC 77 Value Y\n\nCh3 Note Off 13 Velocity 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
@@ -127,7 +997,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 239.0, 138.0, 21.0 ],
+									"patching_rect" : [ 201.80000114440918, 205.400000393390656, 138.0, 21.0 ],
 									"text" : "ctlout \"LinnStrument MIDI\""
 								}
 
@@ -139,7 +1009,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 172.0, 218.0, 22.0 ],
+									"patching_rect" : [ 201.80000114440918, 129.800000488758087, 218.0, 22.0 ],
 									"text" : "jstrigger ( [ a[0] & 127\\, a[0] >> 7\\, a[1] ] )"
 								}
 
@@ -151,7 +1021,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 145.0, 45.0, 22.0 ],
+									"patching_rect" : [ 201.80000114440918, 102.800000488758087, 45.0, 22.0 ],
 									"text" : "245 $1"
 								}
 
@@ -163,7 +1033,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 199.0, 135.0, 22.0 ],
+									"patching_rect" : [ 201.80000114440918, 165.800000488758087, 135.0, 22.0 ],
 									"text" : "$1 98, $2 99, $3 38, 0 6"
 								}
 
@@ -177,7 +1047,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 101.829192999999918, 100.0, 215.00827000000001, 69.0 ],
+									"patching_rect" : [ 356.029195670288004, 157.400000393390656, 215.00827000000001, 69.0 ],
 									"text" : "1. set LS to user mode via NRPN 245 1:\nCC#98 sets the NRPN Number LSB\nCC#99 sets the NRPN Number MSB\nCC#38 sets the NRPN value LSB\nCC#6 sets the NRPN value MSB",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -192,14 +1062,63 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+									"patching_rect" : [ 14.599998354911804, -25.800000309944153, 30.0, 30.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 2 ],
+									"source" : [ "obj-12", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 1 ],
+									"source" : [ "obj-14", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-65", 0 ],
+									"source" : [ "obj-14", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
 									"source" : [ "obj-53", 0 ]
 								}
 
@@ -222,6 +1141,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
 									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -260,7 +1186,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.047606999999971, 51.233398000000022, 24.0, 24.0 ]
+					"patching_rect" : [ 675.047606999999971, 519.233398000000079, 24.0, 24.0 ]
 				}
 
 			}
@@ -275,8 +1201,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -334,8 +1260,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 3,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -378,7 +1304,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 671.0, 477.0, 114.0, 47.0 ],
-													"presentation_linecount" : 3,
 													"text" : "calc quantised colour matrix for visualisation"
 												}
 
@@ -1517,7 +2442,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 751.80313000000001, 253.0, 111.0, 22.0 ],
+					"patching_rect" : [ 707.80313000000001, 721.0, 111.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1537,7 +2462,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 751.803129999999783, 285.999937999999929, 138.0, 21.0 ],
+					"patching_rect" : [ 707.803129999999783, 753.999937999999929, 138.0, 21.0 ],
 					"text" : "ctlout \"LinnStrument MIDI\""
 				}
 
@@ -1551,7 +2476,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 812.80313000000001, 51.233398000000022, 30.0, 30.0 ]
+					"patching_rect" : [ 768.80313000000001, 519.233398000000079, 30.0, 30.0 ]
 				}
 
 			}
@@ -1566,8 +2491,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1838,8 +2763,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 3,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2069,8 +2994,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 3,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2186,8 +3111,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 3,
+															"minor" : 5,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2713,8 +3638,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 3,
-															"revision" : 3,
+															"minor" : 5,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3109,13 +4034,6 @@
 												"patchline" : 												{
 													"destination" : [ "obj-63", 0 ],
 													"source" : [ "obj-7", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "", 0 ],
-													"source" : [ "obj-69", 0 ]
 												}
 
 											}
@@ -3883,7 +4801,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 751.80313000000001, 83.233398000000022, 85.0, 22.0 ],
+					"patching_rect" : [ 707.80313000000001, 551.233398000000079, 85.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3902,7 +4820,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 774.003143000000023, 113.0, 283.999999999999886, 131.0 ],
+					"patching_rect" : [ 730.003143000000023, 581.0, 283.999999999999886, 131.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 160.0, 80.0, 60.0 ],
 					"sync" : 1
@@ -3918,7 +4836,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.80313000000001, 51.233398000000022, 30.0, 30.0 ]
+					"patching_rect" : [ 707.80313000000001, 519.233398000000079, 30.0, 30.0 ]
 				}
 
 			}
@@ -3930,7 +4848,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 366.0, 332.0, 193.0, 22.0 ],
-					"text" : "232 0 3.8 0.428571 0."
+					"text" : "39 0 0.727273 0.285714 0."
 				}
 
 			}
@@ -3941,7 +4859,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 508.163315000000011, 239.0, 97.0, 22.0 ],
+					"patching_rect" : [ 478.163315000000011, 239.0, 97.0, 22.0 ],
 					"text" : "scale 0 127 0. 1."
 				}
 
@@ -3953,7 +4871,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 315.0, 242.0, 68.83647099999996, 22.0 ],
+					"patching_rect" : [ 285.0, 242.0, 68.83647099999996, 22.0 ],
 					"text" : "* 1"
 				}
 
@@ -3965,7 +4883,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 315.0, 286.0, 244.0, 22.0 ],
+					"patching_rect" : [ 285.0, 286.0, 244.0, 22.0 ],
 					"text" : "pack 1 0 3. 4. 5."
 				}
 
@@ -3977,7 +4895,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.0, 239.0, 100.0, 22.0 ],
+					"patching_rect" : [ 374.0, 239.0, 100.0, 22.0 ],
 					"text" : "scale 1 16 0. 1."
 				}
 
@@ -3989,7 +4907,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.761901999999964, 239.0, 100.0, 22.0 ],
+					"patching_rect" : [ 580.761901999999964, 239.0, 100.0, 22.0 ],
 					"text" : "scale 1 8 0. 1."
 				}
 
@@ -4002,7 +4920,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 404.0, 179.0, 50.0, 22.0 ]
+					"patching_rect" : [ 374.0, 179.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -4014,7 +4932,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 620.761901999999964, 175.0, 50.0, 22.0 ]
+					"patching_rect" : [ 580.761901999999964, 175.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -4026,7 +4944,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 464.0, 179.0, 50.0, 22.0 ]
+					"patching_rect" : [ 434.0, 179.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -4061,7 +4979,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 10,
 					"outlettype" : [ "", "", "", "", "int", "", "int", "int", "int", "" ],
-					"patching_rect" : [ 250.503139000000033, 77.0, 258.0, 22.0 ],
+					"patching_rect" : [ 220.503139000000033, 77.0, 258.0, 22.0 ],
 					"text" : "mpeparse"
 				}
 
@@ -4073,7 +4991,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 250.503139000000033, 48.0, 152.0, 22.0 ],
+					"patching_rect" : [ 220.503139000000033, 48.0, 152.0, 22.0 ],
 					"text" : "midiin \"LinnStrument MIDI\""
 				}
 
@@ -4183,8 +5101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4540,7 +5458,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 398.83647099999996, 119.0, 140.0, 21.0 ],
+					"patching_rect" : [ 368.83647099999996, 119.0, 140.0, 21.0 ],
 					"text" : "notein \"LinnStrument MIDI\""
 				}
 
@@ -4556,8 +5474,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5073,8 +5991,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 3,
-											"revision" : 3,
+											"minor" : 5,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6748,8 +7666,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7572,7 +8490,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.831336000000022, 108.733398000000022, 215.00827000000001, 19.0 ],
+					"patching_rect" : [ 71.831336000000022, 108.733398000000022, 152.0, 19.0 ],
 					"text" : "set LS to user firmware mode",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -7587,7 +8505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 241.839606000000003, 119.0, 133.660399999999981, 21.0 ],
+					"patching_rect" : [ 796.142730000000142, 7.0, 133.660399999999981, 21.0 ],
 					"text" : "ctlin \"LinnStrument MIDI\""
 				}
 
@@ -7648,7 +8566,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 549.83647099999996, 113.0, 131.0, 33.0 ],
+					"patching_rect" : [ 519.83647099999996, 113.0, 131.0, 33.0 ],
 					"text" : "Multitouch  Reporting from Linnstrument",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -7929,6 +8847,71 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-102", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-102", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-103", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 5 ],
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 6 ],
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 4 ],
+					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 1 ],
+					"order" : 0,
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 3 ],
+					"order" : 1,
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -8186,6 +9169,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
+					"order" : 1,
 					"source" : [ "obj-47", 1 ]
 				}
 
@@ -8193,32 +9177,39 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-47", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"order" : 0,
-					"source" : [ "obj-47", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-73", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-47", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"order" : 0,
+					"source" : [ "obj-47", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"order" : 0,
+					"source" : [ "obj-47", 1 ]
 				}
 
 			}
@@ -8301,6 +9292,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 1 ],
+					"order" : 0,
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 1 ],
+					"order" : 2,
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 1 ],
+					"order" : 1,
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
@@ -8318,6 +9333,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"order" : 2,
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 1 ],
 					"order" : 1,
 					"source" : [ "obj-71", 0 ]
 				}
@@ -8328,6 +9351,13 @@
 					"destination" : [ "obj-78", 1 ],
 					"order" : 0,
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}
@@ -8383,6 +9413,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-108", 2 ],
+					"source" : [ "obj-8", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 1 ],
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -8411,6 +9462,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"order" : 0,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"order" : 1,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"source" : [ "obj-84", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-85", 0 ]
 				}
@@ -8425,8 +9499,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 2 ],
+					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 1 ],
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-98", 0 ]
 				}
 
 			}
