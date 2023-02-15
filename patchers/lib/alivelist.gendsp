@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 1126.0, 299.0, 600.0, 1111.0 ],
+		"rect" : [ 1557.0, 137.0, 600.0, 1111.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,68 +40,11 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 238.5, 9.0, 104.0, 22.0 ],
-					"text" : "buffer id_to_index"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 114.0, 9.0, 104.0, 22.0 ],
-					"text" : "buffer index_to_id"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 1082.0, 35.0, 22.0 ],
-					"text" : "out 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 431.0, 1082.0, 35.0, 22.0 ],
-					"text" : "out 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 219.0, 1076.0, 35.0, 22.0 ],
-					"text" : "out 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 1076.0, 35.0, 22.0 ],
+					"patching_rect" : [ 557.0, 1080.0, 35.0, 22.0 ],
 					"text" : "out 2"
 				}
 
@@ -132,15 +75,15 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "get_index_from_id (id, id_to_index)\r\n{\r\n\treturn peek(id_to_index, id);\r\n}\r\n\r\nget_unused_index (id, index_to_id)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, index_to_id, id_to_index)\r\n{\r\n\tindex = get_unused_index(id, index_to_id);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index);\r\n\tpoke(id_to_index, index, id);\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, index_to_id, id_to_index)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index);\r\n\tpoke(id_to_index, -1, id);\r\n\treturn index;\r\n}\r\n\r\n//Data index_to_id (32);\r\n//Data id_to_index (32);\r\nHistory clear(1);\r\nout5 = clear;\r\n\nif (clear) \r\n{\n    // do this at init, or when clear flag is set from outside\n    for (i = 0; i < dim(index_to_id); i += 1) \r\n\t{   // set all arrays to -1 meaning empty slot\n        poke(index_to_id, -1, i);\r\n\t\tpoke(id_to_index, -1, i);\n    }\r\n\tclear = 0;\n}    \r\n\r\n// input: \r\n// in1: integer ID\r\n// in2: 'activation' value >0 is on\r\nid  = in1;\r\nvel = in2;\r\nout4 = peek(id_to_index, 0); //debug\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index);\r\nout2 = index; //debug\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, index_to_id, id_to_index);\r\n}\t\r\n\r\n// check if id switches off\r\nif (vel == 0)\r\n{   // clear slots\r\n\tremove_id(id, index, index_to_id, id_to_index);\r\n}\r\n\r\nout1 = index;\r\nout3 = peek(index_to_id, index); //debug\r\n",
+					"code" : "get_index_from_id (id, id_to_index)\r\n{\r\n\treturn peek(id_to_index, id);\r\n}\r\n\r\nget_unused_index (id, index_to_id)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, index_to_id, id_to_index)\r\n{\r\n\tindex = get_unused_index(id, index_to_id);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index);\r\n\tpoke(id_to_index, index, id);\r\n\tcount += (index < index_to_id.dim);\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, index_to_id, id_to_index)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index);\r\n\tpoke(id_to_index, -1, id);\r\n\tcount -= 1;\r\n\treturn index;\r\n}\r\n\r\nData index_to_id (32);\r\nData id_to_index (32);\r\n\r\nHistory clear(1);\r\nHistory count(0);\r\n\nif (clear) \r\n{\n    // do this at init, or when clear flag is set from outside\n    for (i = 0; i < dim(index_to_id); i += 1) \r\n\t{   // set all arrays to -1 meaning empty slot\n        poke(index_to_id, -1, i);\r\n\t\tpoke(id_to_index, -1, i);\n    }\r\n\tcount = 0;\r\n\tclear = 0;\n}    \r\n\r\n// input: \r\n// in1: integer ID\r\n// in2: 'activation' value >0 is on\r\nid  = in1;\r\nvel = in2;\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index);\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, index_to_id, id_to_index);\r\n}\t\r\n\r\n// check if id switches off\r\nif (vel == 0)\r\n{   // clear slots\r\n\tremove_id(id, index, index_to_id, id_to_index);\r\n}\r\n\r\nout1 = index;\r\nout2 = count;\r\n",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "codebox",
 					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.0, 38.0, 587.0, 1031.0 ]
 				}
 
@@ -185,28 +128,8 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-3", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-3", 4 ]
-				}
-
-			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

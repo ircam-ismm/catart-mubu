@@ -40,6 +40,179 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.0, 203.0, 99.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "full_source_code"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 405.0, 307.0, 45.0, 22.0 ],
+					"text" : "clear 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 1433.0, 185.0, 553.0, 1195.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 499.0, 1136.0, 35.0, 22.0 ],
+									"text" : "out 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 5.0, 9.0, 28.0, 22.0 ],
+									"text" : "in 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 499.0, 9.0, 28.0, 22.0 ],
+									"text" : "in 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"code" : "get_index_from_id (id, id_to_index)\r\n{\r\n\treturn peek(id_to_index, id);\r\n}\r\n\r\nget_unused_index (id, index_to_id)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, index_to_id, id_to_index)\r\n{\r\n\tindex = get_unused_index(id, index_to_id);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index);\r\n\tpoke(id_to_index, index, id);\r\n\tcount += (index < index_to_id.dim);\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, index_to_id, id_to_index)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index);\r\n\tpoke(id_to_index, -1, id);\r\n\tcount -= 1;\r\n\treturn index;\r\n}\r\n\r\nData index_to_id (32);\r\nData id_to_index (32);\r\n\r\nHistory clear(1);\r\nHistory count(0);\r\n\nif (clear) \r\n{\n    // do this at init, or when clear flag is set from outside\n    for (i = 0; i < dim(index_to_id); i += 1) \r\n\t{   // set all arrays to -1 meaning empty slot\n        poke(index_to_id, -1, i);\r\n\t\tpoke(id_to_index, -1, i);\n    }\r\n\tcount = 0;\r\n\tclear = 0;\n}    \r\n\r\n// input: \r\n// in1: integer ID\r\n// in2: 'activation' value >0 is on\r\nid  = in1;\r\nvel = in2;\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index);\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, index_to_id, id_to_index);\r\n}\t\r\n\r\n// check if id switches off\r\nif (vel == 0)\r\n{   // clear slots\r\n\tremove_id(id, index, index_to_id, id_to_index);\r\n}\r\n\r\nout1 = index;\r\nout2 = count;\r\n",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "codebox",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 5.0, 38.0, 529.0, 1091.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 5.0, 1136.0, 35.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 405.171875, 407.0, 93.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"exportfolder" : "System:/Users/schwarz/src/catart-mubu/patchers/lib/"
+					}
+,
+					"text" : "gen"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,112 +231,6 @@
 					}
 ,
 					"text" : "mubu mmm"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-27",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 284.0, 107.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"externalfiles" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"resamplefiles" : 0,
-						"savegui" : 0,
-						"snaprate" : 1000.0,
-						"verbose" : 1
-					}
-,
-					"text" : "mubu id_to_index"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-26",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 258.0, 103.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"externalfiles" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"resamplefiles" : 0,
-						"savegui" : 0,
-						"snaprate" : 1000.0,
-						"verbose" : 1
-					}
-,
-					"text" : "mubu index_to_id"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 133.0, 284.0, 178.0, 22.0 ],
-					"text" : "buffer~ id_to_index @samps 32"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 133.0, 258.0, 178.0, 22.0 ],
-					"text" : "buffer~ index_to_id @samps 32"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-21",
-					"index" : 5,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 446.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-20",
-					"index" : 4,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 446.0, 25.0, 25.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-18",
-					"index" : 3,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 446.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -232,14 +299,146 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "float", "float", "float", "float", "float" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 1433.0, 185.0, 553.0, 1195.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 499.0, 1136.0, 35.0, 22.0 ],
+									"text" : "out 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 5.0, 9.0, 28.0, 22.0 ],
+									"text" : "in 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 499.0, 9.0, 28.0, 22.0 ],
+									"text" : "in 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"code" : "get_index_from_id (id, id_to_index)\r\n{\r\n\treturn peek(id_to_index, id);\r\n}\r\n\r\nget_unused_index (id, index_to_id)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, index_to_id, id_to_index)\r\n{\r\n\tindex = get_unused_index(id, index_to_id);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index);\r\n\tpoke(id_to_index, index, id);\r\n\tcount += (index < index_to_id.dim);\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, index_to_id, id_to_index)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index);\r\n\tpoke(id_to_index, -1, id);\r\n\tcount -= 1;\r\n\treturn index;\r\n}\r\n\r\nData index_to_id (32);\r\nData id_to_index (32);\r\n\r\nHistory clear(1);\r\nHistory count(0);\r\n\nif (clear) \r\n{\n    // do this at init, or when clear flag is set from outside\n    for (i = 0; i < dim(index_to_id); i += 1) \r\n\t{   // set all arrays to -1 meaning empty slot\n        poke(index_to_id, -1, i);\r\n\t\tpoke(id_to_index, -1, i);\n    }\r\n\tcount = 0;\r\n\tclear = 0;\n}    \r\n\r\n// input: \r\n// in1: integer ID\r\n// in2: 'activation' value >0 is on\r\nid  = in1;\r\nvel = in2;\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index);\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, index_to_id, id_to_index);\r\n}\t\r\n\r\n// check if id switches off\r\nif (vel == 0)\r\n{   // clear slots\r\n\tremove_id(id, index, index_to_id, id_to_index);\r\n}\r\n\r\nout1 = index;\r\nout2 = count;",
+									"fontface" : 0,
+									"fontname" : "<Monospaced>",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "codebox",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 5.0, 38.0, 529.0, 1091.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 5.0, 1136.0, 35.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-3", 1 ]
+								}
+
+							}
+ ]
+					}
+,
 					"patching_rect" : [ 20.171875, 263.0, 93.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"exportfolder" : "System:/Users/schwarz/src/catart-mubu/patchers/lib/"
 					}
 ,
-					"text" : "gen alivelist"
+					"text" : "gen"
 				}
 
 			}
@@ -404,27 +603,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-11", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-11", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-11", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -469,6 +647,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
