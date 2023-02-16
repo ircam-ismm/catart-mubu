@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 80.0, 134.0, 1209.0, 814.0 ],
+		"rect" : [ 34.0, 79.0, 1209.0, 814.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -752,12 +752,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 0.033840947546531,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 0.0, 1.0 ],
+									"domain_bounds" : [ 0.0, 11178.639455782313235 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -773,6 +773,7 @@
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
+									"maintrack" : -1,
 									"maxclass" : "imubu",
 									"mousewheelscroll" : 0,
 									"name" : "corpus",
@@ -2896,7 +2897,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1209.0, 788.0 ],
+						"rect" : [ 34.0, 105.0, 1209.0, 788.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3387,7 +3388,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 80.0, 160.0, 1209.0, 788.0 ],
+						"rect" : [ 0.0, 26.0, 1209.0, 788.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4031,13 +4032,13 @@
 									"background" : 1,
 									"fontface" : 3,
 									"fontname" : "Arial",
-									"fontsize" : 36.0,
+									"fontsize" : 32.0,
 									"id" : "obj-21",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.5, 6.25, 580.0, 47.0 ],
-									"text" : "CataRT-MuBu  Package Overview",
+									"patching_rect" : [ 114.5, 6.25, 508.0, 42.0 ],
+									"text" : "CataRT-MuBu Package Overview",
 									"varname" : "HelpTitle"
 								}
 
@@ -5316,7 +5317,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1116.0, 565.0, 290.0, 244.0 ],
+										"rect" : [ 938.0, 122.0, 290.0, 244.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5375,7 +5376,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 115.0, 112.0, 22.0 ],
+													"patching_rect" : [ 87.0, 115.0, 112.0, 22.0 ],
 													"text" : "sprintf %s.maxhelp"
 												}
 
@@ -5396,7 +5397,7 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-13", 0 ],
+													"destination" : [ "obj-3", 0 ],
 													"source" : [ "obj-1", 0 ]
 												}
 
@@ -5405,6 +5406,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-14", 0 ],
 													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -5596,12 +5604,12 @@
 									"background" : 1,
 									"fontface" : 3,
 									"fontname" : "Arial",
-									"fontsize" : 36.0,
+									"fontsize" : 32.0,
 									"id" : "obj-21",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.5, 6.25, 570.0, 47.0 ],
+									"patching_rect" : [ 114.5, 6.25, 508.0, 42.0 ],
 									"text" : "CataRT-MuBu Package Overview",
 									"varname" : "HelpTitle"
 								}
@@ -6072,14 +6080,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6093,7 +6101,7 @@
 , 			{
 				"name" : "icon.png",
 				"bootpath" : "~/src/catart-mubu",
-				"patcherrelativepath" : "../../catart-mubu",
+				"patcherrelativepath" : "..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
