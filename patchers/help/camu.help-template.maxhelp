@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 79.0, 79.0, 1247.0, 754.0 ],
+		"rect" : [ 126.0, 79.0, 1247.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,20 +45,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.5, 60.0, 271.0, 21.0 ],
-					"text" : "handle descriptor target and column selection"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.166663999999997, 434.0, 201.999999999999972, 22.0 ],
-					"text" : "select 4356.654478 0.304171"
+					"patching_rect" : [ 72.5, 60.0, 323.0, 21.0 ],
+					"text" : "(short description here:) a template for camu help files "
 				}
 
 			}
@@ -71,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 140.0, 305.499985000000038, 337.0, 20.0 ],
-					"text" : "descriptor choice indices, as sent from camu-menu left outlet",
+					"text" : "descriptor choice indices, as sent from camnulmenu left outlet",
 					"textcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
 				}
 
@@ -451,7 +439,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "type" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -473,7 +461,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "opacity" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -508,7 +496,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -530,7 +518,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -552,7 +540,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -581,14 +569,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 118.0, 286.0, 22.0 ],
+					"patching_rect" : [ 172.5, 120.0, 286.0, 22.0 ],
 					"text" : "readfolder @name audio @recursive 1 @type audio"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "target-help-corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "xxxxxx-help-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -630,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 93.0, 282.0, 22.0 ],
+					"patching_rect" : [ 12.0, 95.0, 282.0, 22.0 ],
 					"text" : "readappend Gouttes-LeNaun.wav @name audio"
 				}
 
@@ -698,12 +686,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 4356.654477645905899,
+					"cursor_position" : 3320.63693727224836,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 1336.049846380209146, 4377.237814145160883 ],
+					"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -722,7 +710,7 @@
 					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "target-help-corpus",
+					"name" : "xxxxxx-help-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -1061,7 +1049,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-									"text" : "mubu.process target-help-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
+									"text" : "mubu.process xxxxxx-help-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -1219,7 +1207,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-27",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1231,7 +1218,6 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-20",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -1251,7 +1237,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 118.0, 153.0, 22.0 ],
+					"patching_rect" : [ 12.0, 120.0, 153.0, 22.0 ],
 					"text" : "readappend @name audio"
 				}
 
@@ -1265,19 +1251,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 151.0, 139.0, 22.0 ],
+					"patching_rect" : [ 12.0, 151.0, 145.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"resamplefiles" : 1,
+						"resamplefiles" : 0,
 						"savegui" : 0,
 						"snaprate" : 1000.0,
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu target-help-corpus"
+					"text" : "mubu xxxxxx-help-corpus"
 				}
 
 			}
@@ -1337,7 +1323,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 target-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
+					"text" : "mubu.concat~ 2 xxxxxx-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
 				}
 
 			}
@@ -1459,7 +1445,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 11.666663999999997, 468.0, 345.0, 22.0 ],
-					"text" : "mubu.knn target-help-corpus descr"
+					"text" : "mubu.knn xxxxxx-help-corpus descr"
 				}
 
 			}
@@ -1585,8 +1571,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
-									"text" : "s target-help-corpus-refresh"
+									"patching_rect" : [ 46.0, 278.0, 110.0, 49.0 ],
+									"text" : "s xxxxxx-help-corpus-refresh"
 								}
 
 							}
@@ -1960,7 +1946,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.499995999999953, 359.499985000000038, 91.49999200000002, 74.0 ],
+					"patching_rect" : [ 372.5, 347.833344000000011, 91.49999200000002, 74.0 ],
 					"text" : "alternatively, descriptor choice can be sent as list in 2nd inlet",
 					"textcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
 				}
@@ -1990,7 +1976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 326.999995999999953, 338.499985000000038, 87.500004000000047, 19.0 ],
+					"patching_rect" : [ 326.999995999999953, 338.499985000000038, 38.0, 19.0 ],
 					"text" : "pak 0 1"
 				}
 
@@ -2001,13 +1987,13 @@
 					"filename" : "helpname_camu.js",
 					"id" : "obj-8",
 					"ignoreclick" : 1,
-					"jsarguments" : [ "camu.target" ],
+					"jsarguments" : [ "camu.help-template" ],
 					"maxclass" : "jsui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 10.0, 321.719863891601562, 57.599853515625 ]
+					"patching_rect" : [ 10.0, 10.0, 491.495849609375, 57.599853515625 ]
 				}
 
 			}
@@ -2183,18 +2169,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
-					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 54.166663999999997, 427.416672000000005, 242.666663999999969, 427.416672000000005 ],
-					"order" : 0,
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-46", 0 ],
-					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 
