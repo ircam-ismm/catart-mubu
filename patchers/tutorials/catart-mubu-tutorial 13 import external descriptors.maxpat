@@ -494,7 +494,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu corpus"
+									"text" : "mubu tut13-corpus"
 								}
 
 							}
@@ -695,7 +695,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu corpus"
+									"text" : "mubu tut13-corpus"
 								}
 
 							}
@@ -735,7 +735,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track tut13-corpus descr"
 								}
 
 							}
@@ -818,7 +818,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu corpus"
+									"text" : "mubu tut13-corpus"
 								}
 
 							}
@@ -1546,7 +1546,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus audio"
+					"text" : "mubu.track tut13-corpus audio"
 				}
 
 			}
@@ -1586,7 +1586,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus descr"
+					"text" : "mubu.track tut13-corpus descr"
 				}
 
 			}
@@ -2259,7 +2259,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 252.350005745887756, 185.0, 22.0 ],
-					"text" : "camu.imubu.control corpus descr"
+					"text" : "camu.imubu.control tut13-corpus descr"
 				}
 
 			}
@@ -2295,7 +2295,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr" ],
+					"args" : [ "tut13-corpus", "descr" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2779,7 +2779,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track tut13-corpus descr"
 								}
 
 							}
@@ -2882,7 +2882,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s tut13-corpus-menu-init"
 								}
 
 							}
@@ -2935,7 +2935,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut13-corpus-refresh"
 								}
 
 							}
@@ -3726,7 +3726,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "tut13-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3750,7 +3750,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "tut13-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3789,7 +3789,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "bufferindex" ],
+					"args" : [ "tut13-corpus", "descr", "color", "bufferindex" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3813,7 +3813,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "off" ],
+					"args" : [ "tut13-corpus", "descr", "size", "off" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3837,7 +3837,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", 1 ],
+					"args" : [ "tut13-corpus", "descr", "y", 1 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3861,7 +3861,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", 0 ],
+					"args" : [ "tut13-corpus", "descr", "x", 0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3959,7 +3959,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut13-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -4118,7 +4118,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut13-corpus"
 				}
 
 			}
@@ -4180,7 +4180,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
+					"text" : "mubu.concat~ 2 tut13-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
 				}
 
 			}

@@ -1937,7 +1937,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 171.0, 278.413989007472992, 138.0, 22.0 ],
-					"text" : "camu.cont corpus descr"
+					"text" : "camu.cont tut2c-corpus descr"
 				}
 
 			}
@@ -2556,7 +2556,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "tut2c-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2578,7 +2578,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "tut2c-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2613,7 +2613,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "tut2c-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2635,7 +2635,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "tut2c-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2669,7 +2669,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "tut2c-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2718,7 +2718,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "tut2c-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2890,7 +2890,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut2c-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -3289,7 +3289,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-									"text" : "mubu.process corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
+									"text" : "mubu.process tut2c-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -3531,7 +3531,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut2c-corpus"
 				}
 
 			}
@@ -3552,7 +3552,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
+					"text" : "mubu.concat~ 2 tut2c-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
 					"varname" : "concat1c"
 				}
 
@@ -3675,7 +3675,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 113.039779999999951, 397.413989007472992, 344.49998800000003, 22.0 ],
-					"text" : "mubu.knn corpus descr @radius 0 @k 0"
+					"text" : "mubu.knn tut2c-corpus descr @radius 0 @k 0"
 				}
 
 			}
@@ -3841,7 +3841,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut2c-corpus-refresh"
 								}
 
 							}

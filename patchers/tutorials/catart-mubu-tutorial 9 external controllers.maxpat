@@ -980,7 +980,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "tut9-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1002,7 +1002,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "tut9-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1037,7 +1037,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "tut9-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1059,7 +1059,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "tut9-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1081,7 +1081,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "tut9-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1131,7 +1131,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "tut9-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1383,7 +1383,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut9-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -1922,7 +1922,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-									"text" : "mubu.process corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
+									"text" : "mubu.process tut9-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2182,7 +2182,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut9-corpus"
 				}
 
 			}
@@ -2230,7 +2230,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"text" : "mubu.concat~ 2 tut9-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
 				}
 
 			}
@@ -2245,7 +2245,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 113.666663999999997, 469.600000858306885, 261.0, 24.0 ],
-					"text" : "mubu.knn corpus descr @radius 0 @k 1"
+					"text" : "mubu.knn tut9-corpus descr @radius 0 @k 1"
 				}
 
 			}
@@ -3572,7 +3572,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut9-corpus-refresh"
 								}
 
 							}
@@ -3625,7 +3625,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut9-corpus-refresh"
 								}
 
 							}

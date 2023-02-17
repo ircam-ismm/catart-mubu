@@ -545,7 +545,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track tut5a-corpus descr"
 								}
 
 							}
@@ -596,7 +596,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s tut5a-corpus-menu-init"
 								}
 
 							}
@@ -635,7 +635,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut5a-corpus-refresh"
 								}
 
 							}
@@ -1403,7 +1403,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus audio"
+													"text" : "mubu.track tut5a-corpus audio"
 												}
 
 											}
@@ -1608,7 +1608,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr"
+													"text" : "mubu.track tut5a-corpus descr"
 												}
 
 											}
@@ -1688,7 +1688,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut5a-corpus"
 												}
 
 											}
@@ -2123,7 +2123,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr"
+													"text" : "mubu.track tut5a-corpus descr"
 												}
 
 											}
@@ -2325,7 +2325,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut5a-corpus"
 												}
 
 											}
@@ -2575,7 +2575,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 113.666663999999997, 410.5, 185.0, 22.0 ],
-					"text" : "camu.imubu.control corpus descr"
+					"text" : "camu.imubu.control tut5a-corpus descr"
 				}
 
 			}
@@ -2606,7 +2606,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr" ],
+					"args" : [ "tut5a-corpus", "descr" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2885,7 +2885,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 538.0, 287.0, 100.0, 19.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s tut5a-corpus-menu-init"
 								}
 
 							}
@@ -3305,7 +3305,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus" ],
+									"args" : [ "tut5a-corpus" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -3585,7 +3585,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "tut5a-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3607,7 +3607,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "tut5a-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3642,7 +3642,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "tut5a-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3664,7 +3664,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "tut5a-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3686,7 +3686,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "tut5a-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3708,7 +3708,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "tut5a-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -3841,7 +3841,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut5a-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -4010,7 +4010,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut5a-corpus"
 				}
 
 			}
@@ -4042,7 +4042,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
+					"text" : "mubu.concat~ 2 tut5a-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
 				}
 
 			}

@@ -790,7 +790,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu corpus"
+									"text" : "mubu tut7-corpus"
 								}
 
 							}
@@ -826,7 +826,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 533.0, 287.0, 100.0, 19.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s tut7-corpus-menu-init"
 								}
 
 							}
@@ -1245,7 +1245,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus" ],
+									"args" : [ "tut7-corpus" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1633,7 +1633,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "update", "", "" ],
 					"patching_rect" : [ 150.888877577519736, 189.000000000000028, 117.0, 22.0 ],
-					"text" : "camu.record corpus"
+					"text" : "camu.record tut7-corpus"
 				}
 
 			}
@@ -1704,7 +1704,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "tut7-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1726,7 +1726,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "tut7-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1761,7 +1761,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "tut7-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1783,7 +1783,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "tut7-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1805,7 +1805,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "tut7-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1827,7 +1827,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "tut7-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1962,7 +1962,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut7-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -2145,7 +2145,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut7-corpus"
 				}
 
 			}
@@ -2177,7 +2177,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"text" : "mubu.concat~ 2 tut7-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
 				}
 
 			}
@@ -2192,7 +2192,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 113.888877577519736, 480.666668713092804, 298.0, 22.0 ],
-					"text" : "mubu.knn corpus descr"
+					"text" : "mubu.knn tut7-corpus descr"
 				}
 
 			}
@@ -3214,7 +3214,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s tut7-corpus-menu-init"
 								}
 
 							}
@@ -3267,7 +3267,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut7-corpus-refresh"
 								}
 
 							}

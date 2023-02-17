@@ -2263,7 +2263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 146.0, 392.375, 176.0, 24.0 ],
-					"text" : "camu.soundset.tag corpus"
+					"text" : "camu.soundset.tag tut10-corpus"
 				}
 
 			}
@@ -6826,7 +6826,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut10-corpus"
 												}
 
 											}
@@ -10947,7 +10947,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut10-corpus"
 												}
 
 											}
@@ -11880,7 +11880,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut10-corpus"
 												}
 
 											}
@@ -12075,7 +12075,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut10-corpus"
 												}
 
 											}
@@ -14309,7 +14309,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y" ],
+					"args" : [ "tut10-corpus", "descr", "y" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -14370,7 +14370,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x" ],
+					"args" : [ "tut10-corpus", "descr", "x" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -15538,7 +15538,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut10-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -16709,7 +16709,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 605.5, 268.0, 319.0, 21.0 ],
-									"text" : "camu.filenamenotenumber corpus descr FilenameNoteNumber"
+									"text" : "camu.filenamenotenumber tut10-corpus descr FilenameNoteNumber"
 								}
 
 							}
@@ -16861,7 +16861,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 267.0, 28.5, 584.0, 94.0 ],
-									"text" : "mubu.process corpus audio slice:yin:scale:onseg @name seg @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0",
+									"text" : "mubu.process tut10-corpus audio slice:yin:scale:onseg @name seg @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -17028,7 +17028,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-									"text" : "mubu.process corpus audio descr:chop:const @name descr @process 0 @progressoutput input @timetagged 1 @descr.moments 2 @chop.size 145 @chop.mean 1 @const.name FilenameNoteNumber",
+									"text" : "mubu.process tut10-corpus audio descr:chop:const @name descr @process 0 @progressoutput input @timetagged 1 @descr.moments 2 @chop.size 145 @chop.mean 1 @const.name FilenameNoteNumber",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -17306,7 +17306,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track tut10-corpus descr"
 								}
 
 							}
@@ -17521,7 +17521,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut10-corpus"
 				}
 
 			}
@@ -17567,7 +17567,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"text" : "mubu.concat~ 2 tut10-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
 				}
 
 			}
@@ -17582,7 +17582,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 43.666663999999997, 589.0, 345.0, 24.0 ],
-					"text" : "mubu.knn corpus descr @radius 0 @k 1"
+					"text" : "mubu.knn tut10-corpus descr @radius 0 @k 1"
 				}
 
 			}

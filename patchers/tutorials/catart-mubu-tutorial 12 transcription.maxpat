@@ -542,7 +542,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -4663,7 +4663,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -5596,7 +5596,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -5791,7 +5791,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -8729,7 +8729,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 217.0, 306.0, 151.0, 22.0 ],
-					"text" : "camu.soundset.tag corpus"
+					"text" : "camu.soundset.tag tut12-corpus"
 				}
 
 			}
@@ -18333,7 +18333,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus audio"
+													"text" : "mubu.track tut12-corpus audio"
 												}
 
 											}
@@ -18532,7 +18532,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -19267,7 +19267,7 @@
 																		"verbose" : 1
 																	}
 ,
-																	"text" : "mubu.track corpus descr"
+																	"text" : "mubu.track tut12-corpus descr"
 																}
 
 															}
@@ -20411,7 +20411,7 @@
 																										"verbose" : 1
 																									}
 ,
-																									"text" : "mubu.track corpus descr"
+																									"text" : "mubu.track tut12-corpus descr"
 																								}
 
 																							}
@@ -20635,7 +20635,7 @@
 																						"verbose" : 1
 																					}
 ,
-																					"text" : "mubu.track corpus descr"
+																					"text" : "mubu.track tut12-corpus descr"
 																				}
 
 																			}
@@ -22250,7 +22250,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr"
+													"text" : "mubu.track tut12-corpus descr"
 												}
 
 											}
@@ -30526,7 +30526,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu tut12-corpus"
 												}
 
 											}
@@ -31559,7 +31559,7 @@
 																		"verbose" : 1
 																	}
 ,
-																	"text" : "mubu.track corpus descr"
+																	"text" : "mubu.track tut12-corpus descr"
 																}
 
 															}
@@ -31783,7 +31783,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr"
+													"text" : "mubu.track tut12-corpus descr"
 												}
 
 											}
@@ -32170,7 +32170,7 @@
 									"patching_rect" : [ 235.0, 890.5, 99.0, 19.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 305.0, 595.0, 98.0, 19.0 ],
-									"text" : "s corpus-mubu.concat"
+									"text" : "s tut12-corpus-mubu.concat"
 								}
 
 							}
@@ -33193,7 +33193,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "LoudnessMean" ],
+					"args" : [ "tut12-corpus", "descr", "y", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -33242,7 +33242,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "FrequencyMean" ],
+					"args" : [ "tut12-corpus", "descr", "x", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -33732,7 +33732,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "PeriodicityMean" ],
+					"args" : [ "tut12-corpus", "descr", "color", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -33782,7 +33782,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "AC1Mean" ],
+					"args" : [ "tut12-corpus", "descr", "size", "AC1Mean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -33848,7 +33848,7 @@
 					"layout" : 0,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "tut12-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -35182,7 +35182,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 605.5, 268.0, 319.0, 21.0 ],
-									"text" : "camu.filenamenotenumber corpus descr FilenameNoteNumber"
+									"text" : "camu.filenamenotenumber tut12-corpus descr FilenameNoteNumber"
 								}
 
 							}
@@ -35334,7 +35334,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 267.0, 28.5, 886.0, 77.0 ],
-									"text" : "mubu.process corpus audio slice:yin:scale:onseg @name seg @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0 @timetagged 1 @onseg.duration 1",
+									"text" : "mubu.process tut12-corpus audio slice:yin:scale:onseg @name seg @process 0 @progressoutput output @scale.colindex 1 @scale.numcols 1 @scale.inmin 0 @scale.inmax 0.1 @scale.outmin -100 @scale.outmax 0 @scale.func log @scale.base 10 @onseg.colindex 1 @onseg.numcols 1 @onseg.mean 1 @onseg.threshold 0.3 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh 0 @timetagged 1 @onseg.duration 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -35501,7 +35501,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 548.0, 60.0 ],
-									"text" : "mubu.process corpus audio descr:chop:const @name descr @process 0 @progressoutput input @timetagged 1 @descr.moments 2 @chop.size 145 @chop.mean 1 @const.name FilenameNoteNumber @chop.duration 1",
+									"text" : "mubu.process tut12-corpus audio descr:chop:const @name descr @process 0 @progressoutput input @timetagged 1 @descr.moments 2 @chop.size 145 @chop.mean 1 @const.name FilenameNoteNumber @chop.duration 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -35824,7 +35824,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track tut12-corpus descr"
 								}
 
 							}
@@ -36069,7 +36069,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu tut12-corpus"
 				}
 
 			}
@@ -36131,7 +36131,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
+					"text" : "mubu.concat~ 2 tut12-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
 				}
 
 			}
@@ -36268,7 +36268,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 114.666663999999997, 504.0, 345.0, 24.0 ],
-					"text" : "mubu.knn corpus descr @radius 0 @k 1"
+					"text" : "mubu.knn tut12-corpus descr @radius 0 @k 1"
 				}
 
 			}
@@ -38070,7 +38070,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s tut12-corpus-refresh"
 								}
 
 							}
