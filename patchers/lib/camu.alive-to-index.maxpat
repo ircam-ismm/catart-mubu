@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 486.0, 370.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 34.0, 249.0, 35.0, 22.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
 					"index" : 3,
@@ -289,12 +313,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 587.0, 38.0, 107.0, 22.0 ],
-									"text" : "param instances 1"
+									"patching_rect" : [ 587.0, 38.0, 116.0, 35.0 ],
+									"text" : "param instances 32 @min 1 @max 32"
 								}
 
 							}
@@ -347,7 +372,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "////////// subroutines\r\n\r\nget_index_from_id (id, id_to_index, inst)\r\n{\r\n\treturn peek(id_to_index, id, inst);\r\n}\r\n\r\nget_unused_index (id, index_to_id, inst)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index, inst) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, count, index_to_id, id_to_index, inst)\r\n{\r\n\tindex = get_unused_index(id, index_to_id, inst);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index, inst);\r\n\tpoke(id_to_index, index, id,    inst);\r\n\taddit = (index < dim(index_to_id));\r\n\t// keep track of alive touches per instance and total\r\n\tinstances = dim(count);\r\n\tpoke(count, peek(count, inst) + addit, inst);\r\n\tpoke(count, peek(count, instances) + addit, instances); // global count\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, count, index_to_id, id_to_index, inst)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index, inst);\r\n\tpoke(id_to_index, -1, id,    inst);\r\n\t// keep track of alive touches per instance and total\r\n\tinstances = dim(count);\r\n\tpoke(count, peek(count, inst) - 1, inst);\r\n\tpoke(count, peek(count, instances) - 1, instances); // global count\r\n    return 0;\r\n}\r\n\r\n////////// globals\r\nParam instances; // number of independent alive lists\r\n\r\nData index_to_id (32, instances);\r\nData id_to_index (32, instances);\r\nData count (instances + 1); // one extra space for total #active ids\r\n\r\nHistory clear(1); // set param to 1 to clear\r\n\nif (clear) \r\n{\r\n    // do this at init, or when clear flag is set from outside\n\tn = dim(index_to_id);\r\n    m = channels(index_to_id);\r\n\r\n\tfor (k = 0; k < m; k += 1)\r\n\t{\r\n    \tfor (i = 0; i < n; i += 1) \r\n\t\t{   // set all arrays to -1 meaning empty slot\n        \tpoke(index_to_id, -1, i, k);\r\n\t\t\tpoke(id_to_index, -1, i, k);\n    \t}\r\n\t    poke(count, 0, k);\r\n\t}\r\n    poke(count, 0, m); // extra total count\r\n\tclear = 0;\n}    \r\n\r\n\r\n// input: \r\n// in1: integer ID\r\nid  = in1;\r\n\r\n// in2: 'activation' value (velocity or touch phase)\r\nact = in2;\r\n\r\n// in3 is flag how to interpret activation:\r\n// - 0: as velocity, \r\n// - 1: as ROLI touch phase (0 - begin, 1 - middle, 2 - end)\r\non  = in3 == 0  ?  act > 0  :  act != 2;\r\n\r\n// in4 is the current instance number = channel (zero based)\r\ninst = in4; \r\n\r\n\r\n////////////////// main\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index, inst);\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, count, index_to_id, id_to_index, inst);\r\n}\t\r\n\r\n// check if id switches off\r\nif (!on)\r\n{   // clear slots\r\n\tremove_id(id, index, count, index_to_id, id_to_index, inst);\r\n}\r\n\r\n// output\r\nout1 = index; // index of id\r\nout2 = peek(count, inst); // number of active ids in instance\r\nout3 = instances; //peek(count, instances); // total number of active ids in all instances",
+									"code" : "////////// subroutines\r\n\r\nget_index_from_id (id, id_to_index, inst)\r\n{\r\n\treturn peek(id_to_index, id, inst);\r\n}\r\n\r\nget_unused_index (id, index_to_id, inst)\r\n{\r\n\t// find first free index\r\n\tfor (index = 0; index < dim(index_to_id); index += 1)\r\n\t{\r\n\t\t if (peek(index_to_id, index, inst) < 0)\r\n\t\t\tbreak; // free slot found (-1)\r\n\t}\r\n\treturn index;\r\n}\r\n\r\nadd_id (id, count, index_to_id, id_to_index, inst)\r\n{\r\n\tindex = get_unused_index(id, index_to_id, inst);\r\n\t// poke(v, i) writes value v at position i (!)\r\n\tpoke(index_to_id, id,    index, inst);\r\n\tpoke(id_to_index, index, id,    inst);\r\n\taddit = (index < dim(index_to_id));\r\n\t// keep track of alive touches per instance and total\r\n\ttotal = dim(count) - 1;\r\n\tpoke(count, peek(count, inst) + addit, inst);\r\n\tpoke(count, peek(count, total) + addit, total); // global count\r\n\treturn index;\r\n}\r\n\r\nremove_id (id, index, count, index_to_id, id_to_index, inst)\r\n{   // clear array slots: set to -1\r\n\tpoke(index_to_id, -1, index, inst);\r\n\tpoke(id_to_index, -1, id,    inst);\r\n\t// keep track of alive touches per instance and total\r\n\ttotal = dim(count) - 1;\r\n\tpoke(count, peek(count, inst) - 1, inst);\r\n\tpoke(count, peek(count, total) - 1, total); // global count\r\n    return 0;\r\n}\r\n\r\n////////// globals\r\nParam instances; // number of independent alive lists\r\n\r\nData index_to_id (32, instances);\r\nData id_to_index (32, instances);\r\nData count (instances + 1); // one extra space for total #active ids\r\n\r\nHistory clear(1); // set param to 1 to clear\r\n\nif (clear) \r\n{\r\n    // do this at init, or when clear flag is set from outside\n\tn = dim(index_to_id);\r\n    m = instances; // clear up to used instances, not channels(index_to_id);\r\n\r\n\tfor (k = 0; k < m; k += 1)\r\n\t{\r\n    \tfor (i = 0; i < n; i += 1) \r\n\t\t{   // set all arrays to -1 meaning empty slot\n        \tpoke(index_to_id, -1, i, k);\r\n\t\t\tpoke(id_to_index, -1, i, k);\n    \t}\r\n\t    poke(count, 0, k);\r\n\t}\r\n    poke(count, 0, m); // extra total count\r\n\tclear = 0;\n}    \r\n\r\n\r\n// input: \r\n// in1: integer ID\r\nid  = in1;\r\n\r\n// in2: 'activation' value (velocity or touch phase)\r\nact = in2;\r\n\r\n// in3 is flag how to interpret activation:\r\n// - 0: as velocity, \r\n// - 1: as ROLI touch phase (0 - begin, 1 - middle, 2 - end)\r\non  = in3 == 0  ?  act > 0  :  act != 2;\r\n\r\n// in4 is the current instance number = channel (zero based)\r\ninst = in4; \r\n\r\n\r\n////////////////// main\r\n\r\n// check if id is already known\r\nindex = get_index_from_id(id, id_to_index, inst);\r\n\r\nif (index < 0)\r\n{ // no: find first unused index and add id\r\n\tindex = add_id(id, count, index_to_id, id_to_index, inst);\r\n}\t\r\n\r\n// check if id switches off\r\nif (!on)\r\n{   // clear slots\r\n\tremove_id(id, index, count, index_to_id, id_to_index, inst);\r\n}\r\n\r\n// output\r\nout1 = index; // index of id\r\nout2 = peek(count, inst); // number of active ids in instance\r\nout3 = peek(count, dim(count) - 1); // total number of active ids in all instances",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
@@ -424,12 +449,12 @@
  ]
 					}
 ,
-					"patching_rect" : [ 20.171875, 308.0, 93.0, 22.0 ],
+					"patching_rect" : [ 20.171875, 308.0, 132.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"exportfolder" : "System:/Users/schwarz/src/catart-mubu/patchers/lib/"
+						"exportfolder" : "System:/Users/schwarz/Desktop/"
 					}
 ,
-					"text" : "gen"
+					"text" : "gen @t alive-to-index 4"
 				}
 
 			}
@@ -657,6 +682,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -692,6 +726,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -716,6 +757,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
