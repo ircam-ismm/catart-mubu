@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1209.0, 814.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1209.0, 788.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -757,7 +757,7 @@
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 0.0, 11178.639455782313235 ],
+									"domain_bounds" : [ 0.0, 8921.145833333332121 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -773,7 +773,6 @@
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
-									"maintrack" : -1,
 									"maxclass" : "imubu",
 									"mousewheelscroll" : 0,
 									"name" : "corpus",
@@ -937,7 +936,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1653,7 +1652,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2891,13 +2890,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1209.0, 788.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3382,13 +3381,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1209.0, 788.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4276,13 +4275,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1209.0, 788.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4324,12 +4323,62 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"gradient" : 1,
+									"id" : "obj-23",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1044.0, 259.5, 62.0, 22.0 ],
+									"text" : "Tutorial 8",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-14",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 894.0, 220.5, 212.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "UI to enable and disable soundfiles by tags"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 742.5, 228.0, 151.0, 22.0 ],
+									"text" : "camu.select.tag"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgcolor2" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.890196078431372, 0.819607843137255, 0.725490196078431, 1.0 ],
+									"bgfillcolor_color1" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
+									"fontface" : 1,
+									"gradient" : 1,
 									"id" : "obj-94",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 347.5, 62.0, 22.0 ],
+									"patching_rect" : [ 1044.0, 404.0, 62.0, 22.0 ],
 									"text" : "Tutorial 7",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4353,7 +4402,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1041.0, 299.0, 68.0, 22.0 ],
+									"patching_rect" : [ 1041.0, 355.5, 68.0, 22.0 ],
 									"text" : "Tutorial 11",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4377,7 +4426,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 250.0, 68.0, 22.0 ],
+									"patching_rect" : [ 1044.0, 306.5, 68.0, 22.0 ],
 									"text" : "Tutorial 10",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4917,7 +4966,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 742.5, 178.5, 151.0, 22.0 ],
-									"text" : "camu.autotag"
+									"text" : "camu.auto.tag"
 								}
 
 							}
@@ -5001,7 +5050,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 226.0, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 282.5, 212.0, 24.0 ],
 									"text" : "apply dir name as tag"
 								}
 
@@ -5013,7 +5062,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 227.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 284.0, 151.0, 22.0 ],
 									"text" : "camu.soundset.tag"
 								}
 
@@ -5038,7 +5087,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 275.5, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 332.0, 212.0, 24.0 ],
 									"text" : "extract note number from file name"
 								}
 
@@ -5111,7 +5160,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 321.5, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 378.0, 212.0, 24.0 ],
 									"text" : "record audio in and update knn"
 								}
 
@@ -5185,7 +5234,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 275.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 332.0, 151.0, 22.0 ],
 									"text" : "camu.filenamenotenumber"
 								}
 
@@ -5245,7 +5294,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 324.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 380.5, 151.0, 22.0 ],
 									"text" : "camu.record"
 								}
 
@@ -5311,7 +5360,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5450,11 +5499,25 @@
 									"background" : 1,
 									"fontface" : 1,
 									"fontsize" : 12.0,
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1017.0, 259.5, 29.0, 20.0 ],
+									"text" : "see"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"fontface" : 1,
+									"fontsize" : 12.0,
 									"id" : "obj-95",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 347.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 404.0, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5468,7 +5531,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1014.0, 299.0, 29.0, 20.0 ],
+									"patching_rect" : [ 1014.0, 355.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5482,7 +5545,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 250.0, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 306.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5688,6 +5751,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
+									"midpoints" : [ 752.0, 591.5, 383.0, 591.5 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"hidden" : 1,
 									"midpoints" : [ 752.0, 590.367187999999942, 383.0, 590.367187999999942 ],
 									"source" : [ "obj-16", 0 ]
 								}
@@ -5726,6 +5798,14 @@
 									"hidden" : 1,
 									"midpoints" : [ 28.5, 591.867187999999942, 383.0, 591.867187999999942 ],
 									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-85", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -5884,7 +5964,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 752.0, 585.8671875, 383.0, 585.8671875 ],
+									"midpoints" : [ 752.0, 590.8671875, 383.0, 590.8671875 ],
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -6079,29 +6159,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-overview.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "icon.png",
-				"bootpath" : "~/src/catart-mubu",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
+				"patcherrelativepath" : "../../../Library/Gesture&Sound",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -6130,41 +6203,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshotlist" : 			{
-				"current_snapshot" : -1,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "catart-mubu-overview",
-						"origin" : "catart-mubu-overview",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "catart-mubu-overview",
-							"filename" : "catart-mubu-overview.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "65044c3e70d19dbf9de18836be7c879d"
-						}
-
-					}
- ]
-			}
-
-		}
-
+		"autosave" : 0
 	}
 
 }
