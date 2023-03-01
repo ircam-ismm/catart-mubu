@@ -3387,7 +3387,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4281,7 +4281,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4342,8 +4342,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 220.5, 212.0, 37.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 894.0, 222.5, 216.0, 37.0 ],
 									"text" : "UI to enable and disable soundfiles by tags"
 								}
 
@@ -4355,7 +4354,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 228.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 230.0, 151.0, 22.0 ],
 									"text" : "camu.select.tag"
 								}
 
@@ -4402,7 +4401,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1041.0, 355.5, 68.0, 22.0 ],
+									"patching_rect" : [ 1041.0, 357.5, 68.0, 22.0 ],
 									"text" : "Tutorial 11",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4426,7 +4425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 306.5, 68.0, 22.0 ],
+									"patching_rect" : [ 1044.0, 308.5, 68.0, 22.0 ],
 									"text" : "Tutorial 10",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -5050,7 +5049,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 282.5, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 284.5, 212.0, 24.0 ],
 									"text" : "apply dir name as tag"
 								}
 
@@ -5062,7 +5061,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 284.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 286.0, 151.0, 22.0 ],
 									"text" : "camu.soundset.tag"
 								}
 
@@ -5087,7 +5086,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 332.0, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 334.0, 212.0, 24.0 ],
 									"text" : "extract note number from file name"
 								}
 
@@ -5160,7 +5159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 378.0, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 380.0, 212.0, 24.0 ],
 									"text" : "record audio in and update knn"
 								}
 
@@ -5234,7 +5233,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 332.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 334.0, 151.0, 22.0 ],
 									"text" : "camu.filenamenotenumber"
 								}
 
@@ -5294,7 +5293,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 380.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 382.5, 151.0, 22.0 ],
 									"text" : "camu.record"
 								}
 
@@ -5531,7 +5530,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1014.0, 355.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1014.0, 357.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5545,7 +5544,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 306.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 308.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
