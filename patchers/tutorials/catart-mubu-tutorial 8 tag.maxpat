@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -792,12 +792,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1557.297172079916209,
+					"cursor_position" : 5058.033232529242014,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 1340.628142075614505, 4646.219753679705718 ],
+					"domain_bounds" : [ 71.586521977739864, 11060.237606341237552 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1065,7 +1065,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1164,6 +1164,7 @@
 									"patching_rect" : [ 10.0, 297.0, 394.0, 36.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
+									"size" : 10,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 									"spacing" : 1
 								}
@@ -1730,7 +1731,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1956,7 +1957,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2710,7 +2711,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3442,7 +3443,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4288,6 +4289,7 @@
 					"patching_rect" : [ 114.0, 187.0, 121.0, 19.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
+					"size" : 10,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -4890,6 +4892,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"hidden" : 1,
+					"order" : 2,
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"hidden" : 1,
 					"midpoints" : [ 123.5, 193.0, 123.5, 193.0, 123.5, 164.499985000000009, 123.5, 164.499985000000009 ],
@@ -4899,9 +4910,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"hidden" : 1,
+					"order" : 1,
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
 					"midpoints" : [ 225.5, 193.0, 552.0, 193.0, 552.0, 103.0, 580.5, 103.0 ],
+					"order" : 0,
 					"source" : [ "obj-69", 1 ]
 				}
 
@@ -4995,6 +5016,12 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-113" : [ "umenu", "umenu", 0 ],
+			"obj-38::obj-113" : [ "umenu[4]", "umenu", 0 ],
+			"obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
+			"obj-49::obj-113" : [ "umenu[5]", "umenu", 0 ],
+			"obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
+			"obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-67" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -5005,20 +5032,59 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-17::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-38::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-49::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-54::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-55::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.autotag.maxpat",
-				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
-				"patcherrelativepath" : "../../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
-				"patcherrelativepath" : "../../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
