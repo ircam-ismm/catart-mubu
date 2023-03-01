@@ -73,11 +73,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "update", "" ],
-					"patching_rect" : [ 269.5, 187.0, 184.0, 24.0 ],
+					"patching_rect" : [ 269.5, 187.0, 180.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 373.5, 271.125, 105.0, 40.0 ],
-					"text" : "camu.select-key tut8-corpus",
+					"text" : "camu.select.tag tut8-corpus",
 					"varname" : "select-by-key"
 				}
 
@@ -192,7 +192,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.autotag.maxpat",
+					"name" : "camu.auto.tag.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -807,12 +807,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 108.523164278121357,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 71.586521977739864, 11060.237606341237552 ],
+					"domain_bounds" : [ 1340.628142075614505, 4646.219753679705718 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1179,7 +1179,6 @@
 									"patching_rect" : [ 10.0, 297.0, 394.0, 36.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 10,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 									"spacing" : 1
 								}
@@ -4288,7 +4287,6 @@
 					"patching_rect" : [ 114.0, 187.0, 121.0, 19.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -4450,14 +4448,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -4874,15 +4864,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"hidden" : 1,
-					"order" : 2,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -4902,15 +4883,6 @@
 					"destination" : [ "obj-23", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
-					"hidden" : 1,
-					"order" : 2,
-					"source" : [ "obj-69", 1 ]
 				}
 
 			}
@@ -5090,7 +5062,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "camu.autotag.maxpat",
+				"name" : "camu.auto.tag.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
@@ -5111,7 +5083,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.select-key.maxpat",
+				"name" : "camu.select.tag.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
