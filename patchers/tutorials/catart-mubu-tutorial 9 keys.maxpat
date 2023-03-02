@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-16",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 299.333344000000011, 1.0, 243.333311999999978, 53.0 ],
+					"text" : "Assign keys to groups of soundfiles to enable and disable them for selection and display"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-4",
 					"linecount" : 3,
@@ -60,7 +74,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 452.5, 185.0, 112.0, 37.0 ],
-					"text" : "open to enable or disable tags"
+					"text" : "open to enable or disable keys"
 				}
 
 			}
@@ -73,11 +87,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "update", "" ],
-					"patching_rect" : [ 269.5, 187.0, 180.0, 24.0 ],
+					"patching_rect" : [ 269.5, 187.0, 182.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 373.5, 271.125, 105.0, 40.0 ],
-					"text" : "camu.select.tag tut8-corpus",
+					"text" : "camu.key.select tut8-corpus",
 					"varname" : "select-by-key"
 				}
 
@@ -148,8 +162,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.5, 1.0, 223.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 9: Tagging"
+					"patching_rect" : [ 109.5, 1.0, 188.0, 60.0 ],
+					"text" : "CataRT-MuBu\nTutorial 9: Keys"
 				}
 
 			}
@@ -192,7 +206,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.auto.tag.maxpat",
+					"name" : "camu.key.value.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -5088,7 +5102,14 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "camu.auto.tag.maxpat",
+				"name" : "camu.key.select.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"patcherrelativepath" : "../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.key.value.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
@@ -5103,13 +5124,6 @@
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
-				"patcherrelativepath" : "../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "camu.select.tag.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
