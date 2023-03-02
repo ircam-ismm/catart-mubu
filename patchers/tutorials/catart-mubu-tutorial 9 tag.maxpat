@@ -149,7 +149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.5, 1.0, 223.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 8: Tagging"
+					"text" : "CataRT-MuBu\nTutorial 9: Tagging"
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 4640.664137525749538,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,

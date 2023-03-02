@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 211.0, 101.0, 1047.0, 804.0 ],
+		"rect" : [ 199.0, 101.0, 1047.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.5, 1.0, 360.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 9: External Controllers"
+					"text" : "CataRT-MuBu\nTutorial 8: External Controllers"
 				}
 
 			}
@@ -134,7 +134,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -684,7 +684,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1350,6 +1350,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -1360,12 +1361,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3312.2412109375,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1343.919402951778693, 7438.752090018620947 ],
+					"domain_bounds" : [ 1340.043764863499064, 4646.652137623483213 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1491,7 +1492,6 @@
 					"patching_rect" : [ 239.039780000000007, 161.0, 198.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 31,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1700,7 +1700,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1799,7 +1799,6 @@
 									"patching_rect" : [ 10.0, 297.0, 393.920440999999983, 36.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 31,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 									"spacing" : 1
 								}
@@ -2170,7 +2169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 127.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 127.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -2244,7 +2243,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
-					"patching_rect" : [ 113.666663999999997, 469.600000858306885, 261.0, 24.0 ],
+					"patching_rect" : [ 113.666663999999997, 469.600000858306885, 287.0, 24.0 ],
 					"text" : "mubu.knn tut9-corpus descr @radius 0 @k 1"
 				}
 
@@ -2263,7 +2262,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3386,7 +3385,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3568,6 +3567,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -3621,6 +3621,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-140",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4381,7 +4382,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 4 ],
 					"hidden" : 1,
-					"midpoints" : [ 365.166663999999969, 497.999994858306877, 384.399993999999992, 497.999994858306877, 384.399993999999992, 438.600000858306885, 300.0, 438.600000858306885, 300.0, 438.600000858306885, 193.566664000000003, 438.600000858306885 ],
+					"midpoints" : [ 391.166663999999969, 497.999994858306877, 384.399993999999992, 497.999994858306877, 384.399993999999992, 438.600000858306885, 300.0, 438.600000858306885, 300.0, 438.600000858306885, 193.566664000000003, 438.600000858306885 ],
 					"source" : [ "obj-46", 3 ]
 				}
 
@@ -4712,29 +4713,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
-				"patcherrelativepath" : "../..",
+				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
+				"patcherrelativepath" : "../../../../Library/Gesture&Sound",
 				"type" : "PNG",
 				"implicit" : 1
 			}

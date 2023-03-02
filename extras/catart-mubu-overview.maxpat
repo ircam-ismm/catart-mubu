@@ -2896,7 +2896,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3387,7 +3387,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3570,7 +3570,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.5, 549.0, 211.0, 24.0 ],
+									"patching_rect" : [ 330.5, 519.0, 211.0, 24.0 ],
 									"text" : "how to connect external controllers"
 								}
 
@@ -3583,8 +3583,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 550.0, 285.0, 22.0 ],
-									"text" : "catart-mubu-tutorial 9 external controllers"
+									"patching_rect" : [ 39.625, 520.0, 227.0, 22.0 ],
+									"text" : "catart-mubu-tutorial 8 external controllers"
 								}
 
 							}
@@ -3596,7 +3596,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.5, 519.0, 139.0, 24.0 ],
+									"patching_rect" : [ 330.5, 549.0, 139.0, 24.0 ],
 									"text" : "assign tags to buffers"
 								}
 
@@ -3635,8 +3635,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 520.0, 285.0, 22.0 ],
-									"text" : "catart-mubu-tutorial 8 tag"
+									"patching_rect" : [ 39.625, 550.0, 143.0, 22.0 ],
+									"text" : "catart-mubu-tutorial 9 tag"
 								}
 
 							}
@@ -4091,7 +4091,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 49.125, 543.0, 24.0, 543.0, 24.0, 705.0, 681.0, 705.0, 681.0, 690.0, 705.625, 690.0 ],
+									"midpoints" : [ 49.125, 575.0, 24.0, 575.0, 24.0, 705.0, 681.0, 705.0, 681.0, 690.0, 705.625, 690.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -4126,7 +4126,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 49.125, 573.0, 24.0, 573.0, 24.0, 705.0, 681.0, 705.0, 681.0, 690.0, 705.625, 690.0 ],
+									"midpoints" : [ 49.125, 545.0, 24.0, 545.0, 24.0, 705.0, 681.0, 705.0, 681.0, 690.0, 705.625, 690.0 ],
 									"source" : [ "obj-28", 0 ]
 								}
 
@@ -4328,8 +4328,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 259.5, 62.0, 22.0 ],
-									"text" : "Tutorial 8",
+									"patching_rect" : [ 1044.0, 310.5, 62.0, 22.0 ],
+									"text" : "Tutorial 9",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -4342,7 +4342,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 222.5, 216.0, 37.0 ],
+									"patching_rect" : [ 894.0, 273.5, 216.0, 37.0 ],
 									"text" : "UI to enable and disable soundfiles by tags"
 								}
 
@@ -4354,7 +4354,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 230.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 281.75, 151.0, 22.0 ],
 									"text" : "camu.select.tag"
 								}
 
@@ -4377,7 +4377,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 404.0, 62.0, 22.0 ],
+									"patching_rect" : [ 1044.0, 200.0, 62.0, 22.0 ],
 									"text" : "Tutorial 7",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4401,7 +4401,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1041.0, 357.5, 68.0, 22.0 ],
+									"patching_rect" : [ 1041.0, 408.5, 68.0, 22.0 ],
 									"text" : "Tutorial 11",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4425,7 +4425,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 308.5, 68.0, 22.0 ],
+									"patching_rect" : [ 1044.0, 355.5, 68.0, 22.0 ],
 									"text" : "Tutorial 10",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4449,8 +4449,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1044.0, 201.5, 62.0, 22.0 ],
-									"text" : "Tutorial 8",
+									"patching_rect" : [ 1044.0, 252.5, 62.0, 22.0 ],
+									"text" : "Tutorial 9",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -4695,7 +4695,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 278.0, 259.0, 62.0, 22.0 ],
+									"patching_rect" : [ 272.0, 252.5, 62.0, 22.0 ],
 									"text" : "Tutorial 3",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -4801,7 +4801,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 125.5, 382.0, 215.0, 24.0 ],
+									"patching_rect" : [ 125.5, 386.0, 215.0, 24.0 ],
 									"text" : "synthesis for poly~"
 								}
 
@@ -4813,7 +4813,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 382.0, 105.0, 22.0 ],
+									"patching_rect" : [ 18.5, 386.0, 105.0, 22.0 ],
 									"text" : "camu.synth.poly~"
 								}
 
@@ -4895,7 +4895,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 125.0, 233.0, 215.0, 24.0 ],
+									"patching_rect" : [ 125.0, 230.125, 215.0, 24.0 ],
 									"text" : "all selection and UI"
 								}
 
@@ -4907,7 +4907,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.5, 233.5, 105.0, 22.0 ],
+									"patching_rect" : [ 18.5, 230.125, 105.0, 22.0 ],
 									"text" : "camu.select"
 								}
 
@@ -4952,7 +4952,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 177.5, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 228.5, 212.0, 24.0 ],
 									"text" : "UI to add tags to soundfiles"
 								}
 
@@ -4964,7 +4964,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 178.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 230.125, 151.0, 22.0 ],
 									"text" : "camu.auto.tag"
 								}
 
@@ -5049,7 +5049,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 284.5, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 332.375, 212.0, 24.0 ],
 									"text" : "apply dir name as tag"
 								}
 
@@ -5061,7 +5061,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 286.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 333.375, 151.0, 22.0 ],
 									"text" : "camu.soundset.tag"
 								}
 
@@ -5086,7 +5086,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 334.0, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 385.0, 212.0, 24.0 ],
 									"text" : "extract note number from file name"
 								}
 
@@ -5159,7 +5159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 894.0, 380.0, 212.0, 24.0 ],
+									"patching_rect" : [ 894.0, 176.0, 212.0, 24.0 ],
 									"text" : "record audio in and update knn"
 								}
 
@@ -5171,7 +5171,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 125.5, 336.0, 215.0, 24.0 ],
+									"patching_rect" : [ 125.5, 333.375, 215.0, 24.0 ],
 									"text" : "selection and synthesis for poly~"
 								}
 
@@ -5184,7 +5184,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 125.5, 284.0, 215.0, 37.0 ],
+									"patching_rect" : [ 125.0, 273.5, 215.0, 37.0 ],
 									"text" : "selection and synthesis (standalone)"
 								}
 
@@ -5233,7 +5233,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 334.0, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 385.0, 151.0, 22.0 ],
 									"text" : "camu.filenamenotenumber"
 								}
 
@@ -5293,7 +5293,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 382.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 178.5, 151.0, 22.0 ],
 									"text" : "camu.record"
 								}
 
@@ -5305,7 +5305,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 336.0, 105.0, 22.0 ],
+									"patching_rect" : [ 18.5, 333.375, 105.0, 22.0 ],
 									"text" : "camu.voice.poly~"
 								}
 
@@ -5317,7 +5317,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 291.5, 105.0, 22.0 ],
+									"patching_rect" : [ 18.5, 281.0, 105.0, 22.0 ],
 									"text" : "camu.voice"
 								}
 
@@ -5502,7 +5502,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 259.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 310.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5516,7 +5516,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 404.0, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 200.0, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5530,7 +5530,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1014.0, 357.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1014.0, 408.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5544,7 +5544,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 308.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 356.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5558,7 +5558,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1017.0, 201.5, 29.0, 20.0 ],
+									"patching_rect" : [ 1017.0, 252.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5628,7 +5628,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 250.0, 259.0, 29.0, 20.0 ],
+									"patching_rect" : [ 244.0, 252.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -5786,7 +5786,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 28.5, 589.367187999999942, 383.0, 589.367187999999942 ],
+									"midpoints" : [ 28.0, 589.367187999999942, 383.0, 589.367187999999942 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -5795,7 +5795,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 28.5, 591.867187999999942, 383.0, 591.867187999999942 ],
+									"midpoints" : [ 28.0, 591.867187999999942, 383.0, 591.867187999999942 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
