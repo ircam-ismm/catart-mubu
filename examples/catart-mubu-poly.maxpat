@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 905.149994254112244, 357.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "this dummy camu.select bpatcher serves to set the selection parameters. They are set for all poly instances via its right outlet."
 				}
 
@@ -62,8 +61,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.0, 1091.0, 335.0, 47.0 ],
-					"presentation_linecount" : 12,
+					"patching_rect" : [ 509.0, 1091.0, 338.0, 47.0 ],
 					"text" : "this dummy mubu.concat~ is named concat-proxy and serves to set the synthesis parameters via attrui. The attrs are set for all poly instances via [js attrchanged concat-proxy]"
 				}
 
@@ -103,8 +101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -469,6 +467,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 703.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 409.785496782352425, 193.0, 22.0 ]
@@ -509,9 +508,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.5, 414.399993999999992, 85.0, 35.0 ],
+					"patching_rect" : [ 28.5, 414.399993999999992, 87.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "attrchanged.js",
+						"filename" : "attrchanged",
 						"parameter_enable" : 0
 					}
 ,
@@ -530,8 +529,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -782,6 +781,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 1057.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 612.850005745887756, 193.0, 22.0 ]
@@ -798,6 +798,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 977.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 532.850005745887756, 193.0, 22.0 ]
@@ -814,6 +815,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 997.149994254112244, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 552.850005745887756, 193.0, 22.0 ]
@@ -830,6 +832,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 1017.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 572.850005745887756, 193.0, 22.0 ]
@@ -846,6 +849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 1037.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 264.0, 592.850005745887756, 193.0, 22.0 ]
@@ -861,6 +865,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 681.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 388.785496782352425, 193.0, 22.0 ]
@@ -946,6 +951,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 724.649994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 432.350005745887756, 193.0, 22.0 ]
@@ -962,6 +968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 744.649994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 452.350005745887756, 193.0, 22.0 ]
@@ -978,6 +985,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 764.649994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 472.350005745887756, 193.0, 22.0 ]
@@ -994,6 +1002,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 785.149994254112244, 193.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 492.850005745887756, 193.0, 22.0 ]
@@ -1010,6 +1019,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 805.149994254112244, 195.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 512.850005745887756, 193.0, 22.0 ]
@@ -1026,6 +1036,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 825.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 532.850005745887756, 193.0, 22.0 ]
@@ -1042,6 +1053,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 845.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 552.850005745887756, 193.0, 22.0 ]
@@ -1058,6 +1070,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 865.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 572.850005745887756, 193.0, 22.0 ]
@@ -1074,6 +1087,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 885.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 592.850005745887756, 193.0, 22.0 ]
@@ -1090,6 +1104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 905.149994254112244, 194.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 612.850005745887756, 193.0, 22.0 ]
@@ -1106,6 +1121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 360.5, 925.149994254112244, 193.0, 22.0 ]
 				}
 
@@ -1141,7 +1157,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ corpus",
+					"text" : "mubu.concat~ poly-corpus",
 					"varname" : "concat-proxy"
 				}
 
@@ -1154,6 +1170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 10.0, 874.149994254112244, 152.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 343.785496782352425, 152.0, 22.0 ]
@@ -1271,7 +1288,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.5, 612.850005745887756, 50.0, 22.0 ],
-					"text" : "voice 6"
+					"text" : "voice 1"
 				}
 
 			}
@@ -1283,7 +1300,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 205.75, 354.699982000000091, 56.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "target $1"
 				}
 
@@ -1331,8 +1347,8 @@
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "bang", "bang", "" ],
 					"patching_rect" : [ 472.5, 271.999985000000038, 115.0, 22.0 ],
 					"text" : "camu.control.mpe"
 				}
@@ -1347,7 +1363,7 @@
 					"patching_rect" : [ 905.0, 883.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 675.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 126 ms"
+					"text" : "Duration: 250 ms"
 				}
 
 			}
@@ -1372,7 +1388,7 @@
 					"patching_rect" : [ 583.162391742070554, 883.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 650.799987999999985, 64.5870299734421, 20.0 ],
-					"text" : "Buffer: 5"
+					"text" : "Buffer: 1"
 				}
 
 			}
@@ -1397,7 +1413,7 @@
 					"patching_rect" : [ 705.162391742070554, 883.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 650.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 2"
+					"text" : "Index: 34"
 				}
 
 			}
@@ -1422,7 +1438,7 @@
 					"patching_rect" : [ 1032.162391742070668, 883.0, 264.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 268.912963999999988, 650.799987999999985, 299.587036000000012, 20.0 ],
-					"text" : "File: DesMilliersdePetitsGrelots….aif"
+					"text" : "File: Gouttes-LeNaun.wav"
 				}
 
 			}
@@ -1441,13 +1457,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-64",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.0, 883.0, 81.162391742070554, 20.0 ],
+					"patching_rect" : [ 816.0, 883.0, 81.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 675.799987999999985, 94.0, 20.0 ],
-					"text" : "Start: 900 ms"
+					"text" : "Start: 8500 ms"
 				}
 
 			}
@@ -1475,7 +1492,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus audio"
+					"text" : "mubu.track poly-corpus audio"
 				}
 
 			}
@@ -1515,7 +1532,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus descr"
+					"text" : "mubu.track poly-corpus descr"
 				}
 
 			}
@@ -1648,8 +1665,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1690,7 +1707,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.916668000000016, 343.0, 207.0, 20.0 ],
-									"presentation_linecount" : 3,
 									"text" : "simulate touch id 1 with 0.8 pressure"
 								}
 
@@ -1754,7 +1770,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 431.458334000000093, 202.350020745887718, 93.0, 33.0 ],
-									"presentation_linecount" : 4,
 									"text" : "gettarget, gettargetminmax"
 								}
 
@@ -1852,8 +1867,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2312,7 +2327,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 431.000000000000114, 35.999999999999972, 97.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "multi-touch msg:"
 								}
 
@@ -2994,7 +3008,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.0, 236.050859987735748, 185.0, 22.0 ],
-					"text" : "camu.imubu.control corpus descr"
+					"text" : "camu.imubu.control poly-corpus descr"
 				}
 
 			}
@@ -3008,8 +3022,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.25, 203.973922690258064, 215.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 3.666664, 196.999985000000009, 66.0, 74.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 3.666664, 196.999985000000009, 69.0, 60.0 ],
 					"text" : "click mode: select only on mouse click"
 				}
 
@@ -3040,8 +3054,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3399,8 +3413,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3822,7 +3836,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track poly-corpus descr"
 								}
 
 							}
@@ -3925,7 +3939,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s poly-corpus-menu-init"
 								}
 
 							}
@@ -3978,7 +3992,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s poly-corpus-refresh"
 								}
 
 							}
@@ -4703,8 +4717,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4749,8 +4763,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4925,7 +4939,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr",
+													"text" : "mubu.track poly-corpus descr",
 													"varname" : "tt[8]"
 												}
 
@@ -5008,7 +5022,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus audio",
+													"text" : "mubu.track poly-corpus audio",
 													"varname" : "tt[1]"
 												}
 
@@ -5059,7 +5073,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu poly-corpus"
 												}
 
 											}
@@ -5387,7 +5401,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus audio",
+									"text" : "mubu.track poly-corpus audio",
 									"varname" : "tt"
 								}
 
@@ -5460,7 +5474,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 703.0, 109.5, 100.0, 19.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s poly-corpus-menu-init"
 								}
 
 							}
@@ -5879,7 +5893,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus" ],
+									"args" : [ "poly-corpus" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -5889,7 +5903,7 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.off.maxpat",
+									"name" : "camu.process.descr-chop.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
@@ -6271,7 +6285,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "type" ],
+					"args" : [ "poly-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6295,7 +6309,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "opacity" ],
+					"args" : [ "poly-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6334,7 +6348,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "poly-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6358,7 +6372,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "poly-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6382,7 +6396,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "poly-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6422,7 +6436,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "poly-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -6487,6 +6501,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"cursor_circlefilled" : 1,
@@ -6497,12 +6512,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -0.010183435595524,
+					"cursor_position" : 2290.558717264932056,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -0.010183435595524, 1.008396556287714 ],
+					"domain_bounds" : [ 1845.854110131246443, 4107.713749862924487 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -6518,9 +6533,10 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "poly-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -6745,13 +6761,13 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu poly-corpus"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-37",
@@ -6842,7 +6858,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.5, 209.999985000000009, 118.0, 35.0 ],
-					"text" : "camu.control.blocks corpus descr"
+					"text" : "camu.control.blocks poly-corpus descr"
 				}
 
 			}
@@ -7802,30 +7818,75 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-113" : [ "umenu", "umenu", 0 ],
 			"obj-206.10::obj-46::obj-34" : [ "number[9]", "number", 0 ],
-			"obj-206.10::obj-46::obj-82" : [ "umenu[9]", "umenu", 0 ],
+			"obj-206.10::obj-46::obj-82" : [ "umenu[15]", "umenu", 0 ],
 			"obj-206.1::obj-46::obj-34" : [ "number[10]", "number", 0 ],
 			"obj-206.1::obj-46::obj-82" : [ "umenu[10]", "umenu", 0 ],
 			"obj-206.2::obj-46::obj-34" : [ "number[1]", "number", 0 ],
-			"obj-206.2::obj-46::obj-82" : [ "umenu[1]", "umenu", 0 ],
+			"obj-206.2::obj-46::obj-82" : [ "umenu[6]", "umenu", 0 ],
 			"obj-206.3::obj-46::obj-34" : [ "number[2]", "number", 0 ],
-			"obj-206.3::obj-46::obj-82" : [ "umenu[2]", "umenu", 0 ],
+			"obj-206.3::obj-46::obj-82" : [ "umenu[7]", "umenu", 0 ],
 			"obj-206.4::obj-46::obj-34" : [ "number[3]", "number", 0 ],
-			"obj-206.4::obj-46::obj-82" : [ "umenu[3]", "umenu", 0 ],
+			"obj-206.4::obj-46::obj-82" : [ "umenu[8]", "umenu", 0 ],
 			"obj-206.5::obj-46::obj-34" : [ "number[4]", "number", 0 ],
-			"obj-206.5::obj-46::obj-82" : [ "umenu[4]", "umenu", 0 ],
+			"obj-206.5::obj-46::obj-82" : [ "umenu[9]", "umenu", 0 ],
 			"obj-206.6::obj-46::obj-34" : [ "number[5]", "number", 0 ],
-			"obj-206.6::obj-46::obj-82" : [ "umenu[5]", "umenu", 0 ],
+			"obj-206.6::obj-46::obj-82" : [ "umenu[11]", "umenu", 0 ],
 			"obj-206.7::obj-46::obj-34" : [ "number[6]", "number", 0 ],
-			"obj-206.7::obj-46::obj-82" : [ "umenu[6]", "umenu", 0 ],
+			"obj-206.7::obj-46::obj-82" : [ "umenu[12]", "umenu", 0 ],
 			"obj-206.8::obj-46::obj-34" : [ "number[7]", "number", 0 ],
-			"obj-206.8::obj-46::obj-82" : [ "umenu[7]", "umenu", 0 ],
+			"obj-206.8::obj-46::obj-82" : [ "umenu[13]", "umenu", 0 ],
 			"obj-206.9::obj-46::obj-34" : [ "number[8]", "number", 0 ],
-			"obj-206.9::obj-46::obj-82" : [ "umenu[8]", "umenu", 0 ],
+			"obj-206.9::obj-46::obj-82" : [ "umenu[14]", "umenu", 0 ],
+			"obj-38::obj-113" : [ "umenu[4]", "umenu", 0 ],
+			"obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
 			"obj-46::obj-34" : [ "number", "number", 0 ],
-			"obj-46::obj-82" : [ "umenu", "umenu", 0 ],
+			"obj-46::obj-82" : [ "umenu[16]", "umenu", 0 ],
+			"obj-49::obj-113" : [ "umenu[5]", "umenu", 0 ],
+			"obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
+			"obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-67" : [ "live.gain~", "Volume", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-17::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-38::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-49::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-54::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-55::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
 
 			}
 ,
@@ -7849,101 +7910,98 @@
 			}
 , 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.control.blocks.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.control.mpe.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.control.sensel.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.off.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"name" : "camu.process.descr-chop.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.voice.poly~.maxpat",
-				"bootpath" : "~/src/catart-mubu/patches/lib",
-				"patcherrelativepath" : "./lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-simple_20220412.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.concat~.mxo",
@@ -7954,7 +8012,33 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "mubu.multitrack.play.maxpat",
+				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/patchers",
+				"patcherrelativepath" : "../../mubu-and-co/maxmubu/patches/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.multitrack.record.maxpat",
+				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/patchers",
+				"patcherrelativepath" : "../../mubu-and-co/maxmubu/patches/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.play.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -7972,51 +8056,7 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshotlist" : 			{
-				"current_snapshot" : -1,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "catart-mubu-simple",
-						"origin" : "catart-mubu-poly",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"live.gain~" : 0.0
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "catart-mubu-simple",
-							"filename" : "catart-mubu-simple_20220412.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "237bccc42ab3cf59686b66cf37b0c499"
-						}
-
-					}
- ]
-			}
-
-		}
-
+		"autosave" : 0
 	}
 
 }
