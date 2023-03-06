@@ -3,5 +3,5 @@
 patches/.DS_Store
 Icon
 Icon
-*/_pycache_/*
+*/__pycache__/*
 Icon\r
