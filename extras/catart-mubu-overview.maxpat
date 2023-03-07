@@ -2896,7 +2896,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2926,6 +2926,19 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"hidden" : 1,
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 16.0, 380.5, 65.0, 22.0 ],
+									"text" : "append #1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"fontface" : 0,
@@ -3301,7 +3314,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 174.0, 3.0, 174.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 25.5, 199.0, 3.0, 199.0, 3.0, 564.0, 46.5, 564.0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -3324,9 +3337,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-9", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 375.0, 3.0, 375.0, 3.0, 564.0, 46.5, 564.0 ],
 									"source" : [ "obj-72", 0 ]
 								}
 
@@ -3346,6 +3358,15 @@
 									"hidden" : 1,
 									"midpoints" : [ 25.5, 564.0, 46.5, 564.0 ],
 									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 25.5, 472.0, 3.0, 472.0, 3.0, 564.0, 46.5, 564.0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -3387,7 +3408,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3596,8 +3617,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 330.5, 549.0, 139.0, 24.0 ],
-									"text" : "assign tags to buffers"
+									"patching_rect" : [ 330.5, 549.0, 245.0, 24.0 ],
+									"text" : "assign keys to enable and disable buffers"
 								}
 
 							}
@@ -3635,8 +3656,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 550.0, 143.0, 22.0 ],
-									"text" : "catart-mubu-tutorial 9 tag"
+									"patching_rect" : [ 39.625, 550.0, 151.0, 22.0 ],
+									"text" : "catart-mubu-tutorial 9 keys"
 								}
 
 							}
@@ -4343,7 +4364,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 894.0, 273.5, 216.0, 37.0 ],
-									"text" : "UI to enable and disable soundfiles by tags"
+									"text" : "UI to enable and disable soundfiles by keys"
 								}
 
 							}
@@ -4354,8 +4375,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 281.75, 151.0, 22.0 ],
-									"text" : "camu.select.tag"
+									"patching_rect" : [ 742.5, 281.75, 94.0, 22.0 ],
+									"text" : "camu.key.select"
 								}
 
 							}
@@ -4464,8 +4485,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 978.0, 638.0, 143.0, 22.0 ],
-									"text" : "catart-mubu-tutorial 8 tag"
+									"patching_rect" : [ 978.0, 638.0, 151.0, 22.0 ],
+									"text" : "catart-mubu-tutorial 9 keys"
 								}
 
 							}
@@ -4953,7 +4974,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 894.0, 228.5, 212.0, 24.0 ],
-									"text" : "UI to add tags to soundfiles"
+									"text" : "UI to tag soundfiles with keys"
 								}
 
 							}
@@ -4964,8 +4985,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 230.125, 151.0, 22.0 ],
-									"text" : "camu.auto.tag"
+									"patching_rect" : [ 742.5, 230.125, 91.0, 22.0 ],
+									"text" : "camu.key.value"
 								}
 
 							}
@@ -5050,7 +5071,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 894.0, 332.375, 212.0, 24.0 ],
-									"text" : "apply dir name as tag"
+									"text" : "apply dir name as key"
 								}
 
 							}
@@ -5061,8 +5082,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 333.375, 151.0, 22.0 ],
-									"text" : "camu.soundset.tag"
+									"patching_rect" : [ 742.5, 333.375, 111.0, 22.0 ],
+									"text" : "camu.key.soundset"
 								}
 
 							}
