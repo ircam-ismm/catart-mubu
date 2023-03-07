@@ -1,4 +1,7 @@
 .DS_Store
 */.DS_Store
 patches/.DS_Store
-Iconr
+Icon
+Icon
+*/__pycache__/*
+Icon\r
