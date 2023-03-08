@@ -18363,7 +18363,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.5, 55.875, 1085.0, 53.0 ],
-					"text" : "By assigning keys to groups of soundfiles, distinct synthesis parameters can be applied to subsets of the corpus. \nThe easiest way to accomplish this is by placing samples in separate folders; the \"camu.soundset.tag\" object will automatically assign the names of these subfolders as keys. \nFor every folder that is added to the corpus, a new line correspoding to each key will appear in the \"p key-mixer\" sub-patch."
+					"text" : "By assigning keys to groups of soundfiles, distinct synthesis parameters can be applied to subsets of the corpus. \nThe easiest way to accomplish this is by placing samples in separate folders; the \"camu.key.soundset\" object will automatically assign the names of these subfolders as keys. \nFor every folder that is added to the corpus, a new line correspoding to each key will appear in the \"p key-mixer\" sub-patch."
 				}
 
 			}
