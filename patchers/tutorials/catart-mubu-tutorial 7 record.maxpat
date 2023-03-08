@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 158.0, 79.0, 1212.0, 711.0 ],
+		"rect" : [ 35.0, 79.0, 1212.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -193,7 +193,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -704,7 +704,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -738,6 +738,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 0,
@@ -778,7 +779,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 402.5, 202.633316008651718, 63.0, 19.0 ],
+									"patching_rect" : [ 402.5, 202.633316008651718, 79.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
@@ -825,7 +826,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 533.0, 287.0, 100.0, 19.0 ],
+									"patching_rect" : [ 533.0, 287.0, 101.0, 19.0 ],
 									"text" : "s tut7-corpus-menu-init"
 								}
 
@@ -1632,7 +1633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "update", "", "" ],
-					"patching_rect" : [ 150.888877577519736, 189.000000000000028, 117.0, 22.0 ],
+					"patching_rect" : [ 150.888877577519736, 189.000000000000028, 139.0, 22.0 ],
 					"text" : "camu.record tut7-corpus"
 				}
 
@@ -1939,12 +1940,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1226.812251160232563,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 869.12532719768808, 6654.567780358230266 ],
+					"domain_bounds" : [ 2043.185608693673657, 3187.693674568395636 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1960,6 +1961,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut7-corpus",
@@ -2133,7 +2135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.888877577519736, 249.666652699813881, 80.0, 22.0 ],
+					"patching_rect" : [ 113.888877577519736, 249.666652699813881, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -2224,7 +2226,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2880,7 +2882,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3210,6 +3212,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -3263,6 +3266,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-140",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -3988,6 +3992,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"hidden" : 1,
+					"midpoints" : [ 249.888877577519736, 351.825588490615871, 58.388877577519736, 351.825588490615871 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 2 ],
 					"hidden" : 1,
 					"source" : [ "obj-114", 0 ]
@@ -3998,7 +4011,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 258.388877577519736, 242.285714387893677, 411.0, 242.285714387893677, 411.0, 156.0, 574.5, 156.0 ],
+					"midpoints" : [ 280.388877577519736, 242.285714387893677, 411.0, 242.285714387893677, 411.0, 156.0, 574.5, 156.0 ],
 					"source" : [ "obj-116", 2 ]
 				}
 
@@ -4014,7 +4027,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
-					"midpoints" : [ 209.388877577519736, 226.428572118282318, 108.0, 226.428572118282318, 108.0, 312.0, 123.388877577519736, 312.0 ],
+					"midpoints" : [ 220.388877577519736, 226.428572118282318, 108.0, 226.428572118282318, 108.0, 312.0, 123.388877577519736, 312.0 ],
 					"source" : [ "obj-116", 1 ]
 				}
 
@@ -4237,19 +4250,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"hidden" : 1,
-					"midpoints" : [ 225.388877577519736, 351.825588490615871, 58.388877577519736, 351.825588490615871 ],
-					"order" : 1,
-					"source" : [ "obj-58", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"hidden" : 1,
-					"order" : 0,
 					"source" : [ "obj-58", 2 ]
 				}
 
@@ -4358,7 +4360,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-116", 1 ],
-					"midpoints" : [ 323.388877577519793, 228.573556076498136, 290.888877577519793, 228.573556076498136, 290.888877577519793, 178.000000000000028, 258.388877577519736, 178.000000000000028 ],
+					"midpoints" : [ 323.388877577519793, 228.573556076498136, 290.888877577519793, 228.573556076498136, 290.888877577519793, 178.000000000000028, 280.388877577519736, 178.000000000000028 ],
 					"source" : [ "obj-9", 0 ]
 				}
 

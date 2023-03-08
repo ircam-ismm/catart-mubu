@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 138.0, 62.0, 1247.0, 754.0 ],
+		"rect" : [ 138.0, 79.0, 1247.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,16 +40,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 539.0, 76.000000357627869, 47.0, 22.0 ],
+					"text" : "clearall"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"hidden" : 1,
 					"id" : "obj-15",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.666655999999989, 554.833344000000011, 45.0, 22.0 ],
-					"text" : "1"
+					"patching_rect" : [ 11.666663999999997, 325.33332135330204, 45.0, 22.0 ],
+					"text" : "update"
 				}
 
 			}
@@ -140,13 +151,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 79.0, 462.0, 303.0 ],
+						"rect" : [ 34.0, 79.0, 842.0, 562.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -226,7 +237,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu xxxxxx-help-corpus"
+									"text" : "mubu record-help-corpus"
 								}
 
 							}
@@ -682,7 +693,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "xxxxxx-help-corpus" ],
+									"args" : [ "record-help-corpus" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -1028,7 +1039,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2044,7 +2055,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "update", "", "" ],
 					"patching_rect" : [ 177.055556844960506, 189.200027000000006, 181.0, 22.0 ],
-					"text" : "camu.record xxxxxx-help-corpus"
+					"text" : "camu.record record-help-corpus"
 				}
 
 			}
@@ -2072,7 +2083,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2340,7 +2351,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "type" ],
+					"args" : [ "record-help-corpus", "descr", "type" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2363,7 +2374,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "opacity" ],
+					"args" : [ "record-help-corpus", "descr", "opacity" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2401,7 +2412,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "record-help-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2423,7 +2434,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "record-help-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2445,7 +2456,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "record-help-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2467,7 +2478,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "xxxxxx-help-corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "record-help-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2526,6 +2537,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -2536,12 +2548,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.54327144578427,
+					"cursor_position" : 267.551612350541291,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.522037386894226, 1.004703879356384 ],
+					"domain_bounds" : [ 207.666671752929688, 1893.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2557,9 +2569,10 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "xxxxxx-help-corpus",
+					"name" : "record-help-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -2669,7 +2682,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 xxxxxx-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
+					"text" : "mubu.concat~ 2 record-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
 				}
 
 			}
@@ -2791,7 +2804,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
 					"patching_rect" : [ 11.666663999999997, 468.0, 345.0, 22.0 ],
-					"text" : "mubu.knn xxxxxx-help-corpus descr"
+					"text" : "mubu.knn record-help-corpus descr"
 				}
 
 			}
@@ -2903,6 +2916,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-95", 0 ],
 					"hidden" : 1,
 					"midpoints" : [ 225.5, 590.0, 476.25, 590.0, 476.25, 359.200012000000015, 47.5, 359.200012000000015 ],
@@ -2947,8 +2967,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"hidden" : 1,
+					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -2974,6 +2993,13 @@
 					"destination" : [ "obj-6", 2 ],
 					"hidden" : 1,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -3173,15 +3199,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"hidden" : 1,
-					"order" : 0,
-					"source" : [ "obj-58", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-58", 1 ]
@@ -3192,7 +3209,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"hidden" : 1,
-					"order" : 1,
 					"source" : [ "obj-58", 2 ]
 				}
 
@@ -3347,35 +3363,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.record.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpname_camu.js",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/help",
+				"bootpath" : "~/src/catart-mubu/patchers/help",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
