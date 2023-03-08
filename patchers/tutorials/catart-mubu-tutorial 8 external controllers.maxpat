@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -134,7 +134,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -628,7 +628,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 472.5, 486.700012000000015, 100.0, 35.0 ],
-					"text" : "0.322835 0.251969"
+					"text" : "0.094488 0.448819"
 				}
 
 			}
@@ -684,7 +684,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1111,7 +1111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 101.0, 218.0, 35.0 ],
+					"patching_rect" : [ 326.5, 101.0, 218.0, 35.0 ],
 					"text" : "readfolder @name audio @recursive 1 @type audio"
 				}
 
@@ -1350,7 +1350,6 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
-					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -1361,12 +1360,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 1681.5333251953125,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1340.043764863499064, 4646.652137623483213 ],
+					"domain_bounds" : [ 1340.043772370444685, 4646.651644065414985 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1681,7 +1680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 264.0, 127.0, 49.0, 22.0 ],
+					"patching_rect" : [ 276.0, 127.0, 49.0, 22.0 ],
 					"text" : "clearall"
 				}
 
@@ -1700,7 +1699,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2155,7 +2154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 127.0, 46.0, 22.0 ],
+					"patching_rect" : [ 221.0, 127.0, 46.0, 22.0 ],
 					"text" : "printall"
 				}
 
@@ -2262,7 +2261,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2564,7 +2563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1103.0, 155.5, 103.0, 49.0 ],
-									"text" : "0. 0. 0.134427 0. 0. 3312.241211 0."
+									"text" : "0. 0. 0.223925 0. 0. 1681.533325 0."
 								}
 
 							}
@@ -2576,7 +2575,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.0, 57.0, 166.0, 22.0 ],
-									"text" : "0.322835 0.251969"
+									"text" : "0.094488 0.448819"
 								}
 
 							}
@@ -3385,7 +3384,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4283,6 +4282,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -4713,29 +4713,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
-				"patcherrelativepath" : "../../../../Library/Gesture&Sound",
+				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
