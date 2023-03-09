@@ -526,6 +526,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-23",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -4647,6 +4648,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-49",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5580,6 +5582,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-21",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5775,6 +5778,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-14",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -8728,8 +8732,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 217.0, 306.0, 151.0, 22.0 ],
-					"text" : "camu.soundset.tag tut12-corpus"
+					"patching_rect" : [ 217.0, 304.0, 181.0, 22.0 ],
+					"text" : "camu.key.soundset tut12-corpus"
 				}
 
 			}
@@ -9316,7 +9320,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-212",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -9332,7 +9335,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-211",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -9347,7 +9349,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-210",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -9363,7 +9364,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-209",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -10805,7 +10805,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-106",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -18324,6 +18323,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-30",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -18516,6 +18516,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-23",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -19258,6 +19259,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-31",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -20402,6 +20404,7 @@
 																									"fontname" : "Arial",
 																									"fontsize" : 9.0,
 																									"id" : "obj-31",
+																									"linecount" : 2,
 																									"maxclass" : "newobj",
 																									"numinlets" : 1,
 																									"numoutlets" : 3,
@@ -20626,6 +20629,7 @@
 																					"fontname" : "Arial",
 																					"fontsize" : 9.0,
 																					"id" : "obj-36",
+																					"linecount" : 2,
 																					"maxclass" : "newobj",
 																					"numinlets" : 1,
 																					"numoutlets" : 3,
@@ -22241,6 +22245,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-35",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -30510,6 +30515,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-23",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -31550,6 +31556,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 9.0,
 																	"id" : "obj-31",
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -31774,6 +31781,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 9.0,
 													"id" : "obj-36",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -32164,11 +32172,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-68",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 235.0, 890.5, 99.0, 19.0 ],
 									"presentation" : 1,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 305.0, 595.0, 98.0, 19.0 ],
 									"text" : "s tut12-corpus-mubu.concat"
 								}
@@ -33825,12 +33835,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1578.963864306784444,
+					"cursor_position" : 1244.103365634721513,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 8921.145833333332121 ],
+					"domain_bounds" : [ 106.222774809440679, 1765.326087883721129 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -35121,7 +35131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 265.0, 237.0, 49.0, 22.0 ],
+					"patching_rect" : [ 283.5, 232.0, 49.0, 22.0 ],
 					"text" : "clearall"
 				}
 
@@ -35177,6 +35187,7 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-16",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -35654,7 +35665,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 318.0, 237.0, 67.0, 22.0 ],
+					"patching_rect" : [ 336.5, 232.0, 67.0, 22.0 ],
 					"text" : "print mubu"
 				}
 
@@ -35815,6 +35826,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-41",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -35987,7 +35999,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.0, 236.5, 110.0, 20.0 ],
+					"patching_rect" : [ 434.5, 231.5, 110.0, 20.0 ],
 					"text" : "refresh display"
 				}
 
@@ -36000,7 +36012,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.460204999999974, 234.5, 24.0, 24.0 ]
+					"patching_rect" : [ 409.960204999999974, 229.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -36043,7 +36055,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 237.0, 46.0, 22.0 ],
+					"patching_rect" : [ 228.5, 232.0, 46.0, 22.0 ],
 					"text" : "printall"
 				}
 
@@ -36057,7 +36069,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 232.0, 80.0, 22.0 ],
+					"patching_rect" : [ 115.0, 232.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -36105,12 +36117,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-119",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.051616750000051, 374.0, 309.896766499999956, 33.0 ],
-					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean"
+					"patching_rect" : [ 152.051616750000051, 374.0, 309.896766499999956, 47.0 ],
+					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean FilenameNoteNumber"
 				}
 
 			}
@@ -37554,7 +37566,7 @@
 									"patching_rect" : [ 492.0, 286.0, 110.0, 93.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 7,
+									"size" : 9,
 									"spacing" : 2
 								}
 
@@ -38066,6 +38078,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -39430,7 +39443,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 226.5, 225.5, 400.960204999999974, 225.5 ],
+					"midpoints" : [ 226.5, 225.5, 419.460204999999974, 225.5 ],
 					"order" : 0,
 					"source" : [ "obj-69", 1 ]
 				}
@@ -39840,6 +39853,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "camu.key.soundset.maxpat",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "camu.keymixer-horiz-data.maxpat",
 				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
@@ -39862,13 +39882,6 @@
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "camu.soundset.tag.maxpat",
 				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
