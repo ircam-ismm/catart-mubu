@@ -180,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.458342485689826, 497.208330273628235, 75.583335638046265, 33.0 ],
+					"patching_rect" : [ 101.458342485689826, 497.208330273628235, 76.0, 33.0 ],
 					"text" : "messages to select/knn"
 				}
 
@@ -245,7 +245,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
