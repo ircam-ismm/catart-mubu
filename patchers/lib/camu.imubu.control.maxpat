@@ -318,7 +318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 307.587111999999991, 131.086010992527008, 61.0, 33.0 ],
+					"patching_rect" : [ 307.587111999999991, 139.086010992527008, 61.0, 33.0 ],
 					"text" : "feedback from knn"
 				}
 
@@ -576,7 +576,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 126.0, 19.0 ],
+					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 129.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -646,11 +646,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-156",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.087104000000011, 574.500011992526993, 79.0, 20.0 ],
-					"text" : "target values"
+					"patching_rect" : [ 19.087104000000011, 574.500011992526993, 109.912895999999989, 47.0 ],
+					"text" : "target values as select message, columns message"
 				}
 
 			}
@@ -662,7 +663,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.5, 42.000003007472998, 104.0, 20.0 ],
+					"patching_rect" : [ 466.5, 36.000003007472998, 104.0, 20.0 ],
 					"text" : "from imubu editor"
 				}
 
@@ -686,7 +687,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 281.933335427795384, 41.0, 91.0, 20.0 ],
+					"patching_rect" : [ 266.933335427795384, 35.0, 91.0, 20.0 ],
 					"text" : "x/y descr. index"
 				}
 
@@ -698,7 +699,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.587111999999991, 8.0, 87.0, 33.0 ],
+					"patching_rect" : [ 169.587111999999991, 2.0, 87.0, 33.0 ],
 					"text" : "from selection / knn"
 				}
 
@@ -710,7 +711,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 246.920445333333305, 73.0, 81.0, 22.0 ],
+					"patching_rect" : [ 254.920445333333305, 73.0, 81.0, 22.0 ],
 					"text" : "unpack 1 2"
 				}
 
@@ -1984,7 +1985,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 169.587111999999991, 107.086010992527008, 207.0, 22.0 ],
+					"patching_rect" : [ 169.587111999999991, 115.086010992527008, 207.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2005,7 +2006,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 8.5, 39.999996992527002, 30.0, 30.0 ]
+					"patching_rect" : [ 8.5, 33.999996992527002, 30.0, 30.0 ]
 				}
 
 			}
@@ -2018,7 +2019,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 169.587111999999991, 39.999996992527002, 30.0, 30.0 ]
+					"patching_rect" : [ 169.587111999999991, 33.999996992527002, 30.0, 30.0 ]
 				}
 
 			}
@@ -2031,7 +2032,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.000015000000019, 41.0, 30.0, 30.0 ]
+					"patching_rect" : [ 419.000015000000019, 35.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2044,7 +2045,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 246.920445333333305, 41.0, 30.0, 30.0 ]
+					"patching_rect" : [ 231.920445333333305, 35.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2093,7 +2094,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.587104000000011, 41.0, 96.0, 33.0 ],
+					"patching_rect" : [ 38.587104000000011, 35.0, 96.0, 33.0 ],
 					"text" : "click mode and commands"
 				}
 
@@ -2302,6 +2303,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-171", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 1 ],
+					"order" : 1,
 					"source" : [ "obj-171", 0 ]
 				}
 

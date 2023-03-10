@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 79.0, 1247.0, 754.0 ],
+		"rect" : [ 1193.0, 564.0, 1247.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 395.0, 683.099999693695054, 129.267051000000038, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "collect all selection feedback for visualisation by imubu",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -221,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.333330666666654, 263.973922690258064, 77.0, 22.0 ],
+					"patching_rect" : [ 493.0, 151.0, 77.0, 22.0 ],
 					"text" : "pak 1 2"
 				}
 
@@ -484,6 +483,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -537,19 +537,19 @@
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
 					"cursor_circlefilled" : 1,
-					"cursor_circleheight" : 0.047815557569265,
-					"cursor_circlewidth" : 798.4256591796875,
+					"cursor_circleheight" : 0.0,
+					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 0,
+					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2253.52456302966084,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 2253.52456302966084, 4130.394910140154025 ],
+					"domain_bounds" : [ 0.0, 0.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -681,7 +681,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1247,7 +1247,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1803,7 +1803,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1818,23 +1817,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"hidden" : 1,
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 1 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-95", 2 ],
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1859,7 +1859,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-95", 3 ],
-					"midpoints" : [ 604.5, 709.0, 554.833374000000049, 709.0, 554.833374000000049, 253.200012000000015, 371.166663999999969, 253.200012000000015 ],
+					"midpoints" : [ 604.5, 733.0, 554.833374000000049, 733.0, 554.833374000000049, 253.200012000000015, 371.166663999999969, 253.200012000000015 ],
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -1943,7 +1943,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
-					"order" : 0,
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -1953,15 +1952,6 @@
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 2 ],
-					"hidden" : 1,
-					"order" : 1,
-					"source" : [ "obj-43", 0 ]
 				}
 
 			}
