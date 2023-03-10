@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 607.0, 366.0, 1092.0, 742.0 ],
+		"rect" : [ 751.0, 531.0, 1105.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 549.0, 72.0, 22.0 ],
+					"text" : "camu.target"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "comment",
@@ -465,11 +477,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 683.500011992526993, 116.0, 20.0 ],
-					"text" : "also to mubu.concat"
+					"patching_rect" : [ 9.0, 683.500011992526993, 152.0, 33.0 ],
+					"text" : "to knn, marker/buffer must be routed to mubu.concat"
 				}
 
 			}
@@ -636,7 +649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.087104000000011, 661.500011992526993, 79.0, 20.0 ],
+					"patching_rect" : [ 19.087104000000011, 574.500011992526993, 79.0, 20.0 ],
 					"text" : "target values"
 				}
 
@@ -714,7 +727,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -819,7 +832,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1715,7 +1728,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 39.59997866666663, 67.000011992526993, 30.0, 30.0 ]
 								}
 
@@ -1987,11 +2000,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-168",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 8.5, 39.999996992527002, 30.0, 30.0 ]
 				}
 
@@ -2000,11 +2013,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-169",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 169.587111999999991, 39.999996992527002, 30.0, 30.0 ]
 				}
 
@@ -2013,7 +2026,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-170",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2026,7 +2039,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-171",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2039,7 +2052,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-173",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2051,7 +2064,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-174",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2440,15 +2453,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-173", 0 ],
-					"source" : [ "obj-33", 0 ]
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-33", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-33", 1 ]
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -2694,6 +2707,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 2 ],
 					"order" : 1,
 					"source" : [ "obj-58", 0 ]
@@ -2758,13 +2778,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
