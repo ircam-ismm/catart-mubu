@@ -1011,7 +1011,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
@@ -5637,7 +5637,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
+					"destination" : [ "obj-46", 3 ],
 					"midpoints" : [ 172.5, 619.0, 377.419872193447077, 619.0, 377.419872193447077, 309.264535963535309, 338.756412386894226, 309.264535963535309 ],
 					"source" : [ "obj-30", 2 ]
 				}

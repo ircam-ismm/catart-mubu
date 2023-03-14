@@ -155,7 +155,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 110.5, 0.0, 435.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 5a: Segmentation Analysis"
+					"text" : "CataRT-MuBu Tutorial 5a: Segmentation Analysis"
 				}
 
 			}
@@ -2623,7 +2623,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
@@ -4255,7 +4255,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
+					"destination" : [ "obj-12", 3 ],
 					"midpoints" : [ 459.166663999999969, 582.0, 489.794870193447082, 582.0, 489.794870193447082, 435.06159302420042, 442.423076386894195, 435.06159302420042 ],
 					"source" : [ "obj-30", 2 ]
 				}

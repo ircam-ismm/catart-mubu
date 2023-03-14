@@ -5840,15 +5840,15 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 0,
+					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 1776.848222817398664,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 0.0 ],
+					"domain_bounds" : [ 1845.854110131246443, 4107.713749862924487 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -6099,15 +6099,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-37",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 5.0, 416.0, 60.0 ],
+					"patching_rect" : [ 8.0, 5.0, 418.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 5.0, 418.0, 33.0 ],
 					"text" : "CataRT by MuBu HOA spatialization"
@@ -8520,6 +8519,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -8734,7 +8734,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 3 ],
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -8919,7 +8927,19 @@
 					"parameter_longname" : "live.text[6]"
 				}
 ,
+				"obj-17::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
 				"obj-38::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-113" : 				{
 					"parameter_invisible" : 0,
 					"parameter_modmode" : 0,
 					"parameter_unitstyle" : 10

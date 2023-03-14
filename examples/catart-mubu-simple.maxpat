@@ -46,7 +46,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.5, 166.0, 219.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.5, 166.0, 219.0, 20.0 ]
+					"presentation_rect" : [ 235.5, 166.0, 219.0, 20.0 ],
+					"text" : "4 files / 144 segments / 0.59 min"
 				}
 
 			}
@@ -5488,7 +5489,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 10582.518224476960313 ],
+					"domain_bounds" : [ 1845.854110131246443, 4107.713749862924487 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5912,7 +5913,7 @@
 					"presentation_rect" : [ 235.5, 164.5, 223.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 2500,
+					"size" : 4,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -6251,8 +6252,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
-					"midpoints" : [ 168.5, 619.0, 377.419872193447077, 619.0, 377.419872193447077, 293.264535963535309, 125.918804128964737, 293.264535963535309 ],
+					"destination" : [ "obj-46", 3 ],
+					"midpoints" : [ 168.5, 619.0, 377.419872193447077, 619.0, 377.419872193447077, 305.264535963535309, 338.756412386894226, 305.264535963535309 ],
 					"source" : [ "obj-30", 2 ]
 				}
 

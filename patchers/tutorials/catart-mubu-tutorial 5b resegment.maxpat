@@ -105,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 108.5, 1.0, 477.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 5b: Manual Segmentation Edit"
+					"text" : "CataRT-MuBu Tutorial 5b: \nManual Segmentation Edit"
 				}
 
 			}
@@ -3279,7 +3279,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
@@ -4747,10 +4747,10 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 0,
+					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3596.38228713680428,
+					"cursor_position" : 3748.897706757056312,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
@@ -5280,7 +5280,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 1 ],
+					"destination" : [ "obj-12", 3 ],
 					"midpoints" : [ 459.166663999999969, 572.0, 489.794870193447082, 572.0, 489.794870193447082, 425.06159302420042, 442.423076386894195, 425.06159302420042 ],
 					"source" : [ "obj-30", 2 ]
 				}

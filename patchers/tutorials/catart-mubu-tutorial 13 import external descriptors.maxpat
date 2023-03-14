@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 3.666663999999997, 3.125, 105.75, 105.75 ],
+					"patching_rect" : [ 3.666663999999997, 3.125, 98.75, 98.75 ],
 					"pic" : "icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 2.333327999999997, 2.125, 105.75, 105.75 ]
@@ -60,17 +60,16 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 24.0,
+					"fontsize" : 20.0,
 					"id" : "obj-15",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 0.0, 392.0, 60.0 ],
+					"patching_rect" : [ 110.0, 3.125, 436.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 111.416663999999997, 0.0, 392.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 13: Import Descriptors"
+					"presentation_rect" : [ 111.416663999999997, 0.0, 329.0, 51.0 ],
+					"text" : "CataRT-MuBu Tutorial 13: Import Descriptors"
 				}
 
 			}
@@ -154,15 +153,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 60.299973000000023, 462.0, 47.0 ],
+					"patching_rect" : [ 110.0, 68.0, 466.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
 					"presentation_rect" : [ 270.878198193447133, 113.5, 190.0, 74.0 ],
-					"text" : "import sounds and external descriptors from a space- or tab-delimited file with header\nFilename <descr names...>\nand corresponding data columns"
+					"text" : "import sounds and external descriptors from a space- or tab-delimited file with header\nFilename <descr names...> and corresponding data columns"
 				}
 
 			}
@@ -224,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 470.0, 383.0, 150.0, 33.0 ],
+					"patching_rect" : [ 470.0, 377.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 325.833321973442025, 442.15002400000003, 157.0, 20.0 ],
 					"text" : "fixed playback duration [ms]"
@@ -1586,7 +1585,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.25, 144.0, 46.0, 22.0 ],
+					"patching_rect" : [ 508.0, 144.0, 46.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.833321973442025, 212.0, 49.0, 22.0 ],
 					"text" : "writeall"
@@ -1602,7 +1601,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.25, 144.0, 45.0, 22.0 ],
+					"patching_rect" : [ 459.0, 144.0, 45.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.083321973442054, 212.0, 49.0, 22.0 ],
 					"text" : "readall"
@@ -1665,7 +1664,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.460204999999974, 252.350005745887756, 67.0, 22.0 ],
+					"patching_rect" : [ 231.460204999999974, 252.350005745887756, 67.0, 22.0 ],
 					"text" : "pvar editor"
 				}
 
@@ -1725,7 +1724,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
@@ -3042,7 +3041,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.5, 175.850021254112221, 261.0, 33.0 ],
+					"patching_rect" : [ 293.0, 175.850021254112221, 261.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 78.128198193447105, 229.5, 202.0, 33.0 ],
@@ -3359,7 +3358,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 0.186299994587898,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
@@ -3483,7 +3482,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 373.0, 144.0, 47.0, 22.0 ],
+					"patching_rect" : [ 407.75, 144.0, 47.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.833321973442054, 212.0, 49.0, 22.0 ],
 					"text" : "clearall"
@@ -3598,7 +3597,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 10.0, 507.0, 168.0, 102.0 ],
+					"patching_rect" : [ 10.0, 471.350005745887756, 168.0, 102.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
 						"resampleaudioinput" : 0
@@ -3616,7 +3615,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 34.0, 402.0, 27.0 ],
+					"patching_rect" : [ 110.0, 34.125, 402.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 111.416663999999997, 65.5, 402.0, 27.0 ],
 					"text" : "import from a list of sound files with descriptors"
@@ -3660,7 +3659,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 279.0, 143.824989627056141, 297.0, 88.525031118831578 ],
+					"patching_rect" : [ 279.0, 137.0, 297.0, 88.525031118831578 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.333327999999997, 110.5, 480.499993973442031, 156.0 ],
 					"proportion" : 0.39,
@@ -3729,6 +3728,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
+					"hidden" : 1,
 					"order" : 0,
 					"source" : [ "obj-104", 0 ]
 				}
@@ -3850,7 +3850,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
+					"destination" : [ "obj-46", 3 ],
 					"midpoints" : [ 168.5, 619.0, 377.419872193447077, 619.0, 377.419872193447077, 293.264535963535309, 338.756412386894226, 293.264535963535309 ],
 					"source" : [ "obj-30", 2 ]
 				}
@@ -3955,7 +3955,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 338.756412386894226, 426.939749777317047, 390.207252611036893, 426.939749777317047, 390.207252611036893, 227.050859987735748, 85.166666666666671, 227.050859987735748 ],
+					"midpoints" : [ 338.756412386894226, 426.939749777317047, 390.207252611036893, 426.939749777317047, 390.207252611036893, 242.050859987735748, 85.166666666666671, 242.050859987735748 ],
 					"source" : [ "obj-46", 1 ]
 				}
 

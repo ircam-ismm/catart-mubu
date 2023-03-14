@@ -78,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 109.0, 2.125, 434.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 4: Synthesis Parameters"
+					"text" : "CataRT-MuBu Tutorial 4: \nSynthesis Parameters"
 				}
 
 			}
@@ -1441,7 +1441,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "camu.select.maxpat",
-					"numinlets" : 2,
+					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "list" ],
@@ -2190,7 +2190,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 1 ],
+					"destination" : [ "obj-46", 3 ],
 					"midpoints" : [ 546.75000799999998, 575.850005745887756, 561.065176672271718, 575.850005745887756, 561.065176672271718, 229.333333134651184, 437.166678684371959, 229.333333134651184 ],
 					"source" : [ "obj-30", 2 ]
 				}
