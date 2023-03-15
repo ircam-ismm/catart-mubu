@@ -22,7 +22,7 @@ if(/^\s*"(args|text|name)" : (.*$from.*)$/)
 
     if (($1 ne 'text')  ||  ($2 =~ /^"(mubu|camu\.|s )/)) # special conditions for "text" lines: match objects, not comments
     {
-	if ($_ !~ /$to/)
+	if ($_ !~ /\W$to/)
 	{
 	    s/$from/$to/;
 	    $line = $_;
