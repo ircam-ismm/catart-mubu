@@ -5,3 +5,11 @@ Icon
 Icon
 */__pycache__/*
 Icon\r
+patchers/lib/gen_dsp
+catart-mubu-tutorial 3 select debug timing.maxpat
+catart-mubu-tutorial 6 external controllers+*.maxpat
+*.bak
+scores_wrong.txt
+camu.voice.poly~old.maxpat
+camu.select orig.maxpat
+camu.select simplified.maxpat
