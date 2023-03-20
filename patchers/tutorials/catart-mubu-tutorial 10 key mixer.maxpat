@@ -98,7 +98,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-25",
@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.5, -1.5, 360.0, 60.0 ],
+					"patching_rect" : [ 109.5, -1.5, 359.0, 60.0 ],
 					"text" : "CataRT-MuBu\nTutorial 10: Key Mixer"
 				}
 
@@ -18362,7 +18362,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.5, 55.875, 1085.0, 53.0 ],
+					"patching_rect" : [ 109.5, 55.875, 1087.0, 53.0 ],
 					"text" : "By assigning keys to groups of soundfiles, distinct synthesis parameters can be applied to subsets of the corpus. \nThe easiest way to accomplish this is by placing samples in separate folders; the \"camu.key.soundset\" object will automatically assign the names of these subfolders as keys. \nFor every folder that is added to the corpus, a new line correspoding to each key will appear in the \"p key-mixer\" sub-patch."
 				}
 
@@ -19303,29 +19303,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-17::obj-113" : [ "umenu", "umenu", 0 ],
 			"obj-37" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-17::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-43::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
 				}
 
 			}
@@ -19370,8 +19353,8 @@
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
-				"patcherrelativepath" : "../lib",
+				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"patcherrelativepath" : "../../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
