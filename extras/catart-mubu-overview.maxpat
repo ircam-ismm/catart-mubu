@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1219.0, 787.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -752,12 +752,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : -1.0,
+									"cursor_position" : 754.750070501974051,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
+									"domain_bounds" : [ 0.0, 8921.145833333332121 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -773,7 +773,6 @@
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
-									"maintrack" : -1,
 									"maxclass" : "imubu",
 									"mousewheelscroll" : 0,
 									"name" : "corpus",
@@ -2897,7 +2896,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1219.0, 787.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3409,7 +3408,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1219.0, 787.0 ],
+						"rect" : [ 0.0, 26.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4303,7 +4302,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1219.0, 787.0 ],
+						"rect" : [ 34.0, 105.0, 1212.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5328,7 +5327,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 742.5, 188.5, 151.0, 22.0 ],
+									"patching_rect" : [ 742.5, 188.5, 75.0, 22.0 ],
 									"text" : "camu.record"
 								}
 
@@ -5436,7 +5435,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 108.5, 199.0, 22.0 ],
-													"text" : "camu.process"
+													"text" : "camu.random.filter"
 												}
 
 											}
@@ -5448,7 +5447,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 74.5, 199.0, 22.0 ],
-													"text" : "camu.process.*"
+													"text" : "camu.random.filter"
 												}
 
 											}
@@ -5460,7 +5459,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 143.0, 199.0, 22.0 ],
-													"text" : "camu.process.maxhelp"
+													"text" : "camu.random.filter.maxhelp"
 												}
 
 											}
@@ -6247,10 +6246,6 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-17::obj-113" : [ "umenu", "umenu", 0 ],
-			"obj-2::obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
-			"obj-2::obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
-			"obj-2::obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-2::obj-67" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -6261,61 +6256,27 @@
 
 			}
 ,
-			"parameter_overrides" : 			{
-				"obj-2::obj-17::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-2::obj-43::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-2::obj-54::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-,
-				"obj-2::obj-55::obj-113" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
+				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"patcherrelativepath" : "../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-overview.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "icon.png",
-				"bootpath" : "~/src/catart-mubu",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
+				"patcherrelativepath" : "../../../Library/Gesture&Sound",
 				"type" : "PNG",
 				"implicit" : 1
 			}
