@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 837.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.771820068359375, 68.0, 435.5, 36.0 ],
+					"patching_rect" : [ 43.771820068359375, 68.0, 439.0, 36.0 ],
 					"text" : "choose among a list of marker/buffer indices according to different random strategies, but only trigger grains when moving cursor and not empty"
 				}
 
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.271820068359375, 6.2999267578125, 84.0, 94.0 ],
+					"patching_rect" : [ 481.271820068359375, 6.2999267578125, 89.0, 94.0 ],
 					"text" : "N.B.: \"Scheduler in Overdrive\" must be ON in Audio Status!",
 					"textcolor" : [ 0.905882352941176, 0.172549019607843, 0.172549019607843, 1.0 ]
 				}
@@ -1947,7 +1947,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.539771999999942, 486.0, 184.460228000000058, 22.0 ],
-					"text" : "49"
+					"text" : "0"
 				}
 
 			}
@@ -2539,7 +2539,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 435.039771999999971, 542.0, 73.0, 22.0 ]
+					"patching_rect" : [ 432.230102999999986, 542.0, 73.0, 22.0 ]
 				}
 
 			}
@@ -2866,7 +2866,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.501960784313725, 0.0, 0.79 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2978.759022252968862,
+					"cursor_position" : 30.241208347745875,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
@@ -3578,11 +3578,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 113.039779999999951, 681.0, 693.0, 22.0 ],
+					"patching_rect" : [ 113.039779999999951, 681.0, 440.960220000000049, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
 						"resampleaudioinput" : 0
@@ -4537,7 +4538,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-2", 4 ],
-					"midpoints" : [ 796.539779999999951, 723.0, 544.539775999999961, 723.0, 544.539775999999961, 538.0, 418.039763999999991, 538.0 ],
+					"midpoints" : [ 544.5, 723.0, 562.539775999999961, 723.0, 562.539775999999961, 538.0, 418.039763999999991, 538.0 ],
 					"order" : 1,
 					"source" : [ "obj-30", 2 ]
 				}
@@ -4546,7 +4547,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
-					"midpoints" : [ 459.539779999999951, 724.0, 64.289775999999961, 724.0, 64.289775999999961, 583.0, 47.873115999999953, 583.0 ],
+					"midpoints" : [ 333.519889999999975, 724.0, 64.289775999999961, 724.0, 64.289775999999961, 583.0, 47.873115999999953, 583.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -5080,8 +5081,39 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-113" : [ "umenu", "umenu", 0 ],
+			"obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
+			"obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
+			"obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-67" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-17::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-54::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-55::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
 
 			}
 ,
@@ -5104,8 +5136,8 @@
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
-				"patcherrelativepath" : "../../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}

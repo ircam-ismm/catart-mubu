@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.5, 437.0, 58.0, 17.0 ],
+					"patching_rect" : [ 487.0, 437.0, 58.0, 17.0 ],
 					"text" : "to imubu"
 				}
 
@@ -55,32 +55,36 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.5, 437.0, 58.0, 17.0 ],
+					"patching_rect" : [ 391.0, 437.0, 58.0, 17.0 ],
 					"text" : "to mubu.knn"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "to imubu",
 					"comment" : "",
+					"hint" : "to imubu",
 					"id" : "obj-30",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 400.5, 30.0, 30.0 ]
+					"patching_rect" : [ 501.0, 400.5, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "to mubu.knn",
 					"comment" : "",
+					"hint" : "to mubu.knn",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.5, 400.5, 30.0, 30.0 ]
+					"patching_rect" : [ 405.0, 400.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -244,7 +248,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 305.5, 89.0, 68.0, 19.0 ],
+					"patching_rect" : [ 305.5, 89.0, 128.0, 19.0 ],
 					"text" : "s #1-key-mixer"
 				}
 
@@ -259,7 +263,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 400.5, 94.0, 19.0 ],
+					"patching_rect" : [ 241.0, 400.5, 154.0, 19.0 ],
 					"text" : "s #1-key-mixer-levels"
 				}
 
@@ -552,7 +556,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.0, 1.5, 58.0, 19.0 ],
+					"patching_rect" : [ 439.0, 1.5, 116.0, 19.0 ],
 					"text" : "r #1-clearall"
 				}
 
@@ -643,9 +647,11 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "from mubu.process",
 					"comment" : "",
+					"hint" : "from mubu.process",
 					"id" : "obj-7",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -677,7 +683,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 501.0, 1.5, 96.0, 19.0 ],
+					"patching_rect" : [ 501.0, 1.5, 133.0, 19.0 ],
 					"text" : "r #1-select-keys"
 				}
 
@@ -708,7 +714,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 1.5, 79.0, 19.0 ],
+					"patching_rect" : [ 356.0, 1.5, 116.0, 19.0 ],
 					"text" : "r #1-refresh"
 				}
 
@@ -1183,12 +1189,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-6",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 182.5, 702.5, 68.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
+									"presentation_linecount" : 4,
 									"presentation_rect" : [ 62.5, 151.0, 57.0, 39.0 ],
 									"text" : "s #1-mubu.knn"
 								}
@@ -1201,11 +1208,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-19",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 271.0, 702.5, 77.0, 19.0 ],
 									"presentation" : 1,
+									"presentation_linecount" : 3,
 									"presentation_rect" : [ 359.0, 21.0, 93.0, 19.0 ],
 									"text" : "s #1-imubu"
 								}
@@ -1940,6 +1949,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-49",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -2423,7 +2433,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 405.0, 135.0, 115.0, 24.0 ],
+					"patching_rect" : [ 405.0, 139.0, 115.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2884,6 +2894,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-21",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -3079,6 +3090,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-14",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -3485,7 +3497,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 420.0, 89.0, 100.0, 24.0 ],
+					"patching_rect" : [ 377.0, 110.0, 100.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4042,13 +4054,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
