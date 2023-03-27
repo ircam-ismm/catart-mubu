@@ -531,7 +531,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+									"args" : [ "overview-corpus", "descr", "color", "FrequencyMean" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -553,7 +553,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+									"args" : [ "overview-corpus", "descr", "size", "LoudnessMean" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -575,7 +575,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+									"args" : [ "overview-corpus", "descr", "y", "PeriodicityMean" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -611,7 +611,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+									"args" : [ "overview-corpus", "descr", "x", "CentroidMean" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -752,12 +752,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 3288.683024104712786,
+									"cursor_position" : 1972.507327986293376,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 0,
-									"domain_bounds" : [ 1845.903594281894357, 4107.661268089018449 ],
+									"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -776,7 +776,7 @@
 									"maintrack" : -1,
 									"maxclass" : "imubu",
 									"mousewheelscroll" : 0,
-									"name" : "corpus",
+									"name" : "overview-corpus",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"opacity" : 0.0,
@@ -1175,7 +1175,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "int", "" ],
 													"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-													"text" : "mubu.process corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
+													"text" : "mubu.process overview-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 
@@ -1438,7 +1438,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 117.5, 269.0, 80.0, 22.0 ],
+									"patching_rect" : [ 117.5, 269.0, 129.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
@@ -1450,7 +1450,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu corpus"
+									"text" : "mubu overview-corpus"
 								}
 
 							}
@@ -1504,13 +1504,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "" ],
-									"patching_rect" : [ 119.166663999999997, 608.0, 356.0, 35.0 ],
+									"patching_rect" : [ 119.166663999999997, 608.0, 388.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"outputstate" : 0,
 										"resampleaudioinput" : 0
 									}
 ,
-									"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
+									"text" : "mubu.concat~ 2 overview-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
 								}
 
 							}
@@ -1620,7 +1620,7 @@
 									"outlettype" : [ "list", "list", "list", "list" ],
 									"patching_rect" : [ 119.166663999999997, 479.0, 345.999976000000004, 22.0 ],
 									"style" : "default",
-									"text" : "mubu.knn corpus descr"
+									"text" : "mubu.knn overview-corpus descr"
 								}
 
 							}
@@ -1744,11 +1744,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-3",
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
-													"text" : "s corpus-refresh"
+													"text" : "s overview-corpus-refresh"
 												}
 
 											}
@@ -2575,7 +2576,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-67", 1 ],
-									"midpoints" : [ 297.166663999999969, 652.0, 135.666663999999997, 652.0 ],
+									"midpoints" : [ 313.166663999999969, 652.0, 135.666663999999997, 652.0 ],
 									"source" : [ "obj-30", 1 ]
 								}
 
@@ -2928,6 +2929,35 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-7",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 169.0, 235.625, 366.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 16.0, 243.125, 129.0, 22.0 ],
+									"text" : "catart-mubu-mfcc"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"hidden" : 1,
 									"id" : "obj-9",
 									"maxclass" : "newobj",
@@ -3177,7 +3207,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 169.0, 198.625, 366.0, 37.0 ],
-									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
+									"text" : "full featured CataRT patch with adapters for external gestural controller input"
 								}
 
 							}
@@ -3189,8 +3219,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 206.125, 129.0, 22.0 ],
-									"text" : "catart-mubu-mfcc"
+									"patching_rect" : [ 16.0, 206.125, 132.0, 22.0 ],
+									"text" : "catart-mubu-controllers"
 								}
 
 							}
@@ -3200,12 +3230,11 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"id" : "obj-13",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 162.0, 366.0, 37.0 ],
-									"text" : "full featured CataRT patch on perceptive descriptor space, \nwith adapters for external gestural controllers"
+									"patching_rect" : [ 169.0, 169.5, 366.0, 24.0 ],
+									"text" : "full featured CataRT patch on perceptive descriptor space"
 								}
 
 							}
