@@ -89,8 +89,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.666655999999989, 203.0, 172.0, 51.0 ],
-					"text" : "tag buffers by user-defined key-value pairs or automatically by directory"
+					"patching_rect" : [ 336.666655999999989, 203.0, 190.0, 51.0 ],
+					"text" : "double-click to tag buffers by user-defined key-value pairs or automatically by directory"
 				}
 
 			}
@@ -102,8 +102,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.666655999999989, 253.0, 172.0, 64.0 ],
-					"text" : "open to enable or disable keys (works best when several buffers with different keys are defined)"
+					"patching_rect" : [ 336.666655999999989, 253.0, 190.0, 64.0 ],
+					"text" : "double-click to enable or disable keys (works best when several buffers with different keys are defined)"
 				}
 
 			}
@@ -586,12 +586,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 1451.740465154743561,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ -41.880267257049304, -21.648655322419494 ],
+					"domain_bounds" : [ 1340.628142075614505, 4646.219753679705718 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -607,6 +607,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "key-value-corpus",
@@ -1912,6 +1913,7 @@
 													"freeze" : 0,
 													"id" : "obj-18",
 													"layout" : 0,
+													"maintrack" : -1,
 													"maxclass" : "imubu",
 													"mousewheelscroll" : 0,
 													"name" : "target",
@@ -3909,7 +3911,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 510.666655999999989, 218.5, 20.0, 20.0 ],
+					"patching_rect" : [ 530.666655999999989, 218.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -3990,7 +3992,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 510.666655999999989, 261.5, 20.0, 20.0 ],
+					"patching_rect" : [ 530.666655999999989, 261.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "5",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -4579,42 +4581,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.key.select.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.key.value.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpname_camu.js",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/help",
+				"bootpath" : "~/src/catart-mubu/patchers/help",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

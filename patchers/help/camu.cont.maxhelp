@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1252.0, 717.0 ],
-		"bglocked" : 0,
+		"rect" : [ 59.0, 100.0, 1252.0, 717.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -103,19 +103,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 289.666663999999969, 218.499970000000076, 177.0, 22.0 ],
-					"text" : "...maps to these settings:"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-97",
@@ -143,6 +130,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-85",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -157,6 +145,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -170,6 +159,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-83",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -187,8 +177,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.666663999999969, 218.499970000000076, 110.0, 22.0 ],
-					"text" : "trigger mode..."
+					"patching_rect" : [ 176.666663999999969, 218.499970000000076, 373.0, 22.0 ],
+					"text" : "trigger mode \"cont\" is special, needs camu.cont below"
 				}
 
 			}
@@ -223,6 +213,7 @@
 , 			{
 				"box" : 				{
 					"attr" : "period",
+					"hidden" : 1,
 					"id" : "obj-78",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -236,6 +227,7 @@
 , 			{
 				"box" : 				{
 					"attr" : "play",
+					"hidden" : 1,
 					"id" : "obj-79",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -250,6 +242,7 @@
 , 			{
 				"box" : 				{
 					"attr" : "allowrepeatmarkers",
+					"hidden" : 1,
 					"id" : "obj-80",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
@@ -269,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 60.0, 323.0, 21.0 ],
-					"text" : "play grains from one buffer in a loop"
+					"text" : "play the sequence of grains from one buffer in a loop"
 				}
 
 			}
@@ -466,7 +459,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1318.852479187417657,
+					"cursor_position" : 1422.911605595615356,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
