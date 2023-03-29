@@ -27,3 +27,4 @@ From the Package Manager, just click install, or, when downloaded from the [Irca
 ## More information
 [https://ircam-ismm.github.io/max-msp/catart.html](https://ircam-ismm.github.io/max-msp/catart.html)
 
+Developed at IRCAM by the ISMM team and contributors: Diemo Schwarz, Aaron Einbond, Christopher Trapani, and others. Based on MuBu for Max by Norbert Schnell, Riccardo Borghesi, Diemo Schwarz and the ISMM team.
