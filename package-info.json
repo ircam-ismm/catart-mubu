@@ -1,0 +1,27 @@
+{
+    "name" : "catart-mubu",
+    "displayname" : "",
+    "version" : "1.5",
+    "author" : "ISMM Team, Ircam, and contributors",
+    "description" : "CataRT-MuBu is a collection of Max patches for corpus-based concatenative synthesis, audio mosaicing, descriptor analysis, transcription, and composition.  Requirements: MuBu package; Optional: sensel, blocks, bach, cage, spat5",
+    "tags" : [ "concatenative", "granular", "corpus-based", "mosaicing", "synthesis", "descriptors", "segmentation", "analysis", "data", "visualization", "machine learning" ],
+    "website" : "https://ircam-ismm.github.io/max-msp/catart.html",
+    "extensible" : 1,
+    "extends" : "",
+    "max_version_max" : "none",
+    "max_version_min" : "7.0",
+    "os" : 	{
+	"macintosh" : 		{
+	    "min_version" : "10.11.x",
+	    "platform" : [ "x64", "aarch64" ]
+	},
+	"windows" : 		{
+	    "min_version" : "7",
+	    "platform" : [ "x64" ]
+	}
+    },
+    "homepatcher" : "catart-mubu-overview.maxpat",
+    "package_extra" : 	{
+    },
+    "filelist" : 	{}
+}
