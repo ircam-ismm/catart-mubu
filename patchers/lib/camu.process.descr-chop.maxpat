@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 13.0, 840.0, 1280.0, 301.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -60,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 69.900024000000002, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"text" : "Calculate standard deviation"
@@ -77,6 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ]
@@ -165,6 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ]
@@ -181,6 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
@@ -225,7 +228,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 621.0, 50.0 ],
+					"patching_rect" : [ 392.0, 62.700012000000001, 551.0, 50.0 ],
 					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
@@ -315,7 +318,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.process.mxo",
 				"type" : "iLaX"
 			}
  ],

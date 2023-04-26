@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 202.5, 175.0, 19.0 ],
+					"patching_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
 					"text" : "Calculate Standard Deviation"
@@ -63,7 +63,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 202.5, 150.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
 					"text_width" : 109.519897
@@ -304,6 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
@@ -411,6 +413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ]
@@ -427,6 +430,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ]
@@ -443,6 +447,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ]
@@ -459,6 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ]
@@ -475,6 +481,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ]
@@ -491,6 +498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ]
@@ -514,7 +522,7 @@
 						"active" : 1
 					}
 ,
-					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.max 0 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
+					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.max 0 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
 					"varname" : "pipo-onseg"
 				}
 
@@ -541,6 +549,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ]
