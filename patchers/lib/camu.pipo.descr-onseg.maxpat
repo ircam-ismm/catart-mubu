@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -512,17 +512,17 @@
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
 					"id" : "obj-6",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "float", "" ],
-					"patching_rect" : [ 392.0, 63.700012000000001, 550.5, 42.0 ],
+					"patching_rect" : [ 392.0, 63.700012000000001, 550.5, 53.0 ],
 					"saved_object_attributes" : 					{
 						"active" : 1
 					}
 ,
-					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.max 0 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
+					"text" : "pipo~ descr:onseg @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.max 0 @onseg.threshold 5 @onseg.durthresh 0 @onseg.mininter 50 @onseg.maxsize 0 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.startisonset 1",
 					"varname" : "pipo-onseg"
 				}
 

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -396,7 +396,7 @@
 						"active" : 1
 					}
 ,
-					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 0 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
+					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 0 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
 					"varname" : "pipo-gate"
 				}
 

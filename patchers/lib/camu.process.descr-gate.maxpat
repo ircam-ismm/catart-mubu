@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -405,8 +405,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 551.0, 63.0 ],
-					"text" : "mubu.process #1 audio descr:gate @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 63.0 ],
+					"text" : "mubu.process #1 audio descr:gate @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-gate"
 				}

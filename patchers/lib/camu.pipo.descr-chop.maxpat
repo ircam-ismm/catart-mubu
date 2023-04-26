@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -218,7 +218,7 @@
 						"active" : 1
 					}
 ,
-					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @chop.size 250 @chop.mean 1 @chop.stddev 0 @chop.duration 1",
+					"text" : "pipo~ descr:chop @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250 @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"varname" : "pipo-chop"
 				}
 

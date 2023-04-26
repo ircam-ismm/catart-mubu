@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -228,8 +228,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 551.0, 50.0 ],
-					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 50.0 ],
+					"text" : "mubu.process #1 audio descr:chop @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
 				}
