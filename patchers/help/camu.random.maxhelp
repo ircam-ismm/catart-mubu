@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 1209.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 8.0, 585.5, 35.0, 91.0 ],
+					"patching_rect" : [ 8.0, 585.5, 35.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -102,7 +102,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 682.0, 45.0, 45.0 ]
+					"patching_rect" : [ 8.0, 651.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -114,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.039771999999971, 69.0, 69.0, 37.0 ],
+					"patching_rect" : [ 370.0, 94.0, 69.0, 37.0 ],
 					"text" : "load corpus"
 				}
 
@@ -2739,7 +2739,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 690.0, 59.0, 37.0 ],
+					"patching_rect" : [ 55.0, 659.0, 59.0, 37.0 ],
 					"text" : "audio on"
 				}
 
@@ -2748,6 +2748,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2808,12 +2809,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.501960784313725, 0.0, 0.83 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 15.120604173872938,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 8921.156462585033296 ],
+					"domain_bounds" : [ 1340.338429644184316, 4646.434113516239449 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2829,6 +2830,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "random-help-corpus",
@@ -4224,7 +4226,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 78.333344000000011, 669.0, 20.0, 20.0 ],
+					"patching_rect" : [ 78.333344000000011, 638.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -4245,7 +4247,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 431.039771999999971, 69.0, 20.0, 20.0 ],
+					"patching_rect" : [ 435.626884000000018, 94.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -4967,6 +4969,10 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17::obj-113" : [ "umenu", "umenu", 0 ],
+			"obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
+			"obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
+			"obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-75" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -4977,54 +4983,81 @@
 
 			}
 ,
+			"parameter_overrides" : 			{
+				"obj-17::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-43::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-54::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+,
+				"obj-55::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_modmode" : 0,
+					"parameter_unitstyle" : 10
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
-				"patcherrelativepath" : "../../../../../19-20/Projects19-20/VERTIGO/Cosmologies-Concert/camu-lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "helpname_camu.js",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-package/patchers/help",
+				"bootpath" : "~/src/catart-mubu/patchers/help",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
