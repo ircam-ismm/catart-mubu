@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1185.0, 744.0 ],
+		"rect" : [ 104.0, 696.0, 1185.0, 744.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 477.500000000000057, 192.599999606609344, 90.0, 19.0 ],
+					"text" : "refer #1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "message",
@@ -70,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 474.0222221679158, 227.0, 113.599999070167485, 47.0 ],
-					"presentation_linecount" : 2,
 					"text" : "query if audio track is available: suppress processing if not to avoid error messages"
 				}
 
@@ -118,12 +129,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 489.0222221679158, 318.300000190734863, 107.0, 19.0 ],
+					"patching_rect" : [ 489.0222221679158, 318.300000190734863, 130.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus audio",
+					"text" : "mubu.track #1 audio",
 					"varname" : "tt"
 				}
 
@@ -159,7 +170,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 226.5, 520.100006520748138, 86.0, 17.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bang to update knn"
 				}
 
@@ -183,7 +193,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 741.400010168552399, 29.5, 141.99999988079071, 27.0 ],
-					"presentation_linecount" : 2,
 					"text" : "on startup, fill umenu in outside patch with list of processes"
 				}
 
@@ -205,10 +214,10 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "int", "dump", "clear" ],
-					"patching_rect" : [ 732.400007784366608, 56.800000846385956, 103.200000047683716, 19.0 ],
-					"text" : "t b i dump clear"
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "int", "dump", "clear", "bang" ],
+					"patching_rect" : [ 732.400007784366608, 56.800000846385956, 161.200000047683716, 19.0 ],
+					"text" : "t b i dump clear b"
 				}
 
 			}
@@ -254,7 +263,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.400007784366608, 192.599999606609344, 85.0, 19.0 ],
+					"patching_rect" : [ 732.400007784366608, 192.599999606609344, 106.0, 19.0 ],
 					"text" : "s #1-menu-init"
 				}
 
@@ -302,10 +311,10 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "bang", "int" ],
-					"patching_rect" : [ 432.5, 133.200012000000015, 65.566666503747342, 19.0 ],
-					"text" : "t b b b i"
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "int" ],
+					"patching_rect" : [ 432.5, 133.200012000000015, 79.000000000000057, 19.0 ],
+					"text" : "t b b b b i"
 				}
 
 			}
@@ -397,7 +406,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-48",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -529,7 +538,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-28",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -556,11 +565,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 432.5, 8.5, 25.0, 25.0 ]
 				}
 
@@ -597,7 +606,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-58",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -623,11 +632,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 10.0, 8.5, 25.0, 25.0 ]
 				}
 
@@ -663,7 +672,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus" ],
+					"args" : [ "#1" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -673,7 +682,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.process.descr-onseg.maxpat",
+					"name" : "camu.process.descr-yin.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -801,6 +810,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -823,7 +839,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 826.100007832050323, 484.350003629922867, 487.0, 484.350003629922867 ],
+					"midpoints" : [ 848.550007820129395, 484.350003629922867, 487.0, 484.350003629922867 ],
 					"source" : [ "obj-25", 3 ]
 				}
 
@@ -915,7 +931,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
-					"source" : [ "obj-5", 3 ]
+					"source" : [ "obj-5", 4 ]
 				}
 
 			}
@@ -923,6 +939,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-5", 3 ]
 				}
 
 			}
@@ -1028,24 +1051,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.process.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
