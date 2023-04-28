@@ -40,6 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 158.200012000000015, 208.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 158.200012000000015, 208.0, 19.0 ],
+					"text" : "Advanced: adjust yin analysis parameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "descr.threshold",
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 157.200012000000015, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 157.200012000000015, 150.0, 21.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -139,7 +170,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 136.200012000000015, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 137.200012000000015, 150.0, 19.0 ],
+					"presentation_rect" : [ 161.0, 136.200012000000015, 150.0, 19.0 ],
 					"text" : "Calculate standard deviation"
 				}
 
@@ -506,6 +537,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}

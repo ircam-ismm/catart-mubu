@@ -40,6 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 223.5, 208.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 223.5, 208.0, 19.0 ],
+					"text" : "Advanced: adjust yin analysis parameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "descr.threshold",
+					"fontsize" : 10.0,
+					"id" : "obj-19",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 222.5, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 222.5, 150.0, 21.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -722,6 +753,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
