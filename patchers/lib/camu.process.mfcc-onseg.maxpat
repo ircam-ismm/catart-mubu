@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,9 +60,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.0, 193.5, 175.0, 19.0 ],
+					"patching_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 163.0, 201.5, 175.0, 19.0 ],
+					"presentation_rect" : [ 161.0, 200.5, 175.0, 19.0 ],
 					"text" : "Calculate standard deviation"
 				}
 
@@ -77,9 +77,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 193.5, 150.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 201.5, 150.0, 21.0 ],
+					"presentation_rect" : [ 1.0, 200.5, 150.0, 21.0 ],
 					"text_width" : 109.519897
 				}
 
@@ -317,6 +318,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
@@ -424,6 +426,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ]
@@ -440,6 +443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ]
@@ -456,6 +460,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ]
@@ -472,6 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ]
@@ -488,6 +494,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ]
@@ -504,6 +511,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ]
@@ -523,8 +531,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 566.0, 63.0 ],
-					"text" : "mubu.process #1 audio mfcc:onseg @name mfcc @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @mfcc.windsize 2048 @mfcc.hopsize 512 @onseg.colindex 0 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 63.0 ],
+					"text" : "mubu.process #1 audio mfcc:onseg @name mfcc @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @mfcc.windsize 2048 @mfcc.hopsize 256 @onseg.colindex 0 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
 				}
@@ -552,6 +560,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ]
@@ -594,6 +603,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -676,7 +686,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.process.mxo",
 				"type" : "iLaX"
 			}
  ],
