@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 104.0, 696.0, 1185.0, 744.0 ],
+		"rect" : [ 131.0, 88.0, 416.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -689,7 +689,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 102.0, 391.0, 297.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 21.700012000000001, 389.0, 279.0 ],
+					"presentation_rect" : [ 0.0, 21.700012000000001, 407.0, 470.0 ],
 					"varname" : "camu.process-bpatcher",
 					"viewvisibility" : 1
 				}
