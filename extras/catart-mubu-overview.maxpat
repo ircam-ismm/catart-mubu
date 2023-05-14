@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -263,7 +263,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -752,7 +752,7 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 1396.335752233374706,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
@@ -937,7 +937,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1653,7 +1653,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2893,13 +2893,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
+						"rect" : [ 34.0, 105.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2933,12 +2933,70 @@
 									"bubble" : 1,
 									"fontface" : 0,
 									"fontname" : "Arial",
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 189.0, 349.625, 366.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "full CataRT patch with polyphony per touch input from various external controllers (Sensel, ROLI, Linnstrument)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 16.0, 357.125, 132.0, 22.0 ],
+									"text" : "catart-mubu-poly"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-10",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 189.0, 389.625, 366.0, 37.0 ],
+									"text" : "full CataRT patch with polyphony per touch input from  Linnstrument"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 14.5, 397.125, 168.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "catart-mubu-poly-linnstrument"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
 									"id" : "obj-7",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 235.625, 366.0, 37.0 ],
+									"patching_rect" : [ 189.0, 237.625, 366.0, 37.0 ],
 									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
 								}
 
@@ -2951,7 +3009,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 243.125, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 245.125, 129.0, 22.0 ],
 									"text" : "catart-mubu-mfcc"
 								}
 
@@ -2964,7 +3022,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 380.5, 65.0, 22.0 ],
+									"patching_rect" : [ 16.0, 460.5, 65.0, 22.0 ],
 									"text" : "append #1"
 								}
 
@@ -2980,7 +3038,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 388.0, 366.0, 37.0 ],
+									"patching_rect" : [ 189.0, 468.0, 366.0, 37.0 ],
 									"text" : "legacy: CataRT controlled by a factor oracle + keymixer (contributed by Aaron Einbond)"
 								}
 
@@ -2994,7 +3052,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 529.5, 374.0, 24.0 ],
+									"patching_rect" : [ 189.0, 569.5, 374.0, 24.0 ],
 									"text" : "catart with grid-layout found by a self-organising map (SOM)"
 								}
 
@@ -3007,7 +3065,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 531.5, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 571.5, 129.0, 22.0 ],
 									"text" : "catart-mubu-SOM"
 								}
 
@@ -3021,7 +3079,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 504.5, 374.0, 24.0 ],
+									"patching_rect" : [ 189.0, 544.5, 374.0, 24.0 ],
 									"text" : "catart with per-grain higher-order ambisonics (HOA) spatialisation"
 								}
 
@@ -3034,7 +3092,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 504.5, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 544.5, 129.0, 22.0 ],
 									"text" : "catart-mubu-spat-mc"
 								}
 
@@ -3048,7 +3106,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 395.625, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 475.625, 129.0, 22.0 ],
 									"text" : "catoracle+keymixer"
 								}
 
@@ -3063,7 +3121,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 349.0, 366.0, 37.0 ],
+									"patching_rect" : [ 189.0, 429.0, 366.0, 37.0 ],
 									"text" : "CataRT controlled by a factor oracle (a la OMax) running in python (contributed by Aaron Einbond)"
 								}
 
@@ -3076,7 +3134,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 356.5, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 436.5, 129.0, 22.0 ],
 									"text" : "catoracle"
 								}
 
@@ -3091,7 +3149,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 474.0, 186.0, 22.0 ],
+									"patching_rect" : [ 16.0, 514.0, 186.0, 22.0 ],
 									"text" : "experimental patches"
 								}
 
@@ -3208,8 +3266,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 198.625, 366.0, 37.0 ],
-									"text" : "full featured CataRT patch with adapters for external gestural controller input"
+									"patching_rect" : [ 189.0, 198.625, 366.0, 37.0 ],
+									"text" : "full featured CataRT patch with adapters for external gestural controller input (Sensel, ROLI, Linnstrument)"
 								}
 
 							}
@@ -3235,7 +3293,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.0, 169.5, 366.0, 24.0 ],
+									"patching_rect" : [ 189.0, 169.5, 366.0, 24.0 ],
 									"text" : "full featured CataRT patch on perceptive descriptor space"
 								}
 
@@ -3274,7 +3332,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 572.0, 117.0, 22.0 ],
+									"patching_rect" : [ 37.0, 612.0, 117.0, 22.0 ],
 									"text" : "prepend loadunique"
 								}
 
@@ -3287,7 +3345,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 603.5, 53.0, 22.0 ],
+									"patching_rect" : [ 37.0, 643.5, 53.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -3379,7 +3437,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 459.0, 3.0, 459.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 25.5, 504.0, 3.0, 504.0, 3.0, 564.0, 46.5, 564.0 ],
 									"source" : [ "obj-73", 0 ]
 								}
 
@@ -3388,7 +3446,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 25.5, 604.0, 46.5, 604.0 ],
 									"source" : [ "obj-75", 0 ]
 								}
 
@@ -3397,7 +3455,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 472.0, 3.0, 472.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 25.5, 542.3125, 46.5, 542.3125 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -3434,7 +3492,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4330,13 +4388,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1218.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4421,7 +4479,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 322.625, 667.0, 129.0, 35.0 ],
-									"presentation_linecount" : 2,
 									"text" : ";\rmax launchbrowser $1"
 								}
 
@@ -5438,7 +5495,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
