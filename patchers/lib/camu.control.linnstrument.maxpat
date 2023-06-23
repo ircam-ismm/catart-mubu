@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 278.755522999999926, 36.0, 185.0, 22.0 ],
+					"text" : "port off, port \"LinnStrument MIDI\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 241.503128000000004, 15.0, 178.0, 21.0 ],
+					"text" : "loadmess port \"LinnStrument MIDI\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -540,6 +566,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -1213,8 +1240,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.503128000000004, 45.0, 178.0, 21.0 ],
-					"text" : "loadmess port \"LinnStrument MIDI\""
+					"patching_rect" : [ 241.503128000000004, 45.0, 28.0, 21.0 ],
+					"text" : "thru"
 				}
 
 			}
@@ -3666,7 +3693,7 @@
 														"orange" : [ 9, 247, 160, 90 ],
 														"lime" : [ 10, 230, 255, 116 ],
 														"pink" : [ 11, 255, 200, 255 ],
-														"mubu_count" : -1
+														"mubu_count" : -2
 													}
 ,
 													"id" : "obj-20",
@@ -4783,7 +4810,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 296.5, 87.0, 99.0, 22.0 ],
-									"text" : "-1 -1 0"
+									"text" : "6 3 1"
 								}
 
 							}
@@ -4938,7 +4965,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 674.0, 295.0, 401.0, 22.0 ],
-									"text" : "0. 0.972797 51.530334 3993.585449 51.530334 3993.585449"
+									"text" : "3468.355957 8103.970703 0. 0.394655 43.320248 5166.825195"
 								}
 
 							}
@@ -4961,7 +4988,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.433349600000042, 142.0, 99.0, 22.0 ],
-									"text" : "-1 -1 0"
+									"text" : "6 3 1"
 								}
 
 							}
@@ -5135,7 +5162,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-42",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5357,7 +5383,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 108.0, 490.0, 389.0, 22.0 ],
-													"text" : "0. 0.972797 51.530334 3993.585449 51.530334 3993.585449"
+													"text" : "3468.355957 8103.970703 0. 0.394655 43.320248 5166.825195"
 												}
 
 											}
@@ -6011,7 +6037,6 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-42",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -7249,7 +7274,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1024.80313000000001, 3.0, 30.0, 30.0 ]
 				}
 
@@ -7728,6 +7753,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-183", 0 ],
 					"source" : [ "obj-193", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
