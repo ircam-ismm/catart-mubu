@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 613.662879999999859, 426.664355218410492, 137.0, 22.0 ],
+					"text" : "getnum, getmin, getmax"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -362,7 +374,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-90",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1186,7 +1197,7 @@
 					"presentation_rect" : [ 100.349430333333316, 95.87552671093755, 49.730121666666605, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number[10]",
+							"parameter_longname" : "number",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 0
@@ -1891,7 +1902,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "hit", "int" ],
+					"outlettype" : [ "bang", "bang", "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1931,7 +1942,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -4055,7 +4065,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bow", "fence", "beat", "beatmove", "loop", "loopmove", "cont" ],
-							"parameter_longname" : "umenu[15]",
+							"parameter_longname" : "umenu",
 							"parameter_mmax" : 6,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
@@ -4244,7 +4254,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 4.039771999999914, 35.000000210937515, 30.0, 30.0 ]
 				}
 
@@ -5236,6 +5246,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"source" : [ "obj-90", 0 ]
 				}
 
 			}
