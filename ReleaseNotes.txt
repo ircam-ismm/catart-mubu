@@ -2,6 +2,23 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
+CataRT-Mubu v1.5.1-Linnstrument	15.05.2023
+
+- improve Linnstrument input: multi-touch pads + pressure
+- add to catart-mubu-poly and catart-mubu-poly-linnstrument (duplicates, for the moment)
+
+____________________________________________________
+CataRT-Mubu v1.5-forum2023	30.03.2023
+
+big reorganisation and improvement of documentation:
+- Max package structure, overview patch, help files,
+- improved tutorials
+- new higher-level abstractions:
+  camu.voice
+- simplified higher-level abstractions:
+  camu.imubu.control, camu.target, camu.select
+  
+____________________________________________________
 CataRT-Mubu v1.4-forum2022	22.03.2022
 
 - Add trigger chance and reverse probability parameters
