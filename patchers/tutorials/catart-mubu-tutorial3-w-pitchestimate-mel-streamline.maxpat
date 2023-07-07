@@ -208,7 +208,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 447.0, 957.727275848388672, 88.0, 35.0 ],
-					"text" : "22585.423559 150.519674"
+					"text" : "28836.088076 32.812247"
 				}
 
 			}
@@ -822,12 +822,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 22585.423558975737251,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 22585.423558975737251, 39149.102529514144408 ],
+					"domain_bounds" : [ 0.0, 38405.986394557825406 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -977,7 +977,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 4.0, 921.0, 2556.0, 508.0 ],
+						"rect" : [ 10.0, 577.0, 2545.0, 861.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1238,7 +1238,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 732.666626000000178, 42.646165391765635, 881.0, 102.0 ],
-									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:scale(fsc)>thru<thru\\,segment:scale> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @fsc.inmax 100 @fsc.outmax 100 @fsc.clip 1 @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scale.inmax 1000 @scale.outmax 1000 @scale.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
+									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:scale(fsc)>thru<thru\\,segment:scale> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind none @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @fsc.inmax 100 @fsc.outmax 100 @fsc.clip 1 @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scale.inmax 1000 @scale.outmax 1000 @scale.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
 								}
 
 							}
@@ -1370,13 +1370,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-15",
-									"linecount" : 7,
+									"linecount" : 6,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 732.666626000000178, -122.449972863185849, 881.0, 118.0 ],
-									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:segment>segmedian @name median @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
+									"patching_rect" : [ 732.666626000000178, -122.449972863185849, 881.0, 102.0 ],
+									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:segment>segmedian @name median @process 0 @progressoutput input @prepad 3000 @slice.wind none @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
 								}
 
 							}
