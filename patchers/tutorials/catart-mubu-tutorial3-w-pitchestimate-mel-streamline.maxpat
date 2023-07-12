@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 2558.0, 1171.0 ],
+		"rect" : [ 364.0, 205.0, 1440.0, 812.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 940.000000536441803, 57.5, 353.199998438358307, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "see MIDI pitch, periodicity, flux, and onset detection function \n(to determine threshold)"
 				}
 
@@ -73,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 940.000000536441803, 90.0, 353.199998438358307, 49.0 ],
-					"presentation_linecount" : 7,
 					"text" : "view median interface multibpf, view median visible 0, view raw interface multiwave, view raw visibleindices all, view raw showcolnames 1, alignviewbounds 0"
 				}
 
@@ -102,7 +100,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 68.0, 429.0, 24.0, 24.0 ]
+					"patching_rect" : [ 70.5, 391.249634000000015, 24.0, 24.0 ]
 				}
 
 			}
@@ -128,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1589.200000166893005, 14.199999928474426, 52.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "markers"
 				}
 
@@ -207,8 +204,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 957.727275848388672, 88.0, 35.0 ],
-					"text" : "28836.088076 32.812247"
+					"patching_rect" : [ 447.0, 957.727275848388672, 89.0, 35.0 ],
+					"text" : "64.236982 78.017038"
 				}
 
 			}
@@ -434,10 +431,10 @@
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 114.0, 227.999985000000038, 217.0, 22.0 ],
-					"text" : "camu.pitchestimate tut3-corpus yin-raw",
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 84.5, 205.499985000000038, 198.0, 22.0 ],
+					"text" : "camu.movepitchcolumn tut3-corpus",
 					"varname" : "camu.pitchestimate"
 				}
 
@@ -629,7 +626,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 345.0, 276.913989007472992, 169.0, 33.0 ],
+					"patching_rect" : [ 413.0, 280.913989007472992, 169.0, 33.0 ],
 					"text" : "standard connection to imubu as abstraction"
 				}
 
@@ -642,7 +639,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 439.749634000000015, 188.0, 20.0 ],
+					"patching_rect" : [ 301.0, 438.749634000000015, 188.0, 20.0 ],
 					"text" : "arguments: mubu name and track"
 				}
 
@@ -650,13 +647,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 156.0, 280.913989007472992, 117.0, 35.0 ],
-					"text" : "camu.imubu.control tut3-corpus markers"
+					"patching_rect" : [ 109.0, 286.413989007472992, 209.0, 22.0 ],
+					"text" : "camu.imubu.control tut3-corpus descr"
 				}
 
 			}
@@ -664,13 +660,12 @@
 				"box" : 				{
 					"color" : [ 0.976337075233459, 0.329141706228256, 0.055891372263432, 1.0 ],
 					"id" : "obj-167",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "list" ],
-					"patching_rect" : [ 114.0, 438.749634000000015, 169.0, 35.0 ],
-					"text" : "camu.select tut3-corpus markers"
+					"patching_rect" : [ 114.0, 438.749634000000015, 169.0, 22.0 ],
+					"text" : "camu.select tut3-corpus descr"
 				}
 
 			}
@@ -696,7 +691,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 280.913989007472992, 67.0, 22.0 ],
+					"patching_rect" : [ 344.0, 284.913989007472992, 67.0, 22.0 ],
 					"text" : "pvar editor"
 				}
 
@@ -709,7 +704,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.25, 229.499985000000038, 215.0, 20.0 ],
+					"patching_rect" : [ 132.289779999999951, 229.499985000000038, 215.0, 20.0 ],
 					"text" : "click mode: select only on mouse click"
 				}
 
@@ -722,7 +717,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 229.499985000000038, 21.0, 21.0 ]
+					"patching_rect" : [ 109.039779999999951, 229.499985000000038, 21.0, 21.0 ]
 				}
 
 			}
@@ -819,15 +814,15 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 1,
-					"cursor_nearest" : 0,
+					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 64.236982471377672,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 38405.986394557825406 ],
+					"domain_bounds" : [ 41.862899780273438, 77.220252990722656 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -860,7 +855,7 @@
 					"outputvalues" : 1,
 					"outputviewname" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 162.0, 1460.845457792282104, 747.636370241641998 ],
+					"patching_rect" : [ 940.000000536441803, 216.499985000000038, 598.178765416145325, 434.30302757024765 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -977,7 +972,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 10.0, 577.0, 2545.0, 861.0 ],
+						"rect" : [ 290.0, 106.0, 662.0, 676.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1005,7 +1000,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
@@ -1046,7 +1040,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1677.666626000000178, 52.30001100000004, 108.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "track markers clear, track markers paste"
 								}
 
@@ -1193,11 +1186,11 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"linecount" : 27,
+									"linecount" : 25,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 842.0, 255.0, 154.0, 344.0 ],
+									"patching_rect" : [ 842.0, 255.0, 163.0, 319.0 ],
 									"text" : "ERROR:\nmubu.process tut3-corpus audio slice<yin,fft:bands:delta:sum<thru,segment> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Loudness @segment.odfmode 1 @segment.onsegmetric square @segment.filtersize 21 @segment.threshold 300 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @info gui \"interface markers, autobounds 1, fgcolor violet\""
 								}
 
@@ -1238,7 +1231,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 732.666626000000178, 42.646165391765635, 881.0, 102.0 ],
-									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:scale(fsc)>thru<thru\\,segment:scale> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind none @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @fsc.inmax 100 @fsc.outmax 100 @fsc.clip 1 @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scale.inmax 1000 @scale.outmax 1000 @scale.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
+									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:scale(fsc)>thru<thru\\,segment:scale> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @fsc.inmax 100 @fsc.outmax 100 @fsc.clip 1 @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scale.inmax 1000 @scale.outmax 1000 @scale.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
 								}
 
 							}
@@ -1265,7 +1258,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 973.619906083747992, -152.0, 197.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2111.666626000000178, -306.533326057994771, 197.0, 21.0 ],
+									"presentation_rect" : [ 419.666626000000178, 516.466673942005173, 197.0, 21.0 ],
 									"text_width" : 147.380093916252008
 								}
 
@@ -1281,7 +1274,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 760.619906083747992, -152.0, 197.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1897.666626461355008, -309.750024136814091, 197.0, 21.0 ],
+									"presentation_rect" : [ 205.666626461355008, 513.249975863185909, 197.0, 21.0 ],
 									"text_width" : 120.0
 								}
 
@@ -1297,7 +1290,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 732.666626000000178, -193.200019999999938, 117.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1703.0, -193.200019999999938, 121.0, 22.0 ],
+									"presentation_rect" : [ 11.0, 629.799980000000005, 121.0, 22.0 ],
 									"text" : "segment.mininter $1"
 								}
 
@@ -1313,7 +1306,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 732.666626000000178, -246.700011999999958, 121.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1703.0, -246.700011999999958, 121.0, 22.0 ],
+									"presentation_rect" : [ 11.0, 576.299987999999985, 121.0, 22.0 ],
 									"text" : "segment.offthresh $1"
 								}
 
@@ -1330,7 +1323,7 @@
 									"patching_rect" : [ 732.666626000000178, -220.200019999999938, 125.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1703.0, -220.200019999999938, 121.0, 35.0 ],
+									"presentation_rect" : [ 11.0, 602.799980000000005, 121.0, 35.0 ],
 									"text" : "segment.durthresh $1"
 								}
 
@@ -1347,7 +1340,7 @@
 									"patching_rect" : [ 732.666626000000178, -270.700011999999958, 124.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1703.0, -270.700011999999958, 120.0, 35.0 ],
+									"presentation_rect" : [ 11.0, 552.299987999999985, 120.0, 35.0 ],
 									"text" : "segment.threshold $1"
 								}
 
@@ -1370,13 +1363,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-15",
-									"linecount" : 6,
+									"linecount" : 7,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 732.666626000000178, -122.449972863185849, 881.0, 102.0 ],
-									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:segment>segmedian @name median @process 0 @progressoutput input @prepad 3000 @slice.wind none @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
+									"patching_rect" : [ 732.666626000000178, -122.449972863185849, 881.0, 118.0 ],
+									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf)\\,select(selp)>\\,fft:bands:delta:sum:segment>segmedian @name median @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
 								}
 
 							}
@@ -1799,11 +1792,11 @@
 									"id" : "obj-59",
 									"linecount" : 3,
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 4,
-									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 1953.666626000000178, 134.30001100000004, 594.0, 61.0 ],
-									"text" : "xmubu.process tut3-corpus audio descr:chop:const @name descr @process 0 @prepad 0 @chop.duration 0 @chop.min 0 @chop.max 0 @chop.mean 1 @chop.stddev 0 @timetagged 1"
+									"outlettype" : [ "", "", "int", "" ],
+									"patching_rect" : [ 2055.666626000000178, 357.0, 531.0, 61.0 ],
+									"text" : "mubu.process tut3-corpus audio descr:chop:const @name descr @process 0 @prepad 0 @chop.duration 1 @chop.min 1 @chop.max 1 @chop.mean 1 @chop.stddev 1 @timetagged 1"
 								}
 
 							}
@@ -2096,7 +2089,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"midpoints" : [ 2293.166626000000178, 127.80001100000004, 1963.166626000000178, 127.80001100000004 ],
+									"midpoints" : [ 2293.166626000000178, 127.80001100000004, 2065.166626000000178, 127.80001100000004 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2404,7 +2397,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"midpoints" : [ 2128.166626000000178, 127.55001100000004, 1963.166626000000178, 127.55001100000004 ],
+									"midpoints" : [ 2128.166626000000178, 127.55001100000004, 2065.166626000000178, 127.55001100000004 ],
 									"source" : [ "obj-54", 0 ]
 								}
 
@@ -2672,18 +2665,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-30",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 114.0, 582.0, 354.0, 35.0 ],
+					"patching_rect" : [ 114.0, 582.0, 250.666654348373413, 49.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 tut3-corpus @audio audio @markers markers @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
+					"text" : "mubu.concat~ 2 tut3-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
 					"varname" : "concat1c"
 				}
 
@@ -3323,7 +3316,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-175", 1 ],
-					"midpoints" : [ 273.5, 480.749634000000015, 526.25, 480.749634000000015, 526.25, 253.913989007472992, 198.166666666666657, 253.913989007472992 ],
+					"midpoints" : [ 273.5, 480.749634000000015, 526.25, 480.749634000000015, 526.25, 253.913989007472992, 181.833333333333343, 253.913989007472992 ],
 					"source" : [ "obj-167", 1 ]
 				}
 
@@ -3405,7 +3398,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -3413,7 +3406,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -3476,7 +3469,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-167", 3 ],
-					"midpoints" : [ 458.5, 628.0, 533.269890000000032, 628.0, 533.269890000000032, 430.749634000000015, 273.5, 430.749634000000015 ],
+					"midpoints" : [ 355.166654348373413, 628.0, 533.269890000000032, 628.0, 533.269890000000032, 430.749634000000015, 273.5, 430.749634000000015 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -3484,7 +3477,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
-					"midpoints" : [ 291.0, 639.5, 147.5, 639.5 ],
+					"midpoints" : [ 239.333327174186707, 639.5, 147.5, 639.5 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -3492,7 +3485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
-					"midpoints" : [ 123.5, 487.5, 84.5, 487.5 ],
+					"midpoints" : [ 123.5, 615.500003814697266, 84.5, 615.500003814697266 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -3880,69 +3873,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "bach.<=.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.args.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.contains.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.depth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.eq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.f2mc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.find.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.flat.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.geq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.gt.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.is.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.iter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -3950,140 +3881,76 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.length.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.lt.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.mean.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.median.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.neq.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.nth.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.pick.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.portal.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.print.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "bach.reg.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.sieve.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.slice.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.sort.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bach.sum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.pitchestimate.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/tutorials",
-				"patcherrelativepath" : ".",
+				"name" : "camu.movepitchcolumn.maxpat",
+				"bootpath" : "~/Documents/Electronic-Music-Files/TRAPANI-CaMu-2023/Modules",
+				"patcherrelativepath" : "../../../../Electronic-Music-Files/TRAPANI-CaMu-2023/Modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/src/catart-mubu",
-				"patcherrelativepath" : "../..",
+				"bootpath" : "~/Documents/Max 8/Packages/bach",
+				"patcherrelativepath" : "../../../../Max 8/Packages/bach",
 				"type" : "PNG",
 				"implicit" : 1
 			}
