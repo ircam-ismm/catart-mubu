@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 212.22265625, 600.0, 177.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "number of active ids in instance"
 				}
 
@@ -143,18 +142,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 163.22265625, 505.5, 406.828125, 22.0 ],
 					"text" : "join 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 592.0, 292.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -344,7 +331,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 69.0, 79.0, 748.0, 1197.0 ],
+						"rect" : [ 69.0, 79.0, 751.0, 1254.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -767,15 +754,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"order" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -872,13 +850,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"source" : [ "obj-33", 0 ]
 				}
 
 			}
