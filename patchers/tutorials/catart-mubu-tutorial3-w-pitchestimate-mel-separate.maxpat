@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1985.0, 824.0 ],
+		"rect" : [ 0.0, 45.0, 2005.0, 1185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,82 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1603.800002038478851, 280.913989007472992, 221.0, 22.0 ],
+					"text" : "prepend view descr-mean visibleindices"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-64",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1423.178765416145325, 205.499985000000038, 125.999999642372131, 104.0 ],
+					"text" : "\n\nOverlay of:\n1. audio,\n2. spectral bands,\n\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-63",
+					"linecount" : 16,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1423.178765416145325, 515.000000000000114, 125.999999642372131, 238.0 ],
+					"text" : "\n\n\n\n\n\nOverlay of:\ndescriptors:\n1. raw\n2. median\n\n\n\n\n\n\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-62",
+					"linecount" : 13,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1423.178765416145325, 313.913989007472992, 125.999999642372131, 198.0 ],
+					"text" : "\n\n\n\nOverlay of:\n1. segmentation input (Flux) and ODF, \n2. marker output\n\n\n\n\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1620.000024139881134, 470.400007009506226, 134.0, 22.0 ],
+					"text" : "layout mixedjuxtaposed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1620.000024139881134, 322.413989007472992, 203.0, 22.0 ],
+					"text" : "view descr-raw visibleindices 0 1 3 5"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "button",
@@ -93,7 +169,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 1883.0, 741.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -121,9 +197,9 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-96",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -136,7 +212,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-87",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -149,7 +224,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-86",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -162,7 +236,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-68",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -175,7 +248,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-66",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -188,7 +260,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-63",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -201,7 +272,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-62",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -214,7 +284,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-61",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -227,7 +296,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-59",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -244,7 +312,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-64",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -303,7 +370,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
-									"hidden" : 1,
 									"midpoints" : [ 227.5, 183.250007499999981, 59.5, 183.250007499999981 ],
 									"source" : [ "obj-59", 2 ]
 								}
@@ -312,7 +378,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"hidden" : 1,
 									"source" : [ "obj-61", 0 ]
 								}
 
@@ -320,7 +385,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-63", 0 ],
-									"hidden" : 1,
 									"order" : 1,
 									"source" : [ "obj-62", 0 ]
 								}
@@ -329,7 +393,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-68", 1 ],
-									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-62", 0 ]
 								}
@@ -338,7 +401,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-66", 0 ],
-									"hidden" : 1,
 									"order" : 1,
 									"source" : [ "obj-63", 0 ]
 								}
@@ -347,7 +409,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-87", 1 ],
-									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-63", 0 ]
 								}
@@ -363,7 +424,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-64", 0 ],
-									"hidden" : 1,
 									"order" : 1,
 									"source" : [ "obj-66", 2 ]
 								}
@@ -372,7 +432,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
-									"hidden" : 1,
 									"order" : 0,
 									"source" : [ "obj-66", 2 ]
 								}
@@ -381,7 +440,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"hidden" : 1,
 									"order" : 2,
 									"source" : [ "obj-66", 2 ]
 								}
@@ -390,7 +448,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-64", 1 ],
-									"hidden" : 1,
 									"source" : [ "obj-68", 0 ]
 								}
 
@@ -398,7 +455,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-87", 0 ],
-									"hidden" : 1,
 									"source" : [ "obj-86", 0 ]
 								}
 
@@ -413,7 +469,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-61", 0 ],
-									"hidden" : 1,
 									"source" : [ "obj-96", 0 ]
 								}
 
@@ -442,7 +497,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1346.821234583854675, 90.0, 50.0, 49.0 ],
-					"text" : "1 0 0 0 0 0 0 0 0 0 1 1"
+					"text" : "1 1 0 1 0 1 0 0 0 0 0 0"
 				}
 
 			}
@@ -454,7 +509,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1467.0, 241.699999928474426, 210.0, 22.0 ],
+					"patching_rect" : [ 1603.800002038478851, 239.899985154972114, 210.0, 22.0 ],
 					"text" : "prepend view descr-raw visibleindices"
 				}
 
@@ -467,7 +522,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1433.0, 210.699999928474426, 53.0, 22.0 ],
+					"patching_rect" : [ 1569.800002038478851, 210.699999928474426, 53.0, 22.0 ],
 					"text" : "zl filter 0"
 				}
 
@@ -505,7 +560,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1433.0, 8.699999928474426, 18.0, 194.0 ],
 					"size" : 12,
-					"values" : [ 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1 ]
+					"values" : [ 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0 ]
 				}
 
 			}
@@ -608,7 +663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 565.0, 822.727275848388672, 124.0, 22.0 ],
+					"patching_rect" : [ 565.0, 851.464785626039543, 124.0, 22.0 ],
 					"text" : "routepass bufferindex"
 				}
 
@@ -675,8 +730,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 575.5, 780.727275848388672, 89.0, 35.0 ],
-					"text" : "-9478.14801 1.816956"
+					"patching_rect" : [ 575.5, 809.464785626039543, 89.0, 35.0 ],
+					"text" : "8358.073974 0.108328"
 				}
 
 			}
@@ -1266,7 +1321,7 @@
 			}
 , 			{
 				"box" : 				{
-					"alignviewbounds" : 0,
+					"alignviewbounds" : 1,
 					"autobounds" : 0,
 					"autorefreshrate" : 0,
 					"autoupdate" : 100.0,
@@ -1288,12 +1343,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 8358.073974400504085,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 12959.637188208616863 ],
+					"domain_bounds" : [ 0.0, 12964.512471655329136 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1308,7 +1363,7 @@
 					"externalfiles" : 1,
 					"freeze" : 0,
 					"id" : "obj-216",
-					"layout" : 0,
+					"layout" : 2,
 					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
@@ -1326,7 +1381,7 @@
 					"outputvalues" : 1,
 					"outputviewname" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 176.762475222349167, 856.178765416145325, 598.30302757024765 ],
+					"patching_rect" : [ 565.0, 205.499985000000038, 856.178765416145325, 598.30302757024765 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -1443,7 +1498,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 12.0, 790.0, 1954.0, 639.0 ],
+						"rect" : [ 0.0, 793.0, 2033.0, 643.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1474,13 +1529,77 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-38",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 73.199998497962952, 14.80001111920933, 101.0, 44.0 ],
+									"text" : "raw flux segmentation input, segment odf"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-40",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 82.199998497962952, -27.992296078838308, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.368627450980392, 0.764705882352941, 0.329411764705882, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-41",
+									"linecount" : 5,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "int", "" ],
+									"patching_rect" : [ 180.86662449796313, 8.646165510974924, 910.0, 87.0 ],
+									"text" : "mubu.process tut3-corpus audio slice:fft:bands:delta:sum<scale(scfx)\\,onseg:scale(scodf)> @name segmentation-input @process 0 @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.outcolnames Flux @scfx.inmax 100 @scfx.outmax 100 @scfx.clip 1 @onseg.columns Flux @onseg.odfoutput 1 @onseg.odfmode rms @onseg.filtersize 21 @scodf.inmax 100 @scodf.outmax 100 @scodf.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-33",
+									"linecount" : 37,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 2033.0, -277.0, 154.0, 469.0 ],
+									"text" : "ALL IN ONE:\n\nmubu.process tut3-corpus audio <descr<select(selfq):scale(scfq),thru>,slice:fft:bands:delta:sum:segment>segmedian @name descr-median @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.outcolnames Flux @segment.outputmode off @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @segmedian.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 60.199998497962952, 291.050027256023441, 119.0, 31.0 ],
+									"text" : "spectral bands for verification"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-16",
 									"maxclass" : "button",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 94.199998497962952, 261.007703921161692, 24.0, 24.0 ]
+									"patching_rect" : [ 96.199998497962952, 244.007703921161692, 24.0, 24.0 ]
 								}
 
 							}
@@ -1495,7 +1614,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 175.100767580633146, 255.550027256023441, 884.0, 55.0 ],
+									"patching_rect" : [ 182.100767580633146, 285.550027256023441, 884.0, 55.0 ],
 									"text" : "mubu.process tut3-corpus audio slice:fft:bands @name bands @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @info gui \"interface spectrogram, autobounds 1, visible 0\""
 								}
 
@@ -1514,37 +1633,13 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-34",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 146.666638218952357, 169.30001111920933, 920.199986279010773, 69.0 ],
-									"text" : "mubu.process tut3-corpus audio slice<yin<select(self):scale(scf),select(selp)>,fft:bands:delta:sum:scale(fsc)>thru<thru,segment:scale> @name raw @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @yin.threshold 0 @self.columns Frequency @scf.func ftom @scf.outcolnames NoteNumber @selp.columns Periodicity @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Flux @fsc.inmax 100 @fsc.outmax 100 @fsc.clip 1 @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scale.inmax 1000 @scale.outmax 1000 @scale.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-35",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1209.819046854972839, 200.093664249740641, 181.0, 19.0 ],
-									"text" : "workaround for addtrackpaste bugs"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1178.485672854973018, 218.093664249740641, 108.0, 33.0 ],
-									"text" : "track markers clear, track markers paste"
+									"patching_rect" : [ 1282.819046854972839, 158.093664249740641, 116.0, 31.0 ],
+									"text" : "descr + MIDI and temporal modeling"
 								}
 
 							}
@@ -1577,19 +1672,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-29",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 1297.485672854973018, 218.093664249740641, 117.0, 33.0 ],
-									"text" : "bufferindex $1, track descr-median copy"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"color" : [ 0.368627450980392, 0.764705882352941, 0.329411764705882, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
@@ -1598,7 +1680,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1130.86662449796313, 281.30001111920933, 86.0, 20.0 ],
+									"patching_rect" : [ 1103.374560021949947, 37.80001111920933, 86.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
@@ -1616,25 +1698,12 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-23",
-									"linecount" : 3,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ -5.333361781047643, 175.093664249740641, 150.0, 44.0 ],
-									"text" : "todo:\nslice<yin,fft:bands:delta:sum><thru,segment> "
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-18",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.199998497962952, 49.30001111920933, 150.0, 31.0 ],
-									"text" : "output raw yin, raw flux segmentation, segment odf"
+									"patching_rect" : [ 24.199998497962952, 158.30001111920933, 150.0, 19.0 ],
+									"text" : "output raw descr"
 								}
 
 							}
@@ -1646,7 +1715,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 87.199998497962952, 21.007703921161692, 24.0, 24.0 ]
+									"patching_rect" : [ 87.199998497962952, 117.007703921161692, 24.0, 24.0 ]
 								}
 
 							}
@@ -1656,25 +1725,24 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-10",
-									"linecount" : 6,
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 185.86662449796313, 57.646165510974924, 910.0, 102.0 ],
-									"text" : "mubu.process tut3-corpus audio thru<descr<select(selfq):scale(scfq)\\,thru>\\,slice:fft:bands:delta:sum:scale(scfx)>thru<thru\\,segment:scale(scodf)> @name descr-raw @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @descr.hopsize 64 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.outcolnames Flux @scfx.inmax 100 @scfx.outmax 100 @scfx.clip 1 @segment.columns Flux @segment.odfoutput 1 @segment.onsegmetric rms @segment.filtersize 21 @scodf.inmax 1000 @scodf.outmax 1000 @scodf.clip 1 @info gui \"interface multibpf, autobounds 1, fgcolor red, colormode rainbow, showcolnames 1\""
+									"patching_rect" : [ 185.86662449796313, 153.646165510974924, 910.0, 55.0 ],
+									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru> @name descr-raw @process 0 @prepad 3000 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @info gui \"interface multiwave, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1\""
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.199998497962952, -84.69998888079067, 150.0, 31.0 ],
-									"text" : "flux segmentation, output yin segment median"
+									"patching_rect" : [ 60.199998497962952, -104.166621942558322, 119.0, 19.0 ],
+									"text" : "flux segmentation"
 								}
 
 							}
@@ -1722,7 +1790,7 @@
 									"patching_rect" : [ 185.86662449796313, -178.200019880790649, 117.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 11.0, 629.799980000000005, 121.0, 22.0 ],
-									"text" : "segment.mininter $1"
+									"text" : "onseg.mininter $1"
 								}
 
 							}
@@ -1738,7 +1806,7 @@
 									"patching_rect" : [ 185.86662449796313, -231.700011880790669, 121.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 11.0, 576.299987999999985, 121.0, 22.0 ],
-									"text" : "segment.offthresh $1"
+									"text" : "onseg.offthresh $1"
 								}
 
 							}
@@ -1753,9 +1821,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 185.86662449796313, -205.200019880790649, 125.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 11.0, 602.799980000000005, 121.0, 35.0 ],
-									"text" : "segment.durthresh $1"
+									"presentation_rect" : [ 11.0, 602.799980000000005, 121.0, 22.0 ],
+									"text" : "onseg.durthresh $1"
 								}
 
 							}
@@ -1770,9 +1837,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 185.86662449796313, -255.700011880790669, 124.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 11.0, 552.299987999999985, 120.0, 35.0 ],
-									"text" : "segment.threshold $1"
+									"presentation_rect" : [ 11.0, 552.299987999999985, 120.0, 22.0 ],
+									"text" : "onseg.threshold $1"
 								}
 
 							}
@@ -1794,13 +1860,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-15",
-									"linecount" : 7,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 185.86662449796313, -107.449972743976559, 884.0, 118.0 ],
-									"text" : "mubu.process tut3-corpus audio <descr<select(selfq):scale(scfq)\\,thru>\\,slice:fft:bands:delta:sum:segment>segmedian @name descr-median @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.outcolnames Flux @segment.outputmode off @segment.onsegmetric rms @segment.filtersize 21 @segment.threshold 15 @segment.offthresh -2000 @segment.durthresh 100 @segment.mininter 100 @segment.startisonset 1 @segment.maxsize 15000 @segmedian.maxsize 15000 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor 0.9 0.1 0.1 0.25, colormode rainbow\""
+									"patching_rect" : [ 185.86662449796313, -107.449972743976559, 884.0, 87.0 ],
+									"text" : "mubu.process tut3-corpus audio slice:fft:bands:delta:sum:onseg @name markers @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.outcolnames Flux @onseg.odfmode rms @onseg.filtersize 21 @onseg.threshold 15 @onseg.offthresh -2000 @onseg.durthresh 100 @onseg.mininter 100 @onseg.startisonset 1 @onseg.maxsize 15000 @onseg.duration 1 @info gui \"interface markers, fgcolor red\""
 								}
 
 							}
@@ -2224,13 +2290,13 @@
 									"color" : [ 0.310894519090652, 0.733397960662842, 0.261269152164459, 1.0 ],
 									"fontsize" : 14.0,
 									"id" : "obj-59",
-									"linecount" : 3,
+									"linecount" : 5,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 1508.86662449796313, 372.00000011920929, 531.0, 61.0 ],
-									"text" : "mubu.process tut3-corpus audio descr:chop:const @name descr @process 0 @prepad 0 @chop.duration 1 @chop.min 1 @chop.max 1 @chop.mean 1 @chop.stddev 1 @timetagged 1"
+									"patching_rect" : [ 1406.86662449796313, 158.093664249740641, 582.0, 96.0 ],
+									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru>chop:const @name descr-mean @process 0 @prepad 3000 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @chop.duration 0 @chop.mean 1 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1, opacity 0.5\""
 								}
 
 							}
@@ -2523,7 +2589,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"midpoints" : [ 1746.36662449796313, 142.80001111920933, 1518.36662449796313, 142.80001111920933 ],
+									"midpoints" : [ 1746.36662449796313, 142.80001111920933, 1416.36662449796313, 142.80001111920933 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -2561,6 +2627,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
+									"order" : 3,
+									"source" : [ "obj-132", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
 									"order" : 2,
 									"source" : [ "obj-132", 0 ]
 								}
@@ -2715,13 +2789,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-29", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-30", 0 ]
 								}
@@ -2796,8 +2863,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-25", 0 ],
-									"source" : [ "obj-4", 0 ]
+									"destination" : [ "obj-41", 0 ],
+									"source" : [ "obj-40", 0 ]
 								}
 
 							}
@@ -2839,7 +2906,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
-									"midpoints" : [ 1581.36662449796313, 142.55001111920933, 1518.36662449796313, 142.55001111920933 ],
+									"midpoints" : [ 1581.36662449796313, 142.55001111920933, 1416.36662449796313, 142.55001111920933 ],
 									"source" : [ "obj-54", 0 ]
 								}
 
@@ -2860,6 +2927,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-71", 0 ],
 									"source" : [ "obj-59", 0 ]
 								}
@@ -2869,13 +2943,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
 									"source" : [ "obj-59", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"source" : [ "obj-6", 1 ]
 								}
 
 							}
@@ -3717,6 +3784,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-107", 0 ]
@@ -4280,8 +4354,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-88", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"hidden" : 1,
+					"order" : 1,
 					"source" : [ "obj-88", 1 ]
 				}
 
@@ -4298,6 +4381,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
+					"order" : 1,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 1 ],
+					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -4313,7 +4405,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 1356.321234583854675, 152.124817000000007, 1442.5, 152.124817000000007 ],
+					"midpoints" : [ 1356.321234583854675, 152.124817000000007 ],
 					"source" : [ "obj-95", 0 ]
 				}
 
