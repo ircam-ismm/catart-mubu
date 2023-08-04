@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 870.0, 855.0 ],
+		"rect" : [ 0.0, 45.0, 1440.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1230.0, 894.499985000000038, 74.0, 22.0 ],
+					"text" : "s descr-filter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1318.0, 891.499985000000038, 91.0, 22.0 ],
+					"text" : "s descr-median"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1423.0, 891.499985000000038, 71.0, 22.0 ],
+					"text" : "s descr-raw"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1464,8 +1500,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1975.599998980760574, 832.425000071525574, 354.800002038478851, 102.0 ],
-					"text" : ";\rimubu 2 view 0 visible 0;\rdescr-raw visible 1, interface wave, bounds content;\rdescr-median visible 1, interface bpf, shape steps, fgcolor 0.1 0.1 1. 0.5;\rimubu2 alignviewbounds 1;\rmarkers visible 1"
+					"patching_rect" : [ 1983.0, 842.425000071525574, 475.0, 102.0 ],
+					"text" : ";\rimubu 2 view 0 visible 0;\rdescr-raw visible 1, interface wave, bounds content;\rdescr-filter visible 1, interface bpf;\rdescr-median visible 1, interface bpf, shape steps, fgcolor 0.1 0.1 1. 0.5;\rimubu2 alignviewbounds 1;\rmarkers visible 1"
 				}
 
 			}
@@ -1473,12 +1509,12 @@
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-60",
-					"linecount" : 8,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1983.0, 669.425000071525574, 245.0, 116.0 ],
+					"patching_rect" : [ 1983.0, 669.425000071525574, 335.0, 89.0 ],
 					"text" : "view 0 visible 0, view descr-raw visible 1, view descr-median visible 1, alignviewbounds 1, view descr-median interface bpf, view descr-median shape steps, view descr-median fgcolor 0.1 0.1 1. 0.5, view descr-raw interface wave, view descr-raw bounds content;\rmarkersd visible 1"
 				}
 
@@ -1970,7 +2006,7 @@
 			}
 , 			{
 				"box" : 				{
-					"alignviewbounds" : 1,
+					"alignviewbounds" : 0,
 					"autobounds" : 0,
 					"autorefreshrate" : 0,
 					"autoupdate" : 120.0,
@@ -1992,12 +2028,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1911.217059639389845,
-					"cursor_shape" : "bar",
+					"cursor_position" : 323.173926920000383,
+					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -314.608621485553158, 37667.354612204435398 ],
+					"domain_bounds" : [ 20.26599609383787, 384.13139128603035 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2104,6 +2140,30 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 274.0, 121.0, 156.0, 22.0 ],
+									"text" : "prepend view descr-filter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 274.0, 93.0, 100.0, 22.0 ],
+									"text" : "r descr-filter"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "newobj",
@@ -2433,7 +2493,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 574.5, 158.0, 238.0, 49.0 ],
-									"presentation_linecount" : 3,
 									"text" : "vieworder audio bands segmentation-input markers descr-raw descr-median descr, view audio fgcolor 0 0 0 0.5, domain reset"
 								}
 
@@ -2753,6 +2812,13 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-10", 0 ]
 								}
@@ -3047,6 +3113,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-50", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"order" : 0,
 									"source" : [ "obj-51", 0 ]
@@ -3160,7 +3233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1073.0, 824.0, 203.0, 22.0 ],
-					"text" : "visiblecolumns 0 1 2 3 4 5 6 7 8 9"
+					"text" : "visiblecolumns 0 3 5"
 				}
 
 			}
@@ -3261,7 +3334,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1284.0, 648.699999928474426, 18.0, 162.0 ],
 					"size" : 10,
-					"values" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
+					"values" : [ 1, 0, 0, 1, 0, 1, 0, 0, 0, 0 ]
 				}
 
 			}
@@ -3272,7 +3345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1581.5, 731.5, 203.0, 20.0 ],
+					"patching_rect" : [ 1578.0, 731.199999928474426, 203.0, 20.0 ],
 					"text" : "see MIDI, pitch, periodicity, loudness"
 				}
 
@@ -3284,7 +3357,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1581.5, 653.125, 305.0, 20.0 ],
+					"patching_rect" : [ 1578.0, 846.699999928474426, 305.0, 20.0 ],
 					"text" : "compare raw and median MIDI Pitch (breaks alignment)"
 				}
 
@@ -3295,13 +3368,13 @@
 					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-74",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1581.5, 752.0, 375.0, 62.0 ],
-					"text" : "foremost descr-raw, alignviewbounds 0;\rdescr-median interface multibpf, shape steps, colormode rainbow, showcolnames 1, opacity 0.5;\rdescr-raw interface multiwave, visibleindices all, showcolnames 1"
+					"patching_rect" : [ 1578.0, 751.699999928474426, 375.0, 76.0 ],
+					"text" : "foremost descr-raw, alignviewbounds 0;\rdescr-median interface multibpf, shape steps, colormode rainbow, showcolnames 1, opacity 0.5;\rdescr-raw interface multiwave, visibleindices all, showcolnames 1;\rdescr-filter interface multibpf, visibleindices all, showcolnames 1"
 				}
 
 			}
@@ -3355,7 +3428,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 824.0, 184.0, 22.0 ],
-					"text" : "1911.21706"
+					"text" : "323.173927"
 				}
 
 			}
@@ -3501,7 +3574,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1581.5, 669.425000071525574, 375.0, 62.0 ],
+					"patching_rect" : [ 1578.0, 863.0, 375.0, 62.0 ],
 					"text" : ";\rdescr-median interface bpf, shape steps, fgcolor 0.1 0.1 1. 0.5;\rdescr-raw interface wave;\rimubu2 foremost descr-raw, alignviewbounds 1"
 				}
 
@@ -3865,12 +3938,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1911.217059639389845,
+					"cursor_position" : 323.173926920000383,
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -314.608621485553158, 36333.093608679024328 ],
+					"domain_bounds" : [ 20.26599609383787, 397.378917810017924 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4020,7 +4093,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 256.0, 1436.0, 644.0 ],
+						"rect" : [ 20.0, 255.0, 1227.0, 645.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -4050,6 +4123,45 @@
 						"assistshowspatchername" : 0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1099.066622995926082, 355.833378057441678, 27.133372044967473, 27.133372044967473 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.310894519090652, 0.733397960662842, 0.261269152164459, 1.0 ],
+									"fontsize" : 14.0,
+									"id" : "obj-21",
+									"linecount" : 6,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "int", "" ],
+									"patching_rect" : [ 1099.066622995926082, 386.80000311920935, 560.999998927116394, 113.0 ],
+									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru>js @name descr-filter @timetagged 1 @process 0 @prepad 0 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @js.expr \"time === undefined  ||  a[c.Periodicity] >= p[0] ? a : undefined\" @js.p 0.05 @info gui \"interface multibpf, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1, opacity 0.5\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1428.0, -201.0, 50.0, 21.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "newobj",
@@ -4147,7 +4259,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 87.199998497962952, 285.550027256023441, 95.0, 44.0 ],
+									"patching_rect" : [ 87.199998497962952, 285.550027256023441, 96.0, 44.0 ],
 									"text" : "for verification of segmentation:\nspectral bands"
 								}
 
@@ -4242,7 +4354,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 185.86662449796313, 153.646165510974924, 910.0, 55.0 ],
-									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru> @name descr-raw @process 0 @prepad 3000 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @info gui \"interface multiwave, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1\""
+									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru> @name descr-raw @process 0 @prepad 0 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @info gui \"interface multiwave, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1\""
 								}
 
 							}
@@ -4781,8 +4893,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 1406.86662449796313, 158.093664249740641, 582.0, 113.0 ],
-									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru>segment:segmedian @name descr-median @process 0 @prepad 3000 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @segment.segtimes 0 99999 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1, opacity 0.5\""
+									"patching_rect" : [ 1406.86662449796313, 158.093664249740641, 633.0, 113.0 ],
+									"text" : "mubu.process tut3-corpus audio descr<select(selfq):scale(scfq)\\,thru>js:segment:segmedian @name descr-median @process 0 @prepad 3000 @descr.threshold 0 @selfq.columns Frequency @scfq.func ftom @scfq.outcolnames NoteNumber @js.expr \"time === undefined  ||  a[c.Periodicity] >= p[0] ? a : undefined\" @js.p 0.05 @segment.segtimes 0 99999 @info gui \"interface multibpf, shape steps, autobounds 1, fgcolor blue, colormode rainbow, showcolnames 1, opacity 0.5\""
 								}
 
 							}
@@ -5047,6 +5159,20 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"attr" : "js.p",
+									"id" : "obj-27",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1128.199995040893555, 355.833378057441678, 97.199999213218689, 21.0 ],
+									"text_width" : 39.000022351741791
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -5255,6 +5381,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-24", 0 ]
 								}
@@ -5262,8 +5395,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -5449,7 +5596,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"order" : 1,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
+									"order" : 0,
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -6434,16 +6590,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 1 ],
-					"hidden" : 1,
-					"order" : 0,
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 2 ],
+					"destination" : [ "obj-14", 0 ],
 					"hidden" : 1,
 					"order" : 1,
 					"source" : [ "obj-92", 0 ]
@@ -6452,9 +6599,27 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 1 ],
+					"destination" : [ "obj-24", 0 ],
+					"hidden" : 1,
+					"order" : 3,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 1 ],
 					"hidden" : 1,
 					"order" : 2,
+					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"hidden" : 1,
+					"order" : 0,
 					"source" : [ "obj-92", 0 ]
 				}
 
@@ -6485,17 +6650,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-74", 0 ],
 					"hidden" : 1,
-					"source" : [ "obj-99", 1 ]
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-99", 0 ]
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-99", 1 ]
 				}
 
 			}
