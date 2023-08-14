@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 42.0, 1372.0, 793.0 ],
+		"rect" : [ 68.0, 45.0, 2492.0, 1155.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -484,7 +484,7 @@
 			}
 , 			{
 				"box" : 				{
-					"alignviewbounds" : 0,
+					"alignviewbounds" : 1,
 					"autobounds" : 0,
 					"autorefreshrate" : 0,
 					"autoupdate" : 100.0,
@@ -511,7 +511,7 @@
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 88215.479166666656965 ],
+					"domain_bounds" : [ 0.0, 12892.879818594105018 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -544,7 +544,7 @@
 					"outputvalues" : 1,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 161.0, 627.5, 521.0 ],
+					"patching_rect" : [ 565.0, 162.0, 1904.5, 941.0 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
@@ -559,7 +559,7 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "draw",
+					"tool" : "cursor",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
@@ -655,13 +655,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 10.0, 28.0, 1430.0, 377.0 ],
+						"rect" : [ 5.0, 597.0, 2284.0, 839.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -689,7 +689,23 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.310894519090652, 0.733397960662842, 0.261269152164459, 1.0 ],
+									"fontsize" : 14.0,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "int", "" ],
+									"patching_rect" : [ 1175.666626000000178, 189.30001100000004, 594.0, 43.0 ],
+									"text" : "mubu.process tut3-corpus audio descr @name descr-raw @process 0 @prepad 0 @timetagged 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"maxclass" : "newobj",
@@ -1607,7 +1623,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
-									"patching_rect" : [ 867.713345916252365, -172.69998899999996, 700.0, 118.0 ],
+									"patching_rect" : [ 867.713345916252365, -172.69998899999996, 701.0, 118.0 ],
 									"text" : "mubu.process tut3-corpus audio slice:fft:bands:delta:sum:onseg:const @name markers @process 0 @progressoutput input @prepad 3000 @slice.wind blackman @slice.norm power @slice.size 1024 @slice.hop 64 @fft.mode power @bands.mode mel @bands.num 32 @bands.log 1 @delta.size 5 @delta.normalize 1 @sum.colname Loudness @onseg.filtersize 21 @onseg.colindex 0 @onseg.numcols -1 @onseg.duration 1 @onseg.max 0 @onseg.min 0 @onseg.mean 0 @onseg.stddev 0 @onseg.threshold 300 @onseg.offthresh -2000 @onseg.durthresh 100 @onseg.mininter 100 @onseg.startisonset 1 @onseg.maxsize 15000 @info gui \"interface markers, autobounds 1, paramcols Cue Label Duration\" @const.name pitchestimate"
 								}
 
@@ -1943,7 +1959,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 1,
+									"source" : [ "obj-57", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-59", 0 ],
+									"order" : 0,
 									"source" : [ "obj-57", 0 ]
 								}
 
@@ -2212,7 +2237,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3138,15 +3163,15 @@
 			}
 , 			{
 				"name" : "bach.f2mc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3188,15 +3213,15 @@
 			}
 , 			{
 				"name" : "bach.mean.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.median.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3226,8 +3251,8 @@
 			}
 , 			{
 				"name" : "bach.sieve.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3241,78 +3266,78 @@
 			}
 , 			{
 				"name" : "bach.sum.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
+				"patcherrelativepath" : "../../../../Documents/Max 8/Packages/bach-0.8.1rc6/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.pitchestimate.maxpat",
-				"bootpath" : "~/Documents/Electronic-Music-Files/TRAPANI-CaMu-2023/Modules",
-				"patcherrelativepath" : "../Documents/Electronic-Music-Files/TRAPANI-CaMu-2023/Modules",
+				"bootpath" : "~/src/catart-mubu/patchers/tutorials",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Packages/bach",
-				"patcherrelativepath" : "../Documents/Max 8/Packages/bach",
+				"bootpath" : "~/src/catart-mubu",
+				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
