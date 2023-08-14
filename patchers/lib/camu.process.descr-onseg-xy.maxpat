@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
+			"minor" : 5,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 171.0, 1913.0, 847.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 755.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-4",
@@ -295,6 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 178.5, 150.0, 21.0 ],
@@ -402,6 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.700012000000001, 151.0, 21.0 ]
@@ -418,6 +421,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 134.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 134.5, 151.0, 21.0 ]
@@ -434,6 +438,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 90.700012000000001, 151.0, 21.0 ]
@@ -450,6 +455,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 156.5, 158.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 156.5, 158.0, 21.0 ]
@@ -466,6 +472,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.0, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.0, 151.0, 21.0 ]
@@ -482,6 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.700012000000001, 151.0, 21.0 ]
@@ -501,8 +509,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 544.0, 77.0 ],
-					"text" : "mubu.process #1 audio sum:descr:onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 0 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.value 0 0 @const.name DistX DistY",
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.5, 77.0 ],
+					"text" : "mubu.process #1 audio sum:descr:onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25  @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.value 0 0 @const.name DistX DistY",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
 				}
@@ -530,6 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 112.5, 151.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 112.5, 151.0, 21.0 ]
@@ -647,7 +656,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.process.mxo",
 				"type" : "iLaX"
 			}
  ],
