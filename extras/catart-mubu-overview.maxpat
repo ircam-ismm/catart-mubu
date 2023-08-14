@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -590,7 +590,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "int", "" ],
-									"patching_rect" : [ 562.0, 209.0, 320.0, 22.0 ],
+									"patching_rect" : [ 567.0, 209.0, 320.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -626,7 +626,7 @@
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "int", "" ],
-									"patching_rect" : [ 562.0, 186.0, 320.0, 22.0 ],
+									"patching_rect" : [ 567.0, 186.0, 320.0, 22.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -752,12 +752,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : -1.0,
+									"cursor_position" : 1340.570589774421251,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
-									"cursor_visible" : 0,
-									"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
+									"cursor_visible" : 1,
+									"domain_bounds" : [ 1340.570589774421251, 4646.262336946896539 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -790,7 +790,7 @@
 									"outputvalues" : 1,
 									"outputviewname" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 575.5, 241.0, 628.0, 508.0 ],
+									"patching_rect" : [ 571.0, 236.375, 631.5, 520.625 ],
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 1,
@@ -805,7 +805,7 @@
 									"tabs_position" : 0,
 									"tabs_size" : 20,
 									"tabs_visible" : 1,
-									"tool" : "edit",
+									"tool" : "cursor",
 									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
@@ -825,7 +825,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 562.0, 165.0, 146.0, 20.0 ],
+									"patching_rect" : [ 567.0, 165.0, 146.0, 20.0 ],
 									"text" : "x/y-axis descriptor indices"
 								}
 
@@ -840,7 +840,7 @@
 									"orientation" : 0,
 									"outlettype" : [ "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 242.539780000000007, 274.0, 161.0, 22.0 ],
+									"patching_rect" : [ 242.539780000000007, 269.0, 161.0, 22.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
@@ -891,7 +891,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.5, 270.5, 83.0, 26.0 ],
+									"patching_rect" : [ 10.5, 265.5, 83.0, 26.0 ],
 									"text" : "analysis"
 								}
 
@@ -905,7 +905,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 92.0, 274.0, 20.0, 20.0 ]
+									"patching_rect" : [ 92.0, 269.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -918,7 +918,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 214.666655999999989, 244.0, 49.0, 22.0 ],
+									"patching_rect" : [ 255.5, 239.0, 49.0, 22.0 ],
 									"text" : "clearall"
 								}
 
@@ -937,7 +937,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1315,7 +1315,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 117.5, 274.0, 121.0, 22.0 ],
+									"patching_rect" : [ 117.5, 269.0, 121.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -1338,7 +1338,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 41.5, 244.0, 67.0, 22.0 ],
+									"patching_rect" : [ 41.5, 239.0, 67.0, 22.0 ],
 									"text" : "print mubu"
 								}
 
@@ -1367,7 +1367,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 482.0, 214.0, 87.0, 20.0 ],
+									"patching_rect" : [ 479.333359999999857, 239.0, 87.0, 20.0 ],
 									"text" : "refresh display"
 								}
 
@@ -1380,7 +1380,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 455.5, 214.0, 24.0, 24.0 ]
+									"patching_rect" : [ 453.333359999999857, 236.375, 24.0, 24.0 ]
 								}
 
 							}
@@ -1395,7 +1395,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.5, 239.0, 56.0, 26.0 ],
+									"patching_rect" : [ 10.5, 234.0, 56.0, 26.0 ],
 									"text" : "data"
 								}
 
@@ -1424,7 +1424,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 278.666676000000052, 244.0, 46.0, 22.0 ],
+									"patching_rect" : [ 308.166676000000052, 239.0, 46.0, 22.0 ],
 									"text" : "printall"
 								}
 
@@ -1438,7 +1438,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 117.5, 244.0, 129.0, 22.0 ],
+									"patching_rect" : [ 117.5, 239.0, 129.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"externalfiles" : 1,
@@ -1653,7 +1653,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2104,7 +2104,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 455.5, 240.0, 87.0, 22.0 ],
+									"patching_rect" : [ 453.333359999999857, 262.375, 87.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -2527,7 +2527,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-95", 1 ],
 									"hidden" : 1,
-									"midpoints" : [ 585.0, 760.0, 551.333374000000049, 760.0, 551.333374000000049, 342.200012000000015, 371.166676000000052, 342.200012000000015 ],
+									"midpoints" : [ 580.5, 760.0, 551.333374000000049, 760.0, 551.333374000000049, 342.200012000000015, 371.166676000000052, 342.200012000000015 ],
 									"source" : [ "obj-216", 0 ]
 								}
 
@@ -2771,7 +2771,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 229.0, 298.0, 238.769896999999986, 298.0, 238.769896999999986, 264.0, 252.039780000000007, 264.0 ],
+									"midpoints" : [ 229.0, 293.0, 238.769896999999986, 293.0, 238.769896999999986, 259.0, 252.039780000000007, 259.0 ],
 									"source" : [ "obj-69", 1 ]
 								}
 
@@ -2780,7 +2780,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 127.0, 287.0, 418.25, 287.0, 418.25, 205.0, 465.0, 205.0 ],
+									"midpoints" : [ 127.0, 287.0, 418.25, 287.0, 418.25, 220.0, 462.833359999999857, 220.0 ],
 									"order" : 0,
 									"source" : [ "obj-69", 0 ]
 								}
@@ -2849,7 +2849,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-216", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 371.166676000000052, 437.200012000000015, 565.833374000000049, 437.200012000000015, 565.833374000000049, 233.333327999999995, 585.0, 233.333327999999995 ],
+									"midpoints" : [ 371.166676000000052, 437.200012000000015, 565.833374000000049, 437.200012000000015, 565.833374000000049, 233.333327999999995, 580.5, 233.333327999999995 ],
 									"source" : [ "obj-95", 1 ]
 								}
 
@@ -2893,14 +2893,14 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1218.0, 761.0 ],
-						"bglocked" : 0,
+						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
+						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 2,
@@ -2930,6 +2930,75 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-20",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 801.0, 524.625, 367.0, 33.0 ],
+									"presentation_linecount" : 2,
+									"text" : "(needs packages: Sensel from the package manager, and\nspat5 from the Ircam Forum)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 793.0, 368.625, 367.0, 33.0 ],
+									"presentation_linecount" : 2,
+									"text" : "(needs packages: Shell, s2m from the package manager, and\nspat5 from the Ircam Forum)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-18",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 801.0, 201.0, 367.0, 47.0 ],
+									"presentation_linecount" : 3,
+									"text" : "(needs packages: Blocks, Sensel from the package manager, \nif you want to use that device.  Otherwise, just ignore the error messages.)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-17",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 612.0, 63.625, 132.0, 66.0 ],
+									"presentation_linecount" : 3,
+									"text" : "These patches depend on additional packages.",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubble" : 1,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -2938,8 +3007,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 349.625, 366.0, 37.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 189.0, 328.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from various external controllers (Sensel, ROLI, Linnstrument)"
 								}
 
@@ -2952,7 +3020,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 357.125, 132.0, 22.0 ],
+									"patching_rect" : [ 16.0, 336.125, 132.0, 22.0 ],
 									"text" : "catart-mubu-poly"
 								}
 
@@ -2967,7 +3035,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 389.625, 366.0, 37.0 ],
+									"patching_rect" : [ 189.0, 368.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from  Linnstrument"
 								}
 
@@ -2980,8 +3048,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.5, 397.125, 168.0, 22.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 14.5, 376.125, 168.0, 22.0 ],
 									"text" : "catart-mubu-poly-linnstrument"
 								}
 
@@ -2996,7 +3063,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 237.625, 366.0, 37.0 ],
+									"patching_rect" : [ 189.0, 196.625, 366.0, 37.0 ],
 									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
 								}
 
@@ -3009,7 +3076,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 245.125, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 204.125, 129.0, 22.0 ],
 									"text" : "catart-mubu-mfcc"
 								}
 
@@ -3022,7 +3089,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 460.5, 65.0, 22.0 ],
+									"patching_rect" : [ 612.0, 368.625, 65.0, 22.0 ],
 									"text" : "append #1"
 								}
 
@@ -3038,7 +3105,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 468.0, 366.0, 37.0 ],
+									"patching_rect" : [ 785.0, 403.625, 366.0, 37.0 ],
 									"text" : "legacy: CataRT controlled by a factor oracle + keymixer (contributed by Aaron Einbond)"
 								}
 
@@ -3048,11 +3115,12 @@
 									"bubble" : 1,
 									"fontface" : 0,
 									"fontname" : "Arial",
+									"hidden" : 1,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 569.5, 374.0, 24.0 ],
+									"patching_rect" : [ 187.5, 495.0, 374.0, 24.0 ],
 									"text" : "catart with grid-layout found by a self-organising map (SOM)"
 								}
 
@@ -3060,12 +3128,13 @@
 , 							{
 								"box" : 								{
 									"fontface" : 0,
+									"hidden" : 1,
 									"id" : "obj-76",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 571.5, 129.0, 22.0 ],
+									"patching_rect" : [ 14.5, 497.0, 129.0, 22.0 ],
 									"text" : "catart-mubu-SOM"
 								}
 
@@ -3079,7 +3148,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 544.5, 374.0, 24.0 ],
+									"patching_rect" : [ 785.0, 497.0, 374.0, 24.0 ],
 									"text" : "catart with per-grain higher-order ambisonics (HOA) spatialisation"
 								}
 
@@ -3092,7 +3161,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 544.5, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 497.0, 129.0, 22.0 ],
 									"text" : "catart-mubu-spat-mc"
 								}
 
@@ -3106,7 +3175,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 475.625, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 411.25, 129.0, 22.0 ],
 									"text" : "catoracle+keymixer"
 								}
 
@@ -3121,7 +3190,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 429.0, 366.0, 37.0 ],
+									"patching_rect" : [ 785.0, 328.625, 366.0, 37.0 ],
 									"text" : "CataRT controlled by a factor oracle (a la OMax) running in python (contributed by Aaron Einbond)"
 								}
 
@@ -3134,7 +3203,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 436.5, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 336.125, 129.0, 22.0 ],
 									"text" : "catoracle"
 								}
 
@@ -3149,7 +3218,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 514.0, 186.0, 22.0 ],
+									"patching_rect" : [ 14.5, 470.0, 186.0, 22.0 ],
 									"text" : "experimental patches"
 								}
 
@@ -3164,7 +3233,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 325.0, 186.0, 22.0 ],
+									"patching_rect" : [ 16.0, 304.0, 186.0, 22.0 ],
 									"text" : "advanced CataRT patches"
 								}
 
@@ -3223,7 +3292,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 735.5, 260.0, 15.0 ],
+									"patching_rect" : [ 6.0, 733.0, 266.0, 20.0 ],
 									"text" : "https://ircam-ismm.github.io/max-msp/catart.html",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -3266,8 +3335,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 198.625, 366.0, 37.0 ],
-									"text" : "full featured CataRT patch with adapters for external gestural controller input (Sensel, ROLI, Linnstrument)"
+									"patching_rect" : [ 785.0, 162.0, 383.0, 37.0 ],
+									"presentation_linecount" : 3,
+									"text" : "full featured CataRT patch with adapters for external gestural controller input (Sensel Morph, ROLI Lightpad Block, Linnstrument)"
 								}
 
 							}
@@ -3279,7 +3349,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 206.125, 132.0, 22.0 ],
+									"patching_rect" : [ 612.0, 169.5, 132.0, 22.0 ],
 									"text" : "catart-mubu-controllers"
 								}
 
@@ -3332,7 +3402,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 612.0, 117.0, 22.0 ],
+									"patching_rect" : [ 2.0, 645.0, 117.0, 22.0 ],
 									"text" : "prepend loadunique"
 								}
 
@@ -3345,7 +3415,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 37.0, 643.5, 53.0, 22.0 ],
+									"patching_rect" : [ 2.0, 676.5, 53.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -3382,8 +3452,74 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"bgstepcolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+									"bgstepcolor2" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 0.0 ],
+									"bordercolor" : [ 0.313725490196078, 0.313725490196078, 0.313725490196078, 0.0 ],
+									"columns" : 1,
+									"direction" : 0,
+									"id" : "obj-16",
+									"ignoreclick" : 1,
+									"marker_horizontal" : 0,
+									"marker_vertical" : 0,
+									"matrixmode" : 1,
+									"maxclass" : "live.grid",
+									"numinlets" : 2,
+									"numoutlets" : 6,
+									"outlettype" : [ "", "", "", "", "", "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 6.75, 131.625, 1178.0, 493.0 ],
+									"rounded" : 16.0,
+									"rows" : 3,
+									"saved_attribute_attributes" : 									{
+										"bgstepcolor" : 										{
+											"expression" : ""
+										}
+,
+										"bgstepcolor2" : 										{
+											"expression" : ""
+										}
+,
+										"bordercolor" : 										{
+											"expression" : ""
+										}
+,
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "live.grid",
+											"parameter_shortname" : "live.grid",
+											"parameter_type" : 3
+										}
+
+									}
+,
+									"spacing" : 4.0,
+									"varname" : "live.grid"
+								}
+
+							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 24.0, 420.0, 0.0, 420.0, 0.0, 606.0, 11.5, 606.0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 25.5, 381.0, 0.0, 381.0, 0.0, 606.0, 11.5, 606.0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"hidden" : 1,
@@ -3395,7 +3531,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 312.0, 3.0, 312.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 621.5, 257.0, 3.0, 257.0, 3.0, 564.0, 11.5, 564.0 ],
 									"source" : [ "obj-37", 0 ]
 								}
 
@@ -3404,7 +3540,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 199.0, 3.0, 199.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 25.5, 199.0, 3.0, 199.0, 3.0, 564.0, 11.5, 564.0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -3437,7 +3573,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 504.0, 3.0, 504.0, 3.0, 564.0, 46.5, 564.0 ],
+									"midpoints" : [ 621.5, 444.0, 3.0, 444.0, 3.0, 564.0, 11.5, 564.0 ],
 									"source" : [ "obj-73", 0 ]
 								}
 
@@ -3446,7 +3582,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 604.0, 46.5, 604.0 ],
+									"midpoints" : [ 621.5, 630.0, 11.5, 630.0 ],
 									"source" : [ "obj-75", 0 ]
 								}
 
@@ -3455,7 +3591,24 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 542.3125, 46.5, 542.3125 ],
+									"source" : [ "obj-76", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 25.5, 312.0, 0.0, 312.0, 0.0, 606.0, 11.5, 606.0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 621.5, 402.3125, 11.5, 402.3125 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -3492,13 +3645,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
+						"rect" : [ 34.0, 105.0, 1372.0, 784.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3528,6 +3681,51 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-43",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 645.0, 651.0, 275.0, 20.0 ],
+									"text" : "(needs package Bach from the package manager)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-42",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 539.0, 621.0, 275.0, 20.0 ],
+									"text" : "(needs package Bach from the package manager)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-41",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 545.0, 531.0, 730.0, 20.0 ],
+									"text" : "(needs packages: Blocks, Sensel from the package manager if you want to use that device.  Otherwise, just ignore the error messages.)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 									"fontface" : 0,
@@ -3566,7 +3764,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.0, 735.5, 260.0, 15.0 ],
+									"patching_rect" : [ 6.0, 735.5, 268.0, 17.5 ],
 									"text" : "https://ircam-ismm.github.io/max-msp/catart.html",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -4043,7 +4241,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 331.5, 589.0, 670.0, 24.0 ],
+									"patching_rect" : [ 331.5, 589.0, 622.0, 24.0 ],
 									"text" : "By assigning keys to groups of soundfiles, distinct synthesis parameters can be applied to subsets of the corpus."
 								}
 
@@ -4388,13 +4586,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4424,6 +4622,22 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubbleside" : 2,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-13",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.0, 606.5, 162.0, 74.0 ],
+									"text" : "(needs packages: Blocks, Sensel from the package manager, if you want to use that device.  Otherwise, just ignore the error messages.)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 									"fontface" : 0,
@@ -4462,7 +4676,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.75, 732.5, 260.0, 15.0 ],
+									"patching_rect" : [ 6.75, 732.5, 266.25, 17.5 ],
 									"text" : "https://ircam-ismm.github.io/max-msp/catart.html",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -5453,7 +5667,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.5, 239.375, 105.0, 22.0 ],
+									"patching_rect" : [ 18.5, 231.875, 105.0, 22.0 ],
 									"text" : "camu.voice"
 								}
 
@@ -5495,7 +5709,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5537,7 +5751,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 108.5, 199.0, 22.0 ],
-													"text" : "camu.pipo"
+													"text" : "camu.control"
 												}
 
 											}
@@ -5549,7 +5763,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 74.5, 199.0, 22.0 ],
-													"text" : "camu.pipo.*"
+													"text" : "camu.control.*"
 												}
 
 											}
@@ -5561,7 +5775,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 143.0, 199.0, 22.0 ],
-													"text" : "camu.pipo.maxhelp"
+													"text" : "camu.control.maxhelp"
 												}
 
 											}
@@ -6354,6 +6568,7 @@
 			"obj-2::obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
 			"obj-2::obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
 			"obj-2::obj-67" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-5::obj-16" : [ "live.grid", "live.grid", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
