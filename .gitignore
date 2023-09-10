@@ -13,3 +13,4 @@ scores_wrong.txt
 camu.voice.poly~old.maxpat
 camu.select orig.maxpat
 camu.select simplified.maxpat
+*.pyc
