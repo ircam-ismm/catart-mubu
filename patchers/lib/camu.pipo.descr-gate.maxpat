@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 146.200012000000015, 175.0, 19.0 ],
+					"patching_rect" : [ 161.0, 143.200012000000015, 175.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 142.5, 175.0, 19.0 ],
 					"text" : "Calculate Standard Deviation"
@@ -63,7 +63,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 146.200012000000015, 150.0, 21.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 143.200012000000015, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 142.5, 150.0, 21.0 ],
 					"text_width" : 109.519897
@@ -214,6 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 113.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 113.200012000000001, 150.0, 21.0 ]
@@ -290,6 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 69.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 69.200012000000001, 150.0, 21.0 ]
@@ -306,6 +309,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 91.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 91.200012000000001, 150.0, 21.0 ]
@@ -322,6 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 24.5, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 24.5, 150.0, 21.0 ]
@@ -338,6 +343,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 47.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 47.200012000000001, 150.0, 21.0 ]
@@ -390,7 +396,7 @@
 						"active" : 1
 					}
 ,
-					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 512 @descr.minfreq 24 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 0 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
+					"text" : "pipo~ descr:gate @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.mean 1 @gate.stddev 0 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50. @gate.maxdur 0. @gate.duration 1",
 					"varname" : "pipo-gate"
 				}
 

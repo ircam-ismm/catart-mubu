@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 5,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -60,7 +60,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 69.900024000000002, 150.0, 19.0 ],
+					"patching_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"text" : "Calculate standard deviation"
@@ -77,6 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ]
@@ -165,6 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 25.200012000000001, 150.0, 21.0 ]
@@ -181,6 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
@@ -220,12 +223,12 @@
 					"fontname" : "Geneva",
 					"fontsize" : 11.0,
 					"id" : "obj-6",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 62.700012000000001, 621.0, 36.0 ],
+					"patching_rect" : [ 392.0, 62.700012000000001, 550.0, 50.0 ],
 					"text" : "mubu.process #1 audio mfcc:chop @name mfcc @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.windsize 2048 @mfcc.hopsize 256 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
@@ -315,7 +318,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mubu.mxo",
+				"name" : "mubu.process.mxo",
 				"type" : "iLaX"
 			}
  ],

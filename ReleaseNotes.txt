@@ -2,7 +2,7 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
-CataRT-Mubu v1.5.1-Linnstrument	14.05.2023
+CataRT-Mubu v1.5.1-Linnstrument	15.05.2023
 
 - improve Linnstrument input: multi-touch pads + pressure
 - add to catart-mubu-poly and catart-mubu-poly-linnstrument (duplicates, for the moment)
