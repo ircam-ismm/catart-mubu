@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 65.166667999999987, 275.0, 188.666663999999997, 47.0 ],
+					"presentation_linecount" : 7,
+					"text" : "Arguments:\ncorpus, descr track, output columns name or index"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.890196, 0.564706, 0.078431, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -114,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 283.0, 73.0, 20.0 ],
+					"patching_rect" : [ 213.5, 275.0, 73.0, 20.0 ],
 					"text" : "Descriptors:"
 				}
 
@@ -4844,8 +4859,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 37.0, 308.0, 195.0, 35.0 ],
-					"text" : "camu.filenamenotenumber corpus descr FilenameNoteNumber"
+					"patching_rect" : [ 37.0, 323.0, 245.0, 35.0 ],
+					"text" : "camu.filenamenotenumber fnnn-help-corpus descr FilenameNoteNumber"
 				}
 
 			}
@@ -4952,7 +4967,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 37.0, 467.0, 128.333344000000011, 22.0 ],
+					"patching_rect" : [ 37.0, 467.0, 237.0, 22.0 ],
 					"text" : "camu.random"
 				}
 
@@ -4981,7 +4996,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 403.0, 67.0, 22.0 ],
+					"patching_rect" : [ 179.0, 396.5, 67.0, 22.0 ],
 					"text" : "pvar editor"
 				}
 
@@ -7498,7 +7513,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 82.0, 283.0, 72.0, 22.0 ],
+					"patching_rect" : [ 138.5, 283.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -7592,11 +7607,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-137",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 283.0, 203.0, 60.0 ],
+					"patching_rect" : [ 288.5, 275.0, 163.539780000000064, 87.0 ],
 					"text" : "FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean FilenameNoteNumber"
 				}
 
@@ -7644,7 +7659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 501.0, 55.0, 20.0 ],
+					"patching_rect" : [ 279.333333333333258, 501.0, 55.0, 20.0 ],
 					"text" : "distance"
 				}
 
@@ -7686,7 +7701,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 254.0, 521.0, 72.0, 22.0 ]
+					"patching_rect" : [ 269.333333333333258, 521.0, 72.0, 22.0 ]
 				}
 
 			}
@@ -8691,7 +8706,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.121061250000025, 268.0, 434.878938749999975, 85.0 ],
+					"patching_rect" : [ 27.121061250000025, 268.0, 434.878938749999975, 99.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 402.317565999999999, 213.0, 183.349090999999987, 94.0 ],
 					"proportion" : 0.39,
@@ -8715,12 +8730,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 37.0, 403.0, 113.0, 22.0 ],
-					"text" : "camu.imubu.control"
+					"patching_rect" : [ 37.0, 390.0, 137.0, 35.0 ],
+					"text" : "camu.imubu.control fnnn-help-corpus descr"
 				}
 
 			}
@@ -9119,7 +9135,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
-					"midpoints" : [ 394.999999999999943, 471.0, 457.916666666666629, 471.0, 457.916666666666629, 360.200012000000015, 77.833333333333329, 360.200012000000015 ],
+					"midpoints" : [ 394.999999999999943, 471.0, 457.916666666666629, 471.0, 457.916666666666629, 373.200012000000015, 85.833333333333343, 373.200012000000015 ],
 					"source" : [ "obj-150", 3 ]
 				}
 
@@ -9333,7 +9349,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-129", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 442.499999999999943, 269.5, 238.5, 269.5, 238.5, 269.5, 91.5, 269.5 ],
+					"midpoints" : [ 442.499999999999943, 269.5, 238.5, 269.5, 238.5, 269.5, 148.0, 269.5 ],
 					"source" : [ "obj-34", 3 ]
 				}
 
