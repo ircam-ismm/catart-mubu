@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -51,13 +51,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -752,12 +752,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 1340.570589774421251,
+									"cursor_position" : 1682.708158258889398,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 1340.570589774421251, 4646.262336946896539 ],
+									"domain_bounds" : [ 1334.076341421854977, 4569.815391440580242 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -937,7 +937,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1653,7 +1653,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2893,13 +2893,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2939,7 +2939,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 801.0, 524.625, 367.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "(needs packages: Sensel from the package manager, and\nspat5 from the Ircam Forum)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -2956,8 +2955,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 793.0, 368.625, 367.0, 33.0 ],
-									"presentation_linecount" : 2,
-									"text" : "(needs packages: Shell, s2m from the package manager, and\nspat5 from the Ircam Forum)",
+									"text" : "(needs packages: Shell, bach from the package manager, and external application Python with packages NumPy and python-osc)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
 
@@ -2973,7 +2971,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 801.0, 201.0, 367.0, 47.0 ],
-									"presentation_linecount" : 3,
 									"text" : "(needs packages: Blocks, Sensel from the package manager, \nif you want to use that device.  Otherwise, just ignore the error messages.)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -2991,7 +2988,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 612.0, 63.625, 132.0, 66.0 ],
-									"presentation_linecount" : 3,
 									"text" : "These patches depend on additional packages.",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -3336,7 +3332,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 785.0, 162.0, 383.0, 37.0 ],
-									"presentation_linecount" : 3,
 									"text" : "full featured CataRT patch with adapters for external gestural controller input (Sensel Morph, ROLI Lightpad Block, Linnstrument)"
 								}
 
@@ -3645,13 +3640,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1372.0, 784.0 ],
+						"rect" : [ 34.0, 123.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4586,13 +4581,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 784.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5709,7 +5704,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5751,7 +5746,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 108.5, 199.0, 22.0 ],
-													"text" : "camu.control"
+													"text" : "camu.key.select"
 												}
 
 											}
@@ -5763,7 +5758,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 74.5, 199.0, 22.0 ],
-													"text" : "camu.control.*"
+													"text" : "camu.key.select"
 												}
 
 											}
@@ -5775,7 +5770,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 143.0, 199.0, 22.0 ],
-													"text" : "camu.control.maxhelp"
+													"text" : "camu.key.select.maxhelp"
 												}
 
 											}
@@ -6610,29 +6605,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-overview.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "icon.png",
-				"bootpath" : "~/src/catart-mubu",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
+				"patcherrelativepath" : "../../../Library/Gesture&Sound",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -6661,41 +6649,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshotlist" : 			{
-				"current_snapshot" : -1,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "catart-mubu-overview",
-						"origin" : "catart-mubu-overview",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "catart-mubu-overview",
-							"filename" : "catart-mubu-overview.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "65044c3e70d19dbf9de18836be7c879d"
-						}
-
-					}
- ]
-			}
-
-		}
-
+		"autosave" : 0
 	}
 
 }
