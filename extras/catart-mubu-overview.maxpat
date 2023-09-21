@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1284.0, 721.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -752,7 +752,7 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 2276.471721309463646,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
@@ -843,6 +843,7 @@
 									"patching_rect" : [ 240.37311600000001, 243.0, 161.0, 22.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
+									"size" : 2,
 									"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 									"spacing" : 1
 								}
@@ -943,7 +944,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1324.0, 79.0, 1173.0, 507.0 ],
+										"rect" : [ 145.0, 97.0, 1173.0, 507.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -2900,7 +2901,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 123.0, 1284.0, 721.0 ],
+						"rect" : [ 34.0, 123.0, 1218.0, 761.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2951,12 +2952,12 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"id" : "obj-19",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 793.0, 368.625, 367.0, 33.0 ],
-									"text" : "(needs packages: Shell, bach from the package manager, and external application Python with packages NumPy and python-osc)",
+									"patching_rect" : [ 793.0, 368.625, 367.0, 47.0 ],
+									"text" : "(needs packages: Shell, bach and CNMAT Externals from the package manager, and external application Python with packages NumPy and python-osc)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
 
@@ -3647,7 +3648,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1284.0, 721.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4588,7 +4589,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1284.0, 721.0 ],
+						"rect" : [ 0.0, 26.0, 1218.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
