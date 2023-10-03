@@ -57,7 +57,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1371.0, 756.0 ],
+						"rect" : [ 0.0, 26.0, 1371.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -752,7 +752,7 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 2368.417130557559176,
+									"cursor_position" : 3140.647775957506383,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
@@ -3258,7 +3258,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 388.25, 701.0, 289.0, 15.0 ],
+									"patching_rect" : [ 388.25, 736.0, 289.0, 15.0 ],
 									"text" : "https://forum.ircam.fr/projects/detail/catart-mubu/",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -3272,7 +3272,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 318.25, 698.5, 77.0, 20.0 ],
+									"patching_rect" : [ 318.25, 733.5, 77.0, 20.0 ],
 									"text" : "Ircam Forum"
 								}
 
@@ -3287,7 +3287,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 6.75, 698.5, 266.0, 20.0 ],
+									"patching_rect" : [ 6.75, 733.5, 266.0, 20.0 ],
 									"text" : "https://ircam-ismm.github.io/max-msp/catart.html",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -3315,7 +3315,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.75, 676.5, 1213.0, 20.0 ],
+									"patching_rect" : [ 6.75, 711.5, 1213.0, 20.0 ],
 									"text" : "Developed at IRCAM by the ISMM team and contributors: Diemo Schwarz, Aaron Einbond, Christopher Trapani, and others. Based on MuBu for Max by Norbert Schnell, Riccardo Borghesi, Diemo Schwarz and the ISMM team."
 								}
 
@@ -3645,7 +3645,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1371.0, 756.0 ],
+						"rect" : [ 34.0, 105.0, 1371.0, 756.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3675,6 +3675,32 @@
 						"showontab" : 1,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontsize" : 12.0,
+									"id" : "obj-45",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 327.5, 289.0, 214.0, 24.0 ],
+									"text" : "avoid repetition of sounds"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-44",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 39.625, 288.5, 284.0, 22.0 ],
+									"text" : "catart-mubu-tutorial 2e taboo"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubbleside" : 2,
 									"fontface" : 0,
@@ -3815,7 +3841,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 404.200000047683716, 172.0, 24.0 ],
+									"patching_rect" : [ 327.5, 407.200000047683716, 172.0, 24.0 ],
 									"text" : "manually edit segmentation"
 								}
 
@@ -3828,7 +3854,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 404.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 407.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 5b resegment"
 								}
 
@@ -3841,7 +3867,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 371.0, 226.0, 24.0 ],
+									"patching_rect" : [ 327.5, 374.0, 226.0, 24.0 ],
 									"text" : "choose analysis segmentation modes"
 								}
 
@@ -3854,7 +3880,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 344.0, 264.0, 24.0 ],
+									"patching_rect" : [ 327.5, 347.0, 264.0, 24.0 ],
 									"text" : "UIs of all selection and synthesis parameters"
 								}
 
@@ -3867,7 +3893,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 313.0, 235.0, 24.0 ],
+									"patching_rect" : [ 327.5, 316.0, 235.0, 24.0 ],
 									"text" : "selection all combined in an abstraction"
 								}
 
@@ -3880,7 +3906,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 284.0, 214.0, 24.0 ],
+									"patching_rect" : [ 327.5, 261.0, 214.0, 24.0 ],
 									"text" : "random selection with move modes"
 								}
 
@@ -3893,7 +3919,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 374.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 377.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 5a segmentation analysis"
 								}
 
@@ -3906,7 +3932,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 344.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 347.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 4 synthesis parameters"
 								}
 
@@ -3919,7 +3945,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 314.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 317.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 3 select"
 								}
 
@@ -3932,7 +3958,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 284.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 261.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 2d random+move modes"
 								}
 
@@ -4062,7 +4088,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 254.0, 117.0, 24.0 ],
+									"patching_rect" : [ 327.5, 231.0, 117.0, 24.0 ],
 									"text" : "random selection"
 								}
 
@@ -4075,7 +4101,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 224.0, 140.0, 24.0 ],
+									"patching_rect" : [ 327.5, 201.0, 140.0, 24.0 ],
 									"text" : "add continuous mode"
 								}
 
@@ -4088,7 +4114,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 194.0, 293.0, 24.0 ],
+									"patching_rect" : [ 327.5, 171.0, 293.0, 24.0 ],
 									"text" : "trigger modes and how they map to mubu.concat~"
 								}
 
@@ -4101,7 +4127,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.5, 162.125, 122.0, 24.0 ],
+									"patching_rect" : [ 327.5, 139.125, 122.0, 24.0 ],
 									"text" : "most simple patch"
 								}
 
@@ -4116,7 +4142,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.625, 440.0, 95.0, 22.0 ],
+									"patching_rect" : [ 39.625, 443.0, 95.0, 22.0 ],
 									"text" : "To go further"
 								}
 
@@ -4131,7 +4157,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.625, 134.0, 186.0, 22.0 ],
+									"patching_rect" : [ 39.625, 114.0, 186.0, 22.0 ],
 									"text" : "Incremental basic tutorials"
 								}
 
@@ -4144,7 +4170,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 254.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 231.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 2c random"
 								}
 
@@ -4157,7 +4183,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 224.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 201.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 2b cont trigger mode"
 								}
 
@@ -4170,7 +4196,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 194.0, 284.0, 22.0 ],
+									"patching_rect" : [ 39.625, 171.0, 284.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 2a simple trigger modes"
 								}
 
@@ -4183,7 +4209,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 39.625, 163.125, 284.5, 22.0 ],
+									"patching_rect" : [ 39.625, 140.125, 284.5, 22.0 ],
 									"text" : "catart-mubu-tutorial 1 simple patch"
 								}
 
@@ -4492,6 +4518,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 49.125, 312.0, 24.0, 312.0, 24.0, 705.0, 615.0, 705.0, 615.0, 690.0, 705.625, 690.0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-46", 1 ]
@@ -4617,6 +4652,54 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bgcolor" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgcolor2" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.890196078431372, 0.819607843137255, 0.725490196078431, 1.0 ],
+									"bgfillcolor_color1" : [ 0.980392156862745, 0.658823529411765, 0.219607843137255, 1.0 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
+									"fontface" : 1,
+									"gradient" : 1,
+									"id" : "obj-34",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 637.25, 605.0, 69.0, 22.0 ],
+									"text" : "Tutorial 2e",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 510.25, 581.0, 192.0, 24.0 ],
+									"text" : "avoid repetition"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 377.25, 581.0, 111.0, 22.0 ],
+									"text" : "camu.taboo"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubbleside" : 2,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -4711,7 +4794,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.125, 380.0, 111.0, 22.0 ],
+									"patching_rect" : [ 399.125, 345.0, 111.0, 22.0 ],
 									"text" : "camu.process.*"
 								}
 
@@ -4991,7 +5074,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 637.25, 597.5, 69.0, 22.0 ],
+									"patching_rect" : [ 637.25, 562.5, 69.0, 22.0 ],
 									"text" : "Tutorial 2b",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -5015,7 +5098,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 637.25, 508.5, 68.0, 22.0 ],
+									"patching_rect" : [ 637.25, 473.5, 68.0, 22.0 ],
 									"text" : "Tutorial 2a",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -5039,7 +5122,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 637.25, 461.0, 69.0, 22.0 ],
+									"patching_rect" : [ 637.25, 426.0, 69.0, 22.0 ],
 									"text" : "Tutorial 2d",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -5063,7 +5146,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 637.25, 416.0, 68.0, 22.0 ],
+									"patching_rect" : [ 637.25, 381.0, 68.0, 22.0 ],
 									"text" : "Tutorial 2c",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -5315,7 +5398,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 531.5, 192.0, 24.0 ],
+									"patching_rect" : [ 510.25, 496.5, 192.0, 24.0 ],
 									"text" : "handle descriptor target"
 								}
 
@@ -5327,7 +5410,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 531.5, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 496.5, 111.0, 22.0 ],
 									"text" : "camu.target"
 								}
 
@@ -5366,7 +5449,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 573.5, 192.0, 24.0 ],
+									"patching_rect" : [ 510.25, 538.5, 192.0, 24.0 ],
 									"text" : "continuous mode"
 								}
 
@@ -5378,7 +5461,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 573.5, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 538.5, 111.0, 22.0 ],
 									"text" : "camu.cont"
 								}
 
@@ -5439,7 +5522,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 438.0, 192.0, 24.0 ],
+									"patching_rect" : [ 510.25, 403.0, 192.0, 24.0 ],
 									"text" : "camu.random with motion filter"
 								}
 
@@ -5451,7 +5534,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 393.0, 192.0, 24.0 ],
+									"patching_rect" : [ 510.25, 358.0, 192.0, 24.0 ],
 									"text" : "choose from selection list"
 								}
 
@@ -5463,7 +5546,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 485.5, 192.0, 24.0 ],
+									"patching_rect" : [ 510.25, 450.5, 192.0, 24.0 ],
 									"text" : "map trigger modes to concat"
 								}
 
@@ -5489,7 +5572,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 348.5, 192.0, 37.0 ],
+									"patching_rect" : [ 510.25, 313.5, 192.0, 37.0 ],
 									"text" : "simple pipo host with audio-input and list-output"
 								}
 
@@ -5587,7 +5670,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 439.0, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 404.0, 111.0, 22.0 ],
 									"text" : "camu.random.filter"
 								}
 
@@ -5599,7 +5682,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 396.0, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 361.0, 111.0, 22.0 ],
 									"text" : "camu.random"
 								}
 
@@ -5611,7 +5694,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 485.5, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 450.5, 111.0, 22.0 ],
 									"text" : "camu.triggermode"
 								}
 
@@ -5624,7 +5707,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 356.0, 111.0, 22.0 ],
+									"patching_rect" : [ 377.25, 321.0, 111.0, 22.0 ],
 									"text" : "camu.pipo.*"
 								}
 
@@ -5745,7 +5828,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 108.5, 199.0, 22.0 ],
-													"text" : "camu.key.select"
+													"text" : "camu.taboo"
 												}
 
 											}
@@ -5757,7 +5840,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 74.5, 199.0, 22.0 ],
-													"text" : "camu.key.select"
+													"text" : "camu.taboo"
 												}
 
 											}
@@ -5769,7 +5852,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 143.0, 199.0, 22.0 ],
-													"text" : "camu.key.select.maxhelp"
+													"text" : "camu.taboo.maxhelp"
 												}
 
 											}
@@ -5955,6 +6038,20 @@
 									"background" : 1,
 									"fontface" : 1,
 									"fontsize" : 12.0,
+									"id" : "obj-96",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 610.25, 605.0, 29.0, 20.0 ],
+									"text" : "see"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"background" : 1,
+									"fontface" : 1,
+									"fontsize" : 12.0,
 									"id" : "obj-95",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6015,7 +6112,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 610.25, 597.5, 29.0, 20.0 ],
+									"patching_rect" : [ 610.25, 562.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -6029,7 +6126,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 610.25, 508.5, 29.0, 20.0 ],
+									"patching_rect" : [ 610.25, 473.5, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -6043,7 +6140,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 610.25, 461.0, 29.0, 20.0 ],
+									"patching_rect" : [ 610.25, 426.0, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -6057,7 +6154,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 610.25, 416.0, 29.0, 20.0 ],
+									"patching_rect" : [ 610.25, 381.0, 29.0, 20.0 ],
 									"text" : "see"
 								}
 
@@ -6144,7 +6241,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 377.25, 356.0, 198.875, 22.0 ],
+									"patching_rect" : [ 377.25, 321.0, 198.875, 22.0 ],
 									"text" : "inner workings"
 								}
 
@@ -6274,8 +6371,24 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"hidden" : 1,
 									"midpoints" : [ 28.0, 600.0, 386.75, 600.0 ],
 									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-34", 0 ]
 								}
 
 							}
