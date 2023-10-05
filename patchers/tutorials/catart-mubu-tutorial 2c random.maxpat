@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 78.0, 1209.0, 778.0 ],
+		"rect" : [ 134.0, 79.0, 1209.0, 778.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-74",
@@ -116,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.416663999999997, 3.125, 396.0, 60.0 ],
+					"patching_rect" : [ 111.416663999999997, 3.125, 395.0, 60.0 ],
 					"text" : "CataRT-MuBu\nTutorial 2c: Random Selection"
 				}
 
@@ -187,7 +187,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -592,7 +592,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -711,7 +711,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1936,7 +1936,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 171.0, 278.413989007472992, 138.0, 22.0 ],
+					"patching_rect" : [ 171.0, 278.413989007472992, 166.0, 22.0 ],
 					"text" : "camu.cont tut2c-corpus descr"
 				}
 
@@ -2039,7 +2039,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2857,6 +2857,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
 					"cursor_circlefilled" : 1,
@@ -2867,12 +2868,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.501960784313725, 0.0, 0.83 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1564.215315369932569,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1333.846405965128042, 4569.981085699287178 ],
+					"domain_bounds" : [ 1340.338429644184316, 4646.434113516239449 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2888,6 +2889,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut2c-corpus",
@@ -2970,7 +2972,6 @@
 					"patching_rect" : [ 239.039780000000007, 181.0, 164.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 14,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -3063,7 +3064,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3519,7 +3520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 147.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 147.0, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -3548,8 +3549,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.039779999999951, 659.0, 354.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"outputstate" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2c-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -3723,7 +3723,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3837,6 +3837,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4478,7 +4479,7 @@
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-2", 3 ],
 					"midpoints" : [ 457.539779999999951, 705.0, 531.706451999999899, 705.0, 531.706451999999899, 537.0, 319.539769333333311, 537.0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -4487,8 +4488,8 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 1 ],
 					"hidden" : 1,
-					"midpoints" : [ 457.539779999999951, 703.0, 556.333331999999928, 703.0, 556.333331999999928, 270.413989007472992, 299.5, 270.413989007472992 ],
-					"order" : 3,
+					"midpoints" : [ 457.539779999999951, 703.0, 556.333331999999928, 703.0, 556.333331999999928, 270.413989007472992, 327.5, 270.413989007472992 ],
+					"order" : 2,
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -4772,7 +4773,7 @@
 					"color" : [ 0.7019608021, 0.7019608021, 0.7019608021, 1.0 ],
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 299.5, 568.206994503736496, 221.5, 568.206994503736496 ],
+					"midpoints" : [ 327.5, 568.206994503736496, 221.5, 568.206994503736496 ],
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -5103,49 +5104,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1

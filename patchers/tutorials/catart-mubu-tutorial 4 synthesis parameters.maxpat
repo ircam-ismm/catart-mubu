@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -897,7 +897,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1465,7 +1465,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2254,7 +2254,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 123.5, 381.0, 312.0, 381.0, 312.0, 510.0, 327.75000799999998, 510.0 ],
+					"midpoints" : [ 123.5, 379.0, 312.0, 379.0, 312.0, 510.0, 327.75000799999998, 510.0 ],
 					"source" : [ "obj-46", 0 ]
 				}
 

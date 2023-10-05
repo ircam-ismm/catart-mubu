@@ -953,7 +953,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 0.0, 0.0 ],
+					"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1546,15 +1546,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
 					"fontsize" : 24.0,
 					"id" : "obj-37",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 0.0, 394.0, 60.0 ],
+					"patching_rect" : [ 110.0, 0.0, 391.0, 60.0 ],
 					"text" : "CataRT-MuBu\nTutorial 2e: Taboo"
 				}
 
@@ -1599,8 +1599,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.666663999999997, 634.0, 337.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"outputstate" : 0
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2e-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @varmetro 1"
@@ -2973,29 +2972,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.taboo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
-				"patcherrelativepath" : "../../../../Library/Gesture&Sound",
+				"bootpath" : "~/src/catart-mubu",
+				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1
 			}

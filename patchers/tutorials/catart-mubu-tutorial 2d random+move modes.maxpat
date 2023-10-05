@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 166.0, 62.0, 1240.0, 793.0 ],
+		"rect" : [ 166.0, 79.0, 1240.0, 793.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -69,21 +69,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 24.0,
-					"id" : "obj-79",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 2.125, 436.0, 60.0 ],
-					"text" : "CataRT-MuBu\nTutorial 2d: Random Selection / Move"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-66",
@@ -91,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.039771999999971, 2.125, 193.0, 36.0 ],
+					"patching_rect" : [ 369.039771999999971, 0.125, 193.0, 36.0 ],
 					"text" : "N.B.: \"Scheduler in Overdrive\" must be ON in Audio Status!",
 					"textcolor" : [ 0.905882352941176, 0.172549019607843, 0.172549019607843, 1.0 ]
 				}
@@ -215,7 +200,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -334,7 +319,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 2,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1535,7 +1520,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1989,7 +1974,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 202.0, 309.413989007472992, 138.0, 22.0 ],
+					"patching_rect" : [ 202.0, 309.413989007472992, 167.0, 22.0 ],
 					"text" : "camu.cont tut2d-corpus descr"
 				}
 
@@ -2079,7 +2064,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2916,6 +2901,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
 					"cursor_circlefilled" : 1,
@@ -2923,15 +2909,15 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 1.0, 0.501960784313725, 0.0, 0.54 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 1,
+					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.501960784313725, 0.0, 0.79 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1536.790445202693945,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1333.846405965128042, 4569.981085699287178 ],
+					"domain_bounds" : [ 1340.338429644184316, 4646.434113516239449 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2947,6 +2933,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut2d-corpus",
@@ -3029,7 +3016,6 @@
 					"patching_rect" : [ 239.039780000000007, 181.0, 164.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 11,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -3123,7 +3109,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3579,7 +3565,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 147.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 147.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -3646,8 +3632,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.039779999999951, 681.0, 354.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"outputstate" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2d-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -3821,7 +3806,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3935,6 +3920,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4345,6 +4331,21 @@
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
+					"fontsize" : 24.0,
+					"id" : "obj-79",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 109.0, 2.125, 435.0, 60.0 ],
+					"text" : "CataRT-MuBu\nTutorial 2d: Random Selection / Move"
 				}
 
 			}
@@ -4880,7 +4881,7 @@
 					"color" : [ 0.7019608021, 0.7019608021, 0.7019608021, 1.0 ],
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 330.5, 568.206994503736496, 221.039774666666631, 568.206994503736496 ],
+					"midpoints" : [ 359.5, 568.206994503736496, 221.039774666666631, 568.206994503736496 ],
 					"source" : [ "obj-53", 1 ]
 				}
 
@@ -5213,56 +5214,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1

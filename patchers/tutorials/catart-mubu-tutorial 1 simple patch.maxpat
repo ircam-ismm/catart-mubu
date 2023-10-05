@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -117,7 +117,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -663,6 +663,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -673,12 +674,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1531.023081335450797,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 1333.904181625574665, 4569.939451862708665 ],
+					"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -694,6 +695,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut1-corpus",
@@ -776,7 +778,6 @@
 					"patching_rect" : [ 239.039780000000007, 181.0, 161.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 3,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -871,7 +872,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1359,7 +1360,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 151.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 151.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -1377,14 +1378,14 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
 					"fontsize" : 24.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 5.25, 405.0, 33.0 ],
+					"patching_rect" : [ 112.0, 5.25, 409.0, 33.0 ],
 					"text" : "CataRT-MuBu — Simple Patch"
 				}
 
@@ -1439,10 +1440,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 113.666663999999997, 542.0, 356.0, 35.0 ],
+					"patching_rect" : [ 113.666663999999997, 542.0, 364.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"outputstate" : 0
 					}
 ,
 					"text" : "mubu.concat~ 2 tut1-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
@@ -1620,7 +1620,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1711,6 +1711,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2340,7 +2341,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
-					"midpoints" : [ 291.666663999999969, 586.0, 130.166663999999997, 586.0 ],
+					"midpoints" : [ 295.666663999999969, 586.0, 130.166663999999997, 586.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -2670,21 +2671,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1

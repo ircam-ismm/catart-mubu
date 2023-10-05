@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 386.5, 75.0, 69.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "load corpus"
 				}
 
@@ -140,8 +139,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 368.0, 280.0, 60.0 ],
-					"text" : "Each selection (by move or click) restarts the loop. \ncamu.cont needs to be connected to the rightmost outlet of mubu.concat~. Stop the loop by switching to fence mode."
+					"patching_rect" : [ 289.0, 368.0, 255.0, 60.0 ],
+					"text" : "Each selection (by move or click) restarts the loop.  camu.cont needs to be connected to the rightmost outlet of mubu.concat~. Stop the loop by switching to fence mode."
 				}
 
 			}
@@ -153,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 114.0, 380.5, 148.0, 22.0 ],
+					"patching_rect" : [ 114.0, 380.5, 167.0, 22.0 ],
 					"text" : "camu.cont tut2b-corpus descr"
 				}
 
@@ -198,7 +197,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -917,6 +916,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -927,12 +927,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1974.540605682672322,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 1333.904181625574665, 4569.939451862708665 ],
+					"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -948,6 +948,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut2b-corpus",
@@ -1030,7 +1031,6 @@
 					"patching_rect" : [ 239.039780000000007, 173.0, 161.0, 20.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 6,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1105,7 +1105,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1505,7 +1505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 145.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 145.0, 109.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -1523,15 +1523,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
+					"fontface" : 0,
+					"fontname" : "Arial Bold",
 					"fontsize" : 24.0,
 					"id" : "obj-37",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.0, 3.125, 396.0, 60.0 ],
+					"patching_rect" : [ 114.0, 3.125, 395.0, 60.0 ],
 					"text" : "CataRT-MuBu\nTutorial 2b: Cont Trigger Mode"
 				}
 
@@ -1566,8 +1566,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.666663999999997, 634.0, 363.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"outputstate" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2b-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
@@ -1739,7 +1738,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1830,6 +1829,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2558,7 +2558,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-57", 1 ],
-					"midpoints" : [ 467.166663999999969, 679.0, 93.166659999999979, 679.0, 93.166659999999979, 363.0, 252.5, 363.0 ],
+					"midpoints" : [ 467.166663999999969, 679.0, 93.166659999999979, 679.0, 93.166659999999979, 363.0, 271.5, 363.0 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
@@ -2716,7 +2716,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 252.5, 567.511068284511566, 232.166655999999989, 567.511068284511566 ],
+					"midpoints" : [ 271.5, 567.511068284511566, 232.166655999999989, 567.511068284511566 ],
 					"source" : [ "obj-57", 1 ]
 				}
 
@@ -2935,28 +2935,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1

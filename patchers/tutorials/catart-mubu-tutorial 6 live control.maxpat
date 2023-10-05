@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 75.0, 80.0, 1368.0, 787.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -96,7 +96,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
+					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 24.0,
 					"id" : "obj-79",
@@ -104,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.5, 1.0, 478.0, 60.0 ],
+					"patching_rect" : [ 109.5, 1.0, 475.0, 60.0 ],
 					"text" : "CataRT-MuBu\nTutorial 6: Live Control"
 				}
 
@@ -146,7 +146,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.500000000000114, 397.0, 73.0, 20.0 ],
+					"patching_rect" : [ 327.500000000000114, 382.0, 73.0, 20.0 ],
 					"text" : "Descriptors:"
 				}
 
@@ -154,12 +154,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.500000000000114, 418.5, 239.0, 47.0 ],
-					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean",
+					"patching_rect" : [ 327.500000000000114, 403.5, 239.0, 60.0 ],
+					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean",
 					"textjustification" : 2
 				}
 
@@ -291,7 +291,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.0, 307.0, 51.0, 20.0 ],
+					"patching_rect" : [ 580.0, 289.0, 51.0, 20.0 ],
 					"text" : "weights"
 				}
 
@@ -304,7 +304,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.166655999999989, 307.0, 41.0, 20.0 ],
+					"patching_rect" : [ 456.166655999999989, 289.0, 41.0, 20.0 ],
 					"text" : "target"
 				}
 
@@ -332,10 +332,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 580.0, 323.5, 110.0, 93.0 ],
+					"patching_rect" : [ 580.0, 305.5, 110.0, 93.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 7,
+					"size" : 10,
 					"spacing" : 2
 				}
 
@@ -351,10 +351,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.166655999999989, 323.5, 110.0, 93.0 ],
+					"patching_rect" : [ 456.166655999999989, 305.5, 110.0, 93.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 7,
+					"size" : 10,
 					"spacing" : 2
 				}
 
@@ -439,7 +439,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1023,7 +1023,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1085,6 +1085,7 @@
 								"box" : 								{
 									"fontsize" : 9.0,
 									"id" : "obj-10",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -2312,6 +2313,7 @@
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
 					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefilled" : 1,
@@ -2322,12 +2324,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 3109.570290468132953,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 8921.145833333332121 ],
+					"domain_bounds" : [ 1401.568933961401399, 4496.427578994987016 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2343,6 +2345,7 @@
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
+					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
 					"name" : "tut6-corpus",
@@ -2661,7 +2664,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 111.0, 156.0, 80.0, 22.0 ],
+					"patching_rect" : [ 111.0, 156.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -2873,7 +2876,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3199,7 +3202,7 @@
 									"patching_rect" : [ 510.0, 307.0, 110.0, 93.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 7,
+									"size" : 10,
 									"spacing" : 2
 								}
 
@@ -3401,7 +3404,7 @@
 									"patching_rect" : [ 387.0, 307.0, 110.0, 93.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 7,
+									"size" : 10,
 									"spacing" : 2
 								}
 
@@ -3912,7 +3915,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4112,6 +4115,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-41",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4220,6 +4224,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -4273,6 +4278,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-140",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -5663,42 +5669,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.pipo.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/GitHub/catart-mubu/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/GitHub/catart-mubu",
+				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "../..",
 				"type" : "PNG",
 				"implicit" : 1

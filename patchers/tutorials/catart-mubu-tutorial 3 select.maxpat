@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.0, 411.5, 230.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "feedback from concat goes into right linlet"
 				}
 
@@ -639,7 +638,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1340.338429644184316,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 4093,
 					"cursor_sizeunit" : 1,
@@ -789,7 +788,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1315,8 +1314,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 114.0, 582.0, 354.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"outputstate" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut3-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -1339,7 +1337,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
