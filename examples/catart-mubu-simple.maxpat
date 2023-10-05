@@ -46,7 +46,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 235.5, 166.0, 219.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 235.5, 166.0, 219.0, 20.0 ]
+					"presentation_rect" : [ 235.5, 166.0, 219.0, 20.0 ],
+					"text" : "49 files / 1526 segments / 6.29 min"
 				}
 
 			}
@@ -351,7 +352,7 @@
 					"patching_rect" : [ 9.0, 996.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.5, 650.799987999999985, 77.5, 20.0 ],
-					"text" : "Buffer: 1812"
+					"text" : "Buffer: 48"
 				}
 
 			}
@@ -376,7 +377,7 @@
 					"patching_rect" : [ 131.0, 996.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.5, 675.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 0"
+					"text" : "Index: 4"
 				}
 
 			}
@@ -401,7 +402,7 @@
 					"patching_rect" : [ 458.0, 996.0, 231.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.083331999999984, 650.799987999999985, 419.416668000000016, 20.0 ],
-					"text" : "File: 777.wav"
+					"text" : "File: Gtr-harm_fingering-G5-p-5c.wav"
 				}
 
 			}
@@ -427,7 +428,7 @@
 					"patching_rect" : [ 241.837608257929446, 996.0, 81.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.083331999999984, 675.799987999999985, 112.583331999999984, 20.0 ],
-					"text" : "Start: 0.00 ms"
+					"text" : "Start: 1000.00 ms"
 				}
 
 			}
@@ -3041,7 +3042,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 122.0, 313.0, 1298.0, 976.0 ],
+						"rect" : [ 26.0, 384.0, 821.0, 596.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -3071,6 +3072,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 80.0, 493.5, 32.0, 19.0 ],
+									"text" : "size 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-30",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3086,7 +3099,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 402.5, 531.0, 119.0, 17.0 ],
+									"patching_rect" : [ 391.000000000000057, 531.0, 119.0, 17.0 ],
 									"text" : "comment over progress bar"
 								}
 
@@ -3098,7 +3111,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 408.499999999999943, 443.0, 62.0, 19.0 ],
+									"patching_rect" : [ 397.0, 443.0, 62.0, 19.0 ],
 									"text" : "loadmess set"
 								}
 
@@ -3111,7 +3124,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.499999999999943, 499.500000536441803, 25.0, 25.0 ]
+									"patching_rect" : [ 397.0, 499.500000536441803, 25.0, 25.0 ]
 								}
 
 							}
@@ -3775,16 +3788,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-3", 0 ],
-													"order" : 0,
-													"source" : [ "obj-62", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-63", 0 ],
-													"order" : 1,
 													"source" : [ "obj-62", 0 ]
 												}
 
@@ -3829,7 +3833,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 301.300000250339508, 504.500044083999569, 86.0, 19.0 ],
+									"patching_rect" : [ 253.0, 504.500044083999569, 86.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -3847,7 +3851,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 301.300000250339508, 540.500044083999569, 77.0, 19.0 ],
+									"patching_rect" : [ 253.0, 555.500044083999569, 77.0, 19.0 ],
 									"text" : "print catart-mubu"
 								}
 
@@ -3860,7 +3864,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 301.300000250339508, 469.500000536441803, 24.0, 24.0 ]
+									"patching_rect" : [ 253.0, 469.500000536441803, 24.0, 24.0 ]
 								}
 
 							}
@@ -4031,7 +4035,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.5, 469.500000536441803, 62.0, 19.0 ],
+									"patching_rect" : [ 286.199999749660492, 469.500000536441803, 62.0, 19.0 ],
 									"text" : "print process"
 								}
 
@@ -4300,7 +4304,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 301.300000250339508, 419.0, 153.0, 19.0 ],
+									"patching_rect" : [ 253.0, 419.0, 153.0, 19.0 ],
 									"text" : "sel alldone done"
 								}
 
@@ -4550,6 +4554,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
+									"order" : 1,
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"order" : 0,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -4618,6 +4631,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-37", 0 ],
 									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
@@ -5383,12 +5403,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 33.382182098258383,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1845.854110131246443, 4107.713749862924487 ],
+					"domain_bounds" : [ 107.643451454108501, 11061.180681442001514 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5774,9 +5794,8 @@
 					"presentation_rect" : [ 235.5, 164.5, 223.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 4,
-					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
-					"spacing" : 1
+					"size" : 49,
+					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ]
 				}
 
 			}
