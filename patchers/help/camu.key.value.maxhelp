@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 79.0, 1236.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -89,7 +89,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.666655999999989, 203.0, 190.0, 51.0 ],
+					"patching_rect" : [ 336.666655999999989, 203.0, 194.0, 51.0 ],
 					"text" : "double-click to tag buffers by user-defined key-value pairs or automatically by directory"
 				}
 
@@ -102,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.666655999999989, 253.0, 190.0, 64.0 ],
+					"patching_rect" : [ 336.666655999999989, 253.0, 192.0, 64.0 ],
 					"text" : "double-click to enable or disable keys (works best when several buffers with different keys are defined)"
 				}
 
@@ -115,7 +115,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "update", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 113.666663999999997, 266.5, 218.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
@@ -586,7 +586,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1451.740465154743561,
+					"cursor_position" : 1340.628142075614505,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -773,8 +773,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1408,8 +1408,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1634,8 +1634,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2389,8 +2389,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 3,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3121,8 +3121,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4622,10 +4622,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "mubu.concat~.mxo",
 				"type" : "iLaX"
 			}
@@ -4635,14 +4631,6 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.process.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
  ],

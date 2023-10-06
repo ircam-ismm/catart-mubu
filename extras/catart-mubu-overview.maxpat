@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 34.0, 79.0, 1371.0, 782.0 ],
+		"openrect" : [ 34.0, 79.0, 1372.0, 787.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 1371.0,
+		"devicewidth" : 1372.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -50,14 +50,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1371.0, 756.0 ],
+						"rect" : [ 34.0, 105.0, 1372.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -303,8 +303,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -793,7 +793,7 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 3562.874603658196975,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
@@ -977,8 +977,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1693,8 +1693,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2948,14 +2948,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1371.0, 756.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3698,14 +3698,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1371.0, 756.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3741,7 +3741,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 480.0, 191.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "master analysis and segmentation"
 								}
 
@@ -3753,7 +3752,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 360.0, 173.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "master selection and synthesis"
 								}
 
@@ -3791,7 +3789,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 620.0, 380.0, 231.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Play from and transcribe to score"
 								}
 
@@ -3807,7 +3804,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 620.0, 250.0, 221.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Organise and import the corpus"
 								}
 
@@ -4741,14 +4737,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1371.0, 756.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5913,8 +5909,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6858,22 +6854,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-overview.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "icon.png",
 				"bootpath" : "~/src/catart-mubu",
 				"patcherrelativepath" : "..",
 				"type" : "PNG",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubu.concat~.mxo",
@@ -6887,50 +6872,8 @@
 				"name" : "mubu.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "mubu.process.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
  ],
-		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshotlist" : 			{
-				"current_snapshot" : -1,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "catart-mubu-overview",
-						"origin" : "catart-mubu-overview",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "catart-mubu-overview",
-							"filename" : "catart-mubu-overview.maxsnap",
-							"filepath" : "~/Documents/Max 8/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "65044c3e70d19dbf9de18836be7c879d"
-						}
-
-					}
- ]
-			}
-
-		}
-
+		"autosave" : 0
 	}
 
 }

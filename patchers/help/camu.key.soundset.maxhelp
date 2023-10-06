@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 402.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 167.0, 73.0, 1221.0, 717.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -511,7 +511,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1329.516909767701691,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -683,8 +683,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1320,8 +1320,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2602,10 +2602,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "mubu.concat~.mxo",
 				"type" : "iLaX"
 			}
@@ -2615,14 +2611,6 @@
 			}
 , 			{
 				"name" : "mubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.process.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
 			}
  ],
