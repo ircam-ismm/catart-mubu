@@ -953,7 +953,7 @@
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
 					"cursor_visible" : 0,
-					"domain_bounds" : [ 1340.396764296198171, 4646.390951383333231 ],
+					"domain_bounds" : [ 0.0, 0.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -972,7 +972,7 @@
 					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "tut2a-corpus",
+					"name" : "tut2e-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -1599,7 +1599,8 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 113.666663999999997, 634.0, 337.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"outputstate" : 0
+						"outputstate" : 0,
+						"resampleaudioinput" : 0
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2e-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @varmetro 1"
