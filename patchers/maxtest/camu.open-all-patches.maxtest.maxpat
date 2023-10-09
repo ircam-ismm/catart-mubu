@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 906.0, 221.0, 1199.0, 794.0 ],
+		"rect" : [ 1236.0, 589.0, 1199.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -749,9 +749,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "int", "int" ],
+					"outlettype" : [ "int", "bang", "int", "int" ],
 					"patching_rect" : [ 6.0, 101.0, 943.700004994869232, 22.0 ],
-					"text" : "t b b 1 1"
+					"text" : "t 1 b 1 1"
 				}
 
 			}
