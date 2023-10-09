@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -113,7 +113,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -438,7 +438,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -820,10 +820,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 820.419800000000009, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -863,7 +859,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.5, 163.0, 149.0, 22.0 ],
+					"patching_rect" : [ 96.5, 163.0, 159.0, 22.0 ],
 					"text" : "print #1-select-IN"
 				}
 
@@ -921,7 +917,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.000008000000008, 190.0, 153.0, 22.0 ],
+					"patching_rect" : [ 38.000008000000008, 190.0, 163.0, 22.0 ],
 					"text" : "print #1-concat-IN"
 				}
 
@@ -1334,18 +1330,18 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-30",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 5.0, 724.850005745887756, 190.0, 87.0 ],
+					"patching_rect" : [ 5.0, 724.850005745887756, 196.0, 102.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 #1 @audio audio @markers #2 @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
+					"text" : "mubu.concat~ 2 #1 @audio audio @markers #2 @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1 @tracknotfoundwarning 0"
 				}
 
 			}
@@ -1372,6 +1368,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.0, 31.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1384,6 +1384,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 170.0, 29.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 2"
 				}
 
@@ -1396,6 +1400,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 31.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 3"
 				}
 
@@ -1406,7 +1414,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.999999999999993, 820.419800000000009, 42.0, 22.0 ],
+					"patching_rect" : [ 8.999999999999993, 848.419800000000009, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -1417,7 +1429,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 90.5, 820.419800000000009, 42.0, 22.0 ],
+					"patching_rect" : [ 94.5, 848.419800000000009, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -1429,10 +1445,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 446.0, 820.419800000000009, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -1656,7 +1668,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-46", 3 ],
-					"midpoints" : [ 185.5, 852.5, 423.419872193447077, 852.5, 423.419872193447077, 222.764535963535309, 377.499999999999943, 222.764535963535309 ],
+					"midpoints" : [ 191.5, 852.5, 423.419872193447077, 852.5, 423.419872193447077, 222.764535963535309, 377.499999999999943, 222.764535963535309 ],
 					"source" : [ "obj-30", 2 ]
 				}
 
