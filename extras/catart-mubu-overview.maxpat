@@ -793,12 +793,12 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 1649.540361517756764,
+									"cursor_position" : 1340.628142075614505,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 1334.133342228354422, 4569.774315973085322 ],
+									"domain_bounds" : [ 1340.628142075614505, 4646.219753679705718 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -2955,8 +2955,8 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 123.0, 1372.0, 761.0 ],
-						"bglocked" : 0,
+						"rect" : [ 34.0, 105.0, 1372.0, 761.0 ],
+						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 2,
@@ -2986,6 +2986,22 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"hidden" : 1,
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 785.0, 413.5, 366.0, 37.0 ],
+									"text" : "legacy: CataRT controlled by a factor oracle + keymixer (contributed by Aaron Einbond)"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bubbleside" : 2,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -3010,7 +3026,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 793.0, 368.625, 367.0, 47.0 ],
+									"patching_rect" : [ 793.0, 388.625, 367.0, 47.0 ],
 									"text" : "(needs packages: bach and CNMAT Externals from the package manager, Shell, and external application Python with packages NumPy and python-osc)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -3059,7 +3075,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 328.625, 366.0, 37.0 ],
+									"patching_rect" : [ 785.0, 309.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from various external controllers (Sensel, ROLI, Linnstrument)"
 								}
 
@@ -3072,7 +3088,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 336.125, 132.0, 22.0 ],
+									"patching_rect" : [ 612.0, 317.125, 132.0, 22.0 ],
 									"text" : "catart-mubu-poly"
 								}
 
@@ -3087,7 +3103,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 368.625, 366.0, 37.0 ],
+									"patching_rect" : [ 190.5, 348.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from  Linnstrument"
 								}
 
@@ -3100,7 +3116,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.5, 376.125, 168.0, 22.0 ],
+									"patching_rect" : [ 16.0, 356.125, 168.0, 22.0 ],
 									"text" : "catart-mubu-poly-linnstrument"
 								}
 
@@ -3142,24 +3158,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 368.625, 65.0, 22.0 ],
+									"patching_rect" : [ 612.0, 388.625, 65.0, 22.0 ],
 									"text" : "append #1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"hidden" : 1,
-									"id" : "obj-1",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 403.625, 366.0, 37.0 ],
-									"text" : "legacy: CataRT controlled by a factor oracle + keymixer (contributed by Aaron Einbond)"
 								}
 
 							}
@@ -3228,7 +3228,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 411.25, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 421.125, 129.0, 22.0 ],
 									"text" : "catoracle+keymixer"
 								}
 
@@ -3243,7 +3243,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 328.625, 366.0, 37.0 ],
+									"patching_rect" : [ 785.0, 348.625, 366.0, 37.0 ],
 									"text" : "CataRT controlled by a factor oracle (a la OMax) running in python (contributed by Aaron Einbond)"
 								}
 
@@ -3256,7 +3256,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 336.125, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 356.125, 129.0, 22.0 ],
 									"text" : "catoracle"
 								}
 
@@ -3559,7 +3559,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 24.0, 420.0, 0.0, 420.0, 0.0, 606.0, 11.5, 606.0 ],
+									"midpoints" : [ 25.5, 420.0, 0.0, 420.0, 0.0, 606.0, 11.5, 606.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -3568,7 +3568,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 25.5, 381.0, 0.0, 381.0, 0.0, 606.0, 11.5, 606.0 ],
+									"midpoints" : [ 621.5, 347.0, 0.0, 347.0, 0.0, 606.0, 11.5, 606.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -3627,7 +3627,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 444.0, 3.0, 444.0, 3.0, 564.0, 11.5, 564.0 ],
+									"midpoints" : [ 621.5, 460.0, 3.0, 460.0, 3.0, 564.0, 11.5, 564.0 ],
 									"source" : [ "obj-73", 0 ]
 								}
 
@@ -3662,7 +3662,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 402.3125, 11.5, 402.3125 ],
+									"midpoints" : [ 621.5, 415.3125, 11.5, 415.3125 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -6841,22 +6841,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "camu.debug.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "catart-mubu-overview.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "icon.png",
-				"bootpath" : "~/Documents/Max 8/Library/Gesture&Sound",
-				"patcherrelativepath" : "../../../Library/Gesture&Sound",
+				"bootpath" : "~/src/catart-mubu",
+				"patcherrelativepath" : "..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -6885,7 +6892,41 @@
 				"type" : "iLaX"
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"snapshot" : 		{
+			"filetype" : "C74Snapshot",
+			"version" : 2,
+			"minorversion" : 0,
+			"name" : "snapshotlist",
+			"origin" : "jpatcher",
+			"type" : "list",
+			"subtype" : "Undefined",
+			"embed" : 1,
+			"snapshotlist" : 			{
+				"current_snapshot" : -1,
+				"entries" : [ 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "catart-mubu-overview",
+						"origin" : "catart-mubu-overview",
+						"type" : "patcher",
+						"subtype" : "Undefined",
+						"embed" : 0,
+						"fileref" : 						{
+							"name" : "catart-mubu-overview",
+							"filename" : "catart-mubu-overview.maxsnap",
+							"filepath" : "~/Documents/Max 8/Snapshots",
+							"filepos" : -1,
+							"snapshotfileid" : "65044c3e70d19dbf9de18836be7c879d"
+						}
+
+					}
+ ]
+			}
+
+		}
+
 	}
 
 }
