@@ -2,6 +2,14 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
+CataRT-Mubu v1.5.2		10.10.2023
+
+- revise high-level documentation, clarify dependencies on external packages
+- better document camu.menu display parameters
+- new abstraction camu.taboo
+- remove all errors and most warnings from patches
+
+____________________________________________________
 CataRT-Mubu v1.5.1-Linnstrument	15.05.2023
 
 - improve Linnstrument input: multi-touch pads + pressure
