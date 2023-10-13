@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1395.0, 513.0, 1105.0, 750.0 ],
+		"rect" : [ 276.0, 116.0, 698.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,36 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "comment",
+					"hidden" : 1,
+					"id" : "obj-71",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 169.587111999999991, 705.500011992526993, 103.0, 22.0 ],
+					"text_width" : 14.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "comment",
+					"hidden" : 1,
+					"id" : "obj-70",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 9.0, 718.500011992526993, 335.0, 22.0 ],
+					"text_width" : 14.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "comment",
@@ -626,7 +656,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 129.0, 19.0 ],
+					"patching_rect" : [ 584.087111999999934, 449.417114000000026, 185.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -779,13 +809,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 982.0, 274.0, 831.0, 667.0 ],
+						"rect" : [ 575.0, 274.0, 831.0, 667.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -896,7 +926,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1792,7 +1822,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "list" ],
 									"patching_rect" : [ 39.59997866666663, 113.000011992526993, 30.0, 30.0 ]
 								}
 
@@ -2062,48 +2092,49 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "click mode flag and other messages",
 					"id" : "obj-168",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 8.5, 33.999996992527002, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "connect rightmost outlet of knn or camu.select and mubu.concat~ here",
 					"id" : "obj-169",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "list" ],
 					"patching_rect" : [ 169.587111999999991, 33.999996992527002, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "from imubu",
 					"id" : "obj-170",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.000015000000019, 35.0, 30.0, 30.0 ]
+					"patching_rect" : [ 419.000015000000019, 35.0, 30.0, 30.0 ],
+					"tricolor" : [ 1.0, 0.835294117647059, 0.058823529411765, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "list of x/y descr. indices",
 					"id" : "obj-171",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2114,9 +2145,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "to knn, marker/buffer must be routed to mubu.concat",
 					"id" : "obj-173",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2126,9 +2157,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "to imubu editor",
 					"id" : "obj-174",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2860,6 +2891,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -2872,20 +2917,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "camu.target.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 228.0, 696.0, 469.0, 321.0 ],
+		"rect" : [ 532.0, 221.0, 536.0, 414.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 121.29999977350235, 77.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "select is passed through"
 				}
 
@@ -156,7 +155,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "target values list or bang from retrigger-random",
 					"id" : "obj-24",
 					"index" : 1,
 					"maxclass" : "inlet",
@@ -220,39 +219,54 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "descriptor choice x, or as list x/y/z",
 					"id" : "obj-12",
 					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 207.0, 45.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "descriptor choice y (when not sent as list in 2nd inlet)",
 					"id" : "obj-13",
 					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 347.0, 45.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "to mubu.knn or camu.select",
 					"id" : "obj-15",
 					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.5, 243.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "comment",
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 23.0, 303.0, 171.0, 22.0 ],
+					"text_width" : 14.0
 				}
 
 			}
@@ -346,6 +360,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-225", 0 ],
 					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
