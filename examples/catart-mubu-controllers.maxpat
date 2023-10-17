@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"openrect" : [ 37.0, 79.0, 1315.0, 696.0 ],
+		"openrect" : [ 37.0, 79.0, 1258.0, 711.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -31,7 +31,7 @@
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 1315.0,
+		"devicewidth" : 1258.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
@@ -51,7 +51,7 @@
 					"patching_rect" : [ 606.5, 187.90002400000003, 477.416662454605103, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 469.37500011920929, 167.0, 147.12499988079071, 100.0 ],
+					"presentation_rect" : [ 469.37500011920929, 167.0, 149.0, 100.0 ],
 					"text" : "Some need packages: Blocks or Sensel from the package manager, \nif you want to use that device.  Otherwise, just ignore the error messages or delete it.",
 					"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 				}
@@ -66,7 +66,7 @@
 					"patching_rect" : [ 235.5, 166.0, 219.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.5, 166.0, 219.0, 20.0 ],
-					"text" : "1 files / 139 segments / 0.58 min"
+					"text" : "49 files / 1526 segments / 6.29 min"
 				}
 
 			}
@@ -333,8 +333,8 @@
 					"patching_rect" : [ 472.5, 295.900023999999917, 149.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 469.312504947185516, 358.5, 147.187495052814484, 35.0 ],
-					"text" : "camu.control.linnstrument corpus descr"
+					"presentation_rect" : [ 469.312504947185516, 358.5, 149.0, 35.0 ],
+					"text" : "camu.control.linnstrument ctrls-corpus descr"
 				}
 
 			}
@@ -401,7 +401,7 @@
 					"patching_rect" : [ 9.0, 996.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.5, 650.799987999999985, 77.5, 20.0 ],
-					"text" : "Buffer: 1"
+					"text" : "Buffer: 17"
 				}
 
 			}
@@ -426,7 +426,7 @@
 					"patching_rect" : [ 131.0, 996.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.5, 675.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 87"
+					"text" : "Index: 0"
 				}
 
 			}
@@ -451,7 +451,7 @@
 					"patching_rect" : [ 458.0, 996.0, 231.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.083331999999984, 650.799987999999985, 419.416668000000016, 20.0 ],
-					"text" : "File: sketch-pitchy.aiff"
+					"text" : "File: Gtr-harm_fingering-C5-p.wav"
 				}
 
 			}
@@ -477,7 +477,7 @@
 					"patching_rect" : [ 241.837608257929446, 996.0, 81.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 151.083331999999984, 675.799987999999985, 112.583331999999984, 20.0 ],
-					"text" : "Start: 21750.00 ms"
+					"text" : "Start: 0.00 ms"
 				}
 
 			}
@@ -500,12 +500,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 397.5, 901.0, 140.0, 22.0 ],
+					"patching_rect" : [ 397.5, 901.0, 166.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus audio"
+					"text" : "mubu.track ctrls-corpus audio"
 				}
 
 			}
@@ -540,12 +540,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 241.837608257929446, 901.0, 140.0, 22.0 ],
+					"patching_rect" : [ 241.837608257929446, 901.0, 166.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus descr"
+					"text" : "mubu.track ctrls-corpus descr"
 				}
 
 			}
@@ -1442,8 +1442,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 94.0, 236.050859987735748, 185.0, 22.0 ],
-					"text" : "camu.imubu.control corpus descr"
+					"patching_rect" : [ 94.0, 236.050859987735748, 211.0, 22.0 ],
+					"text" : "camu.imubu.control ctrls-corpus descr"
 				}
 
 			}
@@ -1478,7 +1478,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr" ],
+					"args" : [ "ctrls-corpus", "descr" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -2285,6 +2285,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-41",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2294,7 +2295,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus descr"
+									"text" : "mubu.track ctrls-corpus descr"
 								}
 
 							}
@@ -2393,11 +2394,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 46.0, 254.0, 110.0, 22.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s ctrls-corpus-menu-init"
 								}
 
 							}
@@ -2446,11 +2448,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-140",
+									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.399993999999992, 254.0, 98.0, 22.0 ],
-									"text" : "s corpus-refresh"
+									"text" : "s ctrls-corpus-refresh"
 								}
 
 							}
@@ -3484,6 +3487,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-46",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -3493,7 +3497,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus descr",
+													"text" : "mubu.track ctrls-corpus descr",
 													"varname" : "tt[8]"
 												}
 
@@ -3564,6 +3568,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-32",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -3573,7 +3578,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu.track corpus audio",
+													"text" : "mubu.track ctrls-corpus audio",
 													"varname" : "tt[1]"
 												}
 
@@ -3606,6 +3611,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-17",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -3622,7 +3628,7 @@
 														"verbose" : 1
 													}
 ,
-													"text" : "mubu corpus"
+													"text" : "mubu ctrls-corpus"
 												}
 
 											}
@@ -4026,6 +4032,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-78",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4035,7 +4042,7 @@
 										"verbose" : 1
 									}
 ,
-									"text" : "mubu.track corpus audio",
+									"text" : "mubu.track ctrls-corpus audio",
 									"varname" : "tt"
 								}
 
@@ -4104,11 +4111,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 703.0, 109.5, 100.0, 19.0 ],
-									"text" : "s corpus-menu-init"
+									"text" : "s ctrls-corpus-menu-init"
 								}
 
 							}
@@ -4527,7 +4535,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "corpus" ],
+									"args" : [ "ctrls-corpus" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -5267,7 +5275,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "color", "FrequencyMean" ],
+					"args" : [ "ctrls-corpus", "descr", "color", "FrequencyMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -5291,7 +5299,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "size", "LoudnessMean" ],
+					"args" : [ "ctrls-corpus", "descr", "size", "LoudnessMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -5315,7 +5323,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "y", "PeriodicityMean" ],
+					"args" : [ "ctrls-corpus", "descr", "y", "PeriodicityMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -5355,7 +5363,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus", "descr", "x", "CentroidMean" ],
+					"args" : [ "ctrls-corpus", "descr", "x", "CentroidMean" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -5416,12 +5424,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 736.883041516041885,
+					"cursor_position" : 0.200097447319618,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 710.197936822846373, 1308.988755726168847 ],
+					"domain_bounds" : [ -0.005936803696872, 0.887402544221956 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -5440,7 +5448,7 @@
 					"maintrack" : -1,
 					"maxclass" : "imubu",
 					"mousewheelscroll" : 0,
-					"name" : "corpus",
+					"name" : "ctrls-corpus",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"opacity" : 0.0,
@@ -5540,7 +5548,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.0, 109.0, 49.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.0, 109.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 198.0, 109.0, 49.0, 22.0 ],
 					"text" : "clearall"
 				}
 
@@ -5631,9 +5639,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.0, 109.0, 80.0, 22.0 ],
+					"patching_rect" : [ 114.0, 109.0, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 109.0, 80.0, 22.0 ],
+					"presentation_rect" : [ 69.0, 109.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1,
@@ -5645,7 +5653,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu corpus"
+					"text" : "mubu ctrls-corpus"
 				}
 
 			}
@@ -5725,7 +5733,7 @@
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1 @tracknotfoundwarning 0"
+					"text" : "mubu.concat~ 2 ctrls-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1 @tracknotfoundwarning 0"
 				}
 
 			}
@@ -5787,7 +5795,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 469.312504947185516, 272.599961000000121, 147.187495052814484, 35.0 ],
-					"text" : "camu.control.blocks corpus descr"
+					"text" : "camu.control.blocks ctrls-corpus descr"
 				}
 
 			}
@@ -6347,7 +6355,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 338.756412386894226, 501.939749777317047, 390.207252611036893, 501.939749777317047, 390.207252611036893, 227.050859987735748, 158.833333333333343, 227.050859987735748 ],
+					"midpoints" : [ 338.756412386894226, 501.939749777317047, 390.207252611036893, 501.939749777317047, 390.207252611036893, 227.050859987735748, 167.5, 227.050859987735748 ],
 					"order" : 1,
 					"source" : [ "obj-46", 1 ]
 				}
