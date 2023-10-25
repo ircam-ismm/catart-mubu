@@ -7,6 +7,7 @@ CataRT-Mubu v1.5.2		10.10.2023
 - revise high-level documentation, clarify dependencies on external packages
 - better document camu.menu display parameters
 - new abstraction camu.taboo
+- start documenting abstraction inlets/outlets
 - remove all errors and most warnings from patches
 
 ____________________________________________________
