@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1267.0, 79.0, 1201.0, 859.0 ],
+		"rect" : [ 1089.0, 373.0, 1201.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -742,7 +742,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1669.0, 103.0, 543.0, 620.0 ],
+						"rect" : [ 830.0, 873.0, 543.0, 502.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -770,6 +770,7 @@
 						"style" : "",
 						"subpatcher_template" : "Max For Live",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -789,7 +790,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 118.912372231483459, 242.0, 100.0, 22.0 ],
+									"patching_rect" : [ 118.912372231483459, 242.0, 40.0, 22.0 ],
 									"text" : "t b 0"
 								}
 
@@ -802,7 +803,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 253.08764599999995, 174.0, 63.0, 22.0 ],
-									"text" : "t 1 i"
+									"text" : "t 0 i"
 								}
 
 							}
@@ -959,7 +960,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 274.0, 82.0, 22.0 ]
+									"patching_rect" : [ 50.0, 274.0, 71.0, 22.0 ]
 								}
 
 							}
@@ -970,7 +971,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.912372231483459, 300.0, 150.0, 22.0 ],
+									"patching_rect" : [ 50.0, 316.0, 198.824744462966919, 22.0 ],
 									"text" : "expr ($i1 / $i3 + $i2) * $i3"
 								}
 
@@ -981,7 +982,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 214.08764599999995, 300.0, 207.0, 20.0 ],
+									"patching_rect" : [ 253.08764599999995, 316.0, 207.0, 20.0 ],
 									"text" : "quantize tick value to given ticks"
 								}
 
