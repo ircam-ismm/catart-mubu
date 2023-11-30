@@ -168,7 +168,7 @@ def learn_threshold(self, index = None):
 
 ### oracle ###
 def init_oracle(self, index = None):
-    global ps, lrss, taboo_lens, taboo_lists, taboo_actives, starts, ends, query_actives, query_threshs, thresholds
+    global ps, lrss, taboo_lens, taboo_lists, taboo_actives, starts, ends, query_actives, query_threshs, thresholds, new_queries, widths, heights
     if index == None:
         index = '#1'
     # inital values
@@ -183,6 +183,7 @@ def init_oracle(self, index = None):
     taboo_actives[str(index)] = False
     query_actives[str(index)] = 0
     query_threshs[str(index)] = 0.1
+    new_queries[str(index)] = {} 
     thresholds[str(index)] = {}
     thresholds[str(index)]['descr'] = 0.001
     widths[str(index)] = 500
@@ -901,6 +902,7 @@ if __name__ == "__main__":
     dispatcher.map("/toggle_regions", toggle_regions)    
     dispatcher.map("/toggle_query", toggle_query)
     dispatcher.map("/set_query_thresh", set_query_thresh)
+    dispatcher.map("/query", query)
     dispatcher.map("/set_next_state", set_next_state)
     dispatcher.map("/get_next_state", get_next_state)
     dispatcher.map("/choose_section", choose_section)
