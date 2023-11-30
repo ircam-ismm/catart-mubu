@@ -692,7 +692,7 @@ def query(self, *args):
     new_queries[str(index)] = {} 
     new_queries[str(index)]['time'] = descriptors.pop() # time is penultimate argument
     new_queries[str(index)]['descr'] = descriptors
-    print('new query', new_queries[str(index)])
+    # print('new query', new_queries[str(index)])
 
 def follow_path(oracle, current, index):
     global query_threshs, events_lists, new_queries
