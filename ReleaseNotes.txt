@@ -2,6 +2,11 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
+CataRT-Mubu v1.5.3		04.13.2023
+
+- by Cycling's new restrictions: split out advanced examples that need non-PM external packages
+
+____________________________________________________
 CataRT-Mubu v1.5.2		10.10.2023
 
 - revise high-level documentation, clarify dependencies on external packages
