@@ -31,6 +31,7 @@ fi
 #old: get all tracked files
 #git ls-tree -r master --name-only . | egrep -v '^(doc/|misc/|\.git)|/(maxtest|test)/|\.gendsp' >$FILES
 
+
 # prepare for making zips that unpack to dist dirs (need to be one dir up)
 pushd $tmp
 rm -f $zipname $xipname
