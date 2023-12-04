@@ -31,6 +31,7 @@ fi
 #old: get all tracked files
 #git ls-tree -r master --name-only . | egrep -v '^(doc/|misc/|\.git)|/(maxtest|test)/|\.gendsp' >$FILES
 
+<<<<<<< HEAD
 
 # prepare for making zips that unpack to dist dirs (need to be one dir up)
 pushd $tmp
@@ -38,6 +39,14 @@ rm -f $zipname $xipname
 
 # regexp to include dirs for advanced examples distrib (also used to exclude from main dist)
 xwanted='/(catoracle|spat)/'
+=======
+# regexp to catch unwanted files/dirs
+unwanted='/(doc|misc|\.git)|/(maxtest|test)/|\.gendsp'
+
+# get list of all files for zip, filter out unwanted files and dirs
+pushd $tmp
+find $distdir | egrep -v "$unwanted" | sed "s,$tmp/,," >$files
+>>>>>>> a33bdff (add help msg and comments to dist script)
 
 # regexp to catch unwanted files/dirs to exclude from main distrib (also exclude advanced examples)
 unwanted="/(doc|misc|\.git)|/(maxtest|test)/|\.gendsp|$xwanted"
