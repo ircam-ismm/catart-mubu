@@ -310,7 +310,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1053.0, 429.0, 717.0, 480.0 ],
+										"rect" : [ 1053.0, 79.0, 717.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -339,18 +339,6 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-26",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 15.0, 13.0, 67.0, 20.0 ]
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"id" : "obj-5",
 													"linecount" : 3,
@@ -404,7 +392,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 27.5, 128.166672000000005, 137.0, 21.0 ],
+													"patching_rect" : [ 27.5, 128.166672000000005, 64.0, 21.0 ],
 													"text" : "route move"
 												}
 
@@ -435,20 +423,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 376.333373999999992, 292.299987999999985, 154.0, 33.0 ],
 													"text" : "view descr highlight $1 @bufferindex $2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Geneva",
-													"fontsize" : 10.0,
-													"id" : "obj-122",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 286.166687000000024, 228.0, 74.0, 21.0 ],
-													"text" : "cursor $1 $2"
 												}
 
 											}
@@ -505,23 +479,7 @@
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
-													"destination" : [ "obj-92", 0 ],
-													"source" : [ "obj-122", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-122", 0 ],
-													"order" : 0,
-													"source" : [ "obj-208", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-89", 0 ],
-													"order" : 1,
 													"source" : [ "obj-208", 0 ]
 												}
 
@@ -789,7 +747,7 @@
 									"cursor_circleheight" : 3.0,
 									"cursor_circlewidth" : 3.0,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
-									"cursor_followmouse" : 0,
+									"cursor_followmouse" : 1,
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
@@ -840,9 +798,11 @@
 									"region_visible" : 1,
 									"resamplefiles" : 1,
 									"snaprate" : 1000.0,
-									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"split_size" : 2,
-									"split_visible" : 1,
+									"splitbars_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"splitbars_size" : 2,
+									"splitbars_visible" : 1,
+									"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tabs_position" : 0,
 									"tabs_size" : 20,
 									"tabs_visible" : 1,
@@ -850,6 +810,7 @@
 									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
+									"toolbar_transposition" : 0,
 									"toolbar_visible" : 2,
 									"useplaceholders" : 1,
 									"varname" : "editor",
@@ -2986,17 +2947,47 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"bubble" : 1,
+									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"fontface" : 0,
+									"id" : "obj-26",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 80.25, 524.225001871585846, 289.0, 15.0 ],
+									"text" : "https://forum.ircam.fr/projects/detail/catart-mubu/",
+									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubbleside" : 2,
 									"fontface" : 0,
 									"fontname" : "Arial",
-									"hidden" : 1,
-									"id" : "obj-1",
+									"id" : "obj-24",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 413.5, 366.0, 37.0 ],
-									"text" : "legacy: CataRT controlled by a factor oracle + keymixer (contributed by Aaron Einbond)"
+									"patching_rect" : [ 771.0, 387.625, 403.800000548362732, 33.0 ],
+									"text" : "(needs packages: Blocks, Sensel from the package manager, \nif you want to use that device.  Otherwise, just ignore the error messages.)",
+									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-23",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 14.5, 507.725001871585846, 492.0, 60.0 ],
+									"text" : "To open these advanced examples, please download the catart-mubu-advanced-examples package from https://forum.ircam.fr/projects/detail/catart-mubu, but be aware that you will need other external packages which are not on the package manager. More information about how to find those packages can be found in the example patcher itself."
 								}
 
 							}
@@ -3010,7 +3001,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.0, 524.625, 367.0, 33.0 ],
+									"patching_rect" : [ 771.0, 592.225001871585846, 367.0, 33.0 ],
 									"text" : "(needs packages: Sensel from the package manager, and\nspat5 from the Ircam Forum)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -3026,7 +3017,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 793.0, 388.625, 367.0, 47.0 ],
+									"patching_rect" : [ 767.000000178813934, 509.225001871585846, 367.0, 47.0 ],
 									"text" : "(needs packages: bach and CNMAT Externals from the package manager, Shell, and external application Python with packages NumPy and python-osc)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -3038,11 +3029,11 @@
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"id" : "obj-18",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.0, 201.0, 367.0, 47.0 ],
+									"patching_rect" : [ 771.0, 201.0, 407.000000596046448, 33.0 ],
 									"text" : "(needs packages: Blocks, Sensel from the package manager, \nif you want to use that device.  Otherwise, just ignore the error messages.)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -3059,8 +3050,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 612.0, 63.625, 132.0, 66.0 ],
-									"text" : "These patches depend on additional packages.",
+									"patching_rect" : [ 612.0, 63.625, 139.0, 66.0 ],
+									"text" : "These patches depend on additional packages from the PM.",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
 
@@ -3075,7 +3066,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 309.625, 366.0, 37.0 ],
+									"patching_rect" : [ 755.0, 348.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from various external controllers (Sensel, ROLI, Linnstrument)"
 								}
 
@@ -3088,7 +3079,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 317.125, 132.0, 22.0 ],
+									"patching_rect" : [ 612.0, 356.125, 132.0, 22.0 ],
 									"text" : "catart-mubu-poly"
 								}
 
@@ -3103,7 +3094,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 190.5, 348.625, 366.0, 37.0 ],
+									"patching_rect" : [ 185.5, 348.625, 366.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from  Linnstrument"
 								}
 
@@ -3131,7 +3122,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 196.625, 366.0, 37.0 ],
+									"patching_rect" : [ 184.0, 196.625, 366.0, 37.0 ],
 									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
 								}
 
@@ -3158,7 +3149,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 388.625, 65.0, 22.0 ],
+									"patching_rect" : [ 612.0, 509.225001871585846, 65.0, 22.0 ],
 									"text" : "append #1"
 								}
 
@@ -3173,7 +3164,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 187.5, 495.0, 374.0, 24.0 ],
+									"patching_rect" : [ 184.0, 386.625, 366.0, 24.0 ],
 									"text" : "catart with grid-layout found by a self-organising map (SOM)"
 								}
 
@@ -3187,7 +3178,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.5, 497.0, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 388.625, 129.0, 22.0 ],
 									"text" : "catart-mubu-SOM"
 								}
 
@@ -3201,7 +3192,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 497.0, 374.0, 24.0 ],
+									"patching_rect" : [ 755.0, 564.600001871585846, 374.0, 24.0 ],
 									"text" : "catart with per-grain higher-order ambisonics (HOA) spatialisation"
 								}
 
@@ -3214,22 +3205,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 497.0, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 565.600001871585846, 129.0, 22.0 ],
 									"text" : "catart-mubu-spat-mc"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"hidden" : 1,
-									"id" : "obj-73",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 421.125, 129.0, 22.0 ],
-									"text" : "catoracle+keymixer"
 								}
 
 							}
@@ -3243,7 +3220,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 348.625, 366.0, 37.0 ],
+									"patching_rect" : [ 755.0, 469.225001871585846, 366.0, 37.0 ],
 									"text" : "CataRT controlled by a factor oracle (a la OMax) running in python (contributed by Aaron Einbond)"
 								}
 
@@ -3256,7 +3233,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 356.125, 129.0, 22.0 ],
+									"patching_rect" : [ 612.0, 476.725001871585846, 129.0, 22.0 ],
 									"text" : "catoracle"
 								}
 
@@ -3268,11 +3245,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-70",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 470.0, 186.0, 22.0 ],
-									"text" : "experimental patches"
+									"patching_rect" : [ 14.5, 470.0, 438.0, 38.0 ],
+									"text" : "advanced example patches needing external software packages and thus not being allowed to be included directly here"
 								}
 
 							}
@@ -3361,7 +3339,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.625, 635.5, 129.0, 35.0 ],
+									"patching_rect" : [ 318.25, 670.0, 129.0, 35.0 ],
 									"text" : ";\rmax launchbrowser $1"
 								}
 
@@ -3388,7 +3366,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 785.0, 162.0, 383.0, 37.0 ],
+									"patching_rect" : [ 755.0, 162.0, 383.0, 37.0 ],
 									"text" : "full featured CataRT patch with adapters for external gestural controller input (Sensel Morph, ROLI Lightpad Block, Linnstrument)"
 								}
 
@@ -3415,7 +3393,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 189.0, 169.5, 366.0, 24.0 ],
+									"patching_rect" : [ 184.0, 169.5, 366.0, 24.0 ],
 									"text" : "full featured CataRT patch on perceptive descriptor space"
 								}
 
@@ -3568,7 +3546,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 347.0, 0.0, 347.0, 0.0, 606.0, 11.5, 606.0 ],
+									"midpoints" : [ 621.5, 382.200000524520874, 0.0, 382.200000524520874, 0.0, 606.0, 11.5, 606.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -3578,6 +3556,14 @@
 									"destination" : [ "obj-6", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-57", 0 ],
+									"hidden" : 1,
+									"source" : [ "obj-26", 1 ]
 								}
 
 							}
@@ -3627,16 +3613,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 460.0, 3.0, 460.0, 3.0, 564.0, 11.5, 564.0 ],
-									"source" : [ "obj-73", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"hidden" : 1,
-									"midpoints" : [ 621.5, 630.0, 11.5, 630.0 ],
+									"midpoints" : [ 621.5, 650.800000309944153, 11.5, 650.800000309944153 ],
 									"source" : [ "obj-75", 0 ]
 								}
 
@@ -3662,7 +3639,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 415.3125, 11.5, 415.3125 ],
+									"midpoints" : [ 621.5, 614.512501895427704, 11.5, 614.512501895427704 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -4893,7 +4870,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 322.625, 667.0, 129.0, 35.0 ],
+									"patching_rect" : [ 1087.625, 712.5, 129.0, 35.0 ],
 									"text" : ";\rmax launchbrowser $1"
 								}
 
@@ -4918,7 +4895,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 399.125, 345.0, 111.0, 22.0 ],
+									"patching_rect" : [ 406.125, 656.5, 111.0, 22.0 ],
 									"text" : "camu.process.*"
 								}
 
@@ -5285,7 +5262,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 321.0, 682.0, 157.0, 22.0 ],
+									"patching_rect" : [ 180.0, 257.875, 157.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 3 select"
 								}
 
@@ -5348,7 +5325,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 335.75, 651.0, 251.0, 22.0 ],
+									"patching_rect" : [ 88.0, 460.0, 251.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 5a segmentation analysis"
 								}
 
@@ -5361,7 +5338,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 830.625, 695.0, 117.0, 22.0 ],
+									"patching_rect" : [ 830.625, 682.5, 117.0, 22.0 ],
 									"text" : "prepend loadunique"
 								}
 
@@ -5387,7 +5364,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 830.625, 719.0, 53.0, 22.0 ],
+									"patching_rect" : [ 830.625, 708.0, 53.0, 22.0 ],
 									"text" : "pcontrol"
 								}
 
@@ -5696,7 +5673,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 510.25, 313.5, 192.0, 37.0 ],
+									"patching_rect" : [ 517.25, 625.0, 192.0, 37.0 ],
 									"text" : "simple pipo host with audio-input and list-output"
 								}
 
@@ -5831,7 +5808,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 377.25, 321.0, 111.0, 22.0 ],
+									"patching_rect" : [ 384.25, 632.5, 111.0, 22.0 ],
 									"text" : "camu.pipo.*"
 								}
 
@@ -5952,7 +5929,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 108.5, 199.0, 22.0 ],
-													"text" : "camu.taboo"
+													"text" : "camu.voice.poly~"
 												}
 
 											}
@@ -5964,7 +5941,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 74.5, 199.0, 22.0 ],
-													"text" : "camu.taboo"
+													"text" : "camu.voice.poly~"
 												}
 
 											}
@@ -5976,7 +5953,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 213.5, 143.0, 199.0, 22.0 ],
-													"text" : "camu.taboo.maxhelp"
+													"text" : "camu.voice.poly~.maxhelp"
 												}
 
 											}
@@ -6477,7 +6454,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-58", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 386.75, 597.867187999999942, 386.75, 597.867187999999942 ],
+									"midpoints" : [ 393.75, 597.867187999999942, 386.75, 597.867187999999942 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
