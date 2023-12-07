@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 79.0, 761.0, 650.0 ],
+		"rect" : [ 57.0, 79.0, 761.0, 650.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -113,7 +113,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1284.0, 79.0, 1219.0, 752.0 ],
+						"rect" : [ 1335.0, 79.0, 1189.0, 739.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -197,7 +197,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 137.0, 643.579428553581238, 159.0, 22.0 ],
-									"text" : "0 22 44"
+									"text" : "0 15 0 15 37 59"
 								}
 
 							}
@@ -339,7 +339,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 697.12499988079071, 615.24609363079071, 104.0, 22.0 ],
+									"patching_rect" : [ 697.12499988079071, 659.287758827209473, 104.0, 22.0 ],
 									"text" : "routepass domain"
 								}
 
@@ -423,7 +423,7 @@
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 0.0, 60.0 ],
+									"domain_bounds" : [ 0.0, 64.081632653061234 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -456,7 +456,7 @@
 									"outputvalues" : 0,
 									"outputviewname" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 697.12499988079071, 468.287758827209473, 473.0, 142.0 ],
+									"patching_rect" : [ 697.12499988079071, 468.287758827209473, 467.0, 189.0 ],
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 30,
 									"rangeruler_visible" : 1,
@@ -1864,13 +1864,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-33",
-					"linecount" : 17,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.177109628915787, 446.297709513050108, 335.0, 236.0 ],
-					"text" : "result: | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n | 0 | 0 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n | 0 | 0 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n | 0 | 0 128n | 0 | 0 128n | 0 | 0 128n 3 start | 1 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n | 0 | 0 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n | 0 | 0 128nd | 0 | 0 128n | 0 | 0 128nd | 0 | 0 128n | 0 | 0 128n | 0 | 0 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n 3 128nd | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 0 | 0 start | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 0 | 0 start | 0 | 0 start | 0 | 0 start | 0 | 0 128n | 1 | 0 128nd | 1 | 0 128n 3 128nd | 0 | 0 start | 0 | 0 128n | 1 | 0 128nd | 1 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 0 | 0 start | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n | 1 | 0 128nd | 1 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0"
+					"patching_rect" : [ 193.177109628915787, 446.297709513050108, 335.0, 102.0 ],
+					"text" : "result: | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 start | 1 | 0 128n 4 start | 1 | 0 start | 1 | 0 128n | 1 | 0 128nd | 1 | 0 128n | 1 | 0 128nd | 1 | 0 128nd | 1 | 0 128nd | 1 | 0 128nd | 1 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0 | 0 128n | 1 | 0 128nd | 1 | 0 128n 3 128nd | 0 | 0 128n 3 128nd | 0"
 				}
 
 			}
@@ -1938,25 +1938,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-97",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.541661977767944, 218.625004172325134, 138.0, 62.0 ],
-					"text" : ";\rperiod 0 128n 3 128nd;\rexpected 0 15 37 59;\rtest 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-85",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 74.083359003067017, 175.625004172325134, 131.0, 33.0 ],
-					"text" : "start with 128n ∆then switch to 128nd"
+					"patching_rect" : [ 70.541661977767944, 203.625004172325134, 155.0, 76.0 ],
+					"text" : "start with 128n = 15 then switch to 128nd = 22 ticks;\rperiod 0 128n 3 128nd;\rexpected 0 15 37 59;\rtest 1"
 				}
 
 			}

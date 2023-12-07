@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 303.0, 132.0, 1158.0, 816.0 ],
+		"rect" : [ 361.0, 125.0, 1161.0, 873.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,132 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 432.912372231483459, 816.0, 160.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"externalfiles" : 1,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"resamplefiles" : 0,
+						"savegui" : 0,
+						"snaprate" : 1000.0,
+						"verbose" : 1
+					}
+,
+					"text" : "mubu debugout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"alignviewbounds" : 0,
+					"autobounds" : 0,
+					"autorefreshrate" : 0,
+					"autoupdate" : 120.0,
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bufferchooser_position" : 1,
+					"bufferchooser_shape" : "buttons",
+					"bufferchooser_size" : 15,
+					"bufferchooser_visible" : 1,
+					"continousediting" : 0,
+					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_circlefilled" : 1,
+					"cursor_circleheight" : 3.0,
+					"cursor_circlewidth" : 3.0,
+					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_followmouse" : 0,
+					"cursor_nearest" : 0,
+					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_noringoffset" : 0,
+					"cursor_position" : -1.0,
+					"cursor_shape" : "bar",
+					"cursor_size" : 3,
+					"cursor_sizeunit" : 0,
+					"cursor_visible" : 1,
+					"domain_bounds" : [ 0.0, 0.090702947845805 ],
+					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"domainruler_grid" : 0,
+					"domainruler_position" : 0,
+					"domainruler_size" : 15,
+					"domainruler_unit" : 3,
+					"domainruler_visible" : 1,
+					"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainscrollbar_size" : 10,
+					"domainscrollbar_visible" : 1,
+					"embed" : 0,
+					"externalfiles" : 1,
+					"freeze" : 0,
+					"id" : "obj-107",
+					"layout" : 0,
+					"maintrack" : -1,
+					"maxclass" : "imubu",
+					"mousewheelscroll" : 0,
+					"name" : "debugout",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"opacity" : 0.0,
+					"opacityprogressive" : 0,
+					"orientation" : 0,
+					"outlettype" : [ "" ],
+					"outputkeys" : 0,
+					"outputmouse" : 0,
+					"outputselection" : 0,
+					"outputtimeselection" : 0,
+					"outputvalues" : 0,
+					"outputviewname" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 649.0, 597.75, 282.0, 240.25 ],
+					"rangeruler_grid" : 0,
+					"rangeruler_size" : 30,
+					"rangeruler_visible" : 1,
+					"region_bounds" : [ 0.0, 0.0 ],
+					"region_color" : [ 0.800000011920929, 0.699999988079071, 0.699999988079071, 1.0 ],
+					"region_visible" : 1,
+					"resamplefiles" : 0,
+					"snaprate" : 1000.0,
+					"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"splitbars_size" : 2,
+					"splitbars_visible" : 1,
+					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"tabs_position" : 0,
+					"tabs_size" : 20,
+					"tabs_visible" : 1,
+					"tool" : "edit",
+					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"toolbar_position" : 1,
+					"toolbar_size" : 30,
+					"toolbar_transposition" : 0,
+					"toolbar_visible" : 1,
+					"useplaceholders" : 1,
+					"verbose" : 1,
+					"windresize" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "bang" ],
+					"patching_rect" : [ 266.0, 816.0, 160.0, 22.0 ],
+					"text" : "buffer~ debugout @samps 6"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-102",
 					"maxclass" : "newobj",
@@ -92,7 +218,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.043822999999975, 716.0, 37.0, 22.0 ],
+					"patching_rect" : [ 136.043822999999975, 716.0, 90.0, 22.0 ],
 					"text" : "join 3"
 				}
 
@@ -187,7 +313,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 741.0, 100.0, 22.0 ],
+					"patching_rect" : [ 136.043822999999975, 740.0, 100.0, 22.0 ],
 					"text" : "print gen"
 				}
 
@@ -236,7 +362,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 962.0, 619.0, 602.0, 785.0 ],
+						"rect" : [ 938.0, 249.0, 745.0, 1128.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -270,7 +396,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 506.0, 758.0, 35.0, 22.0 ],
+									"patching_rect" : [ 506.0, 1055.0, 35.0, 22.0 ],
 									"text" : "out 3"
 								}
 
@@ -281,7 +407,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 272.0, 760.0, 35.0, 22.0 ],
+									"patching_rect" : [ 272.0, 1057.0, 35.0, 22.0 ],
 									"text" : "out 2"
 								}
 
@@ -336,7 +462,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant(tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nHistory active(0);\r\nHistory period(120);\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\nif (newperiod != period)\r\n{// todo: special handling to determine best next tick for period change\r\n\tperiod = newperiod;\r\n}\r\n\t\r\n\t\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n\tout2 = active;\t// start tick has passed\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n//debug\r\nout3 = tnext;",
+									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant (tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nget_next_trig_after (t, t0, p)\r\n{ // return first tick t0 + n * period p > 0 on or after t\r\n\twhile (t0 < t)\r\n\t  t0 += p;\r\n\t\r\n\treturn t0;\r\n}\r\n\t\r\nget_next_period (period, newperiod, tick, lasttrig)\r\n{\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\r\n\treturn period, pendingperiod;\r\n}\r\n\r\nHistory active(0);\r\nHistory period(120);\r\nHistory pendingperiod(0); // period to switch to at next trigger if > 0\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\nHistory lasttrig(-1); // last tick where metro triggered\r\nBuffer debugout;\r\npoke(debugout, in1, 0);\r\npoke(debugout, tnext, 1);\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\nif (newperiod != period  // period change requested...\r\n    &&  pendingperiod == 0)  // ...and not yet scheduled\r\n{// special handling to determine best next tick for period change\r\n\tn1=get_next_trig_after(tick, lasttrig, period); poke(debugout, n1, 2);\r\n\tn2=get_next_trig_after(tick, lasttrig, newperiod); poke(debugout, n2, 3);\r\n\r\n\t// period, pendingperiod = get_next_period(period, newperiod, tick, lasttrig);\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\t\r\n}\r\n\r\npoke(debugout, period, 4);\r\npoke(debugout, pendingperiod, 5);\r\n\t\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n \r\n// evaluate metronome: does tick have to trigger?\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n{\r\n\tout2 = active;\t// start tick has passed\r\n\tif (out1 == 0.) \r\n    { // metronome has triggered\r\n  \t\tlasttrig = tick; // remember tick of last trigger\r\n\t\tif (pendingperiod > 0)\r\n\t\t{\r\n\t\t\tperiod = pendingperiod;\r\n\t\t\tpendingperiod = 0;\r\n\t\t\ttnext = tick + period; // shift origin to start new period\r\n\t\t}\r\n\t}\r\n}\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n//debug\r\nout3 = tnext;",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
@@ -345,7 +471,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 5.0, 29.0, 559.0, 727.0 ]
+									"patching_rect" : [ 5.0, 15.0, 668.0, 1055.0 ]
 								}
 
 							}
@@ -355,7 +481,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 760.0, 35.0, 22.0 ],
+									"patching_rect" : [ 5.0, 1057.0, 35.0, 22.0 ],
 									"text" : "out 1"
 								}
 
@@ -410,7 +536,8 @@
 								}
 
 							}
- ]
+ ],
+						"editing_bgcolor" : [ 0.831372549019608, 0.776470588235294, 0.564705882352941, 1.0 ]
 					}
 ,
 					"patching_rect" : [ 36.0, 633.0, 125.0, 22.0 ],
