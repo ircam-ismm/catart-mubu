@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 452.75, 428.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 452.75, 454.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 834.20618611574173, 107.0, 42.0, 22.0 ],
+					"text" : "128nd"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-128",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -127,120 +163,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.912372231483459, 238.0, 92.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 0,
-						"externalfiles" : 1,
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"resamplefiles" : 0,
-						"savegui" : 0,
-						"snaprate" : 1000.0,
-						"verbose" : 1
-					}
-,
-					"text" : "mubu debugout"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"alignviewbounds" : 0,
-					"autobounds" : 0,
-					"autorefreshrate" : 0,
-					"autoupdate" : 120.0,
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bufferchooser_position" : 1,
-					"bufferchooser_shape" : "buttons",
-					"bufferchooser_size" : 15,
-					"bufferchooser_visible" : 1,
-					"continousediting" : 0,
-					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_circlefilled" : 1,
-					"cursor_circleheight" : 3.0,
-					"cursor_circlewidth" : 3.0,
-					"cursor_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_followmouse" : 0,
-					"cursor_nearest" : 0,
-					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
-					"cursor_shape" : "bar",
-					"cursor_size" : 3,
-					"cursor_sizeunit" : 0,
-					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 0.090702947845805 ],
-					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"domainruler_grid" : 0,
-					"domainruler_position" : 0,
-					"domainruler_size" : 15,
-					"domainruler_unit" : 3,
-					"domainruler_visible" : 1,
-					"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"domainscrollbar_size" : 10,
-					"domainscrollbar_visible" : 1,
-					"embed" : 0,
-					"externalfiles" : 1,
-					"freeze" : 0,
-					"id" : "obj-107",
-					"layout" : 0,
-					"maintrack" : -1,
-					"maxclass" : "imubu",
-					"mousewheelscroll" : 0,
-					"name" : "debugout",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"opacity" : 0.0,
-					"opacityprogressive" : 0,
-					"orientation" : 0,
-					"outlettype" : [ "" ],
-					"outputkeys" : 0,
-					"outputmouse" : 0,
-					"outputselection" : 0,
-					"outputtimeselection" : 0,
-					"outputvalues" : 0,
-					"outputviewname" : 0,
-					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 271.75, 282.0, 240.25 ],
-					"rangeruler_grid" : 0,
-					"rangeruler_size" : 30,
-					"rangeruler_visible" : 1,
-					"region_bounds" : [ 0.0, 0.0 ],
-					"region_color" : [ 0.800000011920929, 0.699999988079071, 0.699999988079071, 1.0 ],
-					"region_visible" : 1,
-					"resamplefiles" : 0,
-					"snaprate" : 1000.0,
-					"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"splitbars_size" : 2,
-					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tabs_position" : 0,
-					"tabs_size" : 20,
-					"tabs_visible" : 1,
-					"tool" : "edit",
-					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"toolbar_position" : 1,
-					"toolbar_size" : 30,
-					"toolbar_transposition" : 0,
-					"toolbar_visible" : 1,
-					"useplaceholders" : 1,
-					"verbose" : 1,
-					"windresize" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -305,7 +227,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 485.043822999999975, 474.0, 90.0, 22.0 ],
+					"patching_rect" : [ 452.75, 485.5, 116.0, 22.0 ],
 					"text" : "join 4"
 				}
 
@@ -376,7 +298,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.043822999999975, 505.0, 55.0, 22.0 ],
+					"patching_rect" : [ 452.75, 516.0, 55.0, 22.0 ],
 					"text" : "print gen"
 				}
 
@@ -412,7 +334,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 1655.0, 269.0, 810.0, 1121.0 ],
+						"rect" : [ 1199.0, 290.0, 810.0, 1121.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -587,6 +509,7 @@
 
 							}
  ],
+						"autosave" : 0,
 						"editing_bgcolor" : [ 0.831372549019608, 0.776470588235294, 0.564705882352941, 1.0 ]
 					}
 ,
@@ -1000,7 +923,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "reset" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 424.5, 35.0, 30.0, 30.0 ]
 				}
 
@@ -1211,12 +1134,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-39",
-					"linecount" : 25,
+					"linecount" : 27,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 984.0, 257.0, 313.0, 342.0 ],
-					"text" : "Here is a listing of the note and tick values associated with common note durations. Note value abbreviations that can be used in Max to specify time are in bold.\n\n1nd - Dotted whole note - 2880 ticks\n1n - Whole note - 1920 ticks\n1nt - Whole note triplet - 1280 ticks\n2nd - Dotted half note - 1440 ticks\n2n - Half note - 960 ticks\n2nt - Half note triplet - 640 ticks\n4nd - Dotted quarter note - 720 ticks\n4n - Quarter note - 480 ticks\n4nt - Quarter note triplet - 320 ticks\n8nd - Dotted eighth note - 360 ticks\n8n - Eighth note - 240 ticks\n8nt - Eighth note triplet - 160 ticks\n16nd - Dotted sixteenth note - 180 ticks\n16n - Sixteenth note - 120 ticks\n16nt - Sixteenth note triplet - 80 ticks\n32nd - Dotted thirty-second note - 90 ticks\n32n - thirty-second note - 60 ticks\n32nt - thirty-second-note triplet - 40 ticks\n64nd - Dotted sixty-fourth note - 45 ticks\n64n - Sixty-fourth note - 30 ticks\n128n - One-hundred-twenty-eighth note - 15 ticks"
+					"patching_rect" : [ 984.0, 257.0, 313.0, 368.0 ],
+					"text" : "Here is a listing of the note and tick values associated with common note durations. Note value abbreviations that can be used in Max to specify time are in bold.\n\n1nd - Dotted whole note - 2880 ticks\n1n - Whole note - 1920 ticks\n1nt - Whole note triplet - 1280 ticks\n2nd - Dotted half note - 1440 ticks\n2n - Half note - 960 ticks\n2nt - Half note triplet - 640 ticks\n4nd - Dotted quarter note - 720 ticks\n4n - Quarter note - 480 ticks\n4nt - Quarter note triplet - 320 ticks\n8nd - Dotted eighth note - 360 ticks\n8n - Eighth note - 240 ticks\n8nt - Eighth note triplet - 160 ticks\n16nd - Dotted sixteenth note - 180 ticks\n16n - Sixteenth note - 120 ticks\n16nt - Sixteenth note triplet - 80 ticks\n32nd - Dotted thirty-second note - 90 ticks\n32n - thirty-second note - 60 ticks\n32nt - thirty-second-note triplet - 40 ticks\n64nd - Dotted sixty-fourth note - 45 ticks\n64n - Sixty-fourth note - 30 ticks\n128n - One-hundred-twenty-eighth note - 15 ticks\n\n128nd - should be 22.5 ticks, but is output as 22 !!!!!"
 				}
 
 			}
@@ -1240,7 +1163,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[1]",
+							"parameter_longname" : "SyncPeriod[37]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1358,7 +1281,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod",
+							"parameter_longname" : "SyncPeriod[38]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1403,7 +1326,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 76.0, 126.0, 286.0, 22.0 ],
-					"text" : "metro @interval 5 ticks @active 0 @quantize 5 ticks"
+					"text" : "metro @interval 5 ticks @active 1 @quantize 5 ticks"
 				}
 
 			}
@@ -1639,6 +1562,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-140", 0 ]
 				}
@@ -1662,6 +1592,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1720,16 +1657,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"order" : 0,
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
-					"order" : 2,
 					"source" : [ "obj-27", 0 ]
 				}
 
@@ -1754,14 +1682,6 @@
 					"destination" : [ "obj-93", 1 ],
 					"order" : 0,
 					"source" : [ "obj-27", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"order" : 1,
-					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -2089,6 +2009,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
+					"order" : 1,
+					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"order" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -2096,15 +2025,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"order" : 0,
-					"source" : [ "obj-87", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-68", 0 ],
-					"order" : 1,
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -2113,6 +2033,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
