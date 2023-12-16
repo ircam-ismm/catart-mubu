@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 500.000000000000114, 308.5, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -434,7 +446,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant (tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nget_next_trig_after (t, t0, p)\r\n{ // return first tick t0 + n * period p > 0 on or after t\r\n\twhile (t0 < t)\r\n\t  t0 += p;\r\n\t\r\n\treturn t0;\r\n}\r\n\t\r\nget_next_period (period, newperiod, tick, lasttrig)\r\n{\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\r\n\treturn period, pendingperiod;\r\n}\r\n\r\n//// state variables ///////////////////////////////////////////\r\nHistory active(0);\r\nHistory period(120);\r\nHistory pendingperiod(120); // period to switch to at next trigger if > 0\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\nHistory lasttrig(-1); // last tick where metro triggered\r\nBuffer debugout; //db \r\npoke(debugout, in1, 0);\r\npoke(debugout, tnext, 1);\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n//// check changed state variables /////////////////////////////\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\n// changed period?\r\nif (newperiod != period  // period change requested...\r\n    ||  pendingperiod != newperiod)  // ...and not yet scheduled\r\n{// special handling to determine best next tick for period change\r\n\tn1=get_next_trig_after(tick, lasttrig, period); poke(debugout, n1, 2); //db\r\n\tn2=get_next_trig_after(tick, lasttrig, newperiod); poke(debugout, n2, 3); //db\r\n\r\n\t// period, pendingperiod = get_next_period(period, newperiod, tick, lasttrig);\r\n\t//workaround gen bug: inlined func:\r\n\t//pendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t\tpendingperiod = period;\r\n\t}\r\n\t\r\n}\r\n\r\npoke(debugout, period, 4); //db\r\npoke(debugout, pendingperiod, 5);\r\n\t\r\n// switched on/off?\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n \r\n//// evaluate metronome: does tick have to trigger?  ///////////////\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n{\r\n\tout2 = active;\t// start tick has passed\r\n\tif (out1 == 0.) \r\n    { // metronome has triggered\r\n  \t\tlasttrig = tick; // remember tick of last trigger\r\n\t\tif (pendingperiod != period)\r\n\t\t{\r\n\t\t\tperiod = pendingperiod;\r\n\t\t\ttnext  = tick + period; // shift origin to start new period\r\n\t\t}\r\n\t}\r\n}\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n//debug\r\nout3 = tnext;",
+									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant (tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nget_next_trig_after (t, t0, p)\r\n{ // return first tick t0 + n * period p > 0 on or after t\r\n\twhile (t0 < t)\r\n\t  t0 += p;\r\n\t\r\n\treturn t0;\r\n}\r\n\t\r\nget_next_period (period, newperiod, tick, lasttrig)\r\n{\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\r\n\treturn period, pendingperiod;\r\n}\r\n\r\n//// state variables ///////////////////////////////////////////\r\nHistory active(0);\r\nHistory period(120);\r\nHistory pendingperiod(120); // period to switch to at next trigger if > 0\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\nHistory lasttrig(-1); // last tick where metro triggered\r\n\r\n// db flag: write lots of params to buffer debugout\r\nParam debug(0);\r\nBuffer debugout; //db \r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, in1, 0); // tick\r\n\tpoke(debugout, tnext, 1);\r\n}\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n//// check changed state variables /////////////////////////////\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\n// changed period?\r\nif (newperiod != period  // period change requested...\r\n    ||  pendingperiod != newperiod)  // ...and not yet scheduled\r\n{// special handling to determine best next tick for period change\r\n\tif (debug)\r\n\t{\r\n\t\tn1=get_next_trig_after(tick, lasttrig, period); poke(debugout, n1, 2); //db\r\n\t\tn2=get_next_trig_after(tick, lasttrig, newperiod); poke(debugout, n2, 3); //db\r\n\t}\r\n\r\n\t// period, pendingperiod = get_next_period(period, newperiod, tick, lasttrig);\r\n\t//workaround gen bug: inlined func:\r\n\t//pendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t\tpendingperiod = period;\r\n\t}\r\n\t\r\n}\r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, period, 4); //db\r\n\tpoke(debugout, pendingperiod, 5);\r\n}\r\n\t\r\n// switched on/off?\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n \r\n//// evaluate metronome: does tick have to trigger?  ///////////////\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n{\r\n\tout2 = active;\t// start tick has passed\r\n\tif (out1 == 0.) \r\n    { // metronome has triggered\r\n  \t\tlasttrig = tick; // remember tick of last trigger\r\n\t\tif (pendingperiod != period)\r\n\t\t{\r\n\t\t\tperiod = pendingperiod;\r\n\t\t\ttnext  = tick + period; // shift origin to start new period\r\n\t\t}\r\n\t}\r\n}\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n// output actual current period\r\nout3 = period;",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
@@ -738,11 +750,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 424.5, 96.0, 138.0, 22.0 ],
-					"text" : "route int tick active reset"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 424.5, 96.0, 175.0, 22.0 ],
+					"text" : "route int tick active reset debug"
 				}
 
 			}
@@ -1163,7 +1175,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[37]",
+							"parameter_longname" : "SyncPeriod[28]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1281,7 +1293,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[38]",
+							"parameter_longname" : "SyncPeriod[27]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1389,6 +1401,20 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.333333333333371, 335.0, 85.0, 22.0 ],
 					"text" : "exportcode $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "debug",
+					"id" : "obj-20",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 500.000000000000114, 335.0, 92.0, 22.0 ],
+					"text_width" : 56.666666666666629
 				}
 
 			}
@@ -1611,8 +1637,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1872,6 +1912,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-6", 4 ]
 				}
 
 			}
