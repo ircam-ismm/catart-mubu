@@ -43,14 +43,16 @@ xwanted='/(catoracle|spat)/'
 unwanted="/(doc|misc|\.git)|/(maxtest|test)/|\.gendsp|$xwanted"
 
 # get list of all files for zip, filter out unwanted files and dirs
+echo package $zipname
 find $distdir | egrep -v "$unwanted" | sed "s,$tmp/,," >$files
 zip $zipname -@ <$files
 
 # rename repo such that advanced examples zip unpacks to $xistdir
-mv $distdir $xistdir
+mv -v $distdir $xistdir
+echo package $xipname
 find $xistdir | egrep    "$xwanted"  | sed "s,$tmp/,," >$xfiles
 zip $xipname -@ <$xfiles
 
 # move back so that next call doesn't need to clone 
-mv $xistdir $distdir
+mv -v $xistdir $distdir
 popd
