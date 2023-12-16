@@ -1431,12 +1431,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-119",
-					"linecount" : 2,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 119.0, 291.5, 376.5, 29.0 ],
-					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean"
+					"patching_rect" : [ 119.0, 291.5, 376.5, 74.0 ],
+					"text" : "LoudnessMean PerceptualTristimulus0Mean PerceptualTristimulus1Mean PerceptualTristimulus2Mean SharpnessMean SpreadMean SpectralFlatness0Mean SpectralFlatness1Mean SpectralFlatness2Mean SpectralFlatness3Mean SpectralCrest0Mean SpectralCrest1Mean SpectralCrest2Mean SpectralCrest3Mean HarmonicTristimulus0Mean HarmonicTristimulus1Mean HarmonicTristimulus2Mean"
 				}
 
 			}
@@ -1522,7 +1522,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 105.0, 621.0, 679.0, 331.0 ],
+						"rect" : [ 105.0, 621.0, 1291.0, 686.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -1555,14 +1555,14 @@
 									"bubble" : 1,
 									"fontsize" : 11.0,
 									"id" : "obj-63",
-									"linecount" : 34,
+									"linecount" : 32,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 470.0, 162.0, 74.0, 428.0 ],
+									"patching_rect" : [ 470.0, 162.0, 77.0, 404.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 10,
-									"presentation_rect" : [ 391.0, 21.700012000000001, 243.0, 133.0 ],
+									"presentation_rect" : [ 426.0, 410.700012000000015, 243.0, 133.0 ],
 									"text" : "when the analysis type menu is changed, this bpatcher dynamically loads a subpatch containing mubu.process and a UI for its parameters from the file\n\nlib/camu.process.<analysis-name>.maxpat   \n\nby default it would be\n\ncamu.process.descr-onseg.maxpat"
 								}
 
@@ -1574,7 +1574,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 538.0, 287.0, 100.0, 19.0 ],
+									"patching_rect" : [ 538.0, 287.0, 100.0, 29.0 ],
 									"text" : "s tut5a-corpus-menu-init"
 								}
 
@@ -1814,7 +1814,7 @@
 								"box" : 								{
 									"allowdrag" : 0,
 									"id" : "obj-37",
-									"items" : [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop" ],
+									"items" : [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "ircamdescriptor-onseg", ",", "ircamdescriptor-gate", ",", "ircamdescriptor-chop" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2005,14 +2005,14 @@
 									"lockeddragscroll" : 0,
 									"lockedsize" : 0,
 									"maxclass" : "bpatcher",
-									"name" : "camu.process.descr-onseg.maxpat",
+									"name" : "camu.process.ircamdescriptor-chop.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 10.0, 102.0, 391.0, 297.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 21.700012000000001, 389.0, 279.0 ],
+									"presentation_rect" : [ 0.0, 21.700012000000001, 1154.0, 338.0 ],
 									"varname" : "camu.process-bpatcher",
 									"viewvisibility" : 1
 								}
@@ -2438,12 +2438,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 0.363656748773281,
 					"cursor_shape" : "cross",
 					"cursor_size" : 0,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1.0 ],
+					"domain_bounds" : [ 0.36872798204422, 0.968147754669189 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2485,11 +2485,9 @@
 					"region_visible" : 1,
 					"resamplefiles" : 1,
 					"snaprate" : 1000.0,
-					"splitbars_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"splitbars_size" : 2,
-					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"split_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"split_size" : 2,
+					"split_visible" : 1,
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -2497,7 +2495,6 @@
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
-					"toolbar_transposition" : 0,
 					"toolbar_visible" : 2,
 					"useplaceholders" : 1,
 					"varname" : "editor",
@@ -3147,6 +3144,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "camu.ircamdescriptor-menu.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "camu.menu.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
@@ -3154,7 +3158,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-onseg.maxpat",
+				"name" : "camu.process.ircamdescriptor-chop.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
