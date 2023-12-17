@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.000000000000114, 308.5, 24.0, 24.0 ]
+					"patching_rect" : [ 487.500000000000114, 296.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -521,7 +521,6 @@
 
 							}
  ],
-						"autosave" : 0,
 						"editing_bgcolor" : [ 0.831372549019608, 0.776470588235294, 0.564705882352941, 1.0 ]
 					}
 ,
@@ -750,11 +749,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 424.5, 96.0, 175.0, 22.0 ],
-					"text" : "route int tick active reset debug"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 424.5, 96.0, 211.0, 22.0 ],
+					"text" : "route int tick active reset debug reload"
 				}
 
 			}
@@ -1115,7 +1114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 424.5, 259.5, 45.0, 45.0 ]
+					"patching_rect" : [ 424.5, 246.5, 45.0, 45.0 ]
 				}
 
 			}
@@ -1126,7 +1125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.5, 259.5, 78.0, 47.0 ],
+					"patching_rect" : [ 471.5, 246.5, 78.0, 47.0 ],
 					"text" : "start at next quantized period"
 				}
 
@@ -1175,7 +1174,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[28]",
+							"parameter_longname" : "SyncPeriod[4]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1293,7 +1292,7 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[27]",
+							"parameter_longname" : "SyncPeriod[3]",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
@@ -1413,8 +1412,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.000000000000114, 335.0, 92.0, 22.0 ],
+					"patching_rect" : [ 487.500000000000114, 323.0, 92.0, 22.0 ],
 					"text_width" : 56.666666666666629
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 586.5, 323.0, 42.0, 22.0 ],
+					"text" : "reload"
 				}
 
 			}
@@ -1697,6 +1708,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -1927,6 +1945,13 @@
 					"destination" : [ "obj-24", 1 ],
 					"order" : 0,
 					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-6", 5 ]
 				}
 
 			}
