@@ -21,27 +21,34 @@ function bang ()
     }
 
     var numbuffers = mubu.numbuffers;
-    post(numbuffers, '\n');
+    post(numbuffers, inname1, inname2, outname, '\n');
 
     for (var buf = 1; buf <= numbuffers; buf++)
     {
 	var intrack1 = mubu.gettrack(buf, inname1);
 	var intrack2 = mubu.gettrack(buf, inname2);
 	var numframes = intrack1.size;
-	post('buf', buf, numframes, '\n');
+	post('buf', buf, numframes, intrack2.size, '\n');
 
 	if (numframes == intrack2.size)
 	{
 	    // set up output track
-	    var outtrack = mubu.gettrack(buf, outname);
+	    //var outtrack = mubu.gettrack(buf, outname);
+	    var outtrack = MubuTrackJS(mubuname, buf, outname);
+	    post(outtrack.mxcols, intrack1.mxcols, intrack2.mxcols, '\n');
 	    outtrack.clear();
 	    outtrack.timetagged = intrack1.timetagged;
 	    outtrack.maxsize = numframes;
 	    outtrack.mxcols  = intrack1.mxcols + intrack2.mxcols;
-
+	    post(outtrack.mxcols, intrack1.mxcols, intrack2.mxcols, '\n');
+	    
 	    for (var i = 0; i < numframes; i++)
 	    {   // merge frames
+		post('mx1', intrack1.getmatrix(i), '\n');
+		post('mx2', intrack2.getmatrix(i), '\n');
+		
 		var matrix = intrack1.getmatrix(i).concat(intrack2.getmatrix(i));
+		post('mxout', matrix.length, '\n');
 
 		if (intrack1.timetagged)
 		    outtrack.append([ intrack1.gettime(i) ].concat(matrix));
