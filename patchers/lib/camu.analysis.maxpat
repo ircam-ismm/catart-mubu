@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 104.0, 696.0, 1185.0, 744.0 ],
+		"rect" : [ 893.0, 461.0, 1033.0, 673.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 922.0, 13.0, 195.0, 60.0 ],
+					"text" : "arguments: \ncorpus name,\ninput track name,\noutput track name"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "message",
@@ -129,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 489.0222221679158, 318.300000190734863, 130.0, 19.0 ],
+					"patching_rect" : [ 489.0222221679158, 318.300000190734863, 135.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -263,7 +276,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.400007784366608, 192.599999606609344, 106.0, 19.0 ],
+					"patching_rect" : [ 732.400007784366608, 192.599999606609344, 111.0, 19.0 ],
 					"text" : "s #1-menu-init"
 				}
 
@@ -569,7 +582,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.5, 8.5, 25.0, 25.0 ]
 				}
 
@@ -672,7 +685,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1" ],
+					"args" : [ "#1", "#2", "#3" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -682,7 +695,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.process.descr-yin.maxpat",
+					"name" : "camu.process.descr-chop.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -756,6 +769,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-14", 5 ]
 				}
 
 			}
