@@ -4,14 +4,14 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 6,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 0.0, 63.0, 468.0, 503.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontface" : 0,
@@ -436,7 +436,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -471,6 +471,34 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 9.0,
+									"id" : "obj-23",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 229.75, 293.0, 133.0, 17.0 ],
+									"text" : "change to correct python3 path"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 9.0,
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 169.0, 410.317627000000016, 66.0, 19.0 ],
+									"text" : "r #1-init-oracle"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"color" : [ 1.0, 0.501961, 0.0, 1.0 ],
 									"fontface" : 0,
@@ -910,6 +938,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -1602,7 +1637,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1914,7 +1949,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2454,7 +2489,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5160,7 +5195,7 @@
 					"patching_rect" : [ 276.966431, 504.208983999999987, 59.5, 19.0 ],
 					"restore" : 					{
 						"continuity" : [ 0.2 ],
-						"distance-thresh" : [ 0.00899999961257 ],
+						"distance-thresh" : [ 0.001 ],
 						"follow-length" : [ 23 ],
 						"follow-toggle" : [ 0 ],
 						"improv-pause" : [ 0 ],
@@ -5171,7 +5206,7 @@
 						"minimum-duration" : [ 20.0 ],
 						"print-python" : [ 0 ],
 						"query-thresh" : [ 0.8 ],
-						"query-toggle" : [ 1 ],
+						"query-toggle" : [ 0 ],
 						"region-max" : [ 67 ],
 						"region-min" : [ 67 ],
 						"region-toggle" : [ 0 ],
@@ -5430,7 +5465,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5712,7 +5747,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 256.716431, 28.472656000000001, 25.0, 25.0 ]
 				}
 
@@ -6066,15 +6101,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 98.0, 392.446288999999979, 55.0, 22.0 ],
+					"patching_rect" : [ 98.0, 392.446288999999979, 89.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.303954999999974, 229.337077788115124, 85.0, 22.0 ],
+					"presentation_rect" : [ 285.303954999999974, 229.337077788115124, 89.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
 					}
 ,
-					"text" : "coll #1 1"
+					"text" : "coll #1-states 1"
 				}
 
 			}
@@ -6141,7 +6176,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6665,7 +6700,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7415,7 +7450,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 6,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9018,7 +9053,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 51.5, 28.472656000000001, 25.0, 25.0 ]
 				}
 
@@ -9199,7 +9234,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9742,7 +9777,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10364,13 +10399,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 206.0, 45.0, 676.0, 399.0 ],
+						"rect" : [ 206.0, 63.0, 676.0, 399.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10398,6 +10433,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -11155,7 +11191,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11663,7 +11699,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12154,7 +12190,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12662,7 +12698,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 6,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -14245,7 +14281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-250", 0 ],
-					"midpoints" : [ 133.5, 556.0, 455.0, 556.0, 455.0, 120.0, 334.5, 120.0 ],
+					"midpoints" : [ 133.5, 556.0, 455.0, 556.0, 455.0, 124.0, 334.5, 124.0 ],
 					"order" : 0,
 					"source" : [ "obj-118", 1 ]
 				}
