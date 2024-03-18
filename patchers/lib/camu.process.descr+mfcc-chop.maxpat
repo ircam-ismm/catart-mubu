@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1280.0, 301.0 ],
+		"rect" : [ 286.0, 177.0, 1280.0, 301.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
@@ -79,7 +79,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.0, 34.0, 63.0, 19.0 ],
+					"patching_rect" : [ 435.0, 34.0, 84.0, 19.0 ],
 					"text" : "r #1"
 				}
 
@@ -147,7 +147,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 435.0, 134.700012000000015, 240.0, 20.0 ],
-					"restore" : [ 150.0 ],
+					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -261,7 +261,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
 					"patching_rect" : [ 392.0, 62.700012000000001, 550.0, 50.0 ],
-					"text" : "mubu.process #1 audio mfcc:chop @name mfcc @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.windsize 2048 @mfcc.hopsize 256 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
+					"text" : "mubu.process #1 audio <descr,mfcc>chop @name mfcc @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.hopsize 256 @mfcc.windsize 2048 @mfcc.hopsize 256 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
 				}
