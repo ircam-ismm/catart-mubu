@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -106,9 +106,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.666665405035019, 165.0, 222.1313536465168, 20.0 ],
+					"patching_rect" : [ 183.100988879799843, 166.5, 271.899005093642245, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 289.833334922790527, 145.0, 175.633336897338836, 20.0 ],
+					"presentation_rect" : [ 223.833334922790527, 165.0, 236.0, 20.0 ],
 					"text" : "empty"
 				}
 
@@ -175,8 +175,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -863,8 +863,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1538,8 +1538,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1897,8 +1897,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3161,10 +3161,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "clear", "", "" ],
-					"patching_rect" : [ 9.0, 165.0, 215.0, 22.0 ],
+					"patching_rect" : [ 9.0, 165.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.0, 165.0, 215.0, 22.0 ],
-					"text" : "camu.analysis ctrls-corpus audio descr",
+					"presentation_rect" : [ 69.0, 165.0, 150.0, 22.0 ],
+					"text" : "camu.analysis ctrls-corpus",
 					"varname" : "corpus-analysis"
 				}
 
@@ -3905,6 +3905,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -4051,9 +4052,9 @@
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 232.666665405035019, 165.0, 228.0, 22.0 ],
+					"patching_rect" : [ 177.916678684371959, 165.0, 283.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 289.833334922790527, 145.0, 170.0, 41.0 ],
+					"presentation_rect" : [ 223.833334922790527, 165.0, 236.0, 21.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
