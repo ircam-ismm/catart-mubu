@@ -544,7 +544,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1026.5, 132.5, 317.0, 22.0 ],
 									"viewvisibility" : 1
 								}
@@ -566,7 +566,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1026.5, 155.5, 317.0, 22.0 ],
 									"viewvisibility" : 1
 								}
@@ -588,7 +588,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 707.0, 155.5, 320.0, 22.0 ],
 									"viewvisibility" : 1
 								}
@@ -624,7 +624,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 707.0, 132.5, 320.0, 22.0 ],
 									"viewvisibility" : 1
 								}
@@ -751,7 +751,7 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 1340.628142075614505,
+									"cursor_position" : 3440.65104827115465,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
@@ -769,6 +769,7 @@
 									"domainscrollbar_visible" : 0,
 									"embed" : 0,
 									"externalfiles" : 1,
+									"foremost" : 2,
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
@@ -793,6 +794,7 @@
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 1,
+									"refreshrate" : 100.0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 									"region_visible" : 1,
@@ -2916,7 +2918,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 1,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2986,7 +2988,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 507.725001871585846, 492.0, 60.0 ],
+									"patching_rect" : [ 14.5, 507.725001871585846, 493.0, 60.0 ],
 									"text" : "To open these advanced examples, please download the catart-mubu-advanced-examples package from https://forum.ircam.fr/projects/detail/catart-mubu, but be aware that you will need other external packages which are not on the package manager. More information about how to find those packages can be found in the example patcher itself."
 								}
 
@@ -3713,6 +3715,36 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"bubble" : 1,
+									"fontsize" : 12.0,
+									"id" : "obj-49",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 910.0, 366.0, 275.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "import from a list of sound files with external descriptors, then add calculated descriptors"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-43",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 620.0, 366.0, 285.5, 35.0 ],
+									"presentation_linecount" : 2,
+									"text" : "catart-mubu-tutorial 13b merge internal with external descriptors"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-53",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3765,7 +3797,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 620.0, 380.0, 231.0, 22.0 ],
+									"patching_rect" : [ 620.0, 472.0, 231.0, 22.0 ],
 									"text" : "Play from and transcribe to score"
 								}
 
@@ -3821,7 +3853,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1120.0, 410.0, 105.599999248981476, 60.0 ],
+									"patching_rect" : [ 1120.0, 502.0, 105.599999248981476, 60.0 ],
 									"text" : "(both need package Bach from the package manager)",
 									"textcolor" : [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
 								}
@@ -4334,7 +4366,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 910.0, 432.5, 204.0, 37.0 ],
+									"patching_rect" : [ 910.0, 524.5, 204.0, 37.0 ],
 									"text" : "transcribe selection to editable staff notation with bach"
 								}
 
@@ -4347,7 +4379,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 910.0, 410.0, 205.0, 24.0 ],
+									"patching_rect" : [ 910.0, 502.0, 205.0, 24.0 ],
 									"text" : "force segments to defined pitches"
 								}
 
@@ -4388,7 +4420,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 620.0, 340.0, 285.5, 22.0 ],
-									"text" : "catart-mubu-tutorial 13 import external descriptors"
+									"text" : "catart-mubu-tutorial 13a import external descriptors"
 								}
 
 							}
@@ -4400,7 +4432,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 620.0, 440.0, 285.5, 22.0 ],
+									"patching_rect" : [ 620.0, 532.0, 285.5, 22.0 ],
 									"text" : "catart-mubu-tutorial 12 transcription"
 								}
 
@@ -4426,7 +4458,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 620.0, 410.0, 285.0, 22.0 ],
+									"patching_rect" : [ 620.0, 502.0, 285.0, 22.0 ],
 									"text" : "catart-mubu-tutorial 11 targeted transposition"
 								}
 
@@ -4620,6 +4652,15 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
+									"midpoints" : [ 629.5, 682.75, 705.625, 682.75 ],
+									"source" : [ "obj-43", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
 									"midpoints" : [ 19.5, 324.0, 6.0, 324.0, 6.0, 681.0, 705.625, 681.0 ],
 									"source" : [ "obj-44", 0 ]
 								}
@@ -4721,7 +4762,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 34.0, 522.0, 1372.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5304,7 +5345,6 @@
 									"bgfillcolor_type" : "color",
 									"fontface" : 1,
 									"gradient" : 1,
-									"hidden" : 1,
 									"id" : "obj-59",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -5519,7 +5559,6 @@
 , 							{
 								"box" : 								{
 									"bubble" : 1,
-									"hidden" : 1,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -5532,7 +5571,6 @@
 							}
 , 							{
 								"box" : 								{
-									"hidden" : 1,
 									"id" : "obj-9",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -6110,7 +6148,6 @@
 									"background" : 1,
 									"fontface" : 1,
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-61",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -6771,10 +6808,10 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-2::obj-17::obj-113" : [ "umenu", "umenu", 0 ],
-			"obj-2::obj-43::obj-113" : [ "umenu[1]", "umenu", 0 ],
-			"obj-2::obj-54::obj-113" : [ "umenu[2]", "umenu", 0 ],
-			"obj-2::obj-55::obj-113" : [ "umenu[3]", "umenu", 0 ],
+			"obj-2::obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
+			"obj-2::obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
+			"obj-2::obj-54::obj-113" : [ "umenu[2]", "DescrName", 0 ],
+			"obj-2::obj-55::obj-113" : [ "umenu[3]", "DescrName", 0 ],
 			"obj-2::obj-67" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-5::obj-16" : [ "live.grid", "live.grid", 0 ],
 			"parameterbanks" : 			{
