@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1023.400013267993927, 29.600000441074371, 259.0, 17.0 ],
+					"text" : "this hidden umenu holds all existing camu.process.* as backup"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"id" : "obj-57",
+					"items" : [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "descr-yin", ",", "mfcc-onseg", ",", "mfcc-gate", ",", "mfcc-chop", ",", "descr+mfcc-chop", ",", "ircamdescriptor-chop", ",", "ircamdescriptor-gate", ",", "ircamdescriptor-onseg" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1023.400013267993927, 48.566666483879089, 212.5, 19.0 ],
+					"pattrmode" : 1,
+					"varname" : "segmentation[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-68",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -103,7 +130,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.5, 354.400004684925079, 81.0, 19.0 ],
+					"patching_rect" : [ 459.5, 392.800000190734863, 81.0, 19.0 ],
 					"text" : "s #0-to-process"
 				}
 
@@ -115,7 +142,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 145.60000216960907, 79.0, 19.0 ],
+					"patching_rect" : [ 24.599999725818634, 49.5, 79.0, 19.0 ],
 					"text" : "r #0-to-process"
 				}
 
@@ -524,7 +551,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 432.5, 381.600005090236664, 87.0, 19.0 ],
+					"patching_rect" : [ 432.5, 358.93333774805069, 87.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -840,7 +867,7 @@
 				"box" : 				{
 					"comment" : "Output progress text and summary (to print or put into comment over progress bar).",
 					"id" : "obj-38",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1727,8 +1754,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 772.000011503696442, 29.600000441074371, 141.99999988079071, 27.0 ],
-					"text" : "on startup, choose process 1 in outside umenu (if connected)"
+					"patching_rect" : [ 772.000011503696442, 29.600000441074371, 201.399999916553497, 27.0 ],
+					"text" : "on startup, choose process 1 in outside umenu (if connected), and copy it into internal umenu"
 				}
 
 			}
@@ -1906,7 +1933,7 @@
 				"box" : 				{
 					"comment" : "Connect to umenu with analysis choices in outside patch (will set to 1 on startup, fill it  on request).",
 					"id" : "obj-48",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2024,7 +2051,7 @@
 				"box" : 				{
 					"comment" : "Sends progress as float or list of floats 0..1 (Connect to progress bar multi-slider)",
 					"id" : "obj-28",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2051,7 +2078,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-31",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2092,7 +2119,7 @@
 				"box" : 				{
 					"comment" : "Sends bang when analysis is finished (connect to mubu.knn or camu.select to update).",
 					"id" : "obj-58",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2118,11 +2145,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 8.5, 25.0, 25.0 ]
 				}
 
@@ -2760,7 +2787,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 
@@ -2788,7 +2815,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -2809,7 +2836,28 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "camu.process.descr-onseg.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
