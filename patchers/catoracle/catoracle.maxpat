@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -239,8 +239,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -345,6 +345,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "live.slider[6]",
 											"parameter_mmax" : 400.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "zoom",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0
@@ -625,8 +626,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2068,8 +2069,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2725,8 +2726,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3570,8 +3571,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4050,8 +4051,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4397,8 +4398,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4797,8 +4798,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5597,6 +5598,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "live.slider[3]",
 											"parameter_mmax" : 400.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "vzoom",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0
@@ -5664,8 +5666,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5984,8 +5986,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6412,8 +6414,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7277,8 +7279,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8743,8 +8745,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9047,8 +9049,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 5,
-																			"revision" : 6,
+																			"minor" : 6,
+																			"revision" : 2,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -9949,8 +9951,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12460,8 +12462,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13133,6 +13135,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "live.slider[4]",
 											"parameter_mmax" : 400.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "vzoom",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0
@@ -13191,6 +13194,7 @@
 											"parameter_linknames" : 1,
 											"parameter_longname" : "live.slider[5]",
 											"parameter_mmax" : 400.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "zoom",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 0
@@ -13230,8 +13234,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16127,8 +16131,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -16951,8 +16955,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17640,8 +17644,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18904,8 +18908,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -19580,8 +19584,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -20210,8 +20214,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -21253,8 +21257,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -23078,8 +23082,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23393,7 +23397,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 251.0, 135.0, 64.0, 19.0 ],
 									"text" : "random 1801"
 								}
@@ -23647,8 +23651,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -24180,6 +24184,7 @@
 							"parameter_longname" : "live.dial[2]",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : -64.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -24228,6 +24233,7 @@
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -24290,8 +24296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -24520,8 +24526,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -26136,8 +26142,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27116,8 +27122,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28173,8 +28179,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28384,6 +28390,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[9]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -28597,8 +28604,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28708,8 +28715,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -29618,8 +29625,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -30225,8 +30232,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -31973,8 +31980,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -32202,6 +32209,7 @@
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_longname" : "live.text[1]",
 											"parameter_mmax" : 1,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.text",
 											"parameter_type" : 2
 										}
@@ -32332,7 +32340,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 238.817565999999999, 56.5, 230.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 317.817565999999999, 22.0, 318.0, 20.0 ],
@@ -32419,8 +32427,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -32786,7 +32794,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 471.31756600000017, 3.0, 230.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.182434, 43.0, 318.0, 20.0 ],
@@ -32810,7 +32818,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 238.817565999999999, 3.0, 230.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 317.817565999999999, 1.0, 318.0, 20.0 ],
@@ -32834,7 +32842,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 6.817566, 56.5, 230.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.182434, 22.0, 318.0, 20.0 ],
@@ -32858,7 +32866,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "int", "" ],
+									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 6.817566, 3.0, 230.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -0.182434, 1.0, 318.0, 20.0 ],
@@ -32908,6 +32916,7 @@
 									"domainscrollbar_visible" : 0,
 									"embed" : 0,
 									"externalfiles" : 1,
+									"foremost" : 1,
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
@@ -32934,14 +32943,17 @@
 									"rangeruler_grid" : 0,
 									"rangeruler_size" : 40,
 									"rangeruler_visible" : 1,
+									"refreshrate" : 40.0,
 									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 									"region_visible" : 1,
 									"resamplefiles" : 0,
 									"snaprate" : 1000.0,
-									"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-									"split_size" : 2,
-									"split_visible" : 1,
+									"splitbars_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"splitbars_size" : 2,
+									"splitbars_visible" : 1,
+									"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tabs_position" : 0,
 									"tabs_size" : 20,
 									"tabs_visible" : 1,
@@ -32949,6 +32961,7 @@
 									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
+									"toolbar_transposition" : 0,
 									"toolbar_visible" : 2,
 									"useplaceholders" : 1,
 									"varname" : "editor",
@@ -33371,8 +33384,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -33615,8 +33628,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -34461,8 +34474,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -34994,6 +35007,7 @@
 							"parameter_longname" : "live.dial[1]",
 							"parameter_mmax" : 64.0,
 							"parameter_mmin" : -64.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -35107,6 +35121,7 @@
 							"parameter_longname" : "live.gain~[9]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -35182,8 +35197,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -35800,6 +35815,7 @@
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -36580,8 +36596,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -37675,8 +37691,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -37721,8 +37737,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -37890,8 +37906,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -38255,8 +38271,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -38791,8 +38807,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -39317,8 +39333,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -40459,8 +40475,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -42291,8 +42307,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -42453,8 +42469,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -44306,8 +44322,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -45912,8 +45928,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -45958,8 +45974,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -46711,8 +46727,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -46882,8 +46898,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -46945,8 +46961,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -47253,8 +47269,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -48586,8 +48602,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -49069,8 +49085,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -49187,8 +49203,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"minor" : 6,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -50860,14 +50876,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 63.0, 381.0, 244.0 ],
+						"rect" : [ 0.0, 63.0, 1352.0, 815.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -50991,7 +51007,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 68.019897000000014, 62.0, 90.0, 19.0 ],
+									"patching_rect" : [ 121.0, 61.5, 90.0, 19.0 ],
 									"text" : "r #1-corpus-analysis"
 								}
 
@@ -51472,6 +51488,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-14", 5 ]
 								}
 
 							}
@@ -54142,11 +54165,11 @@
 			"obj-135::obj-28" : [ "live.slider[5]", "zoom", 0 ],
 			"obj-135::obj-64" : [ "live.slider[3]", "vzoom", 0 ],
 			"obj-159" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-173::obj-145::obj-113" : [ "umenu[4]", "umenu", 0 ],
-			"obj-173::obj-192::obj-113" : [ "umenu[3]", "umenu", 0 ],
-			"obj-173::obj-211::obj-113" : [ "umenu[2]", "umenu", 0 ],
-			"obj-173::obj-228::obj-113" : [ "umenu[1]", "umenu", 0 ],
-			"obj-173::obj-229::obj-113" : [ "umenu", "umenu", 0 ],
+			"obj-173::obj-145::obj-113" : [ "umenu[4]", "DescrName", 0 ],
+			"obj-173::obj-192::obj-113" : [ "umenu[3]", "DescrName", 0 ],
+			"obj-173::obj-211::obj-113" : [ "umenu[2]", "DescrName", 0 ],
+			"obj-173::obj-228::obj-113" : [ "umenu[1]", "DescrName", 0 ],
+			"obj-173::obj-229::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-173::obj-35" : [ "live.text[1]", "live.text", 0 ],
 			"obj-182" : [ "live.dial[1]", "live.dial", 0 ],
 			"obj-192" : [ "live.gain~[9]", "live.gain~", 0 ],
@@ -54199,14 +54222,14 @@
 , 			{
 				"name" : "bach.+.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54217,7 +54240,7 @@
 , 			{
 				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54232,7 +54255,7 @@
 , 			{
 				"name" : "bach.dsort.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54247,14 +54270,14 @@
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54285,7 +54308,7 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54300,7 +54323,7 @@
 , 			{
 				"name" : "bach.mono.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54347,7 +54370,7 @@
 , 			{
 				"name" : "bach.sliceheader.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../bach/patchers",
+				"patcherrelativepath" : "../../../../Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -54365,35 +54388,35 @@
 			}
 , 			{
 				"name" : "camu.ircamdescriptor-menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.pipo.ircamdescriptor-onseg.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.ircamdescriptor-onseg.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.taboo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
 				"implicit" : 1
@@ -54432,7 +54455,7 @@
 			}
 , 			{
 				"name" : "pyoracle-osc.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/catart-mubu-master/patchers/catoracle/pyoracle-osc",
+				"bootpath" : "~/Documents/Max 8/Library/catart-mubu-master/patchers/catoracle/pyoracle-osc",
 				"patcherrelativepath" : "./pyoracle-osc",
 				"type" : "JSON",
 				"implicit" : 1
