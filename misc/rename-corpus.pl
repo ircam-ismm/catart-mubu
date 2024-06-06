@@ -20,7 +20,7 @@ if(/^\s*"(args|text|name)" : (.*$from.*)$/)
 {
     # print STDERR "catch <$1> <$2>\n";	    
 
-    if (($1 ne 'text')  ||  ($2 =~ /^"(mubu|mc\.mubu|camu\.|s )/)) # special conditions for "text" lines: match objects, not comments
+    if (($1 ne 'text')  ||  ($2 =~ /^"(mubu|mc\.mubu|camu\.|vivo\.|cocavs\.|s |r )/)) # special conditions for start of "text" lines: match objects, not comments
     {
 	if ($_ !~ /\W$to/)
 	{
