@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 157.0, 725.0, 417.0 ],
+		"rect" : [ 2029.0, 127.0, 1371.0, 776.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 208.059176981449127, 111.834322392940521, 41.420119404792786, 47.0 ],
+					"presentation_linecount" : 2,
+					"text" : "else:\ntarget list"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 152.071009814739227, 111.834322392940521, 63.313611090183258, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "bang to retrigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.0, 154.0, 284.0, 22.0 ],
+					"patching_rect" : [ 523.668652474880219, 153.846157789230347, 284.0, 22.0 ],
 					"text" : "print \"wrong columns input to camu.target\" @level 1"
 				}
 
@@ -58,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 303.0, 189.0, 33.0 ],
+					"patching_rect" : [ 539.644984245300293, 198.224857151508331, 189.0, 33.0 ],
 					"text" : "columns shouldn't go in here, but is passed through correctly"
 				}
 
@@ -70,8 +100,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 348.0, 248.0, 35.0 ],
-					"text" : "print \"wrong connection of columns to camu.select/targert\" @level 1"
+					"patching_rect" : [ 523.668652474880219, 243.195272505283356, 248.0, 35.0 ],
+					"text" : "print \"wrong connection of columns to camu.select/target\" @level 1"
 				}
 
 			}
@@ -84,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 38.0, 121.29999977350235, 77.0, 47.0 ],
+					"patching_rect" : [ 39.644971430301666, 111.834322392940521, 77.0, 47.0 ],
 					"text" : "select is passed through"
 				}
 
@@ -97,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.0, 11.0, 109.0, 20.0 ],
+					"patching_rect" : [ 391.715986371040344, 11.242603838443756, 109.0, 20.0 ],
 					"text" : "descriptor choice y"
 				}
 
@@ -111,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 324.0, 241.0, 120.0, 60.0 ],
+					"patching_rect" : [ 368.639062702655792, 240.828408539295197, 120.0, 60.0 ],
 					"text" : "when 3rd inlet is not connected and one index is sent for x, remove -1"
 				}
 
@@ -123,7 +153,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 312.0, 198.0, 57.0, 22.0 ],
+					"patching_rect" : [ 356.804742872714996, 198.224857151508331, 57.0, 22.0 ],
 					"text" : "zl filter -1"
 				}
 
@@ -135,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 84.0, 154.0, 38.0, 22.0 ],
+					"patching_rect" : [ 31.0, 198.224857151508331, 38.0, 22.0 ],
 					"text" : "zl reg"
 				}
 
@@ -147,8 +177,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 30.5, 99.0, 174.0, 22.0 ],
-					"text" : "routepass select columns bang"
+					"patching_rect" : [ 30.668634533882141, 87.57396674156189, 189.940833270549774, 22.0 ],
+					"text" : "route select columns bang"
 				}
 
 			}
@@ -159,7 +189,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 207.0, 82.0, 124.0, 22.0 ],
+					"patching_rect" : [ 251.479296386241913, 87.57396674156189, 124.0, 22.0 ],
 					"text" : "route list int"
 				}
 
@@ -171,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 84.0, 241.0, 87.0, 22.0 ],
+					"patching_rect" : [ 31.0, 240.828408539295197, 87.0, 22.0 ],
 					"text" : "prepend select"
 				}
 
@@ -212,7 +242,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 202.5, 12.0, 136.0, 33.0 ],
+					"patching_rect" : [ 247.337284445762634, 11.834319829940796, 136.0, 33.0 ],
 					"text" : "descriptor choice x, or as list in 2nd inlet"
 				}
 
@@ -237,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 241.0, 101.0, 22.0 ],
+					"patching_rect" : [ 251.479296386241913, 240.828408539295197, 101.0, 22.0 ],
 					"text" : "prepend columns"
 				}
 
@@ -249,7 +279,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 154.0, 54.0, 22.0 ],
+					"patching_rect" : [ 356.804742872714996, 153.846157789230347, 54.0, 22.0 ],
 					"text" : "pak 1 -1"
 				}
 
@@ -263,7 +293,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 45.0, 30.0, 30.0 ]
+					"patching_rect" : [ 251.479296386241913, 44.970415353775024, 30.0, 30.0 ]
 				}
 
 			}
@@ -276,7 +306,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 347.0, 45.0, 30.0, 30.0 ]
+					"patching_rect" : [ 391.715986371040344, 44.970415353775024, 30.0, 30.0 ]
 				}
 
 			}
@@ -318,24 +348,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 1 ],
-					"watchpoint_flags" : 2,
-					"watchpoint_id" : 1
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 40.0, 232.5, 40.5, 232.5 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 3 ]
 				}
@@ -345,6 +357,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 40.168634533882141, 167.411240935325623, 40.5, 167.411240935325623 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}
