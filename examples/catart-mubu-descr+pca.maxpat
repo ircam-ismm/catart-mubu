@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -178,7 +178,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 344.25, 109.0, 49.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 109.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 365.0, 109.0, 46.0, 22.0 ],
 					"text" : "writeall"
 				}
 
@@ -194,7 +194,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 288.25, 109.0, 49.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 253.25, 109.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 313.0, 109.0, 45.0, 22.0 ],
 					"text" : "readall"
 				}
 
@@ -444,8 +444,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1048,8 +1048,8 @@
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 94.0, 236.050859987735748, 242.0, 22.0 ],
 					"text" : "camu.imubu.control descr-pca-corpus descr"
 				}
@@ -1120,8 +1120,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1479,8 +1479,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2720,7 +2720,7 @@
 					"presentation_rect" : [ 235.5, 164.5, 223.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 10,
+					"size" : 28,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -2786,14 +2786,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 87.0, 687.0, 876.0, 718.0 ],
+						"rect" : [ 42.0, 134.0, 886.0, 750.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 9.0,
@@ -2858,8 +2858,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3989,7 +3989,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "descr-pca-corpus" ],
+									"args" : [ "descr-pca-corpus", "audio", "mfcc" ],
 									"bgmode" : 0,
 									"border" : 0,
 									"clickthrough" : 0,
@@ -4970,15 +4970,15 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 1,
+					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 8.722849473556524,
+					"cursor_position" : -3.347061187374583,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -7.808291972631233, 7.582063752673816 ],
+					"domain_bounds" : [ -10.362760926886217, 6.320241603291052 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4991,7 +4991,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 3,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -5119,7 +5119,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 234.0, 109.0, 49.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 109.0, 49.0, 22.0 ],
+					"presentation_rect" : [ 259.0, 109.0, 47.0, 22.0 ],
 					"text" : "clearall"
 				}
 
