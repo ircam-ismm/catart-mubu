@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 488.0, 109.0, 1825.0, 934.0 ],
+		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
 		"openrect" : [ 30.0, 0.0, 0.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -41,12 +41,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-128",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 481.0, 662.666625999999951, 147.0, 33.0 ],
+					"text" : "switch output messages to use trackid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-124",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 462.0, 699.0, 91.0, 21.0 ],
+					"text" : "prepend set view"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-127",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.5, 275.299987999999985, 76.0, 47.0 ],
+					"patching_rect" : [ 575.5, 275.299987999999985, 77.0, 47.0 ],
 					"text" : "mute descr. index output during set"
 				}
 
@@ -840,8 +866,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1121,7 +1147,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-21",
-					"items" : [ "Warmness", ",", "Sharpness", ",", "AvgDetail", ",", "LoFreqDetail", ",", "MidFreqDetail", ",", "HiFreqDetail", ",", "HorizFlow", ",", "VerticFlow", ",", "AvgFlow", ",", "HueAvg", ",", "HueVar", ",", "SaturationAvg", ",", "SaturationVar", ",", "LuminanceAvg", ",", "LuminanceVar", ",", "Color", ",", "Complexity", ",", "XAvg", ",", "XVar", ",", "YAvg", ",", "YVar" ],
+					"items" : [ "RT60", ",", "ER_Time", ",", "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1154,8 +1180,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1454,8 +1480,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2379,7 +2405,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 2.5, 25.0, 25.0 ],
 					"varname" : "int/name"
 				}
@@ -2487,7 +2513,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-113",
-					"items" : [ "Warmness", ",", "Sharpness", ",", "AvgDetail", ",", "LoFreqDetail", ",", "MidFreqDetail", ",", "HiFreqDetail", ",", "HorizFlow", ",", "VerticFlow", ",", "AvgFlow", ",", "HueAvg", ",", "HueVar", ",", "SaturationAvg", ",", "SaturationVar", ",", "LuminanceAvg", ",", "LuminanceVar", ",", "Color", ",", "Complexity", ",", "XAvg", ",", "XVar", ",", "YAvg", ",", "YVar" ],
+					"items" : [ "RT60", ",", "ER_Time", ",", "Duration", ",", "FrequencyMean", ",", "EnergyMean", ",", "PeriodicityMean", ",", "AC1Mean", ",", "LoudnessMean", ",", "CentroidMean", ",", "SpreadMean", ",", "SkewnessMean", ",", "KurtosisMean" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2498,10 +2524,11 @@
 					"presentation_rect" : [ 160.0, 0.0, 156.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "Warmness", "Sharpness", "AvgDetail", "LoFreqDetail", "MidFreqDetail", "HiFreqDetail", "HorizFlow", "VerticFlow", "AvgFlow", "HueAvg", "HueVar", "SaturationAvg", "SaturationVar", "LuminanceAvg", "LuminanceVar", "Color", "Complexity", "XAvg", "XVar", "YAvg", "YVar" ],
+							"parameter_enum" : [ "RT60", "ER_Time", "Duration", "FrequencyMean", "EnergyMean", "PeriodicityMean", "AC1Mean", "LoudnessMean", "CentroidMean", "SpreadMean", "SkewnessMean", "KurtosisMean" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "DescrName",
-							"parameter_mmax" : 20,
+							"parameter_longname" : "umenu",
+							"parameter_mmax" : 11,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "DescrName",
 							"parameter_type" : 2
 						}
@@ -2518,7 +2545,7 @@
 					"fontsize" : 11.0,
 					"id" : "obj-53",
 					"maxclass" : "number",
-					"maximum" : 20,
+					"maximum" : 11,
 					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -2786,6 +2813,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
@@ -2894,6 +2928,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
+					"order" : 1,
 					"source" : [ "obj-24", 4 ]
 				}
 
@@ -2902,6 +2937,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"source" : [ "obj-24", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"order" : 0,
+					"source" : [ "obj-24", 4 ]
 				}
 
 			}
