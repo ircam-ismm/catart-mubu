@@ -24,7 +24,7 @@ if(/^\s*"(args|text|name)" : (.*$from.*)$/)
     {
 	if ($_ !~ /\W$to/)
 	{
-	    s/$from/$to/;
+	    s/\b$from\b/$to/;
 	    $line = $_;
 	    $line =~ s/^\s*//g;
 	    print STDERR "REPLACED: $line";
