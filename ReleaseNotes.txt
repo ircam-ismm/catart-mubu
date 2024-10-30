@@ -2,7 +2,19 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
-CataRT-Mubu v1.5.3		04.13.2023
+CataRT-Mubu v1.6		31.10.2024
+
+- camu.export.segments / camu.export.segments.ordered: new generalised segment exporter patches (see tuts 5a/b)
+- catart-mubu-tutorial 13a/b: new tutorials how to import and merge external descriptors
+- camu.analysis: new default analysis module
+- camu.content-summary: print summary of corpus content
+- add track arguments to all camu.process.* modules, with defaults (audio, descr)
+- camu.target: handle list/bang/select
+- camu.imubu.control: integrate simplified external controller input into imubu control: accept touch list and x/y list in [0..1]
+- remove patcher background colours to make text readable under new default and dark Max9 themes
+
+____________________________________________________
+CataRT-Mubu v1.5.3		04.12.2023
 
 - by Cycling's new restrictions: split out advanced examples that need non-PM external packages
 
