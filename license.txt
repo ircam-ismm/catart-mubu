@@ -1,0 +1,42 @@
+IRCAM FORUM LICENSE AGREEMENT
+ 
+
+- PURPOPSE
+
+IRCAM grants the user, who accepts it, a personal, non-assignable, non-exclusive and non-transferable right to use the software and documentation included in the subscription chosen, for the whole world and for the duration of the contract.
+
+As an exception, if the user has access on the forum.ircam.fr platform to links to software distributed on other platforms, including GitHub.com, the license conditions relating to the latter take precedence over those of the present license agreement, which supplements them.
+
+This license shall not be construed as a sale, and IRCAM is and remains the owner of all software covered by the present contract, with the exception of developments shared by members covered by article 8, who are and remain the owners of their developments.
+
+The right of use is for non-commercial use only. Any commercial use must be the subject of a separate contract with IRCAM. As an exception, the user may make commercial use of the software :
+
+within the limits of live performances ;
+and, when the user subscribes to an Premium individual or institutional subscription, for a sound or musical production ;
+and, when the user subscribes to an Premium institutional subscription, within the framework of an educational or training activity.
+The rights granted by the terms of this license apply to all software upgrades provided by IRCAM and used to replace and/or complete IRCAM software.
+
+- CONDITION OF USE
+
+IRCAM software may not be rented, sold or exchanged, in whole or in part, without IRCAM's authorization.
+
+Any copy of the software supplied by IRCAM is forbidden, except for the purpose of transferring it from one individual computer to another. In this case, only one copy of the software must remain after the operation.
+
+ IRCAM cannot be held responsible for the consequences of using its software. The user expressly acknowledges and agrees that he/she is solely responsible for the use of IRCAM software.
+
+Any independent development of IRCAM software that would be a reproduction of all or part of IRCAM software elements, whether or not accompanied by exploitation by the user, would be liable to infringement action.
+
+The user must leave intact all mentions of the authors and copyright of IRCAM or its members appearing in the programs or on the documentation. The user also undertakes to mention IRCAM's name in any presentation of IRCAM software or its extensions.
+ 
+
+MISCELLANEOUS PROVISIONS
+
+- CONFIDENTIALITY- Settlement of disputes and jurisdiction
+
+In the event of a dispute, the parties agree to seek amicable solutions before referring the matter to the competent Paris courts, French law being applicable to this contract.
+
+- REFERENCE DOCUMENT VERSION
+
+The reference document for this License agreement is the French version. In the event of any difference of interpretation between this English text and the French version, the latter shall prevail.
+
+September 2023 © CNAC-GP/IRCAM 2023
