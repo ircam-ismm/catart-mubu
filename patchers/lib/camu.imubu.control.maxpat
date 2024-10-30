@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1211.0, 605.0, 1240.0, 801.0 ],
+		"rect" : [ 238.0, 147.0, 1240.0, 801.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 46.0, 763.0, 1431.0, 643.0 ],
+						"rect" : [ 46.0, 305.0, 1431.0, 643.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -157,7 +157,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-22",

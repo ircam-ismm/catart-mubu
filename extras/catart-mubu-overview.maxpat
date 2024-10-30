@@ -1,4 +1,4 @@
-{
+{ 
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
@@ -2881,18 +2881,14 @@
 								}
 
 							}
- ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 62.0, 97.0, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -3646,19 +3642,15 @@
 								}
 
 							}
- ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 115.0, 130.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"fontface" : 2,
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -4709,18 +4701,14 @@
 								}
 
 							}
- ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 266.0, 212.0, 63.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"tags" : ""
 					}
 ,
@@ -6785,18 +6773,14 @@
 								}
 
 							}
- ],
-						"bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 193.0, 179.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"editing_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"globalpatchername" : "",
-						"locked_bgcolor" : [ 0.898, 0.898, 0.898, 1.0 ],
 						"tags" : ""
 					}
 ,
