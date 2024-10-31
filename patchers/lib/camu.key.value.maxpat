@@ -2,42 +2,23 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1280.0, 751.0 ],
-		"bglocked" : 0,
+		"rect" : [ 0.0, 53.0, 1280.0, 751.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 9.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -55,7 +36,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -75,7 +56,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 489.0, 27.5, 59.0, 19.0 ],
+					"patching_rect" : [ 489.0, 27.5, 91.0, 19.0 ],
 					"text" : "r #1-clearall"
 				}
 
@@ -88,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.5, 27.5, 79.0, 19.0 ],
+					"patching_rect" : [ 157.5, 27.5, 91.0, 19.0 ],
 					"text" : "r #1-alldone"
 				}
 
@@ -112,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 143.5, 390.833344000000011, 92.0, 19.0 ],
+					"patching_rect" : [ 143.5, 390.833344000000011, 125.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -166,7 +147,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-17",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -217,7 +198,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -373,7 +354,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-108",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -386,7 +367,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-107",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -493,7 +474,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.666672, -0.666656, 29.0, 27.0 ],
-					"text" : "auto\ntag"
+					"text" : "auto\ntag",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -507,7 +489,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 122.5, 62.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666672, 23.333344, 21.999999999999996, 21.999999999999996 ]
+					"presentation_rect" : [ 1.666672, 23.333344, 21.999999999999996, 21.999999999999996 ],
+					"svg" : ""
 				}
 
 			}
@@ -715,7 +698,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 24.666671999999998, -0.666656, 36.0, 27.0 ],
-					"text" : "tag\nbuffers"
+					"text" : "tag\nbuffers",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -743,7 +727,8 @@
 					"patching_rect" : [ 590.5, 81.833343999999997, 43.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.666671999999998, 22.333344, 19.0, 17.0 ],
-					"text" : "to"
+					"text" : "to",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -757,7 +742,8 @@
 					"patching_rect" : [ 542.0, 81.833343999999997, 68.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 47.166671999999998, -0.666656, 26.0, 17.0 ],
-					"text" : "from"
+					"text" : "from",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1529,12 +1515,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+		"originid" : "pat-2322"
 	}
 
 }
