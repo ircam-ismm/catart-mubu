@@ -2,25 +2,62 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 117.0, 188.0, 945.0, 1218.0 ],
+		"rect" : [ 1165.0, 161.0, 945.0, 1218.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 28.0, 5.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-69",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.516129493713379, 10.483871042728424, 494.354842245578766, 33.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 98.0, 5.0, 494.354842245578766, 33.0 ],
 					"style" : "helpfile_label",
 					"text" : "Max 9's new Color Themes (choosable in preferences) can have light gray text on a dark background. We try here to adapt imubu to the user-chosen colour theme."
 				}
@@ -117,7 +154,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 325.0, 164.0, 43.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "a r g b"
 				}
 
@@ -154,7 +190,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 611.0, 975.0, 142.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "output 1 for a light or 0 for a dark color theme"
 				}
 
@@ -163,7 +198,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-51",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -203,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 659.0, 144.0, 76.0 ],
+					"patching_rect" : [ 131.0, 659.0, 147.0, 76.0 ],
 					"text" : "bufferchooser_fgcolor domainruler_fgcolor tabs_fgcolor view_fgcolor view_header_bordercolor view_header_fgcolor"
 				}
 
@@ -212,7 +247,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-46",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -300,7 +335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 659.0, 128.0, 116.0 ],
+					"patching_rect" : [ 318.0, 659.0, 131.0, 116.0 ],
 					"text" : "bgcolor bufferchooser_bgcolor domainruler_bgcolor domainscrollbar_color tabs_bgcolor toolbar_bgcolor view_bgcolor view_header_bgcolor"
 				}
 
@@ -501,7 +536,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 28.0, 13.709677517414093, 24.0, 24.0 ]
+					"patching_rect" : [ 28.0, 31.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -513,8 +548,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 131.0, 396.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 131.0, 396.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -538,7 +572,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 307.0, 304.0, 216.0, 22.0 ],
-					"text" : "cell 0 0 val 1. 0. 0. 0.235"
+					"text" : "cell 0 0 val 1. 0. 0. 0.898039"
 				}
 
 			}
@@ -622,7 +656,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 98.0, 105.0, 179.0, 22.0 ],
-					"text" : "0.235 0.235 0.235 1."
+					"text" : "0.898039 0.898039 0.898039 1."
 				}
 
 			}
@@ -840,6 +874,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -997,20 +1038,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-4673",
-		"dependency_cache" : [ 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
