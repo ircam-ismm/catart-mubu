@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -200,7 +200,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1048.0, 33.333313000000089, 50.0, 22.0 ],
-					"text" : "y"
+					"text" : "x"
 				}
 
 			}
@@ -844,7 +844,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1024,7 +1024,7 @@
 
 							}
  ],
-						"originid" : "pat-2125"
+						"originid" : "pat-1785"
 					}
 ,
 					"patching_rect" : [ 831.0, 501.0, 97.0, 22.0 ],
@@ -1130,7 +1130,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1378,7 +1378,7 @@
 
 							}
  ],
-						"originid" : "pat-2127"
+						"originid" : "pat-1787"
 					}
 ,
 					"patching_rect" : [ 25.0, 705.833252000000016, 123.0, 22.0 ],
@@ -1402,7 +1402,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1729,7 +1729,7 @@
 
 							}
  ],
-						"originid" : "pat-2129"
+						"originid" : "pat-1789"
 					}
 ,
 					"patching_rect" : [ 161.0, 705.833252000000016, 123.0, 22.0 ],
@@ -2060,13 +2060,14 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.37 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 0.862745, 0.870588, 0.878431, 0.0 ],
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 0.37 ],
+					"bgfillcolor_color1" : [ 0.654901960784314, 0.745098039215686, 0.831372549019608, 0.4 ],
 					"bgfillcolor_color2" : [ 0.862745, 0.870588, 0.878431, 0.0 ],
 					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "gradient",
+					"bgfillcolor_type" : "color",
 					"color" : [ 0.614285, 0.654518, 0.758022, 1.0 ],
 					"id" : "obj-43",
 					"items" : [ "x", ",", "y", ",", "size", ",", "color", ",", "opacity", ",", "angle", ",", "width", ",", "height", ",", "fixedwidth", ",", "fixedheight", ",", "fillcolor", ",", "edgecolor", ",", "fillopacity", ",", "edgeopacity", ",", "type", ",", "labeltext", ",", "labelxoffset", ",", "labelyoffset", ",", "labelposition", ",", "labelcolor", ",", "labelopacity", ",", "labelfontsize", ",", "labelfontstyle" ],
@@ -2419,7 +2420,7 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "FrequencyMean", "EnergyMean", "PeriodicityMean", "AC1Mean", "LoudnessMean", "CentroidMean", "SpreadMean" ],
 							"parameter_linknames" : 1,
-							"parameter_longname" : "umenu[1]",
+							"parameter_longname" : "umenu",
 							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -3391,7 +3392,7 @@
 
 			}
  ],
-		"originid" : "pat-2123"
+		"originid" : "pat-1783"
 	}
 
 }
