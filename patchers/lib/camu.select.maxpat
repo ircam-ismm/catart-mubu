@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 657.0, 194.0, 1151.0, 1212.0 ],
+		"rect" : [ 769.0, 87.0, 1120.0, 1233.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -133,8 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.039771999999914, -13.999999789062485, 348.399998724460602, 33.0 ],
-					"text" : "Selection can be controlled via the columns / select messages, or via weights / list of target values",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "Selection can be controlled via the columns / select messages, or via weights / list of target values"
 				}
 
 			}
@@ -172,8 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 700.079551999999921, 35.000000210937515, 124.0, 33.0 ],
-					"text" : "target values or commands for concat",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "target values or commands for concat"
 				}
 
 			}
@@ -187,8 +185,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 902.772708666666858, 35.000000210937515, 65.0, 47.0 ],
-					"text" : "descriptor choices x, y",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "descriptor choices x, y"
 				}
 
 			}
@@ -196,7 +193,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-161",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -209,7 +206,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-162",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -484,7 +481,7 @@
 
 							}
  ],
-						"originid" : "pat-30"
+						"originid" : "pat-7206"
 					}
 ,
 					"patching_rect" : [ 56.54639483333321, 776.2503662109375, 74.0, 49.0 ],
@@ -1046,7 +1043,7 @@
 
 							}
  ],
-						"originid" : "pat-32",
+						"originid" : "pat-7208",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
@@ -1142,7 +1139,7 @@
 					"presentation_rect" : [ 100.349430333333316, 95.87552671093755, 49.730121666666605, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "number",
+							"parameter_longname" : "number[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -1339,7 +1336,7 @@
 
 							}
  ],
-						"originid" : "pat-34",
+						"originid" : "pat-7210",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
@@ -1422,8 +1419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 564.079551999999921, 236.664355218410492, 165.0, 47.0 ],
-					"text" : "when forcing a markerindex, simulate user input to clear mute flag",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "when forcing a markerindex, simulate user input to clear mute flag"
 				}
 
 			}
@@ -1521,8 +1517,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.829547999999932, 759.0, 103.0, 74.0 ],
-					"text" : "when selection is empty or nothing moved, mute output, but keep period running",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "when selection is empty or nothing moved, mute output, but keep period running"
 				}
 
 			}
@@ -1546,8 +1541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 428.579551999999921, 701.2503662109375, 115.0, 33.0 ],
-					"text" : "nearest marker or buffer has changed",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "nearest marker or buffer has changed"
 				}
 
 			}
@@ -1574,8 +1568,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.04639483333321, 345.664355218410492, 119.0, 114.0 ],
-					"text" : "repetition is controlled here by camu.random.filter, when play is on we must always set this to on.\nalso: temporarily switch on for \"hit\"",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "repetition is controlled here by camu.random.filter, when play is on we must always set this to on.\nalso: temporarily switch on for \"hit\""
 				}
 
 			}
@@ -1759,7 +1752,7 @@
 
 							}
  ],
-						"originid" : "pat-36",
+						"originid" : "pat-7212",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
@@ -1783,8 +1776,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 734.579543999999942, 181.836347203464584, 62.083335999999917, 47.0 ],
-					"text" : "else: message to knn",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "else: message to knn"
 				}
 
 			}
@@ -2190,7 +2182,7 @@
 
 							}
  ],
-						"originid" : "pat-38",
+						"originid" : "pat-7214",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -3244,8 +3236,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 834.539786999999933, 360.0, 138.0, 60.0 ],
-					"text" : "todo: when changing k/radius in cont mode, random is retriggered (not critical)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "todo: when changing k/radius in cont mode, random is retriggered (not critical)"
 				}
 
 			}
@@ -3271,8 +3262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 36.039771999999914, 35.000000210937515, 89.0, 33.0 ],
-					"text" : "from analysis / control to knn",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "from analysis / control to knn"
 				}
 
 			}
@@ -3286,8 +3276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1010.346594999999979, 35.000000210937515, 181.0, 33.0 ],
-					"text" : "feedback from concat: list with marker, buffer; and play 0/1",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "feedback from concat: list with marker, buffer; and play 0/1"
 				}
 
 			}
@@ -3298,8 +3287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.526488666666467, 944.0, 97.0, 20.0 ],
-					"text" : "to concat",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "to concat"
 				}
 
 			}
@@ -3310,8 +3298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 740.500017666666736, 920.0, 97.0, 20.0 ],
-					"text" : "to editor-adapter",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "to editor-adapter"
 				}
 
 			}
@@ -3668,7 +3655,7 @@
 
 							}
  ],
-						"originid" : "pat-40",
+						"originid" : "pat-7216",
 						"bgcolor" : [ 0.56078431372549, 0.56078431372549, 0.56078431372549, 1.0 ]
 					}
 ,
@@ -3749,8 +3736,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 220.079543999999828, 507.664355007472977, 281.0, 47.0 ],
-					"text" : "When either k or radius is >0, knn outputs lists of markers near the target. camu.random then chooses one according to different strategies.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "When either k or radius is >0, knn outputs lists of markers near the target. camu.random then chooses one according to different strategies."
 				}
 
 			}
@@ -3761,7 +3747,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 834.539786999999933, 336.0, 173.0, 22.0 ],
+					"patching_rect" : [ 834.539786999999933, 336.0, 198.0, 22.0 ],
 					"text" : "camu.cont #1 #2"
 				}
 
@@ -3931,7 +3917,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "bow", "fence", "beat", "beatmove", "loop", "loopmove", "cont" ],
-							"parameter_longname" : "umenu[6]",
+							"parameter_longname" : "umenu[7]",
 							"parameter_mmax" : 6,
 							"parameter_modmode" : 0,
 							"parameter_osc_name" : "<default>",
@@ -3982,8 +3968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 314.829547999999988, 653.2503662109375, 73.0, 20.0 ],
-					"text" : "buffer index",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "buffer index"
 				}
 
 			}
@@ -3996,8 +3981,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.079551999999921, 653.2503662109375, 66.0, 20.0 ],
-					"text" : "data index",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "data index"
 				}
 
 			}
@@ -4065,7 +4049,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
-					"patching_rect" : [ 206.079551999999921, 484.664355218410492, 260.0, 22.0 ],
+					"patching_rect" : [ 206.079551999999921, 484.664355218410492, 285.0, 22.0 ],
 					"text" : "mubu.knn #1 #2 @radius 0 @k 0"
 				}
 
@@ -4079,8 +4063,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 453.662879999999973, 457.664355218410492, 90.0, 20.0 ],
-					"text" : "find best match",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "find best match"
 				}
 
 			}
@@ -4094,8 +4077,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 574.579551999999921, 118.000000210937515, 124.0, 33.0 ],
-					"text" : "target values or commands for concat",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "target values or commands for concat"
 				}
 
 			}
@@ -4109,8 +4091,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 545.079551999999921, -13.999999789062485, 434.0, 47.0 ],
-					"text" : "The 2 middle inlets are no longer used in the preferred patching for camu.select (descriptor choices and target select x, y are sent by camu.imubu.control), but remain for backwards compat. and usage without imubu. ",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "The 2 middle inlets are no longer used in the preferred patching for camu.select (descriptor choices and target select x, y are sent by camu.imubu.control), but remain for backwards compat. and usage without imubu. "
 				}
 
 			}
@@ -4118,7 +4099,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-159",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4131,7 +4112,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-160",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -4144,7 +4125,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-164",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4156,7 +4137,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-165",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -4206,7 +4187,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -4214,7 +4195,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -4673,7 +4654,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
-					"midpoints" : [ 456.579551999999921, 511.707360714673996, 714.960245666666879, 511.707360714673996 ],
+					"midpoints" : [ 481.579551999999921, 511.707360714673996, 714.960245666666879, 511.707360714673996 ],
 					"order" : 0,
 					"source" : [ "obj-46", 3 ]
 				}
@@ -4691,7 +4672,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-2", 2 ],
-					"midpoints" : [ 376.24621866666655, 577.457360714673996, 368.24621866666655, 577.457360714673996 ],
+					"midpoints" : [ 392.912885333333293, 577.457360714673996, 368.24621866666655, 577.457360714673996 ],
 					"order" : 1,
 					"source" : [ "obj-46", 2 ]
 				}
@@ -4701,7 +4682,7 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 295.912885333333236, 574.664355218410492, 291.912885333333236, 574.664355218410492 ],
+					"midpoints" : [ 304.246218666666607, 574.664355218410492, 291.912885333333236, 574.664355218410492 ],
 					"order" : 2,
 					"source" : [ "obj-46", 1 ]
 				}
@@ -5216,7 +5197,67 @@
 
 			}
  ],
-		"originid" : "pat-26",
+		"originid" : "pat-7202",
+		"parameters" : 		{
+			"obj-34" : [ "number[1]", "number", 0 ],
+			"obj-82" : [ "umenu[7]", "umenu", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "camu.cont.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.random.filter.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.random.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.target.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "camu.triggermode.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.knn.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

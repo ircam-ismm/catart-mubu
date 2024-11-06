@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 159.0, 1247.0, 754.0 ],
+		"rect" : [ 134.0, 264.0, 1247.0, 754.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -125,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -933,7 +933,7 @@
 
 							}
  ],
-						"originid" : "pat-5210"
+						"originid" : "pat-14088"
 					}
 ,
 					"patching_rect" : [ 11.706458999999995, 300.33332135330204, 121.0, 22.0 ],
@@ -987,7 +987,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1829,7 +1829,7 @@
 
 							}
  ],
-						"originid" : "pat-5214"
+						"originid" : "pat-14092"
 					}
 ,
 					"patching_rect" : [ 593.5, 96.0, 87.0, 22.0 ],
@@ -2007,7 +2007,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2233,7 +2233,7 @@
 
 							}
  ],
-						"originid" : "pat-5218"
+						"originid" : "pat-14096"
 					}
 ,
 					"patching_rect" : [ 38.0, 386.700012000000015, 93.0, 22.0 ],
@@ -2579,13 +2579,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 11.666663999999997, 600.0, 388.0, 35.0 ],
+					"patching_rect" : [ 12.0, 600.0, 483.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
 						"resampleaudioinput" : 0
 					}
 ,
-					"text" : "mubu.concat~ 2 record-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
+					"text" : "mubu.concat~ 2 record-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0 @tracknotfoundwarning 0"
 				}
 
 			}
@@ -2917,7 +2917,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 130.166655999999989, 587.0, 21.166663999999997, 587.0 ],
+					"midpoints" : [ 130.166655999999989, 587.0, 21.5, 587.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2925,7 +2925,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 1 ],
-					"midpoints" : [ 205.666663999999997, 642.0, 28.166663999999997, 642.0 ],
+					"midpoints" : [ 253.5, 642.0, 28.166663999999997, 642.0 ],
 					"source" : [ "obj-30", 1 ]
 				}
 
@@ -2933,7 +2933,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
-					"midpoints" : [ 21.166663999999997, 633.25, 21.166663999999997, 633.25 ],
+					"midpoints" : [ 21.5, 633.25, 21.166663999999997, 633.25 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -3204,7 +3204,7 @@
 
 			}
  ],
-		"originid" : "pat-5208",
+		"originid" : "pat-14086",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],

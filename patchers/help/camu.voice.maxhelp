@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1248.0, 732.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 1192.0, 101.0, 1248.0, 732.0 ],
 		"gridsize" : [ 5.0, 5.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"hidden" : 1,
@@ -120,6 +94,8 @@
 							"parameter_enum" : [ "bow", "fence", "beat", "beatmove", "loop", "loopmove", "cont" ],
 							"parameter_longname" : "umenu[6]",
 							"parameter_mmax" : 6,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
@@ -151,6 +127,8 @@
 							"parameter_longname" : "EnvDurationRelative",
 							"parameter_mmax" : 200.0,
 							"parameter_mmin" : 1.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Duration",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -230,7 +208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 438.175845146179199, -82.0, 315.0, 33.0 ],
+					"patching_rect" : [ 438.175845146179199, -82.0, 317.0, 33.0 ],
 					"text" : "because we can switch the output of camu.imubu.control, we send the descr index list explicitly to both voices"
 				}
 
@@ -285,6 +263,8 @@
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -359,8 +339,8 @@
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 185.083335638046265, 254.08332371711731, 113.0, 22.0 ],
 					"text" : "camu.imubu.control"
 				}
@@ -382,8 +362,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 786.833324909210205, 50.95833146572113, 317.0, 22.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 784.0, 51.0, 317.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -404,8 +384,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 786.833324909210205, 72.95833146572113, 317.0, 22.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 784.0, 73.0, 317.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -426,8 +406,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 785.833324909210205, 26.0, 320.0, 22.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 784.0, 26.0, 320.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -462,8 +442,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 785.833324909210205, 4.0, 320.0, 22.0 ],
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 784.0, 4.0, 320.0, 22.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -520,12 +500,12 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 2532.677832021367067,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1320.281474907397978, 4661.274365684618715 ],
+					"domain_bounds" : [ 1313.981646916083037, 4584.295870256161834 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -538,6 +518,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -558,18 +539,21 @@
 					"outputvalues" : 1,
 					"outputviewname" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 781.666658401489258, 132.458329081535339, 410.833341598510742, 401.541670918464661 ],
+					"patching_rect" : [ 784.0, 132.0, 410.833341598510742, 401.541670918464661 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
+					"refreshrate" : 100.0,
 					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
 					"snaprate" : 1000.0,
-					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"split_size" : 2,
-					"split_visible" : 1,
+					"splitbars_color" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"splitbars_size" : 2,
+					"splitbars_visible" : 1,
+					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -577,6 +561,7 @@
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
+					"toolbar_transposition" : 0,
 					"toolbar_visible" : 2,
 					"useplaceholders" : 1,
 					"varname" : "editor",
@@ -642,42 +627,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 73.0, 79.0, 1173.0, 507.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Geneva",
-						"gridonopen" : 1,
 						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -686,7 +645,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 685.0, 266.0, 24.0, 24.0 ]
+									"patching_rect" : [ 685.0, 266.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -852,7 +812,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ]
+									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -990,17 +951,15 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-1792"
 					}
 ,
 					"patching_rect" : [ 72.5, 189.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Geneva",
 						"fontsize" : 10.0,
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p descriptor-analysis"
@@ -1028,7 +987,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 785.833324909210205, 103.374995827674866, 24.0, 24.0 ]
+					"patching_rect" : [ 784.0, 103.374995827674866, 24.0, 24.0 ]
 				}
 
 			}
@@ -1087,6 +1046,8 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1145,42 +1106,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 325.0, 377.0, 716.0, 551.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1255,7 +1190,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -1405,7 +1341,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -1602,15 +1539,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-1830"
 					}
 ,
 					"patching_rect" : [ 837.833324909210205, 108.374995827674866, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p imubu-setup"
@@ -1923,7 +1858,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 82.0, 210.948718130588531, 552.0, 210.948718130588531, 552.0, 103.0, 795.333324909210205, 103.0 ],
+					"midpoints" : [ 82.0, 210.948718130588531, 552.0, 210.948718130588531, 552.0, 103.0, 793.5, 103.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -1986,17 +1921,18 @@
 
 			}
  ],
+		"originid" : "pat-1714",
 		"parameters" : 		{
 			"obj-14::obj-46::obj-34" : [ "number[1]", "number", 0 ],
 			"obj-14::obj-46::obj-82" : [ "umenu[7]", "umenu", 0 ],
 			"obj-15" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-17::obj-113" : [ "umenu[1]", "umenu", 0 ],
+			"obj-17::obj-113" : [ "umenu[1]", "DescrName", 0 ],
 			"obj-28" : [ "EnvDurationRelative", "Duration", 0 ],
-			"obj-43::obj-113" : [ "umenu[2]", "umenu", 0 ],
+			"obj-43::obj-113" : [ "umenu[2]", "DescrName", 0 ],
 			"obj-46::obj-46::obj-34" : [ "number", "number", 0 ],
 			"obj-46::obj-46::obj-82" : [ "umenu", "umenu", 0 ],
-			"obj-54::obj-113" : [ "umenu[3]", "umenu", 0 ],
-			"obj-55::obj-113" : [ "umenu[4]", "umenu", 0 ],
+			"obj-54::obj-113" : [ "umenu[3]", "DescrName", 0 ],
+			"obj-55::obj-113" : [ "umenu[4]", "DescrName", 0 ],
 			"obj-67" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-82" : [ "umenu[6]", "umenu", 0 ],
 			"parameterbanks" : 			{

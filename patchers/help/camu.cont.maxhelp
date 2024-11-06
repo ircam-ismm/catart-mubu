@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -83,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.916663999999969, 242.499970000000076, 215.0, 20.0 ],
+					"patching_rect" : [ 305.3038330078125, 243.0, 215.0, 20.0 ],
 					"text" : "click mode: select only on mouse click"
 				}
 
@@ -96,7 +96,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 289.666663999999969, 242.499970000000076, 21.0, 21.0 ],
+					"patching_rect" : [ 282.3038330078125, 243.0, 21.0, 21.0 ],
 					"svg" : ""
 				}
 
@@ -152,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 176.666663999999969, 218.499970000000076, 373.0, 22.0 ],
+					"patching_rect" : [ 163.166663999999969, 219.0, 373.0, 22.0 ],
 					"text" : "trigger mode \"cont\" is special, needs camu.cont below"
 				}
 
@@ -167,7 +167,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 176.666663999999969, 242.499970000000076, 89.0, 22.0 ]
+					"patching_rect" : [ 163.166663999999969, 243.0, 89.0, 22.0 ]
 				}
 
 			}
@@ -262,7 +262,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 23.666663999999997, 342.999985000000038, 113.0, 22.0 ],
+					"patching_rect" : [ 32.0, 283.499985000000038, 113.0, 22.0 ],
 					"text" : "camu.imubu.control"
 				}
 
@@ -434,7 +434,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1276.004337172479381,
+					"cursor_position" : 2010.539512846247362,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
@@ -563,7 +563,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -903,7 +903,7 @@
 
 							}
  ],
-						"originid" : "pat-2996"
+						"originid" : "pat-4628"
 					}
 ,
 					"patching_rect" : [ 12.0, 181.0, 121.0, 22.0 ],
@@ -1192,7 +1192,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1617,7 +1617,7 @@
 
 							}
  ],
-						"originid" : "pat-3002"
+						"originid" : "pat-4634"
 					}
 ,
 					"patching_rect" : [ 765.0, 164.333337999999969, 87.0, 22.0 ],
@@ -1626,21 +1626,6 @@
 					}
 ,
 					"text" : "p imubu-setup"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 23.666663999999997, 434.0, 72.0, 22.0 ],
-					"text" : "camu.target"
 				}
 
 			}
@@ -1703,18 +1688,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"hidden" : 1,
-					"order" : 1,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-95", 2 ],
 					"hidden" : 1,
-					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1762,7 +1737,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-95", 3 ],
 					"hidden" : 1,
-					"midpoints" : [ 654.5, 709.0, 634.833374000000049, 709.0, 634.833374000000049, 208.200012000000015, 127.166663999999997, 208.200012000000015 ],
+					"midpoints" : [ 654.5, 709.0, 634.833374000000049, 709.0, 634.833374000000049, 208.200012000000015, 135.5, 208.200012000000015 ],
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -1811,7 +1786,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-95", 1 ],
-					"midpoints" : [ 547.166663999999969, 647.0, 626.833330666666598, 647.0, 626.833330666666598, 208.999985000000038, 64.499997333333326, 208.999985000000038 ],
+					"midpoints" : [ 547.166663999999969, 647.0, 626.833330666666598, 647.0, 626.833330666666598, 208.999985000000038, 72.833333333333329, 208.999985000000038 ],
 					"order" : 1,
 					"source" : [ "obj-30", 2 ]
 				}
@@ -1861,13 +1836,6 @@
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -2088,20 +2056,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 80.166663999999997, 431.200012000000015, 588.333374000000049, 431.200012000000015, 588.333374000000049, 183.333327999999995, 654.5, 183.333327999999995 ],
+					"midpoints" : [ 88.5, 431.200012000000015, 588.333374000000049, 431.200012000000015, 588.333374000000049, 183.333327999999995, 654.5, 183.333327999999995 ],
 					"source" : [ "obj-95", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-95", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-2948",
+		"originid" : "pat-4580",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
