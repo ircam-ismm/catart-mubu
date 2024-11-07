@@ -2,7 +2,7 @@ Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
 ____________________________________________________
-CataRT-Mubu v1.6		31.10.2024
+CataRT-Mubu v1.6		6.11.2024
 
 - camu.export.segments / camu.export.segments.ordered: new generalised segment exporter patches (see tuts 5a/b)
 - catart-mubu-tutorial 13a/b: new tutorials how to import and merge external descriptors
