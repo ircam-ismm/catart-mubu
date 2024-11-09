@@ -2,51 +2,25 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 896.0, 708.0, 1564.0, 693.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 278.755522999999926, 36.0, 185.0, 22.0 ],
-					"text" : "port off, port \"LinnStrument MIDI\""
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 30.0, 154.0, 138.0, 22.0 ],
+					"text" : "t i b"
 				}
 
 			}
@@ -74,43 +48,29 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 1162.0, 859.0, 404.0, 336.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 44.0, 55.0, 34.0, 22.0 ],
+									"text" : "sel 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-6",
@@ -118,8 +78,8 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 44.0, 31.0, 30.0, 30.0 ]
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 44.0, 10.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -190,6 +150,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
@@ -197,20 +164,18 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-6", 0 ]
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5501"
 					}
 ,
-					"patching_rect" : [ 953.506296749999819, 142.233398000000022, 66.0, 22.0 ],
+					"patching_rect" : [ 948.506296749999819, 185.766601999999921, 66.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p welcome"
@@ -238,42 +203,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 109.0, 154.0, 588.0, 373.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -505,15 +444,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5503"
 					}
 ,
 					"patching_rect" : [ 241.503128000000004, 205.0, 160.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p split-zones"
@@ -530,42 +467,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1091.0, 79.0, 737.0, 414.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 134.0, 159.0, 737.0, 414.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -934,15 +845,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5505"
 					}
 ,
 					"patching_rect" : [ 241.503128000000004, 142.233398000000022, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Linnstrument-pads"
@@ -978,11 +887,12 @@
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
 					"id" : "obj-179",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1357.260046749999674, 464.0, 64.0, 21.0 ],
-					"text" : "ctlout none"
+					"patching_rect" : [ 1357.0, 464.0, 139.0, 33.0 ],
+					"text" : "ctlout \"LinnStrument MIDI\" @matchport 1"
 				}
 
 			}
@@ -993,7 +903,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1051.726908749999893, 288.0, 208.0, 22.0 ],
+					"patching_rect" : [ 1055.726908749999893, 281.266601999999921, 208.0, 22.0 ],
 					"text" : "route 0 1 2"
 				}
 
@@ -1029,7 +939,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1059.818934249999984, 363.0, 157.326995000000124, 22.0 ],
+					"patching_rect" : [ 1055.726908749999893, 363.0, 157.326995000000124, 22.0 ],
 					"text" : "unjoin 3"
 				}
 
@@ -1302,7 +1212,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1307.599646749999692, 313.766601999999921, 91.0, 22.0 ],
-					"text" : "127 100 9"
+					"text" : "0 64 2"
 				}
 
 			}
@@ -1342,42 +1252,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 259.0, 637.0, 831.0, 673.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-26",
@@ -1471,42 +1355,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-56",
@@ -1651,11 +1509,12 @@
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 295.244476999999961, 215.0, 167.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 1,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -1801,15 +1660,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-5517"
 									}
 ,
 									"patching_rect" : [ 559.755523000000039, 427.0, 69.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p ls-display"
@@ -2650,15 +2507,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5515"
 					}
 ,
 					"patching_rect" : [ 1055.726908749999893, 431.0, 365.533137999999667, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p beat-strips"
@@ -2796,43 +2651,30 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 850.0, 616.0, 1403.0, 803.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 1597.0, 507.0, 820.0, 811.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 568.0, 132.0, 141.0, 22.0 ],
+									"text" : "port \"LinnStrument MIDI\""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-8",
@@ -2877,7 +2719,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 340.30000114440918, 10.433395901916583, 30.0, 30.0 ]
+									"patching_rect" : [ 281.199999094009399, 10.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -2886,11 +2728,12 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-15",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 100.199999094009399, 241.633396605251392, 138.0, 21.0 ],
-									"text" : "ctlout \"LinnStrument MIDI\""
+									"patching_rect" : [ 100.0, 241.633396605251392, 138.0, 33.0 ],
+									"text" : "ctlout \"LinnStrument MIDI\" @matchport 1"
 								}
 
 							}
@@ -2899,10 +2742,10 @@
 									"id" : "obj-14",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 4,
-									"outlettype" : [ "int", "bang", "int", "int" ],
-									"patching_rect" : [ 9.80000114440918, 98.433396319149097, 290.199993848800659, 22.0 ],
-									"text" : "t i b i i"
+									"numoutlets" : 5,
+									"outlettype" : [ "int", "bang", "int", "int", "bang" ],
+									"patching_rect" : [ 10.0, 98.433396319149097, 469.666666666666686, 22.0 ],
+									"text" : "t i b i i b"
 								}
 
 							}
@@ -2925,7 +2768,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "int" ],
-									"patching_rect" : [ 100.199999094009399, 140.2333977615815, 138.0, 22.0 ],
+									"patching_rect" : [ 100.0, 132.0, 138.0, 22.0 ],
 									"text" : "uzi 8"
 								}
 
@@ -2938,7 +2781,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 9.80000114440918, 40.833397070167621, 24.0, 24.0 ]
+									"patching_rect" : [ 9.80000114440918, 40.833397070167621, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -2961,7 +2805,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.399998247623444, 269.233398000000079, 614.0, 47.0 ],
+									"patching_rect" : [ 4.0, 312.600005388259888, 614.0, 47.0 ],
 									"text" : "CC 10       Configure User Firmware X-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 11       Configure User Firmware Y-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 12       Configure User Firmware Z-axis data, the channel specifies the row, default is off (0: disable, 1: enable)"
 								}
 
@@ -2973,7 +2817,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ -4.800000071525574, 361.600005388259888, 684.0, 2151.0 ],
+									"patching_rect" : [ -5.0, 378.0, 684.0, 2151.0 ],
 									"text" : "LinnStrument User Firmware Mode\n===============================\n\nThe intention of user mode is to provide a low level API to access calibrated and normalized LinnStrument sensor data\nover MIDI so that custom applications can be written without requiring firmware changes. Obviously, since MIDI, even\nover USB, is a slower transport than direct CPU access, certain features can't be developed that would need very quick\naccess to the data (like for instance velocity detection). User mode is complemented by the already available MIDI CC\nAPI to control LEDs for user feedback of the custom functionalities through MIDI CC numbers 20, 21, and 22.\n\n\nActivating User Firmware Mode\n=============================\n\nUser Mode can be activated by sending LinnStrument the value 1 for MIDI NRPN 245 on any MIDI channel, sending value 0\nwill turn it off. When User Mode is active, all standard firmware features will be disabled and all LEDs will be turned\noff, except for the Global Settings panel. This panel will only have settings available for Velocity Sensitivity,\nPressure Sensitivity, MIDI I/O and Actions, the others will be disabled. When the Global Settings panel is active, no\nUser Mode nor LED control features will be active. When User Mode is active, the Global Settings switch will be lit\nyellow.\n\nBy default only Cell Presses will be active in User Firmware mode, 3D Touch Data data can be activated for each axis and\nfor each row individually (see below).\n\nBy holding OS Update in Global Settings for half a second when User Mode is active, the user can manually turn off User\nMode and return to the standard firmware mode. When this happens, LinnStrument will send out MIDI NRPN 245 on channel 9\nwith value 0 to notify the external application that user mode is now disabled. OS Update can also be held down in\nstandard firmware mode to manually re-enable User Mode, LinnStrument will then send out MIDI NRPN 245 on channel 9 with\nvalue 1 to notify the external application that user mode is now enabled.\n\nEach time User Mode is activated, it starts from a clean slate, so it's the responsibility of the application to set up\nthe appropriate lights and the configure X-axis slide mode if that's required.\n\n\nCell Presses\n============\n\nIn User Mode, cell presses are tied to a coordinate system using MIDI channels and notes. The rows correspond to\nchannels 1 to 8 with the bottom row being 1, and the columns correspond to the MIDI notes 0 to 25 with the control\nswitches being 0. When a cell is pressed, the corresponding MIDI Note On message is sent with the velocity that is\nconfigured in Global Settings. The velocity is needed since it will not be possible to do any meaningful velocity\ncalculation from the Z data sent over MIDI. When a cell is released the corresponding MIDI Note Off message is sent with\nvelocity 0.\n\n\n3D Touch Data\n=============\n\nThe X, Y and Z data are sent out over MIDI CC messages. X data is global in range, meaning that 0 starts at the left\nedge of LinnStrument and the maximum value is at the right edge. Y and Z data have their own 0-max range for each cell.\n\nThe scheme below has been selected to provide direct access to the expression data of each individual cell, but also to\nmake user mode somewhat useful as a plain MIDI device with 200 expressive 3D controllers. The X data is sent out in 14\nbit by using standard MSB/LSB pairs.\n\nTo enable X data, send MIDI CC message 10 with value 1 to Channels 1 to 8, corresponding to the rows.\nSending value 0 instead will disable X data for a row. The same applies to Y and Z data, using MIDI CC messages 11 and 12\nrespectively.\n\nZ data is sent as Polyphonic Pressure message over channels 1 to 8, which again correspond to the rows. Similarly to the\nnote on message, the Polyphonic Pressure notes 0 to 25, correspond to the columns. The values range from 0 to 127, with\n0 being a cell's lightest possible touch and 127 being the hardest one.\n\nX data is sent over channels 1 to 8, mapped to rows 1 to 8 on the LinnStrument. MIDI CC messages 0 to 25 correspond to\nthe columns and contain the 14 bit MSB part. MIDI CC messages 32 to 57 can be used as the LSB counterparts of messages 0\nto 25 to receive more precise X data. The 14-bit range from the left edge to the right edge is 0 to 4265.\n\nY data is sent over channels 1 to 8, corresponding to the rows. The columns correspond to MIDI CC messages 64 to 89. The\nvalues range from 0 to 127, from the bottom edge to the top edge of a cell. X-axis Slide Mode\n\n\nData decimation\n===============\n\nGiven the amount of data that LinnStrument sends out, it's possible to overload low powered or older receiving devices.\nTurning on MIDI data decimation will increase the time interval between data updates, by default this feature is\ndisabled. Data decimation can be enabled by sending MIDI CC message 13 to LinnStrument, the value corresponds to the\nnumber of milliseconds between data updates.\n\n\nSlide Mode\n==========\n\nA unique feature of LinnStrument is to be able to smoothly slide across cells in the same row. It's impossible to\nachieve this level of smoothness by combining received User Mode MIDI messages, so there's a special mode that can be\nenabled for each row so that it tracks pitch slides across cells like the low row in the standard firmware mode.\n\nWhen this mode is active and a slide transition occurs, MIDI CC 119 will be sent with as value the column of the cell\nthat is transitioning to another cell, the channel containing the row of the transitioning cell. The Note On message of\nthe cell to which the slide transitions will have the same velocity as the first cell in the slide. The Note Off message\nof the cell that is released during a slide transition will have the slide target cell's column as velocity value. The\nslide transition Note Off message will always occur after the Note On message. The combination of these messages allows\nsoftware to perfectly track slides as they occur.\n\nTo enable per-row slide mode, send MIDI CC message 9 with value 1 to Channels 1 to 8, corresponding to the rows.\nSending value 0 instead will disable slide mode for a row.\n\n\nMIDI Message Summary\n====================\n\nOutgoing MIDI messages:\n-----------------------\n\nNote On                      Cell Down, Note Number: Column,  Channel: Row,  Velocity: Strike Velocity\nNote Off                      Cell Up,      Note Number: Column,  Channel: Row,  Velocity: Release Velocity\nPolyphonic Pressure  Z data,        Note Number: Column,  Channel: Row,      Data: Per Cell Z Position\nCC 0-25                     X data,        CC Number: Column,       Channel: Row,      Data: Global X Position MSB\nCC 32-57                   X data,        CC Number-32: Column,  Channel: Row,      Data: Global X Position LSB\nCC 64-89                   Y data,        CC Number-64: Column,  Channel: Row,      Data: Per Cell Y Position\nCC 119                      Cell Slide,                                             Channel: Row,      Data: Transitioning Column\n - After CC 119 Note On    Target Cell,  Note Number: Column,  Channel: Row,  Velocity: First Slide Cell's Velocity\n - After CC 119 Note Off   Source Cell,  Note Number: Column,  Channel: Row,  Velocity: Slide Target Column\n\nConfiguration MIDI messages:\n----------------------------\n\nNRPN 245    Enabling/disabling User Firmware mode (0: disable, 1: enable)\nCC 9        Configure User Firmware X-axis row slide, the channel specifies the row (0: disable, 1: enable)\nCC 10       Configure User Firmware X-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 11       Configure User Firmware Y-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 12       Configure User Firmware Z-axis data, the channel specifies the row, default is off (0: disable, 1: enable)\nCC 13       Configure User Firmware MIDI decimation rate in milliseconds (minimum 12 ms in low power mode)\nCC 20       Column coordinate for cell color change with CC 22 (starts from 0)\nCC 21       Row coordinate for cell color change with CC 22 (starts from 0)\nCC 22       Change the color of the cell with the provided column and row coordinates\n            see color value table in midi.txt, 7+: default color\n\n\nExamples\n========\n\nIn practice a single cell press could result in messages like this in non-slide mode:\n\n\nCh3 Note On 12 Velocity 120\n\nCh3 PolyPressure Key 12 Value Z\nCh3 CC 12 Value X MSB\nCh3 CC 44 Value X LSB\nCh3 CC 76 Value Y\n\nCh3 Note Off 12 Velocity 0\n\nIn practice a cell transition could result in messages like this in slide mode:\n\nCh3 Note On 12 Velocity 120\n\nCh3 PolyPressure Key 12 Value Z\nCh3 CC 12 Value X MSB\nCh3 CC 44 Value X LSB\nCh3 CC 76 Value Y\nCh3 CC 119 Value 12\nCh3 Note On 13 Velocity 120\nCh3 Note Off 12 Velocity 13\nCh3 PolyPressure Key 13 Value Z\nCh3 CC 13 Value X MSB\nCh3 CC 45 Value X LSB\nCh3 CC 77 Value Y\n\nCh3 Note Off 13 Velocity 0"
 								}
 
@@ -2983,11 +2827,12 @@
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
 									"id" : "obj-95",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 287.80000114440918, 241.633396605251392, 138.0, 21.0 ],
-									"text" : "ctlout \"LinnStrument MIDI\""
+									"patching_rect" : [ 348.0, 242.0, 138.0, 33.0 ],
+									"text" : "ctlout \"LinnStrument MIDI\" @matchport 1"
 								}
 
 							}
@@ -2998,7 +2843,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.80000114440918, 166.033396700618823, 218.0, 22.0 ],
+									"patching_rect" : [ 348.0, 166.0, 218.0, 22.0 ],
 									"text" : "jstrigger ( [ a[0] & 127\\, a[0] >> 7\\, a[1] ] )"
 								}
 
@@ -3010,7 +2855,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.80000114440918, 139.033396700618823, 45.0, 22.0 ],
+									"patching_rect" : [ 348.0, 132.0, 45.0, 22.0 ],
 									"text" : "245 $1"
 								}
 
@@ -3022,7 +2867,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.80000114440918, 202.033396700618823, 135.0, 22.0 ],
+									"patching_rect" : [ 348.0, 202.0, 135.0, 22.0 ],
 									"text" : "$1 98, $2 99, $3 38, 0 6"
 								}
 
@@ -3036,7 +2881,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 442.029195670288004, 193.633396605251392, 215.00827000000001, 69.0 ],
+									"patching_rect" : [ 497.0, 242.0, 215.00827000000001, 69.0 ],
 									"text" : "1. set LS to user mode via NRPN 245 1:\nCC#98 sets the NRPN Number LSB\nCC#99 sets the NRPN Number MSB\nCC#38 sets the NRPN value LSB\nCC#6 sets the NRPN value MSB",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -3074,6 +2919,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"midpoints" : [ 577.5, 234.797167052625696, 109.5, 234.797167052625696 ],
+									"order" : 1,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 0 ],
+									"midpoints" : [ 577.5, 235.56640625, 357.5, 235.56640625 ],
+									"order" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
@@ -3090,6 +2953,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-14", 4 ]
 								}
 
 							}
@@ -3177,15 +3047,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5523"
 					}
 ,
-					"patching_rect" : [ 30.249999999999986, 142.233398000000022, 138.0, 22.0 ],
+					"patching_rect" : [ 30.0, 126.0, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Linnstrument-takeover"
@@ -3200,7 +3068,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.249999999999986, 75.0, 34.0, 34.0 ]
+					"patching_rect" : [ 30.249999999999986, 75.0, 34.0, 34.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -3226,42 +3095,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 733.0, 1680.0, 667.0, 477.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 1018.0, 1680.0, 667.0, 477.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -3284,42 +3128,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 685.0, 1496.0, 1124.0, 787.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
+										"rect" : [ 134.0, 159.0, 1124.0, 787.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-37",
@@ -3428,7 +3246,8 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 637.0, 477.0, 32.0, 32.0 ]
+													"patching_rect" : [ 637.0, 477.0, 32.0, 32.0 ],
+													"svg" : ""
 												}
 
 											}
@@ -3698,11 +3517,12 @@
 													"id" : "obj-20",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 724.0, 175.0, 197.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 1,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -3768,11 +3588,12 @@
 													"id" : "obj-4",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
+													"numoutlets" : 5,
+													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 339.0, 56.0, 135.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0,
+														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
 													}
@@ -4356,15 +4177,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-5527"
 									}
 ,
 									"patching_rect" : [ 25.340184000000249, 62.0, 75.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p lookup-rgb"
@@ -4558,15 +4377,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5525"
 					}
 ,
 					"patching_rect" : [ 1024.80313000000001, 216.766601999999921, 111.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p jit-to-linnstrument"
@@ -4581,8 +4398,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1024.80313000000001, 243.766601999999921, 64.0, 21.0 ],
-					"text" : "ctlout none"
+					"patching_rect" : [ 1024.80313000000001, 243.766601999999921, 211.0, 21.0 ],
+					"text" : "ctlout \"LinnStrument MIDI\" @matchport 1"
 				}
 
 			}
@@ -4609,42 +4426,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 168.0, 453.0, 1095.0, 932.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-70",
@@ -4655,42 +4446,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-67",
@@ -4730,7 +4495,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-14",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -4812,15 +4576,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-5531"
 									}
 ,
 									"patching_rect" : [ 137.25, 80.0, 80.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p check-track"
@@ -4908,7 +4670,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 568.0, 553.666655999999989, 215.0, 22.0 ],
+									"patching_rect" : [ 568.0, 553.666655999999989, 215.0, 35.0 ],
 									"text" : "mubu.track.get #1 #2 size"
 								}
 
@@ -5004,7 +4766,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 272.5, 41.0, 99.0, 22.0 ],
-									"text" : "5 2 0"
+									"text" : "-1 -1 0"
 								}
 
 							}
@@ -5182,7 +4944,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.433349600000042, 142.0, 99.0, 22.0 ],
-									"text" : "5 2 0"
+									"text" : "-1 -1 0"
 								}
 
 							}
@@ -5232,42 +4994,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 84.0, 489.0, 472.0, 413.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-4",
@@ -5356,7 +5092,7 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-42",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
@@ -5439,15 +5175,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-5535"
 									}
 ,
 									"patching_rect" : [ 204.5, 257.0, 89.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p for-all-buffers"
@@ -5464,42 +5198,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 814.0, 302.0, 592.0, 597.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-3",
@@ -5592,42 +5300,16 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
 														"rect" : [ 933.0, 909.0, 640.0, 480.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"id" : "obj-8",
@@ -6071,15 +5753,13 @@
 																}
 
 															}
- ]
+ ],
+														"originid" : "pat-5539"
 													}
 ,
 													"patching_rect" : [ 152.5, 363.0, 159.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p get-min-max"
@@ -6120,42 +5800,16 @@
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
-															"major" : 8,
-															"minor" : 5,
-															"revision" : 6,
+															"major" : 9,
+															"minor" : 0,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
 ,
 														"classnamespace" : "box",
 														"rect" : [ 84.0, 129.0, 472.0, 413.0 ],
-														"bglocked" : 0,
-														"openinpresentation" : 0,
-														"default_fontsize" : 12.0,
-														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"gridonopen" : 1,
 														"gridsize" : [ 15.0, 15.0 ],
-														"gridsnaponopen" : 1,
-														"objectsnaponopen" : 1,
-														"statusbarvisible" : 2,
-														"toolbarvisible" : 1,
-														"lefttoolbarpinned" : 0,
-														"toptoolbarpinned" : 0,
-														"righttoolbarpinned" : 0,
-														"bottomtoolbarpinned" : 0,
-														"toolbars_unpinned_last_save" : 0,
-														"tallnewobj" : 0,
-														"boxanimatetime" : 200,
-														"enablehscroll" : 1,
-														"enablevscroll" : 1,
-														"devicewidth" : 0.0,
-														"description" : "",
-														"digest" : "",
-														"tags" : "",
-														"style" : "",
-														"subpatcher_template" : "",
-														"assistshowspatchername" : 0,
 														"boxes" : [ 															{
 																"box" : 																{
 																	"comment" : "",
@@ -6233,7 +5887,7 @@
 , 															{
 																"box" : 																{
 																	"id" : "obj-42",
-																	"linecount" : 3,
+																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
@@ -6335,15 +5989,13 @@
 																}
 
 															}
- ]
+ ],
+														"originid" : "pat-5541"
 													}
 ,
 													"patching_rect" : [ 152.5, 309.0, 89.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"description" : "",
-														"digest" : "",
-														"globalpatchername" : "",
-														"tags" : ""
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p for-all-buffers"
@@ -6535,15 +6187,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-5537"
 									}
 ,
 									"patching_rect" : [ 563.25, 257.0, 85.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p get-min/max"
@@ -6689,7 +6339,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 204.25, 319.5, 167.0, 22.0 ],
+									"patching_rect" : [ 204.25, 319.5, 167.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"verbose" : 1
 									}
@@ -7456,15 +7106,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-5529"
 					}
 ,
 					"patching_rect" : [ 1024.80313000000001, 47.0, 174.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p draw-corpus"
@@ -7493,7 +7141,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1024.80313000000001, 3.0, 30.0, 30.0 ]
 				}
 
@@ -7506,7 +7154,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 235.753912750000154, 504.0, 177.884181000000012, 22.0 ],
-					"text" : "0 0 0"
+					"text" : "1 2 4.666667 0.428571 0."
 				}
 
 			}
@@ -7651,7 +7299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.831336000000022, 108.733398000000022, 152.0, 19.0 ],
+					"patching_rect" : [ 72.0, 103.0, 152.0, 19.0 ],
 					"text" : "set LS to user firmware mode",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -7984,8 +7632,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}
@@ -7998,7 +7653,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-56", 0 ]
 				}
 
@@ -8188,15 +7843,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 1 ],
-					"hidden" : 1,
-					"order" : 5,
-					"source" : [ "obj-95", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 1,
 					"order" : 1,
@@ -8244,6 +7890,7 @@
 
 			}
  ],
+		"originid" : "pat-5499",
 		"styles" : [ 			{
 				"name" : "tap",
 				"default" : 				{
