@@ -32,7 +32,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 548.0, 895.0, 576.0, 206.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -40,7 +39,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 170.0, 56.0, 144.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "use other descriptor track"
 								}
 
@@ -64,7 +62,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 28.0, 56.0, 77.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "trackid descr"
 								}
 
@@ -109,7 +106,7 @@
 
 							}
  ],
-						"originid" : "pat-601"
+						"originid" : "pat-665"
 					}
 ,
 					"patching_rect" : [ 215.0, 212.0, 105.0, 22.0 ],
@@ -130,8 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 698.0, 109.0, 204.0, 33.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 698.0, 109.0, 206.0, 33.0 ],
 					"text" : "switch interface, camu.imubu.control will handle them all"
 				}
 
@@ -189,7 +185,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 136.0, 241.0, 93.0, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "everything else:\nto knn"
 								}
 
@@ -287,7 +282,7 @@
 
 							}
  ],
-						"originid" : "pat-349"
+						"originid" : "pat-667"
 					}
 ,
 					"patching_rect" : [ 63.666663999999997, 372.0, 46.0, 22.0 ],
@@ -516,7 +511,7 @@
 
 							}
  ],
-						"originid" : "pat-237"
+						"originid" : "pat-670"
 					}
 ,
 					"patching_rect" : [ 361.666663999999969, 372.0, 49.999981333333324, 39.700012000000015 ],
@@ -1102,15 +1097,15 @@
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_followmouse" : 0,
-					"cursor_nearest" : 0,
+					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1352.582621636877093,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 1363.810195974576345, 4675.944625595868274 ],
+					"domain_bounds" : [ 1340.338177724769821, 4646.434607553059323 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1587,7 +1582,7 @@
 
 							}
  ],
-						"originid" : "pat-299"
+						"originid" : "pat-736"
 					}
 ,
 					"patching_rect" : [ 12.0, 181.0, 121.0, 22.0 ],
@@ -1798,7 +1793,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 623.0, 344.0, 742.0, 652.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -2254,7 +2248,7 @@
 
 							}
  ],
-						"originid" : "pat-305"
+						"originid" : "pat-742"
 					}
 ,
 					"patching_rect" : [ 593.0, 167.0, 87.0, 22.0 ],
@@ -2737,7 +2731,7 @@
 
 			}
  ],
-		"originid" : "pat-234",
+		"originid" : "pat-663",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],
