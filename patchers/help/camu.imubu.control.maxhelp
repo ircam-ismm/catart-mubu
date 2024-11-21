@@ -14,6 +14,115 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 548.0, 895.0, 576.0, 206.0 ],
+						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 56.0, 144.0, 20.0 ],
+									"presentation_linecount" : 2,
+									"text" : "use other descriptor track"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 170.0, 25.0, 134.0, 20.0 ],
+									"text" : "change mubu container"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 28.0, 56.0, 77.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "trackid descr"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 28.0, 24.0, 136.0, 22.0 ],
+									"text" : "refer imubu-control-help"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 28.0, 147.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+ ],
+						"originid" : "pat-601"
+					}
+,
+					"patching_rect" : [ 215.0, 212.0, 105.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"globalpatchername" : ""
+					}
+,
+					"text" : "p more-messages"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-34",
@@ -418,11 +527,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-39",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 408.0, 391.700012000000015, 121.0, 20.0 ],
-					"text" : "send back to 1st inlet"
+					"patching_rect" : [ 405.519411087036133, 378.700012000000015, 121.0, 33.0 ],
+					"text" : "send normalized \nx/y to 1st inlet"
 				}
 
 			}
@@ -740,7 +850,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.333314666666666, 396.116499423980713, 63.000000000000028, 35.0 ],
+					"patching_rect" : [ 12.0, 398.0, 63.000000000000028, 35.0 ],
 					"text" : "update, getstddev"
 				}
 
@@ -995,7 +1105,7 @@
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1178.555219402537887,
+					"cursor_position" : 1352.582621636877093,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
@@ -2345,6 +2455,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
@@ -2531,7 +2648,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 208.0, 473.0, 208.0, 473.0, 10.0, 602.5, 10.0 ],
+					"midpoints" : [ 21.5, 208.0, 473.0, 208.0, 473.0, 130.11328125, 602.5, 130.11328125 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -2540,7 +2657,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
-					"midpoints" : [ 21.5, 214.749992500000019, 21.833314666666666, 214.749992500000019 ],
+					"midpoints" : [ 21.5, 214.749992500000019, 21.5, 214.749992500000019 ],
 					"order" : 1,
 					"source" : [ "obj-69", 0 ]
 				}
