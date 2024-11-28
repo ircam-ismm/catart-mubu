@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -27,13 +27,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 48.0, 113.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -267,13 +267,13 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 1053.0, 79.0, 717.0, 480.0 ],
+										"rect" : [ 134.0, 159.0, 717.0, 480.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -451,7 +451,7 @@
 
 											}
  ],
-										"originid" : "pat-4606"
+										"originid" : "pat-214"
 									}
 ,
 									"patching_rect" : [ 285.500012000000083, 327.499985000000038, 93.0, 22.0 ],
@@ -668,9 +668,9 @@
 									"autobounds" : 0,
 									"autorefreshrate" : 0,
 									"autoupdate" : 100.0,
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bufferchooser_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bufferchooser_fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bufferchooser_position" : 1,
 									"bufferchooser_shape" : "buttons",
 									"bufferchooser_size" : 12,
@@ -686,25 +686,25 @@
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : 1284.761558606318204,
+									"cursor_position" : -1.0,
 									"cursor_shape" : "cross",
 									"cursor_size" : 3,
 									"cursor_sizeunit" : 0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 1284.761558606318204, 4640.187317412498487 ],
-									"domainruler_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"domainruler_fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"domain_bounds" : [ 1340.627890221567895, 4646.220247668159573 ],
+									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
 									"domainruler_position" : 0,
 									"domainruler_size" : 15,
 									"domainruler_unit" : 0,
 									"domainruler_visible" : 1,
-									"domainscrollbar_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainscrollbar_size" : 10,
 									"domainscrollbar_visible" : 0,
 									"embed" : 0,
 									"externalfiles" : 1,
-									"foremost" : 1,
+									"foremost" : 2,
 									"freeze" : 0,
 									"id" : "obj-216",
 									"layout" : 0,
@@ -731,20 +731,20 @@
 									"rangeruler_visible" : 1,
 									"refreshrate" : 100.0,
 									"region_bounds" : [ 0.0, 0.0 ],
-									"region_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"region_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"region_visible" : 1,
 									"resamplefiles" : 1,
 									"snaprate" : 1000.0,
-									"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"splitbars_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"splitbars_size" : 2,
 									"splitbars_visible" : 1,
-									"tabs_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"tabs_fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"tabs_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tabs_position" : 0,
 									"tabs_size" : 20,
 									"tabs_visible" : 1,
 									"tool" : "cursor",
-									"toolbar_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"toolbar_position" : 1,
 									"toolbar_size" : 30,
 									"toolbar_transposition" : 0,
@@ -876,7 +876,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -891,7 +891,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 129.0, 131.0, 321.0, 31.0 ],
+													"patching_rect" : [ 129.0, 131.0, 337.0, 31.0 ],
 													"text" : "the 'descr' pipo module calculates 7 audio descriptors:\nFrequency Energy Periodicity AC1 Loudness Centroid Spread"
 												}
 
@@ -903,7 +903,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 514.0, 321.600006000000121, 198.0, 19.0 ],
+													"patching_rect" : [ 514.0, 321.600006000000121, 209.0, 19.0 ],
 													"text" : "switch back to 1 slider (not automatic)"
 												}
 
@@ -929,7 +929,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 0,
-													"patching_rect" : [ 248.0, 47.5, 108.0, 21.0 ],
+													"patching_rect" : [ 248.0, 47.5, 121.0, 21.0 ],
 													"text" : "camu.debug analysis"
 												}
 
@@ -955,7 +955,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 0,
-													"patching_rect" : [ 147.0, 283.800003000000061, 108.0, 21.0 ],
+													"patching_rect" : [ 147.0, 283.800003000000061, 121.0, 21.0 ],
 													"text" : "camu.debug analysis"
 												}
 
@@ -1078,8 +1078,6 @@
 											}
 , 											{
 												"box" : 												{
-													"bgcolor" : [ 0.854902, 0.839216, 0.917647, 1.0 ],
-													"color" : [ 0.478431, 0.462745, 0.815686, 1.0 ],
 													"fontface" : 0,
 													"fontname" : "Verdana",
 													"fontsize" : 14.0,
@@ -1090,8 +1088,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "int", "" ],
 													"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
-													"text" : "mubu.process overview-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
-													"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"text" : "mubu.process overview-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1"
 												}
 
 											}
@@ -1228,7 +1225,7 @@
 
 											}
  ],
-										"originid" : "pat-4640"
+										"originid" : "pat-248"
 									}
 ,
 									"patching_rect" : [ 115.333336000000003, 288.0, 129.0, 22.0 ],
@@ -1568,7 +1565,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1993,7 +1990,7 @@
 
 											}
  ],
-										"originid" : "pat-4646"
+										"originid" : "pat-254"
 									}
 ,
 									"patching_rect" : [ 451.166695999999888, 281.375, 87.0, 22.0 ],
@@ -2775,7 +2772,7 @@
 
 							}
  ],
-						"originid" : "pat-4604"
+						"originid" : "pat-208"
 					}
 ,
 					"patching_rect" : [ 62.0, 97.0, 44.0, 22.0 ],
@@ -2799,13 +2796,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 96.0, 113.0, 1372.0, 761.0 ],
 						"bglocked" : 1,
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
@@ -2819,7 +2816,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 80.25, 524.225001871585846, 289.0, 15.0 ],
+									"patching_rect" : [ 79.0, 523.0, 289.0, 15.0 ],
 									"text" : "https://forum.ircam.fr/projects/detail/catart-mubu/",
 									"textoncolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
 									"textovercolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
@@ -3511,7 +3508,7 @@
 
 							}
  ],
-						"originid" : "pat-4648"
+						"originid" : "pat-256"
 					}
 ,
 					"patching_rect" : [ 115.0, 130.0, 72.0, 22.0 ],
@@ -3536,7 +3533,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4540,7 +4537,7 @@
 
 							}
  ],
-						"originid" : "pat-4650"
+						"originid" : "pat-258"
 					}
 ,
 					"patching_rect" : [ 266.0, 212.0, 63.0, 22.0 ],
@@ -4580,7 +4577,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5723,7 +5720,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5901,7 +5898,7 @@
 
 											}
  ],
-										"originid" : "pat-4654"
+										"originid" : "pat-262"
 									}
 ,
 									"patching_rect" : [ 377.25, 619.0, 91.0, 22.0 ],
@@ -6556,7 +6553,7 @@
 
 							}
  ],
-						"originid" : "pat-4652"
+						"originid" : "pat-260"
 					}
 ,
 					"patching_rect" : [ 193.0, 179.0, 83.0, 22.0 ],
@@ -6571,7 +6568,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-4602",
+		"originid" : "pat-206",
 		"parameters" : 		{
 			"obj-2::obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-2::obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
