@@ -24,29 +24,54 @@ function bang ()
     loadbang();
 }
 
-function filter ()
+function refer (mub)
 {
+    mubuname = mub;
+    mubu     = new MubuJS(mubuname);
+
     if (!mubu)
     {
-	var mubu = new MubuJS(mubuname);
-	if (!mubu)
-	{
-	    post('mubu', mubuname, 'does not exist\n');
-	    return;
-	}
+	post('mubu', mubuname, 'does not exist\n');
+	return 0;
     }
+    else
+	return 1;
+}
+
+function trackid (trk)
+{
+    trname   = trk;
+}
+
+// set active to 1
+function reset ()
+{
+    if (!mubu  &&  !refer(mubuname))  return;
+
+    for (var buf = 1; buf <= mubu.numbuffers; buf++)
+    {
+	var track = mubu.gettrack(buf, trname);
+	var ones = Array(track.size);
+	for (var i = 0; i < track.size; i++)
+	    ones[i] = 1;
+	track.setmxcolumn(activecol, 0, ones);
+    }
+    outlet(0, "reset");
+}
+
+function filter ()
+{
+    if (!mubu  &&  !refer(mubuname))  return;
 
     var filtercol  = arguments[0];
     var low        = arguments[1];
     var high       = arguments[2];
     var numbuffers = mubu.numbuffers;
-    post(numbuffers, trname, '\n');
 
     for (var buf = 1; buf <= numbuffers; buf++)
     {
 	var track = mubu.gettrack(buf, trname);
 	var numframes = track.size;
-	post('buf', buf, numframes, track.size, track.matrixcolumnnames, '\n');
 
 	for (var i = 0; i < numframes; i++)
 	{   // check frames
@@ -54,12 +79,9 @@ function filter ()
 
 	    active = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
 	    track.setmxcolumn(activecol, i, active);
-
-	    if (active)
-		post('mx1', mx, '\n');
 	}
     }
-    post('end\n');
+    outlet(0, bang);
 }
 
 loadbang();
