@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 264.0, 1247.0, 754.0 ],
+		"rect" : [ 100.0, 100.0, 1247.0, 754.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -125,7 +125,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -133,6 +133,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 79.0, 842.0, 562.0 ],
 						"openinpresentation" : 1,
+						"default_fontsize" : 9.0,
 						"gridsize" : [ 10.0, 10.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -176,6 +177,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 402.5, 202.633316008651718, 111.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"dirtypatcher" : 1,
 										"embed" : 0,
 										"externalfiles" : 1,
 										"parameter_enable" : 0,
@@ -933,7 +935,7 @@
 
 							}
  ],
-						"originid" : "pat-14088"
+						"originid" : "pat-3160"
 					}
 ,
 					"patching_rect" : [ 11.706458999999995, 300.33332135330204, 121.0, 22.0 ],
@@ -987,7 +989,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1829,7 +1831,7 @@
 
 							}
  ],
-						"originid" : "pat-14092"
+						"originid" : "pat-3164"
 					}
 ,
 					"patching_rect" : [ 593.5, 96.0, 87.0, 22.0 ],
@@ -2007,7 +2009,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2233,7 +2235,7 @@
 
 							}
  ],
-						"originid" : "pat-14096"
+						"originid" : "pat-3168"
 					}
 ,
 					"patching_rect" : [ 38.0, 386.700012000000015, 93.0, 22.0 ],
@@ -2440,16 +2442,25 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 267.551612350541291,
+					"cursor_position" : [ 2527.054204028709137, 892.533941303109827 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
-					"cursor_visible" : 0,
-					"domain_bounds" : [ 207.666671752929688, 1893.0 ],
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
+					"cursor_visible" : 1,
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 851.783113301991648, 5566.474611490039933 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2462,7 +2473,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -2488,7 +2499,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 120.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -2501,7 +2511,7 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "edit",
+					"tool" : "cursor",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
@@ -2582,7 +2592,8 @@
 					"patching_rect" : [ 12.0, 600.0, 483.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 record-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0 @tracknotfoundwarning 0"
@@ -3204,7 +3215,7 @@
 
 			}
  ],
-		"originid" : "pat-14086",
+		"originid" : "pat-3158",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],

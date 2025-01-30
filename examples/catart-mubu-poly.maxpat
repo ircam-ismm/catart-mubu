@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -180,7 +180,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -496,7 +496,7 @@
 
 							}
  ],
-						"originid" : "pat-12776"
+						"originid" : "pat-1046"
 					}
 ,
 					"patching_rect" : [ 140.5, 354.699982000000091, 59.0, 22.0 ],
@@ -580,7 +580,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -766,7 +766,7 @@
 
 							}
  ],
-						"originid" : "pat-12778"
+						"originid" : "pat-1048"
 					}
 ,
 					"patching_rect" : [ 456.5, 449.0, 116.0, 22.0 ],
@@ -910,7 +910,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 729.414530217647439, 336.999999999999943, 143.085469782352448 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 259.799987999999985, 338.256412386894226, 144.085469782352448 ],
@@ -1176,7 +1176,8 @@
 					"patching_rect" : [ 360.5, 1091.0, 173.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ poly-corpus",
@@ -1305,13 +1306,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 215.5, 612.850005745887756, 50.0, 35.0 ],
-					"text" : "voice 10"
+					"patching_rect" : [ 215.5, 612.850005745887756, 50.0, 22.0 ],
+					"text" : "voice 1"
 				}
 
 			}
@@ -1685,14 +1685,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1000.0, 517.0, 886.0, 509.0 ],
+						"rect" : [ 592.0, 439.0, 886.0, 509.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-40",
@@ -1873,7 +1874,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2275,7 +2276,7 @@
 
 											}
  ],
-										"originid" : "pat-13222",
+										"originid" : "pat-1514",
 										"styles" : [ 											{
 												"name" : "tap",
 												"default" : 												{
@@ -2953,7 +2954,7 @@
 
 							}
  ],
-						"originid" : "pat-13214"
+						"originid" : "pat-1506"
 					}
 ,
 					"patching_rect" : [ 10.0, 284.200026999999977, 280.0, 22.0 ],
@@ -3051,7 +3052,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3337,7 +3338,7 @@
 
 							}
  ],
-						"originid" : "pat-13234"
+						"originid" : "pat-1532"
 					}
 ,
 					"patching_rect" : [ 3.666664, 204.0, 83.0, 22.0 ],
@@ -3383,7 +3384,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4506,7 +4507,7 @@
 
 							}
  ],
-						"originid" : "pat-13236"
+						"originid" : "pat-1534"
 					}
 ,
 					"patching_rect" : [ 590.0, 137.0, 87.0, 22.0 ],
@@ -4575,7 +4576,7 @@
 					"presentation_rect" : [ 291.0, 180.0, 115.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 126,
+					"size" : 19,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -4899,16 +4900,25 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -894.588967176964388,
+					"cursor_position" : [ 6513.941327396771158, 0.302841971868446 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 171.506696420010428, 12039.364083631618996 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 4049.522067711685395, 9012.004536019536317 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4921,7 +4931,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -4949,7 +4959,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -5141,6 +5150,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 69.0, 124.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -6326,7 +6336,7 @@
 
 			}
  ],
-		"originid" : "pat-12772",
+		"originid" : "pat-1042",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-206.10::obj-46::obj-34" : [ "number[9]", "number", 0 ],

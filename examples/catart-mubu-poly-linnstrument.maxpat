@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -124,7 +124,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -440,7 +440,7 @@
 
 							}
  ],
-						"originid" : "pat-5543"
+						"originid" : "pat-286"
 					}
 ,
 					"patching_rect" : [ 140.5, 354.699982000000091, 59.0, 22.0 ],
@@ -524,7 +524,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -710,7 +710,7 @@
 
 							}
  ],
-						"originid" : "pat-5545"
+						"originid" : "pat-288"
 					}
 ,
 					"patching_rect" : [ 456.5, 449.0, 116.0, 22.0 ],
@@ -854,7 +854,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 729.414530217647439, 336.999999999999943, 143.085469782352448 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 198.900023999999974, 338.256412386894226, 144.085469782352448 ],
@@ -1120,7 +1120,8 @@
 					"patching_rect" : [ 360.5, 1091.0, 185.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ polinn-corpus",
@@ -1329,7 +1330,7 @@
 					"patching_rect" : [ 905.0, 883.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 675.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 250 ms"
+					"text" : "Duration: 58 ms"
 				}
 
 			}
@@ -1354,7 +1355,7 @@
 					"patching_rect" : [ 583.162391742070554, 883.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 650.799987999999985, 64.5870299734421, 20.0 ],
-					"text" : "Buffer: 1"
+					"text" : "Buffer: 16"
 				}
 
 			}
@@ -1379,7 +1380,7 @@
 					"patching_rect" : [ 705.162391742070554, 883.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 169.0, 650.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 13"
+					"text" : "Index: 0"
 				}
 
 			}
@@ -1404,7 +1405,7 @@
 					"patching_rect" : [ 1032.162391742070668, 883.0, 264.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 268.912963999999988, 650.799987999999985, 237.587036000000012, 20.0 ],
-					"text" : "File: Baritone-vowels-G2-f-lyr-ʊ.wav"
+					"text" : "File: RAINSTK_flt.L.aif"
 				}
 
 			}
@@ -1423,14 +1424,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-64",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 816.0, 883.0, 81.162391742070554, 33.0 ],
+					"patching_rect" : [ 816.0, 883.0, 81.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 675.799987999999985, 94.0, 20.0 ],
-					"text" : "Start: 3250 ms"
+					"text" : "Start: 0 ms"
 				}
 
 			}
@@ -1632,7 +1632,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1820,7 +1820,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2222,7 +2222,7 @@
 
 											}
  ],
-										"originid" : "pat-5989",
+										"originid" : "pat-754",
 										"styles" : [ 											{
 												"name" : "tap",
 												"default" : 												{
@@ -2901,7 +2901,7 @@
 
 							}
  ],
-						"originid" : "pat-5981"
+						"originid" : "pat-746"
 					}
 ,
 					"patching_rect" : [ 10.0, 284.200026999999977, 280.0, 22.0 ],
@@ -2994,7 +2994,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3280,7 +3280,7 @@
 
 							}
  ],
-						"originid" : "pat-6001"
+						"originid" : "pat-772"
 					}
 ,
 					"patching_rect" : [ 3.666664, 204.0, 83.0, 22.0 ],
@@ -3326,7 +3326,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4471,7 +4471,7 @@
 
 							}
  ],
-						"originid" : "pat-6003"
+						"originid" : "pat-774"
 					}
 ,
 					"patching_rect" : [ 590.0, 137.0, 87.0, 22.0 ],
@@ -4540,7 +4540,7 @@
 					"presentation_rect" : [ 294.5, 164.0, 107.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 398,
+					"size" : 19,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -4864,16 +4864,25 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : [ 6841.969829539154489, 0.265682248606001 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 797.218944002634657, 1106.417334652241152 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 4049.522067711685395, 9012.004536019536317 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4886,7 +4895,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -4914,7 +4923,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -5110,6 +5118,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 65.0, 108.5, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -6229,7 +6238,7 @@
 
 			}
  ],
-		"originid" : "pat-5497",
+		"originid" : "pat-240",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-206.10::obj-46::obj-34" : [ "number[15]", "number", 0 ],

@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 723.0, 707.0, 1044.0, 620.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-39",
@@ -58,8 +32,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 54.0, 403.5, 119.0, 47.0 ],
-					"text" : "hit: recall empty flag only, don't care about move here",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "hit: recall empty flag only, don't care about move here"
 				}
 
 			}
@@ -95,8 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.700012000000015, 202.0, 213.999999999999886, 33.0 ],
-					"text" : "hit: unconditional trigger of grain (with new random selection if not empty)",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "hit: unconditional trigger of grain (with new random selection if not empty)"
 				}
 
 			}
@@ -132,8 +104,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 743.700012000000015, 293.0, 149.0, 47.0 ],
-					"text" : "genuine user target input (not reselect because radius changed)",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "genuine user target input (not reselect because radius changed)"
 				}
 
 			}
@@ -144,8 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 354.700011999999901, 416.0, 48.0, 20.0 ],
-					"text" : "empty?",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "empty?"
 				}
 
 			}
@@ -156,8 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 233.100008666666668, 416.0, 78.0, 20.0 ],
-					"text" : "has moved?",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "has moved?"
 				}
 
 			}
@@ -169,7 +138,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 702.700012000000015, 215.5, 24.0, 24.0 ]
+					"patching_rect" : [ 702.700012000000015, 215.5, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -180,8 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 728.700012000000015, 215.5, 57.0, 20.0 ],
-					"text" : "reselect?",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "reselect?"
 				}
 
 			}
@@ -229,8 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 510.700012000000015, 215.5, 149.0, 47.0 ],
-					"text" : "clear camu.random list before reselect in order to detect empty result list",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "clear camu.random list before reselect in order to detect empty result list"
 				}
 
 			}
@@ -242,7 +210,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.600008666666668, 416.0, 24.0, 24.0 ]
+					"patching_rect" : [ 327.600008666666668, 416.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -278,8 +247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.90001866666671, 500.59997599999997, 179.0, 33.0 ],
-					"text" : "actually played grain indices for imubu editor highlight, etc.",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "actually played grain indices for imubu editor highlight, etc."
 				}
 
 			}
@@ -327,8 +295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 691.700012000000015, 371.0, 155.0, 33.0 ],
-					"text" : "empty selection or reselect:\nsuppress retrigger",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "empty selection or reselect:\nsuppress retrigger"
 				}
 
 			}
@@ -364,8 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 691.700012000000015, 114.0, 86.0, 33.0 ],
-					"text" : "right outlet of mubu.knn",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "right outlet of mubu.knn"
 				}
 
 			}
@@ -390,7 +356,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 207.100008666666668, 416.0, 24.0, 24.0 ]
+					"patching_rect" : [ 207.100008666666668, 416.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -402,8 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.700012000000015, 317.5, 141.999999999999886, 33.0 ],
-					"text" : "nearest marker or buffer has changed",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "nearest marker or buffer has changed"
 				}
 
 			}
@@ -415,7 +381,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.100006000000008, 322.0, 24.0, 24.0 ]
+					"patching_rect" : [ 231.100006000000008, 322.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -430,42 +397,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1619.0, 700.0, 733.0, 641.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 1209.0, 679.0, 936.0, 647.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -474,8 +415,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 287.0, 564.0, 201.0, 60.0 ],
-									"text" : "loop through movement filter mode: \n0 off,\n1 on input  (beatmove/loopmove),\n2 on output (fence)",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "loop through movement filter mode: \n0 off,\n1 on input  (beatmove/loopmove),\n2 on output (fence)"
 								}
 
 							}
@@ -499,8 +439,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 541.0, 594.0, 179.0, 33.0 ],
-									"text" : "actually played grain indices for imubu editor highlight, etc.",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "actually played grain indices for imubu editor highlight, etc."
 								}
 
 							}
@@ -595,8 +534,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 220.0, 390.0, 35.0, 20.0 ],
-									"text" : "reset",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "reset"
 								}
 
 							}
@@ -631,8 +569,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 512.0, 19.0, 140.0, 20.0 ],
-									"text" : "grain was triggered",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "grain was triggered"
 								}
 
 							}
@@ -657,7 +594,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 483.0, 24.0, 24.0 ]
+									"patching_rect" : [ 10.0, 483.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -668,8 +606,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 39.0, 487.0, 169.0, 20.0 ],
-									"text" : "switch output on for next grain",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "switch output on for next grain"
 								}
 
 							}
@@ -681,8 +618,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 212.0, 160.0, 90.0, 33.0 ],
-									"text" : "target input has been sent",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "target input has been sent"
 								}
 
 							}
@@ -718,7 +654,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 206.0, 247.0, 24.0, 24.0 ]
+									"patching_rect" : [ 206.0, 247.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -766,8 +703,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 43.0, 589.0, 205.0, 33.0 ],
-									"text" : "to mubu.concat~: mute flag to suppress grain rendering and output",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "to mubu.concat~: mute flag to suppress grain rendering and output"
 								}
 
 							}
@@ -778,8 +714,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 19.0, 109.0, 20.0 ],
-									"text" : "trigger mode label",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "trigger mode label"
 								}
 
 							}
@@ -828,7 +763,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 402.0, 104.0, 24.0, 24.0 ]
+									"patching_rect" : [ 402.0, 104.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -840,8 +776,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 304.0, 160.0, 82.0, 47.0 ],
-									"text" : "alternative: target input has changed",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "alternative: target input has changed"
 								}
 
 							}
@@ -853,8 +788,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 362.0, 6.0, 140.0, 33.0 ],
-									"text" : "nearest marker or buffer output has changed",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "nearest marker or buffer output has changed"
 								}
 
 							}
@@ -865,8 +799,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 206.0, 19.0, 69.0, 20.0 ],
-									"text" : "target input",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "target input"
 								}
 
 							}
@@ -916,8 +849,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 25.0, 211.0, 194.0, 60.0 ],
-									"text" : "movement filter mode: \n0 off,\n1 on input  (beatmove/loopmove),\n2 on output (fence)",
-									"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+									"text" : "movement filter mode: \n0 off,\n1 on input  (beatmove/loopmove),\n2 on output (fence)"
 								}
 
 							}
@@ -1211,6 +1143,7 @@
 
 							}
  ],
+						"originid" : "pat-372",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -2203,16 +2136,12 @@
 								"parentstyle" : "",
 								"multi" : 0
 							}
- ],
-						"bgcolor" : [ 0.666666666666667, 0.666666666666667, 0.666666666666667, 1.0 ]
+ ]
 					}
 ,
 					"patching_rect" : [ 207.100008666666668, 378.0, 257.8000100000001, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p movement-filter"
@@ -2251,8 +2180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 246.100008666666668, 499.59997599999997, 177.0, 47.0 ],
-					"text" : "mute flag: when selection is empty or nothing moved, mute output, but keep period running",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "mute flag: when selection is empty or nothing moved, mute output, but keep period running"
 				}
 
 			}
@@ -2263,8 +2191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 119.100006000000008, 535.0, 78.0, 20.0 ],
-					"text" : "buffer index",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "buffer index"
 				}
 
 			}
@@ -2275,8 +2202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.300003000000004, 535.0, 78.0, 20.0 ],
-					"text" : "marker index",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "marker index"
 				}
 
 			}
@@ -2288,8 +2214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 504.700012000000015, 114.0, 119.0, 33.0 ],
-					"text" : "list of corresponding distances",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "list of corresponding distances"
 				}
 
 			}
@@ -2314,8 +2239,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.300003000000004, 3.5, 656.0, 100.0 ],
-					"text" : "camu.random,filter inputs lists of marker and buffer indices, distances, and feedback (sent by mubu.knn). \ncamu.random then chooses one (marker, buffer)-pair according to different strategies, while applying movement filtering \n\nOptions: @mode ('first' | 'random' | 'urn')   to choose strategy:  \n                  first: take first (no random)\n                  random: random selection, no control of repetition\n                  urn: random selection, without repetition",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "camu.random,filter inputs lists of marker and buffer indices, distances, and feedback (sent by mubu.knn). \ncamu.random then chooses one (marker, buffer)-pair according to different strategies, while applying movement filtering \n\nOptions: @mode ('first' | 'random' | 'urn')   to choose strategy:  \n                  first: take first (no random)\n                  random: random selection, no control of repetition\n                  urn: random selection, without repetition"
 				}
 
 			}
@@ -2341,7 +2265,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 815.000051940093954, 175.0, 24.0, 24.0 ]
+					"patching_rect" : [ 815.000051940093954, 175.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -2367,8 +2292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.000020503997803, 7.0, 126.0, 100.0 ],
-					"text" : "<list: marker, buffer>: current marker, buffer and play <flag>: \nplay state message from mubu.concat~ (must be enabled by @outputstate 1)",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "<list: marker, buffer>: current marker, buffer and play <flag>: \nplay state message from mubu.concat~ (must be enabled by @outputstate 1)"
 				}
 
 			}
@@ -2393,8 +2317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 844.000020503997803, 237.333335161209106, 115.524474263191223, 47.0 ],
-					"text" : "retrigger random choice when in periodic play mode",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "retrigger random choice when in periodic play mode"
 				}
 
 			}
@@ -2430,8 +2353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 288.700012000000015, 114.0, 155.399993999999992, 33.0 ],
-					"text" : "list of corresponding buffer indices from mubu.knn",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "list of corresponding buffer indices from mubu.knn"
 				}
 
 			}
@@ -2443,8 +2365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.100006000000008, 114.0, 209.600006000000008, 47.0 ],
-					"text" : "list of marker indices from mubu.knn, bang for retrigger, or\nclear for empty selection",
-					"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
+					"text" : "list of marker indices from mubu.knn, bang for retrigger, or\nclear for empty selection"
 				}
 
 			}
@@ -2803,6 +2724,7 @@
 
 			}
  ],
+		"originid" : "pat-370",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -3795,10 +3717,7 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ],
-		"textcolor" : [ 0.094117647058824, 0.094117647058824, 0.094117647058824, 0.0 ],
-		"clearcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-		"bgcolor" : [ 0.666666666666667, 0.666666666666667, 0.666666666666667, 1.0 ]
+ ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -406,7 +406,7 @@
 
 							}
  ],
-						"originid" : "pat-612"
+						"originid" : "pat-943"
 					}
 ,
 					"patching_rect" : [ 296.039769333333311, 749.499999999999886, 108.0, 22.0 ],
@@ -515,7 +515,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -608,7 +608,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1253,7 +1253,7 @@
 
 											}
  ],
-										"originid" : "pat-616"
+										"originid" : "pat-947"
 									}
 ,
 									"patching_rect" : [ 48.600002000000003, 383.0, 283.000000283386214, 22.0 ],
@@ -1733,7 +1733,7 @@
 
 							}
  ],
-						"originid" : "pat-614"
+						"originid" : "pat-945"
 					}
 ,
 					"patching_rect" : [ 422.99999733333334, 783.913989007472651, 133.0, 22.0 ],
@@ -1768,7 +1768,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 128.039771999999942, 492.0, 184.460228000000058, 22.0 ],
-					"text" : "19"
+					"text" : "5"
 				}
 
 			}
@@ -1909,7 +1909,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2289,7 +2289,7 @@
 
 							}
  ],
-						"originid" : "pat-620"
+						"originid" : "pat-951"
 					}
 ,
 					"patching_rect" : [ 435.626884000000018, 278.413989007472992, 93.0, 22.0 ],
@@ -2638,15 +2638,24 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 1.0, 0.501960784313725, 0.0, 0.54 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.501960784313725, 0.0, 0.83 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 2606.360381725000934,
+					"cursor_position" : [ 2436.326186688121197, 0.202754235539984 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 4093,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.501960784313725, 0.0, 0.5 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
+					"dirtypatcher" : 1,
 					"domain_bounds" : [ 1333.846405965128042, 4569.981085699287178 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2686,7 +2695,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -2830,13 +2838,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 73.0, 79.0, 1173.0, 507.0 ],
+						"default_fontsize" : 10.0,
+						"default_fontname" : "Geneva",
 						"gridsize" : [ 10.0, 10.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -3153,7 +3163,7 @@
 
 							}
  ],
-						"originid" : "pat-664"
+						"originid" : "pat-995"
 					}
 ,
 					"patching_rect" : [ 114.0, 181.0, 121.0, 22.0 ],
@@ -3262,6 +3272,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 147.0, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -3290,7 +3301,8 @@
 					"patching_rect" : [ 113.039779999999951, 659.0, 354.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut2c-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -3464,7 +3476,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3933,7 +3945,7 @@
 
 							}
  ],
-						"originid" : "pat-670"
+						"originid" : "pat-1001"
 					}
 ,
 					"patching_rect" : [ 565.0, 138.0, 87.0, 22.0 ],
@@ -4718,7 +4730,7 @@
 
 			}
  ],
-		"originid" : "pat-610",
+		"originid" : "pat-941",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],

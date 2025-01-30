@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -171,7 +171,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -567,7 +567,7 @@
 
 							}
  ],
-						"originid" : "pat-1566"
+						"originid" : "pat-1677"
 					}
 ,
 					"patching_rect" : [ 113.666663999999997, 512.443036011115964, 112.222213577519739, 22.0 ],
@@ -654,7 +654,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -662,6 +662,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 134.0, 159.0, 462.0, 303.0 ],
 						"openinpresentation" : 1,
+						"default_fontsize" : 9.0,
 						"gridsize" : [ 10.0, 10.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -706,6 +707,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 402.5, 202.633316008651718, 79.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"dirtypatcher" : 1,
 										"embed" : 0,
 										"externalfiles" : 1,
 										"parameter_enable" : 0,
@@ -740,7 +742,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 522.0, 221.5, 100.0, 19.0 ],
+									"patching_rect" : [ 522.0, 221.5, 100.0, 22.0 ],
 									"text" : "deferlow"
 								}
 
@@ -751,7 +753,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 533.0, 287.0, 101.0, 19.0 ],
+									"patching_rect" : [ 533.0, 287.0, 131.0, 22.0 ],
 									"text" : "s tut7-corpus-menu-init"
 								}
 
@@ -763,7 +765,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 526.0, 253.0, 100.0, 19.0 ],
+									"patching_rect" : [ 526.0, 253.0, 100.0, 22.0 ],
 									"text" : "deferlow"
 								}
 
@@ -786,7 +788,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.5, 406.0, 62.0, 19.0 ],
+									"patching_rect" : [ 365.5, 406.0, 77.0, 22.0 ],
 									"text" : "print process"
 								}
 
@@ -997,7 +999,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 402.5, 47.5, 119.0, 19.0 ],
+									"patching_rect" : [ 402.5, 47.5, 119.0, 22.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 1.0, 119.0, 19.0 ],
@@ -1462,7 +1464,7 @@
 
 							}
  ],
-						"originid" : "pat-1576"
+						"originid" : "pat-1687"
 					}
 ,
 					"patching_rect" : [ 113.888877577519736, 316.33332135330204, 121.0, 22.0 ],
@@ -1787,20 +1789,29 @@
 					"continousediting" : 0,
 					"cursor_circleedgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_circlefillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"cursor_circlefilled" : 1,
-					"cursor_circleheight" : 3.0,
-					"cursor_circlewidth" : 3.0,
+					"cursor_circlefilled" : 0,
+					"cursor_circleheight" : 1.0,
+					"cursor_circlewidth" : 1.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : [ 1586.857136755832471, 0.37949953937921 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 0,
+					"cursor_symbolheight" : 1.0,
+					"cursor_symbolwidth" : 1.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 2043.185608693673657, 3187.693674568395636 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 241.075450685405769, 2798.493381449464323 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1813,7 +1824,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -1839,7 +1850,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 120.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -1984,6 +1994,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.888877577519736, 249.666652699813881, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -2023,7 +2034,8 @@
 					"patching_rect" : [ 113.666663999999997, 542.0, 363.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut7-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
@@ -2073,7 +2085,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2675,7 +2687,7 @@
 
 							}
  ],
-						"originid" : "pat-1616"
+						"originid" : "pat-1727"
 					}
 ,
 					"patching_rect" : [ 113.888877577519736, 449.533347280418411, 112.0, 22.0 ],
@@ -2702,7 +2714,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3578,7 +3590,7 @@
 
 							}
  ],
-						"originid" : "pat-1618"
+						"originid" : "pat-1729"
 					}
 ,
 					"patching_rect" : [ 565.0, 149.142857730388641, 87.0, 22.0 ],
@@ -4152,7 +4164,7 @@
 
 			}
  ],
-		"originid" : "pat-1564",
+		"originid" : "pat-1675",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],

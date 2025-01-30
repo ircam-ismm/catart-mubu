@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -272,7 +272,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -607,7 +607,7 @@
 
 							}
  ],
-						"originid" : "pat-3996"
+						"originid" : "pat-3102"
 					}
 ,
 					"patching_rect" : [ 114.0, 288.5, 93.0, 22.0 ],
@@ -894,16 +894,25 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : [ 1804.690217027338122, 0.112295286970967 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 0,
-					"cursor_visible" : 0,
-					"domain_bounds" : [ 71.501060485839844, 2038.6026611328125 ],
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
+					"cursor_visible" : 1,
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 1340.396512389945883, 4646.391445410414235 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -942,7 +951,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -955,7 +963,7 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "edit",
+					"tool" : "cursor",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
@@ -1083,13 +1091,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 73.0, 97.0, 1173.0, 507.0 ],
+						"default_fontsize" : 10.0,
+						"default_fontname" : "Geneva",
 						"gridsize" : [ 10.0, 10.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1366,7 +1376,7 @@
 
 							}
  ],
-						"originid" : "pat-4048"
+						"originid" : "pat-3154"
 					}
 ,
 					"patching_rect" : [ 114.0, 184.0, 121.0, 22.0 ],
@@ -1458,6 +1468,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 156.0, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -1513,7 +1524,8 @@
 					"patching_rect" : [ 113.666663999999997, 634.0, 330.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 taboo-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @varmetro 1"
@@ -1657,7 +1669,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2088,7 +2100,7 @@
 
 							}
  ],
-						"originid" : "pat-4050"
+						"originid" : "pat-3156"
 					}
 ,
 					"patching_rect" : [ 556.666687000000024, 123.499985000000038, 87.0, 22.0 ],
@@ -2799,7 +2811,7 @@
 
 			}
  ],
-		"originid" : "pat-3992",
+		"originid" : "pat-3098",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],

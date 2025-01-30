@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -27,13 +27,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 134.0, 185.0, 1372.0, 761.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -267,7 +267,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -451,7 +451,7 @@
 
 											}
  ],
-										"originid" : "pat-214"
+										"originid" : "pat-3023"
 									}
 ,
 									"patching_rect" : [ 285.500012000000083, 327.499985000000038, 93.0, 22.0 ],
@@ -658,7 +658,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1023.0, 111.5, 248.0, 20.0 ],
-									"text" : "point colour/size descriptor indices,          see"
+									"text" : "point colour/size descriptor choice,          see"
 								}
 
 							}
@@ -682,16 +682,25 @@
 									"cursor_circleheight" : 3.0,
 									"cursor_circlewidth" : 3.0,
 									"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+									"cursor_crossheight" : -1.0,
+									"cursor_crosswidth" : -1.0,
 									"cursor_followmouse" : 1,
 									"cursor_nearest" : 0,
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
-									"cursor_position" : -1.0,
+									"cursor_position" : [ 2628.389731726247192, 0.270515040825603 ],
 									"cursor_shape" : "cross",
-									"cursor_size" : 3,
+									"cursor_size" : 1,
 									"cursor_sizeunit" : 0,
+									"cursor_symbol" : "circle",
+									"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+									"cursor_symbolfilled" : 1,
+									"cursor_symbolheight" : 3.0,
+									"cursor_symbolwidth" : 3.0,
 									"cursor_visible" : 1,
-									"domain_bounds" : [ 1340.627890221567895, 4646.220247668159573 ],
+									"dirtypatcher" : 1,
+									"domain_bounds" : [ 1334.133342228354422, 4569.774315973085322 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"domainruler_grid" : 0,
@@ -730,7 +739,6 @@
 									"rangeruler_size" : 35,
 									"rangeruler_visible" : 1,
 									"refreshrate" : 100.0,
-									"region_bounds" : [ 0.0, 0.0 ],
 									"region_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"region_visible" : 1,
 									"resamplefiles" : 1,
@@ -765,7 +773,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 707.0, 111.5, 146.0, 20.0 ],
-									"text" : "x/y-axis descriptor indices"
+									"text" : "x/y-axis descriptor choice"
 								}
 
 							}
@@ -876,13 +884,15 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 145.0, 97.0, 1173.0, 507.0 ],
+										"default_fontsize" : 10.0,
+										"default_fontname" : "Geneva",
 										"gridsize" : [ 10.0, 10.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -1225,7 +1235,7 @@
 
 											}
  ],
-										"originid" : "pat-248"
+										"originid" : "pat-3057"
 									}
 ,
 									"patching_rect" : [ 115.333336000000003, 288.0, 129.0, 22.0 ],
@@ -1350,6 +1360,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 115.333336000000003, 258.0, 129.0, 22.0 ],
 									"saved_object_attributes" : 									{
+										"dirtypatcher" : 1,
 										"embed" : 0,
 										"externalfiles" : 1,
 										"parameter_enable" : 0,
@@ -1419,7 +1430,8 @@
 									"patching_rect" : [ 115.333336000000003, 572.0, 388.0, 35.0 ],
 									"saved_object_attributes" : 									{
 										"outputstate" : 0,
-										"resampleaudioinput" : 0
+										"resampleaudioinput" : 0,
+										"verbose" : 1
 									}
 ,
 									"text" : "mubu.concat~ 2 overview-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
@@ -1565,7 +1577,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1990,7 +2002,7 @@
 
 											}
  ],
-										"originid" : "pat-254"
+										"originid" : "pat-3063"
 									}
 ,
 									"patching_rect" : [ 451.166695999999888, 281.375, 87.0, 22.0 ],
@@ -2018,18 +2030,8 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor2" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0.0,
-									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor_color1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgfillcolor_proportion" : 0.5,
-									"bgfillcolor_type" : "gradient",
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
-									"gradient" : 1,
 									"id" : "obj-15",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2042,18 +2044,8 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor2" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0.0,
-									"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor_color1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgfillcolor_proportion" : 0.5,
-									"bgfillcolor_type" : "gradient",
 									"fontname" : "Geneva",
 									"fontsize" : 10.0,
-									"gradient" : 1,
 									"id" : "obj-224",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2772,7 +2764,7 @@
 
 							}
  ],
-						"originid" : "pat-208"
+						"originid" : "pat-3017"
 					}
 ,
 					"patching_rect" : [ 62.0, 97.0, 44.0, 22.0 ],
@@ -2796,14 +2788,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 96.0, 113.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 1,
+						"default_fontface" : 2,
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -3508,7 +3501,7 @@
 
 							}
  ],
-						"originid" : "pat-256"
+						"originid" : "pat-3065"
 					}
 ,
 					"patching_rect" : [ 115.0, 130.0, 72.0, 22.0 ],
@@ -3533,7 +3526,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4537,7 +4530,7 @@
 
 							}
  ],
-						"originid" : "pat-258"
+						"originid" : "pat-3067"
 					}
 ,
 					"patching_rect" : [ 266.0, 212.0, 63.0, 22.0 ],
@@ -4577,7 +4570,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5720,7 +5713,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 3,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5898,7 +5891,7 @@
 
 											}
  ],
-										"originid" : "pat-262"
+										"originid" : "pat-3071"
 									}
 ,
 									"patching_rect" : [ 377.25, 619.0, 91.0, 22.0 ],
@@ -6553,7 +6546,7 @@
 
 							}
  ],
-						"originid" : "pat-260"
+						"originid" : "pat-3069"
 					}
 ,
 					"patching_rect" : [ 193.0, 179.0, 83.0, 22.0 ],
@@ -6568,7 +6561,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-206",
+		"originid" : "pat-3015",
 		"parameters" : 		{
 			"obj-2::obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-2::obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],

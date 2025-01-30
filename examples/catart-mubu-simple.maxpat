@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -105,7 +105,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -201,12 +201,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 105.0, 146.0, 157.0, 22.0 ],
-									"text" : "1 10 11  01/11/2024"
+									"text" : "1 10 13 pre1 09/01/2025 11013"
 								}
 
 							}
@@ -282,7 +283,7 @@
 
 							}
  ],
-						"originid" : "pat-13316"
+						"originid" : "pat-3135"
 					}
 ,
 					"patching_rect" : [ 472.5, 195.0, 122.0, 22.0 ],
@@ -433,7 +434,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -582,7 +583,7 @@
 
 							}
  ],
-						"originid" : "pat-13320"
+						"originid" : "pat-3139"
 					}
 ,
 					"patching_rect" : [ 397.500002999999992, 332.900023999999974, 42.999994000000001, 22.0 ],
@@ -1027,7 +1028,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1186,7 +1187,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "list" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 518.0, 35.999999999999972, 30.0, 30.0 ]
 								}
 
@@ -1538,7 +1539,7 @@
 
 							}
  ],
-						"originid" : "pat-13322"
+						"originid" : "pat-3141"
 					}
 ,
 					"patching_rect" : [ 10.0, 284.200026999999977, 231.837608257929475, 22.0 ],
@@ -1654,7 +1655,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 318.200026999999977, 338.256412386894226, 145.799973000000023 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.666663999999997, 225.014531075954437, 338.256412386894226, 119.085469782352448 ],
@@ -1675,7 +1676,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1961,7 +1962,7 @@
 
 							}
  ],
-						"originid" : "pat-13366"
+						"originid" : "pat-3193"
 					}
 ,
 					"patching_rect" : [ 3.666664, 204.0, 83.0, 22.0 ],
@@ -2007,13 +2008,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 554.0, 774.0, 1621.0, 537.0 ],
+						"rect" : [ 34.0, 846.0, 1444.0, 551.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -2709,7 +2710,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 178.600006000000008, 457.582885999999974, 68.0, 22.0 ],
+									"patching_rect" : [ 191.600006000000008, 457.582885999999917, 68.0, 22.0 ],
 									"text" : "print toed2"
 								}
 
@@ -3128,7 +3129,7 @@
 
 							}
  ],
-						"originid" : "pat-13368"
+						"originid" : "pat-3195"
 					}
 ,
 					"patching_rect" : [ 590.0, 137.0, 87.0, 22.0 ],
@@ -3815,16 +3816,25 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 281.01611080401176,
+					"cursor_position" : [ 6440.149376272661357, 0.353462235445812 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 496.781219482421875, 7985.099697144889433 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 695.516249075971587, 12031.079944882150812 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -3837,7 +3847,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -3865,7 +3875,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -4068,6 +4077,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 109.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -4155,7 +4165,8 @@
 					"patching_rect" : [ 10.0, 562.0, 168.0, 118.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1 @tracknotfoundwarning 0"
@@ -5261,7 +5272,7 @@
 
 			}
  ],
-		"originid" : "pat-13314",
+		"originid" : "pat-3133",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],
@@ -5418,6 +5429,12 @@
 , 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

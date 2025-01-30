@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 604.0, 1273.0, 777.0 ],
+		"rect" : [ 39.0, 445.0, 1968.0, 961.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -129,7 +129,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -605,7 +605,7 @@
 
 							}
  ],
-						"originid" : "pat-3318"
+						"originid" : "pat-3145"
 					}
 ,
 					"patching_rect" : [ 606.75, 455.0, 231.0, 22.0 ],
@@ -664,7 +664,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -732,7 +732,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1293,7 +1293,7 @@
 
 											}
  ],
-										"originid" : "pat-3322"
+										"originid" : "pat-3149"
 									}
 ,
 									"patching_rect" : [ 50.0, 255.0, 231.837608257929475, 22.0 ],
@@ -1467,7 +1467,7 @@
 
 							}
  ],
-						"originid" : "pat-3320"
+						"originid" : "pat-3147"
 					}
 ,
 					"patching_rect" : [ 9.0, 514.0, 219.0, 22.0 ],
@@ -1834,11 +1834,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.0, 234.0, 139.0, 33.0 ],
+					"patching_rect" : [ 366.000010907649994, 234.0, 65.0, 60.0 ],
 					"text" : "gettarget: scaled in descriptor values"
 				}
 
@@ -1914,7 +1914,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 358.0, 206.0, 81.0, 21.0 ],
+					"patching_rect" : [ 358.000010669231415, 206.0, 140.499989330768585, 21.0 ],
 					"text" : "route target list"
 				}
 
@@ -2197,13 +2197,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 575.0, 274.0, 831.0, 667.0 ],
+						"rect" : [ 881.0, 297.0, 831.0, 667.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -2288,7 +2288,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2485,50 +2485,6 @@
 													"outlettype" : [ "int" ],
 													"patching_rect" : [ 410.89999790553793, 87.0, 29.0, 22.0 ],
 													"text" : "> 0."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bubble" : 1,
-													"bubbleusescolors" : 1,
-													"id" : "obj-92",
-													"linecount" : 3,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 762.39999790553793, 126.086010992527122, 106.0, 51.0 ],
-													"text" : "set nearest COLOR default==RED",
-													"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-													"bubble" : 1,
-													"bubbleusescolors" : 1,
-													"id" : "obj-91",
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 760.29999581107586, 95.672036290168762, 106.0, 24.0 ],
-													"text" : "set nearest ON",
-													"textcolor" : [ 0.992156862745098, 0.992156862745098, 0.992156862745098, 1.0 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"attr" : "cursor_nearestcolor",
-													"id" : "obj-23",
-													"maxclass" : "attrui",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 610.39999790553793, 97.672036290168762, 150.0, 22.0 ]
 												}
 
 											}
@@ -2933,7 +2889,7 @@
 
 											}
  ],
-										"originid" : "pat-3330"
+										"originid" : "pat-3157"
 									}
 ,
 									"patching_rect" : [ 48.600002000000003, 429.0, 283.000000283386214, 22.0 ],
@@ -2973,13 +2929,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 613.0, 334.586010992527008, 135.0, 49.0 ],
-									"text" : "routepass nearestmarkerindex nearestbufferindex"
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 613.0, 334.586010992527008, 135.0, 62.0 ],
+									"text" : "routepass nearestmarkerindex nearestbufferindex cursor"
 								}
 
 							}
@@ -3226,8 +3182,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-79", 0 ],
 									"source" : [ "obj-11", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-11", 3 ]
 								}
 
 							}
@@ -3413,10 +3376,10 @@
 
 							}
  ],
-						"originid" : "pat-3328"
+						"originid" : "pat-3155"
 					}
 ,
-					"patching_rect" : [ 170.0, 115.0, 207.0, 22.0 ],
+					"patching_rect" : [ 181.0, 115.0, 207.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -4388,7 +4351,7 @@
 
 			}
  ],
-		"originid" : "pat-3316"
+		"originid" : "pat-3143"
 	}
 
 }

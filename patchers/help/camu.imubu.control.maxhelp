@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 1247.0, 754.0 ],
+		"rect" : [ 34.0, 100.0, 1276.0, 766.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -24,7 +24,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -106,7 +106,7 @@
 
 							}
  ],
-						"originid" : "pat-665"
+						"originid" : "pat-4924"
 					}
 ,
 					"patching_rect" : [ 215.0, 212.0, 105.0, 22.0 ],
@@ -156,7 +156,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -282,7 +282,7 @@
 
 							}
  ],
-						"originid" : "pat-667"
+						"originid" : "pat-4926"
 					}
 ,
 					"patching_rect" : [ 63.666663999999997, 372.0, 46.0, 22.0 ],
@@ -364,7 +364,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -511,7 +511,7 @@
 
 							}
  ],
-						"originid" : "pat-670"
+						"originid" : "pat-4929"
 					}
 ,
 					"patching_rect" : [ 361.666663999999969, 372.0, 49.999981333333324, 39.700012000000015 ],
@@ -1079,7 +1079,7 @@
 , 			{
 				"box" : 				{
 					"alignviewbounds" : 0,
-					"autobounds" : 0,
+					"autobounds" : 1,
 					"autorefreshrate" : 0,
 					"autoupdate" : 100.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1100,7 +1100,7 @@
 					"cursor_nearest" : 1,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 1334.734624453874403,
 					"cursor_shape" : "cross",
 					"cursor_size" : 3,
 					"cursor_sizeunit" : 1,
@@ -1157,7 +1157,7 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"tool" : "cursor",
+					"tool" : "select",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
@@ -1242,13 +1242,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 1324.0, 79.0, 626.0, 460.0 ],
+						"default_fontsize" : 10.0,
+						"default_fontname" : "Geneva",
 						"gridsize" : [ 10.0, 10.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1582,7 +1584,7 @@
 
 							}
  ],
-						"originid" : "pat-736"
+						"originid" : "pat-4997"
 					}
 ,
 					"patching_rect" : [ 12.0, 181.0, 121.0, 22.0 ],
@@ -1716,7 +1718,8 @@
 					"patching_rect" : [ 11.666663999999997, 617.0, 409.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 imubu-control-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
@@ -1785,14 +1788,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 623.0, 344.0, 742.0, 652.0 ],
+						"rect" : [ 258.0, 703.0, 742.0, 652.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -1874,11 +1878,10 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 46.0, 278.0, 110.0, 49.0 ],
+									"patching_rect" : [ 46.0, 233.0, 199.0, 22.0 ],
 									"text" : "s imubu-control-help-corpus-refresh"
 								}
 
@@ -2248,7 +2251,7 @@
 
 							}
  ],
-						"originid" : "pat-742"
+						"originid" : "pat-5003"
 					}
 ,
 					"patching_rect" : [ 593.0, 167.0, 87.0, 22.0 ],
@@ -2642,7 +2645,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 21.5, 208.0, 473.0, 208.0, 473.0, 130.11328125, 602.5, 130.11328125 ],
+					"midpoints" : [ 473.0, 208.0, 473.0, 130.11328125, 602.5, 130.11328125 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -2731,7 +2734,7 @@
 
 			}
  ],
-		"originid" : "pat-663",
+		"originid" : "pat-4922",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],

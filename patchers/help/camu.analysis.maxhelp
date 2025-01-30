@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 29.0, 87.0, 1218.0, 686.0 ],
+		"rect" : [ 34.0, 87.0, 1218.0, 686.0 ],
 		"gridsize" : [ 5.0, 5.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 86.0, 559.0, 36.0 ],
-					"presentation_linecount" : 4,
 					"text" : "presents an internal menu for choices of analysis and segmentation and loads the corresponding camu.process.<choice>.maxpat in a bpatcher to show the analysis parameters."
 				}
 
@@ -62,7 +61,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 390.0, 185.5, 269.0, 74.0 ],
-					"presentation_linecount" : 8,
 					"text" : "the menu inside camu.analysis (which contains by default all existing camu.process.* patches) can be synchronized with an outside menu by connecting its right outlet and sending it the \"dump\" message (and a default choice)."
 				}
 
@@ -77,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 499.0, 268.0, 199.0, 47.0 ],
-					"presentation_linecount" : 6,
 					"text" : "choose analysis subpatch by index or symbol: this will try to load camu.prodess.<symbol>.maxpat"
 				}
 
@@ -92,7 +89,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 159.0, 347.0, 226.1678466796875, 47.0 ],
-					"presentation_linecount" : 7,
 					"text" : "anything else in left inlet is sent to mubu.process, can be used to set analysis parameters (see pipo modules)"
 				}
 
@@ -105,7 +101,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 145.0, 318.0, 99.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "descr.hopsize $1"
 				}
 
@@ -174,7 +169,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 135.0, 199.0, 175.0, 47.0 ],
-					"presentation_linecount" : 6,
 					"text" : "connect mubu output so that camu.analysis is notified when files/folders are loaded"
 				}
 
@@ -189,7 +183,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 470.0, 401.0, 225.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "arguments: mubu name, audio input track, descriptor output track"
 				}
 
@@ -226,7 +219,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 355.0, 441.0, 87.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "analysis progress 0..1 per buffer"
 				}
 
@@ -332,7 +324,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 114.0, 534.499984999999924, 219.0, 22.0 ],
 					"text" : "camu.select analysis-help-corpus descr"
 				}
@@ -503,16 +495,25 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 1371.752918724124584,
+					"cursor_position" : [ 2659.349531077017673, 0.303964443714652 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 4093,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.1 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 643.33246589207522, 11885.288121266705275 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 1438.048620266773241, 4031.91248129953965 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -525,7 +526,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 2,
+					"foremost" : 0,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -551,7 +552,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -590,7 +590,6 @@
 					"patching_rect" : [ 443.0, 467.0, 164.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 58,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -720,6 +719,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 167.0, 152.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -790,7 +790,8 @@
 					"patching_rect" : [ 114.0, 567.499984999999924, 437.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 analysis-help-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -813,7 +814,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1282,7 +1283,7 @@
 
 							}
  ],
-						"originid" : "pat-2074"
+						"originid" : "pat-2134"
 					}
 ,
 					"patching_rect" : [ 714.0, 142.499985000000038, 87.0, 22.0 ],
@@ -1668,7 +1669,7 @@
 
 			}
  ],
-		"originid" : "pat-1958",
+		"originid" : "pat-2042",
 		"parameters" : 		{
 			"obj-167::obj-34" : [ "number", "number", 0 ],
 			"obj-167::obj-82" : [ "umenu[6]", "umenu", 0 ],
@@ -1740,7 +1741,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-yin.maxpat",
+				"name" : "camu.process.descr-onseg.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../lib",
 				"type" : "JSON",
@@ -1811,6 +1812,12 @@
 , 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0
