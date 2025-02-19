@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 89.0, 375.0, 876.0, 896.0 ],
+		"rect" : [ 89.0, 100.0, 876.0, 848.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -78,7 +78,7 @@
 					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 44.0, 394.850005745887756, 232.0, 442.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 180.785496782352425, 232.0, 442.0 ],
+					"presentation_rect" : [ 0.0, 181.0, 232.0, 507.0 ],
 					"viewvisibility" : 1
 				}
 
