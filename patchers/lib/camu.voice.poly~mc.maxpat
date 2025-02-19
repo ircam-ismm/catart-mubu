@@ -15,21 +15,6 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 185.5, 859.919800000000123, 62.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
-					"text" : "mc.out~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -69,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.0, 860.919800000000123, 348.0, 20.0 ],
+					"patching_rect" : [ 110.0, 861.0, 348.0, 20.0 ],
 					"text" : "mc.out is limited to 128 channels, DUH!  need to split to packets"
 				}
 
@@ -88,9 +73,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "camu.synth.voice-mc.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 4,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "multichannelsignal", "multichannelsignal", "multichannelsignal", "" ],
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 44.0, 394.850005745887756, 232.0, 442.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 180.785496782352425, 232.0, 442.0 ],
@@ -283,10 +268,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 578.0, 820.419800000000009, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 
@@ -433,6 +414,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.0, 31.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -445,6 +430,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 31.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 2"
 				}
 
@@ -457,6 +446,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 262.0, 31.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 3"
 				}
 
@@ -468,22 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 859.919800000000009, 62.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "mc.out~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-204",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 859.919800000000123, 62.0, 22.0 ],
-					"text" : "mc.out~ 2"
 				}
 
 			}
@@ -494,10 +472,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 480.0, 820.419800000000009, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -601,13 +575,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-23", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -615,16 +582,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-204", 0 ],
-					"source" : [ "obj-23", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-46", 3 ],
 					"midpoints" : [ 266.5, 848.5, 456.419872193447077, 848.5, 456.419872193447077, 222.764535963535309, 377.499999999999943, 222.764535963535309 ],
-					"source" : [ "obj-23", 3 ]
+					"source" : [ "obj-23", 1 ]
 				}
 
 			}
@@ -737,7 +697,7 @@
 
 			}
  ],
-		"originid" : "pat-8845"
+		"originid" : "pat-11975"
 	}
 
 }
