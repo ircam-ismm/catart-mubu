@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 489.0, 138.0, 1770.0, 865.0 ],
+		"rect" : [ 1366.0, 121.0, 1770.0, 865.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1042.400015532970428, 96.0, 130.799999713897705, 33.0 ],
+					"patching_rect" : [ 1042.400015532970428, 96.0, 132.0, 33.0 ],
 					"text" : "0 = no arg, use default 120t in gen code"
 				}
 
@@ -351,14 +351,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 1322.0, 307.0, 810.0, 1121.0 ],
+						"rect" : [ 535.0, 273.0, 810.0, 1121.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -458,7 +458,7 @@
 							}
 , 							{
 								"box" : 								{
-									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant (tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nget_next_trig_after (t, t0, p)\r\n{ // return first tick t0 + n * period p > 0 on or after t\r\n\twhile (t0 < t)\r\n\t  t0 += p;\r\n\t\r\n\treturn t0;\r\n}\r\n\t\r\nget_next_period (period, newperiod, tick, lasttrig)\r\n{\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\r\n\treturn period, pendingperiod;\r\n}\r\n\r\n//// state variables ///////////////////////////////////////////\r\nHistory active(0);\r\nHistory period(120);\r\nHistory pendingperiod(120); // period to switch to at next trigger if > 0\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\nHistory lasttrig(-1); // last tick where metro triggered\r\n\r\n// db flag: write lots of params to buffer debugout\r\nParam debug(0);\r\nBuffer debugout; //db \r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, in1, 0); // tick\r\n\tpoke(debugout, tnext, 1);\r\n}\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n//// check changed state variables /////////////////////////////\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\n// changed period?\r\nif (newperiod != period  // period change requested...\r\n    ||  pendingperiod != newperiod)  // ...and not yet scheduled\r\n{// special handling to determine best next tick for period change\r\n\tif (debug)\r\n\t{\r\n\t\tn1=get_next_trig_after(tick, lasttrig, period); poke(debugout, n1, 2); //db\r\n\t\tn2=get_next_trig_after(tick, lasttrig, newperiod); poke(debugout, n2, 3); //db\r\n\t}\r\n\r\n\t// period, pendingperiod = get_next_period(period, newperiod, tick, lasttrig);\r\n\t//workaround gen bug: inlined func:\r\n\t//pendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t\tpendingperiod = period;\r\n\t}\r\n\t\r\n}\r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, period, 4); //db\r\n\tpoke(debugout, pendingperiod, 5);\r\n}\r\n\t\r\n// switched on/off?\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n \r\n//// evaluate metronome: does tick have to trigger?  ///////////////\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n{\r\n\tout2 = active;\t// start tick has passed\r\n\tif (out1 == 0.) \r\n    { // metronome has triggered\r\n  \t\tlasttrig = tick; // remember tick of last trigger\r\n\t\tif (pendingperiod != period)\r\n\t\t{\r\n\t\t\tperiod = pendingperiod;\r\n\t\t\ttnext  = tick + period; // shift origin to start new period\r\n\t\t}\r\n\t}\r\n}\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n// output actual current period\r\nout3 = period;",
+									"code" : "// get next tick on given quantize period (returns tick if tick is divisible by quant)\r\nget_next_quant (tick, quant)\r\n{\r\n\treturn ceil(tick / quant) * quant;\r\n}\r\n\r\nget_next_trig_after (t, t0, p)\r\n{ // return first tick t0 + n * period p > 0 on or after t\r\n\tif (t0 >= t  ||  p <= 0)\r\n\t  return t0; // safety exit\r\n\t\r\n\twhile (t0 < t)\r\n\t  t0 += p;\r\n\t\r\n\treturn t0;\r\n}\r\n\t\r\nget_next_period (period, newperiod, tick, lasttrig)\r\n{\r\n\tpendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t}\r\n\r\n\treturn period, pendingperiod;\r\n}\r\n\r\n//// state variables ///////////////////////////////////////////\r\nHistory active(0);\r\nHistory period(120);\r\nHistory pendingperiod(120); // period to switch to at next trigger if > 0\r\nHistory quant(120);  // quantize period for metro start\r\nHistory tnext(0);\r\nHistory lasttrig(-1); // last tick where metro triggered\r\n\r\n// db flag: write lots of params to buffer debugout\r\nParam debug(0);\r\nBuffer debugout; //db \r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, in1, 0); // tick\r\n\tpoke(debugout, tnext, 1);\r\n}\r\n\r\ntick      = in1; // current tick\r\nswitch    = in2; // on/off request\r\nnewperiod = in3; // period change\r\nnewquant  = in4; // start quantize change\r\n\r\n//// check changed state variables /////////////////////////////\r\n\r\n// changed start quantize\r\nquant = newquant; // no special handling needed (only used on switch)\r\n\r\n// changed period?\r\nif (newperiod != period  // period change requested...\r\n    ||  pendingperiod != newperiod)  // ...and not yet scheduled\r\n{// special handling to determine best next tick for period change\r\n\tif (debug)\r\n\t{\r\n\t\tn1=get_next_trig_after(tick, lasttrig, period); poke(debugout, n1, 2); //db\r\n\t\tn2=get_next_trig_after(tick, lasttrig, newperiod); poke(debugout, n2, 3); //db\r\n\t}\r\n\r\n\t// period, pendingperiod = get_next_period(period, newperiod, tick, lasttrig);\r\n\t//workaround gen bug: inlined func:\r\n\t//pendingperiod = 0; // default: no pending period\r\n    nexttick    = get_next_trig_after(tick, lasttrig, period);\r\n\tnextticknew = get_next_trig_after(tick, lasttrig, newperiod);\r\n\t\r\n\tif (nexttick < nextticknew)\r\n\t{ // finish current period (comes first), then switch to new one\r\n\t \tpendingperiod = newperiod;\r\n\t}\t\r\n\telse\r\n\t{ // switch to new period immediately, will trigger at next wraparound\r\n\t\tperiod = newperiod;\r\n\t\tpendingperiod = period;\r\n\t}\r\n\t\r\n}\r\n\r\nif (debug)\r\n{\r\n\tpoke(debugout, period, 4); //db\r\n\tpoke(debugout, pendingperiod, 5);\r\n}\r\n\t\r\n// switched on/off?\r\nif (switch > active)\r\n{   // switch on\r\n\ttnext  = ceil(tick / quant) * quant; //get_next_quant(tick, quant);\r\n\tactive = switch;\r\n}\r\nelse if (switch < active)\r\n{   // switch off\r\n\tactive = 0;\r\n}\r\n \r\n//// evaluate metronome: does tick have to trigger?  ///////////////\r\nreltick = (tick - tnext);\r\nout1    = reltick % period;\r\n\r\nif (reltick >= 0)\r\n{\r\n\tout2 = active;\t// start tick has passed\r\n\tif (out1 == 0.) \r\n    { // metronome has triggered\r\n  \t\tlasttrig = tick; // remember tick of last trigger\r\n\t\tif (pendingperiod != period)\r\n\t\t{\r\n\t\t\tperiod = pendingperiod;\r\n\t\t\ttnext  = tick + period; // shift origin to start new period\r\n\t\t}\r\n\t}\r\n}\r\nelse\t\r\n\tout2 = 0;\t\t// still waiting for start\r\n\r\n// output actual current period\r\nout3 = period;",
 									"fontface" : 0,
 									"fontname" : "<Monospaced>",
 									"fontsize" : 12.0,
@@ -532,8 +532,7 @@
 								}
 
 							}
- ],
-						"autosave" : 0
+ ]
 					}
 ,
 					"patching_rect" : [ 332.0, 362.0, 296.5, 22.0 ],
@@ -823,8 +822,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1011.75, 1.0, 155.0, 33.0 ],
-					"text" : "quantized metro start interval in notevalues or ms"
+					"patching_rect" : [ 1011.75, 1.0, 175.0, 33.0 ],
+					"text" : "arg #2: quantized metro start interval in notevalues or ms"
 				}
 
 			}
@@ -908,8 +907,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 614.75, 1.0, 141.5, 33.0 ],
-					"text" : "quantized metro period in notevalues or ms"
+					"patching_rect" : [ 614.75, 1.0, 180.868558347225189, 33.0 ],
+					"text" : "arg #1: quantized metro period in notevalues or ms"
 				}
 
 			}
@@ -1186,8 +1185,9 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[4]",
+							"parameter_longname" : "SyncPeriod[2]",
 							"parameter_mmax" : 20,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
 						}
@@ -1304,8 +1304,9 @@
 							"parameter_initial" : [ 7 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "SyncPeriod[3]",
+							"parameter_longname" : "SyncPeriod[1]",
 							"parameter_mmax" : 20,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "SyncPeriod",
 							"parameter_type" : 2
 						}
