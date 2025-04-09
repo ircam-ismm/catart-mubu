@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -13,6 +13,30 @@
 		"rect" : [ 723.0, 707.0, 1044.0, 620.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-95",
+					"int" : 1,
+					"maxclass" : "gswitch2",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 531.0, 456.0, 40.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 577.0, 455.0, 165.0, 22.0 ],
+					"text" : "print camu.random.filter-mute"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -138,8 +162,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 702.700012000000015, 215.5, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 702.700012000000015, 215.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -210,8 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.600008666666668, 416.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 327.600008666666668, 416.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -356,8 +378,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 207.100008666666668, 416.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 207.100008666666668, 416.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -381,8 +402,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.100006000000008, 322.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 231.100006000000008, 322.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -399,7 +419,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -594,8 +614,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 10.0, 483.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 10.0, 483.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -654,8 +673,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 206.0, 247.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 206.0, 247.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -763,8 +781,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 402.0, 104.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 402.0, 104.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1143,7 +1160,6 @@
 
 							}
  ],
-						"originid" : "pat-372",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -2140,10 +2156,6 @@
 					}
 ,
 					"patching_rect" : [ 207.100008666666668, 378.0, 257.8000100000001, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p movement-filter"
 				}
 
@@ -2265,8 +2277,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 815.000051940093954, 175.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 815.000051940093954, 175.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2437,6 +2448,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
+					"order" : 1,
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 1 ],
+					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2723,8 +2743,14 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-95", 1 ]
+				}
+
+			}
  ],
-		"originid" : "pat-370",
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
