@@ -15,7 +15,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-95",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
