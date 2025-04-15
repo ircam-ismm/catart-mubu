@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -27,6 +27,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -48,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -205,15 +206,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-414"
+ ]
 					}
 ,
 					"patching_rect" : [ 593.0, 751.0, 179.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p old-workaround:add-active-col"
 				}
 
@@ -251,6 +247,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 645.0, 39.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -790,7 +787,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 114.0, 438.749634000000015, 169.0, 22.0 ],
 					"text" : "camu.select tut3-corpus descr"
 				}
@@ -844,8 +841,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 156.0, 299.0, 21.0, 21.0 ],
-					"svg" : ""
+					"patching_rect" : [ 156.0, 299.0, 21.0, 21.0 ]
 				}
 
 			}
@@ -1025,16 +1021,25 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -101.142838359899613,
+					"cursor_position" : [ 3469.637520636843419, 0.307488107834488 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 4093,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.1 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 11.325774629237287, 1962.987000028965895 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 20.674852274231991, 7447.273298748468733 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1073,7 +1078,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -1125,7 +1129,7 @@
 					"patching_rect" : [ 269.0, 181.0, 147.0, 49.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 32,
+					"size" : 19,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ],
 					"spacing" : 1
 				}
@@ -1269,6 +1273,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 147.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -1300,7 +1305,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1339,7 +1343,8 @@
 					"patching_rect" : [ 114.0, 582.0, 354.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut3-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1",
@@ -1362,7 +1367,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1467,8 +1472,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -1618,8 +1622,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -1830,15 +1833,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-126"
+ ]
 					}
 ,
 					"patching_rect" : [ 709.0, 137.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -2461,7 +2459,6 @@
 
 			}
  ],
-		"originid" : "pat-8",
 		"parameters" : 		{
 			"obj-167::obj-34" : [ "number", "number", 0 ],
 			"obj-167::obj-82" : [ "umenu[6]", "umenu", 0 ],

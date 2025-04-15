@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -127,8 +127,8 @@
 					"id" : "obj-19",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "clear", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 12.0, 250.273068448410072, 243.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.128198193447105, 259.5, 243.0, 22.0 ],
@@ -413,7 +413,7 @@
 					"patching_rect" : [ 330.837608257929446, 946.0, 121.162391742070554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 171.423068386894215, 652.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 0.36 ms"
+					"text" : "Duration: 0.55 ms"
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"patching_rect" : [ 9.0, 946.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.128198193447105, 582.65002400000003, 141.5870299734421, 20.0 ],
-					"text" : "Buffer: 6"
+					"text" : "Buffer: 10"
 				}
 
 			}
@@ -488,7 +488,7 @@
 					"patching_rect" : [ 458.0, 946.0, 231.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.128198193447105, 608.799987999999985, 231.0, 20.0 ],
-					"text" : "File: n_Hn-ord-C4-mf.wav"
+					"text" : "File: n_TpC-ord-C5-pp.wav"
 				}
 
 			}
@@ -729,8 +729,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2.000008000000008, 396.423062702522316, 21.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.333327999999997, 345.014531075954437, 21.0, 21.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 2.333327999999997, 345.014531075954437, 21.0, 21.0 ]
 				}
 
 			}
@@ -750,7 +749,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "list" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 2.000008000000008, 461.10725936293602, 338.256412386894226, 98.085469782352448 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.333327999999997, 377.014531075954437, 338.256412386894226, 71.085469782352448 ],
@@ -773,7 +772,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1325,8 +1324,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -1490,8 +1488,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -1974,15 +1971,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2670"
+ ]
 					}
 ,
 					"patching_rect" : [ 590.0, 137.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -2336,15 +2328,31 @@
 					"cursor_circleheight" : 0.0,
 					"cursor_circlewidth" : 0.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 0.056384742951907,
+					"cursor_numextracursors" : 0,
+					"cursor_position" : [ 0.433725372624041, 0.508793693937753 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 0.5 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 0.0,
+					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
+					"dirtypatcher" : 1,
 					"domain_bounds" : [ 0.186299994587898, 0.709800004959106 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2358,7 +2366,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 4,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -2386,7 +2394,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 40.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -2503,6 +2510,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 78.128198193447105, 295.0, 115.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -2535,7 +2543,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2574,7 +2581,8 @@
 					"patching_rect" : [ 2.000008000000008, 614.5, 168.0, 102.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut13b-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @outputstate 1"
@@ -3206,13 +3214,13 @@
 
 			}
  ],
-		"originid" : "pat-2614",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
-			"obj-46::obj-34" : [ "number", "number", 0 ],
-			"obj-46::obj-82" : [ "umenu[6]", "umenu", 0 ],
+			"obj-46::obj-34" : [ "number", "Chance", 0 ],
+			"obj-46::obj-56" : [ "reverseprob", "reverseprob", 0 ],
+			"obj-46::obj-82" : [ "umenu[6]", "Trigger", 0 ],
 			"obj-49::obj-113" : [ "umenu[5]", "DescrName", 0 ],
 			"obj-54::obj-113" : [ "umenu[2]", "DescrName", 0 ],
 			"obj-55::obj-113" : [ "umenu[3]", "DescrName", 0 ],
@@ -3377,6 +3385,12 @@
 , 			{
 				"name" : "mubu.track.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0

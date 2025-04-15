@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -112,8 +112,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 227.0, 237.0, 21.0, 21.0 ],
-					"svg" : ""
+					"patching_rect" : [ 227.0, 237.0, 21.0, 21.0 ]
 				}
 
 			}
@@ -148,7 +147,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -272,7 +270,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -326,8 +324,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 27.5, 80.333336000000003, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 27.5, 80.333336000000003, 24.0, 24.0 ]
 								}
 
 							}
@@ -606,15 +603,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1075"
+ ]
 					}
 ,
 					"patching_rect" : [ 114.0, 288.5, 93.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-control"
 				}
 
@@ -827,12 +819,19 @@
 					"cursor_crossheight" : -1.0,
 					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : [ 1961.319418591759586, 0.213454921263271 ],
+					"cursor_numextracursors" : 0,
+					"cursor_position" : [ 1625.685415239428039, 0.208591477306911 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
 					"cursor_symbol" : "circle",
 					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
@@ -1008,7 +1007,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1169,8 +1168,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1188,6 +1186,10 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 516.0, 60.0 ],
+									"saved_object_attributes" : 									{
+										"verbose" : 1
+									}
+,
 									"text" : "mubu.process tut2e-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1292,15 +1294,13 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1111"
+ ]
 					}
 ,
 					"patching_rect" : [ 114.0, 184.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Geneva",
-						"fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p descriptor-analysis"
@@ -1601,7 +1601,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1682,8 +1682,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -1833,8 +1832,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -2031,15 +2029,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-1113"
+ ]
 					}
 ,
 					"patching_rect" : [ 701.666687000000024, 123.499985000000038, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -2727,7 +2720,6 @@
 
 			}
  ],
-		"originid" : "pat-1071",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],

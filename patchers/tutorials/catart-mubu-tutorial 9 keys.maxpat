@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -86,7 +86,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -294,8 +293,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 227.0, 235.999985000000009, 21.0, 21.0 ],
-					"svg" : ""
+					"patching_rect" : [ 227.0, 235.999985000000009, 21.0, 21.0 ]
 				}
 
 			}
@@ -728,12 +726,19 @@
 					"cursor_crossheight" : -1.0,
 					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : [ 2351.750258381701769, 0.26967279709128 ],
+					"cursor_numextracursors" : 0,
+					"cursor_position" : [ 2885.089529499135097, 0.272508380076579 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
 					"cursor_symbol" : "circle",
 					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
@@ -1003,7 +1008,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1182,8 +1187,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 44.0, 144.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1201,6 +1205,10 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
+									"saved_object_attributes" : 									{
+										"verbose" : 1
+									}
+,
 									"text" : "mubu.process tut8-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1323,15 +1331,13 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2267"
+ ]
 					}
 ,
 					"patching_rect" : [ 114.0, 161.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Geneva",
-						"fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p descriptor-analysis"
@@ -1629,7 +1635,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1683,8 +1689,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 739.5, 87.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 739.5, 87.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1830,7 +1835,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2060,9 +2065,16 @@
 													"cursor_crossheight" : -1.0,
 													"cursor_crosswidth" : -1.0,
 													"cursor_followmouse" : 0,
+													"cursor_label" : "",
+													"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"cursor_labelfontsize" : 12,
+													"cursor_labelposition" : 0,
+													"cursor_labelxoffset" : 0,
+													"cursor_labelyoffset" : 0,
 													"cursor_nearest" : 0,
 													"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 													"cursor_noringoffset" : 0,
+													"cursor_numextracursors" : 0,
 													"cursor_position" : [ -1.0, 0.0 ],
 													"cursor_shape" : "bar",
 													"cursor_size" : 3,
@@ -2503,15 +2515,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-2271"
+ ]
 									}
 ,
 									"patching_rect" : [ 135.5, 240.0, 139.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p target-list"
 								}
 
@@ -2571,7 +2578,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2700,6 +2707,10 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "int", "" ],
 													"patching_rect" : [ 154.399993999999992, 278.0, 338.0, 22.0 ],
+													"saved_object_attributes" : 													{
+														"verbose" : 1
+													}
+,
 													"text" : "mubu.process target vector scale @name scaled @process 0"
 												}
 
@@ -2827,15 +2838,10 @@
 												}
 
 											}
- ],
-										"originid" : "pat-2273"
+ ]
 									}
 ,
 									"patching_rect" : [ 135.5, 352.0, 71.0, 21.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
 									"text" : "p rescale"
 								}
 
@@ -3245,15 +3251,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2269"
+ ]
 					}
 ,
 					"patching_rect" : [ 113.666663999999997, 384.200012000000015, 107.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p target"
 				}
 
@@ -3273,7 +3274,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3562,8 +3563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -3727,8 +3727,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -4025,15 +4024,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2275"
+ ]
 					}
 ,
 					"patching_rect" : [ 565.0, 138.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -4818,7 +4812,6 @@
 
 			}
  ],
-		"originid" : "pat-2209",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],

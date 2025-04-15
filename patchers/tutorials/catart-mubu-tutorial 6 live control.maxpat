@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,7 +42,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -118,7 +117,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Soundfile",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -146,12 +144,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.500000000000114, 403.5, 239.0, 47.0 ],
-					"text" : "FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean",
+					"patching_rect" : [ 327.500000000000114, 403.5, 239.0, 60.0 ],
+					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean",
 					"textjustification" : 2
 				}
 
@@ -226,7 +224,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Monitor",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -329,7 +326,7 @@
 					"patching_rect" : [ 580.0, 305.5, 110.0, 93.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 7,
+					"size" : 10,
 					"spacing" : 2
 				}
 
@@ -348,7 +345,7 @@
 					"patching_rect" : [ 456.166655999999989, 305.5, 110.0, 93.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 7,
+					"size" : 10,
 					"spacing" : 2
 				}
 
@@ -433,7 +430,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -441,6 +438,8 @@
 						"classnamespace" : "box",
 						"rect" : [ 1115.0, 1040.0, 472.0, 324.0 ],
 						"openinpresentation" : 1,
+						"default_fontsize" : 10.0,
+						"default_fontname" : "Geneva",
 						"gridsize" : [ 10.0, 10.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -449,7 +448,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 344.0, 411.0, 57.0, 21.0 ],
+									"patching_rect" : [ 344.0, 411.0, 58.0, 22.0 ],
 									"text" : "print pipo"
 								}
 
@@ -530,7 +529,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 402.5, 78.200012000000001, 30.0, 21.0 ],
+									"patching_rect" : [ 402.5, 78.200012000000001, 30.0, 22.0 ],
 									"text" : "t b i"
 								}
 
@@ -542,7 +541,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 522.0, 8.5, 64.0, 21.0 ],
+									"patching_rect" : [ 522.0, 8.5, 70.0, 22.0 ],
 									"text" : "loadmess 1"
 								}
 
@@ -672,7 +671,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 402.5, 47.5, 119.0, 20.0 ],
+									"patching_rect" : [ 402.5, 47.5, 119.0, 22.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 1.0, 119.0, 20.0 ],
@@ -918,15 +917,13 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2128"
+ ]
 					}
 ,
 					"patching_rect" : [ 564.5, 261.499985000000038, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Geneva",
-						"fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p target-analysis",
@@ -991,7 +988,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -999,6 +996,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 498.0, 1045.0, 462.0, 303.0 ],
 						"openinpresentation" : 1,
+						"default_fontsize" : 9.0,
 						"gridsize" : [ 10.0, 10.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -1020,7 +1018,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 522.0, 174.0, 45.0, 19.0 ],
+									"patching_rect" : [ 522.0, 174.0, 54.0, 22.0 ],
 									"text" : "deferlow"
 								}
 
@@ -1057,7 +1055,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.5, 406.0, 62.0, 19.0 ],
+									"patching_rect" : [ 365.5, 406.0, 77.0, 22.0 ],
 									"text" : "print process"
 								}
 
@@ -1268,7 +1266,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 402.5, 47.5, 119.0, 19.0 ],
+									"patching_rect" : [ 402.5, 47.5, 119.0, 22.0 ],
 									"pattrmode" : 1,
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 1.0, 119.0, 19.0 ],
@@ -1436,8 +1434,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 169.0, 8.5, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 216.0, 1.0, 20.0, 20.0 ],
-									"svg" : ""
+									"presentation_rect" : [ 216.0, 1.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1697,14 +1694,12 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2132"
+ ]
 					}
 ,
 					"patching_rect" : [ 111.0, 206.499985000000009, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 9.0,
-						"globalpatchername" : ""
+						"fontsize" : 9.0
 					}
 ,
 					"text" : "p corpus-analysis",
@@ -1745,7 +1740,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Microphone",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2195,16 +2189,32 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : -1.0,
+					"cursor_numextracursors" : 0,
+					"cursor_position" : [ 2150.967220398843892, 0.290331862338452 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ -114.573180481060305, 4614.731482681223497 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 1437.152327378446898, 4326.635901180191468 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -2243,7 +2253,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 0.8, 0.7, 0.7, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -2519,6 +2528,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 156.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -2558,7 +2568,8 @@
 					"patching_rect" : [ 110.666663999999997, 621.0, 365.0, 40.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut6-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1"
@@ -2729,7 +2740,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3029,7 +3040,7 @@
 									"patching_rect" : [ 510.0, 307.0, 110.0, 93.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 7,
+									"size" : 10,
 									"spacing" : 2
 								}
 
@@ -3106,8 +3117,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 317.5, 99.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 317.5, 99.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -3232,7 +3242,7 @@
 									"patching_rect" : [ 387.0, 307.0, 110.0, 93.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 1,
-									"size" : 7,
+									"size" : 10,
 									"spacing" : 2
 								}
 
@@ -3713,15 +3723,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2178"
+ ]
 					}
 ,
 					"patching_rect" : [ 110.666663999999997, 438.200012000000015, 107.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p target"
 				}
 
@@ -3741,7 +3746,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4055,8 +4060,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -4220,8 +4224,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -4518,15 +4521,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2180"
+ ]
 					}
 ,
 					"patching_rect" : [ 738.875, 203.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -5453,7 +5451,6 @@
 
 			}
  ],
-		"originid" : "pat-2126",
 		"parameters" : 		{
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
