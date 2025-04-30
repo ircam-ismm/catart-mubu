@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 50.0, 865.0, 1328.0, 482.0 ],
+		"rect" : [ 268.0, 729.0, 1580.0, 611.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -259,6 +259,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
@@ -782,7 +783,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio descr:onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
+					"text" : "mubu.process #1 audio descr:onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
 				}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 68.0, 378.0, 1298.0, 406.0 ],
+		"rect" : [ 210.0, 425.0, 1653.0, 532.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -259,6 +259,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
@@ -645,17 +646,17 @@
 					"fontname" : "Geneva",
 					"fontsize" : 11.0,
 					"id" : "obj-6",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 392.0, 241.700012000000015, 550.5, 63.0 ],
+					"patching_rect" : [ 392.0, 241.700012000000015, 550.5, 77.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio descr:gate @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1",
+					"text" : "mubu.process #1 audio descr:gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1  @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-gate"
 				}
