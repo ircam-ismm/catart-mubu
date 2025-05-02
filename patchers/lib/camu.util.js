@@ -3,7 +3,9 @@ autowatch = 1;
 var mubu = null;
 var mubuname  = jsarguments[1];
 var trname    = jsarguments[2];
-var activecol = jsarguments[3];
+var manualactivecol = jsarguments[3];
+var rangeactivecol  = jsarguments[4];
+var activecol       = jsarguments[5];
 
 function loadbang  ()
 {
@@ -16,7 +18,9 @@ function loadbang  ()
     post(jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
     mubuname  = jsarguments[1];
     trname    = jsarguments[2];
-    activecol = jsarguments[3];
+    manualactivecol = jsarguments[3];
+    rangeactivecol  = jsarguments[4];
+    activecol       = jsarguments[5];
 }
 
 function bang ()
@@ -54,6 +58,8 @@ function reset ()
 	var ones = Array(track.size);
 	for (var i = 0; i < track.size; i++)
 	    ones[i] = 1;
+	track.setmxcolumn(manualactivecol, 0, ones);
+	track.setmxcolumn(rangeactivecol, 0, ones);
 	track.setmxcolumn(activecol, 0, ones);
     }
     outlet(0, "reset");
@@ -77,8 +83,14 @@ function filter ()
 	{   // check frames
 	    var mx = track.getmatrix(i);
 
-	    active = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
+	    rangeactive = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
+	    track.setmxcolumn(rangeactivecol, i, rangeactive);
+
+	    active = track.getmxcolumn(rangeactivecol,  i, 1) != 0
+ 		 &&  track.getmxcolumn(manualactivecol, i, 1) != 0;
 	    track.setmxcolumn(activecol, i, active);
+
+	    //post("buf ", buf, " idx ", i, " active ", track.getmxcolumn(manualactivecol, i, 1), rangeactive, active, "\n");
 	}
     }
     outlet(0, bang);
