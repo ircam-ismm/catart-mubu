@@ -3,9 +3,14 @@ autowatch = 1;
 var mubu = null;
 var mubuname  = jsarguments[1];
 var trname    = jsarguments[2];
-var manualactivecol = jsarguments[3];
-var rangeactivecol  = jsarguments[4];
-var activecol       = jsarguments[5];
+var activecol = jsarguments[3];
+var addactivecolumns = [];
+
+var rangeactivecol = -1;
+declareattribute("rangeactivecol");
+
+var manualactivecol = -1;
+declareattribute("manualactivecol");
 
 function loadbang  ()
 {
@@ -15,17 +20,25 @@ function loadbang  ()
 	return;
     }
 
-    post(jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
     mubuname  = jsarguments[1];
     trname    = jsarguments[2];
-    manualactivecol = jsarguments[3];
-    rangeactivecol  = jsarguments[4];
-    activecol       = jsarguments[5];
+    activecol = jsarguments[3];
+
+    if (rangeactivecol >= 0)
+	addactivecolumns.push(rangeactivecol);
+    
+    if (manualactivecol >= 0)
+	addactivecolumns.push(manualactivecol);
+    
+    post('loadbang', jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
+    post("  addactivecolumns:", addactivecolumns, '\n');
+    post("  :", jsarguments, '\n');
 }
 
 function bang ()
 {
-    loadbang();
+    post(jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
+    post("  addactivecolumns:", addactivecolumns, '\n');
 }
 
 function refer (mub)
@@ -58,11 +71,38 @@ function reset ()
 	var ones = Array(track.size);
 	for (var i = 0; i < track.size; i++)
 	    ones[i] = 1;
-	track.setmxcolumn(manualactivecol, 0, ones);
-	track.setmxcolumn(rangeactivecol, 0, ones);
 	track.setmxcolumn(activecol, 0, ones);
+
+	for (var j = 0; j < addactivecolumns.length; j++)
+	    track.setmxcolumn(addactivecolumns[j], 0, ones);
     }
     outlet(0, "reset");
+}
+
+// evaluate additional active columns and write to the main activecol
+function updateactive ()
+{
+    if (!mubu  &&  !refer(mubuname))  return;
+
+    for (var buf = 1; buf <= mubu.numbuffers; buf++)
+    {
+	var track = mubu.gettrack(buf, trname);
+	var numframes = track.size;
+
+	for (var i = 0; i < numframes; i++)
+	{   // check frames
+	    var mx = track.getmatrix(i);
+
+	    for (var j = 0; j < addactivecolumns.length; j++)
+	    {   // calculate conjunction of all source active columns
+		var active = 1;
+
+		active = active && mx[addactivecolumns[j]] != 0;
+	    }
+
+	    track.setmxcolumn(activecol, i, active);
+	}
+    }
 }
 
 function filter ()
@@ -96,4 +136,4 @@ function filter ()
     outlet(0, bang);
 }
 
-loadbang();
+// loadbang();
