@@ -4,7 +4,12 @@ var mubu = null;
 var mubuname  = jsarguments[1];
 var trname    = jsarguments[2];
 var activecol = jsarguments[3];
+
+// ATTRIBUTES
+// N.B.: attributes are parsed only on instantiation of js object, not when resaving this code file
+
 var addactivecolumns = [];
+declareattribute("addactivecolumns");
 
 var rangeactivecol = -1;
 declareattribute("rangeactivecol");
@@ -79,7 +84,19 @@ function reset ()
     outlet(0, "reset");
 }
 
-// evaluate additional active columns and write to the main activecol
+// evaluate additional active columns in one frame's matrix
+function getactive (mx)
+{
+    var active = 1;
+    for (var j = 0; j < addactivecolumns.length; j++)
+    {   // calculate conjunction of all source active columns
+	active = active && (mx[addactivecolumns[j]] != 0);
+    }
+
+    return active;
+}
+
+// evaluate additional active columns for all frames and buffers and write to the main activecol
 function updateactive ()
 {
     if (!mubu  &&  !refer(mubuname))  return;
@@ -89,18 +106,11 @@ function updateactive ()
 	var track = mubu.gettrack(buf, trname);
 	var numframes = track.size;
 
+	// check all frames
 	for (var i = 0; i < numframes; i++)
-	{   // check frames
+	{   
 	    var mx = track.getmatrix(i);
-
-	    for (var j = 0; j < addactivecolumns.length; j++)
-	    {   // calculate conjunction of all source active columns
-		var active = 1;
-
-		active = active && mx[addactivecolumns[j]] != 0;
-	    }
-
-	    track.setmxcolumn(activecol, i, active);
+	    track.setmxcolumn(activecol, i, getactive(mx));
 	}
     }
 }
@@ -124,13 +134,11 @@ function filter ()
 	    var mx = track.getmatrix(i);
 
 	    rangeactive = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
+	    //mx[rangeactivecol] = rangeactive;
 	    track.setmxcolumn(rangeactivecol, i, rangeactive);
+	    track.setmxcolumn(activecol, i, getactive(mx));
 
-	    active = track.getmxcolumn(rangeactivecol,  i, 1) != 0
- 		 &&  track.getmxcolumn(manualactivecol, i, 1) != 0;
-	    track.setmxcolumn(activecol, i, active);
-
-	    //post("buf ", buf, " idx ", i, " active ", track.getmxcolumn(manualactivecol, i, 1), rangeactive, active, "\n");
+	    //post("buf ", buf, " idx ", i, mx, " active ", mx[manualactivecol], mx[rangeactivecol], getactive(mx), "\n");
 	}
     }
     outlet(0, bang);
