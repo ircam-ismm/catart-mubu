@@ -25,7 +25,7 @@
 					"patching_rect" : [ 1339.0, 827.0, 388.0, 35.0 ],
 					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
-						"filename" : "camu.util",
+						"filename" : "camu.util.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -503,30 +503,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-156",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1310.0, 430.0, 103.0, 33.0 ],
-					"text" : "bug: shouldn't be necessary"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-154",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1218.0, 430.0, 84.0, 22.0 ],
-					"text" : "bufferindex $2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-153",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -545,7 +521,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 789.0, 212.0, 22.0 ],
-					"text" : "2115.256278 6434.208381"
+					"text" : "-132.803877 -132.803877"
 				}
 
 			}
@@ -820,7 +796,7 @@
 					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 0.0, 15369.79166666666606 ],
+					"domain_bounds" : [ 0.0, 9340.583333333332121 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -833,7 +809,7 @@
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-137",
 					"layout" : 0,
@@ -915,7 +891,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 827.0, 212.0, 22.0 ],
-					"text" : "interface scatterplot"
+					"text" : "bounds -0.024715 0.834488"
 				}
 
 			}
@@ -1079,7 +1055,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1189.0, 741.0, 518.0, 35.0 ],
+					"patching_rect" : [ 1189.0, 741.0, 520.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "camu.util",
 						"parameter_enable" : 0
@@ -1133,7 +1109,7 @@
 					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 340.666671931743622, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.333336710929871, 216.666673123836517, 340.000010132789612, 20.0 ],
-					"text" : "empty"
+					"text" : "loaded 2.16 minutes of audio in 141 segments in 2 buffers."
 				}
 
 			}
@@ -4113,7 +4089,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 1390.726186787978349, 0.387015630290028 ],
+					"cursor_position" : [ 2685.081494393612047, 0.040640951661767 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4125,7 +4101,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 54.579784575525792, 5606.173990951208907 ],
+					"domain_bounds" : [ 1927.607018833236452, 2668.751198900602049 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4138,7 +4114,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -5053,16 +5029,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-154", 0 ],
-					"order" : 0,
-					"source" : [ "obj-134", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"order" : 1,
 					"source" : [ "obj-134", 1 ]
 				}
 
@@ -5151,14 +5118,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
 					"source" : [ "obj-153", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-154", 0 ]
 				}
 
 			}
@@ -5867,17 +5826,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-216", 0 ],
-					"hidden" : 1,
-					"order" : 1,
-					"source" : [ "obj-97", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
 					"source" : [ "obj-97", 0 ]
 				}
 
