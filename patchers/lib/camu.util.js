@@ -3,19 +3,52 @@ autowatch = 1;
 var mubu = null;
 var mubuname  = jsarguments[1];
 var trname    = jsarguments[2];
-var activecol = jsarguments[3];
+var activecolname = jsarguments[3];
+var activecol = -1;
 
 // ATTRIBUTES
 // N.B.: attributes are parsed only on instantiation of js object, not when resaving this code file
 
 var addactivecolumns = [];
+var addactivecolidx  = [];
 declareattribute("addactivecolumns");
 
 var rangeactivecol = -1;
+var rangeactivecolidx = -1;
 declareattribute("rangeactivecol");
 
 var manualactivecol = -1;
+var manualactivecolidx = -1;
 declareattribute("manualactivecol");
+
+// convert all column names to indices, combine in addactivecolidx
+//updatecols.local = 1;
+function updatecols ()
+{
+    if (!mubu  &&  !refer(mubuname))  return;
+
+    var track = mubu.gettrack(1, trname); // assuming same column names over all buffers
+    
+    activecol = getcolindex(track, activecolname);
+
+    addactivecolidx = [];
+    for (var c in addactivecolumns)
+    {
+	//post('add', c, getcolindex(track, addactivecolumns[c]), '\n');
+	addactivecolidx.push(getcolindex(track, addactivecolumns[c]));
+    }
+    
+    manualactivecolidx = getcolindex(track, manualactivecol);
+    if (manualactivecolidx >= 0)
+	addactivecolidx.push(manualactivecolidx);
+
+    rangeactivecolidx = getcolindex(track, rangeactivecol);
+    if (rangeactivecolidx >= 0)
+	addactivecolidx.push(rangeactivecolidx);
+
+    post('updatecols: trname', trname, 'colnames', track.matrixcolnames, '\n');
+    post("  addactivecolumns:", addactivecolumns, '\n  addidx', addactivecolidx, '\n');
+}
 
 function loadbang  ()
 {
@@ -27,23 +60,19 @@ function loadbang  ()
 
     mubuname  = jsarguments[1];
     trname    = jsarguments[2];
-    activecol = jsarguments[3];
+    activecolname = jsarguments[3];
 
-    if (rangeactivecol >= 0)
-	addactivecolumns.push(rangeactivecol);
-    
-    if (manualactivecol >= 0)
-	addactivecolumns.push(manualactivecol);
-    
+    updatecols();
+
     post('loadbang', jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
-    post("  addactivecolumns:", addactivecolumns, '\n');
+    post("  addactivecolumns:", addactivecolumns, '\n  addidx', addactivecolidx, '\n');
     post("  :", jsarguments, '\n');
 }
 
 function bang ()
 {
     post(jsarguments[0], jsarguments[1], jsarguments[2], jsarguments[3], '\n');
-    post("  addactivecolumns:", addactivecolumns, '\n');
+    post("  addactivecolumns:", addactivecolumns, '\n  addidx', addactivecolidx, '\n');
 }
 
 function refer (mub)
@@ -57,12 +86,16 @@ function refer (mub)
 	return 0;
     }
     else
+    {
+	updatecols(); // change of mubu: columns might have changed index
 	return 1;
+    }
 }
 
 function trackid (trk)
 {
     trname   = trk;
+    updatecols(); // change of track: columns might have changed index
 }
 
 // set active to 1
@@ -70,6 +103,8 @@ function reset ()
 {
     if (!mubu  &&  !refer(mubuname))  return;
 
+    updatecols();
+    
     for (var buf = 1; buf <= mubu.numbuffers; buf++)
     {
 	var track = mubu.gettrack(buf, trname);
@@ -78,22 +113,10 @@ function reset ()
 	    ones[i] = 1;
 	track.setmxcolumn(activecol, 0, ones);
 
-	for (var j = 0; j < addactivecolumns.length; j++)
-	    track.setmxcolumn(addactivecolumns[j], 0, ones);
+	for (var i in addactivecolidx)
+	    track.setmxcolumn(addactivecolidx[i], 0, ones);
     }
     outlet(0, "reset");
-}
-
-// evaluate additional active columns in one frame's matrix
-function getactive (mx)
-{
-    var active = 1;
-    for (var j = 0; j < addactivecolumns.length; j++)
-    {   // calculate conjunction of all source active columns
-	active = active && (mx[addactivecolumns[j]] != 0);
-    }
-
-    return active;
 }
 
 // evaluate additional active columns for all frames and buffers and write to the main activecol
@@ -135,13 +158,42 @@ function filter ()
 
 	    rangeactive = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
 	    //mx[rangeactivecol] = rangeactive;
-	    track.setmxcolumn(rangeactivecol, i, rangeactive);
+	    track.setmxcolumn(rangeactivecolidx, i, rangeactive);
 	    track.setmxcolumn(activecol, i, getactive(mx));
 
-	    //post("buf ", buf, " idx ", i, mx, " active ", mx[manualactivecol], mx[rangeactivecol], getactive(mx), "\n");
+	    //post("buf ", buf, " idx ", i, mx, " active ", mx[manualactivecolidx], mx[rangeactivecolidx], getactive(mx), "\n");
 	}
     }
     outlet(0, bang);
+}
+
+//
+// helper functions
+//
+
+// evaluate additional active columns in one frame's matrix
+getactive.local = 1;
+function getactive (mx)
+{
+    var active = 1;
+    for (var i in addactivecolidx)
+    {   // calculate conjunction of all source active columns
+	active = active && (mx[addactivecolidx[i]] != 0);
+    }
+
+    return active;
+}
+
+getcolindex.local = 1;
+function getcolindex (track, name)
+{
+    if (track == null)
+	return -1;
+    
+    if (typeof name === 'string') 
+	return track.matrixcolnames.indexOf(name);
+    else
+	return name;
 }
 
 // loadbang();

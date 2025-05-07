@@ -16,6 +16,25 @@
 		"devicewidth" : 1231.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-135",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1339.0, 827.0, 388.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"saved_object_attributes" : 					{
+						"filename" : "camu.util",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js camu.util corpus descr 16 @manualactivecol 14 @rangeactivecol 15 @addactivecolumns 11 13"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-181",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -34,7 +53,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 106.0, 604.0, 633.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-8",
@@ -42,7 +60,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 370.0, 39.5, 173.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "1 for transient, 0 for permanent"
 								}
 
@@ -528,7 +545,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 789.0, 212.0, 22.0 ],
-					"text" : "1720.058046 4618.178412"
+					"text" : "2115.256278 6434.208381"
 				}
 
 			}
@@ -893,13 +910,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-128",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 749.0, 827.0, 212.0, 35.0 ],
-					"text" : "timeselection 2143.484723 4561.721522"
+					"patching_rect" : [ 749.0, 827.0, 212.0, 22.0 ],
+					"text" : "interface scatterplot"
 				}
 
 			}
@@ -1058,17 +1074,18 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-122",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1189.0, 741.0, 385.0, 22.0 ],
+					"patching_rect" : [ 1189.0, 741.0, 518.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "camu.util",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js camu.util corpus descr 16 @manualactivecol 14 @rangeactivecol 15"
+					"text" : "js camu.util corpus descr active @manualactivecol ManualActive @rangeactivecol RangeActive @addactivecolumns DirectoryActive ClusterActive"
 				}
 
 			}
@@ -1116,7 +1133,7 @@
 					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 340.666671931743622, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.333336710929871, 216.666673123836517, 340.000010132789612, 20.0 ],
-					"text" : "loaded 2.16 minutes of audio in 141 segments in 2 buffers."
+					"text" : "empty"
 				}
 
 			}
@@ -4096,7 +4113,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 1720.05804648823073, 0.274443859735843 ],
+					"cursor_position" : [ 1390.726186787978349, 0.387015630290028 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4121,7 +4138,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 2,
+					"foremost" : 1,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -5216,7 +5233,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-124", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -5224,7 +5241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-181", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-216", 0 ]
 				}
 
