@@ -17,16 +17,16 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 16.671005724101501,
-					"id" : "obj-178",
-					"linecount" : 9,
+					"id" : "obj-173",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1464.0, 425.0, 232.0, 179.0 ],
+					"patching_rect" : [ 3077.0, 1022.0, 238.0, 83.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 1480.0, 459.0, 521.0, 102.0 ],
-					"text" : "Notes\n-When patch starts jit.cellblock does not work. Exit presentation mode-unlock and just stare at the jit.cellblock for a second in order to make it work???\n-after each query, hover over the scatterplot to refresh???"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1458.0, 464.487817525863647, 521.0, 64.0 ],
+					"text" : "Notes\n\n-after each query, hover over the scatterplot to refresh???"
 				}
 
 			}
@@ -208,7 +208,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1593.382322549819946, 799.264690637588501, 508.0, 181.0 ],
+					"patching_rect" : [ 1593.0, 800.0, 646.0, 180.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1246.341493129730225, 600.000014305114746, 562.711877822875977, 165.254241228103638 ]
 				}
@@ -238,12 +238,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.tag.directories-nikos12-UI4.maxpat",
+					"name" : "camu.tag.directories-nikos12-UI7.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1585.542227268218994, 560.97562313079834, 596.5, 171.0 ],
+					"patching_rect" : [ 1586.0, 560.97562313079834, 648.0, 171.02437686920166 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1246.341493129730225, 847.560995817184448, 596.5, 171.0 ],
 					"varname" : "camu.analysis",
@@ -1059,7 +1059,7 @@
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-137",
 					"layout" : 0,
@@ -1142,7 +1142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 852.0, 212.0, 36.0 ],
-					"text" : "timeselection 3000.423565 3000.423565"
+					"text" : "timeselection 6720.339615 6720.339615"
 				}
 
 			}
@@ -1359,7 +1359,7 @@
 					"patching_rect" : [ 138.5, 277.037027955055237, 340.666671931743622, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.333336710929871, 216.666673123836517, 340.000010132789612, 20.0 ],
-					"text" : "empty"
+					"text" : "loaded 14.02 minutes of audio in 900 segments in 14 buffers."
 				}
 
 			}
@@ -4359,7 +4359,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 4026.933621508229407, -0.080527683271572 ],
+					"cursor_position" : [ 11076.757326701574129, 0.400601766990532 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4371,7 +4371,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 285.874749111796234, 7015.218452507820075 ],
+					"domain_bounds" : [ 74.010030018451488, 11058.140156994835706 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -4384,7 +4384,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -4740,7 +4740,7 @@
 					"presentation_rect" : [ 114.000003397464752, 216.666673123836517, 338.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 61,
+					"size" : 81,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ]
 				}
 
@@ -6328,69 +6328,60 @@
 		"dependency_cache" : [ 			{
 				"name" : "camu.analysis.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.cont.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.content-summary.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.tag.directories-nikos12-UI4.maxpat",
-				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples",
+				"name" : "camu.tag.directories-nikos12-UI7.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6398,21 +6389,18 @@
 , 			{
 				"name" : "camu.target.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.util.js",
 				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../patchers/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -6427,7 +6415,6 @@
 , 			{
 				"name" : "mubu.get.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../../Max 9/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
