@@ -155,8 +155,11 @@ function filter ()
 	for (var i = 0; i < numframes; i++)
 	{   // check frames
 	    var mx = track.getmatrix(i);
-
-	    rangeactive = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
+	
+	    if (low == high)
+			rangeactive = 1; // click with range tool (0 size): activate all
+		else	
+	    	rangeactive = (mx[filtercol] >= low  &&  mx[filtercol] <= high);
 	    //mx[rangeactivecol] = rangeactive;
 	    track.setmxcolumn(rangeactivecolidx, i, rangeactive);
 	    track.setmxcolumn(activecol, i, getactive(mx));
