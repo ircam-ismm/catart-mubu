@@ -1,12 +1,19 @@
 Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
-- adapt more colours to Max9 themes
-- start new module camu.input.mpe
-- new tutorial 3b: select note range by MIDI
-- new spat example with direct output to WFS
-- camu.imubu.control: integrate external-control via touch list and normalized coords input and output to 3rd outlet
 
+- new tutorial 3b: select note range by MIDI
+- start new module camu.input.mpe
+
+____________________________________________________
+CataRT-Mubu v1.6.1		6.11.2024
+
+- camu.imubu.control: integrate external-control via 5-element touch list and normalized 2D coords input and output to 3rd outlet
+- camu.analysis: accepts additional column attr (for FilenameNoteNumber and upcoming unit activation features)
+- camu.process*: show window and yin threshold settings, can add additonal columns 
+- camu.process.descr-none: new explicit choice for "take whole file as one segment"
+- new spat example with direct output to WFS
+- adapt more colours to Max9 themes
 
 ____________________________________________________
 CataRT-Mubu v1.6		6.11.2024
