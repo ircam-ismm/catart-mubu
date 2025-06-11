@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -319,8 +319,11 @@
 					"autorefreshrate" : 0,
 					"autoupdate" : 100.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolordefault" : 0,
 					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bufferchooser_bgcolordefault" : 0,
 					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bufferchooser_fgcolordefault" : 0,
 					"bufferchooser_position" : 1,
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
@@ -332,24 +335,43 @@
 					"cursor_circleheight" : 3.0,
 					"cursor_circlewidth" : 3.0,
 					"cursor_color" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
+					"cursor_crossheight" : -1.0,
+					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 1,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : 818.784357628478574,
+					"cursor_numextracursors" : 0,
+					"cursor_position" : [ 1333.904181625574665, 0.385727582433062 ],
 					"cursor_shape" : "cross",
-					"cursor_size" : 3,
+					"cursor_size" : 1,
 					"cursor_sizeunit" : 0,
+					"cursor_symbol" : "circle",
+					"cursor_symboledgecolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfillcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
+					"cursor_symbolfilled" : 1,
+					"cursor_symbolheight" : 3.0,
+					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 64.844202277220646, 2054.034522869155353 ],
+					"dirtypatcher" : 1,
+					"domain_bounds" : [ 1333.904181625574665, 4569.939451862708665 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"domainruler_fgcolordefault" : 0,
 					"domainruler_grid" : 0,
 					"domainruler_position" : 0,
 					"domainruler_size" : 15,
 					"domainruler_unit" : 0,
 					"domainruler_visible" : 1,
 					"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainscrollbar_colordefault" : 0,
 					"domainscrollbar_size" : 10,
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
@@ -380,7 +402,6 @@
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 1,
 					"refreshrate" : 100.0,
-					"region_bounds" : [ 0.0, 0.0 ],
 					"region_color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"region_visible" : 1,
 					"resamplefiles" : 1,
@@ -393,12 +414,15 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
+					"tabsbgcolordefault" : 1,
+					"tabsfgcolordefault" : 1,
 					"tool" : "cursor",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
 					"toolbar_transposition" : 0,
 					"toolbar_visible" : 2,
+					"toolbarbgcolordefault" : 0,
 					"useplaceholders" : 1,
 					"varname" : "editor",
 					"verbose" : 1,
@@ -513,13 +537,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 134.0, 159.0, 1173.0, 507.0 ],
+						"default_fontsize" : 10.0,
+						"default_fontname" : "Geneva",
 						"gridsize" : [ 10.0, 10.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -528,7 +554,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 514.0, 321.600006000000121, 209.0, 20.0 ],
+									"patching_rect" : [ 514.0, 321.600006000000121, 209.0, 19.0 ],
 									"text" : "switch back to 1 slider (not automatic)"
 								}
 
@@ -542,8 +568,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 367.0, 46.0, 24.0, 24.0 ],
-									"svg" : ""
+									"patching_rect" : [ 367.0, 46.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -554,7 +579,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 248.0, 47.5, 121.0, 22.0 ],
+									"patching_rect" : [ 248.0, 47.5, 121.0, 21.0 ],
 									"text" : "camu.debug analysis"
 								}
 
@@ -567,7 +592,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 409.0, 320.600006000000064, 100.0, 22.0 ],
+									"patching_rect" : [ 409.0, 320.600006000000064, 100.0, 21.0 ],
 									"text" : "loadmess size 1"
 								}
 
@@ -687,6 +712,10 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "int", "" ],
 									"patching_rect" : [ 10.0, 177.0, 584.0, 60.0 ],
+									"saved_object_attributes" : 									{
+										"verbose" : 1
+									}
+,
 									"text" : "mubu.process tut1-corpus audio descr:chop @name descr @process 0 @progressoutput input @timetagged 1 @descr.winsize 3420 @descr.moments 2 @chop.size 145 @chop.mean 1"
 								}
 
@@ -805,15 +834,13 @@
 								}
 
 							}
- ],
-						"originid" : "pat-70"
+ ]
 					}
 ,
 					"patching_rect" : [ 114.0, 181.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"fontname" : "Geneva",
-						"fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p descriptor-analysis"
@@ -916,6 +943,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 114.0, 151.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
+						"dirtypatcher" : 1,
 						"embed" : 0,
 						"externalfiles" : 1,
 						"parameter_enable" : 0,
@@ -960,7 +988,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -999,7 +1026,8 @@
 					"patching_rect" : [ 114.0, 572.0, 368.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 0,
-						"resampleaudioinput" : 0
+						"resampleaudioinput" : 0,
+						"verbose" : 1
 					}
 ,
 					"text" : "mubu.concat~ 2 tut1-corpus @audio audio @markers descr @play 0 @autotrigger 1 @duplicatechannels 1 @allowrepeatmarkers 0"
@@ -1177,13 +1205,13 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 564.0, 660.0, 569.0, 527.0 ],
+						"rect" : [ 573.0, 353.0, 569.0, 527.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -1259,8 +1287,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -1410,8 +1437,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -1601,15 +1627,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-74"
+ ]
 					}
 ,
 					"patching_rect" : [ 569.0, 131.0, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -1827,7 +1848,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 460.0, 141.0, 67.0, 22.0 ],
+					"patching_rect" : [ 488.0, 23.0, 67.0, 22.0 ],
 					"text" : "unpack 5 2"
 				}
 
@@ -1853,7 +1874,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1894,7 +1915,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "clear" ],
 									"patching_rect" : [ 153.0, 189.0, 30.0, 30.0 ]
 								}
 
@@ -1970,7 +1991,6 @@
 											"parameter_longname" : "umenu[6]",
 											"parameter_mmax" : 6,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "DescrName",
 											"parameter_type" : 2
 										}
@@ -2054,8 +2074,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-149"
+ ]
 					}
 ,
 					"patching_rect" : [ 573.0, 67.0, 228.0, 24.0 ],
@@ -2084,7 +2103,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2201,7 +2220,6 @@
 											"parameter_longname" : "umenu[8]",
 											"parameter_mmax" : 6,
 											"parameter_modmode" : 0,
-											"parameter_osc_name" : "<default>",
 											"parameter_shortname" : "DescrName",
 											"parameter_type" : 2
 										}
@@ -2285,8 +2303,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-80"
+ ]
 					}
 ,
 					"patching_rect" : [ 573.0, 22.0, 228.0, 24.0 ],
@@ -2353,14 +2370,15 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1682.0, 865.0, 394.0, 428.0 ],
+						"rect" : [ 134.0, 172.0, 394.0, 428.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-30",
@@ -2530,15 +2548,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-82"
+ ]
 					}
 ,
-					"patching_rect" : [ 483.0, 162.0, 78.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
+					"patching_rect" : [ 792.0, 5.25, 78.0, 22.0 ],
 					"text" : "p build-menu"
 				}
 
@@ -2594,7 +2607,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"hidden" : 1,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -2612,7 +2625,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -2966,7 +2979,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"hidden" : 1,
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -2975,7 +2988,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"hidden" : 1,
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-80", 0 ]
 				}
 
@@ -3006,7 +3019,6 @@
 
 			}
  ],
-		"originid" : "pat-36",
 		"parameters" : 		{
 			"obj-38::obj-113" : [ "umenu[4]", "DescrName", 0 ],
 			"obj-49::obj-113" : [ "umenu[5]", "DescrName", 0 ],
