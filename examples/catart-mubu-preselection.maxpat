@@ -1024,7 +1024,7 @@
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 2,
+					"foremost" : 1,
 					"freeze" : 0,
 					"id" : "obj-137",
 					"layout" : 0,
@@ -1321,14 +1321,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
-					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 40.666671931743622, 167.0 ],
+					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 41.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.0, 216.666673123836517, 332.0, 20.0 ],
-					"text" : "loaded 0.82 minutes of audio in 98 segments in 11 buffers."
+					"text" : "empty"
 				}
 
 			}
@@ -1521,7 +1520,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.0, 144.0, 198.0, 22.0 ],
-									"text" : "1 10 14  16/05/2025 11014"
+									"text" : "1 10 14 16/05/2025 11014"
 								}
 
 							}
@@ -1663,7 +1662,7 @@
 					"patching_rect" : [ 380.5, 53.5, 95.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 396.466671820129363, 40.0, 67.0, 78.0 ],
+					"presentation_rect" : [ 396.466671820129363, 40.0, 65.0, 78.0 ],
 					"text" : "import files or folders into corpus"
 				}
 
@@ -2533,7 +2532,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 827.0, 1444.0, 564.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -4359,7 +4357,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 2,
+					"foremost" : 1,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -4457,7 +4455,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.166626000000065, 137.0, 82.0, 51.0 ],
+					"patching_rect" : [ 26.166626000000065, 137.0, 80.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 24.666663999999997, 138.0, 76.0, 51.0 ],
@@ -4508,10 +4506,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 319.0, 85.0, 64.0 ],
+					"patching_rect" : [ 448.0, 319.0, 75.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 492.5, 164.5, 80.0, 64.0 ],
+					"presentation_rect" : [ 492.5, 164.5, 76.0, 64.0 ],
 					"text" : "move mouse to control selection"
 				}
 
@@ -4738,6 +4736,64 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-112",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 114.000003397464752, 165.0, 340.499996602535248, 49.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 49.0 ],
+					"text" : "camu.analysis corpus @addcolname Cluster ClusterActive Directory DirectoryActive ManualActive RangeActive active @addcolvalue 0 1 0 1 1 1 1",
+					"varname" : "corpus-analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 188.0, 1256.0, 99.0, 22.0 ],
+					"text" : "getinfo FileName"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "view_inactivecolor",
+					"id" : "obj-41",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 537.0, 174.0, 183.200002729892731, 22.0 ],
+					"text_width" : 125.600001871585846
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "region_visible",
+					"id" : "obj-164",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1041.0, 175.0, 126.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontface" : 1,
@@ -4756,25 +4812,6 @@
 					"rounded" : 60.0,
 					"text" : "2b",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-112",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 114.000003397464752, 165.0, 340.499996602535248, 49.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 49.0 ],
-					"text" : "camu.analysis corpus @addcolname Cluster ClusterActive Directory DirectoryActive ManualActive RangeActive active @addcolvalue 0 1 0 1 1 1 1",
-					"varname" : "corpus-analysis"
 				}
 
 			}
@@ -4872,18 +4909,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-59",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 1256.0, 99.0, 22.0 ],
-					"text" : "getinfo FileName"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontface" : 1,
@@ -4916,33 +4941,6 @@
 					"patching_rect" : [ 3.666664, 5.0, 461.800007820129338, 189.999985000000009 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.666664, 5.0, 461.800007820129338, 189.999985000000009 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "view_inactivecolor",
-					"id" : "obj-41",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 537.0, 174.0, 183.200002729892731, 22.0 ],
-					"text_width" : 125.600001871585846
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "region_visible",
-					"id" : "obj-164",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1041.0, 175.0, 126.0, 22.0 ]
 				}
 
 			}
