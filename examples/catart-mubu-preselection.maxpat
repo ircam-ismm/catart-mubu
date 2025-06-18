@@ -749,7 +749,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 789.0, 212.0, 22.0 ],
-					"text" : "0.328814 0.328814"
+					"text" : "4490.863808 4490.863808"
 				}
 
 			}
@@ -1115,7 +1115,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1270.0, 684.0, 135.0, 20.0 ],
+					"patching_rect" : [ 1311.5, 684.0, 135.0, 20.0 ],
 					"text" : "column index, min, max"
 				}
 
@@ -1267,8 +1267,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1189.0, 683.0, 81.0, 22.0 ],
-					"text" : "filter $3 $1 $2"
+					"patching_rect" : [ 1189.0, 683.0, 109.0, 22.0 ],
+					"text" : "addrange $3 $1 $2"
 				}
 
 			}
@@ -1286,6 +1286,7 @@
 			}
 , 			{
 				"box" : 				{
+					"filename" : "camu.util.js",
 					"id" : "obj-122",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -1294,11 +1295,17 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1189.0, 741.0, 520.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "camu.util",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns ManualActive DirectoryActive ClusterActive"
+					"text" : "v8 camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns ManualActive DirectoryActive ClusterActive",
+					"textfile" : 					{
+						"filename" : "camu.util.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
 				}
 
 			}
@@ -4348,7 +4355,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 1321.454735863490441, 0.231455194646848 ],
+					"cursor_position" : [ 7487.389947071576898, 0.252999100979569 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4360,7 +4367,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 1406.463001759195322, 6591.06834530587912 ],
+					"domain_bounds" : [ 0.055138694804687, 0.37803993426197 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],

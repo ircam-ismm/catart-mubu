@@ -5,7 +5,7 @@ var mubuname  = jsarguments[1];
 var trname    = jsarguments[2];
 var activecolname = jsarguments[3];
 var activecol = -1;
-var ranges = {};	// dict of descridx to list of low/high ranges
+var ranges = new Map();	// dict of descridx to list of low/high ranges
 
 // ATTRIBUTES
 // N.B.: attributes are parsed only on instantiation of js object, not when resaving this code file
@@ -105,7 +105,7 @@ function reset ()
     if (!mubu  &&  !refer(mubuname))  return;
 
     updatecols(); // re-lookup column names
-    ranges = {}; // clear all ranges
+    ranges = new Map(); // clear all ranges
     
     for (var buf = 1; buf <= mubu.numbuffers; buf++)
     {
@@ -150,11 +150,11 @@ function addrange ()
     var high       = arguments[2];
 
     if (low == high) //  click with range tool (0 size): activate all
-	delete(ranges[filtercol]);
+	ranges.delete(filtercol);
     else
-	ranges[filtercol] = [low, high];
+	ranges.set(filtercol, [low, high]);
 
-    post('addrange', filtercol, low, high, '-->', JSON.stringify(ranges), '\n');
+    //post('addrange', filtercol, low, high, '-->', JSON.stringify(ranges), '\n'); // doens't print
     
     var numbuffers = mubu.numbuffers;
 
@@ -168,13 +168,13 @@ function addrange ()
 	    var mx = track.getmatrix(i);
 
 	    rangeactive = 1; 
-	    for (var filtercol in Object.entries(ranges))
+	    for (let [filtercol, range] of ranges)
 	    {
-		post(buf, i, numframes, filtercol, ranges[filtercol], '\n');
-		low  = ranges[filtercol][0];
-		high = ranges[filtercol][1];
+		//post(buf, i, numframes, filtercol, range, '\n');
+		low  = range[0];
+		high = range[1];
 	    	rangeactive = rangeactive && (mx[filtercol] >= low  &&  mx[filtercol] <= high);
-		//post(i, filtercol, rangeactive, (mx[filtercol] >= low  &&  mx[filtercol] <= high);
+		//post(buf, i, numframes, filtercol, range, rangeactive, (mx[filtercol] >= low  &&  mx[filtercol] <= high), '\n');
 	    }
 	    
 	    //mx[rangeactivecol] = rangeactive;
