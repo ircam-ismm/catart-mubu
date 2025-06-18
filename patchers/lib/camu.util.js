@@ -99,6 +99,27 @@ function trackid (trk)
     updatecols(); // change of track: columns might have changed index
 }
 
+// reset ranges and re-evaluate
+function resetranges ()
+{
+    if (!mubu  &&  !refer(mubuname))  return;
+
+    updatecols(); // re-lookup column names
+    ranges = new Map(); // clear all ranges
+    
+    for (var buf = 1; buf <= mubu.numbuffers; buf++)
+    {
+	var track = mubu.gettrack(buf, trname);
+	var ones = Array(track.size);
+	for (var i = 0; i < track.size; i++)
+	    ones[i] = 1;
+	track.setmxcolumn(rangeactivecolidx, 0, ones);
+    }
+    updateactive();
+
+    outlet(0, "resetranges");
+}
+
 // set active to 1
 function reset ()
 {
@@ -114,6 +135,7 @@ function reset ()
 	for (var i = 0; i < track.size; i++)
 	    ones[i] = 1;
 	track.setmxcolumn(activecol, 0, ones);
+	track.setmxcolumn(rangeactivecolidx, 0, ones);
 
 	for (var i in addactivecolidx)
 	    track.setmxcolumn(addactivecolidx[i], 0, ones);
