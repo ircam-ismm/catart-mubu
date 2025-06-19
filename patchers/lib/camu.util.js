@@ -1,4 +1,5 @@
 autowatch = 1;
+outlets   = 2;
 
 var mubu = null;
 var mubuname  = jsarguments[1];
@@ -141,6 +142,15 @@ function reset ()
 	    track.setmxcolumn(addactivecolidx[i], 0, ones);
     }
     outlet(0, "reset");
+}
+
+function dumpranges ()
+{
+    for (let [filtercol, range] of ranges)
+    {
+	outlet(1, ["dumpranges", filtercol, range[0], range[1]]);
+    }
+    outlet(1, ["dumpranges", "done"]);
 }
 
 // evaluate additional active columns for all frames and buffers and write to the main activecol
