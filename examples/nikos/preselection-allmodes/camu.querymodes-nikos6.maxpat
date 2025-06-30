@@ -10,11 +10,23 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 1639.0, 798.0 ],
+		"rect" : [ 34.0, 81.0, 1130.0, 798.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1994.0, 686.0, 72.0, 22.0 ],
+					"text" : "print ranges"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "corpus" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -24,7 +36,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querybuffers-nikos.maxpat",
+					"name" : "camu.querybuffers-nikos2.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -62,36 +74,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 314.75, 124.0, 29.5, 22.0 ],
-					"text" : "t l b"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1332.5, 536.567144989967346, 43.0, 22.0 ],
+					"patching_rect" : [ 1235.074582695960999, 618.0, 43.0, 22.0 ],
 					"text" : "r reset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1667.0, 618.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -140,18 +129,6 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1814.846328735351562, 101.481478154659271, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.0, 577.0, 67.0, 22.0 ],
-					"text" : "updatecols"
 				}
 
 			}
@@ -217,32 +194,38 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 21.473530256119524,
 					"id" : "obj-115",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1332.5, 577.0, 35.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1492.084745526313782, 673.084745526313782, 35.0, 22.0 ],
+					"patching_rect" : [ 1235.074582695960999, 651.0, 56.0, 33.0 ],
 					"text" : "reset"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"filename" : "camu.util.js",
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1325.0, 618.0, 684.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1325.0, 618.0, 688.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "camu.util",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns DirectoryActive ClusterActive ManualActive"
+					"text" : "v8 camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns ManualActive DirectoryActive ClusterActive",
+					"textfile" : 					{
+						"filename" : "camu.util.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
 				}
 
 			}
@@ -274,6 +257,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "corpus" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -283,7 +267,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.queryranges-nikos2.maxpat",
+					"name" : "camu.queryranges-nikos3.maxpat",
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -297,6 +281,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "corpus" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -306,7 +291,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querymanual-nikos.maxpat",
+					"name" : "camu.querymanual-nikos2.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -329,7 +314,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querydirectories-nikos.maxpat",
+					"name" : "camu.querydirectories-nikos3.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -356,6 +341,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "corpus" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -365,7 +351,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.queryclusters-nikos.maxpat",
+					"name" : "camu.queryclusters-nikos2.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -445,7 +431,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-18", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -456,13 +442,6 @@
 					"destination" : [ "obj-3", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -519,20 +498,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -615,6 +580,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-4", 1 ]
 				}
 
 			}

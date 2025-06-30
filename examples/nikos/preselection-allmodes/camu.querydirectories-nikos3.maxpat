@@ -10,19 +10,42 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 1639.0, 798.0 ],
+		"rect" : [ 34.0, 81.0, 1130.0, 798.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 16.671005724101501,
-					"id" : "obj-171",
-					"linecount" : 3,
+					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 516.341463327407837, 143.341463327407837, 227.0, 64.0 ],
-					"text" : "or\n\nuse jit.cellblock"
+					"patching_rect" : [ 588.970577001571655, 156.560977220535278, 227.0, 26.0 ],
+					"text" : "deselect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.617645978927612, 236.764701366424561, 101.0, 22.0 ],
+					"text" : "prepend deselect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 530.88234281539917, 147.90602433681488, 54.870877981185913, 54.870877981185913 ]
 				}
 
 			}
@@ -195,7 +218,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.tag.directories-nikos12-UI7.maxpat",
+					"name" : "camu.tag.directories-nikos12-UI9.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -375,6 +398,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-199", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}

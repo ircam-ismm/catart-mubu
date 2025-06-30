@@ -299,7 +299,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.track corpus descr @matrixrow 0 @matrixcol ManualActive"
+					"text" : "mubu.track #1 descr @matrixrow 0 @matrixcol ManualActive"
 				}
 
 			}
