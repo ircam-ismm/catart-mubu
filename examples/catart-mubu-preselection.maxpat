@@ -16,6 +16,32 @@
 		"devicewidth" : 1231.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"filename" : "camu.util.js",
+					"id" : "obj-168",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1311.5, 847.0, 520.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "v8 camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns ManualActive DirectoryActive ClusterActive",
+					"textfile" : 					{
+						"filename" : "camu.util.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-167",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -801,7 +827,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 789.0, 212.0, 22.0 ],
-					"text" : "4534.801141 4534.801141"
+					"text" : "0.044774 0.044774"
 				}
 
 			}
@@ -1079,7 +1105,7 @@
 					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 0.0, 22662.653061224489647 ],
+					"domain_bounds" : [ 0.0, 8921.156462585033296 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1181,7 +1207,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 827.0, 212.0, 22.0 ],
-					"text" : "interface scatterplot"
+					"text" : "bounds 0.053537 0.37947"
 				}
 
 			}
@@ -4409,7 +4435,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 6801.967545721337046, 0.161940227033693 ],
+					"cursor_position" : [ -0.019812988906941, 0.827505195131183 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4421,7 +4447,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 1406.463001759195322, 6591.06834530587912 ],
+					"domain_bounds" : [ -0.002062335132766, 0.12411701097281 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
