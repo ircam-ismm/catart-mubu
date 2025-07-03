@@ -15,13 +15,16 @@ xipname=./$distbase-v$1-advanced-examples.zip
 files=$tmp/camudistfiles.txt
 xfiles=$tmp/camuadvancedfiles.txt
 
+echo
+echo ------ Update from master in distdir "$distdir"
+
 # get current git master (pull or clone into temp $distdir)
 if [ -d $distdir ]; then
     pushd $distdir
     git pull
     popd
 else
-    git clone https://github.com/Ircam-RnD/catart-mubu.git $distdir
+    git clone https://github.com/ircam-ismm/catart-mubu.git $distdir
 fi
 
 #old: get all dirs, write to list
@@ -43,13 +46,15 @@ xwanted='/(catoracle|spat)/'
 unwanted="/(doc|misc|\.git)|/(maxtest|test)/|\.gendsp|$xwanted"
 
 # get list of all files for zip, filter out unwanted files and dirs
-echo package $zipname
+echo
+echo ------ Create package $PWD/$zipname
 find $distdir | egrep -v "$unwanted" | sed "s,$tmp/,," >$files
 zip $zipname -@ <$files
 
 # rename repo such that advanced examples zip unpacks to $xistdir
 mv -v $distdir $xistdir
-echo package $xipname
+echo
+echo ------ Create package $PWD/$xipname
 find $xistdir | egrep    "$xwanted"  | sed "s,$tmp/,," >$xfiles
 zip $xipname -@ <$xfiles
 

@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 7,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -15,6 +15,58 @@
 		"gridsize" : [ 5.0, 5.0 ],
 		"devicewidth" : 1231.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-167",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1509.0, 712.0, 75.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "dumpranges"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-162",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1654.0, 789.0, 47.0, 22.0 ],
+					"text" : "print rrr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-135",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1636.0, 713.0, 114.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1636.0, 712.0, 61.0, 47.0 ],
+					"text" : "reset all active flags"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-147",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1593.0, 712.0, 35.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1593.0, 711.0, 35.0, 22.0 ],
+					"text" : "reset"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-144",
 					"maxclass" : "message",
@@ -37,8 +89,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -192,13 +244,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-163",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1884.0, 148.200008928775787, 280.0, 76.0 ],
-					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean Cluster ClusterActive Directory DirectoryActive ManualActive RangeActive active"
+					"patching_rect" : [ 1884.0, 148.200008928775787, 280.0, 62.0 ],
+					"text" : "Duration FrequencyMean EnergyMean PeriodicityMean AC1Mean LoudnessMean CentroidMean SpreadMean SkewnessMean KurtosisMean Constant"
 				}
 
 			}
@@ -265,8 +317,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -275,6 +327,18 @@
 						"rect" : [ 59.0, 106.0, 604.0, 633.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 57.5, 366.0, 70.0, 22.0 ],
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-8",
 									"maxclass" : "comment",
@@ -469,6 +533,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-162", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-165", 0 ],
 									"source" : [ "obj-124", 0 ]
@@ -730,7 +801,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 789.0, 212.0, 22.0 ],
-					"text" : "3215.921581 4782.012755"
+					"text" : "4534.801141 4534.801141"
 				}
 
 			}
@@ -1008,7 +1079,7 @@
 					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 0.0, 2066.553287981859285 ],
+					"domain_bounds" : [ 0.0, 22662.653061224489647 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1083,10 +1154,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1270.0, 713.0, 61.0, 20.0 ],
+					"patching_rect" : [ 1279.0, 713.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1263.0, 376.0, 61.0, 20.0 ],
-					"text" : "reset filter"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1263.0, 376.0, 61.0, 33.0 ],
+					"text" : "reset ranges"
 				}
 
 			}
@@ -1096,7 +1168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1270.0, 684.0, 135.0, 20.0 ],
+					"patching_rect" : [ 1311.5, 684.0, 135.0, 20.0 ],
 					"text" : "column index, min, max"
 				}
 
@@ -1192,10 +1264,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1205.0, 712.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1205.0, 712.0, 72.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1225.0, 372.0, 35.0, 22.0 ],
-					"text" : "reset"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 1225.0, 372.0, 35.0, 49.0 ],
+					"text" : "resetranges"
 				}
 
 			}
@@ -1248,8 +1321,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1189.0, 683.0, 81.0, 22.0 ],
-					"text" : "filter $3 $1 $2"
+					"patching_rect" : [ 1189.0, 683.0, 109.0, 22.0 ],
+					"text" : "addrange $3 $1 $2"
 				}
 
 			}
@@ -1267,19 +1340,26 @@
 			}
 , 			{
 				"box" : 				{
+					"filename" : "camu.util.js",
 					"id" : "obj-122",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1189.0, 741.0, 520.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "camu.util",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js camu.util corpus descr active @manualactivecol ManualActive @rangeactivecol RangeActive @addactivecolumns DirectoryActive ClusterActive"
+					"text" : "v8 camu.util corpus descr active @rangeactivecol RangeActive @addactivecolumns ManualActive DirectoryActive ClusterActive",
+					"textfile" : 					{
+						"filename" : "camu.util.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
 				}
 
 			}
@@ -1321,14 +1401,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-106",
-					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 40.666671931743622, 167.0 ],
+					"patching_rect" : [ 114.000003397464752, 272.666674792766571, 313.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.0, 216.666673123836517, 332.0, 20.0 ],
-					"text" : "loaded 0.82 minutes of audio in 98 segments in 11 buffers."
+					"text" : "loaded 0.38 minutes of audio in 91 segments in 1 buffers."
 				}
 
 			}
@@ -1420,8 +1499,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1521,7 +1600,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.0, 144.0, 198.0, 22.0 ],
-									"text" : "1 10 14  16/05/2025 11014"
+									"text" : "1 10 15  10/06/2025 11015"
 								}
 
 							}
@@ -1663,7 +1742,7 @@
 					"patching_rect" : [ 380.5, 53.5, 95.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 396.466671820129363, 40.0, 67.0, 78.0 ],
+					"presentation_rect" : [ 396.466671820129363, 40.0, 65.0, 78.0 ],
 					"text" : "import files or folders into corpus"
 				}
 
@@ -2198,8 +2277,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2524,8 +2603,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2533,7 +2612,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 827.0, 1444.0, 564.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-18",
@@ -4331,7 +4409,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 0.8 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 6940.407641847458763, 0.185685280378274 ],
+					"cursor_position" : [ 6801.967545721337046, 0.161940227033693 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4343,7 +4421,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 575.652486923993592, 6498.689618477375916 ],
+					"domain_bounds" : [ 1406.463001759195322, 6591.06834530587912 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4457,7 +4535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.166626000000065, 137.0, 82.0, 51.0 ],
+					"patching_rect" : [ 26.166626000000065, 137.0, 80.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 24.666663999999997, 138.0, 76.0, 51.0 ],
@@ -4508,10 +4586,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 319.0, 85.0, 64.0 ],
+					"patching_rect" : [ 448.0, 319.0, 78.0, 64.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 492.5, 164.5, 80.0, 64.0 ],
+					"presentation_rect" : [ 492.5, 164.5, 78.0, 64.0 ],
 					"text" : "move mouse to control selection"
 				}
 
@@ -4717,7 +4795,6 @@
 					"presentation_rect" : [ 114.000003397464752, 216.666673123836517, 338.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 11,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ]
 				}
 
@@ -4733,6 +4810,64 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1146.5, 0.0, 71.0, 22.0 ],
 					"text" : "camu.menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-112",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 114.000003397464752, 165.0, 340.499996602535248, 49.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 49.0 ],
+					"text" : "camu.analysis corpus @addcolname Cluster ClusterActive Directory DirectoryActive ManualActive RangeActive active @addcolvalue 0 1 0 1 1 1 1",
+					"varname" : "corpus-analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 188.0, 1256.0, 99.0, 22.0 ],
+					"text" : "getinfo FileName"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "view_inactivecolor",
+					"id" : "obj-41",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 537.0, 174.0, 183.200002729892731, 22.0 ],
+					"text_width" : 125.600001871585846
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "region_visible",
+					"id" : "obj-164",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1041.0, 175.0, 126.0, 22.0 ]
 				}
 
 			}
@@ -4756,25 +4891,6 @@
 					"rounded" : 60.0,
 					"text" : "2b",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-112",
-					"linecount" : 3,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 114.000003397464752, 165.0, 340.499996602535248, 49.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 49.0 ],
-					"text" : "camu.analysis corpus @addcolname Cluster ClusterActive Directory DirectoryActive ManualActive RangeActive active @addcolvalue 0 1 0 1 1 1 1",
-					"varname" : "corpus-analysis"
 				}
 
 			}
@@ -4872,18 +4988,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-59",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 188.0, 1256.0, 99.0, 22.0 ],
-					"text" : "getinfo FileName"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 					"fontface" : 1,
@@ -4916,33 +5020,6 @@
 					"patching_rect" : [ 3.666664, 5.0, 461.800007820129338, 189.999985000000009 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.666664, 5.0, 461.800007820129338, 189.999985000000009 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "view_inactivecolor",
-					"id" : "obj-41",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 537.0, 174.0, 183.200002729892731, 22.0 ],
-					"text_width" : 125.600001871585846
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "region_visible",
-					"id" : "obj-164",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1041.0, 175.0, 126.0, 22.0 ]
 				}
 
 			}
@@ -5214,6 +5291,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-162", 0 ],
+					"source" : [ "obj-122", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-123", 0 ]
 				}
@@ -5255,13 +5339,6 @@
 					"destination" : [ "obj-128", 1 ],
 					"order" : 0,
 					"source" : [ "obj-125", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -5389,6 +5466,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-147", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-152", 0 ]
 				}
@@ -5483,6 +5567,13 @@
 					"destination" : [ "obj-184", 0 ],
 					"order" : 0,
 					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-167", 0 ]
 				}
 
 			}
@@ -6365,7 +6456,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.process.descr-onseg.maxpat",
+				"name" : "camu.process.descr-chop.maxpat",
 				"bootpath" : "~/src/catart-mubu/patchers/lib",
 				"patcherrelativepath" : "../patchers/lib",
 				"type" : "JSON",

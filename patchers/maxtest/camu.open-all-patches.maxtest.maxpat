@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1236.0, 589.0, 1199.0, 794.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ 526.0, 573.0, 1199.0, 794.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-35",
@@ -64,6 +38,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -105,7 +80,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 505.0, 506.0, 24.0, 24.0 ]
+					"patching_rect" : [ 505.0, 506.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -371,7 +347,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 506.0, 24.0, 24.0 ]
+					"patching_rect" : [ 470.0, 506.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -410,7 +387,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 471.0, 295.0, 24.0, 24.0 ]
+					"patching_rect" : [ 471.0, 295.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -435,42 +413,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 757.0, 906.0, 393.0, 337.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -584,15 +536,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-3558"
 					}
 ,
 					"patching_rect" : [ 213.5, 466.0, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p activate"
@@ -728,7 +678,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 397.399999976158142, 263.0, 24.0, 24.0 ]
+					"patching_rect" : [ 397.399999976158142, 263.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -764,7 +715,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.799987999999985, 138.0, 579.200003206729889, 89.0 ],
-					"text" : "catart-mubu-overview, catart-mubu-mfcc.maxpat, catart-mubu-controllers.maxpat, catart-mubu-poly.maxpat, catart-mubu-simple.maxpat, camu.cont.maxhelp camu.control.maxhelp camu.filenamenotenumber.maxhelp camu.help-template.maxhelp camu.imubu.control.maxhelp camu.key.select.maxhelp camu.key.soundset.maxhelp camu.key.value.maxhelp camu.menu.maxhelp camu.random.filter.maxhelp camu.random.maxhelp camu.record.maxhelp camu.select.maxhelp camu.target.maxhelp camu.triggermode.maxhelp camu.voice.maxhelp"
+					"text" : "catart-mubu-overview, catart-mubu-mfcc.maxpat, catart-mubu-controllers.maxpat, catart-mubu-poly.maxpat, catart-mubu-simple.maxpat, camu.cont.maxhelp camu.control.maxhelp camu.filenamenotenumber.maxhelp camu.help-template.maxhelp camu.imubu.control.maxhelp camu.key.select.maxhelp camu.key.soundset.maxhelp camu.key.value.maxhelp camu.menu.maxhelp camu.random.filter.maxhelp camu.random.maxhelp camu.record.maxhelp camu.select.maxhelp camu.target.maxhelp camu.triggermode.maxhelp camu.voice.maxhelp camu.analysis.maxhelp"
 				}
 
 			}
@@ -803,7 +754,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 579.0, 24.0, 24.0 ]
+					"patching_rect" : [ 6.0, 579.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -884,7 +836,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 40.0, 24.0, 24.0 ]
+					"patching_rect" : [ 6.0, 40.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1359,6 +1312,7 @@
 
 			}
  ],
+		"originid" : "pat-3552",
 		"parameters" : 		{
 			"obj-20::obj-2" : [ "js", "js", 0 ],
 			"parameterbanks" : 			{
@@ -1375,15 +1329,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "activate-help-file.js",
-				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/maxtest/util",
-				"patcherrelativepath" : "../../../mubu-and-co/maxmubu/patches/maxtest/util",
+				"bootpath" : "~/src/mubu-git/maxmubu/patches/maxtest/util",
+				"patcherrelativepath" : "../../../mubu-git/maxmubu/patches/maxtest/util",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.count-console-errors.maxpat",
-				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/maxtest/mubu",
-				"patcherrelativepath" : "../../../mubu-and-co/maxmubu/patches/maxtest/mubu",
+				"bootpath" : "~/src/mubu-git/maxmubu/patches/maxtest/mubu",
+				"patcherrelativepath" : "../../../mubu-git/maxmubu/patches/maxtest/mubu",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1397,8 +1351,8 @@
 			}
 , 			{
 				"name" : "testiter.js",
-				"bootpath" : "~/src/mubu-and-co/maxmubu/patches/maxtest/util",
-				"patcherrelativepath" : "../../../mubu-and-co/maxmubu/patches/maxtest/util",
+				"bootpath" : "~/src/mubu-git/maxmubu/patches/maxtest/util",
+				"patcherrelativepath" : "../../../mubu-git/maxmubu/patches/maxtest/util",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
