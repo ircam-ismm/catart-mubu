@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 7,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -16,14 +16,39 @@
 		"devicewidth" : 1199.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ -72.800001084804535, 862.400012850761414, 104.000001549720764, 144.800002157688141 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1150.666700959205627, 2205.882444977760315, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 756.999981999397278, 660.000019669532776, 50.0, 22.0 ],
+					"text" : "update"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-36",
 					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1824.675307273864746, 1375.324662208557129, 50.0, 64.0 ],
-					"text" : "/source/59/proportion 250"
+					"patching_rect" : [ 1824.675307273864746, 1375.324662208557129, 50.0, 62.0 ],
+					"text" : "/source/39/proportion 250"
 				}
 
 			}
@@ -52,10 +77,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4232.923263549804688, 1058.769269943237305, 110.0, 62.0 ],
+					"patching_rect" : [ 4232.923263549804688, 1058.769269943237305, 110.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1494.7367262840271, 608.035708487033844, 126.0, 48.0 ],
+					"presentation_rect" : [ 1494.7367262840271, 608.035708487033844, 126.0, 47.0 ],
 					"text" : "Focus not available here - check MuBu to Spat patch ",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -81,10 +106,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 502.409657120704651, 719.277135014533997, 141.0, 109.0 ],
+					"patching_rect" : [ 502.409657120704651, 719.277135014533997, 141.0, 106.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 478.94736385345459, 720.5, 120.39473569393158, 135.0 ],
+					"presentation_rect" : [ 478.94736385345459, 720.5, 120.39473569393158, 131.0 ],
 					"text" : "1 - load track\n2 - getminmax (del-undo if it is not working)\n3 - dsp\n3 - switch on red toggle and bang 64 grid(check that mubu is loaded)\n4- play",
 					"textcolor" : [ 0.023529411764706, 1.0, 0.0, 1.0 ]
 				}
@@ -182,8 +207,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1348.936009407043457, 2164.893358945846558, 50.0, 257.0 ],
-					"text" : "0.034496 0.309269 0.414679 0.84763 0.767905 0.301145 0.25769 0.488917 0.146793"
+					"patching_rect" : [ 1348.936009407043457, 2164.893358945846558, 50.0, 250.0 ],
+					"text" : "0.58633 0.003898 0.296899 0.462213 0.249439 0.941999 0.068071 0.983368 0.698983"
 				}
 
 			}
@@ -211,7 +236,7 @@
 					"patching_rect" : [ 1075.757502019405365, 1521.333296895027161, 95.757569193840027, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 760.605993509292603, 846.969622254371643, 50.0, 36.0 ],
+					"presentation_rect" : [ 760.605993509292603, 846.969622254371643, 50.0, 35.0 ],
 					"text" : "spatgrid"
 				}
 
@@ -253,6 +278,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
 					"cursor_position" : [ 0.0, 1.0 ],
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
@@ -316,8 +342,8 @@
 					"splitbars_color" : [ 0.868978, 0.868978, 0.868978, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
-					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabs_fgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -332,7 +358,7 @@
 					"toolbarbgcolordefault" : 0,
 					"useplaceholders" : 1,
 					"verbose" : 1,
-					"viewconfig" : [ "interface multiwave, bgcolor 221 221 221 1, fgcolor 0 0 0 1, colormode fgcolor, foremost 2" ],
+					"viewconfig" : [ "interface multiwave, bgcolor 221 221 221 1, fgcolor 0 0 0 1, colormode fgcolor" ],
 					"windresize" : 0
 				}
 
@@ -380,7 +406,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1509.178612530231476, 1317.116515040397644, 50.0, 22.0 ],
-					"text" : "59 1"
+					"text" : "39 1"
 				}
 
 			}
@@ -392,7 +418,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1212.000036120414734, 704.707334518432617, 100.0, 50.0 ],
+					"patching_rect" : [ 1212.000036120414734, 704.707334518432617, 100.0, 49.0 ],
 					"text" : "route /source/1/xyz /source/1/aed"
 				}
 
@@ -502,8 +528,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -647,8 +673,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -711,8 +737,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1147,7 +1173,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 63.333331823348999, 638.333318114280701, 50.0, 36.0 ],
+					"patching_rect" : [ 63.333331823348999, 638.333318114280701, 50.0, 35.0 ],
 					"text" : "markerindex 7"
 				}
 
@@ -1224,10 +1250,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 774.999870657920837, 2279.393358945846558, 139.0, 45.0 ],
+					"patching_rect" : [ 774.999870657920837, 2279.393358945846558, 139.0, 44.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 930.5, 691.666650295257568, 135.0, 58.0 ],
+					"presentation_rect" : [ 930.5, 691.666650295257568, 135.0, 56.0 ],
 					"text" : "problemo:\nrefresh these objects if minmax is not responding ",
 					"textcolor" : [ 0.023529411764706, 1.0, 0.0, 1.0 ]
 				}
@@ -1264,7 +1290,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1075.47455883026123, 2310.714109420776367, 85.0, 22.0 ],
+					"patching_rect" : [ 1205.600017964839935, 2318.400034546852112, 85.0, 22.0 ],
 					"text" : "route min max"
 				}
 
@@ -1277,9 +1303,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "list", "list", "list" ],
-					"patching_rect" : [ 948.47455883026123, 2282.393358945846558, 212.0, 18.0 ],
+					"patching_rect" : [ 948.666694939136505, 2282.66673469543457, 212.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 760.5, 720.5, 167.0, 18.0 ],
+					"presentation_rect" : [ 760.5, 720.5, 167.0, 17.0 ],
 					"text" : "mubu.knn tut5a-corpus offline_filtering"
 				}
 
@@ -1302,9 +1328,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1015.35595440864563, 2061.423777103424072, 66.0, 28.0 ],
+					"patching_rect" : [ 1015.35595440864563, 2061.423777103424072, 66.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 686.666650295257568, 714.999982953071594, 71.666664958000183, 28.0 ],
+					"presentation_rect" : [ 686.666650295257568, 714.999982953071594, 71.666664958000183, 27.0 ],
 					"text" : "getmax"
 				}
 
@@ -1327,9 +1353,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1018.689287185668945, 2091.423772096633911, 59.0, 28.0 ],
+					"patching_rect" : [ 1018.689287185668945, 2091.423772096633911, 59.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 688.333316922187805, 686.666650295257568, 66.666665077209473, 28.0 ],
+					"presentation_rect" : [ 688.333316922187805, 686.666650295257568, 66.666665077209473, 27.0 ],
 					"text" : "getmin"
 				}
 
@@ -1343,7 +1369,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1080.355943560600281, 2091.423772096633911, 229.411771953105927, 22.0 ],
+					"patching_rect" : [ 1080.66669887304306, 2091.423772096633911, 512.000015258789062, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 786.486433982849121, 831.719400405883789, 229.411771953105927, 22.0 ]
 				}
@@ -1358,7 +1384,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1080.355943560600281, 2064.757109880447388, 229.411771953105927, 22.0 ],
+					"patching_rect" : [ 1080.66669887304306, 2064.757109880447388, 512.000015258789062, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 786.486433982849121, 804.692375183105469, 229.411771953105927, 22.0 ]
 				}
@@ -1536,8 +1562,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2573,7 +2599,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2086.607122957706451, 1607.142841815948486, 156.0, 25.0 ]
+					"patching_rect" : [ 2086.607122957706451, 1607.142841815948486, 156.0, 24.0 ]
 				}
 
 			}
@@ -2601,7 +2627,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "int", "" ],
-					"patching_rect" : [ 2035.714266300201416, 1652.67855566740036, 343.0, 89.0 ],
+					"patching_rect" : [ 2035.714266300201416, 1652.67855566740036, 343.0, 87.0 ],
 					"saved_object_attributes" : 					{
 						"verbose" : 1
 					}
@@ -2702,9 +2728,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "float", "int", "int", "" ],
-					"patching_rect" : [ 831.932723522186279, 2007.000046491622925, 214.0, 18.0 ],
+					"patching_rect" : [ 831.932723522186279, 2007.000046491622925, 214.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 759.5, 691.666650295257568, 169.0, 18.0 ],
+					"presentation_rect" : [ 759.5, 691.666650295257568, 169.0, 17.0 ],
 					"text" : "mubu.play tut5a-corpus offline_filtering"
 				}
 
@@ -2840,7 +2866,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1467.214327216148376, 1196.580801904201508, 44.0, 34.0 ],
+					"patching_rect" : [ 1467.214327216148376, 1196.580801904201508, 44.0, 33.0 ],
 					"text" : "No. to store"
 				}
 
@@ -3145,8 +3171,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3341,8 +3367,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3737,12 +3763,12 @@
 										"live.text" : [ 1.0 ],
 										"spat5.sofa.loader" : [ 											{
 												"/usurp" : 0,
-												"/window/title" : "title",
+												"/window/title" : "SOFA loader",
 												"/window/visible" : 0,
 												"/window/moveable" : 1,
 												"/window/resizable" : 1,
 												"/window/enable" : 1,
-												"/window/bounds" : [ 810, 384, 940, 600 ],
+												"/window/bounds" : [ 810, 432, 940, 600 ],
 												"/window/background/color" : [ 0.82745099067688, 0.82745099067688, 0.82745099067688, 1.0 ],
 												"/window/opaque" : 1,
 												"/window/titlebar" : 1,
@@ -5044,9 +5070,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 122.0, 1499.999964237213135, 98.0, 25.0 ],
+					"patching_rect" : [ 122.0, 1499.999964237213135, 98.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.461574554443359, 741.538532257080078, 98.0, 25.0 ],
+					"presentation_rect" : [ 378.461574554443359, 741.538532257080078, 98.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"fontsize" : 9.0
 					}
@@ -5658,7 +5684,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1215.789462089538574, 1026.142847299575806, 150.0, 34.0 ],
+					"patching_rect" : [ 1215.789462089538574, 1026.142847299575806, 150.0, 33.0 ],
 					"text" : "get descriptors of the segment"
 				}
 
@@ -5715,7 +5741,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 393.666678684371959, 86.5, 69.0, 38.0 ],
+					"patching_rect" : [ 393.666678684371959, 86.5, 69.0, 37.0 ],
 					"text" : "load corpus"
 				}
 
@@ -5746,7 +5772,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.5, 0.0, 435.0, 62.0 ],
+					"patching_rect" : [ 110.5, 0.0, 435.0, 60.0 ],
 					"text" : "CataRT-MuBu Tutorial 5a: Segmentation Analysis"
 				}
 
@@ -5765,8 +5791,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7055,7 +7081,8 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
-					"cursor_position" : [ 5606.620871100059958, 0.271167246663716 ],
+					"cursor_outputdata" : 0,
+					"cursor_position" : [ 7757.84228973307836, 0.05844988573058 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -7067,7 +7094,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 0,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 5236.328575647604339, 7797.516952527092144 ],
+					"domain_bounds" : [ 5236.328087366354339, 7797.516464245842144 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -7118,8 +7145,8 @@
 					"splitbars_color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
-					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabs_fgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -7645,6 +7672,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
+					"order" : 1,
+					"source" : [ "obj-149", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
 					"source" : [ "obj-149", 0 ]
 				}
 
@@ -7660,6 +7696,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
+					"order" : 1,
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 0,
 					"source" : [ "obj-154", 0 ]
 				}
 
@@ -7988,6 +8033,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -8024,7 +8076,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
+					"order" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -8867,300 +8928,260 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "K;_20250630_2.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "K;_20250702_2.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "K;_20250702_3.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process2.descr-onseg.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : "../../../patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid12_20250702_1.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
+				"name" : "icon.png",
+				"bootpath" : "~/src/dicy2-upi",
+				"patcherrelativepath" : "../../../../dicy2-upi",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "imubu.mxe64",
-				"type" : "mx64"
+				"name" : "imubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "k_20250630_4.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
+				"name" : "mc.mubu.concat~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "k_20250702_2.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
+				"name" : "mubu.knn.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "k_20250702_3.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
+				"name" : "mubu.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mc.mubu.concat~.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.play.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.knn.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "mubu.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "mubu.play.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "mubu.process.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "mubu.track.mxe64",
-				"type" : "mx64"
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mubutospat-crosspatch-staticgrid.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/Descriptors-Spat",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pipo.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "plusreverb[1]_20250702_1.maxsnap",
-				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../../Documents/Max 9/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
+				"name" : "pipo.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "router-ircam3.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/Descriptors-Spat",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scale-inverse.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/Descriptors-Spat",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scalemubutospat.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/Descriptors-Spat",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.converter.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.converter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.deferloadmess.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5-x64/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5-x64/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.dsp.control.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/MODIFICATIONS-flucoma/ANALYSIS-CONSTANZO",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spat5.dsp.mute.bypass.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/MODIFICATIONS-flucoma/ANALYSIS-CONSTANZO",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.grids.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.grids.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.gui.control.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/MODIFICATIONS-flucoma/ANALYSIS-CONSTANZO",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.hoa.binaural~.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.hoa.binaural~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.hoa.decoder.control.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5-x64/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5-x64/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.hoa.decoder~.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.hoa.decoder~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.hoa.rotate~.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.hoa.rotate~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "spat5.known.speakersetups.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/spat5-x64/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/spat5-x64/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/spat5/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/spat5/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spat5.oper.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.oper.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.iter.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.iter.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.prepend.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.prepend.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.replace.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.replace.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.route.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.routepass.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.routepass.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.split.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.split.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.osc.view.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.osc.view.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.sofa.loader.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.sofa.loader.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.spat~.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.spat~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.speaker.layout.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.speaker.layout.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.transform.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.transform.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "spat5.viewer.mxe64",
-				"type" : "mx64"
+				"name" : "spat5.viewer.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "static-grid-2.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/Descriptors-Spat",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/src/catart-mubu/examples/nikos/Crosspatch-MuButoSpat-StaticGrid",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -10033,114 +10054,6 @@
 							"filepath" : "~/Documents/Max 9/Snapshots",
 							"filepos" : -1,
 							"snapshotfileid" : "07827c3cc06d579f319a950d595ee946"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid12",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid12",
-							"filename" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid12_20250702_1.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "817255f20a561430cba71f12995feb01"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "K;",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "K;",
-							"filename" : "K;_20250702_2.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "e98d4d0533e6547ed3b6bf7fed834afd"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "K;",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "K;",
-							"filename" : "K;_20250702_3.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "ed4e2be0ba3f45cc95d11662044209d3"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "k",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "k",
-							"filename" : "k_20250702_2.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "2a9fafba404094686841f5fec8e9059f"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "k",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "k",
-							"filename" : "k_20250702_3.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "6cfd117440504ab3ba0ea713aae5ac99"
-						}
-
-					}
-, 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "plusreverb[1]",
-						"origin" : "catart-mubu-tutorial 5a segmentation analysis-nikos15-staticgrid21",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"fileref" : 						{
-							"name" : "plusreverb[1]",
-							"filename" : "plusreverb[1]_20250702_1.maxsnap",
-							"filepath" : "~/Documents/Max 9/Snapshots",
-							"filepos" : -1,
-							"snapshotfileid" : "0152dd4b5edeaf0579578f9f52e6fcdc"
 						}
 
 					}

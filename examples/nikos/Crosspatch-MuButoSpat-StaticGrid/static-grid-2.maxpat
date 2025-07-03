@@ -3,17 +3,53 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 7,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 1639.0, 798.0 ],
+		"rect" : [ 863.0, 87.0, 1651.0, 1289.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2240.000033378601074, 1103.200016438961029, 79.999966621398926, 22.0 ],
+					"text" : "1 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2320.800034582614899, 1041.6000155210495, 188.800002813339233, 22.0 ],
+					"text" : "0.708317 0.807966 0.886579"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2148.000032007694244, 1059.200015783309937, 42.0, 22.0 ],
+					"text" : "$1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 10.678190673821346,
 					"id" : "obj-23",
@@ -21,10 +57,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1490.0, 161.0, 116.0, 56.0 ],
+					"patching_rect" : [ 1490.0, 161.0, 116.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 334.0, 25.736841917037964, 108.522726237773895, 68.0 ],
+					"presentation_rect" : [ 334.0, 25.736841917037964, 108.522726237773895, 66.0 ],
 					"text" : " dynamic change of sources is not supported in this patch, so use this grid"
 				}
 
@@ -78,6 +114,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
 					"cursor_position" : [ 0.0, 1.0 ],
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
@@ -141,8 +178,8 @@
 					"splitbars_color" : [ 0.868978, 0.868978, 0.868978, 1.0 ],
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
-					"tabs_bgcolor" : [ 0.235, 0.235, 0.235, 1.0 ],
-					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
+					"tabs_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"tabs_fgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -157,7 +194,7 @@
 					"toolbarbgcolordefault" : 0,
 					"useplaceholders" : 1,
 					"verbose" : 1,
-					"viewconfig" : [ "interface matrix, bgcolor 221 221 221 1, fgcolor 0 0 0 1, bounds -1 1, visible 1, mainautobounds 0, autobounds 0, hidenotforemost 0, allbuffersvisible 0, domainalign time, displayOrder -1, colormode rainbow, thickness 1, pointdiam 5, highlight color 154 205 50 1, highlight mode index, progresscolor 54 60 62 1, progressmode bar, progress -1, shape , depth 0 0, fgcolorgradient 0, selectioncolor 112 112 112 0.6, linkedtrackid -72, header fgcolor 0 0 0 1, header bgcolor 255 255 255 1, grid color 240 240 240 1, header bordercolor 200 200 200 1, header visible all, header fontstyle italic, grid visible 1, scrollbars visible 1, fontsize 10, fontstyle 0, toolbar visible retractable, showmeans 0, layout juxtaposed, opacity 0, foremost 0, showcolnames 0, depth 0 0, stavecolor 0 0 0 1, inset 0, visiblesummarycolumns , columnorder " ],
+					"viewconfig" : [ "interface matrix, bgcolor 221 221 221 1, fgcolor 0 0 0 1, bounds -1 1, visible 1, mainautobounds 0, autobounds 0, hidenotforemost 0, allbuffersvisible 0, domainalign time, displayOrder -1, colormode rainbow, thickness 1, pointdiam 5, highlight color 154 205 50 1, highlight mode index, progresscolor 54 60 62 1, progressmode bar, progress -1, shape , depth 0 0, fgcolorgradient 0, selectioncolor 112 112 112 0.6, linkedtrackid -73, header fgcolor 0 0 0 1, header bgcolor 255 255 255 1, grid color 240 240 240 1, header bordercolor 200 200 200 1, header visible all, header fontstyle italic, grid visible 1, scrollbars visible 1, fontsize 10, fontstyle 0, toolbar visible retractable, showmeans 0, layout juxtaposed, opacity 0, foremost 0, showcolnames 0, depth 0 0, stavecolor 0 0 0 1, inset 0, visiblesummarycolumns , columnorder " ],
 					"windresize" : 0
 				}
 
@@ -198,9 +235,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1434.0, 153.40908944606781, 62.0, 27.0 ],
+					"patching_rect" : [ 1434.0, 153.40908944606781, 62.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.987138986587524, 2.5, 60.576939582824707, 27.0 ],
+					"presentation_rect" : [ 341.987138986587524, 2.5, 60.576939582824707, 26.0 ],
 					"text" : "64",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -244,7 +281,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2239.999926567077637, 1218.0, 546.0, 34.0 ],
+					"patching_rect" : [ 2239.999926567077637, 1218.0, 546.0, 33.0 ],
 					"text" : "here i get the coordinqtes of the source and send them to viewer along with the source number::not sure if needed"
 				}
 
@@ -269,7 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1357.0, 356.0, 50.0, 50.0 ],
+					"patching_rect" : [ 1357.0, 356.0, 50.0, 49.0 ],
 					"text" : "upper-gaussian-64"
 				}
 
@@ -648,7 +685,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 730.370346426963806, 355.796285927295685, 171.0, 22.0 ],
+					"patching_rect" : [ 730.370346426963806, 355.796285927295685, 171.0, 21.0 ],
 					"text" : "regexp @re \\\\s @substitute %0"
 				}
 
@@ -704,7 +741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 728.870346426963806, 316.296285927295685, 132.0, 36.0 ],
+					"patching_rect" : [ 728.870346426963806, 316.296285927295685, 132.0, 35.0 ],
 					"text" : "poisson3d-173-7.700000-86"
 				}
 
@@ -732,7 +769,7 @@
 					"patching_rect" : [ 730.370346426963806, 233.333325684070587, 129.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 13.0, 159.0, 115.0, 36.0 ],
+					"presentation_rect" : [ 13.0, 159.0, 115.0, 35.0 ],
 					"text" : "poisson3d- $1- $2 - $3"
 				}
 
@@ -826,8 +863,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -937,8 +974,9 @@
 
 							}
  ],
-						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
-						"editing_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+						"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"accentcolor" : 							{
 								"expression" : "themecolor.theme_accentcolor"
@@ -1045,9 +1083,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 						"fontsize" : 11.0,
-						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
+						"locked_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p highlight"
@@ -1133,10 +1172,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 722.22219854593277, 147.407402575016022, 212.0, 31.0 ],
+					"patching_rect" : [ 722.22219854593277, 147.407402575016022, 212.0, 30.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ -1.0, 96.0, 108.522726237773895, 43.0 ],
+					"presentation_rect" : [ -1.0, 96.0, 108.522726237773895, 42.0 ],
 					"text" : "poisson\ndimension-radius-mindist-maxnumber"
 				}
 
@@ -1164,7 +1203,7 @@
 					"patching_rect" : [ 1018.0, 172.0, 89.0, 14.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ -1.0, 46.0, 86.590908169746399, 22.0 ],
+					"presentation_rect" : [ -1.0, 46.0, 86.590908169746399, 21.0 ],
 					"text" : "random grid within a 3d box"
 				}
 
@@ -1272,7 +1311,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2278.0, 696.0, 150.0, 34.0 ],
+					"patching_rect" : [ 2278.0, 696.0, 150.0, 33.0 ],
 					"text" : "sends to translate grids to xyz or aed"
 				}
 
@@ -1297,7 +1336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 197.777771294116974, 51.0, 50.0 ],
+					"patching_rect" : [ 312.0, 197.777771294116974, 51.0, 49.0 ],
 					"text" : "upper-gaussian-64"
 				}
 
@@ -1335,7 +1374,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 2194.0, 708.0, 80.0, 22.0 ],
+					"patching_rect" : [ 2194.0, 708.0, 80.0, 21.0 ],
 					"text" : "regexp .+/(.+)"
 				}
 
@@ -2272,8 +2311,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2450,8 +2489,9 @@
 
 							}
  ],
-						"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
-						"editing_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+						"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+						"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 						"saved_attribute_attributes" : 						{
 							"accentcolor" : 							{
 								"expression" : "themecolor.theme_accentcolor"
@@ -2558,9 +2598,10 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"editing_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
+						"editing_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 						"fontsize" : 11.0,
-						"locked_bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ]
+						"locked_bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+						"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p transformations"
@@ -2575,7 +2616,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 375.5, 854.9999920129776, 141.5, 36.0 ],
+					"patching_rect" : [ 375.5, 854.9999920129776, 141.5, 35.0 ],
 					"text" : "spat5.osc.replace @initwith \"/point /source\""
 				}
 
@@ -2849,6 +2890,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-317", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-332", 0 ],
 					"source" : [ "obj-264", 0 ]
 				}
@@ -2960,9 +3008,23 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-317", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"order" : 1,
 					"source" : [ "obj-294", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-294", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"source" : [ "obj-294", 1 ]
 				}
 
 			}
