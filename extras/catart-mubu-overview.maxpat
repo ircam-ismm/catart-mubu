@@ -14,8 +14,7 @@
 		"bglocked" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"devicewidth" : 1372.0,
-		"showrootpatcherontab" : 0,
-		"showontab" : 0,
+		"showontab" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -33,7 +32,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -902,7 +901,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 145.0, 97.0, 1173.0, 507.0 ],
+										"rect" : [ 134.0, 172.0, 1173.0, 507.0 ],
 										"default_fontsize" : 10.0,
 										"default_fontname" : "Geneva",
 										"gridsize" : [ 10.0, 10.0 ],
@@ -1594,7 +1593,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 623.0, 344.0, 742.0, 652.0 ],
+										"rect" : [ 623.0, 296.0, 742.0, 652.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"boxes" : [ 											{
 												"box" : 												{
@@ -1657,7 +1656,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 46.0, 278.0, 110.0, 22.0 ],
+													"patching_rect" : [ 46.0, 278.0, 110.0, 49.0 ],
 													"text" : "s overview-corpus-refresh"
 												}
 
@@ -2793,7 +2792,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 126.0, 1372.0, 761.0 ],
+						"rect" : [ 34.0, 152.0, 1372.0, 735.0 ],
 						"bglocked" : 1,
 						"default_fontface" : 2,
 						"gridsize" : [ 5.0, 5.0 ],
@@ -2809,7 +2808,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 222.0, 348.125, 330.0, 37.0 ],
-									"presentation_linecount" : 2,
 									"text" : "CataRT on descriptors and spectral shape timbre space with PCA or UMAP dimensionality reduction "
 								}
 
@@ -2823,7 +2821,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 356.125, 196.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "catart-mubu-descr+mfcc-pca-umap"
 								}
 
@@ -2838,7 +2835,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 485.0, 16.25, 103.0, 22.0 ],
-									"text" : "loadmess 1 10 15"
+									"text" : "loadmess 1 10 16"
 								}
 
 							}
@@ -3951,7 +3948,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
 						"gridsize" : [ 10.0, 10.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -4974,7 +4971,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"workspacedisabled" : 1,
