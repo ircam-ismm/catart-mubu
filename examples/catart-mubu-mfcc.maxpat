@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 7,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -584,8 +584,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1227,8 +1227,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1553,8 +1553,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1562,7 +1562,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 34.0, 410.0, 1444.0, 537.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-24",
@@ -3413,6 +3412,7 @@
 					"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
 					"cursor_position" : [ 1425.657903839501842, 1.033613445378151 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
@@ -3760,8 +3760,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
