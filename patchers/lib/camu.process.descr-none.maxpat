@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 24.0, 87.0, 1596.0, 527.0 ],
+		"rect" : [ 0.0, 172.0, 1101.0, 527.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
 		"lefttoolbarpinned" : 2,
@@ -256,6 +256,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
@@ -371,7 +372,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 25.600000381469727, 178.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 26.0, 174.0, 19.0 ],
+					"presentation_rect" : [ 1.0, 26.0, 178.0, 19.0 ],
 					"text" : "Use the whole file as one segment "
 				}
 

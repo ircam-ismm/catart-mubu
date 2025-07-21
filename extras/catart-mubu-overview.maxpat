@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 7,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -26,8 +26,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -266,8 +266,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -693,7 +693,8 @@
 									"cursor_nearestcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 									"cursor_noringoffset" : 0,
 									"cursor_numextracursors" : 0,
-									"cursor_position" : [ 1334.133342228354422, 0.138804050659893 ],
+									"cursor_outputdata" : 0,
+									"cursor_position" : [ 0.0, 0.138804050659893 ],
 									"cursor_shape" : "cross",
 									"cursor_size" : 1,
 									"cursor_sizeunit" : 0,
@@ -705,7 +706,7 @@
 									"cursor_symbolwidth" : 3.0,
 									"cursor_visible" : 1,
 									"dirtypatcher" : 1,
-									"domain_bounds" : [ 1334.133342228354422, 4569.774315973085322 ],
+									"domain_bounds" : [ 1340.627890221567895, 4646.220247668159573 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_bgcolordefault" : 0,
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -894,8 +895,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1586,8 +1587,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2785,19 +2786,49 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 104.0, 128.0, 1372.0, 761.0 ],
+						"rect" : [ 34.0, 126.0, 1372.0, 761.0 ],
 						"bglocked" : 1,
 						"default_fontface" : 2,
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"id" : "obj-1",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 222.0, 348.125, 330.0, 37.0 ],
+									"presentation_linecount" : 2,
+									"text" : "CataRT on descriptors and spectral shape timbre space with PCA or UMAP dimensionality reduction "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-22",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 16.0, 356.125, 196.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "catart-mubu-descr+mfcc-pca-umap"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"hidden" : 1,
@@ -2823,8 +2854,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3008,7 +3039,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 158.0, 273.0, 157.0, 22.0 ],
-													"text" : "1 10 14 16/05/2025 11014"
+													"text" : "1 10 16  18/07/2025 11016"
 												}
 
 											}
@@ -3321,7 +3352,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 185.5, 348.625, 366.0, 37.0 ],
+									"patching_rect" : [ 220.0, 386.125, 332.0, 37.0 ],
 									"text" : "full CataRT patch with polyphony per touch input from  Linnstrument"
 								}
 
@@ -3334,7 +3365,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 356.125, 168.0, 22.0 ],
+									"patching_rect" : [ 16.0, 393.125, 168.0, 22.0 ],
 									"text" : "catart-mubu-poly-linnstrument"
 								}
 
@@ -3350,7 +3381,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 184.0, 196.625, 366.0, 37.0 ],
-									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectrum"
+									"text" : "CataRT on a timbre space defined by principal components (PCA) of MFCC spectral shape"
 								}
 
 							}
@@ -3391,7 +3422,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 184.0, 386.625, 366.0, 24.0 ],
+									"patching_rect" : [ 184.0, 424.125, 366.0, 24.0 ],
 									"text" : "catart with grid-layout found by a self-organising map (SOM)"
 								}
 
@@ -3405,7 +3436,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 388.625, 129.0, 22.0 ],
+									"patching_rect" : [ 16.0, 426.125, 129.0, 22.0 ],
 									"text" : "catart-mubu-SOM"
 								}
 
@@ -3775,7 +3806,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 621.5, 382.200000524520874, 0.0, 382.200000524520874, 0.0, 606.0, 11.5, 606.0 ],
+									"midpoints" : [ 621.5, 384.227344274520874, 0.0, 384.227344274520874, 0.0, 606.0, 11.5, 606.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -3785,6 +3816,15 @@
 									"destination" : [ "obj-6", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 25.5, 381.0, 0.0, 381.0, 0.0, 630.0, 11.5, 630.0 ],
+									"source" : [ "obj-22", 0 ]
 								}
 
 							}
@@ -3904,8 +3944,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4927,8 +4967,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 7,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6094,8 +6134,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 0,
-											"revision" : 7,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x64",
 											"modernui" : 1
 										}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 371.0, 1512.0, 518.0 ],
+		"rect" : [ 0.0, 371.0, 1101.0, 518.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -22,6 +22,47 @@
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-33",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 161.0, 344.0, 150.0, 31.0 ],
+					"text" : "Hop size of mfcc [samples] MUST BE same as for descr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "mfcc.hopsize",
+					"fontname" : "Geneva",
+					"fontsize" : 10.0,
+					"id" : "obj-30",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1.0, 343.0, 150.0, 21.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 313.0, 102.0, 20.0 ],
+					"text" : "getattr descr.hopsize"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -782,7 +823,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio descr:onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr,mfcc>onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
 				}
@@ -829,7 +870,7 @@
 					"patching_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 0.0, 310.0, 24.0 ],
-					"text" : "> Attributes: descr-onseg (corpus)"
+					"text" : "> Attributes: descr+mfcc-onseg (corpus)"
 				}
 
 			}
@@ -939,6 +980,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-29", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
