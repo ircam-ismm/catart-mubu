@@ -82,7 +82,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1485.0, 425.0, 111.0, 22.0 ],
+					"patching_rect" : [ 1485.0, 425.0, 118.0, 22.0 ],
 					"text" : "s #0-to-process"
 				}
 
@@ -125,7 +125,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -391,7 +390,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 459.5, 392.800000190734863, 111.0, 22.0 ],
+					"patching_rect" : [ 459.5, 392.800000190734863, 118.0, 22.0 ],
 					"text" : "s #0-to-process"
 				}
 
@@ -403,7 +402,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.599999725818634, 49.5, 109.0, 22.0 ],
+					"patching_rect" : [ 24.599999725818634, 49.5, 116.0, 22.0 ],
 					"text" : "r #0-to-process"
 				}
 
@@ -414,7 +413,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1119.0, 435.0, 111.0, 22.0 ],
+					"patching_rect" : [ 1119.0, 435.0, 118.0, 22.0 ],
 					"text" : "s #0-to-process"
 				}
 
@@ -880,7 +879,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1115.333366572856903, 98.000002920627594, 191.20000284910202, 22.0 ],
-					"text" : "corpus"
+					"text" : "tut14-corpus audio descr"
 				}
 
 			}
@@ -977,7 +976,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.500000000000057, 324.800004243850708, 99.0, 22.0 ],
+					"patching_rect" : [ 477.500000000000057, 324.800004243850708, 103.0, 22.0 ],
 					"text" : "refer #1"
 				}
 
@@ -1225,7 +1224,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-37",
-					"items" : [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "descr-none" ],
+					"items" : [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1289,7 +1288,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.5, 8.5, 25.0, 25.0 ]
 				}
 
@@ -1357,7 +1356,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 8.5, 25.0, 25.0 ]
 				}
 
@@ -1403,7 +1402,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.process.descr-chop.maxpat",
+					"name" : "camu.process.descr+mfcc-chop.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],

@@ -26,7 +26,7 @@
 					"patching_rect" : [ 476.337608257929332, 74.299973000000023, 118.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 462.0, 83.0, 56.0, 66.0 ],
+					"presentation_rect" : [ 462.0, 83.0, 59.0, 66.0 ],
 					"text" : "use time tags for x/y"
 				}
 
@@ -114,7 +114,7 @@
 					"patching_rect" : [ 468.0, 949.0, 121.162391742070554, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.833321973442054, 630.799987999999985, 224.0, 20.0 ],
-					"text" : "Date/Time: 2025-07-12_18h09m40.000s",
+					"text" : "Date/Time: 1970-01-01_00h00m00.000s",
 					"textcolor" : [ 1.0, 0.011764705882353, 0.011764705882353, 1.0 ]
 				}
 
@@ -164,10 +164,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 530.0, 21.0, 37.0, 35.0 ],
+					"patching_rect" : [ 530.0, 21.0, 38.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 477.0, 46.0, 37.0, 35.0 ],
+					"presentation_rect" : [ 477.0, 46.0, 38.0, 35.0 ],
 					"text" : "Hour Day"
 				}
 
@@ -266,6 +266,7 @@
 						"classnamespace" : "box",
 						"rect" : [ 133.0, 100.0, 1333.0, 807.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-82",
@@ -585,8 +586,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 520.000007748603821, 498.400007426738739, 195.200002908706665, 33.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 520.000007748603821, 498.400007426738739, 196.0, 33.0 ],
 									"text" : "convert frame time ms to fractional hour offset (seconds / 3600) "
 								}
 
@@ -624,7 +624,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 577.000008881092072, 652.800009727478027, 65.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "gettime $1"
 								}
 
@@ -708,8 +707,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 551.20000821352005, 564.800008416175842, 154.400002300739288, 33.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 551.20000821352005, 564.800008416175842, 155.0, 33.0 ],
 									"text" : "generate running fractional hour + seconds / 3600 "
 								}
 
@@ -830,7 +828,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 113.200000941753387, 362.500009000301361, 50.0, 22.0 ],
-													"text" : "195"
+													"text" : "1"
 												}
 
 											}
@@ -946,7 +944,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.400002062320709, 419.200006246566772, 189.600002825260162, 22.0 ],
-									"text" : "2025 7 14 17 2 52"
+									"text" : "1970 1 1 0 0 0"
 								}
 
 							}
@@ -1349,8 +1347,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.5, 250.5, 65.0, 22.0 ],
-													"text" : "0 0 0 0 0 0"
+													"patching_rect" : [ 50.5, 250.5, 85.0, 22.0 ],
+													"text" : "1970 1 1 0 0 0"
 												}
 
 											}
@@ -1474,7 +1472,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 10.5, 186.5, 91.0, 19.0 ],
-													"text" : "2025 7 14 17 2 52"
+													"text" : "2025 4 21 12 10 11"
 												}
 
 											}
@@ -2411,7 +2409,7 @@
 					"patching_rect" : [ 110.0, 3.125, 436.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 111.0, 0.0, 408.0, 51.0 ],
+					"presentation_rect" : [ 111.0, 0.0, 410.0, 51.0 ],
 					"text" : "CataRT-MuBu Tutorial 14: Tag time-of-day and day-of-year for ecological acoustics"
 				}
 
@@ -2559,13 +2557,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-84",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 946.0, 121.162391742070554, 20.0 ],
+					"patching_rect" : [ 341.0, 946.0, 121.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.833321973442054, 652.799987999999985, 127.0, 20.0 ],
-					"text" : "Duration: 250.00 ms"
+					"text" : "Duration: 2000.00 ms"
 				}
 
 			}
@@ -2590,7 +2589,7 @@
 					"patching_rect" : [ 9.0, 946.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.128198193447105, 582.65002400000003, 141.5870299734421, 20.0 ],
-					"text" : "Buffer: 4"
+					"text" : "Buffer: 60"
 				}
 
 			}
@@ -2615,7 +2614,7 @@
 					"patching_rect" : [ 131.0, 946.0, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.423068386894215, 630.799987999999985, 77.5, 20.0 ],
-					"text" : "Index: 637"
+					"text" : "Index: 0"
 				}
 
 			}
@@ -2634,13 +2633,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-68",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 950.0, 231.0, 20.0 ],
+					"patching_rect" : [ 587.0, 950.0, 231.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.128198193447105, 608.799987999999985, 231.0, 20.0 ],
-					"text" : "File: 2025-07-14 08.55.26.wav"
+					"presentation_rect" : [ 68.0, 608.799987999999985, 363.0, 20.0 ],
+					"text" : "File: 250420_0448_3-4 Air Hockey match Alma.wav"
 				}
 
 			}
@@ -2659,14 +2659,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-64",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.837608257929446, 946.0, 81.162391742070554, 47.0 ],
+					"patching_rect" : [ 241.837608257929446, 946.0, 81.162391742070554, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 652.799987999999985, 122.333327999999995, 20.0 ],
-					"text" : "Start: 159250.00 ms"
+					"text" : "Start: 0.00 ms"
 				}
 
 			}
@@ -4382,7 +4382,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "tut14-corpus", "descr", "y", 1 ],
+					"args" : [ "tut14-corpus", "descr", "y", 5 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -4406,7 +4406,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "tut14-corpus", "descr", "x", 0 ],
+					"args" : [ "tut14-corpus", "descr", "x", 6 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -4480,7 +4480,7 @@
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
 					"cursor_outputdata" : 0,
-					"cursor_position" : [ 8.722035852577045, 1920.997272783527933 ],
+					"cursor_position" : [ -2.385908298224181, 45.926315789473684 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -4492,7 +4492,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 8.923199039193529, 18.254076079942692 ],
+					"domain_bounds" : [ -0.287533738510201, 28.469735795751838 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5095,6 +5095,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"order" : 1,
 					"source" : [ "obj-4", 1 ]
@@ -5113,7 +5121,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -5129,7 +5137,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-4", 0 ]
 				}
 
