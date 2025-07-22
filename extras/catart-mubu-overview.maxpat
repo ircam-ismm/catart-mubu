@@ -14,7 +14,8 @@
 		"bglocked" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"devicewidth" : 1372.0,
-		"showontab" : 1,
+		"showrootpatcherontab" : 0,
+		"showontab" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -32,7 +33,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
@@ -705,7 +706,7 @@
 									"cursor_symbolwidth" : 3.0,
 									"cursor_visible" : 1,
 									"dirtypatcher" : 1,
-									"domain_bounds" : [ 1340.627890221567895, 4646.220247668159573 ],
+									"domain_bounds" : [ 1358.276798664727039, 4633.161722322199239 ],
 									"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"domainruler_bgcolordefault" : 0,
 									"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2792,7 +2793,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 152.0, 1372.0, 735.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"bglocked" : 1,
 						"default_fontface" : 2,
 						"gridsize" : [ 5.0, 5.0 ],
@@ -3948,10 +3949,38 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
+						"rect" : [ 34.0, 126.0, 1372.0, 761.0 ],
 						"gridsize" : [ 10.0, 10.0 ],
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 12.0,
+									"id" : "obj-55",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 620.0, 410.0, 285.5, 22.0 ],
+									"text" : "catart-mubu-tutorial 14 tag time-of-day"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontsize" : 12.0,
+									"id" : "obj-54",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 910.0, 402.5, 390.0, 37.0 ],
+									"presentation_linecount" : 4,
+									"text" : "import long sound files for ecological acoustics, generate running time of day and day of year from start time parsed from file name"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bubble" : 1,
 									"fontsize" : 12.0,
@@ -3960,7 +3989,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 910.0, 366.0, 275.0, 37.0 ],
+									"patching_rect" : [ 910.0, 366.0, 390.0, 37.0 ],
 									"text" : "import from a list of sound files with external descriptors, then add calculated descriptors"
 								}
 
@@ -4588,7 +4617,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 910.0, 340.0, 275.0, 24.0 ],
+									"patching_rect" : [ 910.0, 340.0, 390.0, 24.0 ],
 									"text" : "import from a list of sound files with descriptors"
 								}
 
@@ -4629,7 +4658,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 910.0, 302.5, 355.0, 37.0 ],
+									"patching_rect" : [ 910.0, 302.5, 390.0, 37.0 ],
 									"text" : "By assigning keys to groups of soundfiles, distinct synthesis parameters can be applied to subsets of the corpus."
 								}
 
@@ -4852,7 +4881,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 629.5, 705.0, 681.0, 705.0, 681.0, 690.0, 705.625, 690.0 ],
+									"midpoints" : [ 629.5, 363.0, 606.0, 363.0, 606.0, 681.0, 705.625, 681.0 ],
 									"source" : [ "obj-35", 0 ]
 								}
 
@@ -4888,7 +4917,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 629.5, 682.75, 705.625, 682.75 ],
+									"midpoints" : [ 629.5, 402.0, 606.0, 402.0, 606.0, 681.0, 705.625, 681.0 ],
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -4907,6 +4936,15 @@
 									"destination" : [ "obj-57", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-46", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 1,
+									"midpoints" : [ 629.5, 459.0, 606.0, 459.0, 606.0, 681.0, 705.625, 681.0 ],
+									"source" : [ "obj-55", 0 ]
 								}
 
 							}
@@ -4931,7 +4969,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"hidden" : 1,
-									"midpoints" : [ 629.5, 435.0, 606.0, 435.0, 606.0, 681.0, 705.625, 681.0 ],
+									"midpoints" : [ 629.5, 525.0, 606.0, 525.0, 606.0, 681.0, 705.625, 681.0 ],
 									"source" : [ "obj-70", 0 ]
 								}
 
@@ -4971,7 +5009,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1372.0, 735.0 ],
+						"rect" : [ 0.0, 26.0, 1372.0, 761.0 ],
 						"gridsize" : [ 5.0, 5.0 ],
 						"showontab" : 1,
 						"workspacedisabled" : 1,
