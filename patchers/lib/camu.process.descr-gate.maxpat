@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 210.0, 425.0, 1653.0, 532.0 ],
+		"rect" : [ 210.0, 425.0, 1749.0, 940.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -21,7 +21,94 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
+		"assistshowspatchername" : 0,
+		"commentary" : "",
+		"showcommentary" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 6.22222226858139, 442.222225189208984, 298.0, 20.0 ],
+					"restore" : [ 0.25 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-yinthreshold @bindto mubu-gate::descr.threshold",
+					"varname" : "mubu-gate-yinthreshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 6.22222226858139, 420.222225189208984, 270.0, 20.0 ],
+					"restore" : [ 256.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-hopsize @bindto mubu-gate::descr.hopsize",
+					"varname" : "mubu-gate-hopsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 6.22222226858139, 398.222225189208984, 267.0, 20.0 ],
+					"restore" : [ 2048.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-winsize @bindto mubu-gate::descr.winsize",
+					"varname" : "mubu-gate-winsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 6.194690763950348, 364.477903664112091, 266.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-stddev @bindto mubu-gate::gate.stddev",
+					"varname" : "mubu-gate-stddev"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -266,8 +353,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 557.0, 96.0, 167.0, 23.0 ],
-					"text" : "tut6-corpus"
+					"patching_rect" : [ 557.0, 96.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -295,7 +381,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 122.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -530,7 +616,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700011999999987, 266.0, 20.0 ],
+					"patching_rect" : [ 6.194690763950348, 342.477903664112091, 266.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -551,7 +637,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012000000001, 273.0, 20.0 ],
+					"patching_rect" : [ 6.194690763950348, 321.238963901996613, 273.0, 20.0 ],
 					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -572,7 +658,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012000000001, 286.0, 20.0 ],
+					"patching_rect" : [ 6.194690763950348, 300.884979963302612, 286.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -593,7 +679,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012000000001, 283.0, 20.0 ],
+					"patching_rect" : [ 6.194690763950348, 279.646040201187134, 283.0, 20.0 ],
 					"restore" : [ -40.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -614,7 +700,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012000000001, 284.0, 20.0 ],
+					"patching_rect" : [ 6.194690763950348, 258.407100439071655, 284.0, 20.0 ],
 					"restore" : [ -20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -656,7 +742,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio descr:gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1  @const.name @const.value",
+					"text" : "mubu.process #1 audio descr:gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-gate"
 				}

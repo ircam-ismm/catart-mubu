@@ -19,17 +19,6 @@
 		"showcommentary" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-107",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 684.259999999999991, 189.909999999999997, 100.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.3194645941, 0.6557790041, 0.9778932929, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
@@ -196,7 +185,6 @@
 										"assistshowspatchername" : 0,
 										"commentary" : "",
 										"showcommentary" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-16",
@@ -1179,7 +1167,6 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-78",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1715,7 +1702,6 @@
 						"assistshowspatchername" : 0,
 						"commentary" : "",
 						"showcommentary" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -2053,7 +2039,6 @@
 						"assistshowspatchername" : 0,
 						"commentary" : "",
 						"showcommentary" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2693,8 +2678,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1088.000016212463379, 97.666669547557831, 191.20000284910202, 22.0 ],
-					"text" : "timbre-corpus audio descr0"
+					"patching_rect" : [ 1088.000016212463379, 97.666669547557831, 191.20000284910202, 22.0 ]
 				}
 
 			}
@@ -2950,7 +2934,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-37",
-					"items" : [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
+					"items" : [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "descr-none", ",", "descr-yin", ",", "mfcc-onseg", ",", "mfcc-gate", ",", "mfcc-chop", ",", "descr+mfcc-chop", ",", "ircamdescriptor-chop", ",", "ircamdescriptor-gate", ",", "ircamdescriptor-onseg" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2959,7 +2943,7 @@
 					"patching_rect" : [ 432.258067607879639, 125.806452512741089, 212.5, 22.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 119.0, 22.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 212.5, 22.0 ],
 					"varname" : "segmentation"
 				}
 
@@ -2982,7 +2966,7 @@
 				"box" : 				{
 					"comment" : "Sends progress as float or list of floats 0..1 (Connect to progress bar multi-slider)",
 					"id" : "obj-28",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3010,7 +2994,7 @@
 					"comment" : "choice of analysis: connect left or middle outlet from umenu",
 					"hint" : "choice of analysis: connect left or middle outlet from umenu",
 					"id" : "obj-31",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3037,7 +3021,7 @@
 				"box" : 				{
 					"comment" : "Sends bang when analysis is finished (connect to mubu.knn or camu.select to update).",
 					"id" : "obj-58",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3064,11 +3048,11 @@
 					"comment" : "connect output of mubu here",
 					"hint" : "connect output of mubu here",
 					"id" : "obj-39",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 8.5, 25.0, 25.0 ]
 				}
 
@@ -3114,7 +3098,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.process.descr+mfcc-gate.maxpat",
+					"name" : "camu.process.descr-onseg.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -3598,7 +3582,24 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "camu.process.descr-onseg.maxpat",
+				"bootpath" : "~/src/catart-mubu/patchers/lib",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "mubu.track.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
