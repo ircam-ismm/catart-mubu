@@ -88,7 +88,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 128.333339512348175, 96.33333557844162, 89.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "recall params"
 								}
 
@@ -122,7 +121,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 730.666690140962601, 368.000010669231415, 175.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "tell thispatcher to load bpatcher"
 								}
 
@@ -134,7 +132,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 44.000000357627869, 368.000010669231415, 114.0, 20.0 ],
-									"presentation_linecount" : 2,
 									"text" : "bang for re-analysis"
 								}
 
@@ -173,7 +170,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 268.666674673557281, 341.333343505859375, 108.666669905185699, 47.0 ],
-									"presentation_linecount" : 4,
 									"text" : "re-send track config after bpatcher change"
 								}
 
@@ -195,11 +191,12 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 971.0, 108.0, 1380.0, 812.0 ],
+										"rect" : [ 592.0, 87.0, 871.0, 665.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
 										"assistshowspatchername" : 0,
 										"commentary" : "",
 										"showcommentary" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-16",
@@ -207,7 +204,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 484.5, 93.600001394748688, 347.0, 20.0 ],
-													"presentation_linecount" : 3,
 													"text" : "name of current method to store params under before switching"
 												}
 
@@ -269,7 +265,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 87.200001299381256, 93.600001394748688, 259.0, 22.0 ],
-													"presentation_linecount" : 5,
 													"text" : "patcher parent::parent::camu.process-bpatcher"
 												}
 
@@ -725,25 +720,6 @@
 											}
 , 											{
 												"box" : 												{
-													"data" : 													{
-														"descr-chop" : 														{
-															"mubu-chop-offset" : 0.0,
-															"mubu-chop-size" : 33.0
-														}
-,
-														"descr-onseg" : 														{
-															"mubu-onseg-durthresh" : 0.0,
-															"mubu-onseg-filtersize" : 5,
-															"mubu-onseg-maxsize" : 10000.0,
-															"mubu-onseg-mininter" : 50.0,
-															"mubu-onseg-odfmode" : 0,
-															"mubu-onseg-offthresh" : -100.0,
-															"mubu-onseg-startisonset" : 1,
-															"mubu-onseg-threshold" : 14.0
-														}
-
-													}
-,
 													"id" : "obj-21",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
@@ -751,7 +727,6 @@
 													"outlettype" : [ "dictionary", "", "", "", "" ],
 													"patching_rect" : [ 528.800007879734039, 368.000005483627319, 61.0, 22.0 ],
 													"saved_object_attributes" : 													{
-														"embed" : 1,
 														"legacy" : 1,
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -1065,7 +1040,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 31.333334267139435, 192.000005722045898, 133.0, 87.0 ],
-									"presentation_linecount" : 7,
 									"text" : "keep pattrized parameters in dict to be able to switch back to a different analysis method without losing the settings"
 								}
 
@@ -1078,7 +1052,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 48.000001430511475, 29.33333420753479, 159.3333380818367, 33.0 ],
-									"presentation_linecount" : 4,
 									"text" : "base name of patcher to be loaded into bpatcher"
 								}
 
@@ -1090,8 +1063,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 572.000017046928406, 28.000000834465027, 86.000002562999725, 33.0 ],
-									"presentation_linecount" : 2,
+									"patching_rect" : [ 572.000017046928406, 28.000000834465027, 87.0, 33.0 ],
 									"text" : "trackid <audio track name>"
 								}
 
@@ -1104,7 +1076,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 723.333354890346527, 28.000000834465027, 128.666670501232147, 33.0 ],
-									"presentation_linecount" : 2,
 									"text" : "prefix of patcher to be loaded into bpatcher"
 								}
 
@@ -1744,6 +1715,7 @@
 						"assistshowspatchername" : 0,
 						"commentary" : "",
 						"showcommentary" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -2076,11 +2048,12 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 204.0, 87.0, 856.0, 566.0 ],
+						"rect" : [ 1674.0, 676.0, 856.0, 566.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"assistshowspatchername" : 0,
 						"commentary" : "",
 						"showcommentary" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -2343,6 +2316,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -2537,7 +2511,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1066.700019061565399, 8.09999942779541, 198.400002956390381, 33.0 ],
+					"patching_rect" : [ 1066.700019061565399, 8.09999942779541, 201.0, 33.0 ],
 					"text" : "this hidden umenu holds all existing camu.process.* as backup"
 				}
 
@@ -2720,7 +2694,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1088.000016212463379, 97.666669547557831, 191.20000284910202, 22.0 ],
-					"text" : "analysis-help-corpus audio descr"
+					"text" : "timbre-corpus audio descr0"
 				}
 
 			}
@@ -2976,7 +2950,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-37",
-					"items" : [ "analysis", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "descr-yin" ],
+					"items" : [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3040,7 +3014,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 432.5, 8.5, 25.0, 25.0 ]
 				}
 
@@ -3140,7 +3114,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.process.descr-chop.maxpat",
+					"name" : "camu.process.descr+mfcc-gate.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -3329,6 +3303,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 1 ],
 					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
