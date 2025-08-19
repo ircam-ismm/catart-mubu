@@ -17,6 +17,32 @@
 		"showcommentary" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 278.0, 147.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "show analysis parameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 141.0, 277.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
@@ -104,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 347.0, 226.1678466796875, 47.0 ],
+					"patching_rect" : [ 165.0, 347.0, 226.1678466796875, 47.0 ],
 					"text" : "anything else in left inlet is sent to mubu.process, can be used to set analysis parameters (see pipo modules)"
 				}
 
@@ -116,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 318.0, 99.0, 22.0 ],
+					"patching_rect" : [ 154.0, 318.0, 99.0, 22.0 ],
 					"text" : "descr.hopsize $1"
 				}
 
@@ -129,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 318.0, 50.0, 22.0 ]
+					"patching_rect" : [ 262.0, 318.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -316,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 265.0, 104.0, 20.0 ],
+					"patching_rect" : [ 151.0, 251.0, 104.0, 20.0 ],
 					"text" : "bang to reanalyse"
 				}
 
@@ -538,9 +564,9 @@
 					"cursor_symbolfilled" : 1,
 					"cursor_symbolheight" : 0.0,
 					"cursor_symbolwidth" : 0.0,
-					"cursor_visible" : 0,
+					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 0.0, 1.0 ],
+					"domain_bounds" : [ 1392.689030715309173, 4506.807935606992032 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -636,7 +662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 128.0, 265.0, 20.0, 20.0 ]
+					"patching_rect" : [ 127.0, 251.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1359,6 +1385,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 150.5, 400.609375, 123.5, 400.609375 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-175", 1 ],
 					"hidden" : 1,
 					"midpoints" : [ 323.5, 561.962552985057755, 350.046875, 561.962552985057755, 350.046875, 476.095657992530732, 174.5, 476.095657992530732 ],
@@ -1456,7 +1490,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 154.5, 400.69921875, 123.5, 400.69921875 ],
+					"midpoints" : [ 163.5, 400.69921875, 123.5, 400.69921875 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1691,7 +1725,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 137.5, 400.0, 123.5, 400.0 ],
+					"midpoints" : [ 136.5, 400.0, 123.5, 400.0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 
