@@ -1078,7 +1078,7 @@
             580.0,
             77.0
           ],
-          "text": "mubu.process #1 audio descr<thru,select:scale>onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @select.columns Frequency @scale.func ftom @onseg.colindex -1 @onseg.odfmode rms @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 0.75 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
+          "text": "mubu.process #1 audio descr<thru\\,select:scale>onseg @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @select.columns Frequency @scale.func ftom @onseg.colindex -1 @onseg.odfmode rms @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 0.75 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1",
           "textcolor": [
             0.0,
             0.0,

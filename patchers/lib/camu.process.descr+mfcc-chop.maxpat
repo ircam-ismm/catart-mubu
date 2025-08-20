@@ -520,7 +520,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1  @mfcc.hopsize 256  @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr\\,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1  @mfcc.hopsize 256  @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
 				}

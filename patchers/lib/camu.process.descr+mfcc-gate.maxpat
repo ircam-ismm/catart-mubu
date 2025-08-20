@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 425.0, 1512.0, 532.0 ],
+		"rect" : [ 0.0, 425.0, 1749.0, 910.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -21,7 +21,94 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
+		"assistshowspatchername" : 0,
+		"commentary" : "",
+		"showcommentary" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 507.843153297901154, 298.0, 20.0 ],
+					"restore" : [ 0.25 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-yinthreshold @bindto mubu-gate::descr.threshold",
+					"varname" : "mubu-gate-yinthreshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 485.620930373668671, 270.0, 20.0 ],
+					"restore" : [ 256.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-hopsize @bindto mubu-gate::descr.hopsize",
+					"varname" : "mubu-gate-hopsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 463.398707449436188, 267.0, 20.0 ],
+					"restore" : [ 2048.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-winsize @bindto mubu-gate::descr.winsize",
+					"varname" : "mubu-gate-winsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 430.065373063087463, 266.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-gate-stddev @bindto mubu-gate::gate.stddev",
+					"varname" : "mubu-gate-stddev"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -30,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 344.0, 150.0, 31.0 ],
+					"patching_rect" : [ 161.130724012851715, 278.696747453605667, 150.0, 31.0 ],
 					"text" : "Hop size of mfcc [samples] MUST BE same as for descr"
 				}
 
@@ -46,7 +133,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 343.0, 150.0, 21.0 ]
+					"patching_rect" : [ 1.0, 278.043152661716476, 150.0, 21.0 ]
 				}
 
 			}
@@ -57,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1.0, 313.0, 119.0, 20.0 ],
+					"patching_rect" : [ 1.0, 247.977792234813705, 119.0, 20.0 ],
 					"text" : "getattr descr.hopsize"
 				}
 
@@ -335,7 +422,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 122.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -379,7 +466,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 923.5, 314.700012000000015, 25.0, 25.0 ]
+					"patching_rect" : [ 923.5, 326.143801152706146, 25.0, 25.0 ]
 				}
 
 			}
@@ -570,7 +657,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 146.700011999999987, 266.0, 20.0 ],
+					"patching_rect" : [ 1.0, 406.535960555076599, 266.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -591,7 +678,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 125.700012000000001, 273.0, 20.0 ],
+					"patching_rect" : [ 1.0, 385.620927214622498, 273.0, 20.0 ],
 					"restore" : [ 50.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -612,7 +699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 104.700012000000001, 286.0, 20.0 ],
+					"patching_rect" : [ 1.0, 364.705893874168396, 286.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -633,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 83.700012000000001, 283.0, 20.0 ],
+					"patching_rect" : [ 1.0, 343.790860533714294, 283.0, 20.0 ],
 					"restore" : [ -40.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -654,7 +741,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 956.0, 62.700012000000001, 284.0, 20.0 ],
+					"patching_rect" : [ 1.0, 322.875827193260193, 284.0, 20.0 ],
 					"restore" : [ -20.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -696,7 +783,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr,mfcc>gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1  @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1  @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr\\,mfcc>gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-gate"
 				}
@@ -710,7 +797,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 314.700012000000015, 25.0, 25.0 ]
+					"patching_rect" : [ 392.156875133514404, 326.143801152706146, 25.0, 25.0 ]
 				}
 
 			}

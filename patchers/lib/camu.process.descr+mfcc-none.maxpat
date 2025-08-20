@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 172.0, 1512.0, 527.0 ],
+		"rect" : [ 122.0, 415.0, 1905.0, 943.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
 		"lefttoolbarpinned" : 2,
@@ -18,7 +18,94 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 13,
+		"assistshowspatchername" : 0,
+		"commentary" : "",
+		"showcommentary" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 371.200004609024063, 301.0, 20.0 ],
+					"restore" : [ 0.25 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-yinthreshold @bindto mubu-none::descr.threshold",
+					"varname" : "mubu-none-yinthreshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 349.950006635581985, 273.0, 20.0 ],
+					"restore" : [ 256.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-hopsize @bindto mubu-none::descr.hopsize",
+					"varname" : "mubu-none-hopsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 327.450008781349197, 270.0, 20.0 ],
+					"restore" : [ 2048.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-winsize @bindto mubu-none::descr.winsize",
+					"varname" : "mubu-none-winsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.0, 293.700012000000015, 266.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-stddev @bindto mubu-none::chop.stddev",
+					"varname" : "mubu-none-stddev"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -27,7 +114,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 344.0, 150.0, 31.0 ],
+					"patching_rect" : [ 160.99998477101326, 223.249997019767761, 150.0, 31.0 ],
 					"text" : "Hop size of mfcc [samples] MUST BE same as for descr"
 				}
 
@@ -43,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 343.0, 150.0, 21.0 ]
+					"patching_rect" : [ 1.000000029802322, 221.999997138977051, 150.0, 21.0 ]
 				}
 
 			}
@@ -54,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1.0, 313.0, 119.0, 22.0 ],
+					"patching_rect" : [ 1.000000029802322, 192.0, 119.0, 22.0 ],
 					"text" : "getattr descr.hopsize"
 				}
 
@@ -69,7 +156,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.000004798173904, 143.000004261732101, 157.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 117.400001049041748, 157.0, 19.0 ],
+					"presentation_rect" : [ 161.249984622001648, 139.99998664855957, 157.0, 19.0 ],
 					"text" : "Yin periodicity threshold [0..1]"
 				}
 
@@ -87,7 +174,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.000000029802322, 143.000004261732101, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 117.400001049041748, 150.0, 21.0 ]
+					"presentation_rect" : [ 1.24999988079071, 139.99998664855957, 150.0, 21.0 ]
 				}
 
 			}
@@ -101,7 +188,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 120.0, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 95.800000727176666, 150.0, 19.0 ],
+					"presentation_rect" : [ 161.249984622001648, 118.124988734722137, 150.0, 19.0 ],
 					"text" : "Hop size [samples]"
 				}
 
@@ -119,7 +206,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 120.0, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 95.800000727176666, 150.0, 21.0 ]
+					"presentation_rect" : [ 1.24999988079071, 118.124988734722137, 150.0, 21.0 ]
 				}
 
 			}
@@ -133,7 +220,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 97.0, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 73.400000393390656, 150.0, 19.0 ],
+					"presentation_rect" : [ 161.249984622001648, 95.624990880489349, 150.0, 19.0 ],
 					"text" : "Window size [samples]"
 				}
 
@@ -151,7 +238,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 97.0, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 73.400000393390656, 150.0, 21.0 ]
+					"presentation_rect" : [ 1.24999988079071, 95.624990880489349, 150.0, 21.0 ]
 				}
 
 			}
@@ -332,7 +419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 124.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -346,7 +433,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 47.0, 150.0, 19.0 ],
+					"presentation_rect" : [ 161.249984622001648, 69.37499338388443, 150.0, 19.0 ],
 					"text" : "Calculate standard deviation"
 				}
 
@@ -364,7 +451,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 47.0, 150.0, 21.0 ]
+					"presentation_rect" : [ 1.24999988079071, 69.37499338388443, 150.0, 21.0 ]
 				}
 
 			}
@@ -378,7 +465,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1.0, 267.700012000000015, 343.0, 23.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -398,7 +485,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
-					"text" : "Segment Offset [ms]"
+					"presentation" : 1,
+					"presentation_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
+					"text" : "Start Offset [ms]"
 				}
 
 			}
@@ -428,7 +517,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
+					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
 				}
 
 			}
@@ -474,9 +565,9 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 0. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr\\,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 0. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-chop"
+					"varname" : "mubu-none"
 				}
 
 			}
