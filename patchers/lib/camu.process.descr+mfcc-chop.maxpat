@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 185.0, 486.0, 1280.0, 455.0 ],
+		"rect" : [ 43.0, 432.0, 1579.0, 781.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -24,13 +24,97 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.290322542190552, 378.709666132926941, 301.0, 20.0 ],
+					"restore" : [ 0.25 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-chop-yinthreshold @bindto mubu-chop::descr.threshold",
+					"varname" : "mubu-chop-yinthreshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.290322542190552, 356.774182915687561, 273.0, 20.0 ],
+					"restore" : [ 256.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-chop-hopsize @bindto mubu-chop::descr.hopsize",
+					"varname" : "mubu-chop-hopsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.290322542190552, 334.838699698448181, 270.0, 20.0 ],
+					"restore" : [ 2048.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-chop-winsize @bindto mubu-chop::descr.winsize",
+					"varname" : "mubu-chop-winsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.290322542190552, 301.290313601493835, 266.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-chop-stddev @bindto mubu-chop::chop.stddev",
+					"varname" : "mubu-chop-stddev"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
 					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.0, 344.0, 150.0, 31.0 ],
+					"patching_rect" : [ 160.99999526143074, 210.967735648155212, 150.0, 31.0 ],
 					"text" : "Hop size of mfcc [samples] MUST BE same as for descr"
 				}
 
@@ -46,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 343.0, 150.0, 21.0 ]
+					"patching_rect" : [ 1.000000029802322, 210.322574377059937, 150.0, 21.0 ]
 				}
 
 			}
@@ -57,7 +141,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1.0, 313.0, 119.0, 20.0 ],
+					"patching_rect" : [ 1.000000029802322, 179.99999463558197, 119.0, 20.0 ],
 					"text" : "getattr descr.hopsize"
 				}
 
@@ -307,8 +391,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 111.0, 168.0, 23.0 ],
-					"text" : "timbre-corpus audio descr0"
+					"patching_rect" : [ 572.0, 111.0, 168.0, 23.0 ]
 				}
 
 			}
@@ -381,7 +464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 8.0, 251.700012000000015, 259.0, 20.0 ],
+					"patching_rect" : [ 1.290322542190552, 279.354830384254456, 259.0, 20.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -402,7 +485,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 8.0, 230.700012000000015, 240.0, 20.0 ],
+					"patching_rect" : [ 1.290322542190552, 258.064508438110352, 240.0, 20.0 ],
 					"restore" : [ 250.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -482,7 +565,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -494,7 +577,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -520,7 +603,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr\\,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1  @mfcc.hopsize 256  @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1  @mfcc.hopsize 256  @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 250. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-chop"
 				}
@@ -530,7 +613,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -737,7 +820,13 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "mubu.process.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

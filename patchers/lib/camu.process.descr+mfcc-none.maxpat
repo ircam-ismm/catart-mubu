@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 122.0, 415.0, 1905.0, 943.0 ],
+		"rect" : [ 48.0, 786.0, 1572.0, 578.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
 		"lefttoolbarpinned" : 2,
@@ -18,9 +18,6 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 13,
-		"assistshowspatchername" : 0,
-		"commentary" : "",
-		"showcommentary" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Geneva",
@@ -419,7 +416,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 124.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -565,7 +562,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr\\,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 0. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr,mfcc>chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 0. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-none"
 				}

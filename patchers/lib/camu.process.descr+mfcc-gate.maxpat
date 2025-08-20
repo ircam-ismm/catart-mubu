@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 425.0, 1749.0, 910.0 ],
+		"rect" : [ 22.0, 675.0, 1365.0, 680.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -21,9 +21,6 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"assistshowspatchername" : 0,
-		"commentary" : "",
-		"showcommentary" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Geneva",
@@ -422,7 +419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 122.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -783,7 +780,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr\\,mfcc>gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr,mfcc>gate:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @gate.colindex 4 @gate.numcols 1 @gate.threshold -20 @gate.offthresh -40 @gate.durthresh 0. @gate.mininter 50 @gate.maxdur 0. @gate.mean 1 @gate.stddev 0 @gate.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-gate"
 				}

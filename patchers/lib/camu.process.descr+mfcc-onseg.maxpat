@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 371.0, 2018.0, 1013.0 ],
+		"rect" : [ 46.0, 367.0, 1911.0, 980.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 9.0,
 		"default_fontname" : "Geneva",
@@ -21,9 +21,6 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"assistshowspatchername" : 0,
-		"commentary" : "",
-		"showcommentary" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Geneva",
@@ -422,7 +419,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 420.0, 216.700012000000015, 122.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -910,7 +907,7 @@
 						"verbose" : 1
 					}
 ,
-					"text" : "mubu.process #1 audio <descr\\,mfcc>onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.name @const.value",
+					"text" : "mubu.process #1 audio <descr,mfcc>onseg:const @name descr @process 0 @prepad 0 @priority 2 @progressoutput input @timetagged 1 @mfcc.hopsize 256 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @onseg.colindex 4 @onseg.numcols 1 @onseg.mean 1 @onseg.stddev 0 @onseg.threshold 5 @onseg.filtersize 5 @onseg.duration 1 @onseg.offthresh -100 @onseg.maxsize 10000. @onseg.startisonset 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "mubu-onseg"
 				}
