@@ -648,7 +648,7 @@
                                     "cursor_noringoffset": 0,
                                     "cursor_numextracursors": 0,
                                     "cursor_outputdata": 0,
-                                    "cursor_position": [ 8921.156462585033, -0.24806201550387597 ],
+                                    "cursor_position": [ 0.0, 0.4651512783887081 ],
                                     "cursor_shape": "cross",
                                     "cursor_size": 1,
                                     "cursor_sizeunit": 0,
@@ -2562,7 +2562,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 81.0, 113.0, 1372.0, 761.0 ],
+                        "rect": [ 134.0, 185.0, 1372.0, 761.0 ],
                         "bglocked": 1,
                         "default_fontface": 2,
                         "gridsize": [ 5.0, 5.0 ],
@@ -2577,7 +2577,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 220.0, 335.0, 286.0, 24.0 ],
+                                    "patching_rect": [ 220.0, 335.0, 332.0, 24.0 ],
                                     "text": "distribute points to fill the whole interaction space"
                                 }
                             },
@@ -3055,7 +3055,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 612.0, 63.625, 139.0, 66.0 ],
+                                    "patching_rect": [ 599.0, 64.0, 139.0, 66.0 ],
                                     "text": "These patches depend on additional packages from the PM.",
                                     "textcolor": [ 0.117647058823529, 0.529411764705882, 0.611764705882353, 1.0 ]
                                 }
@@ -3082,7 +3082,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 611.0, 336.0, 132.0, 22.0 ],
+                                    "patching_rect": [ 598.0, 336.0, 132.0, 22.0 ],
                                     "text": "catart-mubu-poly"
                                 }
                             },
@@ -3147,7 +3147,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 612.0, 509.22500187158585, 65.0, 22.0 ],
+                                    "patching_rect": [ 599.0, 509.0, 65.0, 22.0 ],
                                     "text": "append #1"
                                 }
                             },
@@ -3199,8 +3199,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 612.0, 565.6000018715858, 129.0, 22.0 ],
-                                    "text": "catart-mubu-spat-mc"
+                                    "patching_rect": [ 599.0, 566.0, 158.0, 22.0 ],
+                                    "text": "catart-mubu-spat-multitouch"
                                 }
                             },
                             {
@@ -3225,7 +3225,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 612.0, 476.72500187158585, 129.0, 22.0 ],
+                                    "patching_rect": [ 599.0, 477.0, 129.0, 22.0 ],
                                     "text": "catoracle"
                                 }
                             },
@@ -3362,7 +3362,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 612.0, 169.5, 132.0, 22.0 ],
+                                    "patching_rect": [ 599.0, 170.0, 132.0, 22.0 ],
                                     "text": "catart-mubu-controllers"
                                 }
                             },
@@ -3516,7 +3516,7 @@
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
                                     "hidden": 1,
-                                    "midpoints": [ 620.5, 384.2273442745209, 0.0, 384.2273442745209, 0.0, 606.0, 11.5, 606.0 ],
+                                    "midpoints": [ 607.5, 384.2273442745209, 0.0, 384.2273442745209, 0.0, 606.0, 11.5, 606.0 ],
                                     "source": [ "obj-14", 0 ]
                                 }
                             },
@@ -3554,7 +3554,7 @@
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
                                     "hidden": 1,
-                                    "midpoints": [ 621.5, 257.0, 3.0, 257.0, 3.0, 564.0, 11.5, 564.0 ],
+                                    "midpoints": [ 608.5, 257.0, 3.0, 257.0, 3.0, 564.0, 11.5, 564.0 ],
                                     "source": [ "obj-37", 0 ]
                                 }
                             },
@@ -3598,7 +3598,7 @@
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
                                     "hidden": 1,
-                                    "midpoints": [ 621.5, 650.8000003099442, 11.5, 650.8000003099442 ],
+                                    "midpoints": [ 608.5, 650.8000003099442, 11.5, 650.8000003099442 ],
                                     "source": [ "obj-75", 0 ]
                                 }
                             },
@@ -3621,7 +3621,7 @@
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
                                     "hidden": 1,
-                                    "midpoints": [ 621.5, 614.5125018954277, 11.5, 614.5125018954277 ],
+                                    "midpoints": [ 608.5, 614.5125018954277, 11.5, 614.5125018954277 ],
                                     "source": [ "obj-9", 0 ]
                                 }
                             }
