@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 0,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -15,6 +15,30 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"devicewidth" : 1231.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-129",
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1210.204070091247559, 765.0, 41.0, 32.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-127",
+					"maxclass" : "gswitch",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1257.0, 765.0, 41.0, 32.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "tabs_bgcolor",
 					"id" : "obj-121",
@@ -44,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1270.0, 810.0, 90.0, 22.0 ],
+					"patching_rect" : [ 1257.0, 809.0, 90.0, 22.0 ],
 					"text" : "print wfghkdhgf"
 				}
 
@@ -78,14 +102,16 @@
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
 					"id" : "obj-193",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2608.112470388412476, 573.626522898674011, 163.5, 21.0 ],
+					"patching_rect" : [ 2608.112470388412476, 573.626522898674011, 163.5, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1237.0, 0.0, 163.5, 21.0 ],
-					"text" : "System:/Applications/"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1237.0, 0.0, 163.5, 33.0 ],
+					"text" : "\"C:/Program Files/Cycling '74/Max 9/\""
 				}
 
 			}
@@ -100,8 +126,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -397,7 +423,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1062.0, 830.0, 105.0, 22.0 ],
+					"patching_rect" : [ 1210.204070091247559, 843.5, 105.0, 22.0 ],
 					"text" : "print region imubu"
 				}
 
@@ -469,20 +495,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1939.0, 42.0, 244.0, 87.0 ],
+					"patching_rect" : [ 1939.0, 42.0, 244.0, 89.0 ],
 					"text" : "-clusters sometimes they dissapear\n-manual selection does not highlight selection. but it usually works\n\n-buffers to the active list\n-loudness imubu???"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-172",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1199.0, 598.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -492,7 +506,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1863.742608964443207, 750.877160310745239, 86.0, 22.0 ],
+					"patching_rect" : [ 1867.346920967102051, 723.5, 86.0, 22.0 ],
 					"text" : "s updateactive"
 				}
 
@@ -544,14 +558,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -373.0, 353.0, 1852.0, 916.0 ],
+						"rect" : [ 3660.0, 82.0, 1212.0, 860.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -670,7 +684,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 11.229946196079254, 218.479533970355988, 92.0, 22.0 ],
-									"text" : "offset -240 -222"
+									"text" : "offset -166 -235"
 								}
 
 							}
@@ -846,10 +860,10 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querymodes-nikos6.maxpat",
+					"name" : "camu.querymodes-nikos7-newui4.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 2,
-					"offset" : [ -240.0, -222.0 ],
+					"offset" : [ -166.0, -235.0 ],
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1212.56712818145752, 295.858109146356583, 626.506047248840332, 271.084347367286682 ],
 					"presentation" : 1,
@@ -865,7 +879,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2850.769502639770508, 389.230806350708008, 150.0, 33.0 ],
+					"patching_rect" : [ 2850.769502639770508, 389.230806350708008, 150.0, 34.0 ],
 					"text" : "how to include or not clusters"
 				}
 
@@ -896,8 +910,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -968,8 +982,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 9,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 0,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -984,6 +998,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-3",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -1068,6 +1083,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-124",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -1166,6 +1182,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-20",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
@@ -1180,6 +1197,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-111",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
@@ -1194,6 +1212,7 @@
 													"fontname" : "Geneva",
 													"fontsize" : 10.0,
 													"id" : "obj-97",
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -1730,10 +1749,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 322.962952375411987, 267.83332371711731, 197.777771294116974, 129.0 ],
+					"patching_rect" : [ 322.962952375411987, 267.83332371711731, 197.777771294116974, 133.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 109.756100177764893, 543.797126680612564, 314.247156019653289, 89.0 ],
+					"presentation_rect" : [ 109.756100177764893, 543.797126680612564, 314.247156019653289, 91.0 ],
 					"text" : "mubu.gmm.clustering-allbuffers corpus descr Label @clusters 3 @columns FrequencyMean LoudnessMean"
 				}
 
@@ -1749,8 +1768,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2082,7 +2101,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 421.0, 685.0, 100.0, 35.0 ],
+					"patching_rect" : [ 421.0, 685.0, 100.0, 36.0 ],
 					"text" : "routepass bufferindex"
 				}
 
@@ -2223,7 +2242,7 @@
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
 					"tabs_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tabs_fgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -2250,7 +2269,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 827.0, 212.0, 22.0 ],
-					"text" : "timeselection 0. 0."
+					"text" : "interface scatterplot"
 				}
 
 			}
@@ -2426,8 +2445,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2527,7 +2546,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 76.0, 144.0, 198.0, 22.0 ],
-									"text" : "1 10 15  18/06/2025 11015"
+									"text" : "1 10 16  18/07/2025 11016"
 								}
 
 							}
@@ -2620,7 +2639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1234.100018680095673, 38.5, 107.0, 35.0 ],
+					"patching_rect" : [ 1234.100018680095673, 38.5, 107.0, 36.0 ],
 					"text" : "sprintf loadunique %s.maxhelp"
 				}
 
@@ -2658,16 +2677,18 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 380.5, 53.5, 95.0, 51.0 ],
+					"patching_rect" : [ 380.5, 53.5, 95.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 396.466671820129363, 40.0, 67.0, 78.0 ],
+					"presentation_rect" : [ 396.466671820129363, 40.0, 67.0, 79.0 ],
 					"text" : "import files or folders into corpus"
 				}
 
@@ -2883,7 +2904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.5, 109.0, 79.0, 37.0 ],
+					"patching_rect" : [ 416.5, 109.0, 79.0, 38.0 ],
 					"text" : "switch off pipo analysis when reading .mubu"
 				}
 
@@ -2940,16 +2961,18 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-75",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.0, 636.0, 92.0, 37.0 ],
+					"patching_rect" : [ 84.0, 636.0, 91.581195871035277, 38.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 24.666663999999997, 461.15002400000003, 88.0, 37.0 ],
+					"presentation_rect" : [ 24.666663999999997, 461.15002400000003, 88.0, 38.0 ],
 					"text" : "synthesis parameters"
 				}
 
@@ -2958,16 +2981,18 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-158",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 347.0, 89.0, 64.0 ],
+					"patching_rect" : [ 10.0, 347.0, 88.333336000000003, 66.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 24.666667401790619, 234.66667366027832, 88.0, 64.0 ],
+					"presentation_rect" : [ 24.666667401790619, 234.66667366027832, 88.0, 66.0 ],
 					"text" : "try trigger modes & selection parameters"
 				}
 
@@ -3198,8 +3223,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3494,7 +3519,6 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"bubbleusescolors" : 1,
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -3503,10 +3527,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 472.5, 13.5, 95.0, 37.0 ],
+					"patching_rect" : [ 472.5, 13.5, 95.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 472.5, 5.0, 95.0, 37.0 ],
+					"presentation_rect" : [ 472.5, 5.0, 95.0, 38.0 ],
 					"text" : "drop files or folders here"
 				}
 
@@ -3525,8 +3549,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 0,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5026,7 +5050,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 421.0, 586.200008928775787, 100.0, 35.0 ],
+					"patching_rect" : [ 421.0, 586.200008928775787, 100.0, 36.0 ],
 					"text" : "0.141732 0.677165"
 				}
 
@@ -5343,7 +5367,7 @@
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
 					"cursor_outputdata" : 0,
-					"cursor_position" : [ 0.0, 0.541801563066589 ],
+					"cursor_position" : [ 8879.315658103645546, -0.011177148628534 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -5355,7 +5379,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 669.942146345914807, 10579451.652112286537886 ],
+					"domain_bounds" : [ 74.010030018451488, 11058.140156994835706 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5392,7 +5416,7 @@
 					"outputvalues" : 1,
 					"outputviewname" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 544.444487929344177, 188.888903975486755, 627.5, 530.799987999999985 ],
+					"patching_rect" : [ 549.397610664367676, 213.200012000000015, 627.5, 530.799987999999985 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 577.0, 165.0, 637.0, 531.0 ],
 					"rangeruler_grid" : 0,
@@ -5407,7 +5431,7 @@
 					"splitbars_size" : 2,
 					"splitbars_visible" : 1,
 					"tabs_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tabs_fgcolor" : [ 0.129412, 0.129412, 0.129412, 1.0 ],
+					"tabs_fgcolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
@@ -5461,16 +5485,18 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-74",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.166626000000065, 137.0, 82.0, 51.0 ],
+					"patching_rect" : [ 26.166626000000065, 137.0, 82.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 24.666663999999997, 138.0, 76.0, 51.0 ],
+					"presentation_rect" : [ 24.666663999999997, 138.0, 76.0, 52.0 ],
 					"text" : "choose segmentation"
 				}
 
@@ -5510,16 +5536,18 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-34",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 448.0, 319.0, 85.0, 64.0 ],
+					"patching_rect" : [ 448.0, 319.0, 85.0, 66.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 492.5, 164.5, 80.0, 64.0 ],
+					"presentation_rect" : [ 492.5, 164.5, 80.0, 66.0 ],
 					"text" : "move mouse to control selection"
 				}
 
@@ -5557,7 +5585,9 @@
 				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 3,
-					"bubbleusescolors" : 1,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5622,9 +5652,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 5.0, 437.0, 33.0 ],
+					"patching_rect" : [ 8.0, 5.0, 437.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 5.0, 437.0, 33.0 ],
+					"presentation_rect" : [ 8.0, 5.0, 437.0, 34.0 ],
 					"text" : "CataRT by MuBu with corpus filtering"
 				}
 
@@ -5682,7 +5712,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 10.0, 681.0, 168.0, 118.0 ],
+					"patching_rect" : [ 10.0, 681.0, 168.0, 121.0 ],
 					"saved_object_attributes" : 					{
 						"outputstate" : 1,
 						"resampleaudioinput" : 0,
@@ -5723,7 +5753,7 @@
 					"presentation_rect" : [ 114.000003397464752, 216.666673123836517, 338.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 81,
+					"size" : 53,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ]
 				}
 
@@ -5777,7 +5807,7 @@
 					"patching_rect" : [ 117.647051811218262, 138.0, 829.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 49.0 ],
+					"presentation_rect" : [ 114.000003397464752, 165.333338260650635, 338.0, 50.0 ],
 					"text" : "camu.analysis corpus @addcolname Cluster ClusterActive Label Directory DirectoryActive ManualActive RangeActive active @addcolvalue 0 1 0 1 1 1 1 1",
 					"varname" : "corpus-analysis"
 				}
@@ -5934,13 +5964,13 @@
 					"activebgoncolor" : [ 0.0, 0.0, 0.0, 0.43 ],
 					"background" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bordercolor" : [ 0.85, 0.85, 0.85, 1.0 ],
 					"focusbordercolor" : [ 0.447058823529412, 0.447058823529412, 0.447058823529412, 0.0 ],
 					"fontface" : 1,
 					"fontsize" : 15.0,
 					"id" : "obj-175",
-					"inactivetextoffcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
-					"inactivetextoncolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"inactivetextoffcolor" : [ 0.9, 0.65, 0.05, 1.0 ],
+					"inactivetextoncolor" : [ 0.618934978328545, 0.744701397656435, 0.953750108255376, 1.0 ],
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
@@ -6319,6 +6349,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-139", 0 ]
@@ -6445,13 +6489,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-168", 0 ],
-					"source" : [ "obj-172", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-175", 0 ]
 				}
@@ -6467,7 +6504,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-108", 0 ],
+					"destination" : [ "obj-129", 2 ],
 					"order" : 0,
 					"source" : [ "obj-181", 0 ]
 				}
@@ -6476,7 +6513,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
-					"midpoints" : [ 553.944487929344177, 932.0, 527.9453125, 932.0, 527.9453125, 190.0, 553.944487929344177, 190.0 ],
+					"midpoints" : [ 553.944487929344177, 932.0, 527.9453125, 932.0, 527.9453125, 190.0, 558.897610664367676, 190.0 ],
 					"order" : 1,
 					"source" : [ "obj-181", 0 ]
 				}
@@ -6544,16 +6581,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-120", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-124", 0 ],
+					"order" : 3,
 					"source" : [ "obj-216", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-124", 0 ],
-					"order" : 3,
+					"destination" : [ "obj-127", 2 ],
+					"order" : 1,
 					"source" : [ "obj-216", 0 ]
 				}
 
@@ -7208,10 +7245,6 @@
 			"obj-54::obj-113" : [ "umenu[2]", "DescrName", 0 ],
 			"obj-55::obj-113" : [ "umenu[3]", "DescrName", 0 ],
 			"obj-67" : [ "live.gain~", "Volume", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
 			"parameter_overrides" : 			{
 				"obj-17::obj-113" : 				{
 					"parameter_invisible" : 0,
@@ -7255,193 +7288,196 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "bpatcher-matrixctrl4-buffers.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bpatcher-matrixctrl6.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "camu.analysis.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.cont.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.content-summary.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.querybuffers-nikos2.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"name" : "camu.querybuffers-nikos3.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.queryclusters-nikos2.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"name" : "camu.queryclusters-nikos2-newui3.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.querydirectories-nikos3.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"name" : "camu.querydirectories-nikos5.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.querymanual-nikos2.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.querymodes-nikos6.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"name" : "camu.querymodes-nikos7-newui4.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.queryranges-nikos3.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "camu.tag.directories-nikos12-UI9.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"name" : "camu.tag.directories-nikos12-UI11.maxpat",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.util.js",
-				"bootpath" : "~/src/catart-mubu/patchers/lib",
-				"patcherrelativepath" : "../../../patchers/lib",
+				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "imubu.mxo",
-				"type" : "iLaX"
+				"name" : "imubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "instance.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/ABSTRACTIONS-VOITHITIKA",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.concat~.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.concat~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "mubu.get.maxpat",
-				"bootpath" : "~/src/mubu-git/maxmubu/patches/patchers",
-				"patcherrelativepath" : "../../../../mubu-git/maxmubu/patches/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.gmm.clustering-allbuffers.maxpat",
-				"bootpath" : "~/src/catart-mubu/examples/nikos/preselection-allmodes",
-				"patcherrelativepath" : ".",
+				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.gmm.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.gmm.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.knn.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.knn.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mubu.process.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.process.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "mubu.track.get.maxpat",
-				"bootpath" : "~/src/mubu-git/maxmubu/patches/patchers",
-				"patcherrelativepath" : "../../../../mubu-git/maxmubu/patches/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mubu.track.mxo",
-				"type" : "iLaX"
+				"name" : "mubu.track.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "thru.maxpat",
@@ -7563,7 +7599,10 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 0.258823529411765, 0.258823529411765, 0.258823529411765, 1.0 ],
+		"bubble_bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+		"stripecolor" : [ 0.537254901960784, 0.537254901960784, 0.537254901960784, 0.909803921568627 ]
 	}
 
 }

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 1130.0, 798.0 ],
+		"rect" : [ 1740.0, 82.0, 1389.0, 916.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -36,14 +36,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querybuffers-nikos2.maxpat",
+					"name" : "camu.querybuffers-nikos3.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2931.168803215026855, 196.103894233703613, 176.623374938964844, 197.402595520019531 ],
+					"patching_rect" : [ 2933.035686314105988, 196.428569555282593, 174.999998331069946, 233.928569197654724 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3617.699406147003174, 277.876128554344177, 176.991164684295654, 197.345148622989655 ],
+					"presentation_rect" : [ 3617.5, 278.0, 177.0, 233.5 ],
 					"viewvisibility" : 1
 				}
 
@@ -314,7 +314,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.querydirectories-nikos3.maxpat",
+					"name" : "camu.querydirectories-nikos5.maxpat",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -351,12 +351,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "camu.queryclusters-nikos2.maxpat",
+					"name" : "camu.queryclusters-nikos2-newui3.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 920.0, 226.102936267852783, 358.235309064388275, 235.294127464294434 ],
+					"patching_rect" : [ 920.0, 226.0, 152.0, 152.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1906.249927282333374, 245.833323955535889, 447.0, 258.0 ],
 					"viewvisibility" : 1
