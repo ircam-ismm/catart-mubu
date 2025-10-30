@@ -4,16 +4,36 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1452.0, 994.0 ],
+		"rect" : [ 34.0, 81.0, 1124.0, 798.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 402.670000000000016, 237.430000000000007, 56.0, 22.0 ],
+					"restore" : 					{
+						"live.tab[2]" : [ 1.0 ],
+						"number" : [ 0 ],
+						"number[1]" : [ -1 ],
+						"number[2]" : [ 2 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u375012398"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "rangeoffset",
 					"id" : "obj-9",
@@ -28,7 +48,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.72156862745098, 0.545098039215686, 0.0, 1.0 ],
+					"bgcolor" : [ 0.945098039215686, 0.764705882352941, 0.333333333333333, 1.0 ],
 					"fontname" : "AIGDT",
 					"fontsize" : 7.0,
 					"id" : "obj-8",
@@ -43,7 +63,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[22]",
+							"parameter_longname" : "number[25]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[22]",
 							"parameter_type" : 3
@@ -171,7 +191,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.72156862745098, 0.545098039215686, 0.0, 1.0 ],
+					"bgcolor" : [ 0.945098039215686, 0.764705882352941, 0.333333333333333, 1.0 ],
 					"fontname" : "AIGDT",
 					"fontsize" : 7.0,
 					"id" : "obj-439",
@@ -186,7 +206,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[23]",
+							"parameter_longname" : "number[19]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[23]",
 							"parameter_type" : 3
@@ -222,7 +242,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "Random", "Static", "Descr" ],
-							"parameter_longname" : "live.tab[8]",
+							"parameter_longname" : "live.tab[12]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.tab",
@@ -267,7 +287,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[21]",
+							"parameter_longname" : "number[24]",
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "number[21]",
 							"parameter_type" : 3

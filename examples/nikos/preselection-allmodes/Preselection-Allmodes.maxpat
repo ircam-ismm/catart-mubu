@@ -16,6 +16,17 @@
 		"devicewidth" : 1231.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1248.309999999999945, 638.139999999999986, 75.0, 22.0 ],
+					"text" : "print manual"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-129",
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
@@ -111,7 +122,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 1237.0, 0.0, 163.5, 33.0 ],
-					"text" : "\"C:/Program Files/Cycling '74/Max 9/\""
+					"text" : "\"C:/Program Files/Cycling '74/Max 9-A/\""
 				}
 
 			}
@@ -575,7 +586,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 273.684198617935181, 418.71343207359314, 50.0, 22.0 ],
-									"text" : "index 1"
+									"text" : "index 5"
 								}
 
 							}
@@ -863,7 +874,7 @@
 					"name" : "camu.querymodes-nikos7-newui4.maxpat",
 					"numinlets" : 5,
 					"numoutlets" : 2,
-					"offset" : [ -166.0, -235.0 ],
+					"offset" : [ -3591.0, -244.0 ],
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 1212.56712818145752, 295.858109146356583, 626.506047248840332, 271.084347367286682 ],
 					"presentation" : 1,
@@ -2192,7 +2203,7 @@
 					"cursor_symbolwidth" : 3.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 0.0, 9741.632653061224119 ],
+					"domain_bounds" : [ 0.0, 24999.977324263039918 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2208,7 +2219,7 @@
 					"domainscrollbar_visible" : 1,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-137",
 					"layout" : 0,
@@ -2269,7 +2280,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 827.0, 212.0, 22.0 ],
-					"text" : "interface scatterplot"
+					"text" : "timeselection 0. 0."
 				}
 
 			}
@@ -2353,7 +2364,7 @@
 					"patching_rect" : [ 128.888884663581848, 293.33332371711731, 340.666671931743622, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 113.333336710929871, 216.666673123836517, 340.000010132789612, 20.0 ],
-					"text" : "empty"
+					"text" : "loaded 0.48 minutes of audio in 58 segments in 2 buffers."
 				}
 
 			}
@@ -5367,7 +5378,7 @@
 					"cursor_noringoffset" : 0,
 					"cursor_numextracursors" : 0,
 					"cursor_outputdata" : 0,
-					"cursor_position" : [ 8879.315658103645546, -0.011177148628534 ],
+					"cursor_position" : [ 4939.236068972426438, 0.367242792642013 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -5379,7 +5390,7 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 74.010030018451488, 11058.140156994835706 ],
+					"domain_bounds" : [ 1792.4330485727005, 4786.97140669502005 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5395,7 +5406,7 @@
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
 					"externalfiles" : 1,
-					"foremost" : 1,
+					"foremost" : 2,
 					"freeze" : 0,
 					"id" : "obj-216",
 					"layout" : 0,
@@ -5753,7 +5764,7 @@
 					"presentation_rect" : [ 114.000003397464752, 216.666673123836517, 338.0, 22.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
-					"size" : 53,
+					"size" : 2,
 					"slidercolor" : [ 0.516304, 0.516304, 0.516304, 1.0 ]
 				}
 
@@ -6521,6 +6532,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"order" : 0,
+					"source" : [ "obj-182", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
 					"order" : 1,
 					"source" : [ "obj-182", 1 ]
@@ -6538,6 +6557,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-216", 0 ],
+					"order" : 1,
 					"source" : [ "obj-182", 0 ]
 				}
 
@@ -7289,139 +7309,148 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bpatcher-matrixctrl4-buffers.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bpatcher-matrixctrl6.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.analysis.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.cont.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.content-summary.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.imubu.control.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.menu.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.process.descr-onseg.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.querybuffers-nikos3.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.queryclusters-nikos2-newui3.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.querydirectories-nikos5.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.querymanual-nikos2.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.querymodes-nikos7-newui4.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.queryranges-nikos3.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.filter.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.random.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.select.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.tag.directories-nikos12-UI11.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.target.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.triggermode.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camu.util.js",
 				"bootpath" : "~/Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/catart-mubu-master/patchers/lib",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/catart-mubu-master/patchers/lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -7442,13 +7471,14 @@
 , 			{
 				"name" : "mubu.get.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mubu.gmm.clustering-allbuffers.maxpat",
-				"bootpath" : "K:/SOFTWARE MAX MSP/MINE/INTERNSHIP-IRCAM/MAX-FILES-INTERNSHIP/PRESELECTION (2)",
+				"bootpath" : "~/Documents/GITHUB/MAX/catart-mubu/examples/nikos/preselection-allmodes",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7471,7 +7501,7 @@
 , 			{
 				"name" : "mubu.track.get.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/MuBu For Max/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 9/Packages/MuBu For Max/patchers",
+				"patcherrelativepath" : "../../../../../../Max 9/Packages/MuBu For Max/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

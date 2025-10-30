@@ -1,0 +1,319 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pttr-crosspatch",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 10,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 2,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"gswitch" : [ 1 ],
+					"number" : [ 100.0 ],
+					"number[10]" : [ 0.0 ],
+					"number[11]" : [ 0.0 ],
+					"number[12]" : [ 100.0 ],
+					"number[13]" : [ 10.0 ],
+					"number[14]" : [ 0.0 ],
+					"number[15]" : [ -90.0 ],
+					"number[16]" : [ 0.0 ],
+					"number[17]" : [ 0.0 ],
+					"number[18]" : [ -1.0 ],
+					"number[19]" : [ -1.0 ],
+					"number[1]" : [ 100.0 ],
+					"number[2]" : [ 12000.0 ],
+					"number[3]" : [ 180.0 ],
+					"number[4]" : [ 2.0 ],
+					"number[5]" : [ 90.0 ],
+					"number[6]" : [ 360.0 ],
+					"number[7]" : [ 1.0 ],
+					"number[8]" : [ 1.0 ],
+					"number[9]" : [ 1.0 ],
+					"toggle" : [ 0 ],
+					"toggle[10]" : [ 0 ],
+					"toggle[11]" : [ 1 ],
+					"toggle[12]" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"toggle[2]" : [ 0 ],
+					"toggle[3]" : [ 0 ],
+					"toggle[4]" : [ 0 ],
+					"toggle[5]" : [ 0 ],
+					"toggle[6]" : [ 0 ],
+					"toggle[7]" : [ 0 ],
+					"toggle[8]" : [ 0 ],
+					"toggle[9]" : [ 0 ],
+					"router-ircam3[9]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[9]::number" : [ 2000 ],
+					"router-ircam3[9]::number[1]" : [ 500 ],
+					"router-ircam3[9]::number[2]" : [ 10000 ],
+					"router-ircam3[8]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[8]::number" : [ 80 ],
+					"router-ircam3[8]::number[1]" : [ -1 ],
+					"router-ircam3[8]::number[2]" : [ 180 ],
+					"router-ircam3[7]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[7]::number" : [ 1 ],
+					"router-ircam3[7]::number[1]" : [ 0 ],
+					"router-ircam3[7]::number[2]" : [ 5 ],
+					"router-ircam3[6]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[6]::number" : [ 0 ],
+					"router-ircam3[6]::number[1]" : [ 0 ],
+					"router-ircam3[6]::number[2]" : [ 90 ],
+					"router-ircam3[5]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[5]::number" : [ 0 ],
+					"router-ircam3[5]::number[1]" : [ 0 ],
+					"router-ircam3[5]::number[2]" : [ 360 ],
+					"router-ircam3[4]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[4]::number" : [ 0 ],
+					"router-ircam3[4]::number[1]" : [ -1 ],
+					"router-ircam3[4]::number[2]" : [ 2 ],
+					"router-ircam3[3]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[3]::number" : [ 0 ],
+					"router-ircam3[3]::number[1]" : [ -1 ],
+					"router-ircam3[3]::number[2]" : [ 2 ],
+					"router-ircam3::live.tab[2]" : [ 2.0 ],
+					"router-ircam3::number" : [ 0 ],
+					"router-ircam3::number[1]" : [ -1 ],
+					"router-ircam3::number[2]" : [ 2 ],
+					"router-ircam3[2]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[2]::number" : [ 65 ],
+					"router-ircam3[2]::number[1]" : [ 10 ],
+					"router-ircam3[2]::number[2]" : [ 80 ],
+					"router-ircam3[1]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[1]::number" : [ 0 ],
+					"router-ircam3[1]::number[1]" : [ 0 ],
+					"router-ircam3[1]::number[2]" : [ 70 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 10,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 1,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"gswitch" : [ 0 ],
+					"number" : [ 100.0 ],
+					"number[10]" : [ 0.0 ],
+					"number[11]" : [ 0.0 ],
+					"number[12]" : [ 100.0 ],
+					"number[13]" : [ 10.0 ],
+					"number[14]" : [ 0.0 ],
+					"number[15]" : [ -90.0 ],
+					"number[16]" : [ 0.0 ],
+					"number[17]" : [ 0.0 ],
+					"number[18]" : [ -1.0 ],
+					"number[19]" : [ -1.0 ],
+					"number[1]" : [ 100.0 ],
+					"number[2]" : [ 12000.0 ],
+					"number[3]" : [ 180.0 ],
+					"number[4]" : [ 2.0 ],
+					"number[5]" : [ 90.0 ],
+					"number[6]" : [ 360.0 ],
+					"number[7]" : [ 1.0 ],
+					"number[8]" : [ 1.0 ],
+					"number[9]" : [ 1.0 ],
+					"toggle" : [ 0 ],
+					"toggle[10]" : [ 0 ],
+					"toggle[11]" : [ 0 ],
+					"toggle[12]" : [ 0 ],
+					"toggle[1]" : [ 0 ],
+					"toggle[2]" : [ 0 ],
+					"toggle[3]" : [ 0 ],
+					"toggle[4]" : [ 0 ],
+					"toggle[5]" : [ 0 ],
+					"toggle[6]" : [ 0 ],
+					"toggle[7]" : [ 1 ],
+					"toggle[8]" : [ 0 ],
+					"toggle[9]" : [ 0 ],
+					"router-ircam3[9]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[9]::number" : [ 2000 ],
+					"router-ircam3[9]::number[1]" : [ 500 ],
+					"router-ircam3[9]::number[2]" : [ 10000 ],
+					"router-ircam3[8]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[8]::number" : [ 80 ],
+					"router-ircam3[8]::number[1]" : [ -1 ],
+					"router-ircam3[8]::number[2]" : [ 180 ],
+					"router-ircam3[7]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[7]::number" : [ 1 ],
+					"router-ircam3[7]::number[1]" : [ 0 ],
+					"router-ircam3[7]::number[2]" : [ 5 ],
+					"router-ircam3[6]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[6]::number" : [ 0 ],
+					"router-ircam3[6]::number[1]" : [ 0 ],
+					"router-ircam3[6]::number[2]" : [ 90 ],
+					"router-ircam3[5]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[5]::number" : [ 0 ],
+					"router-ircam3[5]::number[1]" : [ 0 ],
+					"router-ircam3[5]::number[2]" : [ 360 ],
+					"router-ircam3[4]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[4]::number" : [ 0 ],
+					"router-ircam3[4]::number[1]" : [ -1 ],
+					"router-ircam3[4]::number[2]" : [ 2 ],
+					"router-ircam3[3]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[3]::number" : [ 0 ],
+					"router-ircam3[3]::number[1]" : [ -1 ],
+					"router-ircam3[3]::number[2]" : [ 2 ],
+					"router-ircam3::live.tab[2]" : [ 2.0 ],
+					"router-ircam3::number" : [ 0 ],
+					"router-ircam3::number[1]" : [ -1 ],
+					"router-ircam3::number[2]" : [ 2 ],
+					"router-ircam3[2]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[2]::number" : [ 65 ],
+					"router-ircam3[2]::number[1]" : [ 10 ],
+					"router-ircam3[2]::number[2]" : [ 80 ],
+					"router-ircam3[1]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[1]::number" : [ 0 ],
+					"router-ircam3[1]::number[1]" : [ 0 ],
+					"router-ircam3[1]::number[2]" : [ 70 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"crosspatch" : [ 						{
+							"data" : 							{
+								"numins" : 10,
+								"numouts" : 10,
+								"connections" : [ 									{
+										"in" : 1,
+										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 5,
+										"out" : 3,
+										"gain" : 1.0
+									}
+ ]
+							}
+
+						}
+ ],
+					"gswitch" : [ 1 ],
+					"number" : [ 100.0 ],
+					"number[10]" : [ 0.0 ],
+					"number[11]" : [ 0.0 ],
+					"number[12]" : [ 100.0 ],
+					"number[13]" : [ 10.0 ],
+					"number[14]" : [ 0.0 ],
+					"number[15]" : [ 0.0 ],
+					"number[16]" : [ 0.0 ],
+					"number[17]" : [ 0.0 ],
+					"number[18]" : [ -1.0 ],
+					"number[19]" : [ -1.0 ],
+					"number[1]" : [ 100.0 ],
+					"number[2]" : [ 12000.0 ],
+					"number[3]" : [ 180.0 ],
+					"number[4]" : [ 2.0 ],
+					"number[5]" : [ 90.0 ],
+					"number[6]" : [ 360.0 ],
+					"number[7]" : [ 1.0 ],
+					"number[8]" : [ 1.0 ],
+					"number[9]" : [ 1.0 ],
+					"toggle" : [ 0 ],
+					"toggle[10]" : [ 0 ],
+					"toggle[11]" : [ 1 ],
+					"toggle[12]" : [ 1 ],
+					"toggle[1]" : [ 0 ],
+					"toggle[2]" : [ 0 ],
+					"toggle[3]" : [ 0 ],
+					"toggle[4]" : [ 0 ],
+					"toggle[5]" : [ 0 ],
+					"toggle[6]" : [ 0 ],
+					"toggle[7]" : [ 0 ],
+					"toggle[8]" : [ 0 ],
+					"toggle[9]" : [ 0 ],
+					"router-ircam3[9]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[9]::number" : [ 2000 ],
+					"router-ircam3[9]::number[1]" : [ 500 ],
+					"router-ircam3[9]::number[2]" : [ 10000 ],
+					"router-ircam3[8]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[8]::number" : [ 80 ],
+					"router-ircam3[8]::number[1]" : [ -1 ],
+					"router-ircam3[8]::number[2]" : [ 180 ],
+					"router-ircam3[7]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[7]::number" : [ 1 ],
+					"router-ircam3[7]::number[1]" : [ 0 ],
+					"router-ircam3[7]::number[2]" : [ 5 ],
+					"router-ircam3[6]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[6]::number" : [ 0 ],
+					"router-ircam3[6]::number[1]" : [ 0 ],
+					"router-ircam3[6]::number[2]" : [ 90 ],
+					"router-ircam3[5]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[5]::number" : [ 0 ],
+					"router-ircam3[5]::number[1]" : [ 0 ],
+					"router-ircam3[5]::number[2]" : [ 360 ],
+					"router-ircam3[4]::live.tab[2]" : [ 1.0 ],
+					"router-ircam3[4]::number" : [ 0 ],
+					"router-ircam3[4]::number[1]" : [ -1 ],
+					"router-ircam3[4]::number[2]" : [ 2 ],
+					"router-ircam3[3]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[3]::number" : [ 0 ],
+					"router-ircam3[3]::number[1]" : [ -1 ],
+					"router-ircam3[3]::number[2]" : [ 2 ],
+					"router-ircam3::live.tab[2]" : [ 2.0 ],
+					"router-ircam3::number" : [ 0 ],
+					"router-ircam3::number[1]" : [ -1 ],
+					"router-ircam3::number[2]" : [ 2 ],
+					"router-ircam3[2]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[2]::number" : [ 65 ],
+					"router-ircam3[2]::number[1]" : [ 10 ],
+					"router-ircam3[2]::number[2]" : [ 80 ],
+					"router-ircam3[1]::live.tab[2]" : [ 2.0 ],
+					"router-ircam3[1]::number" : [ 0 ],
+					"router-ircam3[1]::number[1]" : [ 0 ],
+					"router-ircam3[1]::number[2]" : [ 70 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

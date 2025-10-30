@@ -4,16 +4,72 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 203.0, 1639.0, 798.0 ],
+		"rect" : [ 34.0, 81.0, 1020.0, 798.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 829.309999999999945, 55.170000000000002, 56.0, 22.0 ],
+					"restore" : 					{
+						"live.dial[10]" : [ 2.0 ],
+						"live.dial[11]" : [ 180.488188976378041 ],
+						"live.dial[16]" : [ 30.0 ],
+						"live.dial[2]" : [ 1.0 ],
+						"live.dial[3]" : [ 1.0 ],
+						"live.menu" : [ 0.0 ],
+						"live.menu[1]" : [ 0.0 ],
+						"live.menu[3]" : [ 0.0 ],
+						"live.tab" : [ 0.0 ],
+						"live.tab[1]" : [ 0.0 ],
+						"live.tab[2]" : [ 49.0 ],
+						"live.toggle" : [ 1.0 ],
+						"live.toggle[1]" : [ 1.0 ],
+						"live.toggle[2]" : [ 0.0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u708002455"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 533.333341598510742, 102.713179886341095, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 535.981753349304199, 108.552630543708801, 150.0, 20.0 ],
+					"text" : "3d types"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 580.620164036750793, 209.496127277612686, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 457.692280411720276, 108.552630543708801, 150.0, 20.0 ],
+					"text" : "2d types"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -60,7 +116,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 645.029211699962616, 258.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 557.309917271137238, 52.564099431037903, 41.520466029644012, 22.0 ]
+					"presentation_rect" : [ 554.289514988660812, 62.222220182418823, 41.520466029644012, 22.0 ]
 				}
 
 			}
@@ -96,7 +152,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 545.0, 158.0, 46.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 541.049748003482819, 138.823535203933716, 46.0, 22.0 ],
+					"presentation_rect" : [ 536.464604735374451, 150.657893300056458, 46.0, 22.0 ],
 					"text" : "/restart"
 				}
 
@@ -135,7 +191,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 581.0, 76.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 536.049748003482819, 111.764710545539856, 53.529413998126984, 15.0 ],
+					"presentation_rect" : [ 535.981753349304199, 128.947367191314697, 53.529413998126984, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "viviani", "steinmetz", "clelia", "sphericalhelix", "satellite", "sphericalsinusoid", "rhumbline", "moebius", "seamlinetennisball", "hypotrochoid", "epitrochoid", "cylindricsinewave", "squareknot", "grannyknot", "conicalrose", "basin", "archytascurve", "sphericalcycloid", "sphericalellipse" ],
@@ -162,7 +218,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 469.0, 76.0, 100.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 460.588254511356354, 111.764710545539856, 52.352943360805511, 15.0 ],
+					"presentation_rect" : [ 460.323859333992004, 128.947367191314697, 52.352943360805511, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "circle", "ellipse", "figureof8", "dumbbell", "rose", "epicycloid", "hypocycloid", "hippopede", "garfield", "freethnephroid", "limacon", "folium", "ophiuride", "lituus", "scarabeus", "cochleoid", "bifoliate", "bifolium", "neoid", "cayleysextic", "strophoid", "cranioid", "seiffert", "butterfly", "piriform", "heart", "cardioid", "lemniscate", "astroid", "deltoid", "boatpropeller", "kiss", "trefoil", "torpedo", "cevatrisectrix", "polygasteroid", "maltesecross", "talbot", "besace", "bicorn", "oval", "cornoid" ],
@@ -250,7 +306,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 505.0, 158.0, 35.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 499.873275697231293, 138.823535203933716, 35.0, 22.0 ],
+					"presentation_rect" : [ 495.675131440162659, 150.657893300056458, 35.0, 22.0 ],
 					"text" : "/stop"
 				}
 
@@ -264,7 +320,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 469.0, 158.0, 35.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.990921258926392, 138.823535203933716, 35.0, 22.0 ],
+					"presentation_rect" : [ 459.490921258926392, 150.657893300056458, 35.0, 22.0 ],
 					"text" : "/start"
 				}
 
@@ -377,7 +433,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 502.0, 608.0, 46.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 601.617671847343445, 21.328802883625031, 46.0, 56.0 ],
+					"presentation_rect" : [ 476.392693281173706, 247.941956520080566, 46.0, 56.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "10", "100", "250", "500" ],
@@ -430,8 +486,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 610.0, 700.0, 45.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 602.205907166004181, 79.564099431037903, 45.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -487,8 +541,6 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 690.598297595977783, 76.0, 60.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 591.637984573841095, 142.323535203933716, 60.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "xyz", "aed", "ade" ],
@@ -737,7 +789,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 469.0, 99.0, 44.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.419685065746307, 173.076912760734558, 44.0, 48.0 ],
+					"presentation_rect" : [ 454.990921258926392, 176.315787792205811, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"focusbordercolor" : 						{
 							"expression" : ""
@@ -772,7 +824,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 508.0, 184.5, 44.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 553.049748003482819, 2.564099431037903, 44.0, 48.0 ],
+					"presentation_rect" : [ 457.692280411720276, 1.282051205635071, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"focusbordercolor" : 						{
 							"expression" : ""
@@ -807,7 +859,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 521.0, 99.0, 44.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 546.949098646640778, 173.076912760734558, 44.0, 48.0 ],
+					"presentation_rect" : [ 498.411973476409912, 176.315787792205811, 44.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"focusbordercolor" : 						{
 							"expression" : ""
@@ -840,7 +892,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 453.0, 228.947366237640381, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 457.692280411720276, 1.91703736782074, 97.64706289768219, 47.647060811519623 ],
+					"presentation_rect" : [ 503.902451038360596, 2.92682933807373, 91.907529979944229, 47.804879188537598 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -871,7 +923,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 438.0, 640.0, 45.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 600.441201210021973, 1.91703736782074, 45.0, 20.0 ],
+					"presentation_rect" : [ 475.076903820037842, 228.205114603042603, 45.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],

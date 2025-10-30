@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -86,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.875, 392.5, 368.0, 35.0 ],
+					"patching_rect" : [ 523.875, 392.5, 368.0, 36.0 ],
 					"text" : "foremost audio, view audio interface multiwave, view audio autobounds 0, view audio bounds 1. -1., domain reset"
 				}
 
@@ -141,7 +141,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -633,7 +633,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 143.0, 121.0, 35.0 ],
+					"patching_rect" : [ 152.0, 143.0, 121.0, 36.0 ],
 					"text" : "print \"unknown message\" @level 2"
 				}
 
@@ -673,15 +673,14 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 134.0, 159.0, 1639.0, 798.0 ],
+						"rect" : [ 34.0, 81.0, 1639.0, 798.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -788,7 +787,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -796,7 +795,6 @@
 										"classnamespace" : "box",
 										"rect" : [ 308.0, 178.0, 1197.0, 789.0 ],
 										"gridsize" : [ 15.0, 15.0 ],
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-23",
@@ -1411,7 +1409,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 50.0, 255.0, 231.837608257929475, 22.0 ],
+									"patching_rect" : [ 43.0, 258.0, 231.837608257929475, 22.0 ],
 									"text" : "p external.controller"
 								}
 
@@ -1632,7 +1630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 416.752674992526977, 199.0, 33.0 ],
+					"patching_rect" : [ 579.0, 416.752674992526977, 199.0, 34.0 ],
 					"text" : "workaround: resert paramcols for markers interface"
 				}
 
@@ -1645,7 +1643,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 352.752674992526977, 241.0, 35.0 ],
+					"patching_rect" : [ 569.0, 352.752674992526977, 241.0, 36.0 ],
 					"text" : "paramcols Duration - - - - - -, fgcolor red, hidenotforemost 0, allbuffersvisible 0"
 				}
 
@@ -1694,7 +1692,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 83.0, 651.500011992526993, 82.0, 49.0 ],
+					"patching_rect" : [ 83.0, 651.500011992526993, 82.0, 50.0 ],
 					"text" : "print camu.imubu.control-to-knn"
 				}
 
@@ -1748,7 +1746,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 726.0, 234.0, 259.0, 33.0 ],
+					"patching_rect" : [ 726.0, 234.0, 259.0, 34.0 ],
 					"text" : "scatterplot view outputs \"selection <rows..>\", need to filter"
 				}
 
@@ -1831,7 +1829,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 258.433335427795328, 651.500011992526993, 92.0, 49.0 ],
+					"patching_rect" : [ 258.433335427795328, 651.500011992526993, 92.0, 50.0 ],
 					"text" : "print camu.imubu.control-to-imubu"
 				}
 
@@ -1906,7 +1904,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 173.0, 206.0, 78.0, 33.0 ],
+					"patching_rect" : [ 173.0, 206.0, 78.0, 34.0 ],
 					"text" : "mouse exit coordinates"
 				}
 
@@ -1944,7 +1942,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.000010907649994, 234.0, 65.0, 60.0 ],
+					"patching_rect" : [ 366.000010907649994, 234.0, 65.0, 62.0 ],
 					"text" : "gettarget: scaled in descriptor values"
 				}
 
@@ -2032,7 +2030,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 308.0, 139.0, 61.0, 47.0 ],
+					"patching_rect" : [ 308.0, 139.0, 61.0, 48.0 ],
 					"text" : "pass feedback from knn"
 				}
 
@@ -2044,7 +2042,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 726.0, 206.0, 252.0, 33.0 ],
+					"patching_rect" : [ 726.0, 206.0, 252.0, 34.0 ],
 					"text" : "matrix view outputs \"selection rows <rows..>\",\nmarker view outputs \"selection <rows..>\""
 				}
 
@@ -2130,7 +2128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 700.000011992526993, 152.0, 33.0 ],
+					"patching_rect" : [ 9.0, 700.000011992526993, 152.0, 34.0 ],
 					"text" : "to knn, marker/buffer must be routed to mubu.concat"
 				}
 
@@ -2225,7 +2223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.087104000000011, 564.500011992526993, 167.912895999999989, 33.0 ],
+					"patching_rect" : [ 19.087104000000011, 564.500011992526993, 167.912895999999989, 34.0 ],
 					"text" : "target values as select message, columns message"
 				}
 
@@ -2274,7 +2272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 2.0, 87.0, 33.0 ],
+					"patching_rect" : [ 170.0, 2.0, 87.0, 34.0 ],
 					"text" : "from selection / knn"
 				}
 
@@ -2303,7 +2301,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2394,7 +2392,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 7,
+											"revision" : 9,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3579,7 +3577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 2.0, 96.0, 33.0 ],
+					"patching_rect" : [ 39.0, 2.0, 96.0, 34.0 ],
 					"text" : "click mode and commands"
 				}
 
@@ -3657,7 +3655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 218.5, 78.0, 33.0 ],
+					"patching_rect" : [ 93.0, 218.5, 78.0, 34.0 ],
 					"text" : "mouse click coordinates"
 				}
 
@@ -3669,7 +3667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 234.252682992526957, 73.0, 47.0 ],
+					"patching_rect" : [ 56.0, 234.252682992526957, 73.0, 48.0 ],
 					"text" : "mouse move coordinates"
 				}
 
@@ -3692,7 +3690,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 35.0, 81.0, 49.0 ],
+					"patching_rect" : [ 67.0, 35.0, 81.0, 50.0 ],
 					"text" : "print camu.imubu.control-IN"
 				}
 
