@@ -18,6 +18,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-97",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 490.5, 135.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
                     "bubble": 1,
                     "bubbleside": 3,
                     "id": "obj-96",
@@ -3089,7 +3100,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 341.0, 946.0, 121.16239174207055, 20.0 ],
-                    "text": "Duration: 586.20 ms"
+                    "text": "Duration: 384.00 ms"
                 }
             },
             {
@@ -3135,7 +3146,7 @@
                     "patching_rect": [ 131.0, 946.0, 75.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 142.17179557681084, 629.650024, 77.5, 20.0 ],
-                    "text": "Index: 0"
+                    "text": "Index: 21"
                 }
             },
             {
@@ -3181,7 +3192,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 241.83760825792945, 946.0, 81.16239174207055, 33.0 ],
-                    "text": "Start: 0.00 ms"
+                    "text": "Start: 11841.20 ms"
                 }
             },
             {
@@ -4339,7 +4350,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 16.749822512879692, -49.289850170559355 ],
+                    "cursor_position": [ 1368.2780977683226, -37.13040049330543 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1,
                     "cursor_sizeunit": 1,
@@ -4351,7 +4362,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 16.749856043686016, 16.777974942791822 ],
+                    "domain_bounds": [ 1368.2780977683226, 6116.576729569871 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5382,6 +5393,12 @@
                 "patchline": {
                     "destination": [ "obj-34", 1 ],
                     "source": [ "obj-94", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-94", 0 ],
+                    "source": [ "obj-97", 0 ]
                 }
             }
         ],
