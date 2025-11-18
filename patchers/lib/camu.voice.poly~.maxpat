@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1332.0, 498.0, 657.0, 893.0 ],
+		"rect" : [ 821.0, 100.0, 657.0, 848.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -99,14 +99,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 855.0, 1529.0, 442.0, 409.0 ],
+						"rect" : [ 134.0, 172.0, 514.0, 598.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"boxes" : [ 							{
 								"box" : 								{
@@ -330,6 +330,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 21.5, 249.026565372943878, 59.5, 249.026565372943878 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -348,8 +349,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-98"
+ ]
 					}
 ,
 					"patching_rect" : [ 90.5, 485.0, 94.0, 22.0 ],
@@ -392,8 +392,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -549,8 +549,7 @@
 								}
 
 							}
- ],
-						"originid" : "pat-100"
+ ]
 					}
 ,
 					"patching_rect" : [ 5.0, 457.0, 39.0, 22.0 ],
@@ -744,7 +743,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 820.419800000000009, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : "",
+						"c" : ""
 					}
 ,
 					"text" : "out 2"
@@ -1354,7 +1354,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 446.0, 820.419800000000009, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : ""
+						"attr_comment" : "",
+						"c" : ""
 					}
 ,
 					"text" : "out 1"
@@ -1829,8 +1830,7 @@
 				}
 
 			}
- ],
-		"originid" : "pat-96"
+ ]
 	}
 
 }

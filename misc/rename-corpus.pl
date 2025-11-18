@@ -4,11 +4,11 @@ use File::Basename;
 
 BEGIN
 {
-    print STDERR $#ARGV, " @ARGV\n";
+    #print STDERR $#ARGV, " @ARGV\n";
 
     if ($#ARGV < 2) # one arg eaten by -p???
     {   # help
-	print STDERR basename($0), " from-corpus to-corpus file...\n";
+	print STDERR "USAGE: ", basename($0), " from-corpus to-corpus file...\n";
 	exit 0;
     }
     $from = shift(@ARGV);
@@ -16,9 +16,9 @@ BEGIN
     print STDERR "---- replacing $from with $to in @ARGV\n";
 }
 
-if(/^\s*"(args|text|name)" : (.*$from.*)$/)
+if(/^\s*"(args|text|name)"\s*: (.*$from.*)$/)
 {
-    # print STDERR "catch <$1> <$2>\n";	    
+    #print STDERR "catch <$1> <$2>\n";	    
 
     if (($1 ne 'text')  ||  ($2 =~ /^"(mubu|mc\.mubu|camu\.|vivo\.|cocavs\.|s |r )/)) # special conditions for start of "text" lines: match objects, not comments
     {

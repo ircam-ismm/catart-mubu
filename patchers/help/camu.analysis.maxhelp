@@ -3,16 +3,58 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1218.0, 686.0 ],
+		"rect" : [ 34.0, 87.0, 1529.0, 820.0 ],
 		"gridsize" : [ 5.0, 5.0 ],
+		"assistshowspatchername" : 0,
+		"commentary" : "",
+		"showcommentary" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 278.0, 147.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "show analysis parameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 141.0, 277.0, 35.0, 22.0 ],
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 96.800001442432404, 60.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"hidden" : 1,
 					"id" : "obj-40",
@@ -47,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 86.0, 559.0, 36.0 ],
-					"text" : "presents an internal menu for choices of analysis and segmentation and loads the corresponding camu.process.<choice>.maxpat in a bpatcher to show the analysis parameters."
+					"text" : "presents an internal menu for choices of analysis and segmentation and dynamically loads the corresponding camu.process.<choice>.maxpat in a bpatcher to show the analysis parameters."
 				}
 
 			}
@@ -88,7 +130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 347.0, 226.1678466796875, 47.0 ],
+					"patching_rect" : [ 165.0, 347.0, 226.1678466796875, 47.0 ],
 					"text" : "anything else in left inlet is sent to mubu.process, can be used to set analysis parameters (see pipo modules)"
 				}
 
@@ -100,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 318.0, 99.0, 22.0 ],
+					"patching_rect" : [ 154.0, 318.0, 99.0, 22.0 ],
 					"text" : "descr.hopsize $1"
 				}
 
@@ -113,7 +155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 318.0, 50.0, 22.0 ]
+					"patching_rect" : [ 262.0, 318.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -300,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 265.0, 104.0, 20.0 ],
+					"patching_rect" : [ 151.0, 251.0, 104.0, 20.0 ],
 					"text" : "bang to reanalyse"
 				}
 
@@ -455,7 +497,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 54.0, 60.0, 22.0 ],
+					"patching_rect" : [ 10.0, 69.599853515625, 60.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -482,8 +524,11 @@
 					"autorefreshrate" : 0,
 					"autoupdate" : 100.0,
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolordefault" : 0,
 					"bufferchooser_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bufferchooser_bgcolordefault" : 0,
 					"bufferchooser_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bufferchooser_fgcolordefault" : 0,
 					"bufferchooser_position" : 1,
 					"bufferchooser_shape" : "buttons",
 					"bufferchooser_size" : 12,
@@ -498,10 +543,18 @@
 					"cursor_crossheight" : -1.0,
 					"cursor_crosswidth" : -1.0,
 					"cursor_followmouse" : 0,
+					"cursor_label" : "",
+					"cursor_labelcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cursor_labelfontsize" : 12,
+					"cursor_labelposition" : 0,
+					"cursor_labelxoffset" : 0,
+					"cursor_labelyoffset" : 0,
 					"cursor_nearest" : 0,
 					"cursor_nearestcolor" : [ 0.776471, 0.066667, 0.066667, 0.286275 ],
 					"cursor_noringoffset" : 0,
-					"cursor_position" : [ 2659.349531077017673, 0.303964443714652 ],
+					"cursor_numextracursors" : 0,
+					"cursor_outputdata" : 0,
+					"cursor_position" : [ 3128.039612610717086, 0.108212849056046 ],
 					"cursor_shape" : "cross",
 					"cursor_size" : 1,
 					"cursor_sizeunit" : 1,
@@ -513,15 +566,18 @@
 					"cursor_symbolwidth" : 0.0,
 					"cursor_visible" : 1,
 					"dirtypatcher" : 1,
-					"domain_bounds" : [ 1438.048620266773241, 4031.91248129953965 ],
+					"domain_bounds" : [ 1392.689030715309173, 4506.807935606992032 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainruler_bgcolordefault" : 0,
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"domainruler_fgcolordefault" : 0,
 					"domainruler_grid" : 0,
 					"domainruler_position" : 0,
 					"domainruler_size" : 15,
 					"domainruler_unit" : 0,
 					"domainruler_visible" : 1,
 					"domainscrollbar_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"domainscrollbar_colordefault" : 0,
 					"domainscrollbar_size" : 10,
 					"domainscrollbar_visible" : 0,
 					"embed" : 0,
@@ -564,12 +620,15 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
+					"tabsbgcolordefault" : 1,
+					"tabsfgcolordefault" : 1,
 					"tool" : "cursor",
 					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 30,
 					"toolbar_transposition" : 0,
 					"toolbar_visible" : 2,
+					"toolbarbgcolordefault" : 0,
 					"useplaceholders" : 1,
 					"varname" : "editor",
 					"verbose" : 1,
@@ -603,7 +662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 128.0, 265.0, 20.0, 20.0 ]
+					"patching_rect" : [ 127.0, 251.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -751,7 +810,6 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -813,8 +871,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 9,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -822,6 +880,9 @@
 						"classnamespace" : "box",
 						"rect" : [ 1609.0, 815.0, 716.0, 551.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"assistshowspatchername" : 0,
+						"commentary" : "",
+						"showcommentary" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -919,8 +980,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 264.0, 201.275269000000009, 20.0, 20.0 ]
 								}
 
 							}
@@ -1070,8 +1130,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ],
-									"svg" : ""
+									"patching_rect" : [ 128.600006000000008, 457.582885999999974, 20.0, 20.0 ]
 								}
 
 							}
@@ -1282,15 +1341,10 @@
 								}
 
 							}
- ],
-						"originid" : "pat-2134"
+ ]
 					}
 ,
 					"patching_rect" : [ 714.0, 142.499985000000038, 87.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p imubu-setup"
 				}
 
@@ -1326,6 +1380,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 150.5, 400.609375, 123.5, 400.609375 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -1428,7 +1490,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 154.5, 400.69921875, 123.5, 400.69921875 ],
+					"midpoints" : [ 163.5, 400.69921875, 123.5, 400.69921875 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -1496,6 +1558,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"hidden" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-40", 0 ]
@@ -1527,7 +1597,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
@@ -1655,7 +1725,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 137.5, 400.0, 123.5, 400.0 ],
+					"midpoints" : [ 136.5, 400.0, 123.5, 400.0 ],
 					"source" : [ "obj-72", 0 ]
 				}
 
@@ -1669,10 +1739,10 @@
 
 			}
  ],
-		"originid" : "pat-2042",
 		"parameters" : 		{
-			"obj-167::obj-34" : [ "number", "number", 0 ],
-			"obj-167::obj-82" : [ "umenu[6]", "umenu", 0 ],
+			"obj-167::obj-34" : [ "number", "Chance", 0 ],
+			"obj-167::obj-56" : [ "reverseprob", "reverseprob", 0 ],
+			"obj-167::obj-82" : [ "umenu[6]", "Trigger", 0 ],
 			"obj-17::obj-113" : [ "umenu", "DescrName", 0 ],
 			"obj-43::obj-113" : [ "umenu[1]", "DescrName", 0 ],
 			"obj-54::obj-113" : [ "umenu[2]", "DescrName", 0 ],

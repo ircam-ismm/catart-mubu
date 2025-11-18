@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 9,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 24.0, 87.0, 1596.0, 527.0 ],
+		"rect" : [ 1322.0, 755.0, 1190.0, 554.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
 		"lefttoolbarpinned" : 2,
@@ -18,7 +18,94 @@
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 13,
+		"assistshowspatchername" : 0,
+		"commentary" : "",
+		"showcommentary" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.000000029802322, 349.148280771171585, 301.0, 20.0 ],
+					"restore" : [ 0.25 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-yinthreshold @bindto mubu-none::descr.threshold",
+					"varname" : "mubu-none-yinthreshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.000000029802322, 327.768971891796127, 273.0, 20.0 ],
+					"restore" : [ 256.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-hopsize @bindto mubu-none::descr.hopsize",
+					"varname" : "mubu-none-hopsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.000000029802322, 305.010352762138382, 270.0, 20.0 ],
+					"restore" : [ 2048.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-winsize @bindto mubu-none::descr.winsize",
+					"varname" : "mubu-none-winsize"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1.000000029802322, 271.217251630222336, 266.0, 20.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr mubu-none-stddev @bindto mubu-none::chop.stddev",
+					"varname" : "mubu-none-stddev"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Geneva",
 					"fontsize" : 10.0,
@@ -28,7 +115,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.000004798173904, 143.000004261732101, 157.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 117.400001049041748, 157.0, 19.0 ],
+					"presentation_rect" : [ 160.689644157886505, 148.275851905345917, 157.0, 19.0 ],
 					"text" : "Yin periodicity threshold [0..1]"
 				}
 
@@ -46,7 +133,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.000000029802322, 143.000004261732101, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 117.400001049041748, 150.0, 21.0 ]
+					"presentation_rect" : [ 0.689655125141144, 148.275851905345917, 150.0, 21.0 ]
 				}
 
 			}
@@ -60,7 +147,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 120.0, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 95.800000727176666, 150.0, 19.0 ],
+					"presentation_rect" : [ 160.689644157886505, 126.206887900829315, 150.0, 19.0 ],
 					"text" : "Hop size [samples]"
 				}
 
@@ -78,7 +165,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 120.0, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 95.800000727176666, 150.0, 21.0 ]
+					"presentation_rect" : [ 0.689655125141144, 126.206887900829315, 150.0, 21.0 ]
 				}
 
 			}
@@ -92,7 +179,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 97.0, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 73.400000393390656, 150.0, 19.0 ],
+					"presentation_rect" : [ 160.689644157886505, 104.137923896312714, 150.0, 19.0 ],
 					"text" : "Window size [samples]"
 				}
 
@@ -110,7 +197,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 97.0, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 73.400000393390656, 150.0, 21.0 ]
+					"presentation_rect" : [ 0.689655125141144, 104.137923896312714, 150.0, 21.0 ]
 				}
 
 			}
@@ -256,14 +343,14 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 557.0, 96.0, 167.0, 22.0 ],
-					"text" : "corpus 0 0"
+					"patching_rect" : [ 557.0, 96.0, 167.0, 22.0 ]
 				}
 
 			}
@@ -291,7 +378,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 425.0, 178.700012000000015, 124.0, 22.0 ],
-					"text" : "r #1-process"
+					"text" : "r #1-process"
 				}
 
 			}
@@ -305,7 +392,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 68.900024000000002, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 161.000002384185791, 47.0, 150.0, 19.0 ],
+					"presentation_rect" : [ 160.689644157886505, 68.96551251411438, 150.0, 19.0 ],
 					"text" : "Calculate standard deviation"
 				}
 
@@ -323,7 +410,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.0, 68.900024000000002, 150.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 47.0, 150.0, 21.0 ]
+					"presentation_rect" : [ 0.689655125141144, 68.96551251411438, 150.0, 21.0 ]
 				}
 
 			}
@@ -336,8 +423,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1.0, 267.700012000000015, 343.0, 23.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 1.000000029802322, 245.700012000000015, 343.0, 23.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -357,7 +444,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.0, 46.900024000000002, 150.0, 19.0 ],
-					"text" : "Segment Offset [ms]"
+					"presentation" : 1,
+					"presentation_rect" : [ 160.689644157886505, 47.586203634738922, 150.0, 19.0 ],
+					"text" : "Start Offset [ms]"
 				}
 
 			}
@@ -371,7 +460,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 25.600000381469727, 178.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 26.0, 174.0, 19.0 ],
+					"presentation_rect" : [ 1.0, 26.0, 178.0, 19.0 ],
 					"text" : "Use the whole file as one segment "
 				}
 
@@ -387,7 +476,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ]
+					"patching_rect" : [ 1.0, 46.900024000000002, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.689655125141144, 47.586203634738922, 150.0, 21.0 ]
 				}
 
 			}
@@ -435,7 +526,7 @@
 ,
 					"text" : "mubu.process #1 audio descr:chop:const @name descr @priority 2 @process 0 @progressoutput input @timetagged 1 @descr.winsize 2048 @descr.hopsize 256 @descr.minfreq 0 @descr.threshold 0.25 @chop.size 0. @chop.mean 1 @chop.stddev 0 @chop.duration 1 @const.name @const.value",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "mubu-chop"
+					"varname" : "mubu-none"
 				}
 
 			}

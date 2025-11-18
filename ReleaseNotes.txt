@@ -1,12 +1,30 @@
 Release Notes for the catart-mubu Max package
 ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 
-
+upcoming:
 - new tutorial 3b: select note range by MIDI
 - start new module camu.input.mpe
 
 ____________________________________________________
-CataRT-Mubu v1.7		10.06.2025
+CataRT-Mubu v1.7.0		22.07.2025
+
+- needs mubu v1.10.16
+
+New patches:
+- new example patch "catart-mubu-descr+mfcc-pca-umap" integrating descriptors and spectral shape timbre space with PCA or UMAP dimensionality reduction
+- new tutorial "catart-mubu-tutorial 14 tag time-of-day" for ecological acoustics, generate running time of day and day of year from start time parsed from file name
+- new spat example with direct output to WFS
+
+Modules:
+- camu.imubu.control: integrate external-control via 5-element touch list and normalized 2D coords input and output to 3rd outlet
+- camu.analysis: accepts additional column attr (for FilenameNoteNumber, time tags, and upcoming unit activation features)
+- camu.process*: can add additonal columns, show window and yin threshold settings
+- camu.process.descr-none: new explicit choice for "take whole file as one segment"
+- new camu.process.descr+mfcc-* modules for new PCA/UMAP main patch, to be deprecated soon...
+- adapt more colours to Max9 themes
+
+____________________________________________________
+CataRT-Mubu v1.7.0-pre1		10.06.2025
 
 - needs mubu v1.10.15
 - camu.imubu.control: integrate external-control via 5-element touch list and normalized 2D coords input and output to 3rd outlet
