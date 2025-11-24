@@ -17,6 +17,64 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-69",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 193.0, 1160.0, 54.0, 22.0 ],
+                    "text": "mc.dac~"
+                }
+            },
+            {
+                "box": {
+                    "channels": 2,
+                    "id": "obj-61",
+                    "lastchannelcount": 2,
+                    "maxclass": "mc.live.gain~",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "multichannelsignal", "", "float", "list" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 193.0, 1015.0, 48.0, 136.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "mc.live.gain~",
+                            "parameter_mmax": 6.0,
+                            "parameter_mmin": -70.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "mc.live.gain~",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 4
+                        }
+                    },
+                    "varname": "mc.live.gain~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-60",
+                    "int": 1,
+                    "maxclass": "gswitch2",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 173.0, 905.0, 39.0, 32.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 4,
+                    "outlettype": [ "multichannelsignal", "", "", "" ],
+                    "patching_rect": [ 193.0, 950.5, 404.0, 22.0 ],
+                    "text": "mcs.poly~ camu.synth.sfplay.poly~ 100 args tut14-corpus descr @chans 2"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-76",
                     "linecount": 2,
                     "maxclass": "message",
@@ -26,7 +84,7 @@
                     "patching_rect": [ 461.5, 14.5, 55.0, 35.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
-                    "presentation_rect": [ 417.0, 46.0, 52.0, 35.0 ],
+                    "presentation_rect": [ 417.0, 46.0, 53.0, 35.0 ],
                     "text": "UMAP0 UMAP1"
                 }
             },
@@ -254,7 +312,7 @@
                 "box": {
                     "id": "obj-148",
                     "maxclass": "number",
-                    "minimum": 4,
+                    "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
@@ -268,7 +326,7 @@
                 "box": {
                     "id": "obj-147",
                     "maxclass": "number",
-                    "maximum": 20,
+                    "maximum": 7,
                     "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -336,8 +394,9 @@
                     "numoutlets": 0,
                     "patching_rect": [ 201.0, 362.0, 348.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 325.0, 194.5, 149.0, 20.0 ],
-                    "text": "empty"
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 325.0, 194.5, 149.0, 33.0 ],
+                    "text": "6 files / 0 segments / 23.75 min"
                 }
             },
             {
@@ -1085,7 +1144,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 113.20000094175339, 362.50000900030136, 50.0, 22.0 ],
-                                                    "text": "55"
+                                                    "text": "1"
                                                 }
                                             },
                                             {
@@ -1188,7 +1247,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 138.4000020623207, 419.2000062465668, 189.60000282526016, 22.0 ]
+                                    "patching_rect": [ 138.4000020623207, 419.2000062465668, 189.60000282526016, 22.0 ],
+                                    "text": "1970 1 1 0 0 0"
                                 }
                             },
                             {
@@ -1563,7 +1623,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 250.0000074505806, 474.6666808128357, 147.26667116880424, 22.0 ],
-                                                    "text": "2019 2 24 23 45 0"
+                                                    "text": "1970 1 1 0 0 0"
                                                 }
                                             },
                                             {
@@ -2889,7 +2949,7 @@
                     "patching_rect": [ 585.0, 875.0, 78.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.0, 677.799988, 76.92306838689422, 20.0 ],
-                    "text": "Buffer: 31"
+                    "text": "Buffer: 2"
                 }
             },
             {
@@ -2912,7 +2972,7 @@
                     "patching_rect": [ 707.0, 875.0, 75.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 190.75, 677.799988, 77.5, 20.0 ],
-                    "text": "Index: 3"
+                    "text": "Index: 9"
                 }
             },
             {
@@ -2929,13 +2989,14 @@
             {
                 "box": {
                     "id": "obj-68",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1163.0, 879.0, 231.0, 20.0 ],
+                    "patching_rect": [ 1163.0, 879.0, 231.0, 33.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.0, 655.799988, 363.0, 20.0 ],
-                    "text": "File: S4A09154_20190219_000000.flac"
+                    "text": "File: R_SPDIF_0381 Fahnen im Wind 2, Vichy sat.10.3.2012.wav"
                 }
             },
             {
@@ -2959,7 +3020,7 @@
                     "patching_rect": [ 818.0, 875.0, 81.16239174207055, 33.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 111.0, 699.799988, 122.333328, 20.0 ],
-                    "text": "Start: 6000.00 ms"
+                    "text": "Start: 18000.00 ms"
                 }
             },
             {
@@ -4117,7 +4178,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 0.0, 0.40602542053569446 ],
+                    "cursor_position": [ 5.831816207817322, -0.14732917937064677 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1,
                     "cursor_sizeunit": 1,
@@ -4129,7 +4190,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 0.0, 23.766111373901367 ],
+                    "domain_bounds": [ -1.4999836544081107, 12.865373363782737 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4147,7 +4208,7 @@
                     "enablemousewheel": 2,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 1,
+                    "foremost": 3,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -4724,7 +4785,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-46", 3 ],
-                    "midpoints": [ 160.5, 872.5269200598144, 369.4198721934471, 872.5269200598144, 369.4198721934471, 595.7914560233497, 330.7564123868942, 595.7914560233497 ],
+                    "midpoints": [ 160.5, 877.8628575598144, 369.4198721934471, 877.8628575598144, 369.4198721934471, 595.7914560233497, 330.7564123868942, 595.7914560233497 ],
                     "source": [ "obj-30", 2 ]
                 }
             },
@@ -4765,6 +4826,12 @@
                 "patchline": {
                     "destination": [ "obj-86", 0 ],
                     "source": [ "obj-35", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-61", 0 ],
+                    "source": [ "obj-36", 0 ]
                 }
             },
             {
@@ -4886,15 +4953,15 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-4", 0 ],
+                    "order": 0,
                     "source": [ "obj-46", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "order": 0,
+                    "destination": [ "obj-60", 1 ],
+                    "order": 1,
                     "source": [ "obj-46", 0 ]
                 }
             },
@@ -4985,6 +5052,24 @@
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
                     "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "source": [ "obj-60", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-36", 0 ],
+                    "source": [ "obj-60", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-69", 0 ],
+                    "source": [ "obj-61", 0 ]
                 }
             },
             {
@@ -5133,7 +5218,16 @@
             "obj-49::obj-113": [ "umenu[5]", "DescrName", 0 ],
             "obj-54::obj-113": [ "umenu[2]", "DescrName", 0 ],
             "obj-55::obj-113": [ "umenu[3]", "DescrName", 0 ],
+            "obj-61": [ "mc.live.gain~", "mc.live.gain~", 0 ],
             "obj-67": [ "live.gain~", "Volume", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-17::obj-113": {
                     "parameter_invisible": 0,
