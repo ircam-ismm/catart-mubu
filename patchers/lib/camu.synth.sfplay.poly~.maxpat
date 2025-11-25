@@ -444,7 +444,6 @@
             {
                 "box": {
                     "id": "obj-51",
-                    "int": 1,
                     "maxclass": "gswitch2",
                     "numinlets": 2,
                     "numoutlets": 2,
@@ -2881,7 +2880,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-24", 0 ],
+                    "destination": [ "obj-51", 1 ],
                     "source": [ "obj-72", 0 ]
                 }
             },
