@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 910.0, 100.0, 967.0, 922.0 ],
+        "rect": [ 1890.0, 175.0, 1056.0, 1003.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -23,7 +23,7 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "multichannelsignal", "float", "int" ],
-                    "patching_rect": [ 87.0, 526.5, 104.0, 34.0 ],
+                    "patching_rect": [ 146.25, 526.5, 104.0, 34.0 ],
                     "sig": [ 0.0, 0.0 ]
                 }
             },
@@ -274,8 +274,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 5.0, 516.0, 53.0, 22.0 ],
-                    "text": "mc.*~ 1."
+                    "patching_rect": [ 5.0, 516.0, 110.0, 22.0 ],
+                    "text": "mc.*~ 1. @chans 2"
                 }
             },
             {
@@ -728,7 +728,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "multichannelsignal", "bang" ],
                     "patching_rect": [ 5.0, 468.0, 124.0, 22.0 ],
-                    "text": "mc.sfplay~ @chans 2"
+                    "text": "mc.sfplay~ 2"
                 }
             },
             {
@@ -1056,7 +1056,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 280.0, -222.0, 130.0, 22.0 ],
+                    "patching_rect": [ 270.0, -160.0, 130.0, 22.0 ],
                     "text": "loadmess #1"
                 }
             },
@@ -2405,8 +2405,12 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 5.0, 577.0, 62.0, 22.0 ],
-                    "text": "mc.out~ 1"
+                    "patching_rect": [ 5.0, 577.0, 119.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "mc.out~ 1 @chans 2"
                 }
             },
             {
@@ -2426,7 +2430,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 178.0, 16.0, 71.0, 22.0 ],
+                    "patching_rect": [ 202.0, 21.0, 71.0, 22.0 ],
                     "text": "getattr level"
                 }
             }
@@ -2625,12 +2629,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "source": [ "obj-37", 1 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-55", 1 ],
                     "source": [ "obj-37", 0 ]
                 }
@@ -2702,12 +2700,6 @@
                 "patchline": {
                     "destination": [ "obj-27", 0 ],
                     "source": [ "obj-48", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-4", 0 ],
-                    "source": [ "obj-5", 0 ]
                 }
             },
             {
