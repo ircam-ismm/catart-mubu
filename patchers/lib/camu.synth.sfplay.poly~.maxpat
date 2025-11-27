@@ -9,9 +9,34 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 830.0, 87.0, 1056.0, 959.0 ],
+        "rect": [ 842.0, 87.0, 1040.0, 840.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-71",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "patching_rect": [ 5.0, 583.0, 110.0, 22.0 ],
+                    "text": "mc.unpack~"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-65",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 135.0, 655.0, 119.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "out~ 2"
+                }
+            },
             {
                 "box": {
                     "fontface": 0,
@@ -23,7 +48,7 @@
                     "numinlets": 2,
                     "numoutlets": 3,
                     "outlettype": [ "multichannelsignal", "float", "int" ],
-                    "patching_rect": [ 146.25, 526.5, 104.0, 34.0 ],
+                    "patching_rect": [ 152.5, 555.0, 104.0, 34.0 ],
                     "sig": [ 0.0, 0.0 ]
                 }
             },
@@ -56,11 +81,11 @@
                     "fontname": "Arial",
                     "fontsize": 13.0,
                     "id": "obj-22",
-                    "linecount": 3,
+                    "linecount": 4,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 233.0, 603.0, 291.0, 50.0 ],
+                    "patching_rect": [ 595.0, 555.0, 229.0, 65.0 ],
                     "text": "When the line~ object finishes, it sends a bang out its right outlet. We use that bang to turn poly~ voices \"off\" when we're not using them."
                 }
             },
@@ -110,10 +135,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 382.0, 555.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 2"
                 }
             },
@@ -464,10 +485,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 5.154638886451721, -237.11338877677917, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 1"
                 }
             },
@@ -1345,7 +1362,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 134.0, 172.0, 640.0, 480.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2414,8 +2430,12 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 5.0, 577.0, 119.0, 22.0 ],
-                    "text": "mc.out~ 1 @chans 2"
+                    "patching_rect": [ 5.0, 655.0, 119.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "out~ 1"
                 }
             },
             {
@@ -2425,10 +2445,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 324.0, 555.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 1"
                 }
             },
@@ -2745,7 +2761,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-203", 0 ],
+                    "destination": [ "obj-71", 0 ],
                     "order": 1,
                     "source": [ "obj-53", 0 ]
                 }
@@ -2883,6 +2899,18 @@
                 "patchline": {
                     "destination": [ "obj-43", 0 ],
                     "source": [ "obj-70", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-203", 0 ],
+                    "source": [ "obj-71", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-65", 0 ],
+                    "source": [ "obj-71", 1 ]
                 }
             },
             {
