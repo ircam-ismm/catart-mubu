@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1890.0, 175.0, 1056.0, 1003.0 ],
+        "rect": [ 830.0, 87.0, 1056.0, 959.0 ],
         "openinpresentation": 1,
         "boxes": [
             {
@@ -110,7 +110,11 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 382.0, 555.0, 35.0, 22.0 ],
-                    "text": "out 3"
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "out 2"
                 }
             },
             {
@@ -438,7 +442,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 448.0, -174.0, 151.0, 22.0 ],
-                    "text": "print #1-synth-IN"
+                    "text": "print #2-synth-IN"
                 }
             },
             {
@@ -460,6 +464,10 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 5.154638886451721, -237.11338877677917, 28.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "in 1"
                 }
             },
@@ -558,7 +566,7 @@
                                         "savegui": 0,
                                         "verbose": 1
                                     },
-                                    "text": "mubu.track #1 audio"
+                                    "text": "mubu.track #2 audio"
                                 }
                             },
                             {
@@ -598,7 +606,7 @@
                                         "savegui": 0,
                                         "verbose": 1
                                     },
-                                    "text": "mubu.track #1 #2 @matrixcol Duration"
+                                    "text": "mubu.track #2 #3 @matrixcol Duration"
                                 }
                             },
                             {
@@ -1056,7 +1064,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 270.0, -160.0, 130.0, 22.0 ],
+                    "patching_rect": [ 269.0, -167.0, 130.0, 22.0 ],
                     "text": "loadmess #1"
                 }
             },
@@ -1337,6 +1345,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 134.0, 172.0, 640.0, 480.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2406,10 +2415,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 5.0, 577.0, 119.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "mc.out~ 1 @chans 2"
                 }
             },
@@ -2420,7 +2425,11 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 324.0, 555.0, 35.0, 22.0 ],
-                    "text": "out 2"
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
+                    "text": "out 1"
                 }
             },
             {
@@ -2700,6 +2709,12 @@
                 "patchline": {
                     "destination": [ "obj-27", 0 ],
                     "source": [ "obj-48", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-5", 0 ]
                 }
             },
             {
