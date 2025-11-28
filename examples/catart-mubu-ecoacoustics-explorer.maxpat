@@ -495,7 +495,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 768.0, 854.0, 116.0, 22.0 ],
-                    "text": "18 19 9.5"
+                    "text": "40 41 20.263334"
                 }
             },
             {
@@ -778,7 +778,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 700.0000104308128, 220.8000032901764, 86.19999128580093, 22.0 ],
-                                    "text": "9.5"
+                                    "text": "20.263334"
                                 }
                             },
                             {
@@ -2127,7 +2127,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 640.0, 311.0, 67.0, 22.0 ],
-                                    "text": "voice 30"
+                                    "text": "voice 10"
                                 }
                             },
                             {
@@ -7728,7 +7728,7 @@
                     "patching_rect": [ 470.0, 1719.0, 121.16239174207055, 47.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 270.0, 682.0, 224.0, 20.0 ],
-                    "text": "Date/Time: 2019-02-24_09h30m00.000s",
+                    "text": "Date/Time: 2019-02-21_20h15m48.000s",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
@@ -10121,7 +10121,7 @@
                     "patching_rect": [ 11.0, 1715.0, 78.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.0, 682.0, 76.92306838689422, 20.0 ],
-                    "text": "Buffer: 549"
+                    "text": "Buffer: 304"
                 }
             },
             {
@@ -10144,7 +10144,7 @@
                     "patching_rect": [ 132.0, 1715.0, 75.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 191.0, 682.0, 77.5, 20.0 ],
-                    "text": "Index: 0"
+                    "text": "Index: 24"
                 }
             },
             {
@@ -10167,7 +10167,7 @@
                     "patching_rect": [ 589.0, 1719.0, 231.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.0, 664.0, 363.0, 20.0 ],
-                    "text": "File: S4A09154_20190224_093000.flac"
+                    "text": "File: S4A09154_20190221_201500.flac"
                 }
             },
             {
@@ -10191,7 +10191,7 @@
                     "patching_rect": [ 244.0, 1715.0, 81.16239174207055, 33.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 112.0, 699.799988, 122.333328, 20.0 ],
-                    "text": "Start: 0.00 ms"
+                    "text": "Start: 48000.00 ms"
                 }
             },
             {
@@ -11362,7 +11362,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 0,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 7333.606517886304, 8390.275026591427 ],
+                    "domain_bounds": [ 6521.380592791285, 8961.665990748945 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -13223,6 +13223,22 @@
                 }
             },
             "inherited_shortname": 1
+        },
+        "parameter_map": {
+            "midi": {
+                "live.slider[1]": {
+                    "srcname": "7.ctrl.15.chan.midi",
+                    "min": -60.0,
+                    "max": 6.0,
+                    "flags": 2
+                },
+                "Balance": {
+                    "srcname": "18.ctrl.15.chan.midi",
+                    "min": -50.0,
+                    "max": 50.0,
+                    "flags": 2
+                }
+            }
         },
         "autosave": 0
     }
