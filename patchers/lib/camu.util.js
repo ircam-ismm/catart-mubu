@@ -23,6 +23,33 @@ var manualactivecol = -1;
 var manualactivecolidx = -1;
 declareattribute("manualactivecol");
 
+var newcolnames = [];
+var newcolindex = -1;
+function createcol (name)
+{
+    newcolnames.push(name);
+    newcolindex = newcolindex + 1;
+    return newcolindex;
+}
+
+function createcols ()
+{
+    if (newcolnames.length > 0)
+    {
+	post("createcols", newcolnames.length, newcolnames, '\n')
+	var numbuf = mubu.numbuffers;
+	for (var buf = 1; buf <= numbuf; buf++)
+	{
+	    var track = mubu.gettrack(buf, trname);
+	    track.mxcols = newcolindex + 1;
+	    track.matrixcolnames = track.matrixcolnames.concat(newcolnames);
+	}
+    
+	newcolnames = [];
+	newcolindex = -1;
+    }
+}
+
 // convert all column names to indices, combine in addactivecolidx
 //updatecols.local = 1;
 function updatecols ()
@@ -30,26 +57,37 @@ function updatecols ()
     if (!mubu  &&  !refer(mubuname))  return;
 
     var track = mubu.gettrack(1, trname); // assuming same column names over all buffers
-    
+    newcolindex = track.mxcols;
+        
     activecol = getcolindex(track, activecolname);
+    if (activecol < 0)
+	activecol = createcol("active");
 
     addactivecolidx = [];
     for (var c in addactivecolumns)
     {
+	idx = getcolindex(track, addactivecolumns[c]);
+	if (idx < 0)
+	    idx = createcol(addactivecolumns[c]);
 	//post('add', c, getcolindex(track, addactivecolumns[c]), '\n');
-	addactivecolidx.push(getcolindex(track, addactivecolumns[c]));
+	addactivecolidx.push(idx);
     }
     
     manualactivecolidx = getcolindex(track, manualactivecol);
-    if (manualactivecolidx >= 0)
-	addactivecolidx.push(manualactivecolidx);
+    if (manualactivecolidx < 0)
+	manualactivecolidx = createcol(manualactivecol);
+    addactivecolidx.push(manualactivecolidx);
 
     rangeactivecolidx = getcolindex(track, rangeactivecol);
-    if (rangeactivecolidx >= 0)
-	addactivecolidx.push(rangeactivecolidx);
+    if (rangeactivecolidx < 0)
+	rangeactivecolidx = createcol(rangeactivecol);
+    addactivecolidx.push(rangeactivecolidx);
 
     post('updatecols: trname', trname, 'colnames', track.matrixcolnames, '\n');
-    post("  addactivecolumns:", addactivecolumns, '\n  addidx', addactivecolidx, '\n');
+    post('  activecol:', activecol, 'rangeactivecol', rangeactivecolidx, '\n');
+    post('  addactivecolumns:', addactivecolumns, 'addidx', addactivecolidx, '\n');
+
+    //createcols();
 }
 
 function loadbang  ()
@@ -107,8 +145,9 @@ function resetranges ()
 
     updatecols(); // re-lookup column names
     ranges = new Map(); // clear all ranges
-    
-    for (var buf = 1; buf <= mubu.numbuffers; buf++)
+
+    var numbuf = mubu.numbuffers;
+    for (var buf = 1; buf <= numbuf; buf++)
     {
 	var track = mubu.gettrack(buf, trname);
 	var ones = Array(track.size);
