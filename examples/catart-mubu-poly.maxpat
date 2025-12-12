@@ -4,7 +4,7 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 0,
+            "revision": 1,
             "architecture": "x64",
             "modernui": 1
         },
@@ -25,7 +25,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 535.0, 1091.0, 338.0, 47.0 ],
-                    "presentation_linecount": 3,
                     "text": "this dummy mubu.concat~ is named concat-proxy and serves to set the synthesis parameters via attrui. The attrs are set for all poly instances via [js attrchanged concat-proxy]"
                 }
             },
@@ -41,7 +40,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -55,7 +54,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 237.0, 18.0, 81.0, 20.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "descr change"
                                 }
                             },
@@ -157,7 +155,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -496,7 +494,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -700,7 +698,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 85.0, 636.0, 277.0, 22.0 ],
-                                                    "text": "extracursor 4 3398.396743 0.35007"
+                                                    "text": "extracursor 2 2860.947149 0.288348"
                                                 }
                                             },
                                             {
@@ -1435,7 +1433,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1605,7 +1603,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 158.0, 273.0, 157.0, 22.0 ],
-                                    "text": "1 10 18 -pre1 03/10/2025 11018"
+                                    "text": "1 10 18 -pre2 03/11/2025 11018"
                                 }
                             },
                             {
@@ -1768,7 +1766,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1995,7 +1993,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2026,7 +2024,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2264,7 +2262,7 @@
                                                         "appversion": {
                                                             "major": 9,
                                                             "minor": 1,
-                                                            "revision": 0,
+                                                            "revision": 1,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -2762,7 +2760,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -4081,7 +4079,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4508,7 +4506,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -4865,7 +4863,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -5548,7 +5546,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 215.5, 612.8500057458878, 53.0, 22.0 ],
-                    "text": "voice 1"
+                    "text": "voice 2"
                 }
             },
             {
@@ -5729,6 +5727,7 @@
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 971.6623917420706, 788.0, 166.0, 22.0 ],
                     "saved_object_attributes": {
+                        "savegui": 0,
                         "verbose": 1
                     },
                     "text": "mubu.track poly-corpus audio"
@@ -5765,6 +5764,7 @@
                     "outlettype": [ "", "", "" ],
                     "patching_rect": [ 816.0, 788.0, 166.0, 22.0 ],
                     "saved_object_attributes": {
+                        "savegui": 0,
                         "verbose": 1
                     },
                     "text": "mubu.track poly-corpus descr"
@@ -5892,7 +5892,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -6065,7 +6065,7 @@
                                         "appversion": {
                                             "major": 9,
                                             "minor": 1,
-                                            "revision": 0,
+                                            "revision": 1,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -7125,7 +7125,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7423,7 +7423,7 @@
                         "appversion": {
                             "major": 9,
                             "minor": 1,
-                            "revision": 0,
+                            "revision": 1,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -7789,6 +7789,7 @@
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 534.0, 197.275269, 142.0, 35.0 ],
                                     "saved_object_attributes": {
+                                        "savegui": 0,
                                         "verbose": 1
                                     },
                                     "text": "mubu.track poly-corpus descr"
@@ -8837,7 +8838,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 3617.1333918184, -0.001429756338352743 ],
+                    "cursor_position": [ 0.0, -0.001429756338352743 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1,
                     "cursor_sizeunit": 0,
@@ -8856,7 +8857,7 @@
                     "domainruler_fgcolordefault": 0,
                     "domainruler_grid": 0,
                     "domainruler_position": 0,
-                    "domainruler_size": 27,
+                    "domainruler_size": 17,
                     "domainruler_unit": 0,
                     "domainruler_visible": 1,
                     "domainscrollbar_color": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -8864,15 +8865,16 @@
                     "domainscrollbar_size": 10,
                     "domainscrollbar_visible": 0,
                     "embed": 0,
+                    "enablemousewheel": 1,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 2,
+                    "foremost": 1,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
                     "maintrack": -1,
                     "maxclass": "imubu",
-                    "mousewheelscroll": 0,
+                    "mousewheelscroll": 1,
                     "name": "poly-corpus",
                     "numinlets": 1,
                     "numoutlets": 1,
@@ -8904,7 +8906,7 @@
                     "tabs_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "tabs_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
                     "tabs_position": 0,
-                    "tabs_size": 33,
+                    "tabs_size": 16,
                     "tabs_visible": 1,
                     "tabsbgcolordefault": 1,
                     "tabsfgcolordefault": 1,
@@ -9710,7 +9712,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-178", 3 ],
-                    "order": 0,
+                    "order": 1,
                     "source": [ "obj-216", 0 ]
                 }
             },
@@ -10352,6 +10354,14 @@
             "obj-71::obj-124": [ "toggle[3]", "toggle[3]", 0 ],
             "obj-72": [ "button[1]", "button[1]", 0 ],
             "obj-86": [ "segmentation-corpus", "segmentation-corpus", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-17::obj-113": {
                     "parameter_invisible": 0,
