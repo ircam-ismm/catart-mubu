@@ -9,8 +9,52 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 285.0, 1180.0, 1243.0, 848.0 ],
+        "rect": [ 270.0, 1180.0, 1243.0, 848.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-101",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 161.33333814144135, 108.00000321865082, 86.50313285855862, 22.0 ],
+                    "text": "t l l"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-77",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 161.33333814144135, 81.33333575725555, 60.0, 22.0 ],
+                    "text": "route port"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-71",
+                    "maxclass": "button",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 16.000000476837158, 23.166664838790894, 24.0, 24.0 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-55",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 16.000000476837158, 52.499999046325684, 204.0, 22.0 ],
+                    "text": "patcherargs 0 @port \"Sensel Morph\""
+                }
+            },
             {
                 "box": {
                     "id": "obj-107",
@@ -101,13 +145,13 @@
             {
                 "box": {
                     "id": "obj-58",
-                    "items": [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Sensel Morph", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Digiface Dante (24199131) Port 1", ",", "to Max 1", ",", "to Max 2" ],
+                    "items": [ "IAC Driver Bus 1", ",", "IAC Driver Bus 2", ",", "Sensel Morph", ",", "nanoKONTROL2 SLIDER/KNOB", ",", "Digiface Dante (24199131) Port 1", ",", "to Max 1", ",", "to Max 2", ",", "Sensel Morph #2" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 19.333333909511566, 52.0000022649765, 140.0000011920929, 22.0 ]
+                    "patching_rect": [ 228.33333957195282, 52.500001311302185, 140.0000011920929, 22.0 ]
                 }
             },
             {
@@ -119,7 +163,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 19.333333909511566, 27.600001394748688, 40.0, 19.0 ],
+                    "patching_rect": [ 228.33333957195282, 27.833333909511566, 40.0, 19.0 ],
                     "text": "midiinfo"
                 }
             },
@@ -132,7 +176,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 19.333333909511566, 1.100001454353333, 91.0, 19.0 ],
+                    "patching_rect": [ 228.33333957195282, 1.1666664481163025, 91.0, 19.0 ],
                     "text": "loadmess controllers"
                 }
             },
@@ -142,7 +186,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 100.66666966676712, 77.0000022649765, 137.0, 20.0 ],
+                    "patching_rect": [ 50.00000149011612, 27.166664958000183, 137.0, 20.0 ],
                     "text": "argument: base channel"
                 }
             },
@@ -153,19 +197,8 @@
                     "numinlets": 2,
                     "numoutlets": 2,
                     "outlettype": [ "bang", "" ],
-                    "patching_rect": [ 19.333333909511566, 103.33333641290665, 34.0, 22.0 ],
+                    "patching_rect": [ 16.000000476837158, 84.5, 34.0, 22.0 ],
                     "text": "sel 0"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-56",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 19.333333909511566, 76.0000022649765, 77.0, 22.0 ],
-                    "text": "loadmess #1"
                 }
             },
             {
@@ -454,7 +487,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 216.0, 410.0, 195.0, 22.0 ],
-                    "text": "1 3 2 0.501495 0.573888 0."
+                    "text": "1 3 2 0.573216 0.339437 0."
                 }
             },
             {
@@ -867,7 +900,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "int" ],
-                    "patching_rect": [ 228.83647099999996, 134.0, 136.0, 21.0 ],
+                    "patching_rect": [ 228.6666734814644, 142.00000423192978, 136.0, 21.0 ],
                     "text": "notein \"Sensel Morph\""
                 }
             },
@@ -3524,7 +3557,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 494.99484299999983, 7.0, 215.00827, 31.0 ],
+                    "patching_rect": [ 676.8333421945572, 7.0, 215.00827, 31.0 ],
                     "text": "base MSB ctl number for x, LSB is +12, y, press are +1, +2",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -3538,7 +3571,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 247.00311299999998, 31.0, 463.0, 119.0 ],
+                    "patching_rect": [ 382.00001138448715, 36.0, 463.0, 119.0 ],
                     "text": "Use with Sensel Morph Layouts in SenselApp:\n- \"No Overlay Map\" under \"No Overlay\"\n- \"CataRT live MPE\" under \"Innovator's\"\n\n3 MPE XYZ areas sending notes C3–D3 and 14bit ctl MSB/LSB on rotating MIDI channels >= 2:\narea1 (right): C3  (60), ctl 20/52, 21/53, 22/54 for (x, y, press) \narea2 (left)   C#3 (61), ctl 23/55, 24/56, 25/57\narea3 (mid)   D3  (62), ctl 26/58, 27/59, 28/60\n",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -3552,7 +3585,7 @@
                     "numinlets": 1,
                     "numoutlets": 3,
                     "outlettype": [ "int", "int", "int" ],
-                    "patching_rect": [ 15.66980000000001, 134.0, 133.66039999999998, 21.0 ],
+                    "patching_rect": [ 16.000000476837158, 142.00000423192978, 133.66039999999998, 21.0 ],
                     "text": "ctlin \"Sensel Morph\""
                 }
             },
@@ -3574,7 +3607,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 197.99484299999983, 7.0, 295.0, 27.0 ],
+                    "patching_rect": [ 379.5, 7.0, 295.0, 27.0 ],
                     "text": "Sensel Morph MPE multitouch input",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
@@ -3865,6 +3898,18 @@
                 "patchline": {
                     "destination": [ "obj-84", 0 ],
                     "source": [ "obj-100", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-47", 0 ],
+                    "source": [ "obj-101", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-101", 0 ]
                 }
             },
             {
@@ -4184,20 +4229,18 @@
             {
                 "patchline": {
                     "destination": [ "obj-76", 0 ],
-                    "source": [ "obj-56", 0 ]
+                    "source": [ "obj-55", 0 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-47", 0 ],
-                    "order": 0,
-                    "source": [ "obj-58", 1 ]
+                    "destination": [ "obj-77", 0 ],
+                    "source": [ "obj-55", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-8", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-101", 0 ],
                     "source": [ "obj-58", 1 ]
                 }
             },
@@ -4228,6 +4271,14 @@
             {
                 "patchline": {
                     "destination": [ "obj-62", 0 ],
+                    "order": 0,
+                    "source": [ "obj-64", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 0 ],
+                    "order": 1,
                     "source": [ "obj-64", 0 ]
                 }
             },
@@ -4247,6 +4298,12 @@
                 "patchline": {
                     "destination": [ "obj-79", 0 ],
                     "source": [ "obj-70", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-55", 0 ],
+                    "source": [ "obj-71", 0 ]
                 }
             },
             {
@@ -4286,6 +4343,12 @@
                     "destination": [ "obj-82", 1 ],
                     "order": 1,
                     "source": [ "obj-76", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-101", 0 ],
+                    "source": [ "obj-77", 0 ]
                 }
             },
             {
