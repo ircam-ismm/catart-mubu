@@ -19,10 +19,6 @@ var rangeactivecol = -1;
 var rangeactivecolidx = -1;
 declareattribute("rangeactivecol");
 
-var manualactivecol = -1;
-var manualactivecolidx = -1;
-declareattribute("manualactivecol");
-
 var newcolnames = [];
 var newcolindex = -1;
 function createcol (name)
@@ -69,19 +65,15 @@ function updatecols ()
 	idx = getcolindex(track, addactivecolumns[c]);
 	if (idx < 0)
 	    idx = createcol(addactivecolumns[c]);
-	//post('add', c, getcolindex(track, addactivecolumns[c]), '\n');
+	post('add', c, idx, getcolindex(track, addactivecolumns[c]), '\n');
 	addactivecolidx.push(idx);
     }
     
-    manualactivecolidx = getcolindex(track, manualactivecol);
-    if (manualactivecolidx < 0)
-	manualactivecolidx = createcol(manualactivecol);
-    addactivecolidx.push(manualactivecolidx);
-
     rangeactivecolidx = getcolindex(track, rangeactivecol);
     if (rangeactivecolidx < 0)
 	rangeactivecolidx = createcol(rangeactivecol);
     addactivecolidx.push(rangeactivecolidx);
+    post('add', 'range', rangeactivecolidx, '\n');
 
     post('updatecols: trname', trname, 'colnames', track.matrixcolnames, '\n');
     post('  activecol:', activecol, 'rangeactivecol', rangeactivecolidx, '\n');
@@ -252,7 +244,7 @@ function addrange ()
 	    track.setmxcolumn(rangeactivecolidx, i, rangeactive);
 	    track.setmxcolumn(activecol, i, getactive(mx));
 
-	    //post("buf ", buf, " idx ", i, mx, " active ", mx[manualactivecolidx], mx[rangeactivecolidx], getactive(mx), "\n");
+	    //post("buf ", buf, " idx ", i, mx, " active ", mx[rangeactivecolidx], getactive(mx), "\n");
 	}
     }
     outlet(0, bang);
