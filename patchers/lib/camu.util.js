@@ -207,8 +207,9 @@ function updateactive ()
 function addrange ()
 {
     if (!mubu  &&  !refer(mubuname))  return;
+    var track = mubu.gettrack(1, trname); // assuming same column names over all buffers
 
-    var filtercol  = arguments[0];
+    var filtercol  = getcolindex(track, arguments[0]);
     var low        = arguments[1];
     var high       = arguments[2];
 
