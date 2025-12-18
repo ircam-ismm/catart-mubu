@@ -23,7 +23,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "int" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 410.5, 275.7000009417534, 24.0, 24.0 ]
+                    "patching_rect": [ 410.5, 379.0, 24.0, 24.0 ]
                 }
             },
             {
@@ -2774,7 +2774,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1088.0000162124634, 97.66666954755783, 191.20000284910202, 22.0 ],
-                    "text": "tut14-corpus audio descr0"
+                    "text": "ecocorpus audio descr0"
                 }
             },
             {
@@ -3080,11 +3080,11 @@
                     "fontsize": 9.0,
                     "id": "obj-14",
                     "maxclass": "newobj",
-                    "numinlets": 10,
-                    "numoutlets": 10,
-                    "outlettype": [ "", "", "", "", "", "", "", "", "", "" ],
-                    "patching_rect": [ 10.400000154972076, 71.20000106096268, 329.0, 20.0 ],
-                    "text": "route bang read readappend readfolder readall clearall writeall dump open"
+                    "numinlets": 11,
+                    "numoutlets": 11,
+                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 10.0, 71.20000106096268, 394.0, 20.0 ],
+                    "text": "route bang read readappend readfolder readall clearall writeall dump open reportdone"
                 }
             },
             {
@@ -3249,15 +3249,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "midpoints": [ 329.9000001549721, 144.77657458344652, 19.5, 144.77657458344652 ],
-                    "order": 1,
-                    "source": [ "obj-14", 9 ]
+                    "midpoints": [ 394.5, 144.77657458344652, 19.5, 144.77657458344652 ],
+                    "source": [ "obj-14", 10 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-2", 0 ],
-                    "order": 0,
+                    "destination": [ "obj-22", 0 ],
                     "source": [ "obj-14", 9 ]
                 }
             },
