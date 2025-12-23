@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 569.0, 1180.0, 1110.0, 848.0 ],
+        "rect": [ 1018.0, 1537.0, 1110.0, 747.0 ],
         "boxes": [
             {
                 "box": {
@@ -18,8 +18,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 452.00000673532486, 294.40000438690186, 137.60000205039978, 33.0 ],
-                    "presentation_linecount": 2,
+                    "patching_rect": [ 452.00000673532486, 294.40000438690186, 139.0, 33.0 ],
                     "text": "cursor display of mouse or touch position"
                 }
             },
@@ -31,7 +30,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 662.2000077366829, 675.3000101447105, 156.0, 33.0 ],
-                    "presentation_linecount": 2,
                     "text": "multi-touch visualisation using extracursors"
                 }
             },
@@ -141,7 +139,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 134.0, 159.0, 535.0, 397.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1534,7 +1531,7 @@
                                     "saved_attribute_attributes": {
                                         "valueof": {
                                             "parameter_invisible": 1,
-                                            "parameter_longname": "number[13]",
+                                            "parameter_longname": "number[1]",
                                             "parameter_modmode": 0,
                                             "parameter_shortname": "number",
                                             "parameter_type": 3
