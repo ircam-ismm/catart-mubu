@@ -9,8 +9,60 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 241.0, 137.0, 1712.0, 1269.0 ],
+        "rect": [ 1493.0, 212.0, 1176.0, 1087.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-30",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 434.0, 796.0, 166.0, 20.0 ],
+                    "text": "bang when loading is finished"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-26",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 208.5, 225.0, 88.0, 20.0 ],
+                    "text": "skip empty line"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-24",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "" ],
+                    "patching_rect": [ 244.83333331346512, 201.0, 66.0, 22.0 ],
+                    "text": "route bang"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 597.2000121474266, 426.6000063419342, 163.0, 20.0 ],
+                    "text": "stop uzi for async file read"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 603.0, 142.0, 50.0, 22.0 ],
+                    "text": "break"
+                }
+            },
             {
                 "box": {
                     "id": "obj-12",
@@ -130,8 +182,8 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 603.6000080704689, 415.30000627040863, 220.8000032901764, 20.0 ],
-                    "text": "directly repeated files will not load twice"
+                    "patching_rect": [ 551.0, 404.00000566244125, 252.0, 20.0 ],
+                    "text": "directly repeated file names will not load twice"
                 }
             },
             {
@@ -185,6 +237,7 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 1609.0, 603.0, 1246.0, 701.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -495,14 +548,6 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-25", 0 ],
-                                    "order": 0,
-                                    "source": [ "obj-51", 0 ]
-                                }
-                            },
-                            {
-                                "patchline": {
-                                    "destination": [ "obj-26", 0 ],
-                                    "order": 1,
                                     "source": [ "obj-51", 0 ]
                                 }
                             },
@@ -791,7 +836,7 @@
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 396.5, 831.2000125050545, 30.0, 30.0 ]
+                    "patching_rect": [ 397.0, 786.0, 30.0, 30.0 ]
                 }
             },
             {
@@ -819,11 +864,12 @@
             {
                 "box": {
                     "id": "obj-4",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 50.0, 29.299987999999985, 149.0, 20.0 ],
-                    "text": "read finished: query #lines"
+                    "patching_rect": [ 50.0, 29.299987999999985, 149.0, 33.0 ],
+                    "text": "text file read finished: query #lines"
                 }
             },
             {
@@ -1126,6 +1172,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-34", 0 ],
+                    "source": [ "obj-10", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-100", 0 ]
                 }
@@ -1182,7 +1234,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-71", 1 ],
+                    "destination": [ "obj-24", 0 ],
                     "source": [ "obj-21", 0 ]
                 }
             },
@@ -1197,6 +1249,12 @@
                 "patchline": {
                     "destination": [ "obj-71", 0 ],
                     "source": [ "obj-23", 1 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-71", 1 ],
+                    "source": [ "obj-24", 1 ]
                 }
             },
             {
