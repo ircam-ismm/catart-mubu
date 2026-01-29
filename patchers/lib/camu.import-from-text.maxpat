@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1587.0, 109.0, 1651.0, 921.0 ],
+        "rect": [ 875.0, 109.0, 1651.0, 921.0 ],
         "boxes": [
             {
                 "box": {
@@ -1514,7 +1514,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 191.26984423398972, 155.5555579662323, 42.0, 22.0 ],
+                    "patching_rect": [ 341.2380990386009, 84.92063623666763, 42.0, 22.0 ],
                     "text": "open"
                 }
             },
@@ -1568,7 +1568,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 105.0, 193.0, 1246.0, 701.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -1785,7 +1784,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 256.0, 347.0, 122.0, 35.0 ],
+                                    "patching_rect": [ 256.0, 347.0, 125.0, 35.0 ],
                                     "text": "prepend track #2 matrixcolnames"
                                 }
                             },
@@ -2088,11 +2087,11 @@
                 "box": {
                     "id": "obj-1",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 4,
-                    "outlettype": [ "", "", "", "" ],
-                    "patching_rect": [ 245.23809903860092, 55.555556416511536, 158.0, 22.0 ],
-                    "text": "route read readall loadaudio"
+                    "numinlets": 5,
+                    "numoutlets": 5,
+                    "outlettype": [ "", "", "", "", "" ],
+                    "patching_rect": [ 245.23809903860092, 55.555556416511536, 211.0, 22.0 ],
+                    "text": "route read readall showfiles loadaudio"
                 }
             },
             {
@@ -2343,20 +2342,26 @@
             {
                 "patchline": {
                     "destination": [ "obj-41", 0 ],
-                    "source": [ "obj-1", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-42", 0 ],
-                    "midpoints": [ 301.07143237193424, 118.29881639857865, 254.73809903860092, 118.29881639857865 ],
+                    "midpoints": [ 302.7380990386009, 81.23809632658958, 254.73809903860092, 81.23809632658958 ],
                     "source": [ "obj-1", 1 ]
                 }
             },
             {
                 "patchline": {
-                    "destination": [ "obj-70", 0 ],
+                    "destination": [ "obj-41", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-56", 0 ],
                     "source": [ "obj-1", 2 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-70", 0 ],
+                    "source": [ "obj-1", 3 ]
                 }
             },
             {
@@ -2380,7 +2385,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-33", 0 ],
-                    "midpoints": [ 473.0555690526962, 84.39048710623933 ],
+                    "midpoints": [ 472.99207067489624, 84.39048710623933 ],
                     "source": [ "obj-19", 0 ]
                 }
             },
@@ -2514,6 +2519,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-42", 0 ],
+                    "midpoints": [ 350.7380990386009, 116.5933548095636, 254.73809903860092, 116.5933548095636 ],
                     "source": [ "obj-56", 0 ]
                 }
             },
