@@ -9,8 +9,18 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1117.0, 87.0, 1684.0, 956.0 ],
+        "rect": [ 998.0, 322.0, 1444.0, 848.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-11",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 771.0, 255.60000377893448, 123.0, 20.0 ],
+                    "text": "load audio into RAM?"
+                }
+            },
             {
                 "box": {
                     "id": "obj-25",
@@ -18,7 +28,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 457.1000063419342, 628.1666846871376, 223.0, 20.0 ],
-                    "presentation_linecount": 2,
                     "text": "rebuild camu.menu with loaded columns"
                 }
             },
