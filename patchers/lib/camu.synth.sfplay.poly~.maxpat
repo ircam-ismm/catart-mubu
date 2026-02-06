@@ -128,7 +128,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 122.0, 610.0, 112.0, 33.0 ],
+                    "patching_rect": [ 122.0, 610.0, 115.0, 33.0 ],
                     "text": "mono file: duplicate channels"
                 }
             },
@@ -280,6 +280,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 70.0, 691.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 2"
                 }
             },
@@ -366,10 +370,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 435.2000028192997, 555.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 2"
                 }
             },
@@ -454,11 +454,11 @@
                 "box": {
                     "id": "obj-61",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
                     "patching_rect": [ 5.0, 399.0, 75.0, 22.0 ],
-                    "text": "pipe 0. 0. 10"
+                    "text": "pack f f"
                 }
             },
             {
@@ -707,10 +707,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 5.154638886451721, -237.11338877677917, 28.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "in 1"
                 }
             },
@@ -3036,6 +3032,10 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 5.0, 691.0, 42.0, 22.0 ],
+                    "saved_object_attributes": {
+                        "attr_comment": "",
+                        "c": ""
+                    },
                     "text": "out~ 1"
                 }
             },
@@ -3046,10 +3046,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 376.2000028192997, 555.0, 35.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out 1"
                 }
             },
