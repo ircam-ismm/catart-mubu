@@ -3,13 +3,13 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 1,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 100.0, 1444.0, 848.0 ],
+        "rect": [ 34.0, 100.0, 2334.0, 1306.0 ],
         "openrect": [ 30.0, 0.0, 0.0, 0.0 ],
         "openrectmode": 0,
         "openinpresentation": 1,
@@ -185,7 +185,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1048.0, 33.33331300000009, 50.0, 22.0 ],
-                    "text": "#3"
+                    "text": "x"
                 }
             },
             {
@@ -776,13 +776,13 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 142.0, 277.0, 640.0, 480.0 ],
+                        "rect": [ 2209.0, 510.0, 640.0, 480.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -790,8 +790,8 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 126.00000375509262, 157.66667133569717, 196.0, 20.0 ],
-                                    "text": "when count is zero, output 0, not -1"
+                                    "patching_rect": [ 126.00000375509262, 157.66667133569717, 231.0, 20.0 ],
+                                    "text": "when count is zero, clip output to 0, not -1"
                                 }
                             },
                             {
@@ -892,8 +892,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 50.0, 187.0, 77.0, 21.0 ],
-                                    "text": "max $1, bang"
+                                    "patching_rect": [ 50.0, 187.0, 45.0, 21.0 ],
+                                    "text": "max $1"
                                 }
                             },
                             {
@@ -1029,7 +1029,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-21",
-                    "items": [ "off", ",", "Duration", ",", "FrequencyMax", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMax", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMax", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Max", ",", "AC1Mean", ",", "AC1StdDev", ",", "LoudnessMax", ",", "LoudnessMean", ",", "LoudnessStdDev", ",", "CentroidMax", ",", "CentroidMean", ",", "CentroidStdDev", ",", "SpreadMax", ",", "SpreadMean", ",", "SpreadStdDev", ",", "SkewnessMax", ",", "SkewnessMean", ",", "SkewnessStdDev", ",", "KurtosisMax", ",", "KurtosisMean", ",", "KurtosisStdDev", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "iabel", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "iabel", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "label" ],
+                    "items": "<empty>",
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -1060,8 +1060,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1302,8 +1302,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2062,7 +2062,7 @@
                 "box": {
                     "comment": "to imubu: graphics configuration messages",
                     "id": "obj-13",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2125,11 +2125,11 @@
                 "box": {
                     "comment": "",
                     "id": "obj-4",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 25.0, 2.5, 25.0, 25.0 ],
                     "varname": "int/name"
                 }
@@ -2205,7 +2205,7 @@
                 "box": {
                     "comment": "descriptor index",
                     "id": "obj-2",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -2229,7 +2229,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-113",
-                    "items": [ "off", ",", "Duration", ",", "FrequencyMax", ",", "FrequencyMean", ",", "FrequencyStdDev", ",", "EnergyMax", ",", "EnergyMean", ",", "EnergyStdDev", ",", "PeriodicityMax", ",", "PeriodicityMean", ",", "PeriodicityStdDev", ",", "AC1Max", ",", "AC1Mean", ",", "AC1StdDev", ",", "LoudnessMax", ",", "LoudnessMean", ",", "LoudnessStdDev", ",", "CentroidMax", ",", "CentroidMean", ",", "CentroidStdDev", ",", "SpreadMax", ",", "SpreadMean", ",", "SpreadStdDev", ",", "SkewnessMax", ",", "SkewnessMean", ",", "SkewnessStdDev", ",", "KurtosisMax", ",", "KurtosisMean", ",", "KurtosisStdDev", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "iabel", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "iabel", ",", "time", ",", "duration", ",", "bufferindex", ",", "nodeindex", ",", "label" ],
+                    "items": "<empty>",
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2240,10 +2240,10 @@
                     "presentation_rect": [ 160.0, 0.0, 156.0, 22.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "off", "Duration", "FrequencyMax", "FrequencyMean", "FrequencyStdDev", "EnergyMax", "EnergyMean", "EnergyStdDev", "PeriodicityMax", "PeriodicityMean", "PeriodicityStdDev", "AC1Max", "AC1Mean", "AC1StdDev", "LoudnessMax", "LoudnessMean", "LoudnessStdDev", "CentroidMax", "CentroidMean", "CentroidStdDev", "SpreadMax", "SpreadMean", "SpreadStdDev", "SkewnessMax", "SkewnessMean", "SkewnessStdDev", "KurtosisMax", "KurtosisMean", "KurtosisStdDev", "time", "duration", "bufferindex", "nodeindex", "iabel", "time", "duration", "bufferindex", "nodeindex", "iabel", "time", "duration", "bufferindex", "nodeindex", "label" ],
+                            "parameter_enum": [ "Duration", "birdnet1", "birdnet2", "perch_bird1", "perch_bird2", "beats1", "beats2", "naturebeats1", "naturebeats2", "ZCR", "LEQt", "BGNt", "SNRt", "LEQf", "BGNf", "SNRf", "LFC", "MFC", "HFC", "AGI", "nROI", "FrequencyMean", "EnergyMean", "PeriodicityMean", "AC1Mean", "LoudnessMean", "CentroidMean", "SpreadMean", "SkewnessMean", "KurtosisMean", "MFCC0Mean", "MFCC1Mean", "MFCC2Mean", "MFCC3Mean", "MFCC4Mean", "MFCC5Mean", "MFCC6Mean", "MFCC7Mean", "MFCC8Mean", "MFCC9Mean", "MFCC10Mean", "MFCC11Mean", "Year", "Day", "Hour", "YearDay", "Week", "active", "RangeActive", "ManualActive", "ClusterActive", "UMAP0", "UMAP1" ],
                             "parameter_linknames": 1,
                             "parameter_longname": "umenu",
-                            "parameter_mmax": 43,
+                            "parameter_mmax": 52,
                             "parameter_modmode": 0,
                             "parameter_shortname": "DescrName",
                             "parameter_type": 2
@@ -2258,8 +2258,8 @@
                     "fontsize": 11.0,
                     "id": "obj-53",
                     "maxclass": "number",
-                    "maximum": 32,
-                    "minimum": -1,
+                    "maximum": 0,
+                    "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
@@ -3081,19 +3081,6 @@
                     "source": [ "obj-99", 3 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-113": [ "umenu", "DescrName", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }
