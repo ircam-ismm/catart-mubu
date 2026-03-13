@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -11,6 +11,38 @@
         "classnamespace": "box",
         "rect": [ 171.0, 151.0, 1267.0, 872.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-18",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 788.0, 522.0, 173.0, 20.0 ],
+                    "text": "global setup of imubu for catart"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-16",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 788.0, 595.0, 120.0, 22.0 ],
+                    "text": "cursor sizeunit pixels"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-1",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 788.0, 546.0, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
             {
                 "box": {
                     "color": [ 0.9493523240089417, 0.41099515557289124, 0.35991358757019043, 1.0 ],
@@ -69,7 +101,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -191,7 +223,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -275,14 +307,25 @@
                                                         "fileversion": 1,
                                                         "appversion": {
                                                             "major": 9,
-                                                            "minor": 1,
+                                                            "minor": 2,
                                                             "revision": 0,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 690.0, 732.0, 914.0, 418.0 ],
+                                                        "rect": [ 635.0, 902.0, 914.0, 418.0 ],
                                                         "boxes": [
+                                                            {
+                                                                "box": {
+                                                                    "id": "obj-1",
+                                                                    "maxclass": "message",
+                                                                    "numinlets": 2,
+                                                                    "numoutlets": 1,
+                                                                    "outlettype": [ "" ],
+                                                                    "patching_rect": [ 34.0, 393.0, 99.0, 22.0 ],
+                                                                    "text": "cursor_sizeunit 0"
+                                                                }
+                                                            },
                                                             {
                                                                 "box": {
                                                                     "id": "obj-17",
@@ -658,6 +701,12 @@
                                                             }
                                                         ],
                                                         "lines": [
+                                                            {
+                                                                "patchline": {
+                                                                    "destination": [ "obj-31", 0 ],
+                                                                    "source": [ "obj-1", 0 ]
+                                                                }
+                                                            },
                                                             {
                                                                 "patchline": {
                                                                     "destination": [ "obj-31", 0 ],
@@ -1446,7 +1495,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -1665,7 +1714,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1892,6 +1941,7 @@
                                                     "outlettype": [ "", "", "" ],
                                                     "patching_rect": [ 177.0, 247.0, 243.0, 22.0 ],
                                                     "saved_object_attributes": {
+                                                        "savegui": 0,
                                                         "verbose": 1
                                                     },
                                                     "text": "mubu.track #1 #2"
@@ -2682,7 +2732,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -2787,7 +2837,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -3849,7 +3899,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 9.0, 1.0, 30.0, 30.0 ]
                 }
             },
@@ -4033,6 +4083,12 @@
         "lines": [
             {
                 "patchline": {
+                    "destination": [ "obj-16", 0 ],
+                    "source": [ "obj-1", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "source": [ "obj-11", 1 ]
                 }
@@ -4095,6 +4151,12 @@
                 "patchline": {
                     "destination": [ "obj-57", 1 ],
                     "source": [ "obj-159", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-51", 0 ],
+                    "source": [ "obj-16", 0 ]
                 }
             },
             {

@@ -194,7 +194,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 414.0, 100.0, 1059.0, 788.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2020,7 +2019,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 105.0, 193.0, 1246.0, 701.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2129,7 +2127,6 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 653.0, 188.0, 34.0, 22.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "label"
                                 }
                             },
@@ -2151,7 +2148,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 256.0, 292.0, 55.0, 22.0 ],
+                                    "patching_rect": [ 256.0, 265.0, 55.0, 22.0 ],
                                     "text": "zl slice 0"
                                 }
                             },
@@ -2476,7 +2473,7 @@
                             {
                                 "patchline": {
                                     "destination": [ "obj-32", 0 ],
-                                    "source": [ "obj-25", 0 ]
+                                    "source": [ "obj-25", 1 ]
                                 }
                             },
                             {

@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 272.0, 87.0, 1307.0, 1316.0 ],
+        "rect": [ 344.0, 87.0, 1220.0, 959.0 ],
         "boxes": [
             {
                 "box": {
@@ -6429,6 +6429,7 @@
                             {
                                 "box": {
                                     "id": "obj-83",
+                                    "int": 1,
                                     "maxclass": "gswitch2",
                                     "numinlets": 2,
                                     "numoutlets": 2,
@@ -7491,7 +7492,6 @@
                             {
                                 "box": {
                                     "id": "obj-76",
-                                    "int": 1,
                                     "maxclass": "gswitch2",
                                     "numinlets": 2,
                                     "numoutlets": 2,

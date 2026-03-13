@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 1,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -15,6 +15,19 @@
         "gridsize": [ 10.0, 10.0 ],
         "devicewidth": 409.0,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Geneva",
+                    "fontsize": 9.0,
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 224.14815482828354, 151.66667115688324, 80.0, 20.0 ],
+                    "text": "prepend process"
+                }
+            },
             {
                 "box": {
                     "id": "obj-22",
@@ -139,8 +152,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -288,8 +301,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 1,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -648,8 +661,8 @@
                                                         "fileversion": 1,
                                                         "appversion": {
                                                             "major": 9,
-                                                            "minor": 1,
-                                                            "revision": 1,
+                                                            "minor": 2,
+                                                            "revision": 0,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -759,8 +772,8 @@
                                                         "fileversion": 1,
                                                         "appversion": {
                                                             "major": 9,
-                                                            "minor": 1,
-                                                            "revision": 1,
+                                                            "minor": 2,
+                                                            "revision": 0,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -945,8 +958,8 @@
                                                         "fileversion": 1,
                                                         "appversion": {
                                                             "major": 9,
-                                                            "minor": 1,
-                                                            "revision": 1,
+                                                            "minor": 2,
+                                                            "revision": 0,
                                                             "architecture": "x64",
                                                             "modernui": 1
                                                         },
@@ -1337,8 +1350,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 1,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -1885,8 +1898,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2186,8 +2199,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2414,7 +2427,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "front" ],
-                    "patching_rect": [ 285.55555555555554, 149.00000223517418, 39.0, 22.0 ],
+                    "patching_rect": [ 285.3333418369293, 118.3333368897438, 39.0, 22.0 ],
                     "text": "t front"
                 }
             },
@@ -2424,7 +2437,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 76.0000022649765, 149.00000223517418, 205.0, 22.0 ],
+                    "patching_rect": [ 76.0000022649765, 182.00000542402267, 205.0, 22.0 ],
                     "text": "print #1-to-process"
                 }
             },
@@ -2436,7 +2449,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 40.66666787862778, 150.00000447034836, 30.00000089406967, 19.999995529651642 ]
+                    "patching_rect": [ 40.66666787862778, 182.66667211055756, 30.00000089406967, 19.999995529651642 ]
                 }
             },
             {
@@ -2446,7 +2459,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 328.0, 97.1666699051857, 85.0, 47.0 ],
+                    "patching_rect": [ 355.0, 102.41935557126999, 85.0, 47.0 ],
                     "text": "else: messages to mubu.process"
                 }
             },
@@ -2468,7 +2481,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 10.0, 148.0, 24.0, 22.0 ],
+                    "patching_rect": [ 10.000000298023224, 180.6666720509529, 24.0, 22.0 ],
                     "text": "t l l"
                 }
             },
@@ -2483,8 +2496,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2665,7 +2678,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 92.80000138282776, 118.0, 116.0, 22.0 ],
+                    "patching_rect": [ 92.66666942834854, 150.66667115688324, 116.0, 22.0 ],
                     "text": "r #0-to-process"
                 }
             },
@@ -2735,7 +2748,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 182.6222223771943, 98.66666954755783, 92.5, 20.0 ],
+                    "patching_rect": [ 162.96296781963773, 119.3333368897438, 92.5, 20.0 ],
                     "text": "s #0-clearall"
                 }
             },
@@ -2986,7 +2999,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 32.0, 120.0, 53.0, 18.0 ],
+                    "patching_rect": [ 32.000000953674316, 152.66667121648788, 53.0, 18.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 347.00001034140587, 1.000000029802322, 53.0, 18.0 ],
                     "text": "reprocess"
@@ -3010,7 +3023,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-37",
-                    "items": [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
+                    "items": [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate", ",", "none-chop" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -3079,12 +3092,13 @@
                     "fontname": "Geneva",
                     "fontsize": 9.0,
                     "id": "obj-14",
+                    "linecount": 2,
                     "maxclass": "newobj",
-                    "numinlets": 11,
-                    "numoutlets": 11,
-                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "" ],
-                    "patching_rect": [ 10.0, 71.20000106096268, 394.0, 20.0 ],
-                    "text": "route bang read readappend readfolder readall clearall writeall dump open reportdone"
+                    "numinlets": 12,
+                    "numoutlets": 12,
+                    "outlettype": [ "", "", "", "", "", "", "", "", "", "", "", "" ],
+                    "patching_rect": [ 10.000000298023224, 71.20000106096268, 355.5185285475519, 31.0 ],
+                    "text": "route bang read readappend readfolder readall clearall writeall process dump open reportdone"
                 }
             },
             {
@@ -3106,7 +3120,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 10.0, 120.0, 20.0, 20.0 ],
+                    "patching_rect": [ 10.000000298023224, 152.66667121648788, 20.0, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 325.0000096857548, 1.000000029802322, 20.0, 20.0 ]
                 }
@@ -3163,12 +3177,12 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "camu.process.descr+mfcc-chop.maxpat",
+                    "name": "camu.process.off.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 10.0, 189.0, 391.0, 220.0 ],
+                    "patching_rect": [ 10.000000298023224, 212.5, 390.9999997019768, 196.16667884588242 ],
                     "presentation": 1,
                     "presentation_rect": [ 0.0, 23.666667371988297, 1127.0, 331.0 ],
                     "varname": "camu.process-bpatcher",
@@ -3197,7 +3211,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 337.0, 149.00000223517418, 67.0, 22.0 ],
+                    "patching_rect": [ 285.3333418369293, 182.00000542402267, 67.0, 22.0 ],
                     "save": [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
                     "text": "thispatcher"
                 }
@@ -3249,20 +3263,20 @@
             {
                 "patchline": {
                     "destination": [ "obj-19", 0 ],
-                    "midpoints": [ 394.5, 144.77657458344652, 19.5, 144.77657458344652 ],
-                    "source": [ "obj-14", 10 ]
+                    "midpoints": [ 356.01852884557513, 144.77657458344652, 19.500000298023224, 144.77657458344652 ],
+                    "source": [ "obj-14", 11 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-22", 0 ],
-                    "source": [ "obj-14", 9 ]
+                    "source": [ "obj-14", 10 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-35", 0 ],
-                    "source": [ "obj-14", 7 ]
+                    "source": [ "obj-14", 8 ]
                 }
             },
             {
@@ -3298,7 +3312,13 @@
             {
                 "patchline": {
                     "destination": [ "obj-79", 0 ],
-                    "source": [ "obj-14", 8 ]
+                    "source": [ "obj-14", 9 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-8", 0 ],
+                    "source": [ "obj-14", 7 ]
                 }
             },
             {
@@ -3592,6 +3612,12 @@
                 "patchline": {
                     "destination": [ "obj-4", 0 ],
                     "source": [ "obj-79", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-19", 0 ],
+                    "source": [ "obj-8", 0 ]
                 }
             },
             {

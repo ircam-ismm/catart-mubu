@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -458,7 +458,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 56.0, 108.64516007900238, 52.0, 22.0 ],
-                    "text": "dump, 4"
+                    "text": "dump, 2"
                 }
             },
             {
@@ -852,7 +852,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -1151,7 +1151,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -1515,6 +1515,7 @@
                                     "outlettype": [ "", "", "" ],
                                     "patching_rect": [ 534.0, 197.275269, 199.0, 22.0 ],
                                     "saved_object_attributes": {
+                                        "savegui": 0,
                                         "verbose": 1
                                     },
                                     "text": "mubu.track dist-corpus descr"
@@ -2275,7 +2276,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-86",
-                    "items": [ "analysis", "mode:", ",", "descr-none", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop" ],
+                    "items": [ "analysis", "mode:", ",", "descr-none", ",", "descr-chop", ",", "descr-onseg", ",", "descr-gate" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2816,9 +2817,9 @@
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 0,
                     "bufferchooser_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "bufferchooser_bgcolordefault": 1,
+                    "bufferchooser_bgcolordefault": 0,
                     "bufferchooser_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
-                    "bufferchooser_fgcolordefault": 1,
+                    "bufferchooser_fgcolordefault": 0,
                     "bufferchooser_position": 1,
                     "bufferchooser_shape": "buttons",
                     "bufferchooser_size": 12,
@@ -2844,10 +2845,10 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 697.3714209425993, 0.73676496738401 ],
+                    "cursor_position": [ 0.0, 0.73676496738401 ],
                     "cursor_shape": "cross",
-                    "cursor_size": 1,
-                    "cursor_sizeunit": 1,
+                    "cursor_size": 1.0,
+                    "cursor_sizeunit": 0,
                     "cursor_symbol": "circle",
                     "cursor_symboledgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
@@ -2871,15 +2872,18 @@
                     "domainscrollbar_size": 10,
                     "domainscrollbar_visible": 0,
                     "embed": 0,
+                    "enablemousewheel": 0,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 2,
+                    "foremost": 1,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
                     "maintrack": -1,
                     "maxclass": "imubu",
                     "mousewheelscroll": 0,
+                    "mousewheelshiftstep": 40,
+                    "mousewheelstep": 4,
                     "name": "dist-corpus",
                     "numinlets": 1,
                     "numoutlets": 1,
@@ -2889,6 +2893,7 @@
                     "outlettype": [ "" ],
                     "outputkeys": 1,
                     "outputmouse": 1,
+                    "outputrangeselection": 0,
                     "outputselection": 1,
                     "outputtimeselection": 1,
                     "outputvalues": 1,
@@ -2897,6 +2902,10 @@
                     "patching_rect": [ 576.5, 165.0, 627.5, 530.799988 ],
                     "presentation": 1,
                     "presentation_rect": [ 577.0, 142.0, 640.0, 563.0 ],
+                    "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "rangeruler_bgcolordefault": 1,
+                    "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 35,
                     "rangeruler_visible": 1,
@@ -2904,6 +2913,7 @@
                     "region_color": [ 0.8, 0.7, 0.7, 1.0 ],
                     "region_visible": 1,
                     "resamplefiles": 1,
+                    "ringmaster": -1,
                     "snaprate": 1000.0,
                     "splitbars_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "splitbars_size": 2,
@@ -2913,7 +2923,7 @@
                     "tabs_position": 0,
                     "tabs_size": 20,
                     "tabs_visible": 1,
-                    "tabsbgcolordefault": 1,
+                    "tabsbgcolordefault": 0,
                     "tabsfgcolordefault": 1,
                     "tool": "cursor",
                     "toolbar_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2925,6 +2935,7 @@
                     "useplaceholders": 1,
                     "varname": "editor",
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -3066,9 +3077,11 @@
                         "dirtypatcher": 1,
                         "embed": 0,
                         "externalfiles": 1,
+                        "maintrack": -1,
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "resamplefiles": 1,
+                        "ringmaster": -1,
                         "savegui": 0,
                         "snaprate": 1000.0,
                         "verbose": 1
@@ -3891,14 +3904,6 @@
             "obj-54::obj-113": [ "umenu[2]", "DescrName", 0 ],
             "obj-55::obj-113": [ "umenu[3]", "DescrName", 0 ],
             "obj-81": [ "live.gain~", "Volume", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-17::obj-113": {
                     "parameter_invisible": 0,
