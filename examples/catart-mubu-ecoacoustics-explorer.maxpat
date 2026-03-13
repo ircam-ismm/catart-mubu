@@ -337,8 +337,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 134.0, 159.0, 923.0, 802.0 ],
-                        "visible": 1,
+                        "rect": [ 203.0, 323.0, 923.0, 802.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -4146,7 +4145,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 385.0, 455.0, 720.0, 591.0 ],
+                                        "rect": [ 896.0, 710.0, 720.0, 591.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -4449,7 +4448,7 @@
                                                             "modernui": 1
                                                         },
                                                         "classnamespace": "box",
-                                                        "rect": [ 670.0, 136.0, 1152.0, 636.0 ],
+                                                        "rect": [ 1250.0, 190.0, 1152.0, 636.0 ],
                                                         "boxes": [
                                                             {
                                                                 "box": {
@@ -5532,8 +5531,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 1467.0, 160.0, 419.0, 426.0 ],
-                                        "visible": 1,
+                                        "rect": [ 2107.0, 210.0, 419.0, 426.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -17243,7 +17241,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "5337.00 MB / file",
+                    "text": "5135.00 MB / file",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
@@ -17345,7 +17343,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "5.21 GB",
+                    "text": "5.01 GB",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "textjustification": 2
                 }
@@ -18694,7 +18692,7 @@
                     "enablemousewheel": 0,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 1,
+                    "foremost": 4,
                     "freeze": 0,
                     "id": "obj-299",
                     "layout": 0,
@@ -18703,7 +18701,7 @@
                     "mousewheelscroll": 0,
                     "mousewheelshiftstep": 40,
                     "mousewheelstep": 4,
-                    "name": "off",
+                    "name": "ecocorpus",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "opacity": 0.0,
@@ -24222,7 +24220,7 @@
                 "box": {
                     "id": "obj-147",
                     "maxclass": "number",
-                    "maximum": 7,
+                    "maximum": 12,
                     "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -25828,7 +25826,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 0.0, 5.661192488479264 ],
+                    "cursor_position": [ 4.053507924398445, -0.08458597978735227 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
@@ -25840,7 +25838,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ -3.0290028442544017, 6.591487575119192 ],
+                    "domain_bounds": [ -2.590531120155797, 17.99663211649115 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -25858,7 +25856,7 @@
                     "enablemousewheel": 2,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 1,
+                    "foremost": 4,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -25867,7 +25865,7 @@
                     "mousewheelscroll": 2,
                     "mousewheelshiftstep": 40,
                     "mousewheelstep": 4,
-                    "name": "off",
+                    "name": "ecocorpus",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "opacity": 0.0,
