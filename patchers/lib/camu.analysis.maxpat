@@ -90,6 +90,7 @@
                     "saved_attribute_attributes": {
                         "valueof": {
                             "parameter_enum": [ "Read", "Write" ],
+                            "parameter_invisible": 2,
                             "parameter_longname": "live.tab",
                             "parameter_mmax": 1,
                             "parameter_modmode": 0,
@@ -2787,7 +2788,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1088.0000162124634, 97.66666954755783, 191.20000284910202, 22.0 ],
-                    "text": "ecocorpus audio descr0"
+                    "text": "hoa-corpus audio descr0"
                 }
             },
             {
@@ -3023,7 +3024,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-37",
-                    "items": [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate", ",", "none-chop" ],
+                    "items": [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -3083,7 +3084,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 432.5, 8.5, 25.0, 25.0 ]
                 }
             },
@@ -3134,7 +3135,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "bang" ],
                     "patching_rect": [ 10.0, 8.5, 25.0, 25.0 ]
                 }
             },
@@ -3177,7 +3178,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "camu.process.off.maxpat",
+                    "name": "camu.process.descr+mfcc-onseg.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
