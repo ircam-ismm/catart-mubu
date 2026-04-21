@@ -333,15 +333,27 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 592.0, 87.0, 1052.0, 710.0 ],
+                                        "rect": [ 592.0, 87.0, 1792.0, 1115.0 ],
                                         "boxes": [
+                                            {
+                                                "box": {
+                                                    "id": "obj-32",
+                                                    "linecount": 2,
+                                                    "maxclass": "comment",
+                                                    "numinlets": 1,
+                                                    "numoutlets": 0,
+                                                    "patching_rect": [ 609.800007879734, 357.0000054836273, 167.0, 33.0 ],
+                                                    "presentation_linecount": 2,
+                                                    "text": "don't bother when settings not there (use defaults)"
+                                                }
+                                            },
                                             {
                                                 "box": {
                                                     "id": "obj-30",
                                                     "maxclass": "comment",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 575.0, 656.0, 167.0, 20.0 ],
+                                                    "patching_rect": [ 579.1333422660828, 659.3333529829979, 167.0, 20.0 ],
                                                     "text": "switch to last chosen method"
                                                 }
                                             },
@@ -353,7 +365,7 @@
                                                     "maxclass": "outlet",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 539.300007879734, 651.0, 30.0, 30.0 ]
+                                                    "patching_rect": [ 543.800007879734, 654.6666861772537, 30.0, 30.0 ]
                                                 }
                                             },
                                             {
@@ -374,7 +386,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 2,
                                                     "outlettype": [ "", "" ],
-                                                    "patching_rect": [ 539.300007879734, 402.00000274181366, 127.0, 22.0 ],
+                                                    "patching_rect": [ 543.800007879734, 405.333345413208, 127.0, 22.0 ],
                                                     "text": "route analysis-method"
                                                 }
                                             },
@@ -772,7 +784,7 @@
                                                             }
                                                         ]
                                                     },
-                                                    "patching_rect": [ 647.300007879734, 432.0, 150.0, 22.0 ],
+                                                    "patching_rect": [ 651.8000110983849, 435.3333463072777, 150.0, 22.0 ],
                                                     "text": "p \"read values for patcher\""
                                                 }
                                             },
@@ -964,13 +976,13 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 5,
                                                     "outlettype": [ "dictionary", "", "", "", "" ],
-                                                    "patching_rect": [ 528.800007879734, 368.0000054836273, 61.0, 22.0 ],
+                                                    "patching_rect": [ 528.800007879734, 368.0000054836273, 79.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "legacy": 1,
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0
                                                     },
-                                                    "text": "dict"
+                                                    "text": "dict @quiet 1"
                                                 }
                                             },
                                             {
@@ -1263,7 +1275,7 @@
                                             {
                                                 "patchline": {
                                                     "destination": [ "obj-2", 0 ],
-                                                    "midpoints": [ 656.800007879734, 468.4835940380581, 339.46484375, 468.4835940380581, 339.46484375, 191.734375562286, 377.5000054836273, 191.734375562286 ],
+                                                    "midpoints": [ 661.3000110983849, 468.4835940380581, 339.46484375, 468.4835940380581, 339.46484375, 191.734375562286, 377.5000054836273, 191.734375562286 ],
                                                     "source": [ "obj-40", 0 ]
                                                 }
                                             },
@@ -1443,7 +1455,6 @@
                                             {
                                                 "box": {
                                                     "id": "obj-78",
-                                                    "linecount": 2,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 3,
@@ -2813,7 +2824,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 1088.0000162124634, 97.66666954755783, 191.20000284910202, 22.0 ],
-                    "text": "hoa-corpus audio descr0"
+                    "text": "corpus"
                 }
             },
             {
@@ -3049,7 +3060,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-37",
-                    "items": [ "analysis", ",", "descr+mfcc-none", ",", "descr+mfcc-chop", ",", "descr+mfcc-onseg", ",", "descr+mfcc-gate" ],
+                    "items": [ "analysis", "mode:", ",", "descr-none", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -3203,7 +3214,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "camu.process.descr+mfcc-onseg.maxpat",
+                    "name": "camu.process.descr-chop.maxpat",
                     "numinlets": 1,
                     "numoutlets": 2,
                     "offset": [ 0.0, 0.0 ],
