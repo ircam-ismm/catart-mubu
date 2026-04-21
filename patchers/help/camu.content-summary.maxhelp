@@ -21,7 +21,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 667.0, 298.5, 121.0, 33.0 ],
+                    "patching_rect": [ 667.0, 298.5, 125.0, 33.0 ],
                     "text": "choose output format [default: short]"
                 }
             },
@@ -56,7 +56,6 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 74.0, 95.0, 351.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "readfolder C74:/media @name audio @recursive 1 @type audio"
                 }
             },
@@ -115,9 +114,9 @@
                     "fontsize": 16.0,
                     "id": "obj-10",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
                     "patching_rect": [ 78.0, 389.0, 581.0, 26.0 ],
                     "text": "camu.content-summary content-summary-help-corpus audio descr @format long",
                     "varname": "camu.analysis[1]"
