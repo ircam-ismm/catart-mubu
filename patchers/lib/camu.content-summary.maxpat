@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 151.0, 87.0, 2375.0, 1319.0 ],
+        "rect": [ 763.0, 412.0, 1676.0, 935.0 ],
         "boxes": [
             {
                 "box": {
@@ -358,7 +358,8 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 59.0, 106.0, 1996.0, 1300.0 ],
+                        "rect": [ 1070.0, 322.0, 1626.0, 996.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -482,7 +483,7 @@
                                             {
                                                 "box": {
                                                     "id": "obj-8",
-                                                    "linecount": 2,
+                                                    "linecount": 3,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
@@ -572,7 +573,7 @@
                                             {
                                                 "box": {
                                                     "id": "obj-32",
-                                                    "linecount": 2,
+                                                    "linecount": 3,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 3,
@@ -872,7 +873,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 218.53333325187361, 336.0, 164.0, 22.0 ],
+                                    "patching_rect": [ 218.53333325187361, 336.0, 263.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "savegui": 0,
                                         "verbose": 1
@@ -945,7 +946,7 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 163.53333325187361, 155.0, 111.0, 22.0 ],
+                                    "patching_rect": [ 163.53333325187361, 155.0, 201.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "dirtypatcher": 1,
                                         "embed": 0,
@@ -1323,7 +1324,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
                     "patching_rect": [ 149.5, 51.0, 485.0, 22.0 ],
-                    "text": "patcherargs corpus audio descr @refer corpus @audio audio @trackid descr @format 1"
+                    "text": "patcherargs corpus audio descr @format 1"
                 }
             },
             {
