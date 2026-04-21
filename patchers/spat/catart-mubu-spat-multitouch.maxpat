@@ -249,7 +249,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 1018.0, 1537.0, 1000.0, 747.0 ],
+                        "rect": [ 134.0, 159.0, 1000.0, 747.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -1183,7 +1183,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 266.0, 287.0, 72.0, 22.0 ],
+                    "patching_rect": [ 266.0, 275.0, 72.0, 22.0 ],
                     "text": "prepend set"
                 }
             },
@@ -1692,7 +1692,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 92.0, 644.0, 195.0, 22.0 ],
+                    "patching_rect": [ 91.85520419478416, 644.0, 199.14479580521584, 22.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 114.0, 338.0, 195.0, 22.0 ],
                     "text_width": 138.0
@@ -3032,7 +3032,8 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 83.72092723846436, 332.55812764167786, 335.0, 22.0 ]
+                                    "patching_rect": [ 83.72092723846436, 332.55812764167786, 335.0, 22.0 ],
+                                    "text": "FullPacket 1196 5056946176"
                                 }
                             },
                             {
@@ -3654,8 +3655,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 266.0, 313.0, 348.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 338.0, 158.0, 39.46667182012936, 33.0 ],
+                    "presentation_rect": [ 338.0, 158.0, 114.25641238689423, 20.0 ],
                     "text": "empty"
                 }
             },
@@ -4585,7 +4585,6 @@
                     "presentation_rect": [ 336.0, 158.0, 126.0, 33.0 ],
                     "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
-                    "size": 12,
                     "slidercolor": [ 0.5490196078431373, 0.6588235294117647, 0.7764705882352941, 1.0 ],
                     "spacing": 1
                 }
@@ -5175,7 +5174,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 227.15637695173285, -0.003432245016248262 ],
+                    "cursor_position": [ 0.0, 0.12836458566558206 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 1,
@@ -5188,7 +5187,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 227.15637695173285, 7697.694166074944 ],
+                    "domain_bounds": [ 0.0, 0.0 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5606,7 +5605,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 476.66668087244034, 592.0000176429749, 52.000001549720764, 37.0 ],
-                                    "presentation_linecount": 3,
                                     "text": "pass on speaker config"
                                 }
                             },
@@ -5618,7 +5616,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 488.66667914390564, 62.0000022649765, 52.000001549720764, 47.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "else: name of speaker config"
                                 }
                             },
@@ -5650,7 +5647,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 312.66667598485947, 235.3333403468132, 80.0, 17.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "direct speaker out"
                                 }
                             },
@@ -5662,7 +5658,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 122.66667032241821, 472.00001406669617, 56.666668355464935, 27.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "convert hoa to binaural"
                                 }
                             },
@@ -6425,7 +6420,7 @@
                                                 "/window/moveable": 1,
                                                 "/window/resizable": 1,
                                                 "/window/enable": 1,
-                                                "/window/bounds": [ 1250, 432, 940, 600 ],
+                                                "/window/bounds": [ 810, 432, 940, 600 ],
                                                 "/window/background/color": [ 0.8274509906768799, 0.8274509906768799, 0.8274509906768799, 1.0 ],
                                                 "/window/opaque": 1,
                                                 "/window/titlebar": 1,
@@ -7445,7 +7440,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-139", 1 ],
+                    "destination": [ "obj-139", 0 ],
                     "hidden": 1,
                     "order": 2,
                     "source": [ "obj-112", 0 ]
@@ -7641,7 +7636,7 @@
                 "patchline": {
                     "destination": [ "obj-140", 0 ],
                     "hidden": 1,
-                    "source": [ "obj-139", 1 ]
+                    "source": [ "obj-139", 0 ]
                 }
             },
             {
@@ -8600,6 +8595,7 @@
             "obj-124::obj-58": [ "live.text[19]", "live.text", 0 ],
             "obj-124::obj-6": [ "live.toggle[14]", "live.toggle[2]", 0 ],
             "obj-124::obj-62::obj-56": [ "live.numbox", "live.numbox", 0 ],
+            "obj-139::obj-83": [ "live.tab[8]", "live.tab[8]", 0 ],
             "obj-141": [ "decoherence", "decoherence", 0 ],
             "obj-151": [ "live.tab[4]", "live.tab[4]", 0 ],
             "obj-172": [ "live.tab[5]", "live.tab[3]", 0 ],
@@ -8622,6 +8618,14 @@
             "obj-88::obj-41": [ "live.menu[4]", "live.menu", 0 ],
             "obj-88::obj-67": [ "live.dial[36]", "spread", 0 ],
             "obj-88::obj-68": [ "live.dial[2]", "spread", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-10::obj-178::obj-94": {
                     "parameter_invisible": 0,

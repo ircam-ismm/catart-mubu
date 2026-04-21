@@ -633,7 +633,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 669.0, 339.0, 139.20000207424164, 22.0 ],
-                                    "text": "region 18000 21000"
+                                    "text": "region 24000 26000"
                                 }
                             },
                             {
@@ -1261,6 +1261,7 @@
                     "toolbarbgcolordefault": 0,
                     "useplaceholders": 0,
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -1507,6 +1508,7 @@
                     "toolbarbgcolordefault": 1,
                     "useplaceholders": 0,
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -2524,12 +2526,13 @@
             {
                 "box": {
                     "id": "obj-210",
+                    "linecount": 2,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2344.0, 2135.0, 95.0, 22.0 ],
-                    "text": "0. 1025."
+                    "patching_rect": [ 2344.0, 2135.0, 95.0, 35.0 ],
+                    "text": "-12.748756 1012.251244"
                 }
             },
             {
@@ -2551,7 +2554,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2017.0, 2088.0, 165.0, 22.0 ],
-                    "text": "45359.009126 45359.009126"
+                    "text": "28457.307692 39990."
                 }
             },
             {
@@ -15975,7 +15978,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 2161.0, 1933.0, 229.0, 22.0 ],
-                    "text": "mouse wheel 0. 0."
+                    "text": "domain bounds 10. 64593.076923"
                 }
             },
             {
@@ -16033,7 +16036,7 @@
                     "outlettype": [ "list", "float", "float", "float", "float", "list", "int" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 29.0, 1447.0, 308.00000727176666, 111.0 ],
-                    "setfilter": [ 0, 2, 1, 0, 0, 2647.0107421875, 1.0, 0.7071067690849304, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+                    "setfilter": [ 0, 2, 1, 0, 0, 20.0, 1.0, 0.7071067690849304, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
                 }
             },
             {
@@ -16505,7 +16508,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 1,
-                    "cursor_position": [ 42076.246087826665, 1.0 ],
+                    "cursor_position": [ 36238.8974358975, 1.0 ],
                     "cursor_shape": "bar",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
@@ -16517,7 +16520,7 @@
                     "cursor_symbolwidth": 3.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 16032.860830234767, 23276.85832040626 ],
+                    "domain_bounds": [ 10.0, 59980.0 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -16585,7 +16588,7 @@
                     "tabs_visible": 1,
                     "tabsbgcolordefault": 0,
                     "tabsfgcolordefault": 1,
-                    "tool": "scrollzoom",
+                    "tool": "region",
                     "toolbar_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "toolbar_position": 1,
                     "toolbar_size": 29,
@@ -16594,6 +16597,7 @@
                     "toolbarbgcolordefault": 0,
                     "useplaceholders": 1,
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -17241,7 +17245,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "5135.00 MB / file",
+                    "text": "3277.00 MB / file",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
@@ -17343,7 +17347,7 @@
                             "expression": "themecolor.live_control_fg"
                         }
                     },
-                    "text": "5.01 GB",
+                    "text": "3.20 GB",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                     "textjustification": 2
                 }
@@ -18662,7 +18666,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 0.0, 0.07317073170731714 ],
+                    "cursor_position": [ -1.0, 0.0 ],
                     "cursor_shape": "bar",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 1,
@@ -18692,7 +18696,7 @@
                     "enablemousewheel": 0,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 4,
+                    "foremost": 3,
                     "freeze": 0,
                     "id": "obj-299",
                     "layout": 0,
@@ -18751,6 +18755,7 @@
                     "toolbarbgcolordefault": 0,
                     "useplaceholders": 1,
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -20432,7 +20437,6 @@
                             {
                                 "box": {
                                     "id": "obj-16",
-                                    "int": 1,
                                     "maxclass": "gswitch2",
                                     "numinlets": 2,
                                     "numoutlets": 2,
@@ -21234,7 +21238,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 626.0, 498.0, 67.0, 22.0 ],
-                                    "text": "voice 105"
+                                    "text": "voice 29"
                                 }
                             },
                             {
@@ -21322,7 +21326,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 537.0, 531.0, 329.0, 62.0 ],
-                                    "text": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+                                    "text": "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
                                 }
                             },
                             {
@@ -22102,7 +22106,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 820.0, 1042.0, 116.0, 22.0 ],
-                    "text": "36 37 18.250834"
+                    "text": "22 23 11.506667"
                 }
             },
             {
@@ -22385,7 +22389,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 700.0000104308128, 220.8000032901764, 86.19999128580093, 22.0 ],
-                                    "text": "18.250834"
+                                    "text": "11.506667"
                                 }
                             },
                             {
@@ -24220,7 +24224,7 @@
                 "box": {
                     "id": "obj-147",
                     "maxclass": "number",
-                    "maximum": 12,
+                    "maximum": 18,
                     "minimum": 0,
                     "numinlets": 1,
                     "numoutlets": 2,
@@ -24265,7 +24269,7 @@
                     "patching_rect": [ 133.0, 514.0, 262.5, 20.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 9.5, 206.0, 320.0, 20.0 ],
-                    "text": "180 files / 3420 segments / 162.00 min"
+                    "text": "605 files / 18150 segments / 584.83 min"
                 }
             },
             {
@@ -25826,7 +25830,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 4.053507924398445, -0.08458597978735227 ],
+                    "cursor_position": [ -1.0, 0.0 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
@@ -25838,7 +25842,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ -2.590531120155797, 17.99663211649115 ],
+                    "domain_bounds": [ 3810.4186845908207, 4421.7254136046695 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -25856,7 +25860,7 @@
                     "enablemousewheel": 2,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 4,
+                    "foremost": 3,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -25916,6 +25920,7 @@
                     "useplaceholders": 1,
                     "varname": "editor",
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -29616,6 +29621,14 @@
             "obj-66": [ "number[2]", "number[2]", 0 ],
             "obj-67": [ "live.gain~", "Volume", 0 ],
             "obj-69::obj-52": [ "live.slider[1]", " ", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-173::obj-52": {
                     "parameter_longname": "live.slider[2]"
