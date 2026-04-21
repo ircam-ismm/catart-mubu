@@ -4,13 +4,15 @@ ISMM team, STMS Lab IRCAM—CNRS—Sorbonne Université
 upcoming:
 - new tutorial 3b: select note range by MIDI
 - start new module camu.input.mpe
+- video control of spatialisation/distribute density
 
 ____________________________________________________
-CataRT-Mubu v1.8.0		17.03.2026
+CataRT-Mubu v1.8.0		22.04.2026
 
 - import external corpus files with segmentation and metadata, add internal descriptors
   - parse date/time from filename
 - finalise camu.analysis, add optional metadata and activation columns
+- finalise camu.content-summary with @format option
 
 new example patches:
 - complete distribute example

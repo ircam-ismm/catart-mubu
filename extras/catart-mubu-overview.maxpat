@@ -3,7 +3,7 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
@@ -26,7 +26,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -250,7 +250,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -621,7 +621,7 @@
                                     "bgcolordefault": 0,
                                     "bufferchooser_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "bufferchooser_bgcolordefault": 0,
-                                    "bufferchooser_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                                    "bufferchooser_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
                                     "bufferchooser_fgcolordefault": 0,
                                     "bufferchooser_position": 1,
                                     "bufferchooser_shape": "buttons",
@@ -648,9 +648,9 @@
                                     "cursor_noringoffset": 0,
                                     "cursor_numextracursors": 0,
                                     "cursor_outputdata": 0,
-                                    "cursor_position": [ 0.0, 0.4651512783887081 ],
+                                    "cursor_position": [ 1334.1333422283544, 0.7848837209302325 ],
                                     "cursor_shape": "cross",
-                                    "cursor_size": 1,
+                                    "cursor_size": 1.0,
                                     "cursor_sizeunit": 0,
                                     "cursor_symbol": "circle",
                                     "cursor_symboledgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
@@ -660,7 +660,7 @@
                                     "cursor_symbolwidth": 3.0,
                                     "cursor_visible": 1,
                                     "dirtypatcher": 1,
-                                    "domain_bounds": [ 1340.627890221568, 4646.22024766816 ],
+                                    "domain_bounds": [ 1334.1333422283544, 4569.774315973085 ],
                                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "domainruler_bgcolordefault": 0,
                                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -675,6 +675,7 @@
                                     "domainscrollbar_size": 10,
                                     "domainscrollbar_visible": 0,
                                     "embed": 0,
+                                    "enablemousewheel": 1,
                                     "externalfiles": 1,
                                     "filename": "",
                                     "foremost": 2,
@@ -683,7 +684,9 @@
                                     "layout": 0,
                                     "maintrack": -1,
                                     "maxclass": "imubu",
-                                    "mousewheelscroll": 0,
+                                    "mousewheelscroll": 1,
+                                    "mousewheelshiftstep": 40,
+                                    "mousewheelstep": 4,
                                     "name": "overview-corpus",
                                     "numinlets": 1,
                                     "numoutlets": 1,
@@ -693,12 +696,17 @@
                                     "outlettype": [ "" ],
                                     "outputkeys": 1,
                                     "outputmouse": 1,
+                                    "outputrangeselection": 0,
                                     "outputselection": 1,
                                     "outputtimeselection": 0,
                                     "outputvalues": 1,
                                     "outputviewname": 0,
                                     "parameter_enable": 0,
                                     "patching_rect": [ 711.0, 182.375, 632.5, 570.625 ],
+                                    "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                                    "rangeruler_bgcolordefault": 0,
+                                    "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                                    "rangeruler_fgcolordefault": 1,
                                     "rangeruler_grid": 0,
                                     "rangeruler_size": 35,
                                     "rangeruler_visible": 1,
@@ -706,6 +714,7 @@
                                     "region_color": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "region_visible": 1,
                                     "resamplefiles": 1,
+                                    "ringmaster": -1,
                                     "snaprate": 1000.0,
                                     "splitbars_color": [ 1.0, 1.0, 1.0, 1.0 ],
                                     "splitbars_size": 2,
@@ -727,6 +736,7 @@
                                     "useplaceholders": 1,
                                     "varname": "editor",
                                     "verbose": 1,
+                                    "vieworder": [ "default" ],
                                     "windresize": 0
                                 }
                             },
@@ -842,7 +852,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -1279,9 +1289,11 @@
                                         "dirtypatcher": 1,
                                         "embed": 0,
                                         "externalfiles": 1,
+                                        "maintrack": -1,
                                         "parameter_enable": 0,
                                         "parameter_mappable": 0,
                                         "resamplefiles": 1,
+                                        "ringmaster": -1,
                                         "savegui": 0,
                                         "snaprate": 1000.0,
                                         "verbose": 1
@@ -1474,7 +1486,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -2556,18 +2568,43 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 134.0, 185.0, 1372.0, 761.0 ],
+                        "rect": [ 34.0, 113.0, 1372.0, 761.0 ],
                         "bglocked": 1,
                         "default_fontface": 2,
                         "gridsize": [ 5.0, 5.0 ],
                         "showontab": 1,
                         "boxes": [
+                            {
+                                "box": {
+                                    "bubble": 1,
+                                    "fontface": 0,
+                                    "fontname": "Arial",
+                                    "id": "obj-28",
+                                    "maxclass": "comment",
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "patching_rect": [ 219.5, 371.5, 333.0, 24.0 ],
+                                    "text": "play direct-from disc, spectrogram, date range selection"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "fontface": 0,
+                                    "id": "obj-29",
+                                    "maxclass": "message",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 16.0, 372.5, 196.0, 22.0 ],
+                                    "text": "catart-mubu-ecoacoustics-explorer"
+                                }
+                            },
                             {
                                 "box": {
                                     "bubble": 1,
@@ -2603,7 +2640,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 222.0, 368.0, 330.0, 37.0 ],
+                                    "patching_rect": [ 222.0, 239.0, 330.0, 37.0 ],
                                     "text": "CataRT on descriptors and spectral shape timbre space with PCA or UMAP dimensionality reduction "
                                 }
                             },
@@ -2615,7 +2652,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 16.0, 376.0, 196.0, 22.0 ],
+                                    "patching_rect": [ 16.0, 247.0, 196.0, 22.0 ],
                                     "text": "catart-mubu-descr+mfcc-pca-umap"
                                 }
                             },
@@ -2644,7 +2681,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
@@ -2814,7 +2851,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 158.0, 273.0, 157.0, 22.0 ],
-                                                    "text": "1 10 17  03/10/2025 11017"
+                                                    "text": "1 10 18  13/03/2026 11018"
                                                 }
                                             },
                                             {
@@ -3122,7 +3159,7 @@
                                     "maxclass": "comment",
                                     "numinlets": 1,
                                     "numoutlets": 0,
-                                    "patching_rect": [ 184.0, 196.625, 366.0, 37.0 ],
+                                    "patching_rect": [ 184.0, 198.5, 366.0, 37.0 ],
                                     "text": "CataRT on a timbre space defined by principal components (PCA) of MFCC spectral shape"
                                 }
                             },
@@ -3134,7 +3171,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 16.0, 204.125, 129.0, 22.0 ],
+                                    "patching_rect": [ 16.0, 206.5, 129.0, 22.0 ],
                                     "text": "catart-mubu-mfcc"
                                 }
                             },
@@ -3516,7 +3553,7 @@
                                 "patchline": {
                                     "destination": [ "obj-2", 0 ],
                                     "hidden": 1,
-                                    "midpoints": [ 607.5, 384.2273442745209, 0.0, 384.2273442745209, 0.0, 606.0, 11.5, 606.0 ],
+                                    "midpoints": [ 607.5, 402.4929692745209, 0.0, 402.4929692745209, 0.0, 606.0, 11.5, 606.0 ],
                                     "source": [ "obj-14", 0 ]
                                 }
                             },
@@ -3548,6 +3585,14 @@
                                     "hidden": 1,
                                     "midpoints": [ 25.5, 360.0, 0.0, 360.0, 0.0, 630.0, 11.5, 630.0 ],
                                     "source": [ "obj-27", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-2", 0 ],
+                                    "hidden": 1,
+                                    "midpoints": [ 25.5, 401.828125, 11.5, 401.828125 ],
+                                    "source": [ "obj-29", 0 ]
                                 }
                             },
                             {
@@ -3645,7 +3690,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -4618,7 +4663,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -5706,7 +5751,7 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
+                                            "minor": 2,
                                             "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1

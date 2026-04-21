@@ -32,7 +32,7 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 78.0, 465.0, 574.0, 20.0 ],
-                    "text": "26 202 0.93"
+                    "text": "0.00 minutes of audio in 0 segments in 0 files."
                 }
             },
             {
