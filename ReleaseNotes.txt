@@ -6,6 +6,20 @@ upcoming:
 - start new module camu.input.mpe
 
 ____________________________________________________
+CataRT-Mubu v1.8.0		17.03.2026
+
+- import external corpus files with segmentation and metadata, add internal descriptors
+  - parse date/time from filename
+- finalise camu.analysis, add optional metadata and activation columns
+
+new example patches:
+- complete distribute example
+- multi-touch spatialisation example
+- ecoacoustics explorer with direct-from disc playing, fft, date range selection
+- MIRA multitouch example, using extracursors
+
+
+____________________________________________________
 CataRT-Mubu v1.7.0		22.07.2025
 
 - needs mubu v1.10.16
