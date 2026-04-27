@@ -9,8 +9,19 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 737.0, 87.0, 1392.0, 1319.0 ],
+        "rect": [ 963.0, 87.0, 1392.0, 1319.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-3",
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 323.4000039100647, 329.60000491142273, 35.0, 22.0 ],
+                    "text": "open"
+                }
+            },
             {
                 "box": {
                     "id": "obj-102",
@@ -136,7 +147,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 715.6000074744225, 406.4000060558319, 121.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "print <<<EXPECTED"
                 }
             },
@@ -321,9 +331,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 279.2000041604042, 776.800011575222, 362.4000054001808, 22.0 ],
-                    "presentation_linecount": 2,
-                    "text": "19000. 0 20 3 Duration umapX umapY 1 descr 1 audio 5"
+                    "patching_rect": [ 279.2000041604042, 776.800011575222, 362.4000054001808, 22.0 ]
                 }
             },
             {
@@ -479,8 +487,8 @@
                     "id": "obj-15",
                     "maxclass": "newobj",
                     "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "int" ],
                     "patching_rect": [ 262.2000021934509, 365.60000544786453, 211.0, 22.0 ],
                     "presentation": 1,
                     "presentation_linecount": 2,
@@ -784,6 +792,12 @@
                 "patchline": {
                     "destination": [ "obj-39", 0 ],
                     "source": [ "obj-20", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-15", 0 ],
+                    "source": [ "obj-3", 0 ]
                 }
             },
             {
