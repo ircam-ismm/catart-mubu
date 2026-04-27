@@ -946,6 +946,29 @@
                         "boxes": [
                             {
                                 "box": {
+                                    "id": "obj-8",
+                                    "maxclass": "newobj",
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 15.0, 602.0, 155.0, 22.0 ],
+                                    "text": "pack hastrack #2"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "color": [ 0.949352324008942, 0.410995155572891, 0.35991358757019, 1.0 ],
+                                    "id": "obj-14",
+                                    "maxclass": "newobj",
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "patching_rect": [ 184.0, 565.0, 98.0, 22.0 ],
+                                    "text": "r #0-trackid"
+                                }
+                            },
+                            {
+                                "box": {
                                     "id": "obj-25",
                                     "maxclass": "newobj",
                                     "numinlets": 1,
@@ -984,8 +1007,8 @@
                                     "numinlets": 1,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 15.0, 634.0, 205.0, 22.0 ],
-                                    "text": "mubu.get poly-corpus hastrack descr"
+                                    "patching_rect": [ 15.0, 634.0, 141.0, 22.0 ],
+                                    "text": "mubu.get #1"
                                 }
                             },
                             {
@@ -3121,6 +3144,12 @@
                             },
                             {
                                 "patchline": {
+                                    "destination": [ "obj-8", 1 ],
+                                    "source": [ "obj-14", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
                                     "destination": [ "obj-143", 0 ],
                                     "source": [ "obj-140", 0 ]
                                 }
@@ -3176,14 +3205,14 @@
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-22", 0 ],
-                                    "source": [ "obj-19", 1 ]
+                                    "destination": [ "obj-24", 0 ],
+                                    "source": [ "obj-19", 2 ]
                                 }
                             },
                             {
                                 "patchline": {
-                                    "destination": [ "obj-24", 0 ],
-                                    "source": [ "obj-19", 2 ]
+                                    "destination": [ "obj-8", 0 ],
+                                    "source": [ "obj-19", 1 ]
                                 }
                             },
                             {
@@ -3238,6 +3267,12 @@
                                 "patchline": {
                                     "destination": [ "obj-124", 0 ],
                                     "source": [ "obj-75", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "destination": [ "obj-22", 0 ],
+                                    "source": [ "obj-8", 0 ]
                                 }
                             },
                             {

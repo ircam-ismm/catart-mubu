@@ -46,7 +46,6 @@
                         },
                         "classnamespace": "box",
                         "rect": [ 773.0, 367.0, 1200.0, 943.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -743,7 +742,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 85.0, 636.0, 277.0, 22.0 ],
-                                                    "text": "extracursor 6 2005.818284 0.435991"
+                                                    "text": "extracursor 5 4193.866984 0.422105"
                                                 }
                                             },
                                             {
@@ -4013,7 +4012,7 @@
                     "presentation": 1,
                     "presentation_linecount": 2,
                     "presentation_rect": [ 449.0, 168.0, 119.0, 35.0 ],
-                    "text": "xcamu.control.blocks poly-corpus descr"
+                    "text": "camu.control.blocks poly-corpus descr"
                 }
             },
             {
@@ -5626,7 +5625,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 215.5, 612.8500057458878, 53.0, 22.0 ],
-                    "text": "voice 1"
+                    "text": "voice 5"
                 }
             },
             {
@@ -8919,7 +8918,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 6581.10059583862, 0.4605235838314628 ],
+                    "cursor_position": [ 4182.75048828125, 0.4175741672515869 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
@@ -9264,16 +9263,14 @@
             {
                 "box": {
                     "id": "obj-22",
-                    "linecount": 2,
                     "maxclass": "newobj",
                     "numinlets": 0,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 472.5, 247.999985, 115.0, 35.0 ],
+                    "numoutlets": 2,
+                    "outlettype": [ "", "bang" ],
+                    "patching_rect": [ 472.5, 247.999985, 115.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 449.0, 120.0, 119.0, 35.0 ],
-                    "text": "xcamu.control.sensel"
+                    "presentation_rect": [ 449.0, 120.0, 119.0, 22.0 ],
+                    "text": "camu.control.sensel"
                 }
             },
             {
