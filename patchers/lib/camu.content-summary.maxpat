@@ -358,7 +358,7 @@
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 889.0, 227.0, 1625.0, 1074.0 ],
+                        "rect": [ 2299.0, 87.0, 872.0, 836.0 ],
                         "boxes": [
                             {
                                 "box": {
@@ -379,7 +379,6 @@
                                     "numinlets": 1,
                                     "numoutlets": 0,
                                     "patching_rect": [ 328.7769901752472, 616.3381519317627, 294.0, 33.0 ],
-                                    "presentation_linecount": 7,
                                     "text": "special check for empty corpus (always has 1 buffer): \nif 1 buffer but no audio, report 0 files"
                                 }
                             },
@@ -467,7 +466,7 @@
                                             "modernui": 1
                                         },
                                         "classnamespace": "box",
-                                        "rect": [ 657.0, 140.0, 1780.0, 1266.0 ],
+                                        "rect": [ 1850.0, 763.0, 911.0, 622.0 ],
                                         "boxes": [
                                             {
                                                 "box": {
@@ -527,12 +526,11 @@
                                             {
                                                 "box": {
                                                     "id": "obj-8",
-                                                    "linecount": 3,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
-                                                    "patching_rect": [ 597.0, 246.0, 138.0, 35.0 ],
+                                                    "patching_rect": [ 597.0, 246.0, 190.0, 22.0 ],
                                                     "text": "sprintf set #1.%d"
                                                 }
                                             },
@@ -609,7 +607,7 @@
                                                     "numinlets": 2,
                                                     "numoutlets": 2,
                                                     "outlettype": [ "", "" ],
-                                                    "patching_rect": [ 330.0, 420.0, 83.0, 22.0 ],
+                                                    "patching_rect": [ 492.0, 410.0, 83.0, 22.0 ],
                                                     "text": "route duration",
                                                     "varname": "tt[2]"
                                                 }
@@ -617,17 +615,16 @@
                                             {
                                                 "box": {
                                                     "id": "obj-32",
-                                                    "linecount": 3,
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
                                                     "numoutlets": 3,
                                                     "outlettype": [ "", "", "" ],
-                                                    "patching_rect": [ 184.0, 373.0, 157.0, 35.0 ],
+                                                    "patching_rect": [ 184.0, 373.0, 327.0, 22.0 ],
                                                     "saved_object_attributes": {
                                                         "savegui": 0,
-                                                        "verbose": 1
+                                                        "verbose": 0
                                                     },
-                                                    "text": "mubu.track #1 audio",
+                                                    "text": "mubu.track #1 audio @verbose 0",
                                                     "varname": "tt[1]"
                                                 }
                                             },
@@ -674,7 +671,7 @@
                                                     "maxclass": "outlet",
                                                     "numinlets": 1,
                                                     "numoutlets": 0,
-                                                    "patching_rect": [ 330.0, 517.0, 30.0, 30.0 ]
+                                                    "patching_rect": [ 492.0, 507.0, 30.0, 30.0 ]
                                                 }
                                             }
                                         ],
@@ -905,7 +902,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 2,
                                     "outlettype": [ "", "" ],
-                                    "patching_rect": [ 363.30936551094055, 435.2518141269684, 61.0, 22.0 ],
+                                    "patching_rect": [ 490.0, 435.2518141269684, 61.0, 22.0 ],
                                     "text": "route size",
                                     "varname": "tt[7]"
                                 }
@@ -917,12 +914,12 @@
                                     "numinlets": 1,
                                     "numoutlets": 3,
                                     "outlettype": [ "", "", "" ],
-                                    "patching_rect": [ 218.7050437927246, 396.40289187431335, 263.0, 22.0 ],
+                                    "patching_rect": [ 219.0, 396.40289187431335, 290.0, 22.0 ],
                                     "saved_object_attributes": {
                                         "savegui": 0,
-                                        "verbose": 1
+                                        "verbose": 0
                                     },
-                                    "text": "mubu.track #1 descr",
+                                    "text": "mubu.track #1 descr @verbose 0",
                                     "varname": "tt[8]"
                                 }
                             },
