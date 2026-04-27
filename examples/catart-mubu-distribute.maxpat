@@ -418,9 +418,9 @@
                 "box": {
                     "id": "obj-7",
                     "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
                     "patching_rect": [ 145.0, 197.0, 211.0, 22.0 ],
                     "text": "camu.content-summary dist-corpus"
                 }
@@ -2237,7 +2237,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 338.5, 165.0, 219.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 334.0, 165.0, 122.0, 22.0 ],
+                    "presentation_rect": [ 334.2857292294502, 161.71429294347763, 122.0, 30.0 ],
                     "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
                     "size": 28,
@@ -2832,6 +2832,7 @@
                     "cursor_circlewidth": 0.0,
                     "cursor_color": [ 0.776471, 0.066667, 0.066667, 0.286275 ],
                     "cursor_crossheight": -1.0,
+                    "cursor_crosssizeunit": 0,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -2845,7 +2846,7 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 0.0, 0.73676496738401 ],
+                    "cursor_position": [ -1.0, 0.0 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
@@ -2854,10 +2855,11 @@
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfilled": 1,
                     "cursor_symbolheight": 0.0,
+                    "cursor_symbolsizeunit": 0,
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 557.9259680877537, 4700.329936324103 ],
+                    "domain_bounds": [ -26.899387100590708, 7846.22494801682 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2875,7 +2877,7 @@
                     "enablemousewheel": 0,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 1,
+                    "foremost": 3,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -2903,7 +2905,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 577.0, 142.0, 640.0, 563.0 ],
                     "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "rangeruler_bgcolordefault": 1,
+                    "rangeruler_bgcolordefault": 0,
                     "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
                     "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
@@ -3303,7 +3305,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 1 ],
+                    "destination": [ "obj-7", 0 ],
                     "order": 0,
                     "source": [ "obj-112", 0 ]
                 }
@@ -3772,7 +3774,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-21", 0 ],
-                    "source": [ "obj-7", 1 ]
+                    "source": [ "obj-7", 0 ]
                 }
             },
             {
@@ -3903,7 +3905,16 @@
             "obj-49::obj-113": [ "umenu[5]", "DescrName", 0 ],
             "obj-54::obj-113": [ "umenu[2]", "DescrName", 0 ],
             "obj-55::obj-113": [ "umenu[3]", "DescrName", 0 ],
+            "obj-7::obj-83": [ "live.tab[8]", "live.tab[8]", 0 ],
             "obj-81": [ "live.gain~", "Volume", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-17::obj-113": {
                     "parameter_invisible": 0,

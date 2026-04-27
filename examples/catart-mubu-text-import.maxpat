@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 2,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -58,8 +58,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -283,13 +283,13 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 779.0, 532.0, 1000.0, 780.0 ],
+                        "rect": [ 478.0, 168.0, 1000.0, 780.0 ],
                         "visible": 1,
                         "boxes": [
                             {
@@ -311,8 +311,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 273.0, 690.0, 576.0, 35.0 ],
-                                    "presentation_linecount": 2,
+                                    "patching_rect": [ 354.0, 688.0, 576.0, 35.0 ],
                                     "text": "./Analyses_AK_LOU_2025/AK_08W_20120114_13H33_D_PK/AK_08W_20120114_13H33_D_PK.norm.txt ./Analyses_AK_LOU_2025/AK_08W_20120114_13H33_D_PK/AK_08W_20120114_13H33_D_PK.WAV"
                                 }
                             },
@@ -369,7 +368,7 @@
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
-                                    "patching_rect": [ 33.0, 74.0, 573.0, 518.0 ],
+                                    "patching_rect": [ 33.0, 74.0, 576.0, 518.0 ],
                                     "text": "Analyses_AK_LOU_2025/AK_08W_20120114_13H33_D_PK/AK_08W_20120114_13H33_D_PK.norm.txt Analyses_AK_LOU_2025/AK_08W_20120114_13H33_D_PK/AK_08W_20120114_13H33_D_PK.WAV Analyses_AK_LOU_2025/AK_08W_20120114_13H41_D_PK/AK_08W_20120114_13H41_D_PK.norm.txt Analyses_AK_LOU_2025/AK_08W_20120114_13H41_D_PK/AK_08W_20120114_13H41_D_PK.WAV Analyses_AK_LOU_2025/AK_08W_20120115_14H58_D_PK/AK_08W_20120115_14H58_D_PK.norm.txt Analyses_AK_LOU_2025/AK_08W_20120115_14H58_D_PK/AK_08W_20120115_14H58_D_PK.WAV Analyses_AK_LOU_2025/AK_09W_20120121_14H02_D_PK/AK_09W_20120121_14H02_D_PK.norm.txt Analyses_AK_LOU_2025/AK_09W_20120121_14H02_D_PK/AK_09W_20120121_14H02_D_PK.WAV Analyses_AK_LOU_2025/AK_10W_20120125_13H50_D_PK/AK_10W_20120125_13H50_D_PK.norm.txt Analyses_AK_LOU_2025/AK_10W_20120125_13H50_D_PK/AK_10W_20120125_13H50_D_PK.WAV Analyses_AK_LOU_2025/AK_11W_20120202_14H56_D_PK/AK_11W_20120202_14H56_D_PK.norm.txt Analyses_AK_LOU_2025/AK_11W_20120202_14H56_D_PK/AK_11W_20120202_14H56_D_PK.WAV Analyses_AK_LOU_2025/AK_12W_20120208_20H16_D_PK/AK_12W_20120208_20H16_D_PK.norm.txt Analyses_AK_LOU_2025/AK_12W_20120208_20H16_D_PK/AK_12W_20120208_20H16_D_PK.WAV Analyses_AK_LOU_2025/AK_12W_20120212_13H38_D_PK/AK_12W_20120212_13H38_D_PK.norm.txt Analyses_AK_LOU_2025/AK_12W_20120212_13H38_D_PK/AK_12W_20120212_13H38_D_PK.WAV Analyses_AK_LOU_2025/AK_13W_20120218_13H32_D_PK/AK_13W_20120218_13H32_D_PK.norm.txt Analyses_AK_LOU_2025/AK_13W_20120218_13H32_D_PK/AK_13W_20120218_13H32_D_PK.WAV Analyses_AK_LOU_2025/AK_13W_20120219_21H27_D_PK/AK_13W_20120219_21H27_D_PK.norm.txt Analyses_AK_LOU_2025/AK_13W_20120219_21H27_D_PK/AK_13W_20120219_21H27_D_PK.WAV Analyses_AK_LOU_2025/AK_14W_20120222_20H43_D_PK/AK_14W_20120222_20H43_D_PK.norm.txt Analyses_AK_LOU_2025/AK_14W_20120222_20H43_D_PK/AK_14W_20120222_20H43_D_PK.WAV Analyses_AK_LOU_2025/AK_14W_20120227_18H46_D_PK/AK_14W_20120227_18H46_D_PK.norm.txt Analyses_AK_LOU_2025/AK_14W_20120227_18H46_D_PK/AK_14W_20120227_18H46_D_PK.WAV Analyses_AK_LOU_2025/AK_16W_20120308_10H23_D_PK/AK_16W_20120308_10H23_D_PK.norm.txt Analyses_AK_LOU_2025/AK_16W_20120308_10H23_D_PK/AK_16W_20120308_10H23_D_PK.WAV Analyses_AK_LOU_2025/AK_17W_20120317_11H53_D_PK/AK_17W_20120317_11H53_D_PK.norm.txt Analyses_AK_LOU_2025/AK_17W_20120317_11H53_D_PK/AK_17W_20120317_11H53_D_PK.WAV Analyses_AK_LOU_2025/AK_17W_20120317_17H27_D_PK/AK_17W_20120317_17H27_D_PK.norm.txt Analyses_AK_LOU_2025/AK_17W_20120317_17H27_D_PK/AK_17W_20120317_17H27_D_PK.WAV Analyses_AK_LOU_2025/AK_18W_20120327_11H19_D_PK/AK_18W_20120327_11H19_D_PK.norm.txt Analyses_AK_LOU_2025/AK_18W_20120327_11H19_D_PK/AK_18W_20120327_11H19_D_PK.WAV Analyses_AK_LOU_2025/AK_19W_20120328_08H18_D_PK/AK_19W_20120328_08H18_D_PK.norm.txt Analyses_AK_LOU_2025/AK_19W_20120328_08H18_D_PK/AK_19W_20120328_08H18_D_PK.WAV Analyses_AK_LOU_2025/AK_19W_20120403_13H11_D_PK/AK_19W_20120403_13H11_D_PK.norm.txt Analyses_AK_LOU_2025/AK_19W_20120403_13H11_D_PK/AK_19W_20120403_13H11_D_PK.WAV Analyses_AK_LOU_2025/AK_20W_20120407_12H05_D_PK/AK_20W_20120407_12H05_D_PK.norm.txt Analyses_AK_LOU_2025/AK_20W_20120407_12H05_D_PK/AK_20W_20120407_12H05_D_PK.WAV"
                                 }
                             }
@@ -758,8 +757,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1081,8 +1080,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2260,13 +2259,14 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
                         "rect": [ 788.0, 187.0, 595.0, 441.0 ],
+                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -2302,8 +2302,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 2,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2469,8 +2469,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 2,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -2578,9 +2578,11 @@
                                                         "dirtypatcher": 1,
                                                         "embed": 0,
                                                         "externalfiles": 1,
+                                                        "maintrack": -1,
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0,
                                                         "resamplefiles": 0,
+                                                        "ringmaster": -1,
                                                         "savegui": 0,
                                                         "snaprate": 1000.0,
                                                         "verbose": 1
@@ -2600,9 +2602,11 @@
                                                         "dirtypatcher": 1,
                                                         "embed": 0,
                                                         "externalfiles": 1,
+                                                        "maintrack": -1,
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0,
                                                         "resamplefiles": 0,
+                                                        "ringmaster": -1,
                                                         "savegui": 0,
                                                         "snaprate": 1000.0,
                                                         "verbose": 1
@@ -2664,9 +2668,11 @@
                                                         "dirtypatcher": 1,
                                                         "embed": 0,
                                                         "externalfiles": 1,
+                                                        "maintrack": -1,
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0,
                                                         "resamplefiles": 0,
+                                                        "ringmaster": -1,
                                                         "savegui": 0,
                                                         "snaprate": 1000.0,
                                                         "verbose": 1
@@ -2896,8 +2902,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 2,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3065,8 +3071,8 @@
                                         "fileversion": 1,
                                         "appversion": {
                                             "major": 9,
-                                            "minor": 1,
-                                            "revision": 2,
+                                            "minor": 2,
+                                            "revision": 0,
                                             "architecture": "x64",
                                             "modernui": 1
                                         },
@@ -3119,9 +3125,11 @@
                                                         "dirtypatcher": 1,
                                                         "embed": 0,
                                                         "externalfiles": 1,
+                                                        "maintrack": -1,
                                                         "parameter_enable": 0,
                                                         "parameter_mappable": 0,
                                                         "resamplefiles": 0,
+                                                        "ringmaster": -1,
                                                         "savegui": 0,
                                                         "snaprate": 1000.0,
                                                         "verbose": 1
@@ -3518,7 +3526,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-86",
-                    "items": [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop" ],
+                    "items": [ "analysis", "mode:", ",", "descr-onseg", ",", "descr-gate", ",", "descr-chop", ",", "descr-none" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -3545,17 +3553,16 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 2,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
                         "classnamespace": "box",
-                        "rect": [ 828.0, 87.0, 1716.0, 1110.0 ],
+                        "rect": [ 34.0, 100.0, 1444.0, 848.0 ],
                         "openinpresentation": 1,
                         "default_fontsize": 9.0,
                         "gridsize": [ 10.0, 10.0 ],
-                        "visible": 1,
                         "boxes": [
                             {
                                 "box": {
@@ -3565,7 +3572,6 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 1041.333364367485, 78.0, 65.0, 19.0 ],
-                                    "presentation_linecount": 2,
                                     "text": "bufferindex $1"
                                 }
                             },
@@ -4798,9 +4804,9 @@
                     "bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "bgcolordefault": 0,
                     "bufferchooser_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
-                    "bufferchooser_bgcolordefault": 1,
+                    "bufferchooser_bgcolordefault": 0,
                     "bufferchooser_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
-                    "bufferchooser_fgcolordefault": 1,
+                    "bufferchooser_fgcolordefault": 0,
                     "bufferchooser_position": 1,
                     "bufferchooser_shape": "buttons",
                     "bufferchooser_size": 12,
@@ -4826,10 +4832,10 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 10,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 0.15751691655901837, 913.3223972720164 ],
+                    "cursor_position": [ 0.1252821670428894, 0.42361111111111116 ],
                     "cursor_shape": "cross",
-                    "cursor_size": 1,
-                    "cursor_sizeunit": 1,
+                    "cursor_size": 1.0,
+                    "cursor_sizeunit": 0,
                     "cursor_symbol": "circle",
                     "cursor_symboledgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
@@ -4838,7 +4844,7 @@
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 0.15751691655901837, 0.8892863853389508 ],
+                    "domain_bounds": [ 0.0, 1.0 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4856,7 +4862,7 @@
                     "enablemousewheel": 1,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 4,
+                    "foremost": 1,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -4874,12 +4880,17 @@
                     "outlettype": [ "" ],
                     "outputkeys": 1,
                     "outputmouse": 1,
+                    "outputrangeselection": 0,
                     "outputselection": 1,
                     "outputtimeselection": 0,
                     "outputvalues": 1,
                     "outputviewname": 1,
                     "parameter_enable": 0,
                     "patching_rect": [ 565.0, 161.0, 923.0, 952.0 ],
+                    "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "rangeruler_bgcolordefault": 0,
+                    "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 35,
                     "rangeruler_visible": 1,
@@ -4887,6 +4898,7 @@
                     "region_color": [ 0.8, 0.7, 0.7, 1.0 ],
                     "region_visible": 1,
                     "resamplefiles": 1,
+                    "ringmaster": -1,
                     "snaprate": 1000.0,
                     "splitbars_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "splitbars_size": 2,
@@ -4896,7 +4908,7 @@
                     "tabs_position": 0,
                     "tabs_size": 23,
                     "tabs_visible": 1,
-                    "tabsbgcolordefault": 1,
+                    "tabsbgcolordefault": 0,
                     "tabsfgcolordefault": 1,
                     "tool": "edit",
                     "toolbar_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -5040,9 +5052,11 @@
                         "dirtypatcher": 1,
                         "embed": 0,
                         "externalfiles": 1,
+                        "maintrack": -1,
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "resamplefiles": 1,
+                        "ringmaster": -1,
                         "savegui": 0,
                         "snaprate": 1000.0,
                         "verbose": 1

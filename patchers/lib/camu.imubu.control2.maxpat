@@ -609,11 +609,11 @@
                                 "box": {
                                     "id": "obj-17",
                                     "maxclass": "newobj",
-                                    "numinlets": 8,
-                                    "numoutlets": 8,
-                                    "outlettype": [ "", "", "", "", "", "", "", "" ],
+                                    "numinlets": 9,
+                                    "numoutlets": 9,
+                                    "outlettype": [ "", "", "", "", "", "", "", "", "" ],
                                     "patching_rect": [ 50.5, 131.5, 369.0, 22.0 ],
-                                    "text": "route voice play trigger triggerchance max min range"
+                                    "text": "route voice play trigger triggerchance max min range reverseprob"
                                 }
                             },
                             {
@@ -644,7 +644,7 @@
                                 "patchline": {
                                     "destination": [ "obj-72", 0 ],
                                     "midpoints": [ 410.0, 174.609375, 59.5, 174.609375 ],
-                                    "source": [ "obj-17", 7 ]
+                                    "source": [ "obj-17", 8 ]
                                 }
                             },
                             {
@@ -2461,7 +2461,7 @@
                                                     "numoutlets": 1,
                                                     "outlettype": [ "" ],
                                                     "patching_rect": [ 85.0, 636.0, 277.0, 22.0 ],
-                                                    "text": "extracursor 1 13.021658 2.295195"
+                                                    "text": "extracursor 0 label \" \""
                                                 }
                                             },
                                             {
@@ -7052,7 +7052,7 @@
                 "box": {
                     "comment": "to xy controller in 0..1 feedback",
                     "id": "obj-78",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -7341,11 +7341,11 @@
                 "box": {
                     "comment": "click mode flag and other messages",
                     "id": "obj-168",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 9.0, 1.0, 30.0, 30.0 ]
                 }
             },
@@ -7353,7 +7353,7 @@
                 "box": {
                     "comment": "from imubu",
                     "id": "obj-170",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -7366,7 +7366,7 @@
                 "box": {
                     "comment": "list of x/y descr. indices",
                     "id": "obj-171",
-                    "index": 0,
+                    "index": 2,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -7378,7 +7378,7 @@
                 "box": {
                     "comment": "to knn, marker/buffer must be routed to mubu.concat",
                     "id": "obj-173",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -7389,7 +7389,7 @@
                 "box": {
                     "comment": "to imubu editor",
                     "id": "obj-174",
-                    "index": 0,
+                    "index": 3,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -8778,21 +8778,6 @@
                     "source": [ "obj-87", 0 ]
                 }
             }
-        ],
-        "parameters": {
-            "obj-178::obj-140": [ "number[1]", "number", 0 ],
-            "obj-178::obj-150": [ "button[4]", "button[3]", 0 ],
-            "obj-178::obj-94": [ "live.tab[2]", "live.tab", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
-            "inherited_shortname": 1
-        },
-        "autosave": 0
+        ]
     }
 }

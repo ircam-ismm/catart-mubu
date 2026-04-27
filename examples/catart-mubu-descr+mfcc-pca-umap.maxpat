@@ -3,8 +3,8 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
-            "revision": 1,
+            "minor": 2,
+            "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
@@ -16,6 +16,18 @@
         "gridsize": [ 5.0, 5.0 ],
         "devicewidth": 1370.0,
         "boxes": [
+            {
+                "box": {
+                    "hidden": 1,
+                    "id": "obj-8",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 452.0, 71.56863188743591, 72.0, 22.0 ],
+                    "text": "prepend set"
+                }
+            },
             {
                 "box": {
                     "id": "obj-15",
@@ -451,22 +463,11 @@
             },
             {
                 "box": {
-                    "id": "obj-21",
+                    "id": "obj-7",
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 499.0, 226.0, 72.0, 22.0 ],
-                    "text": "prepend set"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-7",
-                    "maxclass": "newobj",
-                    "numinlets": 4,
-                    "numoutlets": 2,
-                    "outlettype": [ "", "" ],
                     "patching_rect": [ 145.0, 197.0, 211.0, 22.0 ],
                     "text": "camu.content-summary timbre-corpus"
                 }
@@ -596,7 +597,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 351.66666358709335, 198.0, 206.6666728258133, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 334.0, 160.0, 122.0, 20.0 ]
+                    "presentation_rect": [ 333.8235501050949, 158.82353925704956, 122.0588310956955, 20.0 ]
                 }
             },
             {
@@ -923,8 +924,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -1222,8 +1223,8 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
-                            "revision": 1,
+                            "minor": 2,
+                            "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
                         },
@@ -2309,7 +2310,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 338.5, 165.0, 219.0, 22.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 334.0, 165.0, 122.0, 22.0 ],
+                    "presentation_rect": [ 333.8235501050949, 160.29412758350372, 122.0, 30.0 ],
                     "setminmax": [ 0.0, 1.0 ],
                     "setstyle": 1,
                     "size": 28,
@@ -2904,6 +2905,7 @@
                     "cursor_circlewidth": 0.0,
                     "cursor_color": [ 0.776471, 0.066667, 0.066667, 0.286275 ],
                     "cursor_crossheight": -1.0,
+                    "cursor_crosssizeunit": 0,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -2917,19 +2919,20 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 5.049871042226939, 7.306800507915066 ],
+                    "cursor_position": [ -1.0, 0.0 ],
                     "cursor_shape": "cross",
-                    "cursor_size": 1,
-                    "cursor_sizeunit": 1,
+                    "cursor_size": 1.0,
+                    "cursor_sizeunit": 0,
                     "cursor_symbol": "circle",
                     "cursor_symboledgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
                     "cursor_symbolfilled": 1,
                     "cursor_symbolheight": 0.0,
+                    "cursor_symbolsizeunit": 0,
                     "cursor_symbolwidth": 0.0,
                     "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ 1.5567367499730664, 7.391528933433135 ],
+                    "domain_bounds": [ 19.36499566933482, 7771.533592423843 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2954,6 +2957,8 @@
                     "maintrack": -1,
                     "maxclass": "imubu",
                     "mousewheelscroll": 1,
+                    "mousewheelshiftstep": 40,
+                    "mousewheelstep": 4,
                     "name": "timbre-corpus",
                     "numinlets": 1,
                     "numoutlets": 1,
@@ -2963,6 +2968,7 @@
                     "outlettype": [ "" ],
                     "outputkeys": 1,
                     "outputmouse": 1,
+                    "outputrangeselection": 0,
                     "outputselection": 1,
                     "outputtimeselection": 1,
                     "outputvalues": 1,
@@ -2971,6 +2977,10 @@
                     "patching_rect": [ 576.5, 165.0, 627.5, 530.799988 ],
                     "presentation": 1,
                     "presentation_rect": [ 577.0, 142.0, 640.0, 563.0 ],
+                    "rangeruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
+                    "rangeruler_bgcolordefault": 1,
+                    "rangeruler_fgcolor": [ 0.129412, 0.129412, 0.129412, 1.0 ],
+                    "rangeruler_fgcolordefault": 1,
                     "rangeruler_grid": 0,
                     "rangeruler_size": 35,
                     "rangeruler_visible": 1,
@@ -2978,6 +2988,7 @@
                     "region_color": [ 0.8, 0.7, 0.7, 1.0 ],
                     "region_visible": 1,
                     "resamplefiles": 1,
+                    "ringmaster": -1,
                     "snaprate": 1000.0,
                     "splitbars_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "splitbars_size": 2,
@@ -2987,7 +2998,7 @@
                     "tabs_position": 0,
                     "tabs_size": 20,
                     "tabs_visible": 1,
-                    "tabsbgcolordefault": 1,
+                    "tabsbgcolordefault": 0,
                     "tabsfgcolordefault": 1,
                     "tool": "edit",
                     "toolbar_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
@@ -2999,6 +3010,7 @@
                     "useplaceholders": 1,
                     "varname": "editor",
                     "verbose": 1,
+                    "vieworder": [ "default" ],
                     "windresize": 0
                 }
             },
@@ -3140,9 +3152,11 @@
                         "dirtypatcher": 1,
                         "embed": 0,
                         "externalfiles": 1,
+                        "maintrack": -1,
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "resamplefiles": 1,
+                        "ringmaster": -1,
                         "savegui": 0,
                         "snaprate": 1000.0,
                         "verbose": 1
@@ -3333,7 +3347,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-7", 1 ],
+                    "destination": [ "obj-7", 0 ],
                     "order": 0,
                     "source": [ "obj-112", 0 ]
                 }
@@ -3463,12 +3477,6 @@
                     "hidden": 1,
                     "order": 1,
                     "source": [ "obj-20", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-68", 0 ],
-                    "source": [ "obj-21", 0 ]
                 }
             },
             {
@@ -3803,8 +3811,9 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-21", 0 ],
-                    "source": [ "obj-7", 1 ]
+                    "destination": [ "obj-8", 0 ],
+                    "hidden": 1,
+                    "source": [ "obj-7", 0 ]
                 }
             },
             {
@@ -3851,6 +3860,13 @@
                 "patchline": {
                     "destination": [ "obj-68", 0 ],
                     "hidden": 1,
+                    "source": [ "obj-8", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-68", 0 ],
+                    "hidden": 1,
                     "source": [ "obj-80", 0 ]
                 }
             },
@@ -3870,6 +3886,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-112", 1 ],
+                    "hidden": 1,
                     "source": [ "obj-86", 2 ]
                 }
             },
@@ -3959,7 +3976,16 @@
             "obj-49::obj-113": [ "umenu[5]", "DescrName", 0 ],
             "obj-54::obj-113": [ "umenu[2]", "DescrName", 0 ],
             "obj-55::obj-113": [ "umenu[3]", "DescrName", 0 ],
+            "obj-7::obj-83": [ "live.tab[8]", "live.tab[8]", 0 ],
             "obj-81": [ "live.gain~", "Volume", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-17::obj-113": {
                     "parameter_invisible": 0,

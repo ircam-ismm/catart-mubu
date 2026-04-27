@@ -1664,7 +1664,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 546.5, 323.252674992527, 368.0, 35.0 ],
-                                    "text": "foremost audio, view audio interface multiwave, view audio autobounds 0, view audio bounds 1. -1., domain reset"
+                                    "text": "view audio interface multiwave, view audio autobounds 0, view audio bounds 1. -1., domain reset, foremost descr"
                                 }
                             },
                             {
@@ -3899,7 +3899,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
+                    "outlettype": [ "int" ],
                     "patching_rect": [ 9.0, 1.0, 30.0, 30.0 ]
                 }
             },

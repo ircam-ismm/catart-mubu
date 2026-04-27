@@ -53,6 +53,14 @@ function updatecols ()
     if (!mubu  &&  !refer(mubuname))  return;
 
     var track = mubu.gettrack(1, trname); // assuming same column names over all buffers
+    if (track === undefined)
+      return;
+    else 
+    {
+      post('updatecols tr', track, '\n');
+      post('mxcols', track.matrixcolnames, '\n');
+      }
+    
     newcolindex = track.mxcols;
         
     activecol = getcolindex(track, activecolname);
@@ -271,11 +279,11 @@ function getactive (mx)
 getcolindex.local = 1;
 function getcolindex (track, name)
 {
-    if (track == null)
-	return -1;
+    if (track == null  ||  track.matrixcolnames === undefined)
+	  return -1;
     
     if (typeof name === 'string') 
-	return track.matrixcolnames.indexOf(name);
+	    return track.matrixcolnames.indexOf(name);
     else
 	return name;
 }
