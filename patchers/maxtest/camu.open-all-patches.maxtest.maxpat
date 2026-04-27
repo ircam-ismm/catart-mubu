@@ -3,14 +3,27 @@
         "fileversion": 1,
         "appversion": {
             "major": 9,
-            "minor": 1,
+            "minor": 2,
             "revision": 0,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 526.0, 573.0, 1199.0, 794.0 ],
+        "rect": [ 1439.0, 594.0, 1199.0, 794.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-23",
+                    "linecount": 5,
+                    "maxclass": "message",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 257.39999839663506, 138.0, 579.2000032067299, 76.0 ],
+                    "presentation_linecount": 5,
+                    "text": "camu.cont.maxhelp camu.control.maxhelp camu.filenamenotenumber.maxhelp camu.help-template.maxhelp camu.imubu.control.maxhelp camu.key.select.maxhelp camu.key.soundset.maxhelp camu.key.value.maxhelp camu.menu.maxhelp camu.random.filter.maxhelp camu.random.maxhelp camu.record.maxhelp camu.select.maxhelp camu.target.maxhelp camu.triggermode.maxhelp camu.voice.maxhelp camu.analysis.maxhelp"
+                }
+            },
             {
                 "box": {
                     "id": "obj-35",
@@ -263,7 +276,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 76.59997599999997, 271.0, 43.0, 22.0 ],
+                    "patching_rect": [ 34.0, 295.0, 25.0, 22.0 ],
                     "text": "iter"
                 }
             },
@@ -377,7 +390,7 @@
                         "fileversion": 1,
                         "appversion": {
                             "major": 9,
-                            "minor": 1,
+                            "minor": 2,
                             "revision": 0,
                             "architecture": "x64",
                             "modernui": 1
@@ -648,13 +661,13 @@
             {
                 "box": {
                     "id": "obj-3",
-                    "linecount": 6,
+                    "linecount": 10,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 33.799987999999985, 138.0, 579.2000032067299, 89.0 ],
-                    "text": "catart-mubu-overview, catart-mubu-mfcc.maxpat, catart-mubu-controllers.maxpat, catart-mubu-poly.maxpat, catart-mubu-simple.maxpat, camu.cont.maxhelp camu.control.maxhelp camu.filenamenotenumber.maxhelp camu.help-template.maxhelp camu.imubu.control.maxhelp camu.key.select.maxhelp camu.key.soundset.maxhelp camu.key.value.maxhelp camu.menu.maxhelp camu.random.filter.maxhelp camu.random.maxhelp camu.record.maxhelp camu.select.maxhelp camu.target.maxhelp camu.triggermode.maxhelp camu.voice.maxhelp camu.analysis.maxhelp"
+                    "patching_rect": [ 34.0, 138.0, 202.0, 143.0 ],
+                    "text": "catart-mubu-overview, catart-mubu-simple, catart-mubu-mfcc, catart-mubu-controllers, catart-mubu-descr+mfcc-pca-umap, catart-mubu-distribute, catart-mubu-poly, catart-mubu-ecoacoustics-explorer, catart-mubu-poly-linnstrument, catart-mubu-spat-multitouch"
                 }
             },
             {
@@ -879,6 +892,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-38", 0 ],
+                    "source": [ "obj-23", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-32", 0 ],
                     "source": [ "obj-28", 0 ]
                 }
@@ -922,14 +941,22 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-23", 0 ],
+                    "order": 0,
+                    "source": [ "obj-4", 1 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-3", 0 ],
+                    "order": 1,
                     "source": [ "obj-4", 1 ]
                 }
             },
             {
                 "patchline": {
                     "destination": [ "obj-6", 0 ],
-                    "midpoints": [ 631.9666699965795, 237.400000333786, 406.89999997615814, 237.400000333786 ],
+                    "midpoints": [ 631.9666699965795, 251.982031583786, 406.89999997615814, 251.982031583786 ],
                     "source": [ "obj-4", 2 ]
                 }
             },
@@ -1180,6 +1207,14 @@
         ],
         "parameters": {
             "obj-20::obj-2": [ "js", "js", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
