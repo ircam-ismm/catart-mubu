@@ -25,7 +25,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 377.0, 631.0, 269.0, 66.0 ],
+                    "patching_rect": [ 377.0, 631.0, 273.0, 66.0 ],
                     "text": "choose edit tool to move markers or CMD-click to add markers  (segment duration will be adapted to stretch to next marker) "
                 }
             },
@@ -227,7 +227,7 @@
                                     "parameter_enable": 0,
                                     "patching_rect": [ 115.0, 456.0, 655.0, 142.0 ],
                                     "setminmax": [ -40.0, 0.0 ],
-                                    "size": 16
+                                    "size": 28
                                 }
                             },
                             {
@@ -277,13 +277,13 @@
                             {
                                 "box": {
                                     "id": "obj-46",
-                                    "linecount": 2,
+                                    "linecount": 3,
                                     "maxclass": "message",
                                     "numinlets": 2,
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 142.0, 411.0, 624.0, 35.0 ],
-                                    "text": "-11.006596 -12.285128 -13.9534 -15.384056 -16.09734 -16.595022 -17.192142 -17.854807 -18.872549 -20.733051 -23.704893 -27.27 -29.702204 -26.655952 -21.314703 -18.283447"
+                                    "text": "-4.525084 -5.93386 -8.025441 -10.345647 -12.350514 -13.741461 -15.016995 -16.815609 -19.27458 -21.848263 -24.015423 -25.640518 -26.871786 -28.215496 -29.573223 -30.3298 -30.664351 -31.278147 -32.169556 -32.820717 -33.130638 -33.362137 -33.417076 -33.315197 -33.295544 -33.4 -21.974251 -10.470691"
                                 }
                             },
                             {
@@ -342,7 +342,7 @@
                                     "numoutlets": 1,
                                     "outlettype": [ "" ],
                                     "patching_rect": [ 142.0, 164.0, 158.67767715454102, 22.0 ],
-                                    "text": "0. 98.684807"
+                                    "text": "2107.210884 168.344666"
                                 }
                             },
                             {
@@ -3462,13 +3462,13 @@
                     "bufferchooser_visible": 1,
                     "continousediting": 0,
                     "cursor_circleedgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
-                    "cursor_circlefillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
+                    "cursor_circlefillcolor": [ 1.0, 0.0, 0.0, 0.63 ],
                     "cursor_circlefilled": 1,
-                    "cursor_circleheight": 0.0,
-                    "cursor_circlewidth": 0.0,
+                    "cursor_circleheight": 0.07669447362422943,
+                    "cursor_circlewidth": 1014.26904296875,
                     "cursor_color": [ 0.776471, 0.066667, 0.066667, 0.286275 ],
                     "cursor_crossheight": -1.0,
-                    "cursor_crosssizeunit": 0,
+                    "cursor_crosssizeunit": 1,
                     "cursor_crosswidth": -1.0,
                     "cursor_followmouse": 0,
                     "cursor_label": "",
@@ -3482,20 +3482,20 @@
                     "cursor_noringoffset": 0,
                     "cursor_numextracursors": 0,
                     "cursor_outputdata": 0,
-                    "cursor_position": [ 49.620099931726074, -11.924771269754274 ],
+                    "cursor_position": [ 5020.673384371378, 0.10206054912363124 ],
                     "cursor_shape": "cross",
                     "cursor_size": 1.0,
                     "cursor_sizeunit": 0,
                     "cursor_symbol": "circle",
                     "cursor_symboledgecolor": [ 1.0, 0.0, 0.0, 1.0 ],
-                    "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 1.0 ],
+                    "cursor_symbolfillcolor": [ 1.0, 0.0, 0.0, 0.63 ],
                     "cursor_symbolfilled": 1,
-                    "cursor_symbolheight": 0.0,
-                    "cursor_symbolsizeunit": 0,
-                    "cursor_symbolwidth": 0.0,
-                    "cursor_visible": 0,
+                    "cursor_symbolheight": 0.07669447362422943,
+                    "cursor_symbolsizeunit": 1,
+                    "cursor_symbolwidth": 1014.26904296875,
+                    "cursor_visible": 1,
                     "dirtypatcher": 1,
-                    "domain_bounds": [ -1.257070890540601, 148.08387828924717 ],
+                    "domain_bounds": [ 3752.3608795298305, 7384.9064031051375 ],
                     "domainruler_bgcolor": [ 1.0, 1.0, 1.0, 1.0 ],
                     "domainruler_bgcolordefault": 0,
                     "domainruler_fgcolor": [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3513,7 +3513,7 @@
                     "enablemousewheel": 1,
                     "externalfiles": 1,
                     "filename": "",
-                    "foremost": 2,
+                    "foremost": 3,
                     "freeze": 0,
                     "id": "obj-216",
                     "layout": 0,
@@ -3550,6 +3550,7 @@
                     "region_visible": 1,
                     "resamplefiles": 1,
                     "ringmaster": -1,
+                    "scrollabledomain": 0,
                     "snaprate": 1000.0,
                     "splitbars_color": [ 1.0, 0.0, 0.0, 1.0 ],
                     "splitbars_size": 2,
