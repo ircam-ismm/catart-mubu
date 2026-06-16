@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 171.0, 151.0, 1267.0, 872.0 ],
+        "rect": [ 171.0, 151.0, 1135.0, 872.0 ],
         "boxes": [
             {
                 "box": {
@@ -28,8 +28,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 788.0, 595.0, 120.0, 22.0 ],
-                    "text": "cursor sizeunit pixels"
+                    "patching_rect": [ 788.0, 595.0, 307.0, 22.0 ],
+                    "text": "cursor sizeunit pixels, cursor symbolsizeunit datavalues"
                 }
             },
             {
@@ -51,7 +51,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 35.5, 474.0, 98.0, 22.0 ],
+                    "patching_rect": [ 35.5, 474.0, 99.0, 22.0 ],
                     "text": "r #0-descrid"
                 }
             },
@@ -63,7 +63,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 220.0, 506.0, 98.0, 22.0 ],
+                    "patching_rect": [ 220.0, 506.0, 99.0, 22.0 ],
                     "text": "r #0-descrid"
                 }
             },
@@ -75,7 +75,7 @@
                     "numinlets": 0,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 439.0, 164.0, 98.0, 22.0 ],
+                    "patching_rect": [ 439.0, 164.0, 99.0, 22.0 ],
                     "text": "r #0-descrid"
                 }
             },
@@ -86,7 +86,7 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 395.0, 44.0, 98.0, 22.0 ],
+                    "patching_rect": [ 395.0, 44.0, 101.0, 22.0 ],
                     "text": "s #0-descrid"
                 }
             },
@@ -3536,7 +3536,7 @@
                 "box": {
                     "comment": "to xy controller in 0..1 feedback",
                     "id": "obj-78",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -3895,11 +3895,11 @@
                 "box": {
                     "comment": "click mode flag and other messages",
                     "id": "obj-168",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 9.0, 1.0, 30.0, 30.0 ]
                 }
             },
@@ -3907,7 +3907,7 @@
                 "box": {
                     "comment": "connect rightmost outlet of knn or camu.select and mubu.concat~ here",
                     "id": "obj-169",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -3919,7 +3919,7 @@
                 "box": {
                     "comment": "from imubu",
                     "id": "obj-170",
-                    "index": 4,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -3932,7 +3932,7 @@
                 "box": {
                     "comment": "list of x/y descr. indices",
                     "id": "obj-171",
-                    "index": 3,
+                    "index": 0,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -3944,7 +3944,7 @@
                 "box": {
                     "comment": "to knn, marker/buffer must be routed to mubu.concat",
                     "id": "obj-173",
-                    "index": 1,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -3955,7 +3955,7 @@
                 "box": {
                     "comment": "to imubu editor",
                     "id": "obj-174",
-                    "index": 2,
+                    "index": 0,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -4475,6 +4475,7 @@
                     "source": [ "obj-92", 1 ]
                 }
             }
-        ]
+        ],
+        "autosave": 0
     }
 }
