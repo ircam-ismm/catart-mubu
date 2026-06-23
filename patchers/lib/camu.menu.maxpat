@@ -1138,7 +1138,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-21",
-                    "items": [ "Order0", ",", "Order1", ",", "Order2", ",", "Order3", ",", "Order4", ",", "Order5", ",", "Order6", ",", "Order7", ",", "Order8", ",", "Order9", ",", "Order10", ",", "Order11", ",", "Order12", ",", "Order13", ",", "Order14", ",", "Order15", ",", "Order16", ",", "Order17", ",", "Order18", ",", "Order19", ",", "Order20" ],
+                    "items": [ "Warmness", ",", "Sharpness", ",", "AvgDetail", ",", "LoFreqDetail", ",", "MidFreqDetail", ",", "HiFreqDetail", ",", "HorizFlow", ",", "VerticFlow", ",", "AvgFlow", ",", "HueAvg", ",", "HueVar", ",", "SaturationAvg", ",", "SaturationVar", ",", "LuminanceAvg", ",", "LuminanceVar", ",", "Color", ",", "Complexity", ",", "XAvg", ",", "XVar", ",", "YAvg", ",", "YVar" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2238,7 +2238,7 @@
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
-                    "outlettype": [ "bang" ],
+                    "outlettype": [ "" ],
                     "patching_rect": [ 25.0, 2.5, 25.0, 25.0 ],
                     "varname": "int/name"
                 }
@@ -2338,7 +2338,7 @@
                 "box": {
                     "allowdrag": 0,
                     "id": "obj-113",
-                    "items": [ "Order0", ",", "Order1", ",", "Order2", ",", "Order3", ",", "Order4", ",", "Order5", ",", "Order6", ",", "Order7", ",", "Order8", ",", "Order9", ",", "Order10", ",", "Order11", ",", "Order12", ",", "Order13", ",", "Order14", ",", "Order15", ",", "Order16", ",", "Order17", ",", "Order18", ",", "Order19", ",", "Order20" ],
+                    "items": [ "Warmness", ",", "Sharpness", ",", "AvgDetail", ",", "LoFreqDetail", ",", "MidFreqDetail", ",", "HiFreqDetail", ",", "HorizFlow", ",", "VerticFlow", ",", "AvgFlow", ",", "HueAvg", ",", "HueVar", ",", "SaturationAvg", ",", "SaturationVar", ",", "LuminanceAvg", ",", "LuminanceVar", ",", "Color", ",", "Complexity", ",", "XAvg", ",", "XVar", ",", "YAvg", ",", "YVar" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
@@ -2349,9 +2349,9 @@
                     "presentation_rect": [ 160.0, 0.0, 156.0, 22.0 ],
                     "saved_attribute_attributes": {
                         "valueof": {
-                            "parameter_enum": [ "Order0", "Order1", "Order2", "Order3", "Order4", "Order5", "Order6", "Order7", "Order8", "Order9", "Order10", "Order11", "Order12", "Order13", "Order14", "Order15", "Order16", "Order17", "Order18", "Order19", "Order20" ],
+                            "parameter_enum": [ "Warmness", "Sharpness", "AvgDetail", "LoFreqDetail", "MidFreqDetail", "HiFreqDetail", "HorizFlow", "VerticFlow", "AvgFlow", "HueAvg", "HueVar", "SaturationAvg", "SaturationVar", "LuminanceAvg", "LuminanceVar", "Color", "Complexity", "XAvg", "XVar", "YAvg", "YVar" ],
                             "parameter_linknames": 1,
-                            "parameter_longname": "DescrName[6]",
+                            "parameter_longname": "DescrName",
                             "parameter_mmax": 20,
                             "parameter_modmode": 0,
                             "parameter_shortname": "DescrName",
@@ -3122,9 +3122,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-24", 0 ],
-                    "source": [ "obj-85", 0 ],
-                    "watchpoint_flags": 5,
-                    "watchpoint_id": 5
+                    "source": [ "obj-85", 0 ]
                 }
             },
             {
