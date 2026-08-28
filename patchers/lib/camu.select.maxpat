@@ -9,9 +9,22 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 87.0, 1409.0, 812.0 ],
+        "rect": [ 1829.0, 91.0, 1409.0, 812.0 ],
         "openinpresentation": 1,
         "boxes": [
+            {
+                "box": {
+                    "fontname": "Arial",
+                    "fontsize": 12.0,
+                    "id": "obj-130",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 687.496216, 174.87552671093755, 62.08333599999992, 33.0 ],
+                    "text": "message to knn"
+                }
+            },
             {
                 "box": {
                     "id": "obj-129",
@@ -501,7 +514,7 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 827.0795439999999, 236.6643552184105, 103.99999999999989, 22.0 ],
+                    "patching_rect": [ 827.0795439999999, 153.00000021093751, 103.99999999999989, 22.0 ],
                     "text": "camu.target"
                 }
             },
@@ -1972,7 +1985,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 734.5795439999999, 181.83634720346458, 62.08333599999992, 47.0 ],
+                    "patching_rect": [ 744.0, 174.87552671093755, 62.08333599999992, 47.0 ],
                     "text": "else: message to knn"
                 }
             },
@@ -3250,11 +3263,11 @@
                 "box": {
                     "id": "obj-3",
                     "maxclass": "newobj",
-                    "numinlets": 3,
-                    "numoutlets": 3,
-                    "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 564.0795519999999, 153.00000021093751, 177.99999200000002, 22.0 ],
-                    "text": "route markerindex bufferindex"
+                    "numinlets": 4,
+                    "numoutlets": 4,
+                    "outlettype": [ "", "", "", "" ],
+                    "patching_rect": [ 564.0795519999999, 153.00000021093751, 190.0, 22.0 ],
+                    "text": "route markerindex bufferindex knn"
                 }
             },
             {
@@ -3909,7 +3922,7 @@
                         "valueof": {
                             "parameter_enum": [ "bow", "fence", "beat", "beatmove", "loop", "loopmove", "cont" ],
                             "parameter_linknames": 1,
-                            "parameter_longname": "umenu[6]",
+                            "parameter_longname": "umenu",
                             "parameter_mmax": 6,
                             "parameter_modmode": 0,
                             "parameter_shortname": "Trigger",
@@ -4518,7 +4531,15 @@
                 "patchline": {
                     "color": [ 0.261930227279663, 0.579383373260498, 0.970831155776978, 1.0 ],
                     "destination": [ "obj-105", 0 ],
-                    "midpoints": [ 732.5795439999999, 264.27370846093754, 836.5795439999999, 264.27370846093754 ],
+                    "midpoints": [ 744.5795519999999, 225.50000010546876, 836.5795439999999, 225.50000010546876 ],
+                    "source": [ "obj-3", 3 ]
+                }
+            },
+            {
+                "patchline": {
+                    "color": [ 0.261930227279663, 0.579383373260498, 0.970831155776978, 1.0 ],
+                    "destination": [ "obj-105", 0 ],
+                    "midpoints": [ 687.5795519999999, 225.55105221093754, 836.5795439999999, 225.55105221093754 ],
                     "source": [ "obj-3", 2 ]
                 }
             },
