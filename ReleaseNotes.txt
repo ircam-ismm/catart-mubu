@@ -9,7 +9,7 @@ upcoming:
 ____________________________________________________
 CataRT-Mubu v1.8.1		21.06.2026
 
-- modernize tutorial 12 'transcription', independent of other open patches
+- modernize tutorial 12 'transcription', make independent of other open patches
 
 ____________________________________________________
 CataRT-Mubu v1.8.0		04.05.2026
